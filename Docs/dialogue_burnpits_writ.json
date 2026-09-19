@@ -1,0 +1,35 @@
+{
+  "id": "burnpits_writ",
+  "startNode": "bw1",
+  "nodes": [
+    {
+      "id": "bw1",
+      "speaker": "hask",
+      "text": {
+        "en": "The pans stand clear — the count settles, and the League marks it. But a cleared pan still needs fire, and the fire is going short.",
+        "id": "Petak-petak bersih — hitungan menetap, dan Liga mencatatnya. Tapi petak bersih tetap butuh api, dan apinya mulai kurang."
+      },
+      "next": "bw2"
+    },
+    {
+      "id": "bw2",
+      "speaker": "hask",
+      "text": {
+        "en": "The charcoal comes from the Burnpits, a burners' camp at the valley's east edge. Wren the kiln-keeper writes that poachers strip her clamps and walk off with cordwood the pans already burned for.",
+        "id": "Arangnya datang dari Lubang Bakar, kamp pembakar di tepi timur lembah. Wren si penjaga tungku menulis bahwa pemencol membuka klampnya dan membawa kayu yang petak sudah bayar."
+      },
+      "next": "bw3"
+    },
+    {
+      "id": "bw3",
+      "speaker": "hask",
+      "text": {
+        "en": "Take the burners' road — it forks east off our lane, marked with a post. If the pits go dark the pans go dark, and then this whole valley is digging through ash for its salt.",
+        "id": "Tempuh jalan pembakar — bercabang ke timur dari lajur kami, ditandai sebuah tiang. Kalau lubang bakar padam, petak padam, dan seluruh lembah ini mengorek abu demi garamnya."
+      },
+      "setFlags": [
+        "act2.burnpits_rumoured"
+      ]
+    }
+  ]
+}

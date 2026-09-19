@@ -1005,6 +1005,36 @@
       "icon": "LootIcons_29",
       "slot": 0,
       "stackSize": 1
+    },
+    {
+      "id": "quest_cord_tally",
+      "kind": 5,
+      "rarity": 1,
+      "value": 0,
+      "setsFlag": "quest.cord_tally",
+      "icon": "LootIcons_30",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_keeper_rod",
+      "kind": 5,
+      "rarity": 1,
+      "value": 0,
+      "setsFlag": "quest.keeper_rod",
+      "icon": "LootIcons_31",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_char_coal",
+      "kind": 5,
+      "rarity": 0,
+      "value": 0,
+      "setsFlag": "quest.char_coal",
+      "icon": "LootIcons_24",
+      "slot": 0,
+      "stackSize": 1
     }
   ]
 }

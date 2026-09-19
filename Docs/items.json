@@ -1661,6 +1661,54 @@
         "id": "Garam yang tak pernah dihitung timbangan, dipungut segenggam demi segenggam dari kerak. Aturan Liga bilang ini bukan milik siapa-siapa; aturan para pemungut bilang ini milik yang lapar."
       },
       "icon": "LootIcons_29"
+    },
+    {
+      "id": "quest_cord_tally",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.cord_tally",
+      "name": {
+        "en": "Dropped Cord-Tally",
+        "id": "Tongkat Hitung Kayu yang Terjatuh"
+      },
+      "desc": {
+        "en": "A split stick notched by the foreman's knife — one cord of burnwood, owed and counted. Until it is back on the tally post the stackyard reads short.",
+        "id": "Tongkat belah berparut pisau mandor — satu tumpuk kayu bakar, terutang dan terhitung. Selama belum kembali ke tiang hitung, halaman kayu terbaca kurang."
+      },
+      "icon": "LootIcons_30"
+    },
+    {
+      "id": "quest_keeper_rod",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.keeper_rod",
+      "name": {
+        "en": "The Keeper's Measuring Rod",
+        "id": "Tongkat Ukur Penjaga Tungku"
+      },
+      "desc": {
+        "en": "A scorched ash-rod, ringed where a clamp should stand and notched where the earth should lie over it. Without it a kiln-keeper burns by guess.",
+        "id": "Tongkat kayu hangus, dilingkari setinggi klamp seharusnya dan diparut sedalam tanah harus menutupinya. Tanpanya penjaga tungku membakar dengan tebakan."
+      },
+      "icon": "LootIcons_31"
+    },
+    {
+      "id": "quest_char_coal",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.char_coal",
+      "name": {
+        "en": "Heaped Clean Coal",
+        "id": "Timbunan Arang Bersih"
+      },
+      "desc": {
+        "en": "Coal that rang like a pot when it broke — the good kind, worth the picking before rain turns it back to mud.",
+        "id": "Arang yang berbunyi seperti periuk saat pecah — jenis yang bagus, layak dipungut sebelum hujan mengubahnya kembali jadi lumpur."
+      },
+      "icon": "LootIcons_24"
     }
   ]
 }

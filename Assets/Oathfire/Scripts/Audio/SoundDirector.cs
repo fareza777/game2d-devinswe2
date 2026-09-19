@@ -27,6 +27,8 @@ namespace Oathfire.Audio
             { "TradeRoad", ("road_travel", "road") },
             { "Greymarch", ("city_greymarch", "city") },
             { "Hollow", ("hollow_camp", "ravine") },
+            { "Saltpans", ("saltpans_works", "salt_works") },
+            { "Burnpits", ("burnpits_smoke", "char_camp") },
         };
 
         readonly HashSet<EnemyHealth2D> heardEnemies = new HashSet<EnemyHealth2D>();

@@ -1,0 +1,56 @@
+{
+  "id": "burnpits_ferra",
+  "startNode": "f1",
+  "nodes": [
+    {
+      "id": "f1",
+      "speaker": "ferra",
+      "text": {
+        "en": "You're the one who walked the pans clear. Then look here: our kiln-keeper burns by a rod, and the rod is gone — a poacher took it for a walking stick, of all the uses in the world.",
+        "id": "Kau yang membersihkan petak itu. Lihat sini: penjaga tungku kami membakar dengan tongkat ukur, dan tongkatnya hilang — dibawa pemencol jadi tongkat jalan, dari semua kegunaan di dunia."
+      },
+      "next": "f2"
+    },
+    {
+      "id": "f2",
+      "speaker": "ferra",
+      "text": {
+        "en": "I watched them lean on it down by the burn ground, arguing over whose turn to carry coal. Take it back — and if they object, remind them whose fire they're stealing.",
+        "id": "Kulihat mereka menyandarkannya di tanah pembakaran, bertengkar soal giliran mengangkut arang. Ambil kembali — dan kalau mereka keberatan, ingatkan api siapa yang mereka curi."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The rod comes back today.",
+            "id": "Tongkatnya kembali hari ini."
+          },
+          "next": "f3"
+        },
+        {
+          "text": {
+            "en": "What's a burned stick worth to anyone?",
+            "id": "Apa arti sebatang tongkat hangus?"
+          },
+          "next": "f3b"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "speaker": "ferra",
+      "text": {
+        "en": "I'll watch the ricks till you're back. Try the burn ground — they keep to where the coal is.",
+        "id": "Kujaga tumpukan ini sampai kau kembali. Coba tanah pembakaran — mereka berkumpul di mana arangnya."
+      }
+    },
+    {
+      "id": "f3b",
+      "speaker": "ferra",
+      "text": {
+        "en": "To a kiln-keeper? Every burn for a season. To anyone else, nothing — which is why they took it.",
+        "id": "Bagi penjaga tungku? Semua bakaran satu musim. Bagi orang lain, tidak ada — itulah kenapa mereka mengambilnya."
+      },
+      "next": "f3"
+    }
+  ]
+}

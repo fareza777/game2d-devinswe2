@@ -1938,6 +1938,174 @@
         "faction": "league",
         "reputation": 6
       }
+    },
+    {
+      "id": "sq_char_pits",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.wren",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "Smoke Needs Quieter Ground",
+        "id": "Asap Butuh Tanah yang Lebih Tenang"
+      },
+      "summary": {
+        "en": "Wood-poachers come out of the treeline at dusk to strip the clamps before they finish. Kiln-keeper Wren burns a week of work in one night if they are left to it: drive them off the burn ground.",
+        "id": "Pemencol kayu keluar dari tepi hutan saat senja untuk membuka klamp sebelum matang. Penjaga tungku Wren membakar kerja seminggu dalam satu malam kalau mereka dibiarkan: usir mereka dari tanah pembakaran."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Drive the wood-poachers off the burn ground",
+            "id": "Usir para pemencol kayu dari tanah pembakaran"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.char",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.pits.done"
+        }
+      ],
+      "reward": {
+        "experience": 280,
+        "coin": 50,
+        "items": [
+          "axe_woodcutter"
+        ],
+        "faction": "league",
+        "reputation": 9
+      }
+    },
+    {
+      "id": "sq_cord_tallies",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.pyke",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "Three Cords Uncounted",
+        "id": "Tiga Tumpuk Tak Terhitung"
+      },
+      "summary": {
+        "en": "Tally-foreman Pyke counts every cord that leaves on the wagon — and three cord-tallies walked off with the poachers. Until they are found, the League will count the whole stackyard short.",
+        "id": "Mandor hitung Pyke menghitung tiap tumpuk yang naik ke gerobak — dan tiga tongkat hitung ikut hilang bersama para pemencol. Selama belum ketemu, Liga akan menganggap seluruh halaman kayu kurang."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the three dropped cord-tallies in the stackyard",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di halaman kayu"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_cord_tally",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.cord.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 35,
+        "items": [
+          "tool_lantern"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_keeper_rod",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.ferra",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "The Rod That Measures the Burn",
+        "id": "Tongkat yang Mengukur Bakaran"
+      },
+      "summary": {
+        "en": "A burn is judged by the rod: how deep the earth, how tall the clamp. Poachers took Wren's measuring rod as a walking stick, and rack-warden Ferra watched them lean on it by the burn ground. Take it back.",
+        "id": "Bakaran dinilai dengan tongkat ukur: sedalam apa tanahnya, setinggi apa klampnya. Para pemencol membawa tongkat ukur Wren sebagai tongkat jalan, dan Ferra si penjaga rak melihat mereka menyandarkannya di tanah pembakaran. Ambil kembali."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Recover the measuring rod at the burn ground",
+            "id": "Ambil kembali tongkat ukur di tanah pembakaran"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_keeper_rod",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.rod.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "boots_leather"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_char_coal",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.penn",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "Good Coal in the Dirt",
+        "id": "Arang Bagus di dalam Debu"
+      },
+      "summary": {
+        "en": "When the poachers bolted they dropped their sacks — good coal trampled into the burn ground. Soot-boy Penn knows every place a sack burst. Gather four heaps of clean coal before the next rain takes them.",
+        "id": "Saat para pemencol kabur mereka menjatuhkan karungnya — arang bagus terinjak ke tanah pembakaran. Penn si bocah jelaga tahu tiap tempat karung itu pecah. Pungut empat timbunan arang bersih sebelum hujan berikutnya membawanya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather four heaps of dropped coal around the burn ground",
+            "id": "Pungut empat timbunan arang terjatuh di sekitar tanah pembakaran"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_char_coal",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.coal.done"
+        }
+      ],
+      "reward": {
+        "experience": 190,
+        "coin": 28,
+        "items": [
+          "legs_leather"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
     }
   ]
 }

@@ -139,6 +139,66 @@
       "from": "Saltpans",
       "to": "Keep",
       "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Burnpits",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Hollow",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Burnpits",
+      "via": "Burnpits"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Saltpans",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "TradeRoad",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Rennfall",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Greymarch",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Hollow",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Keep",
+      "via": "Saltpans"
     }
   ],
   "guides": [
@@ -461,6 +521,30 @@
       "target": "spot",
       "id": "salt_spill_1",
       "scene": "Saltpans"
+    },
+    {
+      "key": "kills.char",
+      "target": "spot",
+      "id": "char_fight",
+      "scene": "Burnpits"
+    },
+    {
+      "key": "quest_cord_tally",
+      "target": "spot",
+      "id": "char_tally_1",
+      "scene": "Burnpits"
+    },
+    {
+      "key": "quest_keeper_rod",
+      "target": "spot",
+      "id": "char_rod",
+      "scene": "Burnpits"
+    },
+    {
+      "key": "quest_char_coal",
+      "target": "spot",
+      "id": "char_coal_1",
+      "scene": "Burnpits"
     }
   ]
 }

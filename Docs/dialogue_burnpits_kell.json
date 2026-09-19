@@ -1,0 +1,23 @@
+{
+  "id": "burnpits_kell",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "kell",
+      "text": {
+        "en": "Don't mind me — I'm the last cart of the day. Coal for the pans, wood for the pits, and my back for the whole circuit.",
+        "id": "Jangan hiraukan aku — aku gerobak terakhir hari ini. Arang untuk petak, kayu untuk lubang bakar, dan punggungku untuk seluruh putaran."
+      },
+      "next": "k2"
+    },
+    {
+      "id": "k2",
+      "speaker": "kell",
+      "text": {
+        "en": "Funny thing about this valley: the salt keeps the meat, the coal keeps the salt, and the trees keep the coal. Pull one out and the rest fall down. Nobody at the League thinks past the scales.",
+        "id": "Lucunya lembah ini: garam menjaga daging, arang menjaga garam, dan pohon menjaga arang. Tarik satu dan sisanya jatuh. Tak ada di Liga yang berpikir melewati timbangan."
+      }
+    }
+  ]
+}

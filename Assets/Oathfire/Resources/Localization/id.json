@@ -313,6 +313,142 @@
       "value": "Katakan itu pada kakaknya. Katakan dia tak pernah belajar menulis, kalau tidak dia pasti sudah mengabari bertahun-tahun lalu."
     },
     {
+      "key": "dlg.burnpits_clod.c1",
+      "value": "Duduk kalau mau duduk, jalan kalau mau jalan. Api ini tak keberatan dua-duanya."
+    },
+    {
+      "key": "dlg.burnpits_clod.c2",
+      "value": "Empat puluh tahun aku membakar untuk lembah ini. Rahasianya bukan api — bodoh mana pun bisa menyalakan api. Rahasianya tanah di atasnya, cukup tebal untuk menutup, cukup tipis untuk bernapas. Itu seluruh seninya."
+    },
+    {
+      "key": "dlg.burnpits_clod.c3",
+      "value": "Para pemencol? Mereka akan belajar. Semua yang membakar salah akan belajar, sekali. Lalu tak membakar sama sekali."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f1",
+      "value": "Kau yang membersihkan petak itu. Lihat sini: penjaga tungku kami membakar dengan tongkat ukur, dan tongkatnya hilang — dibawa pemencol jadi tongkat jalan, dari semua kegunaan di dunia."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f2",
+      "value": "Kulihat mereka menyandarkannya di tanah pembakaran, bertengkar soal giliran mengangkut arang. Ambil kembali — dan kalau mereka keberatan, ingatkan api siapa yang mereka curi."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f2.c1",
+      "value": "Tongkatnya kembali hari ini."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f2.c2",
+      "value": "Apa arti sebatang tongkat hangus?"
+    },
+    {
+      "key": "dlg.burnpits_ferra.f3",
+      "value": "Kujaga tumpukan ini sampai kau kembali. Coba tanah pembakaran — mereka berkumpul di mana arangnya."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f3b",
+      "value": "Bagi penjaga tungku? Semua bakaran satu musim. Bagi orang lain, tidak ada — itulah kenapa mereka mengambilnya."
+    },
+    {
+      "key": "dlg.burnpits_kell.k1",
+      "value": "Jangan hiraukan aku — aku gerobak terakhir hari ini. Arang untuk petak, kayu untuk lubang bakar, dan punggungku untuk seluruh putaran."
+    },
+    {
+      "key": "dlg.burnpits_kell.k2",
+      "value": "Lucunya lembah ini: garam menjaga daging, arang menjaga garam, dan pohon menjaga arang. Tarik satu dan sisanya jatuh. Tak ada di Liga yang berpikir melewati timbangan."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn1",
+      "value": "Kau warden itu! Kulihat kau di jalan seret. Aku kenal seluruh kamp ini — lebih dari Wren, lebih dari siapa pun."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn2",
+      "value": "Saat para pemencol kabur mereka menjatuhkan karung di mana-mana — arang bagus, pecah dan tumpah di seluruh tanah pembakaran. Aku menandai tiap tempatnya. Hujan akan melarutkan semua kalau tak ada yang memungut."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn2.c1",
+      "value": "Tunjukkan di mana karungnya pecah, bocah jelaga."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn2.c2",
+      "value": "Kenapa tak kau pungut sendiri?"
+    },
+    {
+      "key": "dlg.burnpits_penn.pn3",
+      "value": "Empat timbunan, semua di dalam bekas hangus. Kubilang pada Clod kau yang melakukannya — dia pasti mau jadi yang punya ide."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn4",
+      "value": "Sudah! Tapi tanah pembakaran wilayah Wren dan aku tak boleh lewat garis hitung saat klamp menyala. Itu aturannya. Kau boleh — kau yang membersihkan petak."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p1",
+      "value": "Jangan injak garis hitung. Tiap tumpuk di gerobak itu satu parut — dan sekarang tiga parut sedang berjalan-jalan di saku pemencol."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p2",
+      "value": "Saat pemencol kabur dari serbuan terakhir, mereka menjatuhkan bawaannya — termasuk tongkat hitungku. Temukan tiga tongkat itu di halaman kayu sebelum Liga mencatat kamp ini kurang."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p3",
+      "value": "Bawa kembali dan kuparutkan lentera dari jatah mandor — jenis yang apinya tak padam ditiup angin."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p3.c1",
+      "value": "Tiga tongkat di halaman kayu. Akan kutemukan."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p3.c2",
+      "value": "Kau menghitung kayu untuk hidup?"
+    },
+    {
+      "key": "dlg.burnpits_pyke.p4",
+      "value": "Bagus. Dan jangan injak tumpukannya — kayu disusun supaya bisa bernapas."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p5",
+      "value": "Harus ada yang bilang berapa banyak api yang dibakar lembah ini. Itu aku. Itulah hitungan."
+    },
+    {
+      "key": "dlg.burnpits_wren.w1",
+      "value": "Berdiri melawan angin atau berdiri diam — bakarannya tak peduli. Ini Lubang Bakar: kamp arang Liga, tempat api petak dibuat seminggu demi seminggu."
+    },
+    {
+      "key": "dlg.burnpits_wren.w2",
+      "value": "Enam klamp sedang membakar dan aku kurang tidur empat malam. Pemencol keluar dari pepohonan saat senja untuk membobolnya — arang mentah, bakaran rusak, namaku di catatan rugi."
+    },
+    {
+      "key": "dlg.burnpits_wren.w3",
+      "value": "Mereka juga mengangkut kayu saat tumpukannya gelap. Aku tak bisa melawan mereka sambil menjaga bakaran. Kau membersihkan petak — bersihkan tanahku. Empat saja cukup mengajar sisanya."
+    },
+    {
+      "key": "dlg.burnpits_wren.w3.c1",
+      "value": "Para pemencol takkan membuka klamp lagi."
+    },
+    {
+      "key": "dlg.burnpits_wren.w3.c2",
+      "value": "Dan berapa upah tanah bakar yang bersih?"
+    },
+    {
+      "key": "dlg.burnpits_wren.w4a",
+      "value": "Kalau begitu bakarlah tenang. Kembali saat asap jadi satu-satunya yang bergerak di sana."
+    },
+    {
+      "key": "dlg.burnpits_wren.w4b",
+      "value": "Kapak penebang dan terima kasih Liga. Kami juga menimbang di sini — hanya saja dalam bahan bakar, bukan kerak."
+    },
+    {
+      "key": "dlg.burnpits_writ.bw1",
+      "value": "Petak-petak bersih — hitungan menetap, dan Liga mencatatnya. Tapi petak bersih tetap butuh api, dan apinya mulai kurang."
+    },
+    {
+      "key": "dlg.burnpits_writ.bw2",
+      "value": "Arangnya datang dari Lubang Bakar, kamp pembakar di tepi timur lembah. Wren si penjaga tungku menulis bahwa pemencol membuka klampnya dan membawa kayu yang petak sudah bayar."
+    },
+    {
+      "key": "dlg.burnpits_writ.bw3",
+      "value": "Tempuh jalan pembakar — bercabang ke timur dari lajur kami, ditandai sebuah tiang. Kalau lubang bakar padam, petak padam, dan seluruh lembah ini mengorek abu demi garamnya."
+    },
+    {
       "key": "dlg.city_asta.n1",
       "value": "Anakku dulu menarik pedati garam ke Rennfall, sebelum lembah itu gelap. Empat puluh tahun aku menunggu pedati di jalan itu."
     },
@@ -1377,6 +1513,14 @@
       "value": "Seorang juru tulis berabu Barisan menurunkan kotak lak berisi catatan di tepi desa."
     },
     {
+      "key": "event.char.pits",
+      "value": "Pemencol kayu membuka klamp-klamp."
+    },
+    {
+      "key": "event.char.rod",
+      "value": "'Peminjam' tongkat ukur berkeberatan."
+    },
+    {
       "key": "event.goSpeak",
       "value": "Temui dan ajak bicara"
     },
@@ -2121,6 +2265,22 @@
       "value": "Buku Catatan Regu Pembakar"
     },
     {
+      "key": "item.quest_char_coal.desc",
+      "value": "Arang yang berbunyi seperti periuk saat pecah — jenis yang bagus, layak dipungut sebelum hujan mengubahnya kembali jadi lumpur."
+    },
+    {
+      "key": "item.quest_char_coal.name",
+      "value": "Timbunan Arang Bersih"
+    },
+    {
+      "key": "item.quest_cord_tally.desc",
+      "value": "Tongkat belah berparut pisau mandor — satu tumpuk kayu bakar, terutang dan terhitung. Selama belum kembali ke tiang hitung, halaman kayu terbaca kurang."
+    },
+    {
+      "key": "item.quest_cord_tally.name",
+      "value": "Tongkat Hitung Kayu yang Terjatuh"
+    },
+    {
       "key": "item.quest_crane_journal.desc",
       "value": "Empat puluh tahun penguburan, tercatat per nama. Entri terakhirnya bukan nama, melainkan permintaan maaf."
     },
@@ -2143,6 +2303,14 @@
     {
       "key": "item.quest_keep_manifest.name",
       "value": "Manifest Benteng"
+    },
+    {
+      "key": "item.quest_keeper_rod.desc",
+      "value": "Tongkat kayu hangus, dilingkari setinggi klamp seharusnya dan diparut sedalam tanah harus menutupinya. Tanpanya penjaga tungku membakar dengan tebakan."
+    },
+    {
+      "key": "item.quest_keeper_rod.name",
+      "value": "Tongkat Ukur Penjaga Tungku"
     },
     {
       "key": "item.quest_marshal_writ.desc",
@@ -2653,6 +2821,10 @@
       "value": "Suara Tokoh"
     },
     {
+      "key": "place.Burnpits",
+      "value": "Lubang Bakar"
+    },
+    {
       "key": "place.Greymarch",
       "value": "Greymarch"
     },
@@ -2755,6 +2927,14 @@
     {
       "key": "prompt.travel",
       "value": "Tempuh jalan"
+    },
+    {
+      "key": "prompt.travel.burnpits",
+      "value": "Tempuh jalan pembakar ke lubang bakar"
+    },
+    {
+      "key": "prompt.travel.burnpitsOut",
+      "value": "Kembali menyusuri jalan pembakar ke petak"
     },
     {
       "key": "prompt.travel.greymarch",
@@ -2997,6 +3177,42 @@
       "value": "Menghitung Pembelot"
     },
     {
+      "key": "quest.sq_char_coal.s1",
+      "value": "Pungut empat timbunan arang terjatuh di sekitar tanah pembakaran"
+    },
+    {
+      "key": "quest.sq_char_coal.summary",
+      "value": "Saat para pemencol kabur mereka menjatuhkan karungnya — arang bagus terinjak ke tanah pembakaran. Penn si bocah jelaga tahu tiap tempat karung itu pecah. Pungut empat timbunan arang bersih sebelum hujan berikutnya membawanya."
+    },
+    {
+      "key": "quest.sq_char_coal.title",
+      "value": "Arang Bagus di dalam Debu"
+    },
+    {
+      "key": "quest.sq_char_pits.s1",
+      "value": "Usir para pemencol kayu dari tanah pembakaran"
+    },
+    {
+      "key": "quest.sq_char_pits.summary",
+      "value": "Pemencol kayu keluar dari tepi hutan saat senja untuk membuka klamp sebelum matang. Penjaga tungku Wren membakar kerja seminggu dalam satu malam kalau mereka dibiarkan: usir mereka dari tanah pembakaran."
+    },
+    {
+      "key": "quest.sq_char_pits.title",
+      "value": "Asap Butuh Tanah yang Lebih Tenang"
+    },
+    {
+      "key": "quest.sq_cord_tallies.s1",
+      "value": "Temukan tiga tongkat hitung yang terjatuh di halaman kayu"
+    },
+    {
+      "key": "quest.sq_cord_tallies.summary",
+      "value": "Mandor hitung Pyke menghitung tiap tumpuk yang naik ke gerobak — dan tiga tongkat hitung ikut hilang bersama para pemencol. Selama belum ketemu, Liga akan menganggap seluruh halaman kayu kurang."
+    },
+    {
+      "key": "quest.sq_cord_tallies.title",
+      "value": "Tiga Tumpuk Tak Terhitung"
+    },
+    {
       "key": "quest.sq_criers_news.s1",
       "value": "Tumbangkan enam perampok jalan"
     },
@@ -3063,6 +3279,18 @@
     {
       "key": "quest.sq_iron_tithe.title",
       "value": "Besi yang Sudah Dibayar"
+    },
+    {
+      "key": "quest.sq_keeper_rod.s1",
+      "value": "Ambil kembali tongkat ukur di tanah pembakaran"
+    },
+    {
+      "key": "quest.sq_keeper_rod.summary",
+      "value": "Bakaran dinilai dengan tongkat ukur: sedalam apa tanahnya, setinggi apa klampnya. Para pemencol membawa tongkat ukur Wren sebagai tongkat jalan, dan Ferra si penjaga rak melihat mereka menyandarkannya di tanah pembakaran. Ambil kembali."
+    },
+    {
+      "key": "quest.sq_keeper_rod.title",
+      "value": "Tongkat yang Mengukur Bakaran"
     },
     {
       "key": "quest.sq_miras_wagon.s1",
@@ -3509,6 +3737,10 @@
       "value": "Brann Hollowell"
     },
     {
+      "key": "speaker.clod",
+      "value": "Clod si Tua"
+    },
+    {
       "key": "speaker.collum",
       "value": "Reeve Collum"
     },
@@ -3527,6 +3759,10 @@
     {
       "key": "speaker.durn",
       "value": "Castellan Durn"
+    },
+    {
+      "key": "speaker.ferra",
+      "value": "Ferra Penjaga Rak"
     },
     {
       "key": "speaker.galen",
@@ -3557,6 +3793,10 @@
       "value": "Kael Voss"
     },
     {
+      "key": "speaker.kell",
+      "value": "Kell si Kusir"
+    },
+    {
       "key": "speaker.lene",
       "value": "Lene Penjaga Gerbang"
     },
@@ -3579,6 +3819,14 @@
     {
       "key": "speaker.pell",
       "value": "Pell si Juru Teriak"
+    },
+    {
+      "key": "speaker.penn",
+      "value": "Penn si Bocah Jelaga"
+    },
+    {
+      "key": "speaker.pyke",
+      "value": "Pyke Mandor Hitung"
     },
     {
       "key": "speaker.reckoner",
@@ -3629,6 +3877,10 @@
       "value": "Winna Tua"
     },
     {
+      "key": "speaker.wren",
+      "value": "Wren Penjaga Tungku"
+    },
+    {
       "key": "stat.armour",
       "value": "Zirah"
     },
@@ -3663,6 +3915,10 @@
     {
       "key": "toast.built",
       "value": "Cahaya perapian menjangkau lebih jauh"
+    },
+    {
+      "key": "toast.charPits",
+      "value": "Tanah pembakaran sudah bersih"
     },
     {
       "key": "toast.contractPaid",

@@ -313,6 +313,142 @@
       "value": "Tell his sister that. Tell her he never learned to write, or she would have heard from him years ago."
     },
     {
+      "key": "dlg.burnpits_clod.c1",
+      "value": "Sit down if you're sitting, or walk on if you're walking. The fire doesn't mind either."
+    },
+    {
+      "key": "dlg.burnpits_clod.c2",
+      "value": "Forty years I've burned for this valley. The trick isn't the fire — any fool lights a fire. The trick is the earth over it, thick enough to smother, thin enough to breathe. That's the whole art."
+    },
+    {
+      "key": "dlg.burnpits_clod.c3",
+      "value": "The poachers? They'll learn. Everything that burns wrong learns, once. Then it doesn't burn at all."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f1",
+      "value": "You're the one who walked the pans clear. Then look here: our kiln-keeper burns by a rod, and the rod is gone — a poacher took it for a walking stick, of all the uses in the world."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f2",
+      "value": "I watched them lean on it down by the burn ground, arguing over whose turn to carry coal. Take it back — and if they object, remind them whose fire they're stealing."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f2.c1",
+      "value": "The rod comes back today."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f2.c2",
+      "value": "What's a burned stick worth to anyone?"
+    },
+    {
+      "key": "dlg.burnpits_ferra.f3",
+      "value": "I'll watch the ricks till you're back. Try the burn ground — they keep to where the coal is."
+    },
+    {
+      "key": "dlg.burnpits_ferra.f3b",
+      "value": "To a kiln-keeper? Every burn for a season. To anyone else, nothing — which is why they took it."
+    },
+    {
+      "key": "dlg.burnpits_kell.k1",
+      "value": "Don't mind me — I'm the last cart of the day. Coal for the pans, wood for the pits, and my back for the whole circuit."
+    },
+    {
+      "key": "dlg.burnpits_kell.k2",
+      "value": "Funny thing about this valley: the salt keeps the meat, the coal keeps the salt, and the trees keep the coal. Pull one out and the rest fall down. Nobody at the League thinks past the scales."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn1",
+      "value": "You're the warden! I saw you on the dragway. I know this whole camp — better than Wren, better than anybody."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn2",
+      "value": "When the poachers ran they dropped their sacks everywhere — good coal, burst and spilled all over the burn ground. I marked every spot. Rain'll mud it all away if nobody picks it up."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn2.c1",
+      "value": "Show me where the sacks burst, soot-boy."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn2.c2",
+      "value": "Why not pick it up yourself?"
+    },
+    {
+      "key": "dlg.burnpits_penn.pn3",
+      "value": "Four heaps, all inside the scorch marks. I'll tell Clod you're doing it — he'll want the credit for thinking of it."
+    },
+    {
+      "key": "dlg.burnpits_penn.pn4",
+      "value": "I do! But the burn ground's Wren's and I'm not allowed past the tally line when the clamps are lit. That's the rule. You're allowed, though — you cleared the pans."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p1",
+      "value": "Mind the tally line. Every cord on that wagon is a notch — and right now three notches are walking around in a poacher's pocket."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p2",
+      "value": "When the poachers bolted from the last raid they dropped what they were carrying — including my cord-tallies. Find the three sticks in the stackyard before the League counts this camp short."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p3",
+      "value": "Bring them back and I'll notch you a lantern off the foreman's share — the kind that keeps its flame in wind."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p3.c1",
+      "value": "Three sticks in the stackyard. I'll find them."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p3.c2",
+      "value": "You count wood for a living?"
+    },
+    {
+      "key": "dlg.burnpits_pyke.p4",
+      "value": "Good. And don't step on the ricks — they're stacked to breathe."
+    },
+    {
+      "key": "dlg.burnpits_pyke.p5",
+      "value": "Somebody has to say how much fire a valley burns. That's me. That's the tally."
+    },
+    {
+      "key": "dlg.burnpits_wren.w1",
+      "value": "Stand upwind or stand still — the burn doesn't care which. This is the Burnpits: the League's charcoal camp, where the pans' fire is made a week at a time."
+    },
+    {
+      "key": "dlg.burnpits_wren.w2",
+      "value": "Six clamps are burning and I'm short four nights of sleep. Poachers come out of the trees at dusk to crack them open — green coal, spoiled burn, my name on the shortfall."
+    },
+    {
+      "key": "dlg.burnpits_wren.w3",
+      "value": "They take cordwood too when the stacks stand dark. I can't fight them and keep the burn. You cleared the pans — clear my ground. Four of them should teach the rest."
+    },
+    {
+      "key": "dlg.burnpits_wren.w3.c1",
+      "value": "The poachers won't strip another clamp."
+    },
+    {
+      "key": "dlg.burnpits_wren.w3.c2",
+      "value": "And what does a cleared burn ground pay?"
+    },
+    {
+      "key": "dlg.burnpits_wren.w4a",
+      "value": "Then burn steady. Come back when the smoke's the only thing moving out there."
+    },
+    {
+      "key": "dlg.burnpits_wren.w4b",
+      "value": "A woodman's axe and the League's thanks. We weigh here too — just in fuel instead of crust."
+    },
+    {
+      "key": "dlg.burnpits_writ.bw1",
+      "value": "The pans stand clear — the count settles, and the League marks it. But a cleared pan still needs fire, and the fire is going short."
+    },
+    {
+      "key": "dlg.burnpits_writ.bw2",
+      "value": "The charcoal comes from the Burnpits, a burners' camp at the valley's east edge. Wren the kiln-keeper writes that poachers strip her clamps and walk off with cordwood the pans already burned for."
+    },
+    {
+      "key": "dlg.burnpits_writ.bw3",
+      "value": "Take the burners' road — it forks east off our lane, marked with a post. If the pits go dark the pans go dark, and then this whole valley is digging through ash for its salt."
+    },
+    {
       "key": "dlg.city_asta.n1",
       "value": "My son drove the salt carts to Rennfall, before the valley went dark. Forty years I have watched that road for a wagon."
     },
@@ -1377,6 +1513,14 @@
       "value": "A clerk in Line grey unslings a lacquered box of tallies at the village edge."
     },
     {
+      "key": "event.char.pits",
+      "value": "Wood-poachers strip the clamps."
+    },
+    {
+      "key": "event.char.rod",
+      "value": "The rod's 'borrowers' object."
+    },
+    {
       "key": "event.goSpeak",
       "value": "Go and speak to them"
     },
@@ -2121,6 +2265,22 @@
       "value": "Burning Crew Ledger"
     },
     {
+      "key": "item.quest_char_coal.desc",
+      "value": "Coal that rang like a pot when it broke — the good kind, worth the picking before rain turns it back to mud."
+    },
+    {
+      "key": "item.quest_char_coal.name",
+      "value": "Heaped Clean Coal"
+    },
+    {
+      "key": "item.quest_cord_tally.desc",
+      "value": "A split stick notched by the foreman's knife — one cord of burnwood, owed and counted. Until it is back on the tally post the stackyard reads short."
+    },
+    {
+      "key": "item.quest_cord_tally.name",
+      "value": "Dropped Cord-Tally"
+    },
+    {
       "key": "item.quest_crane_journal.desc",
       "value": "Forty years of burials, listed by name. The last entry is not a name. It is an apology."
     },
@@ -2143,6 +2303,14 @@
     {
       "key": "item.quest_keep_manifest.name",
       "value": "The Keep's Manifest"
+    },
+    {
+      "key": "item.quest_keeper_rod.desc",
+      "value": "A scorched ash-rod, ringed where a clamp should stand and notched where the earth should lie over it. Without it a kiln-keeper burns by guess."
+    },
+    {
+      "key": "item.quest_keeper_rod.name",
+      "value": "The Keeper's Measuring Rod"
     },
     {
       "key": "item.quest_marshal_writ.desc",
@@ -2653,6 +2821,10 @@
       "value": "Voice"
     },
     {
+      "key": "place.Burnpits",
+      "value": "The Burnpits"
+    },
+    {
       "key": "place.Greymarch",
       "value": "Greymarch"
     },
@@ -2755,6 +2927,14 @@
     {
       "key": "prompt.travel",
       "value": "Take the road"
+    },
+    {
+      "key": "prompt.travel.burnpits",
+      "value": "Take the burners' road to the pits"
+    },
+    {
+      "key": "prompt.travel.burnpitsOut",
+      "value": "Walk the burners' road back to the pans"
     },
     {
       "key": "prompt.travel.greymarch",
@@ -2997,6 +3177,42 @@
       "value": "Counting Deserters"
     },
     {
+      "key": "quest.sq_char_coal.s1",
+      "value": "Gather four heaps of dropped coal around the burn ground"
+    },
+    {
+      "key": "quest.sq_char_coal.summary",
+      "value": "When the poachers bolted they dropped their sacks — good coal trampled into the burn ground. Soot-boy Penn knows every place a sack burst. Gather four heaps of clean coal before the next rain takes them."
+    },
+    {
+      "key": "quest.sq_char_coal.title",
+      "value": "Good Coal in the Dirt"
+    },
+    {
+      "key": "quest.sq_char_pits.s1",
+      "value": "Drive the wood-poachers off the burn ground"
+    },
+    {
+      "key": "quest.sq_char_pits.summary",
+      "value": "Wood-poachers come out of the treeline at dusk to strip the clamps before they finish. Kiln-keeper Wren burns a week of work in one night if they are left to it: drive them off the burn ground."
+    },
+    {
+      "key": "quest.sq_char_pits.title",
+      "value": "Smoke Needs Quieter Ground"
+    },
+    {
+      "key": "quest.sq_cord_tallies.s1",
+      "value": "Find the three dropped cord-tallies in the stackyard"
+    },
+    {
+      "key": "quest.sq_cord_tallies.summary",
+      "value": "Tally-foreman Pyke counts every cord that leaves on the wagon — and three cord-tallies walked off with the poachers. Until they are found, the League will count the whole stackyard short."
+    },
+    {
+      "key": "quest.sq_cord_tallies.title",
+      "value": "Three Cords Uncounted"
+    },
+    {
       "key": "quest.sq_criers_news.s1",
       "value": "Put down six of the road's men"
     },
@@ -3063,6 +3279,18 @@
     {
       "key": "quest.sq_iron_tithe.title",
       "value": "Iron That Was Paid For"
+    },
+    {
+      "key": "quest.sq_keeper_rod.s1",
+      "value": "Recover the measuring rod at the burn ground"
+    },
+    {
+      "key": "quest.sq_keeper_rod.summary",
+      "value": "A burn is judged by the rod: how deep the earth, how tall the clamp. Poachers took Wren's measuring rod as a walking stick, and rack-warden Ferra watched them lean on it by the burn ground. Take it back."
+    },
+    {
+      "key": "quest.sq_keeper_rod.title",
+      "value": "The Rod That Measures the Burn"
     },
     {
       "key": "quest.sq_miras_wagon.s1",
@@ -3509,6 +3737,10 @@
       "value": "Brann Hollowell"
     },
     {
+      "key": "speaker.clod",
+      "value": "Old Clod"
+    },
+    {
       "key": "speaker.collum",
       "value": "Reeve Collum"
     },
@@ -3527,6 +3759,10 @@
     {
       "key": "speaker.durn",
       "value": "Castellan Durn"
+    },
+    {
+      "key": "speaker.ferra",
+      "value": "Rack-warden Ferra"
     },
     {
       "key": "speaker.galen",
@@ -3557,6 +3793,10 @@
       "value": "Kael Voss"
     },
     {
+      "key": "speaker.kell",
+      "value": "Kell the Carter"
+    },
+    {
       "key": "speaker.lene",
       "value": "Gate-warden Lene"
     },
@@ -3579,6 +3819,14 @@
     {
       "key": "speaker.pell",
       "value": "Pell the Crier"
+    },
+    {
+      "key": "speaker.penn",
+      "value": "Soot-boy Penn"
+    },
+    {
+      "key": "speaker.pyke",
+      "value": "Tally-foreman Pyke"
     },
     {
       "key": "speaker.reckoner",
@@ -3629,6 +3877,10 @@
       "value": "Old Winna"
     },
     {
+      "key": "speaker.wren",
+      "value": "Kiln-keeper Wren"
+    },
+    {
       "key": "stat.armour",
       "value": "Armour"
     },
@@ -3663,6 +3915,10 @@
     {
       "key": "toast.built",
       "value": "The hearth light reaches further"
+    },
+    {
+      "key": "toast.charPits",
+      "value": "The burn ground stands clear"
     },
     {
       "key": "toast.contractPaid",

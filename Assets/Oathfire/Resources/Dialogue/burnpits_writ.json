@@ -1,0 +1,47 @@
+{
+  "id": "burnpits_writ",
+  "startNode": "bw1",
+  "nodes": [
+    {
+      "id": "bw1",
+      "speaker": "hask",
+      "textKey": "dlg.burnpits_writ.bw1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "bw2",
+      "choices": []
+    },
+    {
+      "id": "bw2",
+      "speaker": "hask",
+      "textKey": "dlg.burnpits_writ.bw2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "bw3",
+      "choices": []
+    },
+    {
+      "id": "bw3",
+      "speaker": "hask",
+      "textKey": "dlg.burnpits_writ.bw3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.burnpits_rumoured"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

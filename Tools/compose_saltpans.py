@@ -51,8 +51,9 @@ def lay_ground(camp: Camp) -> None:
     for x in range(SIZE_X):
         for y in range(SIZE_Y):
             camp.put("Ground", (x, y), DIRT)
-    # The wagon lane, packed pale, in from the west edge and round the pans to the boiling row.
-    for x in range(0, 27):
+    # The wagon lane, packed pale, in from the west edge and round the pans to the boiling row;
+    # its east fork is the burners' road, the one the charcoal carts come down.
+    for x in range(0, 34):
         camp.put("Ground 2", (x, 13), PATH)
         camp.put("Ground 2", (x, 14), PATH)
     for y in range(14, 21):
@@ -103,6 +104,7 @@ def dress_camp(camp: Camp) -> None:
     # Tally posts and torch baskets along the lane so the place reads as run, not abandoned.
     p((2, 12), "Misc B52_E", solid=False)
     p((22, 12), "Misc B53_E", solid=False)
+    p((31, 12), "Misc B52_E", solid=False)   # the marker where the burners' road forks east
     p((7, 15), "Torch2", solid=False)
     p((21, 15), "Torch2", solid=False)
     p((28, 14), "Torch2", solid=False)
@@ -125,6 +127,7 @@ def anchors(camp: Camp) -> dict:
     return {
         "player": point(near((2, 13))),
         "roadOut": point(near((0, 13))),
+        "trail": point(near((33, 13))),
         "hearth": point(near((18, 14))),
         # villagers: Factor Hask by the store-rack, Pan-keeper Collum between the pans, Old Mirren
         # at the yard fire, Tess by the gleaner tents, Watch-lene on the lane.
