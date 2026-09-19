@@ -1613,6 +1613,54 @@
         "id": "Segulung bon gaji bertuliskan tangan yang bukan terbitan Barisan Abu, masing-masing berstempel tanda tangan kiri yang sama."
       },
       "icon": "LootIcons_31"
+    },
+    {
+      "id": "quest_salt_tally",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.salt_tally",
+      "name": {
+        "en": "Dropped Tally-Stick",
+        "id": "Tongkat Hitung yang Terjatuh"
+      },
+      "desc": {
+        "en": "A split stick notched by two knives — the porter's count and the pan-keeper's. Where it lies is where a load of crust stopped being counted.",
+        "id": "Tongkat belah berparut dua pisau — hitungan porter dan hitungan penjaga petak. Di mana ia tergeletak, di situlah satu muatan kerak berhenti dihitung."
+      },
+      "icon": "LootIcons_30"
+    },
+    {
+      "id": "quest_store_key",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.store_key",
+      "name": {
+        "en": "The Store Key",
+        "id": "Kunci Gudang"
+      },
+      "desc": {
+        "en": "Iron, long-shafted, the only key that opens the covered salt-store. Wit-warden Ostler was meant to carry it to the capital and never arrived.",
+        "id": "Besi bergagang panjang, satu-satunya kunci pembuka gudang garam bertutup. Penjaga kunci Ostler seharusnya membawanya ke ibu kota dan tak pernah sampai."
+      },
+      "icon": "LootIcons_31"
+    },
+    {
+      "id": "quest_salt_spill",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.salt_spill",
+      "name": {
+        "en": "Spilled Salt, Gathered",
+        "id": "Tumpahan Garam yang Dipungut"
+      },
+      "desc": {
+        "en": "Salt the scale never counted, gathered handful by handful off the crust. The League's rule says it belongs to no one; the gleaners' rule says it belongs to the hungry.",
+        "id": "Garam yang tak pernah dihitung timbangan, dipungut segenggam demi segenggam dari kerak. Aturan Liga bilang ini bukan milik siapa-siapa; aturan para pemungut bilang ini milik yang lapar."
+      },
+      "icon": "LootIcons_29"
     }
   ]
 }

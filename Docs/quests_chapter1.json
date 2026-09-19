@@ -1769,6 +1769,175 @@
         "faction": "ash",
         "reputation": 8
       }
+    },
+    {
+      "id": "sq_salt_floor",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.hask",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "The Pans Must Stand Clear",
+        "id": "Petak-petak Harus Bersih"
+      },
+      "summary": {
+        "en": "Salt-thieves squat the pans at night, carrying off crust by the armload. Factor Hask wants them off the works before the League counts its losses in his name.",
+        "id": "Pencuri garam menduduki petak-petak di malam hari, mengangkut kerak sekalenggong. Faktor Hask ingin mereka pergi dari tambak sebelum Liga mencatat kerugian atas namanya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Drive the salt-thieves out of the pans",
+            "id": "Usir para pencuri garam dari petak-petak"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.salt",
+              "amount": 5
+            }
+          ],
+          "setsFlag": "sq.salt_floor.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 60,
+        "items": [
+          "trinket_lion_pin"
+        ],
+        "faction": "league",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_salt_tallies",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.collum",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "Every Notch a Sack",
+        "id": "Setiap Parut Satu Karung"
+      },
+      "summary": {
+        "en": "Three tally-sticks went missing with the night crews, and without them the books cannot say whose salt the thieves took. Pan-keeper Collum needs them found — by the pans, under the heap rows, wherever a count was broken.",
+        "id": "Tiga tongkat hitung hilang bersama kru malam, dan tanpanya pembukuan tak bisa memastikan garam siapa yang dicuri para pencuri. Penjaga-petak Collum ingin mereka ditemukan — di sisi petak, di bawah deretan timbunan, di mana pun hitungan dipatahkan."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the three dropped tally-sticks around the pans",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di sekitar petak"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_salt_tally",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "trinket_tally"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_store_key",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.lene",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "The Key-Warden's Errand",
+        "id": "Tugas Penjaga Kunci"
+      },
+      "summary": {
+        "en": "Wit-warden Ostler was carrying the store key to the capital when the salt-thieves took him by the boiling row. They left him alive and kept the key. Watch-lene wants it back before the League learns it was ever missing.",
+        "id": "Penjaga kunci Ostler membawa kunci gudang ke ibu kota saat para pencuri menangkapnya di dekat barisan pemasak. Mereka membiarkannya hidup dan menyimpan kuncinya. Lene sang pengawas ingin kunci itu kembali sebelum Liga tahu ia pernah hilang."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Recover the store key by the boiling row",
+            "id": "Ambil kembali kunci gudang di dekat barisan pemasak"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_store_key",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.store_key.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 45,
+        "items": [
+          "dagger_quiet"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_salt_spill",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.tess",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "What the Scales Never Counted",
+        "id": "Yang Tak Pernah Dihitung Timbangan"
+      },
+      "summary": {
+        "en": "The League's rule is simple: once a pan is raked, what spills belongs to no one — and no one may take it. Tess knows where salt spills among the pans the gleaners may not enter. Gather it and carry it back out to the tents.",
+        "id": "Aturan Liga sederhana: begitu petak digaru, yang tumpah bukan milik siapa-siapa — dan tak boleh diambil siapa-siapa. Tess tahu di mana garam tumpah di antara petak yang tak boleh dimasuki pemungut. Pungut dan bawa keluar ke tenda-tenda."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather four spilled heaps of salt around the pans",
+            "id": "Pungut empat timbunan garam tumpah di sekitar petak"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_salt_spill",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.spillage.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "food_stew",
+          "food_stew"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
     }
   ]
 }

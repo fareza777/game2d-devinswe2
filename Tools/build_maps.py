@@ -31,6 +31,8 @@ SCENES = {
     # The old iron keep north of Greymarch: the pack's walled great hall stands alone at the map's edge,
     # so the build adds its own approach — a bare forecourt on the rise and a breach in the vestibule wall.
     "keep": {"region": (-158, -135, -116, -66), "plaza": 3, "style": "keep"},
+    # (The Salt League's side-quest ground, the Saltpans, is composed from scratch in
+    # compose_saltpans.py — nothing here cuts a region for it.)
 }
 
 
@@ -135,10 +137,17 @@ def road_anchors(walkable: set[tuple[int, int]]) -> dict:
     trail2 = next((cell for cell in ordered[3 * len(ordered) // 4:]
                    if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 6 for t in taken)),
                   ordered[3 * len(ordered) // 4])
+    # The League's weigh-court lane: off the road early, before the ambush — a toll lane that answers
+    # to the pans' low fire, not the keep's silence. Maren's writ names it once the manifest is read.
+    taken.append(trail2)
+    trail3 = next((cell for cell in ordered[len(ordered) // 5:len(ordered) // 3]
+                   if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 6 for t in taken)),
+                  ordered[len(ordered) // 5])
     return {
         "search": point(search),
         "trail": point(trail),
         "trail2": point(trail2),
+        "trail3": point(trail3),
         "hearth": point(middle),   # where the road closes
         "player": point(arrival),
         "board": point(ordered[len(ordered) // 12 + 3]),  # the way back, a few steps from where you arrived
@@ -368,6 +377,12 @@ def keep_anchors(layers: list[dict], walkable: set[tuple[int, int]]) -> dict:
         "timber": [point(vault_stores), point(vestibule_stores)],
         "plots": [], "stone": [],
     }
+
+
+
+
+
+
 
 
 PLAIN_EARTH = ["Ground A1_E", "Ground A1_N", "Ground A1_S", "Ground A1_W"]

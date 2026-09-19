@@ -1,0 +1,19 @@
+{
+  "id": "saltpans_boru",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "boru",
+      "textKey": "dlg.saltpans_boru.b1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

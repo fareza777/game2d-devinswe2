@@ -1,0 +1,23 @@
+{
+  "id": "saltpans_mirren",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "mirren",
+      "text": {
+        "en": "Warm yourself. The fire is the only thing in this camp the League does not count — a courtesy from when the pans fed the valley it now charges.",
+        "id": "Hangatkan dirimu. Api ini satu-satunya hal di kamp yang tak dihitung Liga — sopan santun dari zaman ketika petak-petak memberi makan lembah yang kini dikenainya biaya."
+      },
+      "next": "m2"
+    },
+    {
+      "id": "m2",
+      "speaker": "mirren",
+      "text": {
+        "en": "I raked crust on this flat before your keep was cold iron. Then the League drove its posts and the count went down to half-measures. Watch the track at dusk — the camp fills with those the count forgot.",
+        "id": "Aku menggaru kerak di dataran ini sebelum bentengmu menjadi besi dingin. Lalu Liga memancang batasnya dan hitungan turun ke ukuran setengah. Perhatikan jejak menjelang senja — kamp dipenuhi mereka yang dilupakan hitungan."
+      }
+    }
+  ]
+}

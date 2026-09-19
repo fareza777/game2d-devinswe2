@@ -1121,6 +1121,122 @@
       "value": "Siapa yang bilang ke Protektor bahwa lembah ini tak berharga?"
     },
     {
+      "key": "dlg.saltpans_boru.b1",
+      "value": "Timbunan ke timbangan, timbangan ke buku, buku ke kesunyian. Berjalanlah sesukamu; dataran ini tetap mengingat setiap langkah."
+    },
+    {
+      "key": "dlg.saltpans_collum.c1",
+      "value": "Hitung bersamaku. Seratus dua belas muatan diangkat dari kerak, seratus sembilan tercatat, tiga tongkat hilang. Pembukuan tak bisa memastikan garam siapa yang berjalan keluar sampai tongkat-tongkat itu ditemukan — dan buku yang tak bisa memastikan adalah buku yang berdusta."
+    },
+    {
+      "key": "dlg.saltpans_collum.c2",
+      "value": "Tiap tongkat dibelah dan diparut dua kali — pisau porter di satu sisi, punyaku di sisi lain. Kru malam menjatuhkannya di tepi petak saat para pencuri lewat. Temukan tiga dan hitungannya tutup."
+    },
+    {
+      "key": "dlg.saltpans_collum.c3",
+      "value": "Hask menimbang. Aku menghitung. Jangan tertukar — dia menghargai apa yang melewati jejak, aku mencatat apa yang tertinggal."
+    },
+    {
+      "key": "dlg.saltpans_hask.h1",
+      "value": "Berhenti di tempatmu. Hitungannya kurang satu muatan dan aku berniat tahu apakah itu seorang warden atau seorang maling yang berdiri di dalamnya."
+    },
+    {
+      "key": "dlg.saltpans_hask.h2",
+      "value": "Petak-petak ini. Tambak garam Liga untuk lembah ini: tiap muatan yang diangkat dari kerak dihitung dua kali — sekali oleh pisau porter, sekali oleh pisauku. Tak ada yang gratis di sini; semuanya hanya ditimbang."
+    },
+    {
+      "key": "dlg.saltpans_hask.h3",
+      "value": "Di malam hari petak-petak dipenuhi pencuri garam — pembelot yang belajar bahwa sekarung kerak mengalahkan sekarung koin yang tak bisa kau kunyah. Mereka berjongkok dalam gelap dan mengangkut apa yang dihitung Liga atas namaku. Aku ingin petak-petak ini bersih. Timbanglah, warden."
+    },
+    {
+      "key": "dlg.saltpans_hask.h3.c1",
+      "value": "Petak-petaknya akan bersih. Anggap sudah tertimbang."
+    },
+    {
+      "key": "dlg.saltpans_hask.h3.c2",
+      "value": "Berapa Liga membayar untuk lima pencuri dari petak-petaknya?"
+    },
+    {
+      "key": "dlg.saltpans_hask.h4a",
+      "value": "Maka hitungan menetap. Kembali saat hitungan sudah berkurang mereka."
+    },
+    {
+      "key": "dlg.saltpans_hask.h4b",
+      "value": "Setara dengan pin dan kesabaran. Liga tidak menawar, warden — ia menyeimbangkan."
+    },
+    {
+      "key": "dlg.saltpans_lene.l1",
+      "value": "Berhenti. Obor di belakangmu, jejak di belakangku, dan tak ada yang melintas tanpa dicatat. Itulah seluruh hukum kamp ini. Nyatakan urusanmu sebelum kucatat sebagai pengganggu."
+    },
+    {
+      "key": "dlg.saltpans_lene.l2",
+      "value": "Karena kau membawa cap warden: Ostler — penjaga kunci, rekanku di pos ini — membawa kunci gudang melewati barisan pemasak untuk diantar ke ibu kota. Para pencuri menangkapnya saat ia kembali. Mereka membiarkannya bernapas dan menyimpan kuncinya. Temukan sebelum Liga tahu kunci itu pernah hilang, dan aku berhutang satu hitungan padamu."
+    },
+    {
+      "key": "dlg.saltpans_lene.l2.c1",
+      "value": "Barisan pemasak itu sudah ada dalam daftarku."
+    },
+    {
+      "key": "dlg.saltpans_lene.l2.c2",
+      "value": "Pengawas berhutang pada warden. Akan kutagih."
+    },
+    {
+      "key": "dlg.saltpans_lene.l3a",
+      "value": "Bagus. Jalanlah pelan di sana — apa pun yang menduduki dekat gudang itu menjawab pertanyaan dengan mata pisau."
+    },
+    {
+      "key": "dlg.saltpans_lene.l3b",
+      "value": "Tagih saja dari balik kunci itu. Bawa ke mari dan kita bicara soal hutang."
+    },
+    {
+      "key": "dlg.saltpans_mirren.m1",
+      "value": "Hangatkan dirimu. Api ini satu-satunya hal di kamp yang tak dihitung Liga — sopan santun dari zaman ketika petak-petak memberi makan lembah yang kini dikenainya biaya."
+    },
+    {
+      "key": "dlg.saltpans_mirren.m2",
+      "value": "Aku menggaru kerak di dataran ini sebelum bentengmu menjadi besi dingin. Lalu Liga memancang batasnya dan hitungan turun ke ukuran setengah. Perhatikan jejak menjelang senja — kamp dipenuhi mereka yang dilupakan hitungan."
+    },
+    {
+      "key": "dlg.saltpans_tess.t1",
+      "value": "Hati-hati dengan pedati itu — satu-satunya yang tersisa dan masih bisa berputar rodanya. Kami boleh menunggu di dekat tenda tapi tak boleh lewat batas petak. Garam tumpah, kata mereka, bukan milik siapa-siapa. Bukan milik siapa-siapa di dalam batas, maksud mereka."
+    },
+    {
+      "key": "dlg.saltpans_tess.t2",
+      "value": "Seorang warden bisa keluar masuk. Kami tidak. Ada tumpahan di dalam — tempat garu melebar di tepi kerak, tempat timbunan bocor. Pungut apa yang tak akan dihitung itu dan bawa kembali pada kami. Empat timbunan cukup memberi makan tenda-tenda ini seminggu."
+    },
+    {
+      "key": "dlg.saltpans_tess.t2.c1",
+      "value": "Aturan Liga tak memberi makan siapa pun. Aku akan memungutnya."
+    },
+    {
+      "key": "dlg.saltpans_tess.t2.c2",
+      "value": "Mencuri tetap mencuri, lapar atau tidak."
+    },
+    {
+      "key": "dlg.saltpans_tess.t3a",
+      "value": "Tumpah tetaplah tumpah, warden. Itu aturan mereka sendiri. Aku hanya mempersoalkan tangan siapa yang sampai duluan."
+    },
+    {
+      "key": "dlg.saltpans_tess.t3b",
+      "value": "Kalau begitu makanlah kenyang malam ini, dan ingat kami di dekat api tenda. Aturan tak mengisi perut — sudah kuperiksa."
+    },
+    {
+      "key": "dlg.saltpans_writ.w1",
+      "value": "Manifest itu menamai lebih dari sekadar hantu-hantu benteng. Di antara pedati simpangan Durn ada satu yang tak pernah sampai — kereta garam Liga Garam, dicegat satu liga sebelum Benteng Besi."
+    },
+    {
+      "key": "dlg.saltpans_writ.w2",
+      "value": "Tambak mereka berdiri di ujung jejak garam dari jalan dagang — petak-petak, kamp terbuka berisi kerak dan kuali. Tanpa tembok, dan musim ini kekurangan tangan jujur. Liga meminta warden seperti ia menimbang: tepat, dan hanya sekali."
+    },
+    {
+      "key": "dlg.saltpans_writ.w2.c1",
+      "value": "Akan kutempuh jejak garam itu dan kulihat apa yang diinginkan petak-petak."
+    },
+    {
+      "key": "dlg.saltpans_writ.w3",
+      "value": "Katakan pada Faktor Hask bahwa Inspektur mengirim hitungannya — dan ingatkan dia bahwa lembah ini membaca kerak lebih baik daripada Liga membaca buku."
+    },
+    {
       "key": "dlg.vesna_ledger.v1",
       "value": "Anda membawa kembali kusir saya, dan orang yang menculiknya sudah terkubur. Serikat berutang pada Anda. Kalimat itu mungkin saya ucapkan setahun sekali."
     },
@@ -1307,6 +1423,14 @@
     {
       "key": "event.night_refugee.banner",
       "value": "Seseorang terhuyung menuju cahaya."
+    },
+    {
+      "key": "event.salt.key",
+      "value": "'Tamu-tamu' penjaga kunci berkeberatan."
+    },
+    {
+      "key": "event.salt.pans",
+      "value": "Pencuri garam menduduki petak-petak."
     },
     {
       "key": "event.salt_offer.banner",
@@ -2069,6 +2193,30 @@
       "value": "Buku Hitungan Roane"
     },
     {
+      "key": "item.quest_salt_spill.desc",
+      "value": "Garam yang tak pernah dihitung timbangan, dipungut segenggam demi segenggam dari kerak. Aturan Liga bilang ini bukan milik siapa-siapa; aturan para pemungut bilang ini milik yang lapar."
+    },
+    {
+      "key": "item.quest_salt_spill.name",
+      "value": "Tumpahan Garam yang Dipungut"
+    },
+    {
+      "key": "item.quest_salt_tally.desc",
+      "value": "Tongkat belah berparut dua pisau — hitungan porter dan hitungan penjaga petak. Di mana ia tergeletak, di situlah satu muatan kerak berhenti dihitung."
+    },
+    {
+      "key": "item.quest_salt_tally.name",
+      "value": "Tongkat Hitung yang Terjatuh"
+    },
+    {
+      "key": "item.quest_store_key.desc",
+      "value": "Besi bergagang panjang, satu-satunya kunci pembuka gudang garam bertutup. Penjaga kunci Ostler seharusnya membawanya ke ibu kota dan tak pernah sampai."
+    },
+    {
+      "key": "item.quest_store_key.name",
+      "value": "Kunci Gudang"
+    },
+    {
       "key": "item.quest_testament.desc",
       "value": "Menyerahkan Lembah Rennfall kepada Kael Voss. Klausul keempatnya ditulis dengan tulisan tangan yang berbeda."
     },
@@ -2521,6 +2669,10 @@
       "value": "Rennfall"
     },
     {
+      "key": "place.Saltpans",
+      "value": "Petak Garam"
+    },
+    {
       "key": "place.TradeRoad",
       "value": "Jalan Lembah"
     },
@@ -2631,6 +2783,14 @@
     {
       "key": "prompt.travel.road",
       "value": "Tempuh jalan dagang ke timur"
+    },
+    {
+      "key": "prompt.travel.saltpans",
+      "value": "Tempuh jejak garam ke petak"
+    },
+    {
+      "key": "prompt.travel.saltpansOut",
+      "value": "Kembali menyusuri jejak ke jalan dagang"
     },
     {
       "key": "prompt.travel.valley",
@@ -2993,6 +3153,18 @@
       "value": "Sebelum Hujan"
     },
     {
+      "key": "quest.sq_salt_floor.s1",
+      "value": "Usir para pencuri garam dari petak-petak"
+    },
+    {
+      "key": "quest.sq_salt_floor.summary",
+      "value": "Pencuri garam menduduki petak-petak di malam hari, mengangkut kerak sekalenggong. Faktor Hask ingin mereka pergi dari tambak sebelum Liga mencatat kerugian atas namanya."
+    },
+    {
+      "key": "quest.sq_salt_floor.title",
+      "value": "Petak-petak Harus Bersih"
+    },
+    {
       "key": "quest.sq_salt_share.s1",
       "value": "Bawakan Iskra tiga potong daging garam dari benteng"
     },
@@ -3003,6 +3175,30 @@
     {
       "key": "quest.sq_salt_share.title",
       "value": "Garam yang Bukan Milik Mereka"
+    },
+    {
+      "key": "quest.sq_salt_spill.s1",
+      "value": "Pungut empat timbunan garam tumpah di sekitar petak"
+    },
+    {
+      "key": "quest.sq_salt_spill.summary",
+      "value": "Aturan Liga sederhana: begitu petak digaru, yang tumpah bukan milik siapa-siapa — dan tak boleh diambil siapa-siapa. Tess tahu di mana garam tumpah di antara petak yang tak boleh dimasuki pemungut. Pungut dan bawa keluar ke tenda-tenda."
+    },
+    {
+      "key": "quest.sq_salt_spill.title",
+      "value": "Yang Tak Pernah Dihitung Timbangan"
+    },
+    {
+      "key": "quest.sq_salt_tallies.s1",
+      "value": "Temukan tiga tongkat hitung yang terjatuh di sekitar petak"
+    },
+    {
+      "key": "quest.sq_salt_tallies.summary",
+      "value": "Tiga tongkat hitung hilang bersama kru malam, dan tanpanya pembukuan tak bisa memastikan garam siapa yang dicuri para pencuri. Penjaga-petak Collum ingin mereka ditemukan — di sisi petak, di bawah deretan timbunan, di mana pun hitungan dipatahkan."
+    },
+    {
+      "key": "quest.sq_salt_tallies.title",
+      "value": "Setiap Parut Satu Karung"
     },
     {
       "key": "quest.sq_shepherds_distance.s1",
@@ -3035,6 +3231,18 @@
     {
       "key": "quest.sq_stew.title",
       "value": "Sesuatu yang Hangat"
+    },
+    {
+      "key": "quest.sq_store_key.s1",
+      "value": "Ambil kembali kunci gudang di dekat barisan pemasak"
+    },
+    {
+      "key": "quest.sq_store_key.summary",
+      "value": "Penjaga kunci Ostler membawa kunci gudang ke ibu kota saat para pencuri menangkapnya di dekat barisan pemasak. Mereka membiarkannya hidup dan menyimpan kuncinya. Lene sang pengawas ingin kunci itu kembali sebelum Liga tahu ia pernah hilang."
+    },
+    {
+      "key": "quest.sq_store_key.title",
+      "value": "Tugas Penjaga Kunci"
     },
     {
       "key": "quest.sq_surveyors_eye.s1",
@@ -3293,8 +3501,16 @@
       "value": "Lord Protektor Aurel"
     },
     {
+      "key": "speaker.boru",
+      "value": "Boru si Porter"
+    },
+    {
       "key": "speaker.brann",
       "value": "Brann Hollowell"
+    },
+    {
+      "key": "speaker.collum",
+      "value": "Reeve Collum"
     },
     {
       "key": "speaker.courier",
@@ -3321,6 +3537,10 @@
       "value": "Gethin si Penggali"
     },
     {
+      "key": "speaker.hask",
+      "value": "Faktor Hask"
+    },
+    {
       "key": "speaker.hesketh",
       "value": "Hesketh si Tukang Tong"
     },
@@ -3337,12 +3557,20 @@
       "value": "Kael Voss"
     },
     {
+      "key": "speaker.lene",
+      "value": "Lene Penjaga Gerbang"
+    },
+    {
       "key": "speaker.maren",
       "value": "Inspektur Maren"
     },
     {
       "key": "speaker.mira",
       "value": "Mira Holt"
+    },
+    {
+      "key": "speaker.mirren",
+      "value": "Mirren si Tua"
     },
     {
       "key": "speaker.oona",
@@ -3379,6 +3607,10 @@
     {
       "key": "speaker.surveyor",
       "value": "Juru Ukur Kestrel"
+    },
+    {
+      "key": "speaker.tess",
+      "value": "Tess dari Lajur"
     },
     {
       "key": "speaker.tobias",
@@ -3531,6 +3763,10 @@
     {
       "key": "toast.rookDown",
       "value": "Rook Varr telah tumbang"
+    },
+    {
+      "key": "toast.saltPans",
+      "value": "Petak-petak sudah bersih"
     },
     {
       "key": "toast.used",

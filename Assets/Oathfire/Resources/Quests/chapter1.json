@@ -1375,6 +1375,131 @@
         "faction": "ash",
         "reputation": 8
       }
+    },
+    {
+      "id": "sq_salt_floor",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.hask",
+      "giverScene": "Saltpans",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.salt",
+              "amount": 5,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.salt_floor.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 60,
+        "items": [
+          "trinket_lion_pin"
+        ],
+        "faction": "league",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_salt_tallies",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.collum",
+      "giverScene": "Saltpans",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_salt_tally",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "trinket_tally"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_store_key",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.lene",
+      "giverScene": "Saltpans",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_store_key",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.store_key.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 45,
+        "items": [
+          "dagger_quiet"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_salt_spill",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.tess",
+      "giverScene": "Saltpans",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_salt_spill",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.spillage.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "food_stew",
+          "food_stew"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
     }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "id": "saltpans_mirren",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "mirren",
+      "textKey": "dlg.saltpans_mirren.m1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m2",
+      "choices": []
+    },
+    {
+      "id": "m2",
+      "speaker": "mirren",
+      "textKey": "dlg.saltpans_mirren.m2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

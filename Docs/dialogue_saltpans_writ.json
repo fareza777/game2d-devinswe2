@@ -1,0 +1,43 @@
+{
+  "id": "saltpans_writ",
+  "startNode": "w1",
+  "nodes": [
+    {
+      "id": "w1",
+      "speaker": "maren",
+      "text": {
+        "en": "The manifest named more than the keep's ghosts. Among Durn's diverted wagons is one that never reached him — a Salt League salt train, waylaid a league short of the Iron Keep.",
+        "id": "Manifest itu menamai lebih dari sekadar hantu-hantu benteng. Di antara pedati simpangan Durn ada satu yang tak pernah sampai — kereta garam Liga Garam, dicegat satu liga sebelum Benteng Besi."
+      },
+      "next": "w2"
+    },
+    {
+      "id": "w2",
+      "speaker": "maren",
+      "text": {
+        "en": "Their works sit at the end of the salt track off the trade road — the pans, an open camp of crust and cauldrons. No walls, and this season, short of honest hands. The League asks for wardens the way it weighs: precisely, and only once.",
+        "id": "Tambak mereka berdiri di ujung jejak garam dari jalan dagang — petak-petak, kamp terbuka berisi kerak dan kuali. Tanpa tembok, dan musim ini kekurangan tangan jujur. Liga meminta warden seperti ia menimbang: tepat, dan hanya sekali."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "I'll walk the salt track and see what the pans want.",
+            "id": "Akan kutempuh jejak garam itu dan kulihat apa yang diinginkan petak-petak."
+          },
+          "next": "w3"
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "speaker": "maren",
+      "text": {
+        "en": "Tell Factor Hask the Inspector sends her count — and remind him the valley reads a crust better than the League reads a ledger.",
+        "id": "Katakan pada Faktor Hask bahwa Inspektur mengirim hitungannya — dan ingatkan dia bahwa lembah ini membaca kerak lebih baik daripada Liga membaca buku."
+      },
+      "setFlags": [
+        "act2.saltpans_rumoured"
+      ]
+    }
+  ]
+}

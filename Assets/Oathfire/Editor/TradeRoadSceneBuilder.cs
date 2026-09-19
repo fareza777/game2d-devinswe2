@@ -148,6 +148,20 @@ namespace Oathfire.EditorTools
                 MapScene.Gate(keepRoad, "act2.keep_rumoured");
             }
 
+            // The salt track to the pans, the League's brine-works: an open camp, short of hands.
+            // It is a marked turning only once Maren has read the manifest and sent word of the
+            // League asking the valley road for wardens.
+            if (at.trail3 != null)
+            {
+                var tollLane = new GameObject("Salt track");
+                tollLane.transform.position = map.At(at.trail3);
+                GameObject pansExit = MapScene.BuildExit(map.At(at.trail3), "Saltpans", "prompt.travel.saltpans", "act2.found_saltpans");
+                pansExit.transform.SetParent(tollLane.transform, true);
+                MapScene.BuildProp("Salt post", "Misc B53_E", map.At(at.trail3) + new Vector3(0.45f, -0.2f, 0f), pansExit.transform,
+                    solid: false, strikeable: false);
+                MapScene.Gate(tollLane, "act2.saltpans_rumoured");
+            }
+
             if (at.search != null)
                 MapScene.BuildSearchSpot("Wick's lamp", map.At(at.search), "search_lamp", "Misc A2_E", "quest_wick_lamp",
                     "sq.lamp.found", "quest.sq_wicks_lamp.taken");

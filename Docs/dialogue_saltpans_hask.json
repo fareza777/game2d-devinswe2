@@ -1,0 +1,64 @@
+{
+  "id": "saltpans_hask",
+  "startNode": "h1",
+  "nodes": [
+    {
+      "id": "h1",
+      "speaker": "hask",
+      "text": {
+        "en": "Stop where you are. The count reads a load short and I intend to know whether that is a warden or a thief standing in it.",
+        "id": "Berhenti di tempatmu. Hitungannya kurang satu muatan dan aku berniat tahu apakah itu seorang warden atau seorang maling yang berdiri di dalamnya."
+      },
+      "next": "h2"
+    },
+    {
+      "id": "h2",
+      "speaker": "hask",
+      "text": {
+        "en": "The pans. The League's brine-works for this valley: every load drawn off the crust is counted twice — once by the porter's knife, once by mine. Nothing here is free; it is only weighed.",
+        "id": "Petak-petak ini. Tambak garam Liga untuk lembah ini: tiap muatan yang diangkat dari kerak dihitung dua kali — sekali oleh pisau porter, sekali oleh pisauku. Tak ada yang gratis di sini; semuanya hanya ditimbang."
+      },
+      "next": "h3"
+    },
+    {
+      "id": "h3",
+      "speaker": "hask",
+      "text": {
+        "en": "At night the pans fill with salt-thieves — deserters who learned a sack of crust beats a sack of coin you cannot chew. They squat in the dark and carry out what the League counts in my name. I want the pans standing clear. Weigh it, warden.",
+        "id": "Di malam hari petak-petak dipenuhi pencuri garam — pembelot yang belajar bahwa sekarung kerak mengalahkan sekarung koin yang tak bisa kau kunyah. Mereka berjongkok dalam gelap dan mengangkut apa yang dihitung Liga atas namaku. Aku ingin petak-petak ini bersih. Timbanglah, warden."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The pans will stand clear. Consider it weighed.",
+            "id": "Petak-petaknya akan bersih. Anggap sudah tertimbang."
+          },
+          "next": "h4a"
+        },
+        {
+          "text": {
+            "en": "What does the League pay for five thieves off its pans?",
+            "id": "Berapa Liga membayar untuk lima pencuri dari petak-petaknya?"
+          },
+          "next": "h4b"
+        }
+      ]
+    },
+    {
+      "id": "h4a",
+      "speaker": "hask",
+      "text": {
+        "en": "Then the count settles. Come back when it is short of them.",
+        "id": "Maka hitungan menetap. Kembali saat hitungan sudah berkurang mereka."
+      }
+    },
+    {
+      "id": "h4b",
+      "speaker": "hask",
+      "text": {
+        "en": "Its weight in pin and patience. The League does not haggle, warden — it balances.",
+        "id": "Setara dengan pin dan kesabaran. Liga tidak menawar, warden — ia menyeimbangkan."
+      }
+    }
+  ]
+}

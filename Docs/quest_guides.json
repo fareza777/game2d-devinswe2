@@ -90,6 +90,56 @@
    "from": "Keep",
    "to": "Greymarch",
    "via": "TradeRoad"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Saltpans",
+   "via": "Saltpans"
+  },
+  {
+   "from": "Saltpans",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Rennfall",
+   "to": "Saltpans",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Greymarch",
+   "to": "Saltpans",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Hollow",
+   "to": "Saltpans",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Keep",
+   "to": "Saltpans",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Saltpans",
+   "to": "Rennfall",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Saltpans",
+   "to": "Greymarch",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Saltpans",
+   "to": "Hollow",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Saltpans",
+   "to": "Keep",
+   "via": "TradeRoad"
   }
  ],
  "guides": [
@@ -388,6 +438,30 @@
    "target": "spot",
    "id": "keep_pay",
    "scene": "Keep"
+  },
+  {
+   "key": "kills.salt",
+   "target": "spot",
+   "id": "salt_fight",
+   "scene": "Saltpans"
+  },
+  {
+   "key": "quest_salt_tally",
+   "target": "spot",
+   "id": "salt_tally_1",
+   "scene": "Saltpans"
+  },
+  {
+   "key": "quest_store_key",
+   "target": "spot",
+   "id": "salt_store_key",
+   "scene": "Saltpans"
+  },
+  {
+   "key": "quest_salt_spill",
+   "target": "spot",
+   "id": "salt_spill_1",
+   "scene": "Saltpans"
   }
  ]
 }
