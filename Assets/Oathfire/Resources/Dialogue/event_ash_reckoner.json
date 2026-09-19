@@ -1,0 +1,114 @@
+{
+  "id": "event_ash_reckoner",
+  "startNode": "r1",
+  "nodes": [
+    {
+      "id": "r1",
+      "speaker": "reckoner",
+      "textKey": "dlg.event_ash_reckoner.r1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "r2",
+      "choices": []
+    },
+    {
+      "id": "r2",
+      "speaker": "reckoner",
+      "textKey": "dlg.event_ash_reckoner.r2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_ash_reckoner.r2.c1",
+          "next": "r3a",
+          "tone": "mercy",
+          "requiresFlag": "act2.roane_settled",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.roane_covered",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_ash_reckoner.r2.c2",
+          "next": "r3b",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.reckoner_deflected",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_ash_reckoner.r2.c3",
+          "next": "r3c",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.reckoner_short",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "r3a",
+      "speaker": "reckoner",
+      "textKey": "dlg.event_ash_reckoner.r3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.ash_reckoner.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 30,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "r3b",
+      "speaker": "reckoner",
+      "textKey": "dlg.event_ash_reckoner.r3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.ash_reckoner.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 30,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "r3c",
+      "speaker": "reckoner",
+      "textKey": "dlg.event_ash_reckoner.r3c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.ash_reckoner.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 30,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

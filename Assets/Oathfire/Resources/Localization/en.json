@@ -457,6 +457,38 @@
       "value": "I will file it as a settlement unable to produce records. That is a smaller word than refusal. It is the only kindness I can do you, and it costs me something."
     },
     {
+      "key": "dlg.event_ash_reckoner.r1",
+      "value": "Warden. The Line keeps books the way other armies keep graves — everything tallied, nothing mourned. Your inspector's report reached the count-house, and I have been sent to square the keep's account."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2",
+      "value": "There is a debt outstanding — thirty silver in unpaid witness-fee for the manifest. And one question the count-house would rather I did not write down, which means I must ask it twice: where is the clerk Roane?"
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2.c1",
+      "value": "The clerk? Dead in the keep. I saw the body myself."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2.c2",
+      "value": "Ask the clerks' roll in Greymarch. They keep a list of the living."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2.c3",
+      "value": "Pay the fee, reckoner. The valley's books are its own."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r3a",
+      "value": "Dead men keep the best books — nothing left to be afraid of. Then the account squares at thirty, and a name is struck in pencil. Here is your fee, Warden."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r3b",
+      "value": "A roll of the living. They will like that phrase at the count-house — it sounds like policy. Your fee, Warden, and a word given free: whoever bought the keep's wagons will want this valley's books too."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r3c",
+      "value": "Short answers are still answers, in my trade. Thirty silver, and I write the valley down as unhelpful but honest — the count-house reads that as a compliment."
+    },
+    {
       "key": "dlg.event_keep_deserter.d1",
       "value": "Warden. Roane — I kept the books at the keep, before you let me walk. Your people said a man who works can stay for a meal."
     },
@@ -479,6 +511,38 @@
     {
       "key": "dlg.event_keep_deserter.d3b",
       "value": "Fair. More than fair. For what it is worth — the paymaster in that manifest signs left-handed. Watch for the hand, not the name."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s1",
+      "value": "Warden. We were the keep's watch once — the ones who walked out before Durn locked the doors. We heard the valley keeps a fire for anyone the Line wrote off."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2",
+      "value": "We won't lie about what we are. We stood that wall while the paymaster's wagons turned south, and we ate their salt. We're asking for the fire's edge, not a pardon."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2.c1",
+      "value": "Bread from the watch's sack, and the fire's edge until first light."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2.c2",
+      "value": "The road south is yours. The valley isn't."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2.c3",
+      "value": "Stay. But first you tell me what the keep's stores still hold."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s3a",
+      "value": "You feed deserters. Maybe that's the thing Durn was afraid of. We'll be smoke by morning — but the count stays, Warden. Eight went into that keep who aren't written anywhere."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s3b",
+      "value": "South, then. For whatever it's worth — the paymaster's mark was a left hand, Warden. Watch for it on any paper that promises more than it owes."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s3c",
+      "value": "Iron bars and salt, what's left of it — the wagons took the best of it south weeks before we walked. If you want the name of where they went, ask who paid for the road they took."
     },
     {
       "key": "dlg.event_manifest_buyer.c1",
@@ -1193,6 +1257,10 @@
       "value": "A Marshal's rider has come up the valley road."
     },
     {
+      "key": "event.ash_reckoner.banner",
+      "value": "A clerk in Line grey unslings a lacquered box of tallies at the village edge."
+    },
+    {
       "key": "event.goSpeak",
       "value": "Go and speak to them"
     },
@@ -1223,6 +1291,10 @@
     {
       "key": "event.keep_deserter.banner",
       "value": "A man in a stripped sash has followed the road home."
+    },
+    {
+      "key": "event.line_stragglers.banner",
+      "value": "Two figures in grey come out of the dark, hands open and held high."
     },
     {
       "key": "event.manifest_buyer.banner",
@@ -1981,6 +2053,22 @@
       "value": "Sealed Writ of the Ash Marshals"
     },
     {
+      "key": "item.quest_pay_roll.desc",
+      "value": "A roll of pay-chits marked in a hand that is not Ash Line issue, each stamped with the same left-handed sign."
+    },
+    {
+      "key": "item.quest_pay_roll.name",
+      "value": "The Deserters' Pay-Roll"
+    },
+    {
+      "key": "item.quest_roane_tally.desc",
+      "value": "A clerk's tally-book, its spine cracked from being thrown. The pages still add up to every bar of iron the keep ever held."
+    },
+    {
+      "key": "item.quest_roane_tally.name",
+      "value": "Roane's Tally-Book"
+    },
+    {
       "key": "item.quest_testament.desc",
       "value": "Grants the Vale of Rennfall to Kael Voss. The fourth clause is written in a different hand."
     },
@@ -2737,6 +2825,18 @@
       "value": "Return to {0}"
     },
     {
+      "key": "quest.sq_back_count.s1",
+      "value": "Put down eight deserters of the keep's garrison"
+    },
+    {
+      "key": "quest.sq_back_count.summary",
+      "value": "Dace cannot ask the Line to march on its own deserters. But a Warden's tally is read in the record house: put down eight of the keep's garrison and he will write the number where it has to be seen."
+    },
+    {
+      "key": "quest.sq_back_count.title",
+      "value": "Counting Deserters"
+    },
+    {
       "key": "quest.sq_criers_news.s1",
       "value": "Put down six of the road's men"
     },
@@ -2793,6 +2893,18 @@
       "value": "The Seam Nobody Works"
     },
     {
+      "key": "quest.sq_iron_tithe.s1",
+      "value": "Take four bars of iron from the keep's stores"
+    },
+    {
+      "key": "quest.sq_iron_tithe.summary",
+      "value": "Sabel's forge runs on honest iron. The keep's vault still holds bar stock bought with Greymarch silver; bring her four bars and she will call it reclaimed, not stolen."
+    },
+    {
+      "key": "quest.sq_iron_tithe.title",
+      "value": "Iron That Was Paid For"
+    },
+    {
       "key": "quest.sq_miras_wagon.s1",
       "value": "Bring Mira five measures of iron"
     },
@@ -2823,6 +2935,18 @@
     {
       "key": "quest.sq_oonas_letter.title",
       "value": "A Letter for the Valley"
+    },
+    {
+      "key": "quest.sq_pay_roll.s1",
+      "value": "Bring the deserters' pay-roll from the keep's vestibule stores to Maren"
+    },
+    {
+      "key": "quest.sq_pay_roll.summary",
+      "value": "The manifest says someone paid Durn's garrison in coin that is not Ash Line issue. The deserters' pay-roll is still in the vestibule stores; Maren needs it to name the hand behind it."
+    },
+    {
+      "key": "quest.sq_pay_roll.title",
+      "value": "Who Paid the Deserters"
     },
     {
       "key": "quest.sq_porters_load.s1",
@@ -2867,6 +2991,18 @@
     {
       "key": "quest.sq_roofline.title",
       "value": "Before the Rain"
+    },
+    {
+      "key": "quest.sq_salt_share.s1",
+      "value": "Bring Iskra three cuts of salt meat from the keep"
+    },
+    {
+      "key": "quest.sq_salt_share.summary",
+      "value": "Iskra heard the deserters' stores still hold Crown salt meat. A village eats what a fort no longer needs: three cuts, and no questions about where they hung."
+    },
+    {
+      "key": "quest.sq_salt_share.title",
+      "value": "Salt That Isn't Theirs"
     },
     {
       "key": "quest.sq_shepherds_distance.s1",
@@ -2927,6 +3063,18 @@
     {
       "key": "quest.sq_tally.title",
       "value": "Sixty Years of Names"
+    },
+    {
+      "key": "quest.sq_tallybook.s1",
+      "value": "Find Roane's tally-book in the keep's corridor"
+    },
+    {
+      "key": "quest.sq_tallybook.summary",
+      "value": "Roane kept the keep's tally-book against the day someone asked to see honest numbers. He dropped it in the corridor when the clerks scattered; bring it back and he will read you what the deserters never wanted written."
+    },
+    {
+      "key": "quest.sq_tallybook.title",
+      "value": "The Clerk's Tally"
     },
     {
       "key": "quest.sq_unmarked_boots.s1",
@@ -3205,6 +3353,10 @@
       "value": "Pell the Crier"
     },
     {
+      "key": "speaker.reckoner",
+      "value": "Line Reckoner"
+    },
+    {
       "key": "speaker.refugee",
       "value": "Nessa Aldwin"
     },
@@ -3219,6 +3371,10 @@
     {
       "key": "speaker.sabel",
       "value": "Sabel Orr"
+    },
+    {
+      "key": "speaker.straggler",
+      "value": "Line Straggler"
     },
     {
       "key": "speaker.surveyor",

@@ -1559,6 +1559,216 @@
         "reputation": 6
       },
       "giverScene": "Greymarch"
+    },
+    {
+      "id": "sq_iron_tithe",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.sabel",
+      "giverScene": "Greymarch",
+      "title": {
+        "en": "Iron That Was Paid For",
+        "id": "Besi yang Sudah Dibayar"
+      },
+      "summary": {
+        "en": "Sabel's forge runs on honest iron. The keep's vault still holds bar stock bought with Greymarch silver; bring her four bars and she will call it reclaimed, not stolen.",
+        "id": "Tempaan Sabel hidup dari besi jujur. Gudang benteng masih menyimpan batangan yang dibeli dengan perak Greymarch; bawakan empat batang dan ia akan menyebutnya ditebus, bukan dicuri."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take four bars of iron from the keep's stores",
+            "id": "Ambil empat batang besi dari gudang benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "mat_iron",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.iron_tithe.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 40,
+        "items": [
+          "ring_iron"
+        ],
+        "faction": "salt",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_salt_share",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.iskra",
+      "giverScene": "Rennfall",
+      "title": {
+        "en": "Salt That Isn't Theirs",
+        "id": "Garam yang Bukan Milik Mereka"
+      },
+      "summary": {
+        "en": "Iskra heard the deserters' stores still hold Crown salt meat. A village eats what a fort no longer needs: three cuts, and no questions about where they hung.",
+        "id": "Iskra mendengar gudang para pembelot masih menyimpan daging garam milik Mahkota. Desa memakan apa yang tak lagi dibutuhkan benteng: tiga potong, dan tak ada yang bertanya dari mana daging itu digantung."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring Iskra three cuts of salt meat from the keep",
+            "id": "Bawakan Iskra tiga potong daging garam dari benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "food_salt_meat",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.salt.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 18,
+        "items": [
+          "amulet_bone"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_back_count",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.dace",
+      "giverScene": "Greymarch",
+      "title": {
+        "en": "Counting Deserters",
+        "id": "Menghitung Pembelot"
+      },
+      "summary": {
+        "en": "Dace cannot ask the Line to march on its own deserters. But a Warden's tally is read in the record house: put down eight of the keep's garrison and he will write the number where it has to be seen.",
+        "id": "Dace tak bisa meminta Barisan menyerbu pembelotnya sendiri. Tapi hitungan seorang Warden dibaca di ruang arsip: tumbangkan delapan garnisun benteng dan ia akan menulis angkanya di tempat yang harus dibaca."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Put down eight deserters of the keep's garrison",
+            "id": "Tumbangkan delapan pembelot garnisun benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.deserter",
+              "amount": 8
+            }
+          ],
+          "setsFlag": "sq.backs.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 45,
+        "items": [
+          "bow_hunter"
+        ],
+        "faction": "ash",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tallybook",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.roane_spared",
+      "giver": "speaker.roane",
+      "giverScene": "Keep",
+      "title": {
+        "en": "The Clerk's Tally",
+        "id": "Buku Hitungan Juru Tulis"
+      },
+      "summary": {
+        "en": "Roane kept the keep's tally-book against the day someone asked to see honest numbers. He dropped it in the corridor when the clerks scattered; bring it back and he will read you what the deserters never wanted written.",
+        "id": "Roane menyimpan buku hitungan benteng untuk hari ketika seseorang meminta angka yang jujur. Ia menjatuhkannya di koridor saat para juru tulis cerai-berai; kembalikan dan ia akan membacakan apa yang tak pernah ingin ditulis para pembelot."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find Roane's tally-book in the keep's corridor",
+            "id": "Temukan buku hitungan Roane di koridor benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_roane_tally",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.tallybook.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "trinket_root_ring"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_pay_roll",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.manifest_delivered",
+      "giver": "speaker.maren",
+      "giverScene": "Rennfall",
+      "title": {
+        "en": "Who Paid the Deserters",
+        "id": "Siapa yang Membayar Pembelot"
+      },
+      "summary": {
+        "en": "The manifest says someone paid Durn's garrison in coin that is not Ash Line issue. The deserters' pay-roll is still in the vestibule stores; Maren needs it to name the hand behind it.",
+        "id": "Manifest menyebut seseorang membayar garnisun Durn dengan koin yang bukan terbitan Barisan Abu. Daftar gaji para pembelot masih ada di gudang vestibul; Maren membutuhkannya untuk menamai tangan di baliknya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring the deserters' pay-roll from the keep's vestibule stores to Maren",
+            "id": "Bawa daftar gaji para pembelot dari gudang vestibul benteng kepada Maren"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_pay_roll",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.payroll.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 50,
+        "items": [
+          "amulet_silver"
+        ],
+        "faction": "ash",
+        "reputation": 8
+      }
     }
   ]
 }

@@ -1,0 +1,92 @@
+{
+  "id": "event_line_stragglers",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "straggler",
+      "text": {
+        "en": "Warden. We were the keep's watch once — the ones who walked out before Durn locked the doors. We heard the valley keeps a fire for anyone the Line wrote off.",
+        "id": "Warden. Kami pernah menjadi penjaga benteng — yang berjalan keluar sebelum Durn mengunci pintu-pintunya. Kami dengar lembah ini menyalakan api bagi siapa pun yang dihapus Barisan."
+      },
+      "next": "s2"
+    },
+    {
+      "id": "s2",
+      "speaker": "straggler",
+      "text": {
+        "en": "We won't lie about what we are. We stood that wall while the paymaster's wagons turned south, and we ate their salt. We're asking for the fire's edge, not a pardon.",
+        "id": "Kami takkan berbohong tentang siapa kami. Kami berjaga di tembok itu saat pedati bendahara berbelok ke selatan, dan kami memakan garam mereka. Kami meminta tepi apimu, bukan ampunan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Bread from the watch's sack, and the fire's edge until first light.",
+            "id": "Roti dari karung penjaga, dan tepi api sampai fajar."
+          },
+          "next": "s3a",
+          "tone": "mercy",
+          "costCoin": 12,
+          "setFlag": "act2.stragglers_fed",
+          "faction": "hearth",
+          "reputation": 6
+        },
+        {
+          "text": {
+            "en": "The road south is yours. The valley isn't.",
+            "id": "Jalan ke selatan milikmu. Lembah ini bukan."
+          },
+          "next": "s3b",
+          "tone": "iron",
+          "setFlag": "act2.stragglers_sent",
+          "faction": "ash",
+          "reputation": 6
+        },
+        {
+          "text": {
+            "en": "Stay. But first you tell me what the keep's stores still hold.",
+            "id": "Tetaplah. Tapi pertama kau ceritakan apa yang masih disimpan gudang benteng."
+          },
+          "next": "s3c",
+          "tone": "guile",
+          "setFlag": "act2.stragglers_quartered"
+        }
+      ]
+    },
+    {
+      "id": "s3a",
+      "speaker": "straggler",
+      "text": {
+        "en": "You feed deserters. Maybe that's the thing Durn was afraid of. We'll be smoke by morning — but the count stays, Warden. Eight went into that keep who aren't written anywhere.",
+        "id": "Kau memberi makan pembelot. Mungkin itulah yang ditakuti Durn. Kami akan jadi asap saat fajar — tapi hitungannya tetap, Warden. Delapan orang masuk ke benteng itu yang tak tertulis di mana pun."
+      },
+      "setFlags": [
+        "event.line_stragglers.done"
+      ]
+    },
+    {
+      "id": "s3b",
+      "speaker": "straggler",
+      "text": {
+        "en": "South, then. For whatever it's worth — the paymaster's mark was a left hand, Warden. Watch for it on any paper that promises more than it owes.",
+        "id": "Ke selatan, kalau begitu. Sekadar tambahan — tanda bendahara itu adalah tangan kiri, Warden. Waspadalah pada kertas apa pun yang menjanjikan lebih dari hutangnya."
+      },
+      "setFlags": [
+        "act2.paymaster_hinted",
+        "event.line_stragglers.done"
+      ]
+    },
+    {
+      "id": "s3c",
+      "speaker": "straggler",
+      "text": {
+        "en": "Iron bars and salt, what's left of it — the wagons took the best of it south weeks before we walked. If you want the name of where they went, ask who paid for the road they took.",
+        "id": "Batang besi dan garam, sisa yang masih ada — pedati membawa yang terbaik ke selatan berminggu-minggu sebelum kami pergi. Kalau kau mau nama tempat tujuan mereka, tanyakan siapa yang membayar jalan yang mereka ambil."
+      },
+      "setFlags": [
+        "act2.wagons_hinted",
+        "event.line_stragglers.done"
+      ]
+    }
+  ]
+}

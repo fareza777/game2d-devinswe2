@@ -51,6 +51,7 @@ namespace Oathfire.EditorTools
             BuildClerk(map.At(at.villagers[0]));
             BuildManifest(map.At(new MapScene.CellRef { x = 12, y = 48 }), deserters);
             BuildStores(map, at);
+            BuildStrewnRecords(map, at);
             MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.keepOut", "");
 
             MapScene.SetUpUi(includeContractBoard: false);
@@ -194,6 +195,21 @@ namespace Oathfire.EditorTools
             MapScene.BuildSearchSpot("The sealed manifest", position, "keep_manifest", "Misc B8_E",
                 "quest_keep_manifest", "act2.manifest_found", "act2.durn_defeated",
                 guardians, 2, "event.keep.vault");
+        }
+
+        /// <summary>
+        /// Two small finds for side work: Roane's tally-book, dropped in the corridor the day the clerks
+        /// scattered (worth looking for only once he has been spared and asks for it), and the deserters'
+        /// pay-roll in the vestibule stores, which Maren wants brought back for the count.
+        /// </summary>
+        static void BuildStrewnRecords(MapScene.MapFile map, MapScene.MapAnchors at)
+        {
+            if (at.arrivals != null && at.arrivals.Length > 1)
+                MapScene.BuildSearchSpot("Roane's tally-book", map.At(at.arrivals[1]) + new Vector3(-0.55f, 0.25f, 0f),
+                    "keep_tally", "Misc A1_E", "quest_roane_tally", "act2.tally_found", "quest.sq_tallybook.taken");
+            if (at.timber != null && at.timber.Length > 1)
+                MapScene.BuildSearchSpot("Deserter pay-roll", map.At(at.timber[1]) + new Vector3(-0.6f, 0.25f, 0f),
+                    "keep_pay", "Misc A2_E", "quest_pay_roll", "act2.payroll_found", "quest.sq_pay_roll.taken");
         }
 
         /// <summary>What the keep was built to hold: iron in the vault, salt meat in the vestibule.</summary>

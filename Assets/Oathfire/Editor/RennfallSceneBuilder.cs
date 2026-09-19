@@ -168,6 +168,21 @@ namespace Oathfire.EditorTools
                 _ => 1f,
             };
 
+            // People who live here do not stand rooted to one tile: everyone drifts a little around their
+            // post. Brann keeps closest to the hearth he tends; Wick the lamp boy covers the most ground.
+            var wanderer = villager.AddComponent<World.NpcWanderer>();
+            var wander = new SerializedObject(wanderer);
+            wander.FindProperty("radius").floatValue = name switch
+            {
+                "Brann Hollowell" => 1.6f,
+                "Inspector Maren" => 2.0f,
+                "Wick" => 3.2f,
+                "Old Winna" => 1.8f,
+                _ => 2.4f,
+            };
+            wander.FindProperty("walkSpeed").floatValue = name == "Wick" ? 1.15f : 0.8f;
+            wander.ApplyModifiedPropertiesWithoutUndo();
+
             var serialized = new SerializedObject(villager.AddComponent<NpcDialogue>());
             serialized.FindProperty("speakerKey").stringValue = speakerKey;
             SerializedProperty conversations = serialized.FindProperty("conversations");

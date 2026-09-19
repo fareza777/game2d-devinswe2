@@ -457,6 +457,38 @@
       "value": "Akan saya catat sebagai pemukiman yang tak mampu menyediakan catatan. Itu kata yang lebih kecil daripada penolakan. Hanya itu kebaikan yang bisa saya berikan, dan saya membayarnya."
     },
     {
+      "key": "dlg.event_ash_reckoner.r1",
+      "value": "Warden. Barisan menyimpan buku seperti pasukan lain menyimpan makam — semuanya terhitung, tak ada yang diratapi. Laporan inspekturmu sampai ke rumah hitung, dan aku dikirim untuk menyelesaikan pembukuan benteng."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2",
+      "value": "Ada satu hutang yang belum lunas — tiga puluh perak upah saksi untuk manifest itu. Dan satu pertanyaan yang lebih suka tak kutulis di rumah hitung, yang berarti harus kutanyakan dua kali: di mana juru tulis Roane?"
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2.c1",
+      "value": "Juru tulis itu? Mati di benteng. Kulihat mayatnya sendiri."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2.c2",
+      "value": "Tanyakan pada daftar juru tulis di Greymarch. Mereka menyimpan nama yang masih hidup."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r2.c3",
+      "value": "Bayar upahnya, juru hitung. Pembukuan lembah ini urusan lembah."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r3a",
+      "value": "Orang mati menyimpan buku terbaik — tak ada lagi yang perlu ditakuti. Maka pembukuannya lunas di angka tiga puluh, dan sebuah nama dicoret pensil. Ini upahmu, Warden."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r3b",
+      "value": "Daftar yang masih hidup. Mereka akan menyukai ungkapan itu di rumah hitung — terdengar seperti kebijakan. Upahmu, Warden, dan satu kata gratis: siapa pun yang membeli pedati benteng akan menginginkan buku lembah ini juga."
+    },
+    {
+      "key": "dlg.event_ash_reckoner.r3c",
+      "value": "Jawaban singkat tetap jawaban, dalam pekerjaanku. Tiga puluh perak, dan kutulis lembah ini tak membantu tapi jujur — rumah hitung membacanya sebagai pujian."
+    },
+    {
       "key": "dlg.event_keep_deserter.d1",
       "value": "Warden. Roane — aku penjaga buku di benteng, sebelum kau membiarkanku pergi. Orang-orangmu bilang orang yang bekerja boleh tinggal untuk makan."
     },
@@ -479,6 +511,38 @@
     {
       "key": "dlg.event_keep_deserter.d3b",
       "value": "Adil. Lebih dari adil. Sebagai tambahan — bendahara di manifest itu menandatangani dengan tangan kiri. Perhatikan tangannya, bukan namanya."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s1",
+      "value": "Warden. Kami pernah menjadi penjaga benteng — yang berjalan keluar sebelum Durn mengunci pintu-pintunya. Kami dengar lembah ini menyalakan api bagi siapa pun yang dihapus Barisan."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2",
+      "value": "Kami takkan berbohong tentang siapa kami. Kami berjaga di tembok itu saat pedati bendahara berbelok ke selatan, dan kami memakan garam mereka. Kami meminta tepi apimu, bukan ampunan."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2.c1",
+      "value": "Roti dari karung penjaga, dan tepi api sampai fajar."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2.c2",
+      "value": "Jalan ke selatan milikmu. Lembah ini bukan."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s2.c3",
+      "value": "Tetaplah. Tapi pertama kau ceritakan apa yang masih disimpan gudang benteng."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s3a",
+      "value": "Kau memberi makan pembelot. Mungkin itulah yang ditakuti Durn. Kami akan jadi asap saat fajar — tapi hitungannya tetap, Warden. Delapan orang masuk ke benteng itu yang tak tertulis di mana pun."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s3b",
+      "value": "Ke selatan, kalau begitu. Sekadar tambahan — tanda bendahara itu adalah tangan kiri, Warden. Waspadalah pada kertas apa pun yang menjanjikan lebih dari hutangnya."
+    },
+    {
+      "key": "dlg.event_line_stragglers.s3c",
+      "value": "Batang besi dan garam, sisa yang masih ada — pedati membawa yang terbaik ke selatan berminggu-minggu sebelum kami pergi. Kalau kau mau nama tempat tujuan mereka, tanyakan siapa yang membayar jalan yang mereka ambil."
     },
     {
       "key": "dlg.event_manifest_buyer.c1",
@@ -1193,6 +1257,10 @@
       "value": "Seorang penunggang Barisan Abu menyusuri jalan lembah."
     },
     {
+      "key": "event.ash_reckoner.banner",
+      "value": "Seorang juru tulis berabu Barisan menurunkan kotak lak berisi catatan di tepi desa."
+    },
+    {
       "key": "event.goSpeak",
       "value": "Temui dan ajak bicara"
     },
@@ -1223,6 +1291,10 @@
     {
       "key": "event.keep_deserter.banner",
       "value": "Seorang berserban terkoyak mengikuti jalan pulang."
+    },
+    {
+      "key": "event.line_stragglers.banner",
+      "value": "Dua sosok keabu-abuan keluar dari gelap, tangan terbuka dan terangkat."
     },
     {
       "key": "event.manifest_buyer.banner",
@@ -1981,6 +2053,22 @@
       "value": "Surat Perintah Tersegel Barisan Abu"
     },
     {
+      "key": "item.quest_pay_roll.desc",
+      "value": "Segulung bon gaji bertuliskan tangan yang bukan terbitan Barisan Abu, masing-masing berstempel tanda tangan kiri yang sama."
+    },
+    {
+      "key": "item.quest_pay_roll.name",
+      "value": "Daftar Gaji Pembelot"
+    },
+    {
+      "key": "item.quest_roane_tally.desc",
+      "value": "Buku hitungan juru tulis, punggungnya retak karena dilempar. Halaman-halamannya masih menjumlahkan setiap batang besi yang pernah disimpan benteng."
+    },
+    {
+      "key": "item.quest_roane_tally.name",
+      "value": "Buku Hitungan Roane"
+    },
+    {
       "key": "item.quest_testament.desc",
       "value": "Menyerahkan Lembah Rennfall kepada Kael Voss. Klausul keempatnya ditulis dengan tulisan tangan yang berbeda."
     },
@@ -2737,6 +2825,18 @@
       "value": "Kembali ke {0}"
     },
     {
+      "key": "quest.sq_back_count.s1",
+      "value": "Tumbangkan delapan pembelot garnisun benteng"
+    },
+    {
+      "key": "quest.sq_back_count.summary",
+      "value": "Dace tak bisa meminta Barisan menyerbu pembelotnya sendiri. Tapi hitungan seorang Warden dibaca di ruang arsip: tumbangkan delapan garnisun benteng dan ia akan menulis angkanya di tempat yang harus dibaca."
+    },
+    {
+      "key": "quest.sq_back_count.title",
+      "value": "Menghitung Pembelot"
+    },
+    {
       "key": "quest.sq_criers_news.s1",
       "value": "Tumbangkan enam perampok jalan"
     },
@@ -2793,6 +2893,18 @@
       "value": "Urat Besi yang Tak Digarap"
     },
     {
+      "key": "quest.sq_iron_tithe.s1",
+      "value": "Ambil empat batang besi dari gudang benteng"
+    },
+    {
+      "key": "quest.sq_iron_tithe.summary",
+      "value": "Tempaan Sabel hidup dari besi jujur. Gudang benteng masih menyimpan batangan yang dibeli dengan perak Greymarch; bawakan empat batang dan ia akan menyebutnya ditebus, bukan dicuri."
+    },
+    {
+      "key": "quest.sq_iron_tithe.title",
+      "value": "Besi yang Sudah Dibayar"
+    },
+    {
       "key": "quest.sq_miras_wagon.s1",
       "value": "Bawakan Mira lima bagian besi"
     },
@@ -2823,6 +2935,18 @@
     {
       "key": "quest.sq_oonas_letter.title",
       "value": "Surat untuk Lembah"
+    },
+    {
+      "key": "quest.sq_pay_roll.s1",
+      "value": "Bawa daftar gaji para pembelot dari gudang vestibul benteng kepada Maren"
+    },
+    {
+      "key": "quest.sq_pay_roll.summary",
+      "value": "Manifest menyebut seseorang membayar garnisun Durn dengan koin yang bukan terbitan Barisan Abu. Daftar gaji para pembelot masih ada di gudang vestibul; Maren membutuhkannya untuk menamai tangan di baliknya."
+    },
+    {
+      "key": "quest.sq_pay_roll.title",
+      "value": "Siapa yang Membayar Pembelot"
     },
     {
       "key": "quest.sq_porters_load.s1",
@@ -2867,6 +2991,18 @@
     {
       "key": "quest.sq_roofline.title",
       "value": "Sebelum Hujan"
+    },
+    {
+      "key": "quest.sq_salt_share.s1",
+      "value": "Bawakan Iskra tiga potong daging garam dari benteng"
+    },
+    {
+      "key": "quest.sq_salt_share.summary",
+      "value": "Iskra mendengar gudang para pembelot masih menyimpan daging garam milik Mahkota. Desa memakan apa yang tak lagi dibutuhkan benteng: tiga potong, dan tak ada yang bertanya dari mana daging itu digantung."
+    },
+    {
+      "key": "quest.sq_salt_share.title",
+      "value": "Garam yang Bukan Milik Mereka"
     },
     {
       "key": "quest.sq_shepherds_distance.s1",
@@ -2927,6 +3063,18 @@
     {
       "key": "quest.sq_tally.title",
       "value": "Enam Puluh Tahun Nama"
+    },
+    {
+      "key": "quest.sq_tallybook.s1",
+      "value": "Temukan buku hitungan Roane di koridor benteng"
+    },
+    {
+      "key": "quest.sq_tallybook.summary",
+      "value": "Roane menyimpan buku hitungan benteng untuk hari ketika seseorang meminta angka yang jujur. Ia menjatuhkannya di koridor saat para juru tulis cerai-berai; kembalikan dan ia akan membacakan apa yang tak pernah ingin ditulis para pembelot."
+    },
+    {
+      "key": "quest.sq_tallybook.title",
+      "value": "Buku Hitungan Juru Tulis"
     },
     {
       "key": "quest.sq_unmarked_boots.s1",
@@ -3205,6 +3353,10 @@
       "value": "Pell si Juru Teriak"
     },
     {
+      "key": "speaker.reckoner",
+      "value": "Juru Hitung Barisan"
+    },
+    {
       "key": "speaker.refugee",
       "value": "Nessa Aldwin"
     },
@@ -3219,6 +3371,10 @@
     {
       "key": "speaker.sabel",
       "value": "Sabel Orr"
+    },
+    {
+      "key": "speaker.straggler",
+      "value": "Sisa Barisan"
     },
     {
       "key": "speaker.surveyor",
