@@ -33,9 +33,6 @@ EditorBuildSettings:
     path: Assets/Oathfire/Scenes/Keep.unity
     guid: 498a16c0f0cf4bd098630d0056913bce
   - enabled: 1
-    path: Assets/Oathfire/Scenes/Grange.unity
-    guid: 96854744da2d2001ea047d6c2f563a15
-  - enabled: 1
     path: Assets/Oathfire/Scenes/Saltpans.unity
     guid: 18e764ea9ebef800f937dafe6634e85f
   m_configObjects:
