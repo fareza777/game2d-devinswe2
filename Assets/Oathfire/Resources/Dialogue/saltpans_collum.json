@@ -1,11 +1,11 @@
 {
-  "id": "grange_collum",
+  "id": "saltpans_collum",
   "startNode": "c1",
   "nodes": [
     {
       "id": "c1",
       "speaker": "collum",
-      "textKey": "dlg.grange_collum.c1",
+      "textKey": "dlg.saltpans_collum.c1",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -18,7 +18,7 @@
     {
       "id": "c2",
       "speaker": "collum",
-      "textKey": "dlg.grange_collum.c2",
+      "textKey": "dlg.saltpans_collum.c2",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -31,7 +31,7 @@
     {
       "id": "c3",
       "speaker": "collum",
-      "textKey": "dlg.grange_collum.c3",
+      "textKey": "dlg.saltpans_collum.c3",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],

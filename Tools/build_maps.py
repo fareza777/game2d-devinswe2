@@ -31,10 +31,8 @@ SCENES = {
     # The old iron keep north of Greymarch: the pack's walled great hall stands alone at the map's edge,
     # so the build adds its own approach — a bare forecourt on the rise and a breach in the vestibule wall.
     "keep": {"region": (-158, -135, -116, -66), "plaza": 3, "style": "keep"},
-    # Saltwold Grange: the Salt League's walled weigh-court, cut from the example map's tithe-barn
-    # compound — a gatehouse lane off the west wall, then the market court under the manor terrace.
-    # The farm fields south of the channel are the League's own land: kept as backdrop beyond the walls.
-    "grange": {"region": (32, 92, -46, 20), "plaza": 2, "style": "grange"},
+    # (The Salt League's side-quest ground, the Saltpans, is composed from scratch in
+    # compose_saltpans.py — nothing here cuts a region for it.)
 }
 
 
@@ -140,7 +138,7 @@ def road_anchors(walkable: set[tuple[int, int]]) -> dict:
                    if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 6 for t in taken)),
                   ordered[3 * len(ordered) // 4])
     # The League's weigh-court lane: off the road early, before the ambush — a toll lane that answers
-    # to the grange's walls, not the keep's silence. Maren's writ names it once the manifest is read.
+    # to the pans' low fire, not the keep's silence. Maren's writ names it once the manifest is read.
     taken.append(trail2)
     trail3 = next((cell for cell in ordered[len(ordered) // 5:len(ordered) // 3]
                    if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 6 for t in taken)),
@@ -381,117 +379,10 @@ def keep_anchors(layers: list[dict], walkable: set[tuple[int, int]]) -> dict:
     }
 
 
-def grange_approach(layers: list[dict]) -> None:
-    """Opens the grange's west gate and the barn bays; dresses the lane the gleaners wait in.
-
-    The example map runs the compound as set dressing: the gatehouse doors are leaves glued to wall
-    cells, and the barn bays are arch-fronted stalls sealed by Door objects. Cutting them open turns
-    the court into somewhere that works. Region-relative cells: x' = x - 32, y' = y + 46.
-    """
-    objects = next(layer for layer in layers if layer["name"] == "Objects")
-    walls = next(layer for layer in layers if layer["name"] == "Walls")
-    collider_layers = [layer for layer in layers if layer["name"].startswith("Collider")]
-
-    # The gatehouse pair, abs (39,-35)/(39,-34): wall faces with Door C5_S leaves pinned on. Open —
-    # the League wants the court working again, not sealed. Abs -> rel (7, 11), (7, 12).
-    for cell in ((7, 11), (7, 12)):
-        objects["cells"].pop(cell, None)
-        walls["cells"].pop(cell, None)
-        for layer in collider_layers:
-            layer["cells"].pop(cell, None)
-
-    # Two barn bays along the yard's south face lose their rusted leaves: the arches stay, so they read
-    # as open stall mouths. Abs (58,-18)/(66,-18) -> rel (26, 28), (34, 28). The third bay's lock held.
-    for cell in ((26, 28), (34, 28)):
-        objects["cells"].pop(cell, None)
-        for layer in collider_layers:
-            layer["cells"].pop(cell, None)
-
-    # The lane the gleaners are camped in: a handcart that never made the gate, and their watch-fire
-    # below the wall. Abs (34,-30)/(35,-37) -> rel (2, 16), (3, 9).
-    objects["cells"][(2, 16)] = "Misc B5_E"
-    objects["cells"][(3, 9)] = "Misc C8_S"
-    objects["cells"][(4, 10)] = "Misc B45_N"
 
 
-def grange_ground(layers: list[dict]) -> set[tuple[int, int]]:
-    """Walkable cells for a walled working court: ground minus colliders, wall faces and props.
-
-    The shared open_ground treats every tile named Wall*/Roof*/Door*/Tree* as a stopper, which is right
-    for the hollow and the keep but wrong here: roof tiles sit on Roof layers above covered ways (the
-    gatehouse tunnel is one), and Wall C6/D6 arches are open doorways the pack leaves passable until
-    doors.py pins a leaf on them. Blocking by layer instead: colliders, the real wall layer (less the
-    arches), standing props, and trees.
-    """
-    ground, blocked = set(), set()
-    arch = ("Wall C6", "Wall D6", "Wall D11")
-    props = ("Chest", "FirePlace", "Brazier", "Door", "Misc", "Stone", "Table", "Torch", "Cart", "Tree")
-    for layer in layers:
-        name = layer["name"]
-        for cell, tile in layer["cells"].items():
-            if name.startswith("Ground"):
-                ground.add(cell)
-            elif name.startswith("Collider"):
-                blocked.add(cell)
-            elif name in ("Walls", "BrokenObjects"):
-                if not tile.startswith(arch):
-                    blocked.add(cell)
-            elif name in ("Objects", "WallDetail1", "WallDetail2"):
-                if tile.startswith(props) and not tile.startswith(arch):
-                    blocked.add(cell)
-    return ground - blocked
 
 
-def grange_anchors(layers: list[dict], walkable: set[tuple[int, int]]) -> dict:
-    """Places the grange's anchors up its spine: lane, gatehouse, weigh-court, bays, terrace.
-
-    The compound was a walled tithe-barn in the example map — two districts (lane, court) that only
-    the opened gate joins. Anchors are pinned to named rooms the way the keep's were, and every one
-    is proven reachable by walking from the lane's top.
-    """
-    from collections import deque
-
-    def nearest_walkable(target):
-        return min(walkable, key=lambda c: (c[0] - target[0]) ** 2 + (c[1] - target[1]) ** 2)
-
-    arrival = nearest_walkable((34 - 32, -45 + 46))
-    dist = {arrival: 0}
-    queue = deque([arrival])
-    while queue:
-        cell = queue.popleft()
-        for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
-            nxt = (cell[0] + dx, cell[1] + dy)
-            if nxt in walkable and nxt not in dist:
-                dist[nxt] = dist[cell] + 1
-                queue.append(nxt)
-    reachable = set(dist)
-    print(f"[grange] {len(reachable)} of {len(walkable)} cells reachable from the lane")
-
-    def near(abs_x, abs_y):
-        return min(reachable, key=lambda c: (c[0] - (abs_x - 32)) ** 2 + (c[1] - (abs_y + 46)) ** 2)
-
-    point = lambda cell: {"x": cell[0], "y": cell[1]}
-    return {
-        # In at the lane's top, out the way you came.
-        "player": point(near(34, -45)),
-        "roadOut": point(near(33, -46)),
-        # The brazier corner of the weigh-floor, where the factor's people warm themselves.
-        "hearth": point(near(47, -21)),
-        # villagers: Factor Hask at the weigh stalls, Reeve Collum by the bays, Old Mirren at the fire,
-        # Tess among the gleaners in the lane, Gate-warden Lene inside the gatehouse.
-        "villagers": [point(near(57, -31)), point(near(56, -17)), point(near(46, -22)),
-                      point(near(35, -36)), point(near(41, -33))],
-        # arrivals: the bay foragers' fight (between the opened stalls), the weigh-floor's middle,
-        # the sack terrace under the manor.
-        "arrivals": [point(near(60, -19)), point(near(56, -29)), point(near(72, -27))],
-        # timber (search spots): inside the two opened bays, the sack row, the manor terrace where the
-        # missing key-warden was last seen — then four cells where grain gets spilled and stays spilled.
-        "timber": [point(near(59, -16)), point(near(67, -16)), point(near(68, -26)), point(near(70, -40)),
-                   point(near(60, -24)), point(near(52, -22)), point(near(70, -30)), point(near(44, -25))],
-        # stone (porters' wander homes): two knots on the weigh-floor.
-        "stone": [point(near(58, -28)), point(near(63, -32))],
-        "plots": [],
-    }
 
 
 PLAIN_EARTH = ["Ground A1_E", "Ground A1_N", "Ground A1_S", "Ground A1_W"]
@@ -546,9 +437,6 @@ def build(name: str, spec: dict, scratch: Path) -> None:
     if spec.get("style") == "keep":
         keep_approach(layers)
         print(f"[{name}] paved the forecourt and breached the vestibule wall")
-    if spec.get("style") == "grange":
-        grange_approach(layers)
-        print(f"[{name}] opened the west gate and the barn bays")
     named = {layer["name"]: layer["cells"] for layer in layers}
     dropped = drop_unknown_tiles(named)
     missing = [entry for entry in check_tiles(named) if not entry.startswith("?")]
@@ -556,12 +444,10 @@ def build(name: str, spec: dict, scratch: Path) -> None:
         raise SystemExit("tiles the pack does not have: " + ", ".join(missing))
     print(f"[{name}] dropped {dropped} cells the example scene left as unresolved tiles")
     walkable = open_ground(layers)
-    if spec.get("style") == "grange":
-        walkable = grange_ground(layers)
     if spec.get("style") == "keep":
         # The vault's doorway is a Wall D11 arch: it renders a doorframe but has no collider under it.
         walkable.add((13, 44))
-    if spec.get("style") in ("hollow", "keep", "grange"):
+    if spec.get("style") in ("hollow", "keep"):
         fenced = fence_edges(layers, walkable)
         print(f"[{name}] fenced {fenced} open edges so nobody walks off into the void")
     towards = built_centre(layers) if spec.get("style") == "settlement" else None
@@ -574,8 +460,6 @@ def build(name: str, spec: dict, scratch: Path) -> None:
         anchors = hollow_anchors(layers, walkable)
     elif spec.get("style") == "keep":
         anchors = keep_anchors(layers, walkable)
-    elif spec.get("style") == "grange":
-        anchors = grange_anchors(layers, walkable)
     else:
         anchors = pick_anchors(walkable, plaza or (30, 30))
     payload = {

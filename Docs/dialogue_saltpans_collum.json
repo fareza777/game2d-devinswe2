@@ -1,0 +1,32 @@
+{
+  "id": "saltpans_collum",
+  "startNode": "c1",
+  "nodes": [
+    {
+      "id": "c1",
+      "speaker": "collum",
+      "text": {
+        "en": "Count with me. One hundred twelve loads drawn off the crust, one hundred nine entered, three sticks gone. The books cannot say whose salt walked out until the sticks are found — and a book that cannot say is a book that lies.",
+        "id": "Hitung bersamaku. Seratus dua belas muatan diangkat dari kerak, seratus sembilan tercatat, tiga tongkat hilang. Pembukuan tak bisa memastikan garam siapa yang berjalan keluar sampai tongkat-tongkat itu ditemukan — dan buku yang tak bisa memastikan adalah buku yang berdusta."
+      },
+      "next": "c2"
+    },
+    {
+      "id": "c2",
+      "speaker": "collum",
+      "text": {
+        "en": "Each stick is split and notched twice — porter's knife on one side, mine on the other. The night crews dropped them by the pans when the salt-thieves came through. Find me three and the count closes.",
+        "id": "Tiap tongkat dibelah dan diparut dua kali — pisau porter di satu sisi, punyaku di sisi lain. Kru malam menjatuhkannya di tepi petak saat para pencuri lewat. Temukan tiga dan hitungannya tutup."
+      },
+      "next": "c3"
+    },
+    {
+      "id": "c3",
+      "speaker": "collum",
+      "text": {
+        "en": "Hask weighs. I count. Do not confuse them — he prices what crossed the track, I record what stayed.",
+        "id": "Hask menimbang. Aku menghitung. Jangan tertukar — dia menghargai apa yang melewati jejak, aku mencatat apa yang tertinggal."
+      }
+    }
+  ]
+}

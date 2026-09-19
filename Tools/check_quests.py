@@ -25,7 +25,7 @@ BUILDER_FOR_SCENE = {
     "Greymarch": "GreymarchSceneBuilder.cs",
     "Hollow": "HollowSceneBuilder.cs",
     "Keep": "KeepSceneBuilder.cs",
-    "Grange": "GrangeSceneBuilder.cs",
+    "Saltpans": "SaltpansSceneBuilder.cs",
 }
 
 

@@ -1,11 +1,11 @@
 {
-  "id": "grange_boru",
+  "id": "saltpans_boru",
   "startNode": "b1",
   "nodes": [
     {
       "id": "b1",
       "speaker": "boru",
-      "textKey": "dlg.grange_boru.b1",
+      "textKey": "dlg.saltpans_boru.b1",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],

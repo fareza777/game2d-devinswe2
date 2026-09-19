@@ -1,37 +1,24 @@
 {
-  "id": "grange_hask",
-  "startNode": "h1",
+  "id": "saltpans_tess",
+  "startNode": "t1",
   "nodes": [
     {
-      "id": "h1",
-      "speaker": "hask",
-      "textKey": "dlg.grange_hask.h1",
+      "id": "t1",
+      "speaker": "tess",
+      "textKey": "dlg.saltpans_tess.t1",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "h2",
+      "next": "t2",
       "choices": []
     },
     {
-      "id": "h2",
-      "speaker": "hask",
-      "textKey": "dlg.grange_hask.h2",
-      "voiceClip": "",
-      "mood": "",
-      "setFlags": [],
-      "giveItems": [],
-      "takeItems": [],
-      "giveCoin": 0,
-      "next": "h3",
-      "choices": []
-    },
-    {
-      "id": "h3",
-      "speaker": "hask",
-      "textKey": "dlg.grange_hask.h3",
+      "id": "t2",
+      "speaker": "tess",
+      "textKey": "dlg.saltpans_tess.t2",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -41,9 +28,9 @@
       "next": "",
       "choices": [
         {
-          "textKey": "dlg.grange_hask.h3.c1",
-          "next": "h4a",
-          "tone": "iron",
+          "textKey": "dlg.saltpans_tess.t2.c1",
+          "next": "t3a",
+          "tone": "",
           "requiresFlag": "",
           "hiddenIfFlag": "",
           "setFlag": "",
@@ -53,9 +40,9 @@
           "action": ""
         },
         {
-          "textKey": "dlg.grange_hask.h3.c2",
-          "next": "h4b",
-          "tone": "guile",
+          "textKey": "dlg.saltpans_tess.t2.c2",
+          "next": "t3b",
+          "tone": "",
           "requiresFlag": "",
           "hiddenIfFlag": "",
           "setFlag": "",
@@ -67,9 +54,9 @@
       ]
     },
     {
-      "id": "h4a",
-      "speaker": "hask",
-      "textKey": "dlg.grange_hask.h4a",
+      "id": "t3a",
+      "speaker": "tess",
+      "textKey": "dlg.saltpans_tess.t3a",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -80,9 +67,9 @@
       "choices": []
     },
     {
-      "id": "h4b",
-      "speaker": "hask",
-      "textKey": "dlg.grange_hask.h4b",
+      "id": "t3b",
+      "speaker": "tess",
+      "textKey": "dlg.saltpans_tess.t3b",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],

@@ -1377,24 +1377,24 @@
       }
     },
     {
-      "id": "sq_weigh_floor",
+      "id": "sq_salt_floor",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.hask",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "stages": [
         {
           "id": "s1",
           "objectives": [
             {
               "kind": 1,
-              "key": "kills.grange",
+              "key": "kills.salt",
               "amount": 5,
               "optional": false
             }
           ],
-          "setsFlag": "sq.weigh_floor.done"
+          "setsFlag": "sq.salt_floor.done"
         }
       ],
       "reward": {
@@ -1408,19 +1408,19 @@
       }
     },
     {
-      "id": "sq_tally_sticks",
+      "id": "sq_salt_tallies",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.collum",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "stages": [
         {
           "id": "s1",
           "objectives": [
             {
               "kind": 2,
-              "key": "quest_grange_tally",
+              "key": "quest_salt_tally",
               "amount": 3,
               "optional": false
             }
@@ -1439,24 +1439,24 @@
       }
     },
     {
-      "id": "sq_silo_key",
+      "id": "sq_store_key",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.lene",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "stages": [
         {
           "id": "s1",
           "objectives": [
             {
               "kind": 2,
-              "key": "quest_silo_key",
+              "key": "quest_store_key",
               "amount": 1,
               "optional": false
             }
           ],
-          "setsFlag": "sq.silo_key.done"
+          "setsFlag": "sq.store_key.done"
         }
       ],
       "reward": {
@@ -1470,19 +1470,19 @@
       }
     },
     {
-      "id": "sq_spillage",
+      "id": "sq_salt_spill",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.tess",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "stages": [
         {
           "id": "s1",
           "objectives": [
             {
               "kind": 2,
-              "key": "quest_spill_sack",
+              "key": "quest_salt_spill",
               "amount": 4,
               "optional": false
             }

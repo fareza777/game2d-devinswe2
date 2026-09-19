@@ -1,0 +1,14 @@
+{
+  "id": "saltpans_boru",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "boru",
+      "text": {
+        "en": "Heap to scale, scale to ledger, ledger to silence. Walk where you like; the flat remembers every step anyway.",
+        "id": "Timbunan ke timbangan, timbangan ke buku, buku ke kesunyian. Berjalanlah sesukamu; dataran ini tetap mengingat setiap langkah."
+      }
+    }
+  ]
+}

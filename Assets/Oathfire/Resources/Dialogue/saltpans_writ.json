@@ -1,11 +1,11 @@
 {
-  "id": "grange_writ",
+  "id": "saltpans_writ",
   "startNode": "w1",
   "nodes": [
     {
       "id": "w1",
       "speaker": "maren",
-      "textKey": "dlg.grange_writ.w1",
+      "textKey": "dlg.saltpans_writ.w1",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -18,7 +18,7 @@
     {
       "id": "w2",
       "speaker": "maren",
-      "textKey": "dlg.grange_writ.w2",
+      "textKey": "dlg.saltpans_writ.w2",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -28,7 +28,7 @@
       "next": "",
       "choices": [
         {
-          "textKey": "dlg.grange_writ.w2.c1",
+          "textKey": "dlg.saltpans_writ.w2.c1",
           "next": "w3",
           "tone": "",
           "requiresFlag": "",
@@ -44,11 +44,11 @@
     {
       "id": "w3",
       "speaker": "maren",
-      "textKey": "dlg.grange_writ.w3",
+      "textKey": "dlg.saltpans_writ.w3",
       "voiceClip": "",
       "mood": "",
       "setFlags": [
-        "act2.grange_rumoured"
+        "act2.saltpans_rumoured"
       ],
       "giveItems": [],
       "takeItems": [],

@@ -105,8 +105,8 @@ namespace Oathfire.EditorTools
                 "act2.manifest_delivered", "quest_keep_manifest");
             // And once it is delivered, the manifest names the League's waylaid grain train — her writ
             // marks the toll lane on the map.
-            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "grange_writ", "act2.manifest_delivered",
-                "act2.grange_rumoured");
+            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "saltpans_writ", "act2.manifest_delivered",
+                "act2.saltpans_rumoured");
         }
 
         static void SetUpVillagers(MapScene.MapFile map, MapScene.MapAnchors at)

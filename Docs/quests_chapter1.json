@@ -1771,35 +1771,35 @@
       }
     },
     {
-      "id": "sq_weigh_floor",
+      "id": "sq_salt_floor",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.hask",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "title": {
-        "en": "The Weigh-Floor Must Stand Clear",
-        "id": "Lantai Timbang Harus Bersih"
+        "en": "The Pans Must Stand Clear",
+        "id": "Petak-petak Harus Bersih"
       },
       "summary": {
-        "en": "Deserter-foragers squat the barn bays at night, weighing nothing and taking sacks by the armful. Factor Hask wants them off the weigh-floor before the League counts its losses in his name.",
-        "id": "Perampok bayaran menduduki kandang-kandang lumbung di malam hari, tak menimbang apa-apa dan membawa karung sekalenggong. Faktor Hask ingin mereka pergi dari lantai timbang sebelum Liga mencatat kerugian atas namanya."
+        "en": "Salt-thieves squat the pans at night, carrying off crust by the armload. Factor Hask wants them off the works before the League counts its losses in his name.",
+        "id": "Pencuri garam menduduki petak-petak di malam hari, mengangkut kerak sekalenggong. Faktor Hask ingin mereka pergi dari tambak sebelum Liga mencatat kerugian atas namanya."
       },
       "stages": [
         {
           "id": "s1",
           "text": {
-            "en": "Drive the foragers out of the grange's bays",
-            "id": "Usir para perampok dari kandang-kandang lumbung"
+            "en": "Drive the salt-thieves out of the pans",
+            "id": "Usir para pencuri garam dari petak-petak"
           },
           "objectives": [
             {
               "kind": "Counter",
-              "key": "kills.grange",
+              "key": "kills.salt",
               "amount": 5
             }
           ],
-          "setsFlag": "sq.weigh_floor.done"
+          "setsFlag": "sq.salt_floor.done"
         }
       ],
       "reward": {
@@ -1813,31 +1813,31 @@
       }
     },
     {
-      "id": "sq_tally_sticks",
+      "id": "sq_salt_tallies",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.collum",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "title": {
         "en": "Every Notch a Sack",
         "id": "Setiap Parut Satu Karung"
       },
       "summary": {
-        "en": "Three tally-sticks went missing with the night crews, and without them the books cannot say whose grain the foragers took. Reeve Collum needs them found — in the bays, under the sack rows, wherever a count was broken.",
-        "id": "Tiga tongkat hitung hilang bersama kru malam, dan tanpanya pembukuan tak bisa memastikan gandum siapa yang dicuri para perampok. Reeve Collum ingin mereka ditemukan — di kandang, di bawah deretan karung, di mana pun hitungan dipatahkan."
+        "en": "Three tally-sticks went missing with the night crews, and without them the books cannot say whose salt the thieves took. Pan-keeper Collum needs them found — by the pans, under the heap rows, wherever a count was broken.",
+        "id": "Tiga tongkat hitung hilang bersama kru malam, dan tanpanya pembukuan tak bisa memastikan garam siapa yang dicuri para pencuri. Penjaga-petak Collum ingin mereka ditemukan — di sisi petak, di bawah deretan timbunan, di mana pun hitungan dipatahkan."
       },
       "stages": [
         {
           "id": "s1",
           "text": {
-            "en": "Find the three dropped tally-sticks around the weigh-court",
-            "id": "Temukan tiga tongkat hitung yang terjatuh di sekitar pengadilan timbang"
+            "en": "Find the three dropped tally-sticks around the pans",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di sekitar petak"
           },
           "objectives": [
             {
               "kind": "Item",
-              "key": "quest_grange_tally",
+              "key": "quest_salt_tally",
               "amount": 3
             }
           ],
@@ -1855,35 +1855,35 @@
       }
     },
     {
-      "id": "sq_silo_key",
+      "id": "sq_store_key",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.lene",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "title": {
         "en": "The Key-Warden's Errand",
         "id": "Tugas Penjaga Kunci"
       },
       "summary": {
-        "en": "Wit-warden Ostler was carrying the silo key to the capital when the foragers took him on the manor terrace. They left him alive and kept the key. Gate-warden Lene wants it back before the League learns it was ever missing.",
-        "id": "Penjaga kunci Ostler membawa kunci silo ke ibu kota saat para perampok menangkapnya di teras manor. Mereka membiarkannya hidup dan menyimpan kuncinya. Lene ingin kunci itu kembali sebelum Liga tahu ia pernah hilang."
+        "en": "Wit-warden Ostler was carrying the store key to the capital when the salt-thieves took him by the boiling row. They left him alive and kept the key. Watch-lene wants it back before the League learns it was ever missing.",
+        "id": "Penjaga kunci Ostler membawa kunci gudang ke ibu kota saat para pencuri menangkapnya di dekat barisan pemasak. Mereka membiarkannya hidup dan menyimpan kuncinya. Lene sang pengawas ingin kunci itu kembali sebelum Liga tahu ia pernah hilang."
       },
       "stages": [
         {
           "id": "s1",
           "text": {
-            "en": "Recover the silo key from the manor terrace",
-            "id": "Ambil kembali kunci silo dari teras manor"
+            "en": "Recover the store key by the boiling row",
+            "id": "Ambil kembali kunci gudang di dekat barisan pemasak"
           },
           "objectives": [
             {
               "kind": "Item",
-              "key": "quest_silo_key",
+              "key": "quest_store_key",
               "amount": 1
             }
           ],
-          "setsFlag": "sq.silo_key.done"
+          "setsFlag": "sq.store_key.done"
         }
       ],
       "reward": {
@@ -1897,31 +1897,31 @@
       }
     },
     {
-      "id": "sq_spillage",
+      "id": "sq_salt_spill",
       "act": "act2",
       "mainQuest": false,
-      "unlockFlag": "act2.grange_rumoured",
+      "unlockFlag": "act2.saltpans_rumoured",
       "giver": "speaker.tess",
-      "giverScene": "Grange",
+      "giverScene": "Saltpans",
       "title": {
         "en": "What the Scales Never Counted",
         "id": "Yang Tak Pernah Dihitung Timbangan"
       },
       "summary": {
-        "en": "The League's rule is simple: once a sack is cut, what spills belongs to no one — and no one may take it. Tess knows where grain spills inside the walls the gleaners cannot cross. Gather it and carry it back out to the lane.",
-        "id": "Aturan Liga sederhana: begitu karung dibelah, yang tumpah bukan milik siapa-siapa — dan tak boleh diambil siapa-siapa. Tess tahu di mana gandum tumpah di dalam tembok yang tak bisa dilintasi pemungut. Pungut dan bawa keluar ke lajur."
+        "en": "The League's rule is simple: once a pan is raked, what spills belongs to no one — and no one may take it. Tess knows where salt spills among the pans the gleaners may not enter. Gather it and carry it back out to the tents.",
+        "id": "Aturan Liga sederhana: begitu petak digaru, yang tumpah bukan milik siapa-siapa — dan tak boleh diambil siapa-siapa. Tess tahu di mana garam tumpah di antara petak yang tak boleh dimasuki pemungut. Pungut dan bawa keluar ke tenda-tenda."
       },
       "stages": [
         {
           "id": "s1",
           "text": {
-            "en": "Gather four spilled sacks of grain inside the weigh-court",
-            "id": "Pungut empat karung gandum tumpah di dalam pengadilan timbang"
+            "en": "Gather four spilled heaps of salt around the pans",
+            "id": "Pungut empat timbunan garam tumpah di sekitar petak"
           },
           "objectives": [
             {
               "kind": "Item",
-              "key": "quest_spill_sack",
+              "key": "quest_salt_spill",
               "amount": 4
             }
           ],

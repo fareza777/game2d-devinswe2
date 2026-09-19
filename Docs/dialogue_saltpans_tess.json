@@ -1,0 +1,55 @@
+{
+  "id": "saltpans_tess",
+  "startNode": "t1",
+  "nodes": [
+    {
+      "id": "t1",
+      "speaker": "tess",
+      "text": {
+        "en": "Careful with the cart — it is all we have left that rolls. They let us wait by the tents but not past the pan lines. Spilled salt, they say, belongs to no one. No one inside the lines, they mean.",
+        "id": "Hati-hati dengan pedati itu — satu-satunya yang tersisa dan masih bisa berputar rodanya. Kami boleh menunggu di dekat tenda tapi tak boleh lewat batas petak. Garam tumpah, kata mereka, bukan milik siapa-siapa. Bukan milik siapa-siapa di dalam batas, maksud mereka."
+      },
+      "next": "t2"
+    },
+    {
+      "id": "t2",
+      "speaker": "tess",
+      "text": {
+        "en": "A warden walks in and out. We do not. There are spills inside — where the rakes go wide at the crust's edge, where the heaps leak. Gather what the count will never count and carry it back to us. Four heaps' worth would feed the tents a week.",
+        "id": "Seorang warden bisa keluar masuk. Kami tidak. Ada tumpahan di dalam — tempat garu melebar di tepi kerak, tempat timbunan bocor. Pungut apa yang tak akan dihitung itu dan bawa kembali pada kami. Empat timbunan cukup memberi makan tenda-tenda ini seminggu."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The League's rules do not feed anyone. I will gather it.",
+            "id": "Aturan Liga tak memberi makan siapa pun. Aku akan memungutnya."
+          },
+          "next": "t3a"
+        },
+        {
+          "text": {
+            "en": "Theft is theft, hungry or not.",
+            "id": "Mencuri tetap mencuri, lapar atau tidak."
+          },
+          "next": "t3b"
+        }
+      ]
+    },
+    {
+      "id": "t3a",
+      "speaker": "tess",
+      "text": {
+        "en": "Spilled is spilled, warden. That is their own rule. I only argue about whose hands reach it first.",
+        "id": "Tumpah tetaplah tumpah, warden. Itu aturan mereka sendiri. Aku hanya mempersoalkan tangan siapa yang sampai duluan."
+      }
+    },
+    {
+      "id": "t3b",
+      "speaker": "tess",
+      "text": {
+        "en": "Then eat well tonight, and think of us by the tent fire. Rules fill no stomach — I checked.",
+        "id": "Kalau begitu makanlah kenyang malam ini, dan ingat kami di dekat api tenda. Aturan tak mengisi perut — sudah kuperiksa."
+      }
+    }
+  ]
+}

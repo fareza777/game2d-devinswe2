@@ -1,24 +1,24 @@
 {
-  "id": "grange_tess",
-  "startNode": "t1",
+  "id": "saltpans_lene",
+  "startNode": "l1",
   "nodes": [
     {
-      "id": "t1",
-      "speaker": "tess",
-      "textKey": "dlg.grange_tess.t1",
+      "id": "l1",
+      "speaker": "lene",
+      "textKey": "dlg.saltpans_lene.l1",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "t2",
+      "next": "l2",
       "choices": []
     },
     {
-      "id": "t2",
-      "speaker": "tess",
-      "textKey": "dlg.grange_tess.t2",
+      "id": "l2",
+      "speaker": "lene",
+      "textKey": "dlg.saltpans_lene.l2",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -28,9 +28,9 @@
       "next": "",
       "choices": [
         {
-          "textKey": "dlg.grange_tess.t2.c1",
-          "next": "t3a",
-          "tone": "mercy",
+          "textKey": "dlg.saltpans_lene.l2.c1",
+          "next": "l3a",
+          "tone": "",
           "requiresFlag": "",
           "hiddenIfFlag": "",
           "setFlag": "",
@@ -40,9 +40,9 @@
           "action": ""
         },
         {
-          "textKey": "dlg.grange_tess.t2.c2",
-          "next": "t3b",
-          "tone": "iron",
+          "textKey": "dlg.saltpans_lene.l2.c2",
+          "next": "l3b",
+          "tone": "",
           "requiresFlag": "",
           "hiddenIfFlag": "",
           "setFlag": "",
@@ -54,9 +54,9 @@
       ]
     },
     {
-      "id": "t3a",
-      "speaker": "tess",
-      "textKey": "dlg.grange_tess.t3a",
+      "id": "l3a",
+      "speaker": "lene",
+      "textKey": "dlg.saltpans_lene.l3a",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],
@@ -67,9 +67,9 @@
       "choices": []
     },
     {
-      "id": "t3b",
-      "speaker": "tess",
-      "textKey": "dlg.grange_tess.t3b",
+      "id": "l3b",
+      "speaker": "lene",
+      "textKey": "dlg.saltpans_lene.l3b",
       "voiceClip": "",
       "mood": "",
       "setFlags": [],

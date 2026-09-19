@@ -12,20 +12,20 @@ using UnityEngine.SceneManagement;
 namespace Oathfire.EditorTools
 {
     /// <summary>
-    /// Builds Saltwold Grange, the Salt League's walled weigh-court: a gated lane past the wall where
-    /// the gleaner families wait, a weigh-floor under the manor terrace, and the barn bays where
-    /// deserter-foragers have been slipping in at night. The League counts every sack; the valley
-    /// counts what it owes.
-    /// Map from Tools/build_maps.py (region "grange").
+    /// Builds the Saltpans, the Salt League's brine-works: an open camp of pale dry pans, a boiling
+    /// row of cauldrons, canvas tents, and the salt track the wagons come in on. Salt-thieves —
+    /// deserters gone soft on easy crust — squat the pans at night. The League counts every load;
+    /// the tents count what the count forgot.
+    /// Map from Tools/compose_saltpans.py (composed from scratch — no example-map crop).
     /// </summary>
-    public static class GrangeSceneBuilder
+    public static class SaltpansSceneBuilder
     {
-        const string ScenePath = "Assets/Oathfire/Scenes/Grange.unity";
+        const string ScenePath = "Assets/Oathfire/Scenes/Saltpans.unity";
 
-        [MenuItem("Oathfire/Build Saltwold Grange Scene")]
+        [MenuItem("Oathfire/Build Saltpans Scene")]
         public static void Build()
         {
-            MapScene.MapFile map = MapScene.Load("grange");
+            MapScene.MapFile map = MapScene.Load("saltpans");
             if (map == null)
                 return;
 
@@ -35,12 +35,12 @@ namespace Oathfire.EditorTools
 
             MapScene.MapAnchors at = map.anchors;
             GameObject player = MapScene.SetUpPlayer(map.At(at.player));
-            MapScene.SetUpCamera(player.transform, map.Ground, "Grange");
+            MapScene.SetUpCamera(player.transform, map.Ground, "Saltpans");
 
             BuildPeople(map, at);
-            BuildForagers(map.At(at.arrivals[0]));
+            BuildThieves(map.At(at.arrivals[0]));
             BuildSearchSpots(map, at);
-            MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.grangeOut", "");
+            MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.saltpansOut", "");
 
             MapScene.SetUpUi(includeContractBoard: false);
             new GameObject("PlayerState", typeof(PlayerState));
@@ -54,37 +54,37 @@ namespace Oathfire.EditorTools
                 scenes.Add(new EditorBuildSettingsScene(ScenePath, true));
             EditorBuildSettings.scenes = scenes.ToArray();
             AssetDatabase.SaveAssets();
-            Debug.Log("[Oathfire] Saltwold Grange scene built");
+            Debug.Log("[Oathfire] Saltpans scene built");
         }
 
-        /// <summary>The weigh-court's people: the League counts, the lane waits.</summary>
+        /// <summary>The works' people: the League counts, the tents wait.</summary>
         static void BuildPeople(MapScene.MapFile map, MapScene.MapAnchors at)
         {
             MapScene.CellRef[] spots = at.villagers ?? System.Array.Empty<MapScene.CellRef>();
-            // villagers order from build_maps.py: factor, reeve, mirren, tess, lene.
+            // villagers order from compose_saltpans.py: factor, pan-keeper, mirren, tess, lene.
             if (spots.Length > 0)
                 MapScene.BuildTalker("Factor Hask", "speaker.hask", map.At(spots[0]), "NPC2",
-                    new Color(0.84f, 0.76f, 0.58f), 1f, new[] { ("grange_hask", "", "") });
+                    new Color(0.84f, 0.76f, 0.58f), 1f, new[] { ("saltpans_hask", "", "") });
             if (spots.Length > 1)
-                MapScene.BuildTalker("Reeve Collum", "speaker.collum", map.At(spots[1]), "NPC1",
-                    new Color(0.8f, 0.74f, 0.62f), 0.97f, new[] { ("grange_collum", "", "") });
+                MapScene.BuildTalker("Pan-keeper Collum", "speaker.collum", map.At(spots[1]), "NPC1",
+                    new Color(0.8f, 0.74f, 0.62f), 0.97f, new[] { ("saltpans_collum", "", "") });
             if (spots.Length > 2)
                 MapScene.BuildTalker("Old Mirren", "speaker.mirren", map.At(spots[2]), "NPC1",
-                    new Color(0.86f, 0.8f, 0.72f), 0.94f, new[] { ("grange_mirren", "", "") });
+                    new Color(0.86f, 0.8f, 0.72f), 0.94f, new[] { ("saltpans_mirren", "", "") });
             if (spots.Length > 3)
-                MapScene.BuildTalker("Tess of the Lane", "speaker.tess", map.At(spots[3]), "NPC1",
-                    new Color(0.72f, 0.72f, 0.68f), 0.95f, new[] { ("grange_tess", "", "") });
+                MapScene.BuildTalker("Tess of the Tents", "speaker.tess", map.At(spots[3]), "NPC1",
+                    new Color(0.72f, 0.72f, 0.68f), 0.95f, new[] { ("saltpans_tess", "", "") });
             if (spots.Length > 4)
-                MapScene.BuildTalker("Gate-warden Lene", "speaker.lene", map.At(spots[4]), "NPC2",
-                    new Color(0.62f, 0.66f, 0.72f), 1f, new[] { ("grange_lene", "", "") });
+                MapScene.BuildTalker("Watch-lene", "speaker.lene", map.At(spots[4]), "NPC2",
+                    new Color(0.62f, 0.66f, 0.72f), 1f, new[] { ("saltpans_lene", "", "") });
 
-            // Porters carry sack to scale to ledger; they are the only reason the floor looks like work.
+            // Porters carry heap to scale to ledger; they are the only reason the flat looks like work.
             foreach (MapScene.CellRef home in at.stone ?? System.Array.Empty<MapScene.CellRef>())
             {
                 GameObject porter = MapScene.InstantiatePrefab(MapScene.Prefabs + "NPC/TraderTemplete.prefab", map.At(home));
                 if (!porter)
                     continue;
-                porter.name = "Grange porter";
+                porter.name = "Pans porter";
                 foreach (var trader in porter.GetComponentsInChildren<SmallScale.FantasyKingdomTileset.TraderComponent>())
                     Object.DestroyImmediate(trader);
                 var trigger = porter.AddComponent<CircleCollider2D>();
@@ -102,30 +102,29 @@ namespace Oathfire.EditorTools
                 serialized.FindProperty("speakerKey").stringValue = "speaker.boru";
                 SerializedProperty conversations = serialized.FindProperty("conversations");
                 conversations.arraySize = 1;
-                conversations.GetArrayElementAtIndex(0).FindPropertyRelative("scriptId").stringValue = "grange_boru";
+                conversations.GetArrayElementAtIndex(0).FindPropertyRelative("scriptId").stringValue = "saltpans_boru";
                 serialized.ApplyModifiedPropertiesWithoutUndo();
                 MapScene.GiveOfferMarker(porter);
             }
 
-            // When the spillage work is done the lane camp settles in earnest: a second fire, bedrolls,
-            // and a boy who now says the Warden's name like it is a roof.
+            // When the spill work is done the gleaner tents settle in earnest: a boy who now says
+            // the Warden's name like it is a roof.
             if (spots.Length > 3)
             {
-                var camp = new GameObject("Gleaner camp");
+                var camp = new GameObject("Gleaner corner");
                 camp.transform.position = map.At(spots[3]) + new Vector3(1.2f, -0.4f, 0f);
-                MapScene.BuildProp("Second fire", "Misc C8_S", camp.transform.position, camp.transform, solid: false, strikeable: false);
-                MapScene.BuildProp("Bedrolls", "Misc B3_N", camp.transform.position + new Vector3(0.8f, 0.35f, 0f), camp.transform, solid: false, strikeable: false);
+                MapScene.BuildProp("Tent boy", "Misc B52_E", camp.transform.position, camp.transform, solid: false, strikeable: false);
                 MapScene.Gate(camp, "sq.spillage.done");
             }
         }
 
-        /// <summary>Foragers of the broken Line squat the opened bays at night, taking sacks by the armful.</summary>
-        static void BuildForagers(Vector3 position)
+        /// <summary>Deserters gone soft on easy crust squat the pans at night, carrying off what dries.</summary>
+        static void BuildThieves(Vector3 position)
         {
             GameObject[] prefabs = TradeRoadSceneBuilder.EnemyPrefabs();
-            var fight = new GameObject("Bay foragers", typeof(RoadAmbush), typeof(QuestSpot));
+            var fight = new GameObject("Salt thieves", typeof(RoadAmbush), typeof(QuestSpot));
             fight.transform.position = position;
-            fight.GetComponent<QuestSpot>().Configure("grange_fight", "grange.bays_cleared");
+            fight.GetComponent<QuestSpot>().Configure("salt_fight", "salt.pans_cleared");
 
             var serialized = new SerializedObject(fight.GetComponent<RoadAmbush>());
             SerializedProperty attackers = serialized.FindProperty("attackers");
@@ -138,33 +137,33 @@ namespace Oathfire.EditorTools
             serialized.FindProperty("hitDamage").intValue = 11;
             serialized.FindProperty("triggerRadius").floatValue = 4f;
             serialized.FindProperty("spread").floatValue = 3f;
-            serialized.FindProperty("bannerKey").stringValue = "event.grange.bays";
-            serialized.FindProperty("clearedFlag").stringValue = "grange.bays_cleared";
-            serialized.FindProperty("counterKey").stringValue = "kills.grange";
-            serialized.FindProperty("clearedToastKey").stringValue = "toast.grangeBays";
+            serialized.FindProperty("bannerKey").stringValue = "event.salt.pans";
+            serialized.FindProperty("clearedFlag").stringValue = "salt.pans_cleared";
+            serialized.FindProperty("counterKey").stringValue = "kills.salt";
+            serialized.FindProperty("clearedToastKey").stringValue = "toast.saltPans";
             serialized.ApplyModifiedPropertiesWithoutUndo();
             fight.GetComponent<RoadAmbush>().SetLooks(KeepSceneBuilder.DeserterLooks());
         }
 
-        /// <summary>What the work wants found: tally-sticks in the bays, spillage in the court, the silo key on the terrace.</summary>
+        /// <summary>What the work wants found: tally-sticks by the pans, spill on the crust, the store key by the boiling row.</summary>
         static void BuildSearchSpots(MapScene.MapFile map, MapScene.MapAnchors at)
         {
             MapScene.CellRef[] spots = at.timber ?? System.Array.Empty<MapScene.CellRef>();
-            // timber order: tally bays x2, sack row, terrace key — then the spilled sacks around the court.
+            // timber order: tally spots x3, the store key — then the spilled heaps around the pans.
             string[] stickTiles = { "Misc A1_E", "Misc B26_N", "Misc A2_E" };
             for (int i = 0; i < 3 && i < spots.Length; i++)
                 MapScene.BuildSearchSpot($"Dropped tally-stick", map.At(spots[i]) + new Vector3(0.35f * (i - 1), 0.2f, 0f),
-                    $"grange_tally_{i + 1}", stickTiles[i], "quest_grange_tally",
-                    $"grange.tally_{i + 1}", "quest.sq_tally_sticks.taken");
+                    $"salt_tally_{i + 1}", stickTiles[i], "quest_salt_tally",
+                    $"salt.tally_{i + 1}", "quest.sq_salt_tallies.taken");
             if (spots.Length > 3)
-                MapScene.BuildSearchSpot("The silo key", map.At(spots[3]), "grange_silo_key", "Misc A2_E",
-                    "quest_silo_key", "grange.silo_key_found", "quest.sq_silo_key.taken",
-                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.grange.key");
-            string[] sackTiles = { "Misc B45_N", "Misc B44_E", "Misc B45_N", "Misc B44_E" };
+                MapScene.BuildSearchSpot("The store key", map.At(spots[3]), "salt_store_key", "Misc A2_E",
+                    "quest_store_key", "salt.store_key_found", "quest.sq_store_key.taken",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.salt.key");
+            string[] heapTiles = { "Misc E6_N", "Misc E7_E", "Misc E8_N", "Misc E6_E" };
             for (int i = 4; i < 8 && i < spots.Length; i++)
-                MapScene.BuildSearchSpot("Spilled grain", map.At(spots[i]) + new Vector3(0.3f, -0.15f, 0f),
-                    $"grange_spill_{i - 3}", sackTiles[i - 4], "quest_spill_sack",
-                    $"grange.spill_{i - 3}", "quest.sq_spillage.taken");
+                MapScene.BuildSearchSpot("Spilled salt", map.At(spots[i]) + new Vector3(0.3f, -0.15f, 0f),
+                    $"salt_spill_{i - 3}", heapTiles[i - 4], "quest_salt_spill",
+                    $"salt.spill_{i - 3}", "quest.sq_salt_spill.taken");
         }
     }
 }

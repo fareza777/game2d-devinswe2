@@ -148,18 +148,18 @@ namespace Oathfire.EditorTools
                 MapScene.Gate(keepRoad, "act2.keep_rumoured");
             }
 
-            // The toll lane to Saltwold Grange, the League's weigh-court: walled, warded, and short of
-            // hands. It is a marked turning only once Maren has read the manifest and sent word of the
+            // The salt track to the pans, the League's brine-works: an open camp, short of hands.
+            // It is a marked turning only once Maren has read the manifest and sent word of the
             // League asking the valley road for wardens.
             if (at.trail3 != null)
             {
-                var tollLane = new GameObject("Grange toll lane");
+                var tollLane = new GameObject("Salt track");
                 tollLane.transform.position = map.At(at.trail3);
-                GameObject grangeExit = MapScene.BuildExit(map.At(at.trail3), "Grange", "prompt.travel.grange", "act2.found_grange");
-                grangeExit.transform.SetParent(tollLane.transform, true);
-                MapScene.BuildProp("Toll post", "Misc B53_E", map.At(at.trail3) + new Vector3(0.45f, -0.2f, 0f), grangeExit.transform,
+                GameObject pansExit = MapScene.BuildExit(map.At(at.trail3), "Saltpans", "prompt.travel.saltpans", "act2.found_saltpans");
+                pansExit.transform.SetParent(tollLane.transform, true);
+                MapScene.BuildProp("Salt post", "Misc B53_E", map.At(at.trail3) + new Vector3(0.45f, -0.2f, 0f), pansExit.transform,
                     solid: false, strikeable: false);
-                MapScene.Gate(tollLane, "act2.grange_rumoured");
+                MapScene.Gate(tollLane, "act2.saltpans_rumoured");
             }
 
             if (at.search != null)

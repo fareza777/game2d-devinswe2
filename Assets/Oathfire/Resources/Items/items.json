@@ -977,31 +977,31 @@
       "stackSize": 1
     },
     {
-      "id": "quest_grange_tally",
+      "id": "quest_salt_tally",
       "kind": 5,
       "rarity": 1,
       "value": 0,
-      "setsFlag": "quest.grange_tally",
+      "setsFlag": "quest.salt_tally",
       "icon": "LootIcons_30",
       "slot": 0,
       "stackSize": 1
     },
     {
-      "id": "quest_silo_key",
+      "id": "quest_store_key",
       "kind": 5,
       "rarity": 2,
       "value": 0,
-      "setsFlag": "quest.silo_key",
+      "setsFlag": "quest.store_key",
       "icon": "LootIcons_31",
       "slot": 0,
       "stackSize": 1
     },
     {
-      "id": "quest_spill_sack",
+      "id": "quest_salt_spill",
       "kind": 5,
       "rarity": 0,
       "value": 0,
-      "setsFlag": "quest.spill_sack",
+      "setsFlag": "quest.salt_spill",
       "icon": "LootIcons_29",
       "slot": 0,
       "stackSize": 1

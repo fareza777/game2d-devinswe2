@@ -1,0 +1,55 @@
+{
+  "id": "saltpans_lene",
+  "startNode": "l1",
+  "nodes": [
+    {
+      "id": "l1",
+      "speaker": "lene",
+      "text": {
+        "en": "Halt. Torch behind you, track behind me, and nothing crosses without a count. That's the whole law of this camp. State your business before I count you as loitering.",
+        "id": "Berhenti. Obor di belakangmu, jejak di belakangku, dan tak ada yang melintas tanpa dicatat. Itulah seluruh hukum kamp ini. Nyatakan urusanmu sebelum kucatat sebagai pengganggu."
+      },
+      "next": "l2"
+    },
+    {
+      "id": "l2",
+      "speaker": "lene",
+      "text": {
+        "en": "Since you carry a warden's stamp: Ostler — wit-warden, my partner on this watch — took the store key past the boiling row to walk it to the capital. Thieves took him coming back down. They left him breathing and kept the key. Find it before the League learns it was ever gone, and I will owe you a count of my own.",
+        "id": "Karena kau membawa cap warden: Ostler — penjaga kunci, rekanku di pos ini — membawa kunci gudang melewati barisan pemasak untuk diantar ke ibu kota. Para pencuri menangkapnya saat ia kembali. Mereka membiarkannya bernapas dan menyimpan kuncinya. Temukan sebelum Liga tahu kunci itu pernah hilang, dan aku berhutang satu hitungan padamu."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The boiling row is already on my list.",
+            "id": "Barisan pemasak itu sudah ada dalam daftarku."
+          },
+          "next": "l3a"
+        },
+        {
+          "text": {
+            "en": "A watch owes a warden. I will hold you to it.",
+            "id": "Pengawas berhutang pada warden. Akan kutagih."
+          },
+          "next": "l3b"
+        }
+      ]
+    },
+    {
+      "id": "l3a",
+      "speaker": "lene",
+      "text": {
+        "en": "Good. Walk quiet up there — whatever's squatting by the store answers questions with edges.",
+        "id": "Bagus. Jalanlah pelan di sana — apa pun yang menduduki dekat gudang itu menjawab pertanyaan dengan mata pisau."
+      }
+    },
+    {
+      "id": "l3b",
+      "speaker": "lene",
+      "text": {
+        "en": "You can hold me to it from behind the key. Bring it here and we will talk about debts.",
+        "id": "Tagih saja dari balik kunci itu. Bawa ke mari dan kita bicara soal hutang."
+      }
+    }
+  ]
+}
