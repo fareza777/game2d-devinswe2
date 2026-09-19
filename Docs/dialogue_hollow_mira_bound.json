@@ -1,0 +1,23 @@
+{
+  "id": "hollow_mira_bound",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "mira",
+      "text": {
+        "en": "Behind you, no, not behind. He's in the ruin by the old stones. Rook. Don't let him talk. He talks until you're close.",
+        "id": "Di belakangmu, bukan, bukan di belakang. Dia di reruntuhan dekat batu-batu tua. Rook. Jangan biarkan dia bicara. Dia bicara sampai kau dekat."
+      },
+      "next": "b2"
+    },
+    {
+      "id": "b2",
+      "speaker": "mira",
+      "text": {
+        "en": "Cut these ropes after. If there is an after.",
+        "id": "Potong tali ini nanti. Kalau masih ada nanti."
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "city_mira",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "mira",
+      "text": {
+        "en": "Warden! The gate let me in without a toll when I said your name. That has never once happened to me.",
+        "id": "Warden! Penjaga gerbang membiarkanku masuk tanpa bea begitu aku menyebut namamu. Itu belum pernah terjadi seumur hidupku."
+      },
+      "next": "m2"
+    },
+    {
+      "id": "m2",
+      "speaker": "mira",
+      "text": {
+        "en": "The League is paying me for the wagon. Half what it was worth, which from Vesna is practically an embrace.",
+        "id": "Serikat membayar ganti pedatiku. Setengah dari harganya, dan dari Vesna itu sudah hampir seperti pelukan."
+      },
+      "next": "m3"
+    },
+    {
+      "id": "m3",
+      "speaker": "mira",
+      "text": {
+        "en": "If you ever need a carter who knows every rut between here and the valley, I'm cheap now. Very cheap.",
+        "id": "Kalau kau butuh kusir yang hafal setiap lubang jalan dari sini sampai lembah, aku murah sekarang. Sangat murah."
+      }
+    }
+  ]
+}

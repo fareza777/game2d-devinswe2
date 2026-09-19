@@ -1,0 +1,133 @@
+{
+  "id": "event_surveyors",
+  "startNode": "chain_1",
+  "nodes": [
+    {
+      "id": "chain_1",
+      "speaker": "surveyor",
+      "textKey": "dlg.event_surveyors.chain_1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "chain_2",
+      "choices": []
+    },
+    {
+      "id": "chain_2",
+      "speaker": "surveyor",
+      "textKey": "dlg.event_surveyors.chain_2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "chain_3",
+      "choices": []
+    },
+    {
+      "id": "chain_3",
+      "speaker": "surveyor",
+      "textKey": "dlg.event_surveyors.chain_3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_surveyors.chain_3.c1",
+          "next": "chain_honest",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.boundary_honest",
+          "faction": "crown",
+          "reputation": 8,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_surveyors.chain_3.c2",
+          "next": "chain_wide",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.boundary_claimed_wide",
+          "faction": "hearth",
+          "reputation": 10,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_surveyors.chain_3.c3",
+          "next": "chain_small",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.boundary_hidden",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "chain_honest",
+      "speaker": "surveyor",
+      "textKey": "dlg.event_surveyors.chain_honest",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.surveyors.done",
+        "act2.on_the_map"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 40,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "chain_wide",
+      "speaker": "surveyor",
+      "textKey": "dlg.event_surveyors.chain_wide",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.surveyors.done",
+        "act2.on_the_map",
+        "act2.wide_claim_standing"
+      ],
+      "giveItems": [
+        "quest_marshal_writ"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "chain_small",
+      "speaker": "surveyor",
+      "textKey": "dlg.event_surveyors.chain_small",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.surveyors.done",
+        "act2.off_the_map"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

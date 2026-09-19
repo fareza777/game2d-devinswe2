@@ -1,0 +1,123 @@
+{
+  "id": "prologue_intro",
+  "startNode": "brann_1",
+  "nodes": [
+    {
+      "id": "brann_1",
+      "speaker": "brann",
+      "textKey": "dlg.prologue_intro.brann_1",
+      "voiceClip": "dlg_prologue_intro_brann_1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "warden_choice",
+      "choices": []
+    },
+    {
+      "id": "warden_choice",
+      "speaker": "brann",
+      "textKey": "dlg.prologue_intro.warden_choice",
+      "voiceClip": "dlg_prologue_intro_warden_choice",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.prologue_intro.warden_choice.c1",
+          "next": "brann_stay",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "prologue.stay",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.prologue_intro.warden_choice.c2",
+          "next": "brann_people",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "prologue.asked_people",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.prologue_intro.warden_choice.c3",
+          "next": "brann_politics",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "prologue.asked_politics",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "brann_stay",
+      "speaker": "brann",
+      "textKey": "dlg.prologue_intro.brann_stay",
+      "voiceClip": "dlg_prologue_intro_brann_stay",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "brann_end",
+      "choices": []
+    },
+    {
+      "id": "brann_people",
+      "speaker": "brann",
+      "textKey": "dlg.prologue_intro.brann_people",
+      "voiceClip": "dlg_prologue_intro_brann_people",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "brann_end",
+      "choices": []
+    },
+    {
+      "id": "brann_politics",
+      "speaker": "brann",
+      "textKey": "dlg.prologue_intro.brann_politics",
+      "voiceClip": "dlg_prologue_intro_brann_politics",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "brann_end",
+      "choices": []
+    },
+    {
+      "id": "brann_end",
+      "speaker": "brann",
+      "textKey": "dlg.prologue_intro.brann_end",
+      "voiceClip": "dlg_prologue_intro_brann_end",
+      "mood": "",
+      "setFlags": [
+        "prologue.met_brann"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

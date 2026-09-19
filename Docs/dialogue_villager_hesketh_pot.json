@@ -1,0 +1,26 @@
+{
+  "id": "villager_hesketh_pot",
+  "startNode": "p1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "hesketh",
+      "text": {
+        "en": "Winna's pot? It cracked because she boils it dry. Tell her I said so.",
+        "id": "Panci Winna? Retak karena dia merebusnya sampai kering. Bilang padanya aku yang bilang."
+      },
+      "next": "p2"
+    },
+    {
+      "id": "p2",
+      "speaker": "hesketh",
+      "text": {
+        "en": "Here. Iron, not clay. Bring it back with a bowl in it and we will call it even.",
+        "id": "Ini. Besi, bukan tanah liat. Kembalikan dengan semangkuk isinya dan kita anggap impas."
+      },
+      "setFlags": [
+        "sq.stew.pot"
+      ]
+    }
+  ]
+}

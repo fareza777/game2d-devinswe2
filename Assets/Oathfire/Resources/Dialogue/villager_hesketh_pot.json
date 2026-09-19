@@ -1,0 +1,34 @@
+{
+  "id": "villager_hesketh_pot",
+  "startNode": "p1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "hesketh",
+      "textKey": "dlg.villager_hesketh_pot.p1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "p2",
+      "choices": []
+    },
+    {
+      "id": "p2",
+      "speaker": "hesketh",
+      "textKey": "dlg.villager_hesketh_pot.p2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "sq.stew.pot"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

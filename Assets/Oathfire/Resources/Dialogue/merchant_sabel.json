@@ -1,0 +1,83 @@
+{
+  "id": "merchant_sabel",
+  "startNode": "open",
+  "nodes": [
+    {
+      "id": "open",
+      "speaker": "sabel",
+      "textKey": "dlg.merchant_sabel.open",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "stall",
+      "choices": []
+    },
+    {
+      "id": "stall",
+      "speaker": "sabel",
+      "textKey": "dlg.merchant_sabel.stall",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.merchant_sabel.stall.c1",
+          "next": "trade",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": "shop:sabel"
+        },
+        {
+          "textKey": "dlg.merchant_sabel.stall.c2",
+          "next": "leave",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "leave",
+      "speaker": "sabel",
+      "textKey": "dlg.merchant_sabel.leave",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "trade",
+      "speaker": "sabel",
+      "textKey": "dlg.merchant_sabel.trade",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

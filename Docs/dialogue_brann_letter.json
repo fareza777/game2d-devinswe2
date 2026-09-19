@@ -1,0 +1,47 @@
+{
+  "id": "brann_letter",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "brann",
+      "text": {
+        "en": "A letter? Nobody writes to me. Give it here.",
+        "id": "Surat? Tak ada yang menulis untukku. Sini."
+      },
+      "next": "b2",
+      "takeItems": [
+        "quest_oona_letter"
+      ]
+    },
+    {
+      "id": "b2",
+      "speaker": "",
+      "text": {
+        "en": "Brann reads it twice. Then he sits down on the edge of the well.",
+        "id": "Brann membacanya dua kali. Lalu ia duduk di tepi sumur."
+      },
+      "next": "b3"
+    },
+    {
+      "id": "b3",
+      "speaker": "brann",
+      "text": {
+        "en": "Tamsin Oller. Took an arrow at the ford and complained about it for a month. He farms sheep past the north ridge now. Alive, and fat.",
+        "id": "Tamsin Oller. Kena panah di arungan dan mengeluh sebulan penuh. Sekarang beternak domba di balik punggung bukit utara. Masih hidup, dan gendut."
+      },
+      "next": "b4"
+    },
+    {
+      "id": "b4",
+      "speaker": "brann",
+      "text": {
+        "en": "Tell his sister that. Tell her he never learned to write, or she would have heard from him years ago.",
+        "id": "Katakan itu pada kakaknya. Katakan dia tak pernah belajar menulis, kalau tidak dia pasti sudah mengabari bertahun-tahun lalu."
+      },
+      "setFlags": [
+        "sq.letter.delivered"
+      ]
+    }
+  ]
+}

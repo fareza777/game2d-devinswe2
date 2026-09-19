@@ -1,0 +1,106 @@
+{
+  "id": "event_surveyors",
+  "startNode": "chain_1",
+  "nodes": [
+    {
+      "id": "chain_1",
+      "speaker": "surveyor",
+      "text": {
+        "en": "Kestrel, Protectorate survey. My colleague holds the chain, I hold the pen, and neither of us decides anything. Remember that when you start shouting.",
+        "id": "Kestrel, juru ukur Protektorat. Rekan saya memegang rantai, saya memegang pena, dan tak satu pun dari kami memutuskan apa pun. Ingat itu saat Anda mulai berteriak."
+      },
+      "next": "chain_2"
+    },
+    {
+      "id": "chain_2",
+      "speaker": "surveyor",
+      "text": {
+        "en": "Your ledger reached the office. A settlement that holds nights and returns records is a settlement worth assessing. Assessment means boundary, tithe, and a name on a map.",
+        "id": "Daftar Anda sampai ke kantor. Pemukiman yang bertahan semalam dan menyerahkan catatan adalah pemukiman yang layak dinilai. Penilaian berarti batas tanah, upeti, dan sebuah nama di peta."
+      },
+      "next": "chain_3"
+    },
+    {
+      "id": "chain_3",
+      "speaker": "surveyor",
+      "text": {
+        "en": "I need the boundary walked before dusk. Where you say it runs is where I write it, and what I write is what it is for the next forty years.",
+        "id": "Saya perlu menyusuri batas sebelum senja. Di mana Anda bilang batasnya, di situ saya menuliskannya, dan apa yang saya tulis itulah yang berlaku empat puluh tahun ke depan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Walk it honestly. The fire reaches where it reaches.",
+            "id": "Susuri dengan jujur. Api menjangkau sejauh yang dijangkaunya."
+          },
+          "tone": "iron",
+          "setFlag": "act2.boundary_honest",
+          "faction": "crown",
+          "reputation": 8,
+          "next": "chain_honest"
+        },
+        {
+          "text": {
+            "en": "Write it wide. Include the north seam and the treeline.",
+            "id": "Tulis lebih luas. Masukkan urat besi utara dan tepi hutan."
+          },
+          "tone": "guile",
+          "setFlag": "act2.boundary_claimed_wide",
+          "faction": "hearth",
+          "reputation": 10,
+          "next": "chain_wide"
+        },
+        {
+          "text": {
+            "en": "Write it small. Poor ground is not worth taxing.",
+            "id": "Tulis kecil saja. Tanah miskin tak layak dipajaki."
+          },
+          "tone": "mercy",
+          "setFlag": "act2.boundary_hidden",
+          "next": "chain_small"
+        }
+      ]
+    },
+    {
+      "id": "chain_honest",
+      "speaker": "surveyor",
+      "text": {
+        "en": "Honest. That is rarer than you would think and worth exactly as much as it costs you. The office likes clean figures; you will be assessed fairly and taxed fully.",
+        "id": "Jujur. Itu lebih langka daripada dugaan Anda, dan nilainya persis sebesar ongkosnya. Kantor suka angka yang bersih; Anda akan dinilai adil dan dipajaki penuh."
+      },
+      "giveCoin": 40,
+      "setFlags": [
+        "event.surveyors.done",
+        "act2.on_the_map"
+      ]
+    },
+    {
+      "id": "chain_wide",
+      "speaker": "surveyor",
+      "text": {
+        "en": "Bold. I will write what you walk. Understand that a wide claim is a wide obligation — every stone inside that line is yours to defend, and the office will expect you to.",
+        "id": "Berani. Saya tulis sesuai yang Anda susuri. Pahami bahwa klaim luas berarti kewajiban luas — setiap batu di dalam garis itu jadi tanggungan Anda, dan kantor akan menuntutnya."
+      },
+      "giveItems": [
+        "quest_marshal_writ"
+      ],
+      "setFlags": [
+        "event.surveyors.done",
+        "act2.on_the_map",
+        "act2.wide_claim_standing"
+      ]
+    },
+    {
+      "id": "chain_small",
+      "speaker": "surveyor",
+      "text": {
+        "en": "Small, then. Less tithe, less notice, and no soldiers when the road closes. I have seen both choices end badly. I have never seen a third.",
+        "id": "Kecil kalau begitu. Upeti lebih ringan, perhatian lebih sedikit, dan tak ada prajurit saat jalan ditutup. Saya pernah melihat kedua pilihan berakhir buruk. Saya belum pernah melihat pilihan ketiga."
+      },
+      "setFlags": [
+        "event.surveyors.done",
+        "act2.off_the_map"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "maren_arrival",
+  "startNode": "maren_1",
+  "nodes": [
+    {
+      "id": "maren_1",
+      "speaker": "maren",
+      "textKey": "dlg.maren_arrival.maren_1",
+      "voiceClip": "dlg_maren_arrival_maren_1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "maren_2",
+      "choices": []
+    },
+    {
+      "id": "maren_2",
+      "speaker": "maren",
+      "textKey": "dlg.maren_arrival.maren_2",
+      "voiceClip": "dlg_maren_arrival_maren_2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.maren_arrival.maren_2.c1",
+          "next": "maren_pleased",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.order_answer_given",
+          "faction": "ash",
+          "reputation": 18,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.maren_arrival.maren_2.c2",
+          "next": "maren_refused",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.order_answer_given",
+          "faction": "ash",
+          "reputation": -15,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.maren_arrival.maren_2.c3",
+          "next": "maren_delayed",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.order_answer_given",
+          "faction": "salt",
+          "reputation": 6,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "maren_pleased",
+      "speaker": "maren",
+      "textKey": "dlg.maren_arrival.maren_pleased",
+      "voiceClip": "dlg_maren_arrival_maren_pleased",
+      "mood": "",
+      "setFlags": [
+        "act1.maren_trusts"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "maren_end",
+      "choices": []
+    },
+    {
+      "id": "maren_refused",
+      "speaker": "maren",
+      "textKey": "dlg.maren_arrival.maren_refused",
+      "voiceClip": "dlg_maren_arrival_maren_refused",
+      "mood": "",
+      "setFlags": [
+        "act1.maren_conflicted"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "maren_end",
+      "choices": []
+    },
+    {
+      "id": "maren_delayed",
+      "speaker": "maren",
+      "textKey": "dlg.maren_arrival.maren_delayed",
+      "voiceClip": "dlg_maren_arrival_maren_delayed",
+      "mood": "",
+      "setFlags": [
+        "act1.maren_watching"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "maren_end",
+      "choices": []
+    },
+    {
+      "id": "maren_end",
+      "speaker": "maren",
+      "textKey": "dlg.maren_arrival.maren_end",
+      "voiceClip": "dlg_maren_arrival_maren_end",
+      "mood": "",
+      "setFlags": [
+        "act1.maren_arrived",
+        "act1.shepherd_hinted"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "maren_summons",
+      "choices": []
+    },
+    {
+      "id": "maren_summons",
+      "speaker": "maren",
+      "textKey": "dlg.maren_arrival.maren_summons",
+      "voiceClip": "dlg_maren_arrival_maren_summons",
+      "mood": "",
+      "setFlags": [
+        "act1.summoned_greymarch"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

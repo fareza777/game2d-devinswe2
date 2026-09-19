@@ -1,0 +1,1145 @@
+{
+  "quests": [
+    {
+      "id": "q_prologue",
+      "act": "prologue",
+      "mainQuest": true,
+      "unlockFlag": "",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "prologue.reached_queen",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "prologue.stage1"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "prologue.trial_answered",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "prologue.stage2"
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_testament",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "prologue.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 20,
+        "items": [
+          "sword_guard_issue",
+          "armor_padded",
+          "potion_small"
+        ]
+      }
+    },
+    {
+      "id": "q_first_fire",
+      "act": "act1",
+      "mainQuest": true,
+      "unlockFlag": "prologue.done",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "prologue.met_brann",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.met_brann"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "mat_timber",
+              "amount": 8,
+              "optional": false
+            },
+            {
+              "kind": 2,
+              "key": "mat_stone",
+              "amount": 5,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.hearth_materials"
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act1.oathfire_lit",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.first_fire_done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 15,
+        "items": [
+          "relic_hearth_coal",
+          "torch"
+        ]
+      }
+    },
+    {
+      "id": "q_first_night",
+      "act": "act1",
+      "mainQuest": true,
+      "unlockFlag": "act1.first_fire_done",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s0",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act1.night1_ready",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.night1_warned"
+        },
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.night1",
+              "amount": 8,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.night1_survived"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act1.rite_performed",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.first_night_done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 25,
+        "items": [
+          "sword_gravedigger",
+          "potion_small",
+          "potion_small"
+        ]
+      }
+    },
+    {
+      "id": "q_shelter",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_fire_done",
+      "giver": "speaker.brann",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "built.shelter",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.shelter_done"
+        }
+      ],
+      "reward": {
+        "experience": 180,
+        "coin": 10,
+        "items": [
+          "bow_poacher",
+          "gloves_leather"
+        ]
+      }
+    },
+    {
+      "id": "q_records_house",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.night1_survived",
+      "giver": "speaker.gethin",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_crane_journal",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.records_house_done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 25,
+        "items": [
+          "trinket_root_ring",
+          "mat_grave_wax"
+        ]
+      }
+    },
+    {
+      "id": "q_inspector",
+      "act": "act1",
+      "mainQuest": true,
+      "unlockFlag": "act1.first_night_done",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act1.maren_arrived",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.maren_met"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act1.order_answer_given",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act1.inspector_done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 0,
+        "items": [
+          "trinket_ashcharm"
+        ],
+        "faction": "ash",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "q_summons",
+      "act": "act1",
+      "mainQuest": true,
+      "unlockFlag": "act1.inspector_done",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.left_the_valley",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.summons_left"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.reached_greymarch",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.summons_arrived"
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.bandits_hinted",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.summons_done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 25,
+        "items": [
+          "potion_small",
+          "potion_small"
+        ]
+      }
+    },
+    {
+      "id": "q_hollow",
+      "act": "act2",
+      "mainQuest": true,
+      "unlockFlag": "act2.summons_done",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.dace_briefed",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.hollow_s1"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.found_hollow",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.hollow_s2"
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.hollow",
+              "amount": 7,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.hollow_s3"
+        },
+        {
+          "id": "s4",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.rook_defeated",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.hollow_s4"
+        },
+        {
+          "id": "s5",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.prisoner_freed",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.hollow_s5"
+        },
+        {
+          "id": "s6",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.ledger_delivered",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.hollow_done"
+        }
+      ],
+      "reward": {
+        "experience": 520,
+        "coin": 70,
+        "items": [
+          "sword_hearth",
+          "legs_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_tally",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_fire_done",
+      "giver": "speaker.gethin",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.skeleton",
+              "amount": 12,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 20,
+        "items": [
+          "tool_shovel",
+          "ring_copper"
+        ],
+        "faction": "hearth",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_stew",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_fire_done",
+      "giver": "speaker.winna",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "sq.stew.pot",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.stew.s1"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "food_salt_meat",
+              "amount": 2,
+              "optional": false
+            },
+            {
+              "kind": 2,
+              "key": "food_bread",
+              "amount": 2,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.stew.done"
+        }
+      ],
+      "reward": {
+        "experience": 120,
+        "coin": 15,
+        "faction": "hearth",
+        "reputation": 6,
+        "items": [
+          "amulet_bone"
+        ]
+      }
+    },
+    {
+      "id": "sq_roofline",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_fire_done",
+      "giver": "speaker.hesketh",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "built.shelter",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.roofline.built"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "mat_pitch",
+              "amount": 2,
+              "optional": false
+            },
+            {
+              "kind": 2,
+              "key": "mat_rope",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.roofline.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 30,
+        "items": [
+          "armor_refugee"
+        ],
+        "faction": "hearth",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_whisperers",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.maren_arrived",
+      "giver": "speaker.iskra",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.mage",
+              "amount": 6,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.whisperers.done"
+        }
+      ],
+      "reward": {
+        "experience": 340,
+        "coin": 40,
+        "items": [
+          "mat_bone_dust",
+          "ring_iron"
+        ]
+      }
+    },
+    {
+      "id": "sq_unmarked_boots",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act2.bandits_hinted",
+      "giver": "speaker.vesna",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_harrow_ledger",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.boots.ledger"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.galen_saw_ledger",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.boots.done"
+        }
+      ],
+      "reward": {
+        "experience": 400,
+        "coin": 80,
+        "items": [
+          "trinket_salt_seal"
+        ]
+      }
+    },
+    {
+      "id": "sq_iron_seam",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_night_done",
+      "giver": "speaker.sabel",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "mat_iron",
+              "amount": 6,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.seam.mined"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.knight",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.seam.done"
+        }
+      ],
+      "reward": {
+        "experience": 380,
+        "coin": 65,
+        "items": [
+          "axe_grave",
+          "legs_iron"
+        ],
+        "faction": "salt",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_flawless_vigil",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.night1_cleared",
+      "giver": "speaker.brann",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "night.flawless",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.vigil.done"
+        }
+      ],
+      "reward": {
+        "experience": 450,
+        "coin": 70,
+        "items": [
+          "trinket_ember_knot",
+          "gloves_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 12
+      }
+    },
+    {
+      "id": "sq_reputation_board",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_night_done",
+      "giver": "speaker.maren",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "contracts.completed",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.board.five"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "nights.survived",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.board.done"
+        }
+      ],
+      "reward": {
+        "experience": 520,
+        "coin": 100,
+        "items": [
+          "armor_warden_coat",
+          "helm_warden",
+          "boots_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 15
+      }
+    },
+    {
+      "id": "sq_surveyors_eye",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act2.surveyors_coming",
+      "giver": "speaker.maren",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "built.shelter",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.surveyors.built"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "contracts.completed",
+              "amount": 2,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.surveyors.done"
+        }
+      ],
+      "reward": {
+        "experience": 480,
+        "coin": 90,
+        "items": [
+          "armor_guard_mail"
+        ],
+        "faction": "crown",
+        "reputation": 12
+      }
+    },
+    {
+      "id": "sq_what_nessa_carried",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.refugee_sheltered",
+      "giver": "speaker.wick",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "mat_cloth",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.nessa.cloth"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "food_salt_meat",
+              "amount": 2,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.nessa.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 50,
+        "items": [
+          "trinket_road_charm"
+        ],
+        "faction": "hearth",
+        "reputation": 14
+      }
+    },
+    {
+      "id": "sq_shepherds_distance",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "event.shepherd_sighting.done",
+      "giver": "speaker.iskra",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.elite",
+              "amount": 2,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.shepherd.elites"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "nights.survived",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.shepherd.done"
+        }
+      ],
+      "reward": {
+        "experience": 600,
+        "coin": 110,
+        "items": [
+          "trinket_ashcharm",
+          "amulet_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_criers_news",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.pell",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.bandit",
+              "amount": 6,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.criers.done"
+        }
+      ],
+      "reward": {
+        "experience": 180,
+        "coin": 25,
+        "items": [
+          "gloves_iron"
+        ],
+        "faction": "hearth",
+        "reputation": 5
+      }
+    },
+    {
+      "id": "sq_porters_load",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.oona",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "food_salt_meat",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.porters.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 40,
+        "items": [
+          "bandage",
+          "bandage",
+          "boots_iron"
+        ],
+        "faction": "salt",
+        "reputation": 5
+      }
+    },
+    {
+      "id": "sq_widows_vigil",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.asta",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "torch",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.widow.pitch"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "nights.survived",
+              "amount": 2,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.widow.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 30,
+        "items": [
+          "trinket_road_charm",
+          "amulet_silver"
+        ],
+        "faction": "hearth",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_miras_wagon",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.prisoner_freed",
+      "giver": "speaker.mira",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "mat_iron",
+              "amount": 5,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.mira.iron"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.road_ambush_cleared",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.mira.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 65,
+        "items": [
+          "trinket_salt_seal",
+          "ring_gold"
+        ],
+        "faction": "salt",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_dace_patrol",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.dace_briefed",
+      "giver": "speaker.dace",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.hollow_camp_cleared",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.dace.camp"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.rook_defeated",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.dace.done"
+        }
+      ],
+      "reward": {
+        "experience": 280,
+        "coin": 55,
+        "items": [
+          "helm_sallet"
+        ],
+        "faction": "crown",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_wicks_lamp",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_night_done",
+      "giver": "speaker.wick",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_wick_lamp",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.lamp.done"
+        }
+      ],
+      "reward": {
+        "experience": 140,
+        "coin": 15,
+        "items": [
+          "bandage",
+          "bandage"
+        ],
+        "faction": "hearth",
+        "reputation": 4
+      }
+    },
+    {
+      "id": "sq_oonas_letter",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.oona",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "sq.letter.given",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.letter.s1"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "sq.letter.delivered",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.letter.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 30,
+        "items": [
+          "amulet_silver"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      }
+    }
+  ]
+}

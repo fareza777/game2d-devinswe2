@@ -1,0 +1,100 @@
+{
+  "id": "city_dace_raids",
+  "startNode": "r1",
+  "nodes": [
+    {
+      "id": "r1",
+      "speaker": "dace",
+      "text": {
+        "en": "You've been talking to the Salt League woman. Good. Then you know the road is being counted.",
+        "id": "Kau sudah bicara dengan perempuan Serikat Garam. Bagus. Berarti kau tahu jalan itu sedang dihitung."
+      },
+      "next": "r2"
+    },
+    {
+      "id": "r2",
+      "speaker": "dace",
+      "text": {
+        "en": "Three wagons in ten days. No bodies on the road, which means they take the drivers too. The last was a League carter. Mira Holt.",
+        "id": "Tiga pedati dalam sepuluh hari. Tak ada mayat di jalan, artinya kusirnya ikut dibawa. Yang terakhir kusir Serikat. Mira Holt."
+      },
+      "next": "r3"
+    },
+    {
+      "id": "r3",
+      "speaker": "dace",
+      "text": {
+        "en": "My sergeant says they come up out of Blackthorn Hollow, past the old farm. My captain says the Hollow is not our business.",
+        "id": "Sersanku bilang mereka keluar dari Ceruk Duri Hitam, lewat pertanian tua. Kaptenku bilang Ceruk itu bukan urusan kami."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Then it's mine. Who leads them?",
+            "id": "Kalau begitu itu urusanku. Siapa pemimpinnya?"
+          },
+          "next": "r4",
+          "tone": "iron"
+        },
+        {
+          "text": {
+            "en": "Not your business, or not your orders?",
+            "id": "Bukan urusanmu, atau bukan perintahmu?"
+          },
+          "next": "r4b",
+          "tone": "guile",
+          "setFlag": "act2.dace_suspects"
+        },
+        {
+          "text": {
+            "en": "What happens to the drivers?",
+            "id": "Apa yang terjadi pada para kusir?"
+          },
+          "next": "r4c",
+          "tone": "mercy"
+        }
+      ]
+    },
+    {
+      "id": "r4b",
+      "speaker": "dace",
+      "text": {
+        "en": "...Both. Someone above my captain likes the Hollow left alone. I did not say that, Warden.",
+        "id": "...Dua-duanya. Ada orang di atas kaptenku yang suka Ceruk itu dibiarkan. Aku tidak pernah bilang begitu, Warden."
+      },
+      "next": "r4"
+    },
+    {
+      "id": "r4c",
+      "speaker": "dace",
+      "text": {
+        "en": "Ransomed, if somebody pays. If nobody does, the Hollow is deep.",
+        "id": "Ditebus, kalau ada yang membayar. Kalau tidak ada, Ceruk itu dalam."
+      },
+      "next": "r4"
+    },
+    {
+      "id": "r4",
+      "speaker": "dace",
+      "text": {
+        "en": "Their captain is Rook Varr. He wore a road warden's grey once. He knows how our patrols move because he used to walk them.",
+        "id": "Kapten mereka Rook Varr. Dulu ia memakai seragam kelabu penjaga jalan. Ia tahu cara patroli kami bergerak karena dulu ia sendiri yang berjalan."
+      },
+      "next": "r5"
+    },
+    {
+      "id": "r5",
+      "speaker": "dace",
+      "text": {
+        "en": "Take the trade road back toward the valley. Past the farm there is a post with its markings scraped off. Go down there in daylight, and not thinking they are farmers.",
+        "id": "Tempuh jalan dagang kembali ke arah lembah. Lewat pertanian ada tiang yang tandanya dikerik. Turunlah di siang hari, dan jangan kira mereka petani."
+      },
+      "setFlags": [
+        "act2.dace_briefed"
+      ],
+      "giveItems": [
+        "potion_small"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "events": [
+    {
+      "id": "ash_ledger",
+      "kind": "Visitor",
+      "phase": "Day",
+      "scriptId": "event_ash_ledger",
+      "speakerKey": "speaker.tobias",
+      "banner": {
+        "en": "A Marshal's rider has come up the valley road.",
+        "id": "Seorang penunggang Barisan Abu menyusuri jalan lembah."
+      },
+      "requiresFlag": "act1.night1_cleared",
+      "minNights": 1,
+      "priority": 30,
+      "chance": 0.8,
+      "approachAngle": 200,
+      "approachDistance": 2.2,
+      "tint": "#8C97A6"
+    },
+    {
+      "id": "night_refugee",
+      "kind": "Visitor",
+      "phase": "Night",
+      "scriptId": "event_night_refugee",
+      "speakerKey": "speaker.refugee",
+      "banner": {
+        "en": "Someone is stumbling toward the light.",
+        "id": "Seseorang terhuyung menuju cahaya."
+      },
+      "requiresFlag": "act1.oathfire_lit",
+      "minNights": 1,
+      "priority": 40,
+      "chance": 0.7,
+      "approachAngle": 45,
+      "approachDistance": 2.6,
+      "tint": "#B9AE9A",
+      "timeLimitSeconds": 150,
+      "expireFlag": "event.night_refugee.lost"
+    },
+    {
+      "id": "salt_offer",
+      "kind": "Visitor",
+      "phase": "Day",
+      "scriptId": "event_salt_offer",
+      "speakerKey": "speaker.vesna",
+      "banner": {
+        "en": "A Salt League cart is waiting. It will not wait long.",
+        "id": "Pedati Serikat Garam menunggu. Tak akan lama."
+      },
+      "requiresFlag": "act1.night1_cleared",
+      "minNights": 1,
+      "priority": 20,
+      "chance": 0.6,
+      "approachAngle": 340,
+      "approachDistance": 2.0,
+      "tint": "#C6B389",
+      "timeLimitSeconds": 120,
+      "expireFlag": "event.salt_offer.missed"
+    },
+    {
+      "id": "shepherd_sighting",
+      "kind": "Apparition",
+      "phase": "Night",
+      "scriptId": "",
+      "speakerKey": "",
+      "banner": {
+        "en": "Something is standing at the treeline. It is not walking in.",
+        "id": "Ada yang berdiri di tepi hutan. Ia tidak melangkah masuk."
+      },
+      "requiresFlag": "act1.night1_cleared",
+      "minNights": 1,
+      "priority": 50,
+      "chance": 0.5,
+      "approachAngle": 120,
+      "approachDistance": 2.8,
+      "tint": "#6E7A72",
+      "timeLimitSeconds": 9
+    },
+    {
+      "id": "surveyors",
+      "kind": "Visitor",
+      "phase": "Day",
+      "scriptId": "event_surveyors",
+      "speakerKey": "speaker.surveyor",
+      "banner": {
+        "en": "Two men with measuring chains are walking your boundary.",
+        "id": "Dua orang dengan rantai ukur sedang menyusuri batas tanah Anda."
+      },
+      "requiresFlag": "act2.surveyors_coming",
+      "minNights": 2,
+      "priority": 35,
+      "chance": 0.8,
+      "approachAngle": 210,
+      "approachDistance": 2.2,
+      "tint": "#9AA3AE"
+    },
+    {
+      "id": "marshal_returns",
+      "kind": "Visitor",
+      "phase": "Day",
+      "scriptId": "event_marshal_returns",
+      "speakerKey": "speaker.tobias",
+      "banner": {
+        "en": "The Marshal's rider has come back, and he is not writing this time.",
+        "id": "Penunggang Barisan Abu kembali, dan kali ini ia tidak mencatat."
+      },
+      "requiresFlag": "act2.ledger_lie_standing",
+      "minNights": 2,
+      "priority": 45,
+      "chance": 0.85,
+      "approachAngle": 200,
+      "approachDistance": 2.2,
+      "tint": "#8C97A6"
+    },
+    {
+      "id": "shepherd_speaks",
+      "kind": "Visitor",
+      "phase": "Night",
+      "scriptId": "event_shepherd_speaks",
+      "speakerKey": "speaker.crane",
+      "banner": {
+        "en": "It came closer this time. It is standing inside the light.",
+        "id": "Kali ini ia mendekat. Ia berdiri di dalam cahaya."
+      },
+      "requiresFlag": "event.shepherd_sighting.done",
+      "minNights": 2,
+      "priority": 60,
+      "chance": 0.55,
+      "approachAngle": 120,
+      "approachDistance": 1.6,
+      "tint": "#7E8A84",
+      "shade": true,
+      "timeLimitSeconds": 150,
+      "expireFlag": "event.shepherd_speaks.ignored"
+    }
+  ]
+}

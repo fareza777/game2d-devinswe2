@@ -1,0 +1,32 @@
+{
+  "id": "villager_hesketh",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "hesketh",
+      "textKey": "dlg.villager_hesketh.n1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "n2",
+      "choices": []
+    },
+    {
+      "id": "n2",
+      "speaker": "hesketh",
+      "textKey": "dlg.villager_hesketh.n2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

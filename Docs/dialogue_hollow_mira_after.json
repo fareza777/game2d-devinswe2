@@ -1,0 +1,14 @@
+{
+  "id": "hollow_mira_after",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "a1",
+      "speaker": "mira",
+      "text": {
+        "en": "I'm going, I'm going. The road is safer with his crew in the dirt. See you in Greymarch, Warden.",
+        "id": "Aku pergi, aku pergi. Jalan lebih aman dengan kawanannya terkubur. Sampai jumpa di Greymarch, Warden."
+      }
+    }
+  ]
+}

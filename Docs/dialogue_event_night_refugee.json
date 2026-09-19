@@ -1,0 +1,124 @@
+{
+  "id": "event_night_refugee",
+  "startNode": "nessa_1",
+  "nodes": [
+    {
+      "id": "nessa_1",
+      "speaker": "refugee",
+      "text": {
+        "en": "Don't— don't raise it. I'm warm. Touch my hand, I'm warm, I'm still warm.",
+        "id": "Jangan— jangan angkat itu. Saya hangat. Pegang tangan saya, saya hangat, saya masih hangat."
+      },
+      "next": "nessa_2"
+    },
+    {
+      "id": "nessa_2",
+      "speaker": "refugee",
+      "text": {
+        "en": "Nessa Aldwin. Out of Greymarch, four days on the road with my brother. He stopped being warm this morning and I left him under a cart.",
+        "id": "Nessa Aldwin. Dari Greymarch, empat hari di jalan bersama adik saya. Pagi tadi ia berhenti hangat, dan saya meninggalkannya di bawah pedati."
+      },
+      "next": "nessa_3"
+    },
+    {
+      "id": "nessa_3",
+      "speaker": "refugee",
+      "text": {
+        "en": "There's a cut on my arm from a fence nail. A nail. You can look at it. Please look at it before you decide.",
+        "id": "Ada luka di lengan saya kena paku pagar. Paku. Anda boleh melihatnya. Tolong lihat dulu sebelum memutuskan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Inside the light. Now, before the next wave turns.",
+            "id": "Masuk ke dalam cahaya. Sekarang, sebelum gelombang berikutnya berbalik."
+          },
+          "tone": "mercy",
+          "setFlag": "act1.refugee_sheltered",
+          "faction": "hearth",
+          "reputation": 14,
+          "next": "nessa_in"
+        },
+        {
+          "text": {
+            "en": "Show me the arm. I decide after, not before.",
+            "id": "Perlihatkan lengannya. Saya putuskan sesudahnya, bukan sebelumnya."
+          },
+          "tone": "guile",
+          "setFlag": "act1.refugee_inspected",
+          "next": "nessa_arm"
+        },
+        {
+          "text": {
+            "en": "You wait beyond the stones until dawn. I am sorry.",
+            "id": "Anda menunggu di luar batu sampai fajar. Maaf."
+          },
+          "tone": "iron",
+          "setFlag": "act1.refugee_turned_out",
+          "faction": "hearth",
+          "reputation": -10,
+          "next": "nessa_out"
+        }
+      ]
+    },
+    {
+      "id": "nessa_arm",
+      "speaker": "refugee",
+      "text": {
+        "en": "There. Rust and torn skin and nothing under it moving. Four days I've been checking it by firelight. I know what I'd be looking for.",
+        "id": "Ini. Karat dan kulit robek, dan tak ada apa pun bergerak di bawahnya. Empat hari saya memeriksanya dengan cahaya api. Saya tahu apa yang harus dicari."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Then you're one of ours. Get to the hearth.",
+            "id": "Kalau begitu Anda bagian dari kami. Pergi ke perapian."
+          },
+          "tone": "mercy",
+          "setFlag": "act1.refugee_sheltered",
+          "faction": "hearth",
+          "reputation": 10,
+          "next": "nessa_in"
+        },
+        {
+          "text": {
+            "en": "What was Greymarch doing while its people walked out?",
+            "id": "Apa yang dilakukan Greymarch saat rakyatnya berjalan keluar?"
+          },
+          "tone": "guile",
+          "setFlag": "act2.bandits_hinted",
+          "next": "nessa_greymarch"
+        }
+      ]
+    },
+    {
+      "id": "nessa_greymarch",
+      "speaker": "refugee",
+      "text": {
+        "en": "Loading carts. Not with people — with grain, and crates stamped for the trade road. They put the gate guard on the carts and the rest of us outside it.",
+        "id": "Memuati pedati. Bukan dengan orang — dengan gandum, dan peti bercap untuk jalan dagang. Penjaga gerbang mereka taruh di pedati, sisanya kami di luar."
+      },
+      "setFlags": ["act2.bandits_hinted"],
+      "next": "nessa_in"
+    },
+    {
+      "id": "nessa_in",
+      "speaker": "refugee",
+      "text": {
+        "en": "I'll work. I can mend, I can carry, I can sit up and watch the dark so someone else sleeps. Just tell me where to put my hands.",
+        "id": "Saya akan bekerja. Saya bisa menjahit, mengangkut, berjaga semalaman agar orang lain bisa tidur. Cukup tunjukkan di mana tangan saya berguna."
+      },
+      "giveItems": ["food_stew", "mat_cloth", "trinket_road_charm"],
+      "setFlags": ["event.night_refugee.done", "act1.rennfall_grows"]
+    },
+    {
+      "id": "nessa_out",
+      "speaker": "refugee",
+      "text": {
+        "en": "Beyond the stones. Yes. I would have said the same in your place, and I'd have hated the sound of my own voice saying it.",
+        "id": "Di luar batu. Ya. Saya akan berkata sama di posisi Anda, dan saya akan benci mendengar suara saya sendiri mengatakannya."
+      },
+      "setFlags": ["event.night_refugee.done", "act1.refugee_at_the_stones"]
+    }
+  ]
+}

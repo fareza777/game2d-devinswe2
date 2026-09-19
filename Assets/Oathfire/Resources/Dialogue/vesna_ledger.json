@@ -1,0 +1,137 @@
+{
+  "id": "vesna_ledger",
+  "startNode": "v1",
+  "nodes": [
+    {
+      "id": "v1",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_ledger.v1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "v2",
+      "choices": []
+    },
+    {
+      "id": "v2",
+      "speaker": "",
+      "textKey": "dlg.vesna_ledger.v2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "v3",
+      "choices": []
+    },
+    {
+      "id": "v3",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_ledger.v3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.vesna_ledger.v3.c1",
+          "next": "v4a",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.ledger_to_league",
+          "faction": "salt",
+          "reputation": 15,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.vesna_ledger.v3.c2",
+          "next": "v4b",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.ledger_kept",
+          "faction": "hearth",
+          "reputation": 15,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.vesna_ledger.v3.c3",
+          "next": "v4c",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.ledger_copied",
+          "faction": "ash",
+          "reputation": 10,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "v4a",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_ledger.v4a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 90,
+      "next": "v5",
+      "choices": []
+    },
+    {
+      "id": "v4b",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_ledger.v4b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "v5",
+      "choices": []
+    },
+    {
+      "id": "v4c",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_ledger.v4c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "v5",
+      "choices": []
+    },
+    {
+      "id": "v5",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_ledger.v5",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.ledger_delivered",
+        "act2.keep_rumoured"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

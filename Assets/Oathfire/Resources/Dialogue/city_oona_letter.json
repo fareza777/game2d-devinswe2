@@ -1,0 +1,36 @@
+{
+  "id": "city_oona_letter",
+  "startNode": "o1",
+  "nodes": [
+    {
+      "id": "o1",
+      "speaker": "oona",
+      "textKey": "dlg.city_oona_letter.o1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "o2",
+      "choices": []
+    },
+    {
+      "id": "o2",
+      "speaker": "oona",
+      "textKey": "dlg.city_oona_letter.o2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "sq.letter.given"
+      ],
+      "giveItems": [
+        "quest_oona_letter"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

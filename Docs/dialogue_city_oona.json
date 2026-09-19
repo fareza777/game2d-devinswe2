@@ -1,0 +1,23 @@
+{
+  "id": "city_oona",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "oona",
+      "text": {
+        "en": "Salt, rope, lamp oil. The League moves all of it, and the League remembers who paid.",
+        "id": "Garam, tali, minyak lampu. Liga yang memindahkan semuanya, dan Liga ingat siapa yang membayar."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "oona",
+      "text": {
+        "en": "Vesna's been asking the whole market about Rennfall for a week. Whatever she wants from you, she already priced it.",
+        "id": "Vesna sudah seminggu menanyai seisi pasar soal Rennfall. Apa pun yang dia mau darimu, harganya sudah dia hitung."
+      }
+    }
+  ]
+}

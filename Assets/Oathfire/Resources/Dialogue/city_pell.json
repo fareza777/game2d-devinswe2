@@ -1,0 +1,32 @@
+{
+  "id": "city_pell",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "pell",
+      "textKey": "dlg.city_pell.n1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "n2",
+      "choices": []
+    },
+    {
+      "id": "n2",
+      "speaker": "pell",
+      "textKey": "dlg.city_pell.n2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

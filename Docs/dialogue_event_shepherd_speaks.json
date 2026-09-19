@@ -1,0 +1,98 @@
+{
+  "id": "event_shepherd_speaks",
+  "startNode": "shade_1",
+  "nodes": [
+    {
+      "id": "shade_1",
+      "speaker": "crane",
+      "text": {
+        "en": "Do not raise it. If I wanted the fire out I would have let them have it on the first night.",
+        "id": "Jangan angkat itu. Kalau aku mau apinya padam, malam pertama sudah kubiarkan mereka mengambilnya."
+      },
+      "next": "shade_2"
+    },
+    {
+      "id": "shade_2",
+      "speaker": "crane",
+      "text": {
+        "en": "They stand at the treeline and count your roofs because I tell them to count. Counting is not attacking. You have had four quiet nights out of me.",
+        "id": "Mereka berdiri di tepi hutan menghitung atapmu karena aku menyuruh mereka menghitung. Menghitung bukan menyerang. Kau sudah dapat empat malam tenang dariku."
+      },
+      "next": "shade_3"
+    },
+    {
+      "id": "shade_3",
+      "speaker": "crane",
+      "text": {
+        "en": "Look at my shoulder before you decide what I am. Go on. The rank-mark is still under the rot.",
+        "id": "Lihat bahuku sebelum kau putuskan aku ini apa. Ayo. Tanda pangkatnya masih ada di balik pembusukan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "That is a warden's mark. That is Crane's mark.",
+            "id": "Itu tanda warden. Itu tanda Crane."
+          },
+          "tone": "guile",
+          "setFlag": "act1.knows_crane",
+          "next": "shade_crane"
+        },
+        {
+          "text": {
+            "en": "I don't care what you were. You are outside the light for a reason.",
+            "id": "Aku tak peduli dulu kau siapa. Ada alasan kau di luar cahaya."
+          },
+          "tone": "iron",
+          "setFlag": "act1.refused_crane",
+          "next": "shade_refused"
+        },
+        {
+          "text": {
+            "en": "Then say what you want, and say it plainly.",
+            "id": "Kalau begitu katakan apa maumu, dan katakan terus terang."
+          },
+          "tone": "mercy",
+          "next": "shade_offer"
+        }
+      ]
+    },
+    {
+      "id": "shade_crane",
+      "speaker": "crane",
+      "text": {
+        "en": "Warden of Rennfall, sixty-one years, and the Marshals hanged me for refusing to burn my own dead. They were thorough. They were not thorough enough.",
+        "id": "Warden Rennfall, enam puluh satu tahun, dan Barisan Abu menggantungku karena menolak membakar orang matiku sendiri. Mereka teliti. Tapi kurang teliti."
+      },
+      "setFlags": ["act1.knows_crane", "act2.crane_revealed"],
+      "next": "shade_offer"
+    },
+    {
+      "id": "shade_offer",
+      "speaker": "crane",
+      "text": {
+        "en": "Here is the plain version. The thing that keeps them walking is not out here in the trees. It is under your record house, and it was put there by people who signed their names to it.",
+        "id": "Ini versi terus terangnya. Yang membuat mereka tetap berjalan bukan di luar sini di antara pepohonan. Ia ada di bawah rumah catatanmu, dan ditaruh di sana oleh orang-orang yang membubuhkan nama mereka."
+      },
+      "next": "shade_offer_2"
+    },
+    {
+      "id": "shade_offer_2",
+      "speaker": "crane",
+      "text": {
+        "en": "I cannot go in. The light you lit sees to that. You can. Open the cellar, read what is signed, and then tell me which of us the Protectorate would rather see hanged.",
+        "id": "Aku tak bisa masuk. Cahaya yang kau nyalakan mengurus itu. Kau bisa. Buka ruang bawahnya, baca apa yang ditandatangani, lalu katakan padaku siapa di antara kita yang lebih ingin digantung Protektorat."
+      },
+      "giveItems": ["quest_crane_journal"],
+      "setFlags": ["event.shepherd_speaks.done", "act1.knows_journal", "act1.night1_survived"]
+    },
+    {
+      "id": "shade_refused",
+      "speaker": "crane",
+      "text": {
+        "en": "Good. Keep that. You will need it when you find out who put me out here, and you find their names written in a hand you recognise.",
+        "id": "Bagus. Simpan itu. Kau akan memerlukannya saat tahu siapa yang menaruhku di sini, dan menemukan nama mereka ditulis dengan tulisan tangan yang kau kenali."
+      },
+      "setFlags": ["event.shepherd_speaks.done", "act2.crane_hostile"]
+    }
+  ]
+}

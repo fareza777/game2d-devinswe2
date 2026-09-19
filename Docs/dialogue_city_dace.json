@@ -1,0 +1,32 @@
+{
+  "id": "city_dace",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "dace",
+      "text": {
+        "en": "Road dust and a Rennfall seal. You'll be the Warden, then. The Marshal's clerks said to expect you.",
+        "id": "Debu jalan dan segel Rennfall. Berarti kau sang Warden. Para juru tulis Marshal bilang kau akan datang."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "dace",
+      "text": {
+        "en": "Keep the blade in its sheath inside these walls. Greymarch has more laws than stones, and it enforces the expensive ones.",
+        "id": "Simpan pedangmu di sarungnya di dalam tembok ini. Greymarch punya lebih banyak hukum daripada batu, dan yang ditegakkan selalu yang mahal."
+      },
+      "next": "n3"
+    },
+    {
+      "id": "n3",
+      "speaker": "dace",
+      "text": {
+        "en": "If you are looking for the Salt League woman, she keeps to the market square. Follow the carts.",
+        "id": "Kalau kau mencari perempuan Liga Garam, dia selalu di alun-alun pasar. Ikuti saja pedatinya."
+      }
+    }
+  ]
+}

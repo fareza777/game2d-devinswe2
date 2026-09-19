@@ -1,0 +1,45 @@
+{
+  "id": "city_mira",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "mira",
+      "textKey": "dlg.city_mira.m1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m2",
+      "choices": []
+    },
+    {
+      "id": "m2",
+      "speaker": "mira",
+      "textKey": "dlg.city_mira.m2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m3",
+      "choices": []
+    },
+    {
+      "id": "m3",
+      "speaker": "mira",
+      "textKey": "dlg.city_mira.m3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

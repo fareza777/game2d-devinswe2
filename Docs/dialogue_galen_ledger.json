@@ -1,0 +1,36 @@
+{
+  "id": "galen_ledger",
+  "startNode": "g1",
+  "nodes": [
+    {
+      "id": "g1",
+      "speaker": "galen",
+      "text": {
+        "en": "That is a Greymarch binding. Where did you get it?",
+        "id": "Itu jilid Greymarch. Dari mana kau dapat ini?"
+      },
+      "next": "g2"
+    },
+    {
+      "id": "g2",
+      "speaker": "",
+      "text": {
+        "en": "Ser Galen reads in silence. At the steward's mark he closes the book and hands it back without looking at you.",
+        "id": "Ser Galen membaca dalam diam. Di cap sang pengurus ia menutup buku itu dan mengembalikannya tanpa menatapmu."
+      },
+      "next": "g3"
+    },
+    {
+      "id": "g3",
+      "speaker": "galen",
+      "text": {
+        "en": "I have seen it. That is all I can say today. Take it back to whoever sent you, and tell them a Crown officer has seen it.",
+        "id": "Aku sudah melihatnya. Hanya itu yang bisa kukatakan hari ini. Bawa kembali pada yang mengutusmu, dan katakan seorang perwira Mahkota sudah melihatnya."
+      },
+      "setFlags": [
+        "act2.galen_saw_ledger",
+        "act2.harrow_knows"
+      ]
+    }
+  ]
+}

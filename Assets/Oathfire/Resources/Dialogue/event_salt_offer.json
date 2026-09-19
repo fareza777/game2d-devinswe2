@@ -1,0 +1,194 @@
+{
+  "id": "event_salt_offer",
+  "startNode": "vesna_1",
+  "nodes": [
+    {
+      "id": "vesna_1",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_2",
+      "choices": []
+    },
+    {
+      "id": "vesna_2",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_3",
+      "choices": []
+    },
+    {
+      "id": "vesna_3",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_salt_offer.vesna_3.c1",
+          "next": "vesna_sold",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.salt_trade_made",
+          "faction": "salt",
+          "reputation": 10,
+          "costCoin": 90,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_salt_offer.vesna_3.c2",
+          "next": "vesna_blade",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.bandits_hinted",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_salt_offer.vesna_3.c3",
+          "next": "vesna_refused",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.salt_trade_refused",
+          "faction": "crown",
+          "reputation": 6,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "vesna_blade",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_blade",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_blade_2",
+      "choices": []
+    },
+    {
+      "id": "vesna_blade_2",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_blade_2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_salt_offer.vesna_blade_2.c1",
+          "next": "vesna_sold_evidence",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.salt_trade_made",
+          "faction": "salt",
+          "reputation": 12,
+          "costCoin": 80,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_salt_offer.vesna_blade_2.c2",
+          "next": "vesna_refused",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.salt_trade_refused",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "vesna_sold",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_sold",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.salt_offer.done",
+        "act2.knows_hearth_right"
+      ],
+      "giveItems": [
+        "food_salt_meat",
+        "mat_rope",
+        "mat_rope",
+        "mat_cloth",
+        "sword_guard_issue"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "vesna_sold_evidence",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_sold_evidence",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.salt_offer.done",
+        "act2.knows_hearth_right",
+        "act2.bandits_hinted"
+      ],
+      "giveItems": [
+        "food_salt_meat",
+        "mat_rope",
+        "mat_rope",
+        "mat_cloth",
+        "sword_guard_issue",
+        "quest_harrow_ledger"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "vesna_refused",
+      "speaker": "vesna",
+      "textKey": "dlg.event_salt_offer.vesna_refused",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.salt_offer.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

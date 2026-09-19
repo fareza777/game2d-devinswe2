@@ -1,0 +1,573 @@
+<title>Oathfire Story Bible</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+  :root {
+    --ground: #141813;
+    --ground-raised: #1c211b;
+    --rule: #33392f;
+    --bone: #dcd4c0;
+    --bone-dim: #a9a290;
+    --ember: #c9933b;
+    --ember-deep: #8f6424;
+    --dusk: #5e8b83;
+    --rust: #b0573f;
+    --display: "IM Fell English SC", "Palatino Linotype", Georgia, serif;
+    --body: "Alegreya", "Palatino Linotype", Georgia, serif;
+    --label: "Alegreya Sans SC", "Gill Sans", "Trebuchet MS", sans-serif;
+    color-scheme: dark;
+  }
+  html { background: var(--ground); }
+  body {
+    background: var(--ground);
+    color: var(--bone);
+    font-family: var(--body);
+    font-size: 1.125rem;
+    line-height: 1.65;
+    padding-inline: 20px;
+    padding-block: 0 96px;
+  }
+  .shell {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 48px;
+  }
+  @media (min-width: 980px) {
+    .shell { grid-template-columns: 220px minmax(0, 1fr); }
+  }
+  a { color: var(--ember); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
+
+  /* Title plate */
+  .plate {
+    grid-column: 1 / -1;
+    padding-block: 72px 40px;
+    border-bottom: 1px solid var(--rule);
+    display: grid;
+    gap: 18px;
+  }
+  .eyebrow {
+    font-family: var(--label);
+    font-size: 0.8rem;
+    letter-spacing: 0.18em;
+    color: var(--dusk);
+    margin: 0;
+  }
+  .plate h1 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(3rem, 9vw, 6.5rem);
+    line-height: 0.95;
+    margin: 0;
+    color: var(--bone);
+    text-wrap: balance;
+  }
+  .plate h1 span { color: var(--ember); }
+  .plate .epigraph {
+    max-width: 58ch;
+    font-style: italic;
+    color: var(--bone-dim);
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .plate .epigraph cite { display: block; font-style: normal; font-family: var(--label); font-size: 0.8rem; letter-spacing: 0.12em; color: var(--dusk); margin-top: 6px; }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    font-family: var(--label);
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    color: var(--bone-dim);
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .meta b { color: var(--bone); font-weight: 700; }
+
+  /* Contents */
+  nav.toc { font-family: var(--label); font-size: 0.9rem; letter-spacing: 0.04em; }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  nav.toc a { color: var(--bone-dim); text-decoration: none; }
+  nav.toc a:hover { color: var(--ember); }
+  nav.toc p { color: var(--dusk); letter-spacing: 0.18em; font-size: 0.75rem; margin: 0 0 12px; }
+  @media (min-width: 980px) {
+    nav.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 32px); align-self: start; padding-top: 40px; }
+  }
+  @media (max-width: 979px) {
+    nav.toc ol { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  }
+
+  /* Reading column */
+  main { min-width: 0; }
+  section { padding-block: 44px 8px; border-bottom: 1px solid var(--rule); }
+  section:last-child { border-bottom: 0; }
+  .prose { max-width: 68ch; }
+  h2 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(2rem, 4.5vw, 2.8rem);
+    line-height: 1.05;
+    margin: 0 0 20px;
+    text-wrap: balance;
+  }
+  h3 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: 1.55rem;
+    margin: 36px 0 10px;
+    color: var(--ember);
+    text-wrap: balance;
+  }
+  h4 {
+    font-family: var(--label);
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    color: var(--dusk);
+    margin: 24px 0 6px;
+  }
+  p { margin: 0 0 1em; }
+  strong { color: var(--bone); font-weight: 700; }
+  em { color: var(--bone); }
+  .lede { font-size: 1.3rem; line-height: 1.55; color: var(--bone); }
+  .dim { color: var(--bone-dim); }
+
+  /* The Law panel */
+  .law {
+    margin: 28px 0;
+    padding: 22px 24px;
+    background: var(--ground-raised);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--ember);
+    max-width: 68ch;
+  }
+  .law p:last-child { margin-bottom: 0; }
+  .law .label { font-family: var(--label); letter-spacing: 0.14em; font-size: 0.8rem; color: var(--ember); margin-bottom: 8px; display: block; }
+
+  /* Timeline */
+  .timeline { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 0; max-width: 72ch; }
+  .timeline li { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 18px; padding: 14px 0; border-top: 1px solid var(--rule); }
+  .timeline .when { font-family: var(--label); font-size: 0.9rem; letter-spacing: 0.06em; color: var(--ember); font-variant-numeric: tabular-nums; padding-top: 3px; }
+  .timeline p { margin: 0; }
+  @media (max-width: 520px) { .timeline li { grid-template-columns: 1fr; gap: 2px; } }
+
+  /* Factions */
+  .factions { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 20px; }
+  .faction { background: var(--ground); padding: 20px 22px; display: grid; gap: 6px; align-content: start; }
+  .faction .sigil { font-family: var(--label); font-size: 0.78rem; letter-spacing: 0.14em; color: var(--dusk); }
+  .faction h4 { font-family: var(--display); font-size: 1.35rem; letter-spacing: 0; color: var(--bone); margin: 0; }
+  .faction p { margin: 0; font-size: 1rem; }
+  .faction .wants { color: var(--bone-dim); font-size: 0.95rem; }
+  .faction .wants b { font-family: var(--label); letter-spacing: 0.08em; color: var(--ember); font-weight: 700; font-size: 0.8rem; }
+
+  /* Characters */
+  .cast { display: grid; gap: 0; margin-top: 16px; max-width: 76ch; }
+  .person { display: grid; grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 20px; padding: 18px 0; border-top: 1px solid var(--rule); }
+  .person .name { font-family: var(--display); font-size: 1.3rem; line-height: 1.15; }
+  .person .role { display: block; font-family: var(--label); font-size: 0.78rem; letter-spacing: 0.1em; color: var(--dusk); margin-top: 4px; }
+  .person p { margin: 0 0 0.5em; font-size: 1rem; }
+  .person .secret { color: var(--bone-dim); font-style: italic; }
+  .person .secret::before { content: "Rahasia — "; font-style: normal; font-family: var(--label); letter-spacing: 0.08em; font-size: 0.78rem; color: var(--rust); }
+  @media (max-width: 640px) { .person { grid-template-columns: 1fr; gap: 4px; } }
+
+  /* Chapters overview */
+  .chapters { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 0; max-width: 76ch; }
+  .chapters li { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: 18px; padding: 20px 0; border-top: 1px solid var(--rule); }
+  .chapters .num { font-family: var(--display); font-size: 2.4rem; line-height: 1; color: var(--ember); }
+  .chapters h4 { font-family: var(--display); font-size: 1.4rem; letter-spacing: 0; color: var(--bone); margin: 0 0 2px; }
+  .chapters .tag { font-family: var(--label); font-size: 0.78rem; letter-spacing: 0.1em; color: var(--dusk); margin: 0 0 8px; }
+  .chapters p { margin: 0 0 0.5em; font-size: 1rem; }
+
+  /* Acts */
+  .act { margin-top: 26px; max-width: 72ch; }
+  .act-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; border-bottom: 1px solid var(--rule); padding-bottom: 6px; margin-bottom: 12px; }
+  .act-head h3 { margin: 0; }
+  .act-head .hours { font-family: var(--label); font-size: 0.82rem; letter-spacing: 0.08em; color: var(--bone-dim); }
+  .beats { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
+  .beats li { padding-left: 4px; }
+  .beats li::marker { color: var(--ember-deep); }
+  .politics { margin-top: 14px; padding: 14px 18px; background: var(--ground-raised); border: 1px solid var(--rule); font-size: 1rem; }
+  .politics b { font-family: var(--label); letter-spacing: 0.1em; font-size: 0.8rem; color: var(--dusk); display: block; margin-bottom: 4px; }
+
+  /* Tables */
+  .table-wrap { overflow-x: auto; margin: 18px 0; max-width: 100%; }
+  table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 0.98rem; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 14px 10px 0; border-top: 1px solid var(--rule); }
+  th { font-family: var(--label); font-weight: 700; letter-spacing: 0.08em; font-size: 0.8rem; color: var(--dusk); border-top: 0; }
+  td:first-child { color: var(--ember); font-family: var(--display); font-size: 1.1rem; white-space: nowrap; }
+
+  /* Script */
+  .script { max-width: 70ch; margin-top: 18px; display: grid; gap: 14px; }
+  .shot { font-family: var(--label); font-size: 0.8rem; letter-spacing: 0.08em; color: var(--dusk); margin: 10px 0 0; }
+  .line { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 16px; }
+  .line .who { font-family: var(--label); font-size: 0.82rem; letter-spacing: 0.1em; color: var(--ember); padding-top: 4px; }
+  .line p { margin: 0; font-style: italic; }
+  .line .dir { display: block; font-style: normal; color: var(--bone-dim); font-size: 0.9rem; margin-top: 2px; }
+  @media (max-width: 560px) { .line { grid-template-columns: 1fr; gap: 0; } }
+
+  .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px 32px; margin-top: 18px; }
+  .pillars div h4 { margin-top: 0; }
+  .pillars p { font-size: 1rem; margin: 0; }
+
+  footer { margin-top: 40px; font-family: var(--label); font-size: 0.8rem; letter-spacing: 0.08em; color: var(--bone-dim); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .plate h1 span { transition: color 0.6s ease; }
+  }
+</style>
+
+<div class="shell">
+  <header class="plate">
+    <p class="eyebrow">Grand Story Bible · Judul kerja: Tanah Wasiat</p>
+    <h1>Oath<span>fire</span></h1>
+    <p class="epigraph">"Setiap api yang kau nyalakan adalah janji. Tanah ini mencatat semua janji — dan menagihnya."
+      <cite>Tulisan pada batu perapian tertua di Rennfall</cite></p>
+    <ul class="meta">
+      <li><b>Genre</b> RPG aksi isometrik · membangun pemukiman · intrik politik</li>
+      <li><b>Struktur</b> 5 chapter · 20–30 jam per chapter</li>
+      <li><b>Chapter 1</b> Api Pertama (game dasar)</li>
+      <li><b>Chapter 2–5</b> ekspansi</li>
+    </ul>
+  </header>
+
+  <nav class="toc" aria-label="Daftar isi">
+    <p>ISI KODEKS</p>
+    <ol>
+      <li><a href="#premis">Premis</a></li>
+      <li><a href="#hukum">Hukum Dunia</a></li>
+      <li><a href="#sejarah">Sejarah Valcaris</a></li>
+      <li><a href="#faksi">Faksi</a></li>
+      <li><a href="#tokoh">Tokoh</a></li>
+      <li><a href="#seri">Busur 5 Chapter</a></li>
+      <li><a href="#chapter1">Chapter 1 Rinci</a></li>
+      <li><a href="#pilihan">Pilihan &amp; Akibat</a></li>
+      <li><a href="#pembuka">Naskah Pembuka</a></li>
+      <li><a href="#pilar">Cerita × Sistem</a></li>
+      <li><a href="#tema">Tema &amp; Nada</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <section id="premis">
+      <h2>Premis</h2>
+      <div class="prose">
+        <p class="lede">Ratu Isolde mati di malam mahkotanya retak. Pewarisnya lenyap. Kapten pengawalnya, <strong>Kael Voss</strong>, dituduh lalai, dicopot gelarnya, dan dibuang dengan cara paling sopan yang bisa dirancang istana: ia "diwarisi" sebidang tanah.</p>
+        <p>Tanah itu adalah <strong>Lembah Rennfall</strong>, wilayah perbatasan yang ditinggalkan empat puluh tahun. Di sana orang mati tidak tinggal di kuburnya. Semua orang di ibu kota tahu Kael dikirim untuk mati dengan terhormat.</p>
+        <p>Yang tidak mereka tahu: surat wasiat sang Ratu memuat satu klausul yang terlupakan. Siapa pun yang menyalakan kembali <strong>Perapian Sumpah</strong> pertama di Rennfall memegang <em>Hak Perapian</em>, hak kuno untuk memanggil <strong>Sidang Mahkota</strong> dan memilih raja. Desa kecil di tepi dunia itu diam-diam menjadi tanah paling berbahaya di seluruh kerajaan.</p>
+        <p>Kael membangun desa untuk bertahan hidup. Semua pihak ingin memilikinya, menguasainya, atau membakarnya. Dan tanah di bawah kakinya punya rencana sendiri.</p>
+      </div>
+    </section>
+
+    <section id="hukum">
+      <h2>Hukum Dunia</h2>
+      <div class="prose">
+        <p>Satu aturan menjadi fondasi cerita <em>dan</em> gameplay sekaligus, jadi pemain merasakannya sebelum memahaminya.</p>
+      </div>
+      <div class="law">
+        <span class="label">HUKUM TANAH YANG DIRAWAT</span>
+        <p><strong>Orang mati bangkit di tanah yang tidak dirawat.</strong> Di mana ada perapian yang dijaga, ladang yang digarap, dan nama yang diingat, orang mati tetap tenang. Di mana tanah ditelantarkan, <em>Kelam</em> merayap keluar dan yang terkubur bangun.</p>
+        <p>Karena itu membangun desa bukan sekadar fitur: <strong>setiap bangunan adalah benteng, dan setiap penduduk adalah alasan dunia tetap hidup.</strong></p>
+      </div>
+      <div class="prose">
+        <h4>KEBENARAN YANG DISEMBUNYIKAN (TERUNGKAP BERTAHAP)</h4>
+        <p>Di bawah Valcaris tidur <strong>Morrowgast</strong>, "Makam Pertama", entitas purba yang merupakan tanah itu sendiri. Ia memberi kesuburan pada lahan yang memberinya makan dengan jenazah. Perapian Sumpah tidak <em>mengusir</em> orang mati. Perapian itu <em>menandai</em> tanah sebagai milik Morrowgast, dan orang mati tenang karena mereka sudah "dibayar".</p>
+        <p>Hukum yang dipercaya semua orang ternyata separuh benar. Desa Kael aman karena desa itu sedang <strong>menggemukkan diri untuk dimakan</strong>.</p>
+      </div>
+    </section>
+
+    <section id="sejarah">
+      <h2>Sejarah Valcaris</h2>
+      <div class="prose"><p class="dim">Kalender kerajaan dihitung dari Penobatan Pertama (P.P.). Game dimulai tahun 312 P.P.</p></div>
+      <ol class="timeline">
+        <li><span class="when">±600 sebelum</span><p><strong>Zaman Kaum Akar.</strong> Suku-suku lembah mengubur leluhur di bawah rumah mereka sendiri. Tanah subur, orang mati tenang, dan tidak ada yang bertanya kenapa.</p></li>
+        <li><span class="when">0 P.P.</span><p><strong>Wasiat Pertama.</strong> Panglima Aldren menyatukan lembah dan menyegel perjanjian dengan Morrowgast lewat <em>Mahkota Akar</em>. Kerajaan menguburkan orang matinya, tanah memberi panen, dan kematian tetap di bawah. Setiap penobatan memperbarui sumpah itu tanpa rakyat mengetahuinya.</p></li>
+        <li><span class="when">190 P.P.</span><p><strong>Berdirinya Barisan Abu.</strong> Badan pembakaran negara mengajarkan bahwa hanya pembakaran yang membersihkan jiwa. Awalnya ordo kecil di pos pegunungan.</p></li>
+        <li><span class="when">272 P.P.</span><p><strong>Demam Kelabu.</strong> Wabah membunuh sepertiga kerajaan. Barisan Abu memerintahkan semua jenazah dibakar. Tanah kelaparan, panen gagal, dan <em>Kelam pertama</em> muncul di perbatasan.</p></li>
+        <li><span class="when">276 P.P.</span><p><strong>Rennfall Ditinggalkan.</strong> Warden terakhirnya, <strong>Aldous Crane</strong>, menolak membakar penduduknya yang mati. Ia dicap pelanggar hukum dan lembahnya dikosongkan. Crane menghilang bersama orang-orang matinya.</p></li>
+        <li><span class="when">311 P.P.</span><p><strong>Malam Mahkota Retak.</strong> Saat upacara pembaruan sumpah, Mahkota Akar retak di kepala Ratu Isolde. Ratu wafat dan Pangeran Cedric lenyap. Kael Voss adalah satu-satunya pengawal yang selamat.</p></li>
+        <li><span class="when">312 P.P.</span><p><strong>Awal game.</strong> Lord Protektor Aurel Marrowin memerintah sebagai wali. Kael diadili, lalu surat wasiat Ratu dibacakan dan Rennfall diserahkan kepadanya.</p></li>
+      </ol>
+    </section>
+
+    <section id="faksi">
+      <h2>Faksi</h2>
+      <div class="prose"><p>Lima kekuatan memperebutkan Rennfall di Chapter 1. Tidak ada yang sepenuhnya jahat, dan setiap faksi punya argumen yang bisa dibela. Reputasi dengan masing-masing menentukan akses dagang, sekutu, quest, dan ending.</p></div>
+      <div class="factions">
+        <div class="faction">
+          <span class="sigil">MAHKOTA · SINGA BERSISIK</span>
+          <h4>Protektorat Marrowin</h4>
+          <p>Pemerintahan wali di ibu kota Valcaris. Tertib, efisien, dan dingin.</p>
+          <p class="wants"><b>INGIN</b> Hak Perapian dihapus atau dimiliki, supaya tidak ada Sidang Mahkota yang menggugat kekuasaan.</p>
+        </div>
+        <div class="faction">
+          <span class="sigil">ABU · TUNGKU BERTANDA</span>
+          <h4>Barisan Abu</h4>
+          <p>Badan negara yang membakar orang mati. Dicintai rakyat karena menghentikan wabah.</p>
+          <p class="wants"><b>INGIN</b> Seluruh kuburan di Rennfall dibakar dan lembahnya "disterilkan". Tanpa sadar, justru itu yang membuat Kelam meluas.</p>
+        </div>
+        <div class="faction">
+          <span class="sigil">GARAM · TIMBANGAN PERAK</span>
+          <h4>Serikat Garam</h4>
+          <p>Liga pedagang yang menguasai jalan dagang dan pinjaman kerajaan.</p>
+          <p class="wants"><b>INGIN</b> Rennfall menjadi pos dagang yang berutang kepada mereka. Bagi mereka Hak Perapian adalah alat tawar.</p>
+        </div>
+        <div class="faction">
+          <span class="sigil">BESI · SERIGALA UTARA</span>
+          <h4>Kadipaten Greymarch</h4>
+          <p>Wilayah tetangga yang dipimpin Adipati Harrow. Tangguh, lapar tanah, dan tak sabar.</p>
+          <p class="wants"><b>INGIN</b> Sungai dan tambang besi Rennfall, lalu kursi terkuat di Sidang Mahkota.</p>
+        </div>
+        <div class="faction">
+          <span class="sigil">YANG TERKUBUR · TONGKAT GEMBALA</span>
+          <h4>Kawanan Gembala Kelabu</h4>
+          <p>Orang mati Rennfall yang dipimpin necromancer misterius dari hutan.</p>
+          <p class="wants"><b>INGIN</b> Tidak ada api baru di lembah. Mereka tahu apa yang dibangunkan oleh perapian itu.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tokoh">
+      <h2>Tokoh</h2>
+      <div class="cast">
+        <div class="person">
+          <div class="name">Kael Voss<span class="role">PROTAGONIS · 34 TAHUN</span></div>
+          <div>
+            <p>Mantan Kapten Pengawal Mahkota. Disiplin, pendiam, dan membawa rasa bersalah seperti baju zirah yang tak pernah dilepas. Pemain membentuk suaranya lewat tiga sumbu dialog: <strong>Besi</strong> (tegas), <strong>Belas</strong> (welas asih), dan <strong>Siasat</strong> (cerdik).</p>
+            <p class="secret">Malam itu Ratu memerintahkan Kael pergi sebelum Mahkota retak. Kael menurut, dan tidak pernah memaafkan dirinya.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Brann Hollowell<span class="role">PENGGALI KUBUR · PENDAMPING</span></div>
+          <div>
+            <p>Penduduk terakhir Rennfall, yang menolak pergi 40 tahun lalu. Sinis, lucu tanpa sengaja, dan hafal adat penguburan kuno yang kini dilarang negara. Ia juga narator cinematic pembuka.</p>
+            <p class="secret">Brann membantu Aldous Crane menguburkan penduduk desa diam-diam, dan tahu ke mana Crane pergi.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Inspektur Maren Ashby<span class="role">INSPEKTUR BARISAN ABU · PENDAMPING</span></div>
+          <div>
+            <p>Dikirim Barisan Abu untuk "membimbing" pemukiman, tapi sebenarnya untuk mengawasinya. Ia percaya aturannya benar, dan belas kasihnya nyata. Perjalanannya adalah pertarungan antara aturan dan kenyataan yang ia lihat sendiri.</p>
+            <p class="secret">Ia membawa perintah tersegel dari Marsekal Tinggi: bakar Rennfall bila Hak Perapian terbukti sah.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Ser Galen Marrowin<span class="role">KSATRIA PENGAWAL · PENDAMPING</span></div>
+          <div>
+            <p>Keponakan Lord Protektor, ditugaskan "mengawal" Kael ke pengasingan. Jujur, naif soal politik, dan mengagumi Kael diam-diam. Kesetiaannya adalah pilihan besar pemain.</p>
+            <p class="secret">Pamannya menjanjikan gelar kepadanya bila Kael "mengalami kecelakaan" di Rennfall.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Tobias Reed<span class="role">PEMBURU GELAP · PENDAMPING</span></div>
+          <div>
+            <p>Pemuda pengungsi, pemanah jitu, dan pencuri kecil. Tob mewakili rakyat biasa yang tak peduli siapa raja asal ada roti. Ia jalur kelas <em>Marksman</em>.</p>
+            <p class="secret">Keluarganya dibakar hidup-hidup dalam "sterilisasi" desa oleh Barisan Abu.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Iskra Vell<span class="role">NECROMANCER-TABIB · PENDAMPING OPSIONAL</span></div>
+          <div>
+            <p>Diburu Barisan Abu karena bisa berbicara dengan orang mati. Merekrutnya membuka kemampuan <em>Summon</em> dan dialog dengan undead, tapi merusak reputasi dengan Barisan Abu dan membuat Maren mungkin pergi.</p>
+            <p class="secret">Ia murid terakhir Aldous Crane, dikirim untuk menilai apakah Kael layak diajak bicara atau harus dihentikan.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Aurel Marrowin<span class="role">LORD PROTEKTOR · ANTAGONIS POLITIK</span></div>
+          <div>
+            <p>Wali kerajaan. Tidak kejam demi kekejaman: ia yakin kerajaan yang retak butuh tangan besi. Setiap kebohongannya punya alasan yang masuk akal.</p>
+            <p class="secret">Ia ada di ruang upacara Malam Mahkota Retak, dan tahu Pangeran Cedric tidak mati.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Marsekal Tinggi Solenne Vaunt<span class="role">KEPALA BARISAN ABU</span></div>
+          <div>
+            <p>Karismatik dan cerdas. Ia menyelamatkan kerajaan dari Demam Kelabu dengan api dan tak akan pernah mengakui bahwa api itulah yang membuat tanah kelaparan.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Adipati Harrow<span class="role">PENGUASA GREYMARCH</span></div>
+          <div>
+            <p>Veteran perang perbatasan yang blak-blakan. Ia menawarkan perlindungan militer sebagai "persahabatan", dan bandit yang menyerang jalan dagang Rennfall memakai sepatu buatan bengkel Greymarch.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Vesna Kell<span class="role">DUTA SERIKAT GARAM · PEDAGANG</span></div>
+          <div>
+            <p>Ramah, lucu, dan tidak pernah memberi apa pun gratis. Vesnalah yang pertama menyadari arti klausul Hak Perapian, dan ia menjual informasi itu kepada pihak yang membayar paling tinggi, termasuk Kael.</p>
+          </div>
+        </div>
+        <div class="person">
+          <div class="name">Aldous Crane, Gembala Kelabu<span class="role">BOSS CHAPTER 1 · NECROMANCER</span></div>
+          <div>
+            <p>Warden terakhir Rennfall. Setelah Barisan Abu membakar desanya, ia memimpin orang-orang matinya ke hutan dan menahan mereka di sana selama 36 tahun. Ia menyerang setiap api baru di lembah, dan terlihat seperti monster sampai pemain tahu alasannya.</p>
+            <p class="secret">Crane tidak sedang membangkitkan orang mati. Ia menahan Morrowgast agar tetap tidur, dan setiap perapian Kael membangunkannya sedikit demi sedikit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="seri">
+      <h2>Busur 5 Chapter</h2>
+      <div class="prose"><p>Setiap chapter adalah satu musim dalam hidup Rennfall: dari satu api, menjadi desa, kota, kerajaan, lalu turun ke akar dunia. Wilayah, sistem, dan pertanyaan besarnya bertambah setiap chapter.</p></div>
+      <ol class="chapters">
+        <li><span class="num">I</span><div><h4>Api Pertama</h4><p class="tag">GAME DASAR · LEMBAH RENNFALL &amp; GREYMARCH</p><p>Kael menyalakan perapian, membangun desa, bertahan dari orang mati, dan terseret intrik lima faksi. Klimaksnya: Gembala Kelabu, kebenaran separuh tentang Morrowgast, dan Hak Perapian yang membuat seluruh kerajaan menoleh ke lembah.</p><p><strong>Kait penutup:</strong> segel lilin di surat wasiat ternyata masih segar. Surat itu ditulis <em>setelah</em> sang Ratu wafat.</p></div></li>
+        <li><span class="num">II</span><div><h4>Jalan Garam</h4><p class="tag">EKSPANSI · PELABUHAN SALTREACH &amp; PESISIR</p><p>Rennfall membuka rute dagang ke seluruh kerajaan saat perang saudara pecah. Serikat Garam melakukan kudeta di kota pelabuhan. Musuh baru: penyelundup dan orang mati yang tenggelam. Misteri besarnya: siapa yang menulis surat wasiat itu?</p></div></li>
+        <li><span class="num">III</span><div><h4>Sungai Hitam</h4><p class="tag">EKSPANSI · HULU SUNGAI &amp; TANAH GREYMARCH</p><p>Kelam menyebar lewat air. Kota-kota di hilir mulai "tertanam". Barisan Abu pecah menjadi dua: penganut api lama dan pengikut Maren yang mulai menguburkan orang mati. Morrowgast bangun sebagian dan mulai berbicara lewat mimpi penduduk.</p></div></li>
+        <li><span class="num">IV</span><div><h4>Mahkota Rakyat</h4><p class="tag">EKSPANSI · IBU KOTA VALCARIS</p><p>Sidang Mahkota digelar. Pangeran Cedric kembali sebagai pemimpin <em>Istana Tak Terkubur</em>, pewaris sah yang sudah mati. Perang merebut takhta dimulai, dan Rennfall menjadi calon ibu kota baru.</p></div></li>
+        <li><span class="num">V</span><div><h4>Akar Dunia</h4><p class="tag">EKSPANSI · DI BAWAH VALCARIS</p><p>Kael turun ke dalam Morrowgast untuk menulis ulang Wasiat Pertama. Tiga ending besar: <strong>memperbarui</strong> perjanjian dengan pengorbanan, <strong>memutusnya</strong> (tanah mati tetapi orang mati akhirnya beristirahat), atau <strong>menjadi</strong> Penjaga baru, yakni Kael menjadi tanah itu sendiri.</p></div></li>
+      </ol>
+    </section>
+
+    <section id="chapter1">
+      <h2>Chapter 1 — Api Pertama</h2>
+      <div class="prose">
+        <p class="lede">Target 20–30 jam. Alur utama ±14 jam, sisanya quest pendamping, pembangunan desa, dungeon opsional, dan intrik faksi.</p>
+        <p>Struktur pengungkapan dijaga ketat: pemain <em>mengalami</em> hukum dunia di Babak I, <em>meragukannya</em> di Babak II–III, dan baru <em>memahaminya</em> di Babak IV. Tidak ada eksposisi panjang; sejarah terungkap lewat surat, nisan, catatan, dan pilihan dialog.</p>
+      </div>
+
+      <div class="act">
+        <div class="act-head"><h3>Prolog — Malam Mahkota Retak</h3><span class="hours">±1 jam · tutorial pertarungan</span></div>
+        <ol class="beats">
+          <li>Kilas balik yang bisa dimainkan: Kael menjaga ruang upacara. Tutorial gerak, serang, dan dash di koridor istana yang terbakar.</li>
+          <li>Ratu Isolde memerintahkan Kael pergi. Lalu mahkota retak, dan cahaya hijau-kelabu keluar dari lantai makam kerajaan.</li>
+          <li>Kael kembali terlambat. Ratu mati, pangeran hilang, dan Lord Protektor Aurel sudah berdiri di sana.</li>
+          <li>Pengadilan: pemain memilih pembelaan pertama (Besi, Belas, atau Siasat) yang menentukan kesan awal faksi.</li>
+          <li>Pembacaan surat wasiat. Rennfall diserahkan, dan seluruh ruangan tertawa pelan.</li>
+        </ol>
+      </div>
+
+      <div class="act">
+        <div class="act-head"><h3>Babak I — Tanah yang Diwariskan</h3><span class="hours">5–7 jam · tutorial membangun</span></div>
+        <ol class="beats">
+          <li>Perjalanan ke Rennfall bersama Ser Galen. Kereta diserang orang mati di jalan hutan: pertarungan terbuka pertama.</li>
+          <li>Desa reruntuhan, dan Brann Hollowell menunggu sambil menggali kubur untuk "tamu yang belum mati".</li>
+          <li><strong>Menyalakan Perapian Sumpah pertama</strong>: momen sinematik penting dengan voice over. Zona aman pertama muncul.</li>
+          <li>Malam pertama: gelombang pertahanan. Pemain belajar bahwa perapian yang padam berarti desa tertembus.</li>
+          <li>Merekrut pengungsi pertama (Tobias Reed), membangun rumah, sumur, dan bengkel. Sistem crafting terbuka.</li>
+          <li>Rumah catatan tua sebagai dungeon pertama. Di sana ada nisan bertuliskan nama-nama yang <em>tidak dibakar</em>, dan catatan tangan Aldous Crane.</li>
+          <li>Inspektur Maren tiba sebagai "pembimbing" dari Barisan Abu. Pilihan: menyambutnya, mencurigainya, atau memanfaatkannya.</li>
+        </ol>
+        <div class="politics"><b>BENIH POLITIK</b> Surat dari Lord Protektor datang dengan hadiah murah hati: gandum, dua penjaga, dan permintaan agar Kael "melaporkan setiap temuan kuno". Galen menjadi saksi apakah Kael jujur.</div>
+      </div>
+
+      <div class="act">
+        <div class="act-head"><h3>Babak II — Garam dan Besi</h3><span class="hours">6–8 jam · ekonomi &amp; reputasi</span></div>
+        <ol class="beats">
+          <li>Vesna Kell membuka jalan dagang. Serikat Garam menawarkan pinjaman besar dengan bunga "bersahabat".</li>
+          <li>Tambang besi tua di utara lembah dibuka, lalu jalan dagang diserang bandit.</li>
+          <li>Investigasi: sepatu, anak panah, dan koin para bandit berasal dari Greymarch. Bukti bisa disimpan, dijual, atau dipakai memeras.</li>
+          <li><strong>Keputusan pajak pertama:</strong> membayar persepuluhan ke Barisan Abu, menerima pinjaman Serikat, atau menerima "perlindungan" Adipati Harrow. Setiap pilihan membuka dan menutup cabang quest.</li>
+          <li>Tanda-tanda Gembala Kelabu: orang mati yang tidak menyerang, hanya <em>berjaga</em> di tepi hutan dan menatap perapian.</li>
+          <li>Quest pendamping Tobias: menemukan desa keluarganya yang dibakar Barisan Abu. Hubungan Tob dengan Maren diuji.</li>
+        </ol>
+        <div class="politics"><b>BENIH POLITIK</b> Vesna menjual rahasia kepada Kael: klausul Hak Perapian. Beberapa jam kemudian ia menjual rahasia yang sama kepada Adipati Harrow.</div>
+      </div>
+
+      <div class="act">
+        <div class="act-head"><h3>Babak III — Sidang di Greymarch</h3><span class="hours">6–8 jam · intrik istana</span></div>
+        <ol class="beats">
+          <li>Undangan ke pesta panen di benteng Greymarch, yang juga jebakan halus untuk memaksa Kael menyerahkan Hak Perapian.</li>
+          <li>Kota Greymarch sebagai hub: pasar, arena, depot Barisan Abu, dan kedai informan. Banyak quest pendamping di sini.</li>
+          <li>Seorang utusan Lord Protektor diracun di pesta. Kael dituduh. <strong>Quest investigasi</strong> dengan tersangka, bukti, dan interogasi lewat dialog bercabang.</li>
+          <li>Pemecahan kasus: pelakunya bisa dibuktikan sebagai orang Harrow, orang Serikat, atau (jalur tersembunyi) Galen yang dijebak pamannya.</li>
+          <li>Penyelesaian: pengadilan dengan duel, pemerasan, atau aliansi rahasia dengan Harrow.</li>
+          <li>Iskra Vell ditemukan di penjara Barisan Abu, menunggu dibakar. Pilihan rekrutmen besar dengan konsekuensi politik.</li>
+        </ol>
+        <div class="politics"><b>BENIH POLITIK</b> Galen menerima perintah terakhir dari pamannya. Loyalitasnya (dipengaruhi sikap Kael sejak prolog) menentukan apakah ia memperingatkan Kael atau mencoba membunuhnya di Babak IV.</div>
+      </div>
+
+      <div class="act">
+        <div class="act-head"><h3>Babak IV — Gembala Kelabu</h3><span class="hours">4–6 jam · klimaks</span></div>
+        <ol class="beats">
+          <li>Marsekal Tinggi Vaunt memerintahkan <strong>Operasi Pembakaran Besar</strong>: kuburan-kuburan di sekitar lembah dibakar. Tanah kelaparan dan orang mati bangkit secara massal.</li>
+          <li><strong>Pengepungan Rennfall:</strong> pertahanan desa terbesar. Bangunan, penjaga, dan pendamping yang sudah dibangun pemain benar-benar diuji.</li>
+          <li>Maren membuka perintah tersegelnya. Ia membakar desa, atau untuk pertama kalinya menolak Barisan Abu.</li>
+          <li>Perjalanan ke Pos Tenggelam di jantung hutan, sarang Gembala Kelabu. Dungeon terpanjang Chapter 1.</li>
+          <li>Pertemuan dengan Aldous Crane. Bisa berupa dialog, pertarungan, atau keduanya. Ia mengungkap separuh kebenaran tentang Morrowgast dan Wasiat Pertama.</li>
+          <li><strong>Pertarungan boss:</strong> Crane bertarung bersama orang-orang mati yang ia sayangi. Bila Iskra ada di party, fase kedua bisa dihentikan lewat dialog.</li>
+        </ol>
+      </div>
+
+      <div class="act">
+        <div class="act-head"><h3>Penutup — Sidang Mahkota</h3><span class="hours">±1–2 jam · keputusan besar</span></div>
+        <ol class="beats">
+          <li>Kelima faksi datang ke Rennfall. Kael memegang Hak Perapian dan harus memilih kepada siapa kerajaan condong.</li>
+          <li>Pilihan akhir menetapkan <em>garis dunia</em> untuk Chapter 2 (lihat bagian Pilihan &amp; Akibat).</li>
+          <li>Adegan penutup: di makam kerajaan ibu kota, segel lilin surat wasiat retak, masih lunak dan hangat. Sesosok berjubah mahkota berjalan keluar dari kegelapan.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="pilihan">
+      <h2>Pilihan &amp; Akibat</h2>
+      <div class="prose"><p>Keputusan akhir Chapter 1 menjadi status awal Chapter 2. Keputusan kecil sepanjang chapter (pajak, rekrutmen, pengkhianatan, adat kubur) mengubah dialog, harga, sekutu, dan siapa yang masih hidup.</p></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Garis dunia</th><th>Keputusan di Sidang</th><th>Dampak Chapter 2</th></tr></thead>
+          <tbody>
+            <tr><td>Mahkota</td><td>Mengakui Lord Protektor sebagai wali sah</td><td>Jalan dagang aman dan pasukan kerajaan membantu, tapi Rennfall diawasi dan Galen naik pangkat.</td></tr>
+            <tr><td>Api</td><td>Menyerahkan sterilisasi lembah kepada Barisan Abu</td><td>Rakyat mencintai Kael, tapi Kelam meluas lebih cepat dan Iskra menjadi buronan.</td></tr>
+            <tr><td>Garam</td><td>Menjual suara Hak Perapian ke Serikat</td><td>Kekayaan dan pelabuhan terbuka, tapi utang politik ditagih di saat terburuk.</td></tr>
+            <tr><td>Besi</td><td>Beraliansi dengan Adipati Harrow</td><td>Pasukan kuat untuk perang saudara, tapi Rennfall dianggap pemberontak oleh ibu kota.</td></tr>
+            <tr><td>Perapian</td><td>Menolak semua pihak dan berdiri sendiri</td><td>Semua faksi bermusuhan, dengan jalur tersulit dan akses paling awal ke rahasia Morrowgast.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="prose">
+        <h4>RITUS ORANG MATI (PILIHAN BERULANG)</h4>
+        <p>Setiap penduduk yang gugur, dan beberapa musuh penting, bisa <strong>dikubur</strong> atau <strong>dibakar</strong>. Kubur memberi kesuburan dan ketenangan di sekitar desa, tapi diam-diam menambah "rasa lapar" Morrowgast. Bakar memberi reputasi Barisan Abu dan keamanan jangka pendek, tapi tanah perlahan mati. Angka tersembunyi ini membentuk ending Chapter 5.</p>
+      </div>
+    </section>
+
+    <section id="pembuka">
+      <h2>Naskah Cinematic Pembuka</h2>
+      <div class="prose"><p>Durasi ±2 menit, full voice over. Narator: <strong>Brann Hollowell</strong>, suara pria tua yang serak, hangat, dan getir. Gambar berupa ilustrasi panel yang dianimasikan pelan (parallax, partikel abu, cahaya perapian), bukan cuplikan gameplay.</p></div>
+      <div class="script">
+        <p class="shot">PANEL 1 · Lembah berkabut dari atas. Satu titik api kecil jauh di bawah.</p>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Orang kota bilang tanah itu cuma tanah. Tempat menanam gandum, tempat mengubur ibu, tempat berdiri raja."<span class="dir">pelan, hampir tertawa</span></p></div>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Aku sudah menggali kubur di Rennfall enam puluh tahun. Aku bisa bilang satu hal pasti: tanah itu mendengar."</p></div>
+        <p class="shot">PANEL 2 · Panglima Aldren berlutut, meletakkan mahkota dari akar di atas tanah yang retak.</p>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Tiga ratus tahun lalu seorang panglima membuat janji. Kita kubur orang mati kita, dan tanah memberi kita panen. Kematian tetap di bawah."</p></div>
+        <p class="shot">PANEL 3 · Kobaran api unggun raksasa. Barisan jenazah berselimut. Petugas bertopeng jelaga membawa papan hitung.</p>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Lalu datang demam. Lalu datang regu pembakar. Mereka bilang api membersihkan. Mereka membakar semuanya."<span class="dir">suara mengeras, getir</span></p></div>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Tanah itu lapar. Dan tanah yang lapar… mulai membangunkan siapa pun yang pernah ia telan."</p></div>
+        <p class="shot">PANEL 4 · Ruang upacara istana. Mahkota retak. Cahaya hijau-kelabu. Siluet Kael berlari di koridor.</p>
+        <div class="line"><span class="who">RATU ISOLDE</span><p>"Kael. Pergi. Sekarang. Apa pun yang kau dengar, jangan kembali."<span class="dir">tenang, lelah, perintah terakhir</span></p></div>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Malam itu mahkota retak. Ratu mati. Dan kerajaan butuh seseorang untuk disalahkan."</p></div>
+        <p class="shot">PANEL 5 · Aula pengadilan. Lord Protektor di singgasana wali. Kael dirantai.</p>
+        <div class="line"><span class="who">LORD PROTEKTOR AUREL</span><p>"Atas kelalaian yang merenggut nyawa Sri Ratu, gelar dan pedangmu dicabut. Namun Sri Ratu, dalam kemurahannya, meninggalkan wasiat untukmu."<span class="dir">halus, sopan, dan berbahaya</span></p></div>
+        <div class="line"><span class="who">LORD PROTEKTOR AUREL</span><p>"Lembah Rennfall. Semoga tanah itu memperlakukanmu dengan adil."</p></div>
+        <p class="shot">PANEL 6 · Kereta di jalan hutan saat senja. Di antara pohon, sosok-sosok diam mengawasi.</p>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Mereka mengirim dia ke tempat orang mati tidak mau tidur. Mereka kira itu hukuman."</p></div>
+        <div class="line"><span class="who">BRANN (V.O.)</span><p>"Mereka lupa satu hal. Siapa pun yang menyalakan api pertama di Rennfall… memegang kerajaan di tangannya."<span class="dir">jeda, lalu hampir berbisik</span></p></div>
+        <p class="shot">JUDUL · Api kecil menyala di tengah layar gelap, lalu membentuk tulisan TANAH WASIAT.</p>
+      </div>
+    </section>
+
+    <section id="pilar">
+      <h2>Cerita × Sistem</h2>
+      <div class="prose"><p>Setiap sistem aset yang ada diberi alasan cerita, supaya game terasa satu dunia dan bukan kumpulan fitur.</p></div>
+      <div class="pillars">
+        <div><h4>MEMBANGUN = BERTAHAN</h4><p>Radius Perapian Sumpah adalah zona aman. Bangunan memperluasnya, dan desa yang ditelantarkan menarik gelombang orang mati.</p></div>
+        <div><h4>GELOMBANG MALAM</h4><p>Sistem wave-spawner aset menjadi malam-malam Kelam, dengan intensitas terikat pada reputasi Barisan Abu dan adat kubur.</p></div>
+        <div><h4>CRAFTING &amp; DAGANG</h4><p>Serikat Garam mengatur harga. Tambang besi Rennfall adalah alasan Greymarch menyerang jalan dagang.</p></div>
+        <div><h4>KELAS &amp; SKILL TREE</h4><p>Tiga jalur: Pedang Mahkota (melee), Pemburu Lembah (marksman), dan Adat Kubur (support/summon, terbuka lewat Iskra).</p></div>
+        <div><h4>PENDAMPING</h4><p>Sistem companion aset. Setiap pendamping punya quest pribadi, kesetiaan, dan bisa pergi atau berkhianat.</p></div>
+        <div><h4>KODEKS WASIAT</h4><p>Surat, nisan, dan catatan Crane mengisi kodeks dalam game. Sejarah dibangun perlahan lewat eksplorasi, bukan dump teks.</p></div>
+      </div>
+    </section>
+
+    <section id="tema">
+      <h2>Tema &amp; Nada</h2>
+      <div class="prose">
+        <p><strong>Warisan:</strong> apa yang kita terima dari orang mati, dan apa yang kita utangkan kepada mereka. <strong>Kekuasaan yang memakan rakyatnya:</strong> Morrowgast hanyalah versi paling jujur dari setiap penguasa di Valcaris. <strong>Rumah sebagai perlindungan sekaligus jebakan:</strong> semakin pemain mencintai desanya, semakin berat kebenaran di akhir.</p>
+        <p><strong>Nada:</strong> kelam tapi manusiawi. Humor kering dari Brann dan Vesna, kehangatan kecil di perapian, dan kemenangan yang selalu punya harga. Tidak ada tokoh jahat tanpa alasan, dan tidak ada pilihan yang sepenuhnya benar.</p>
+        <p><strong>Aturan menulis dialog:</strong> kalimat pendek, subteks lebih penting dari penjelasan, dan setiap tokoh punya cara bicara yang bisa dikenali tanpa melihat namanya.</p>
+      </div>
+      <footer>Oathfire · Grand Story Bible v1 · disusun 16 September 2026</footer>
+    </section>
+  </main>
+</div>

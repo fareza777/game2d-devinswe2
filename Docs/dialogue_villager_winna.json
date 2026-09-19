@@ -1,0 +1,23 @@
+{
+  "id": "villager_winna",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "winna",
+      "text": {
+        "en": "I wove the cloth they wrapped half this village in. Now I weave for the living again, and my hands do not know the difference.",
+        "id": "Aku yang menenun kain pembungkus separuh desa ini. Sekarang aku menenun lagi untuk yang hidup, dan tanganku tak bisa membedakannya."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "winna",
+      "text": {
+        "en": "Light it every night, Warden. Not because of what is out there. Because of what we become on the nights we do not.",
+        "id": "Nyalakan setiap malam, Warden. Bukan karena apa yang ada di luar sana. Tapi karena jadi apa kita di malam-malam saat kita tidak menyalakannya."
+      }
+    }
+  ]
+}

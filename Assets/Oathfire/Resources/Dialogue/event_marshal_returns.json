@@ -1,0 +1,146 @@
+{
+  "id": "event_marshal_returns",
+  "startNode": "back_1",
+  "nodes": [
+    {
+      "id": "back_1",
+      "speaker": "tobias",
+      "textKey": "dlg.event_marshal_returns.back_1",
+      "voiceClip": "dlg_event_marshal_returns_back_1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "back_2",
+      "choices": []
+    },
+    {
+      "id": "back_2",
+      "speaker": "tobias",
+      "textKey": "dlg.event_marshal_returns.back_2",
+      "voiceClip": "dlg_event_marshal_returns_back_2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "back_3",
+      "choices": []
+    },
+    {
+      "id": "back_3",
+      "speaker": "tobias",
+      "textKey": "dlg.event_marshal_returns.back_3",
+      "voiceClip": "dlg_event_marshal_returns_back_3",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_marshal_returns.back_3.c1",
+          "next": "back_why",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.tobias_confided",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_marshal_returns.back_3.c2",
+          "next": "back_true",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.ledger_corrected",
+          "faction": "ash",
+          "reputation": 10,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_marshal_returns.back_3.c3",
+          "next": "back_want",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.tobias_leverage",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "back_why",
+      "speaker": "tobias",
+      "textKey": "dlg.event_marshal_returns.back_why",
+      "voiceClip": "dlg_event_marshal_returns_back_why",
+      "mood": "",
+      "setFlags": [
+        "act2.ledger_is_a_list"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "back_end",
+      "choices": []
+    },
+    {
+      "id": "back_want",
+      "speaker": "tobias",
+      "textKey": "dlg.event_marshal_returns.back_want",
+      "voiceClip": "dlg_event_marshal_returns_back_want",
+      "mood": "",
+      "setFlags": [
+        "act2.ledger_is_a_list"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "back_end",
+      "choices": []
+    },
+    {
+      "id": "back_true",
+      "speaker": "tobias",
+      "textKey": "dlg.event_marshal_returns.back_true",
+      "voiceClip": "dlg_event_marshal_returns_back_true",
+      "mood": "",
+      "setFlags": [
+        "act2.ledger_is_a_list",
+        "act2.tobias_exposed"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "back_end",
+      "choices": []
+    },
+    {
+      "id": "back_end",
+      "speaker": "tobias",
+      "textKey": "dlg.event_marshal_returns.back_end",
+      "voiceClip": "dlg_event_marshal_returns_back_end",
+      "mood": "",
+      "setFlags": [
+        "event.marshal_returns.done",
+        "act2.marshal_ally"
+      ],
+      "giveItems": [
+        "quest_marshal_writ"
+      ],
+      "takeItems": [],
+      "giveCoin": 30,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

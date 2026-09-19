@@ -1,0 +1,3160 @@
+{
+  "entries": [
+    {
+      "key": "board.accept",
+      "value": "TAKE"
+    },
+    {
+      "key": "board.claim",
+      "value": "CLAIM"
+    },
+    {
+      "key": "board.close",
+      "value": "Close"
+    },
+    {
+      "key": "board.inProgress",
+      "value": "IN HAND"
+    },
+    {
+      "key": "board.reward",
+      "value": "{0} required  ·  {1} coin"
+    },
+    {
+      "key": "board.summary",
+      "value": "{0} posted  ·  {1} taken  ·  {2} completed"
+    },
+    {
+      "key": "board.title",
+      "value": "Warden's Board"
+    },
+    {
+      "key": "boss.banner",
+      "value": "{0}  ·  {1} / {2}"
+    },
+    {
+      "key": "boss.rook",
+      "value": "Rook Varr"
+    },
+    {
+      "key": "cine.opening.p1_valley.1",
+      "value": "City folk say land is just land. A place to grow wheat. A place to bury your mother. A place for kings to stand."
+    },
+    {
+      "key": "cine.opening.p1_valley.2",
+      "value": "I've dug graves in Rennfall for sixty years. I can tell you one thing for certain. The land listens."
+    },
+    {
+      "key": "cine.opening.p1b_burial.1",
+      "value": "We used to bury our dead under the floor. Grandmother beneath the hearth, uncle beneath the door."
+    },
+    {
+      "key": "cine.opening.p1b_burial.2",
+      "value": "Strangers called it grim. We called it keeping the family close. The land called it payment."
+    },
+    {
+      "key": "cine.opening.p2_first_testament.1",
+      "value": "Three hundred years ago, a warlord made a promise. We bury our dead, and the land gives us harvest. And death stays below."
+    },
+    {
+      "key": "cine.opening.p2b_harvest.1",
+      "value": "And it paid. Three hundred years of full barns. Kings called it their blessing. It was never theirs to give."
+    },
+    {
+      "key": "cine.opening.p3_burning.1",
+      "value": "Then came the fever. Then came the burning crews. They said fire makes you clean. They burned everything."
+    },
+    {
+      "key": "cine.opening.p3_burning.2",
+      "value": "And a hungry land... starts waking anyone it ever swallowed."
+    },
+    {
+      "key": "cine.opening.p3b_first_rising.1",
+      "value": "The first one stood up in a field near Ashcombe. Nobody screamed. That is the part people forget."
+    },
+    {
+      "key": "cine.opening.p3b_first_rising.2",
+      "value": "They knew his face. They stood there and said his name, and he turned around, and he answered."
+    },
+    {
+      "key": "cine.opening.p4_cracked_crown.1",
+      "value": "Kael. Go. Now. Whatever you hear, do not come back."
+    },
+    {
+      "key": "cine.opening.p4_cracked_crown.2",
+      "value": "That night the crown cracked. The queen died. And a kingdom needed someone to blame."
+    },
+    {
+      "key": "cine.opening.p4b_queen_falls.1",
+      "value": "Every king wore that crown and swore that oath, and not one of them told the people what it cost."
+    },
+    {
+      "key": "cine.opening.p4b_queen_falls.2",
+      "value": "Then it broke. And the debt came due all at once, the way debts do."
+    },
+    {
+      "key": "cine.opening.p5_trial.1",
+      "value": "For the negligence that took Her Majesty's life, your title and your sword are forfeit. And yet, in her mercy, the Queen left you a testament."
+    },
+    {
+      "key": "cine.opening.p5_trial.2",
+      "value": "The Vale of Rennfall. May the land treat you fairly."
+    },
+    {
+      "key": "cine.opening.p5b_testament.1",
+      "value": "They gave him a dead valley and called it an inheritance. Everyone at court had a fine laugh."
+    },
+    {
+      "key": "cine.opening.p5b_testament.2",
+      "value": "Nobody read the fourth clause. Nobody but a merchant, and merchants never laugh for free."
+    },
+    {
+      "key": "cine.opening.p6_road.1",
+      "value": "They sent him to the place where the dead won't sleep. They thought it was a punishment."
+    },
+    {
+      "key": "cine.opening.p6_road.2",
+      "value": "They forgot one thing. Whoever lights the first fire in Rennfall... holds the kingdom in their hands."
+    },
+    {
+      "key": "cine.opening.p6b_rennfall.1",
+      "value": "So I dug one more grave, and I waited on the road, and I hoped I would not need it."
+    },
+    {
+      "key": "cine.opening.p6b_rennfall.2",
+      "value": "Warden. The stone is cold and the sun is going. Light it, and let us find out what we have started."
+    },
+    {
+      "key": "contract.cull_elite.body",
+      "value": "Something out there is arranging them. The big ones carry old rank-marks under the rot. Take two, and whatever is arranging them will notice you back."
+    },
+    {
+      "key": "contract.cull_elite.client",
+      "value": "Warden's Own Notice"
+    },
+    {
+      "key": "contract.cull_elite.title",
+      "value": "The Ones That Lead"
+    },
+    {
+      "key": "contract.cull_knights.body",
+      "value": "The ones in plate were soldiers once. They still hold formation. Break three of them and I will believe this valley can be held."
+    },
+    {
+      "key": "contract.cull_knights.client",
+      "value": "Ser Galen"
+    },
+    {
+      "key": "contract.cull_knights.title",
+      "value": "Armoured Dead"
+    },
+    {
+      "key": "contract.cull_mages.body",
+      "value": "The chanting ones are not dead in the ordinary way. My office wants them counted, burned, and entered in the ledger. So do I, for different reasons."
+    },
+    {
+      "key": "contract.cull_mages.client",
+      "value": "Inspector Maren"
+    },
+    {
+      "key": "contract.cull_mages.title",
+      "value": "The Ones That Whisper"
+    },
+    {
+      "key": "contract.cull_scouts.body",
+      "value": "They gather where the light ends and count our roofs. Put some of them down so the rest learn to count lower."
+    },
+    {
+      "key": "contract.cull_scouts.client",
+      "value": "Brann Hollowell"
+    },
+    {
+      "key": "contract.cull_scouts.title",
+      "value": "Thin the Treeline"
+    },
+    {
+      "key": "contract.labour_shelter.body",
+      "value": "Nobody is asking for a house. A roof, a wall against the wind, and a place inside the light is enough to stop the crying at night."
+    },
+    {
+      "key": "contract.labour_shelter.client",
+      "value": "The Refugees"
+    },
+    {
+      "key": "contract.labour_shelter.title",
+      "value": "Roofs for the Road-Worn"
+    },
+    {
+      "key": "contract.supply_bone.body",
+      "value": "Do not look so grim. They stopped being people before I got to them. What is left is chalk, and chalk keeps the rest of you breathing."
+    },
+    {
+      "key": "contract.supply_bone.client",
+      "value": "Iskra Vell"
+    },
+    {
+      "key": "contract.supply_bone.title",
+      "value": "Grind Them Fine"
+    },
+    {
+      "key": "contract.supply_iron.body",
+      "value": "Rennfall iron pays better than Rennfall gossip, and I deal in both. No questions, no manifest, and a flask for your trouble."
+    },
+    {
+      "key": "contract.supply_iron.client",
+      "value": "Vesna Kell"
+    },
+    {
+      "key": "contract.supply_iron.title",
+      "value": "A Quiet Shipment"
+    },
+    {
+      "key": "contract.supply_stone.body",
+      "value": "Every stone we set widens the circle by a hand's breadth. It does not sound like much until the night comes."
+    },
+    {
+      "key": "contract.supply_stone.client",
+      "value": "Settlement Stores"
+    },
+    {
+      "key": "contract.supply_stone.title",
+      "value": "Stone for the Hearth Ring"
+    },
+    {
+      "key": "contract.supply_timber.body",
+      "value": "Walls do not build themselves, and the trees nearest the light are the safest to fell. Bring the timber in before dark."
+    },
+    {
+      "key": "contract.supply_timber.client",
+      "value": "Settlement Stores"
+    },
+    {
+      "key": "contract.supply_timber.title",
+      "value": "Cut for the Palisade"
+    },
+    {
+      "key": "contract.vigil_long.body",
+      "value": "The Protector requires evidence that the valley is held, not merely claimed. Survive the nights, and the ledger will say so."
+    },
+    {
+      "key": "contract.vigil_long.client",
+      "value": "Protectorate Clerk"
+    },
+    {
+      "key": "contract.vigil_long.title",
+      "value": "Proof of Holding"
+    },
+    {
+      "key": "contract.vigil_unhurt.body",
+      "value": "Hold a whole night without taking a wound. I have seen two wardens manage it. Neither of them was the boasting kind."
+    },
+    {
+      "key": "contract.vigil_unhurt.client",
+      "value": "Brann Hollowell"
+    },
+    {
+      "key": "contract.vigil_unhurt.title",
+      "value": "Not a Scratch"
+    },
+    {
+      "key": "dlg.after_first_night.brann_1",
+      "value": "Still breathing. Good. Now the part nobody in the capital will teach you: what we do with the ones that fell."
+    },
+    {
+      "key": "dlg.after_first_night.brann_burn",
+      "value": "As you say, Warden. Stand upwind. And don't tell me their names afterwards. I don't want them in my head."
+    },
+    {
+      "key": "dlg.after_first_night.brann_bury",
+      "value": "Then I'll dig. Been waiting forty years for someone to give that order out loud."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice",
+      "value": "Bury them and the ground stays sweet, and quiet. Burn them and the Marshals smiles at you. It cannot be both."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice.c1",
+      "value": "We bury them. Properly, with names."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice.c2",
+      "value": "We burn them. I will not risk the village."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice.c3",
+      "value": "Bury ours. Burn theirs. Let the Marshals count the smoke."
+    },
+    {
+      "key": "dlg.after_first_night.brann_end",
+      "value": "One more thing. A rider came at dawn, wearing the flame. She'll be at the gate by noon, and she'll want a tour."
+    },
+    {
+      "key": "dlg.after_first_night.brann_split",
+      "value": "Clever. Dangerous, but clever. The Marshals count bodies, not graves. Let us hope they never learn to count both."
+    },
+    {
+      "key": "dlg.brann_letter.b1",
+      "value": "A letter? Nobody writes to me. Give it here."
+    },
+    {
+      "key": "dlg.brann_letter.b2",
+      "value": "Brann reads it twice. Then he sits down on the edge of the well."
+    },
+    {
+      "key": "dlg.brann_letter.b3",
+      "value": "Tamsin Oller. Took an arrow at the ford and complained about it for a month. He farms sheep past the north ridge now. Alive, and fat."
+    },
+    {
+      "key": "dlg.brann_letter.b4",
+      "value": "Tell his sister that. Tell her he never learned to write, or she would have heard from him years ago."
+    },
+    {
+      "key": "dlg.city_asta.n1",
+      "value": "My son drove the salt carts to Rennfall, before the valley went dark. Forty years I have watched that road for a wagon."
+    },
+    {
+      "key": "dlg.city_asta.n2",
+      "value": "They say someone has lit the old fire again. If that was you, then the dead on that road are not forgotten. Tell them so."
+    },
+    {
+      "key": "dlg.city_dace.n1",
+      "value": "Road dust and a Rennfall seal. You'll be the Warden, then. The Marshal's clerks said to expect you."
+    },
+    {
+      "key": "dlg.city_dace.n2",
+      "value": "Keep the blade in its sheath inside these walls. Greymarch has more laws than stones, and it enforces the expensive ones."
+    },
+    {
+      "key": "dlg.city_dace.n3",
+      "value": "If you are looking for the Salt League woman, she keeps to the market square. Follow the carts."
+    },
+    {
+      "key": "dlg.city_dace_raids.r1",
+      "value": "You've been talking to the Salt League woman. Good. Then you know the road is being counted."
+    },
+    {
+      "key": "dlg.city_dace_raids.r2",
+      "value": "Three wagons in ten days. No bodies on the road, which means they take the drivers too. The last was a League carter. Mira Holt."
+    },
+    {
+      "key": "dlg.city_dace_raids.r3",
+      "value": "My sergeant says they come up out of Blackthorn Hollow, past the old farm. My captain says the Hollow is not our business."
+    },
+    {
+      "key": "dlg.city_dace_raids.r3.c1",
+      "value": "Then it's mine. Who leads them?"
+    },
+    {
+      "key": "dlg.city_dace_raids.r3.c2",
+      "value": "Not your business, or not your orders?"
+    },
+    {
+      "key": "dlg.city_dace_raids.r3.c3",
+      "value": "What happens to the drivers?"
+    },
+    {
+      "key": "dlg.city_dace_raids.r4",
+      "value": "Their captain is Rook Varr. He wore a road warden's grey once. He knows how our patrols move because he used to walk them."
+    },
+    {
+      "key": "dlg.city_dace_raids.r4b",
+      "value": "...Both. Someone above my captain likes the Hollow left alone. I did not say that, Warden."
+    },
+    {
+      "key": "dlg.city_dace_raids.r4c",
+      "value": "Ransomed, if somebody pays. If nobody does, the Hollow is deep."
+    },
+    {
+      "key": "dlg.city_dace_raids.r5",
+      "value": "Take the trade road back toward the valley. Past the farm there is a post with its markings scraped off. Go down there in daylight, and not thinking they are farmers."
+    },
+    {
+      "key": "dlg.city_mira.m1",
+      "value": "Warden! The gate let me in without a toll when I said your name. That has never once happened to me."
+    },
+    {
+      "key": "dlg.city_mira.m2",
+      "value": "The League is paying me for the wagon. Half what it was worth, which from Vesna is practically an embrace."
+    },
+    {
+      "key": "dlg.city_mira.m3",
+      "value": "If you ever need a carter who knows every rut between here and the valley, I'm cheap now. Very cheap."
+    },
+    {
+      "key": "dlg.city_oona.n1",
+      "value": "Salt, rope, lamp oil. The League moves all of it, and the League remembers who paid."
+    },
+    {
+      "key": "dlg.city_oona.n2",
+      "value": "Vesna's been asking the whole market about Rennfall for a week. Whatever she wants from you, she already priced it."
+    },
+    {
+      "key": "dlg.city_oona_letter.o1",
+      "value": "You are going back to the valley? Then you can do me a kindness that costs you nothing but a pocket."
+    },
+    {
+      "key": "dlg.city_oona_letter.o2",
+      "value": "For Brann Hollowell. My brother was in his company. If he is alive, Brann will know. If he is not, Brann will know that too."
+    },
+    {
+      "key": "dlg.city_pell.n1",
+      "value": "Hear it, hear it! The Moot of Crowns is called! Every holder of a first hearth, summoned to Greymarch by the new moon!"
+    },
+    {
+      "key": "dlg.city_pell.n2",
+      "value": "What is a holder of a first hearth? No idea. They pay me to shout it, not to understand it."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_1",
+      "value": "Warden. Tobias Reed, second rider of the Ash Marshals. I am not here to fight anything. I am here to write."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_2",
+      "value": "Every settlement that holds a night must return a ledger of its dead. Names, dates, where they were put down. The office calls it a census of loss."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3",
+      "value": "I will be honest with you, because you will find out anyway. A valley that returns a full ledger is a valley the Protectorate has measured. Measured ground gets administered."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3.c1",
+      "value": "Take the full count. Rennfall has nothing to hide."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3.c2",
+      "value": "They were people before they were entries. No ledger."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3.c3",
+      "value": "You will get a count. It will not be the true one."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_false",
+      "value": "You say that to my face. Either you are very new at this or you have decided I am worth the risk."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_false_2",
+      "value": "Give me your number. I will carry it. But a short ledger means a small settlement, and small settlements do not get soldiers when the trade road closes."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_full",
+      "value": "Thank you. I will write it clean, and I will write that the warden cooperated. That word buys you a season, maybe two."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_full_2",
+      "value": "The office pays for compliance. Do not spend it all on drink. And Warden — when the surveyors come, do not act surprised."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_refuse",
+      "value": "I thought you might say that. I have been riding four years and it is always the ones who dug the graves themselves."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_refuse_2",
+      "value": "I will file it as a settlement unable to produce records. That is a smaller word than refusal. It is the only kindness I can do you, and it costs me something."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_1",
+      "value": "Warden. I filed your number. Nineteen dead. Then a clerk compared it against the burial stones and counted thirty-one."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_2",
+      "value": "I rode four days to tell you that in person instead of sending men to tell you differently. Do you understand what that cost me?"
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3",
+      "value": "Here is what nobody in your valley knows. I have filed a short count before. Twice. Both settlements are gone now, and not because the office found out."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3.c1",
+      "value": "Why would you risk that twice?"
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3.c2",
+      "value": "Then file the true number. I will answer for it."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3.c3",
+      "value": "You came alone. That means you want something from me."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_end",
+      "value": "Keep the count short. Keep the fire high. And when someone official asks you for a list of your dead, ask yourself who taught them to want one."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_true",
+      "value": "No. You do not get to be brave at my expense — I already filed it short, and a correction now names me, not you. Keep your courage for the thing that reads those lists."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_want",
+      "value": "I want a witness who is still alive next spring. You are the first warden in three valleys who lit the fire before the Marshals arrived, not after."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_why",
+      "value": "Because a full count is not a record. It is a shopping list. Whoever is raising your dead reads our ledgers, and the settlements with the longest lists went first."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_1",
+      "value": "Don't— don't raise it. I'm warm. Touch my hand, I'm warm, I'm still warm."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_2",
+      "value": "Nessa Aldwin. Out of Greymarch, four days on the road with my brother. He stopped being warm this morning and I left him under a cart."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3",
+      "value": "There's a cut on my arm from a fence nail. A nail. You can look at it. Please look at it before you decide."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3.c1",
+      "value": "Inside the light. Now, before the next wave turns."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3.c2",
+      "value": "Show me the arm. I decide after, not before."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3.c3",
+      "value": "You wait beyond the stones until dawn. I am sorry."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_arm",
+      "value": "There. Rust and torn skin and nothing under it moving. Four days I've been checking it by firelight. I know what I'd be looking for."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_arm.c1",
+      "value": "Then you're one of ours. Get to the hearth."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_arm.c2",
+      "value": "What was Greymarch doing while its people walked out?"
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_greymarch",
+      "value": "Loading carts. Not with people — with grain, and crates stamped for the trade road. They put the gate guard on the carts and the rest of us outside it."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_in",
+      "value": "I'll work. I can mend, I can carry, I can sit up and watch the dark so someone else sleeps. Just tell me where to put my hands."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_out",
+      "value": "Beyond the stones. Yes. I would have said the same in your place, and I'd have hated the sound of my own voice saying it."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_1",
+      "value": "Vesna Kell, Salt League, and my driver will not stop the horses, so we talk while they stamp."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_2",
+      "value": "One crate. Salted meat, two coils of rope, a bolt of oiled cloth, and a blade a guardsman stopped needing. Ninety coin, and I am robbing myself."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3",
+      "value": "Before you ask: no manifest. The League does not route carts through plague valleys, so officially this cart is somewhere else, being somewhere else very convincingly."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3.c1",
+      "value": "Done. Unload it by the hearth."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3.c2",
+      "value": "Whose blade, Vesna? Say the name of the guardsman."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3.c3",
+      "value": "We are not buying what we cannot account for. Drive on."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade",
+      "value": "I don't get names. I get crates off the trade road with the Greymarch cobbler's stamp still on the boot leather, and I do not ask why a garrison is selling its own kit."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade_2",
+      "value": "That question was worth more to you than the crate was. Take it, and remember who let you ask it. Eighty, and the cart leaves."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade_2.c1",
+      "value": "Eighty. And the boot leather comes with it."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade_2.c2",
+      "value": "Keep the crate. I have what I came for."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_refused",
+      "value": "Principled. In a valley this thin. Well — I will note it in my book under reasons Rennfall will be interesting to watch."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_sold",
+      "value": "Pleasure. When the road reopens I will come back with better and charge you worse. That is what the League calls a relationship."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_sold_evidence",
+      "value": "The leather too, then. If anybody asks where you got it, you bought it from a woman whose cart was somewhere else."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_1",
+      "value": "Do not raise it. If I wanted the fire out I would have let them have it on the first night."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_2",
+      "value": "They stand at the treeline and count your roofs because I tell them to count. Counting is not attacking. You have had four quiet nights out of me."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3",
+      "value": "Look at my shoulder before you decide what I am. Go on. The rank-mark is still under the rot."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3.c1",
+      "value": "That is a warden's mark. That is Crane's mark."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3.c2",
+      "value": "I don't care what you were. You are outside the light for a reason."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3.c3",
+      "value": "Then say what you want, and say it plainly."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_crane",
+      "value": "Warden of Rennfall, sixty-one years, and the Marshals hanged me for refusing to burn my own dead. They were thorough. They were not thorough enough."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_offer",
+      "value": "Here is the plain version. The thing that keeps them walking is not out here in the trees. It is under your record house, and it was put there by people who signed their names to it."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_offer_2",
+      "value": "I cannot go in. The light you lit sees to that. You can. Open the cellar, read what is signed, and then tell me which of us the Protectorate would rather see hanged."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_refused",
+      "value": "Good. Keep that. You will need it when you find out who put me out here, and you find their names written in a hand you recognise."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_1",
+      "value": "Kestrel, Protectorate survey. My colleague holds the chain, I hold the pen, and neither of us decides anything. Remember that when you start shouting."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_2",
+      "value": "Your ledger reached the office. A settlement that holds nights and returns records is a settlement worth assessing. Assessment means boundary, tithe, and a name on a map."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3",
+      "value": "I need the boundary walked before dusk. Where you say it runs is where I write it, and what I write is what it is for the next forty years."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3.c1",
+      "value": "Walk it honestly. The fire reaches where it reaches."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3.c2",
+      "value": "Write it wide. Include the north seam and the treeline."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3.c3",
+      "value": "Write it small. Poor ground is not worth taxing."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_honest",
+      "value": "Honest. That is rarer than you would think and worth exactly as much as it costs you. The office likes clean figures; you will be assessed fairly and taxed fully."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_small",
+      "value": "Small, then. Less tithe, less notice, and no soldiers when the road closes. I have seen both choices end badly. I have never seen a third."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_wide",
+      "value": "Bold. I will write what you walk. Understand that a wide claim is a wide obligation — every stone inside that line is yours to defend, and the office will expect you to."
+    },
+    {
+      "key": "dlg.galen_ledger.g1",
+      "value": "That is a Greymarch binding. Where did you get it?"
+    },
+    {
+      "key": "dlg.galen_ledger.g2",
+      "value": "Ser Galen reads in silence. At the steward's mark he closes the book and hands it back without looking at you."
+    },
+    {
+      "key": "dlg.galen_ledger.g3",
+      "value": "I have seen it. That is all I can say today. Take it back to whoever sent you, and tell them a Crown officer has seen it."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_1",
+      "value": "Warden. A courier came from my uncle. The letter was for me, but it was about you."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2",
+      "value": "He offers me the Marrowin seat. The condition is written like a courtesy. 'Should the Warden not survive the valley.'"
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2.c1",
+      "value": "And what did you write back, Galen?"
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2.c2",
+      "value": "Take the seat. Then owe me the favour."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2.c3",
+      "value": "Ride home tonight. I will not wait for you to decide."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_answer",
+      "value": "Nothing yet. That is the part that shames me. Three days, and I have not written a single word."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_dismissed",
+      "value": "As you order, Warden. For what it is worth, I never intended to earn that seat the way he wants it earned."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_end",
+      "value": "The feast at Greymarch is in two days. Whatever happens there, do not drink first, and do not eat what the Duke does not."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_scheme",
+      "value": "You would use me against him. I should be offended. I find that I am mostly relieved."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_1",
+      "value": "Forty years I kept that stone clean and never once lit it. Didn't have the right. You do."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2",
+      "value": "Now listen, because this part matters. Everything the fire touches is ours. Everything it doesn't belongs to them."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2.c1",
+      "value": "Then we make the light bigger."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2.c2",
+      "value": "Them. You mean the people buried here."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2.c3",
+      "value": "Who taught you these rules, Brann?"
+    },
+    {
+      "key": "dlg.hearth_lit.brann_dead",
+      "value": "I knew most of them. Sold me eggs. Married my cousin. Now they stand in the treeline and wait for the light to fail."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_end",
+      "value": "Sleep while you can. They'll come tonight. New fire always draws them."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_expand",
+      "value": "Aye. Every roof you raise, every wall you set, the fire reaches further. That's the whole trick of this valley."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_rules",
+      "value": "The last warden. Before the Marshals took him for an outlaw. He wrote it all down, if the cellar hasn't eaten the book."
+    },
+    {
+      "key": "dlg.hollow_mira_after.a1",
+      "value": "I'm going, I'm going. The road is safer with his crew in the dirt. See you in Greymarch, Warden."
+    },
+    {
+      "key": "dlg.hollow_mira_bound.b1",
+      "value": "Behind you, no, not behind. He's in the ruin by the old stones. Rook. Don't let him talk. He talks until you're close."
+    },
+    {
+      "key": "dlg.hollow_mira_bound.b2",
+      "value": "Cut these ropes after. If there is an after."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f1",
+      "value": "He's down. He's really down. Give me a moment, my hands don't work yet."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f2",
+      "value": "Mira Holt, Salt League, wagon forty-one. They took the salt, the mules and my driver's whistle, and I want the whistle back more than the salt."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f3",
+      "value": "His strongbox is under the tarp by the pillars. He wrote everything down. Rook never trusted a buyer he couldn't prove."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f4",
+      "value": "The strongbox is not locked. Under the coin pouches lies a ledger bound in Greymarch grey: dates, wagons, and a steward's mark beside every sale."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f5",
+      "value": "Vesna Kell will want that more than she wants me back. I'll walk to Greymarch. Find me there. I owe you a drink and a mule."
+    },
+    {
+      "key": "dlg.hollow_rook.k1",
+      "value": "So the valley sends its Warden. I hoped for a Marshal. Marshals, at least, bargain."
+    },
+    {
+      "key": "dlg.hollow_rook.k2",
+      "value": "You broke my crew for a salt carter and a few wagons. Do you know who buys what we take? No. You would not be standing there if you did."
+    },
+    {
+      "key": "dlg.hollow_rook.k2.c1",
+      "value": "Put the blade down, Rook. This ends either way."
+    },
+    {
+      "key": "dlg.hollow_rook.k2.c2",
+      "value": "Tell me who pays you, and the Marshals hear you talked."
+    },
+    {
+      "key": "dlg.hollow_rook.k2.c3",
+      "value": "Let the woman go and walk out of the Hollow."
+    },
+    {
+      "key": "dlg.hollow_rook.k3a",
+      "value": "It does. Yours was always going to be the short end of it."
+    },
+    {
+      "key": "dlg.hollow_rook.k3b",
+      "value": "Greymarch silver, stamped at the keep. That is all you get, and you will not live to spend it."
+    },
+    {
+      "key": "dlg.hollow_rook.k3c",
+      "value": "Walk out to where? Every road in this valley belongs to someone now. This one is mine."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_1",
+      "value": "Warden Voss. Inspector Maren Ashby, of the Ash Marshals. The High Marshal sends her commendation, and me."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2",
+      "value": "I am to guide this settlement in the sterilisation protocols. Which begins, I am told, with a full account of your dead."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2.c1",
+      "value": "Every body we take is burned. You have my word."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2.c2",
+      "value": "We bury our dead here. That is not going to change."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2.c3",
+      "value": "Stay a week. Count what you like. Then we talk."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_delayed",
+      "value": "A week. You are not the first to buy time from the Marshals. Most of them only bought a week."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_end",
+      "value": "One more thing, Warden. Whatever you were sent here to die of, it is already awake in the trees. I have seen the marks."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_pleased",
+      "value": "Thank you. Truly. You have no idea how rarely that answer comes without an argument attached."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_refused",
+      "value": "Then I must write that down exactly as you said it. I would rather write something else. Give me a reason to."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_summons",
+      "value": "And the High Marshal sits in Greymarch in three days. My report needs your seal on it, in person. Take the east road out of the valley and keep to the cobbles. There is a Salt League woman there, Vesna Kell, who has been asking about you. See her first. She pays her debts in news."
+    },
+    {
+      "key": "dlg.merchant_sabel.leave",
+      "value": "Then I will be here until the road closes. After that, ask the Warden where I went."
+    },
+    {
+      "key": "dlg.merchant_sabel.open",
+      "value": "Sabel Orr. I carry what the League will not: small lots, fair weight, and no manifest to sign."
+    },
+    {
+      "key": "dlg.merchant_sabel.stall",
+      "value": "Everything on the board is here on the cart. Point, pay, carry it off."
+    },
+    {
+      "key": "dlg.merchant_sabel.stall.c1",
+      "value": "Show me what you have."
+    },
+    {
+      "key": "dlg.merchant_sabel.stall.c2",
+      "value": "Nothing today."
+    },
+    {
+      "key": "dlg.merchant_sabel.trade",
+      "value": "Look all you like. Touching is also allowed, if you are buying."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_1",
+      "value": "So you're the one they sent. Knight-Captain, was it? Or is it just Kael now?"
+    },
+    {
+      "key": "dlg.prologue_intro.brann_end",
+      "value": "Get some rest. Tomorrow we dig. Not graves, for once. Foundations."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_people",
+      "value": "Alive? Me. That's the whole census. The rest are... still here, mind you. Just not the talking sort."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_politics",
+      "value": "Hah. Clever question. Nobody told him it was worthless. They told him it was dangerous. That's why he gave it to you."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_stay",
+      "value": "Good. Then the first thing you learn is this: light the fire before dark, keep it lit, and never bury anyone outside the ring."
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice",
+      "value": "Doesn't matter much out here. The land doesn't read titles. Are you staying, or are you dying? Both are honest answers."
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice.c1",
+      "value": "I'm staying. Show me the hearth."
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice.c2",
+      "value": "How many people are still alive here?"
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice.c3",
+      "value": "Who told the Protector this valley was worthless?"
+    },
+    {
+      "key": "dlg.vesna_ledger.v1",
+      "value": "You brought back my carter, and the man who took her is in the ground. The League owes you. That is a sentence I say perhaps once a year."
+    },
+    {
+      "key": "dlg.vesna_ledger.v2",
+      "value": "Vesna turns the ledger's pages slowly. At the steward's mark, she stops smiling."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3",
+      "value": "Duke Harrow's steward. Every stolen wagon sold back into Greymarch's own stores. The Duke is starving your valley and buying its food back with the city's money."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3.c1",
+      "value": "The League can have it. For a price."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3.c2",
+      "value": "It stays with me. The Moot of Crowns will see it."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3.c3",
+      "value": "Copy it. Send one to the Marshals so nobody can bury it."
+    },
+    {
+      "key": "dlg.vesna_ledger.v4a",
+      "value": "Two hundred in League silver, and the League's word that we use it well. A pleasure."
+    },
+    {
+      "key": "dlg.vesna_ledger.v4b",
+      "value": "Then guard it better than Rook did. Men who sell a valley's food will not stop at a book."
+    },
+    {
+      "key": "dlg.vesna_ledger.v4c",
+      "value": "Two copies, two sealed letters. Careful. I am starting to like you, which is bad for business."
+    },
+    {
+      "key": "dlg.vesna_ledger.v5",
+      "value": "One more thing. The last page: deliveries to the old iron keep north of the city, every week, under guard. Whatever Harrow is building, he is building it there."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_1",
+      "value": "Vesna Kell, Salt League. I sell salt, rope, iron, and information. Today the information is free, which should worry you."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_2",
+      "value": "Your testament has a fourth clause. Whoever lights the first hearth in Rennfall may call the Moot of Crowns."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3",
+      "value": "You already lit it. So the question is no longer whether you matter. It is who buys you first."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3.c1",
+      "value": "Name your price for the road contract."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3.c2",
+      "value": "Rennfall is not for sale. Not to anyone."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3.c3",
+      "value": "Who else have you told?"
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_contract",
+      "value": "Twelve percent of everything that leaves the valley, and the League keeps your road open. Bandits included."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_end",
+      "value": "Either way: men in unmarked boots have been counting your wagons for three days. That part I am giving you for nothing."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_refused",
+      "value": "Admirable. Expensive, but admirable. When the first wagon burns, my offer will still be here, at a worse rate."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_told",
+      "value": "Honestly? Duke Harrow, yesterday. I would have told you first, but you had no money yesterday."
+    },
+    {
+      "key": "dlg.villager_gethin.n1",
+      "value": "I dig the graves now Brann's hands have gone. Twelve since the road, and not one of them stayed put."
+    },
+    {
+      "key": "dlg.villager_gethin.n2",
+      "value": "Don't look at me like that. Somebody has to know where everyone is buried, or we bury them twice."
+    },
+    {
+      "key": "dlg.villager_hesketh.n1",
+      "value": "Cooper by trade. Forty barrels a season in Greymarch, and here I am hooping buckets for a village with one well."
+    },
+    {
+      "key": "dlg.villager_hesketh.n2",
+      "value": "Do not pity me. A man with a trade eats. A man who can seal a barrel against rain eats twice."
+    },
+    {
+      "key": "dlg.villager_hesketh_pot.p1",
+      "value": "Winna's pot? It cracked because she boils it dry. Tell her I said so."
+    },
+    {
+      "key": "dlg.villager_hesketh_pot.p2",
+      "value": "Here. Iron, not clay. Bring it back with a bowl in it and we will call it even."
+    },
+    {
+      "key": "dlg.villager_iskra.n1",
+      "value": "Everyone walks a little wider around my table. That is fine. They still come when a wound goes green."
+    },
+    {
+      "key": "dlg.villager_iskra.n2",
+      "value": "Bring me bone dust and I will make something that keeps a man breathing through a night. Do not ask whose bone."
+    },
+    {
+      "key": "dlg.villager_wick.n1",
+      "value": "Are you the Warden? Mam says a Warden is just someone who didn't leave."
+    },
+    {
+      "key": "dlg.villager_wick.n2",
+      "value": "I keep the lamps filled. All of them, every evening, even the one by the ruin nobody goes near."
+    },
+    {
+      "key": "dlg.villager_winna.n1",
+      "value": "I wove the cloth they wrapped half this village in. Now I weave for the living again, and my hands do not know the difference."
+    },
+    {
+      "key": "dlg.villager_winna.n2",
+      "value": "Light it every night, Warden. Not because of what is out there. Because of what we become on the nights we do not."
+    },
+    {
+      "key": "event.ambush.banner",
+      "value": "The road has closed behind you."
+    },
+    {
+      "key": "event.ash_ledger.banner",
+      "value": "A Marshal's rider has come up the valley road."
+    },
+    {
+      "key": "event.goSpeak",
+      "value": "Go and speak to them"
+    },
+    {
+      "key": "event.goSpeakTimed",
+      "value": "Go and speak to them — {0} before they leave"
+    },
+    {
+      "key": "event.hollow.camp",
+      "value": "The cookfire crew are on their feet."
+    },
+    {
+      "key": "event.hollow.pass",
+      "value": "Lookouts drop into the pass."
+    },
+    {
+      "key": "event.marshal_returns.banner",
+      "value": "The Marshal's rider has come back, and he is not writing this time."
+    },
+    {
+      "key": "event.night_refugee.banner",
+      "value": "Someone is stumbling toward the light."
+    },
+    {
+      "key": "event.salt_offer.banner",
+      "value": "A Salt League cart is waiting. It will not wait long."
+    },
+    {
+      "key": "event.shepherd_sighting.banner",
+      "value": "Something is standing at the treeline. It is not walking in."
+    },
+    {
+      "key": "event.shepherd_speaks.banner",
+      "value": "It came closer this time. It is standing inside the light."
+    },
+    {
+      "key": "event.surveyors.banner",
+      "value": "Two men with measuring chains are walking your boundary."
+    },
+    {
+      "key": "event.wild.banner",
+      "value": "Something has come out of the trees."
+    },
+    {
+      "key": "faction.ash",
+      "value": "Ash Marshals"
+    },
+    {
+      "key": "faction.crown",
+      "value": "The Protectorate"
+    },
+    {
+      "key": "faction.hearth",
+      "value": "Rennfall hearth"
+    },
+    {
+      "key": "faction.salt",
+      "value": "Salt League"
+    },
+    {
+      "key": "hero.armour",
+      "value": "Armour"
+    },
+    {
+      "key": "hero.built",
+      "value": "Roofs raised"
+    },
+    {
+      "key": "hero.close",
+      "value": "Close the book"
+    },
+    {
+      "key": "hero.coin",
+      "value": "Coin"
+    },
+    {
+      "key": "hero.contracts",
+      "value": "Contracts cleared"
+    },
+    {
+      "key": "hero.damage",
+      "value": "Damage"
+    },
+    {
+      "key": "hero.experience",
+      "value": "Experience"
+    },
+    {
+      "key": "hero.felled",
+      "value": "Put down"
+    },
+    {
+      "key": "hero.health",
+      "value": "Health"
+    },
+    {
+      "key": "hero.level",
+      "value": "Level"
+    },
+    {
+      "key": "hero.name",
+      "value": "Kael Voss  ·  Warden of Rennfall"
+    },
+    {
+      "key": "hero.nights",
+      "value": "Nights held"
+    },
+    {
+      "key": "hero.section.deeds",
+      "value": "WHAT HE HAS DONE"
+    },
+    {
+      "key": "hero.section.self",
+      "value": "HIMSELF"
+    },
+    {
+      "key": "hero.section.standing",
+      "value": "HOW HE IS REGARDED"
+    },
+    {
+      "key": "hero.section.worn",
+      "value": "WHAT HE CARRIES"
+    },
+    {
+      "key": "hero.slot.body",
+      "value": "Body"
+    },
+    {
+      "key": "hero.slot.empty",
+      "value": "nothing"
+    },
+    {
+      "key": "hero.slot.feet",
+      "value": "Feet"
+    },
+    {
+      "key": "hero.slot.hands",
+      "value": "Hands"
+    },
+    {
+      "key": "hero.slot.head",
+      "value": "Head"
+    },
+    {
+      "key": "hero.slot.legs",
+      "value": "Legs"
+    },
+    {
+      "key": "hero.slot.mainHand",
+      "value": "Sword hand"
+    },
+    {
+      "key": "hero.slot.neck",
+      "value": "Neck"
+    },
+    {
+      "key": "hero.slot.offHand",
+      "value": "Off hand"
+    },
+    {
+      "key": "hero.slot.ring",
+      "value": "Ring"
+    },
+    {
+      "key": "hero.slot.trinket",
+      "value": "Kept close"
+    },
+    {
+      "key": "hero.title",
+      "value": "The Warden's Book"
+    },
+    {
+      "key": "hud.board",
+      "value": "JOBS"
+    },
+    {
+      "key": "hud.hero",
+      "value": "BOOK"
+    },
+    {
+      "key": "hud.level",
+      "value": "LV {0}"
+    },
+    {
+      "key": "hud.levelUp",
+      "value": "LEVEL {0}"
+    },
+    {
+      "key": "hud.levelUpGains",
+      "value": "Max health +{0}   ·   Attack +{1}   ·   Wounds healed"
+    },
+    {
+      "key": "hud.night",
+      "value": "{0}  ·  {1} still standing"
+    },
+    {
+      "key": "hud.pack",
+      "value": "PACK"
+    },
+    {
+      "key": "hud.skillUnlocked",
+      "value": "New skill: {0}"
+    },
+    {
+      "key": "hud.use",
+      "value": "USE"
+    },
+    {
+      "key": "hud.xpGain",
+      "value": "+{0} XP"
+    },
+    {
+      "key": "inv.back",
+      "value": "BACK"
+    },
+    {
+      "key": "inv.cat.all",
+      "value": "All"
+    },
+    {
+      "key": "inv.cat.armour",
+      "value": "Armour"
+    },
+    {
+      "key": "inv.cat.empty",
+      "value": "Nothing of this kind in the pack."
+    },
+    {
+      "key": "inv.cat.materials",
+      "value": "Materials"
+    },
+    {
+      "key": "inv.cat.quest",
+      "value": "Quest"
+    },
+    {
+      "key": "inv.cat.supplies",
+      "value": "Supplies"
+    },
+    {
+      "key": "inv.cat.trinkets",
+      "value": "Trinkets"
+    },
+    {
+      "key": "inv.cat.weapons",
+      "value": "Arms"
+    },
+    {
+      "key": "inv.close",
+      "value": "Close"
+    },
+    {
+      "key": "inv.dollStats",
+      "value": "Damage {0}   ·   Armour {1}   ·   Health {2}"
+    },
+    {
+      "key": "inv.equip",
+      "value": "EQUIP"
+    },
+    {
+      "key": "inv.equipped",
+      "value": "  (worn)"
+    },
+    {
+      "key": "inv.pick.none",
+      "value": "Nothing in your bag fits there"
+    },
+    {
+      "key": "inv.pick.title",
+      "value": "Wear on: {0}"
+    },
+    {
+      "key": "inv.stats",
+      "value": "Level {0}   HP {1}   DMG {2}   ARM {3}   Coin {4}"
+    },
+    {
+      "key": "inv.tab.bag",
+      "value": "BAG"
+    },
+    {
+      "key": "inv.tab.equipment",
+      "value": "EQUIPMENT"
+    },
+    {
+      "key": "inv.title",
+      "value": "Pack"
+    },
+    {
+      "key": "inv.unequip",
+      "value": "TAKE OFF"
+    },
+    {
+      "key": "inv.use",
+      "value": "USE"
+    },
+    {
+      "key": "item.amulet_bone.desc",
+      "value": "Somebody's lucky tooth. Luckier for them that it is not still in their mouth."
+    },
+    {
+      "key": "item.amulet_bone.name",
+      "value": "Tooth on a Cord"
+    },
+    {
+      "key": "item.amulet_gold.desc",
+      "value": "Made for a lord who never came back for it."
+    },
+    {
+      "key": "item.amulet_gold.name",
+      "value": "Sunfire Amulet"
+    },
+    {
+      "key": "item.amulet_silver.desc",
+      "value": "Blue as meltwater. It steadies the breath in a long fight."
+    },
+    {
+      "key": "item.amulet_silver.name",
+      "value": "Riverstone Pendant"
+    },
+    {
+      "key": "item.armor_ash_harness.desc",
+      "value": "Issued to the crews who walk into burning villages. It smells of smoke and will not stop."
+    },
+    {
+      "key": "item.armor_ash_harness.name",
+      "value": "Ash Marshal Harness"
+    },
+    {
+      "key": "item.armor_bone_lattice.desc",
+      "value": "Iskra's work: splints of femur bound in grave wax. The dead hesitate before striking their own."
+    },
+    {
+      "key": "item.armor_bone_lattice.name",
+      "value": "Bone Lattice"
+    },
+    {
+      "key": "item.armor_guard_mail.desc",
+      "value": "The lion was scratched off the breast. Kael did that himself, on the road."
+    },
+    {
+      "key": "item.armor_guard_mail.name",
+      "value": "Crown Guard Mail"
+    },
+    {
+      "key": "item.armor_padded.desc",
+      "value": "Refugee stitching over a soldier's cut. Warm, which counts for more out here."
+    },
+    {
+      "key": "item.armor_padded.name",
+      "value": "Padded Coat"
+    },
+    {
+      "key": "item.armor_refugee.desc",
+      "value": "Someone's winter coat, cut down twice and handed on twice more."
+    },
+    {
+      "key": "item.armor_refugee.name",
+      "value": "Patched Wool"
+    },
+    {
+      "key": "item.armor_warden_coat.desc",
+      "value": "Waxed against rain and grave-damp, with deep pockets for what wardens are not supposed to carry."
+    },
+    {
+      "key": "item.armor_warden_coat.name",
+      "value": "Warden's Long Coat"
+    },
+    {
+      "key": "item.armor_warden_plate.desc",
+      "value": "Taken from the drowned waystation. Still smells faintly of wet ash."
+    },
+    {
+      "key": "item.armor_warden_plate.name",
+      "value": "Warden's Plate"
+    },
+    {
+      "key": "item.axe_grave.desc",
+      "value": "Meant for roots, not bone. It stopped caring about the difference two winters ago."
+    },
+    {
+      "key": "item.axe_grave.name",
+      "value": "Gravecutter"
+    },
+    {
+      "key": "item.axe_harrow.desc",
+      "value": "Ducal issue. Heavy enough that the Duke's men swing it with both hands and their whole grudge."
+    },
+    {
+      "key": "item.axe_harrow.name",
+      "value": "Greymarch Warcleaver"
+    },
+    {
+      "key": "item.axe_woodcutter.desc",
+      "value": "Heavy, slow, honest. Splits pine and bone with equal patience."
+    },
+    {
+      "key": "item.axe_woodcutter.name",
+      "value": "Woodcutter's Axe"
+    },
+    {
+      "key": "item.bandage.desc",
+      "value": "Boiled, dried, rolled. The only medicine in the valley that never runs out."
+    },
+    {
+      "key": "item.bandage.name",
+      "value": "Boiled Linen"
+    },
+    {
+      "key": "item.boots_gold.desc",
+      "value": "Every step rings like a small bell. Stealth is for other people."
+    },
+    {
+      "key": "item.boots_gold.name",
+      "value": "Knight's Sabatons"
+    },
+    {
+      "key": "item.boots_iron.desc",
+      "value": "Heavier than they look, lighter than they sound."
+    },
+    {
+      "key": "item.boots_iron.name",
+      "value": "Plated Boots"
+    },
+    {
+      "key": "item.boots_leather.desc",
+      "value": "Resoled twice. Still let in the rain on the left."
+    },
+    {
+      "key": "item.boots_leather.name",
+      "value": "Road Boots"
+    },
+    {
+      "key": "item.bow_black.desc",
+      "value": "Tobias made it from a yew that grew out of a mass grave. He will tell you that story only once."
+    },
+    {
+      "key": "item.bow_black.name",
+      "value": "Blackfletch"
+    },
+    {
+      "key": "item.bow_hunter.desc",
+      "value": "Drawn properly it puts a shaft through a skull at eighty paces. Drawn badly it breaks your thumb."
+    },
+    {
+      "key": "item.bow_hunter.name",
+      "value": "Longbow of the Vale"
+    },
+    {
+      "key": "item.bow_poacher.desc",
+      "value": "Tobias carved the nocks himself. Illegal on three counts, useful on all of them."
+    },
+    {
+      "key": "item.bow_poacher.name",
+      "value": "Poacher's Bow"
+    },
+    {
+      "key": "item.dagger_quiet.desc",
+      "value": "A merchant's knife, balanced for throwing and for deniability."
+    },
+    {
+      "key": "item.dagger_quiet.name",
+      "value": "Quiet Work"
+    },
+    {
+      "key": "item.food_bread.desc",
+      "value": "Two days old at best. In Rennfall, that makes it fresh."
+    },
+    {
+      "key": "item.food_bread.name",
+      "value": "Hard Ration Bread"
+    },
+    {
+      "key": "item.food_salt_meat.desc",
+      "value": "League-cured and League-priced. Chews like rope, keeps a watchman upright until dawn."
+    },
+    {
+      "key": "item.food_salt_meat.name",
+      "value": "Salt Meat"
+    },
+    {
+      "key": "item.food_stew.desc",
+      "value": "Root vegetables, salt pork, and whatever the traps caught. Eaten standing, always."
+    },
+    {
+      "key": "item.food_stew.name",
+      "value": "Hearth Stew"
+    },
+    {
+      "key": "item.gloves_gold.desc",
+      "value": "Gold on the cuffs so the men could see which hand gave the order."
+    },
+    {
+      "key": "item.gloves_gold.name",
+      "value": "Captain's Gauntlets"
+    },
+    {
+      "key": "item.gloves_iron.desc",
+      "value": "Plates over the knuckles, leather in the palm. The dead do not like being punched with them."
+    },
+    {
+      "key": "item.gloves_iron.name",
+      "value": "Iron-backed Gauntlets"
+    },
+    {
+      "key": "item.gloves_leather.desc",
+      "value": "Stiff with old sap. They grip an axe handle like they were made for it."
+    },
+    {
+      "key": "item.gloves_leather.name",
+      "value": "Work Gloves"
+    },
+    {
+      "key": "item.helm_hood.desc",
+      "value": "Keeps the rain out. Does nothing about what walks in it."
+    },
+    {
+      "key": "item.helm_hood.name",
+      "value": "Oiled Hood"
+    },
+    {
+      "key": "item.helm_marshal.desc",
+      "value": "Filtered cloth and smoked glass. You can breathe in a burning street, and be told apart from the people in it."
+    },
+    {
+      "key": "item.helm_marshal.name",
+      "value": "Soot Hood"
+    },
+    {
+      "key": "item.helm_sallet.desc",
+      "value": "The dent is from a mace at the palace. The owner survived. Barely."
+    },
+    {
+      "key": "item.helm_sallet.name",
+      "value": "Dented Sallet"
+    },
+    {
+      "key": "item.helm_warden.desc",
+      "value": "Keeps rain off the neck and lets everyone see your face. Brann says the second part matters more."
+    },
+    {
+      "key": "item.helm_warden.name",
+      "value": "Warden's Wide Hat"
+    },
+    {
+      "key": "item.legs_gold.desc",
+      "value": "Parade armour that turned out to be real armour."
+    },
+    {
+      "key": "item.legs_gold.name",
+      "value": "Gilded Greaves"
+    },
+    {
+      "key": "item.legs_iron.desc",
+      "value": "Cold in the morning, warm by noon, heavy by evening."
+    },
+    {
+      "key": "item.legs_iron.name",
+      "value": "Mail Leggings"
+    },
+    {
+      "key": "item.legs_leather.desc",
+      "value": "Patched at the knee. Every warden kneels more than they admit."
+    },
+    {
+      "key": "item.legs_leather.name",
+      "value": "Leather Breeches"
+    },
+    {
+      "key": "item.mat_bone_dust.desc",
+      "value": "Ground from the restless dead. The Marshals calls owning it a crime. Iskra calls it Tuesday."
+    },
+    {
+      "key": "item.mat_bone_dust.name",
+      "value": "Bone Dust"
+    },
+    {
+      "key": "item.mat_cloth.desc",
+      "value": "Sheds rain off a roof or off a wound. The settlement never has enough of either use."
+    },
+    {
+      "key": "item.mat_cloth.name",
+      "value": "Oiled Cloth"
+    },
+    {
+      "key": "item.mat_grave_wax.desc",
+      "value": "Scraped from coffins that were never opened. Seals oaths and wounds alike."
+    },
+    {
+      "key": "item.mat_grave_wax.name",
+      "value": "Grave Wax"
+    },
+    {
+      "key": "item.mat_hide.desc",
+      "value": "Deer, mostly. The valley's deer have been nervous for forty years."
+    },
+    {
+      "key": "item.mat_hide.name",
+      "value": "Cured Hide"
+    },
+    {
+      "key": "item.mat_iron.desc",
+      "value": "Dark, dense, and the reason Duke Harrow keeps sending 'bandits'."
+    },
+    {
+      "key": "item.mat_iron.name",
+      "value": "Rennfall Iron"
+    },
+    {
+      "key": "item.mat_nails.desc",
+      "value": "Hand-forged, uneven, and worth more than the plank they hold."
+    },
+    {
+      "key": "item.mat_nails.name",
+      "value": "Iron Nails"
+    },
+    {
+      "key": "item.mat_pitch.desc",
+      "value": "Waterproofs a roof, seals a wound badly, and burns like a promise."
+    },
+    {
+      "key": "item.mat_pitch.name",
+      "value": "Pine Pitch"
+    },
+    {
+      "key": "item.mat_rope.desc",
+      "value": "Holds roofs down, holds prisoners still, holds a bridge together for one more crossing."
+    },
+    {
+      "key": "item.mat_rope.name",
+      "value": "Tarred Rope"
+    },
+    {
+      "key": "item.mat_saltbrick.desc",
+      "value": "League currency in all but name. Preserves meat, pays bribes, melts in rain."
+    },
+    {
+      "key": "item.mat_saltbrick.name",
+      "value": "Salt Brick"
+    },
+    {
+      "key": "item.mat_stone.desc",
+      "value": "Hearths, foundations, and grave markers. Mostly grave markers, lately."
+    },
+    {
+      "key": "item.mat_stone.name",
+      "value": "Quarried Stone"
+    },
+    {
+      "key": "item.mat_timber.desc",
+      "value": "Cut from the black pines. Every wall in the village starts here."
+    },
+    {
+      "key": "item.mat_timber.name",
+      "value": "Seasoned Timber"
+    },
+    {
+      "key": "item.oil_flask.desc",
+      "value": "Throw it, light it, and do not stand downwind of your own idea."
+    },
+    {
+      "key": "item.oil_flask.name",
+      "value": "Pitch Flask"
+    },
+    {
+      "key": "item.potion_large.desc",
+      "value": "Brewed for soldiers who must keep standing. Three of these and you will feel nothing at all."
+    },
+    {
+      "key": "item.potion_large.name",
+      "value": "Surgeon's Flask"
+    },
+    {
+      "key": "item.potion_mana.desc",
+      "value": "Iskra distills it from hearth ash. It burns all the way down and the burn is the point."
+    },
+    {
+      "key": "item.potion_mana.name",
+      "value": "Emberwine"
+    },
+    {
+      "key": "item.potion_nightsight.desc",
+      "value": "The dark goes grey and the cold goes sharp. Do not use it twice in one night."
+    },
+    {
+      "key": "item.potion_nightsight.name",
+      "value": "Nightsight Tincture"
+    },
+    {
+      "key": "item.potion_small.desc",
+      "value": "Tastes like a wet cellar. Closes wounds anyway."
+    },
+    {
+      "key": "item.potion_small.name",
+      "value": "Bitterroot Draught"
+    },
+    {
+      "key": "item.potion_stoneskin.desc",
+      "value": "Tastes of wet slate. For an hour, a blade feels like a shove."
+    },
+    {
+      "key": "item.potion_stoneskin.name",
+      "value": "Stoneskin Draught"
+    },
+    {
+      "key": "item.quest_burn_ledger.desc",
+      "value": "Every village cleared, with a column for souls accounted. The last column is always full and always wrong."
+    },
+    {
+      "key": "item.quest_burn_ledger.name",
+      "value": "Burning Crew Ledger"
+    },
+    {
+      "key": "item.quest_crane_journal.desc",
+      "value": "Forty years of burials, listed by name. The last entry is not a name. It is an apology."
+    },
+    {
+      "key": "item.quest_crane_journal.name",
+      "value": "Warden Crane's Journal"
+    },
+    {
+      "key": "item.quest_harrow_ledger.desc",
+      "value": "Boots, arrows and salt pork, issued to men who are officially bandits."
+    },
+    {
+      "key": "item.quest_harrow_ledger.name",
+      "value": "Greymarch Supply Ledger"
+    },
+    {
+      "key": "item.quest_marshal_writ.desc",
+      "value": "Stamped twice and signed once. It says Rennfall cooperates, which is a shield until it is a receipt."
+    },
+    {
+      "key": "item.quest_marshal_writ.name",
+      "value": "Writ of Compliance"
+    },
+    {
+      "key": "item.quest_moot_writ.desc",
+      "value": "Signed, sealed, and worth a war. Holding it makes you the most invited and most hunted person in Valcaris."
+    },
+    {
+      "key": "item.quest_moot_writ.name",
+      "value": "Writ of the Moot"
+    },
+    {
+      "key": "item.quest_oona_letter.desc",
+      "value": "Sealed with candle wax and addressed, in careful capitals, to Brann Hollowell."
+    },
+    {
+      "key": "item.quest_oona_letter.name",
+      "value": "Oona's Letter"
+    },
+    {
+      "key": "item.quest_order_orders.desc",
+      "value": "'Should the Hearth Right prove valid, the valley is to be cleared by fire. No exceptions are granted.'"
+    },
+    {
+      "key": "item.quest_order_orders.name",
+      "value": "Sealed Writ of the Ash Marshals"
+    },
+    {
+      "key": "item.quest_testament.desc",
+      "value": "Grants the Vale of Rennfall to Kael Voss. The fourth clause is written in a different hand."
+    },
+    {
+      "key": "item.quest_testament.name",
+      "value": "The Queen's Testament"
+    },
+    {
+      "key": "item.quest_wick_lamp.desc",
+      "value": "Dented, the glass cracked, the wick still in it. He will want it back anyway."
+    },
+    {
+      "key": "item.quest_wick_lamp.name",
+      "value": "Wick's Lamp"
+    },
+    {
+      "key": "item.relic_hearth_coal.desc",
+      "value": "The ember that started the first oathfire in Rennfall. It has never gone out. It has only waited."
+    },
+    {
+      "key": "item.relic_hearth_coal.name",
+      "value": "First Coal"
+    },
+    {
+      "key": "item.relic_root_crown_shard.desc",
+      "value": "A splinter of the crown that broke over the queen. It is still growing, very slowly, in the dark of your pack."
+    },
+    {
+      "key": "item.relic_root_crown_shard.name",
+      "value": "Shard of the Root Crown"
+    },
+    {
+      "key": "item.ring_copper.desc",
+      "value": "A farmer's ring, worn smooth. It has seen more harvests than fights."
+    },
+    {
+      "key": "item.ring_copper.name",
+      "value": "Copper Band"
+    },
+    {
+      "key": "item.ring_gold.desc",
+      "value": "The stone is warm to the touch, even in the snow."
+    },
+    {
+      "key": "item.ring_gold.name",
+      "value": "Emberheart Ring"
+    },
+    {
+      "key": "item.ring_iron.desc",
+      "value": "The square stone was cut to press a seal into wax. It presses just as well into a jaw."
+    },
+    {
+      "key": "item.ring_iron.name",
+      "value": "Warden's Signet"
+    },
+    {
+      "key": "item.shield_lion.desc",
+      "value": "Ser Galen's family arms. Carrying it in Rennfall is a political statement."
+    },
+    {
+      "key": "item.shield_lion.name",
+      "value": "Scaled Lion Shield"
+    },
+    {
+      "key": "item.shield_oak.desc",
+      "value": "Village make. The boss is a plough disc hammered flat."
+    },
+    {
+      "key": "item.shield_oak.name",
+      "value": "Oak Roundshield"
+    },
+    {
+      "key": "item.shield_tower.desc",
+      "value": "Big enough to sleep behind, which is exactly what the night watch does with it."
+    },
+    {
+      "key": "item.shield_tower.name",
+      "value": "Vigil Tower Shield"
+    },
+    {
+      "key": "item.shield_warden.desc",
+      "value": "The hearth mark is painted, not forged. It still makes refugees stand a little straighter."
+    },
+    {
+      "key": "item.shield_warden.name",
+      "value": "Hearth Round"
+    },
+    {
+      "key": "item.spear_ash.desc",
+      "value": "Long enough to keep a burning thing at arm's length, which is all anyone asks of a pike."
+    },
+    {
+      "key": "item.spear_ash.name",
+      "value": "Ashwood Pike"
+    },
+    {
+      "key": "item.spear_warden.desc",
+      "value": "Reach matters when the dead come in numbers. The old wardens knew it."
+    },
+    {
+      "key": "item.spear_warden.name",
+      "value": "Warden's Spear"
+    },
+    {
+      "key": "item.staff_apothecary.desc",
+      "value": "Hollow, stoppered, and full of things that should not share a shelf. Iskra insists it is perfectly safe."
+    },
+    {
+      "key": "item.staff_apothecary.name",
+      "value": "Apothecary's Staff"
+    },
+    {
+      "key": "item.sword_emberbrand.desc",
+      "value": "Forged in an oathfire. Warm in the hand even in the dead cold of the vale."
+    },
+    {
+      "key": "item.sword_emberbrand.name",
+      "value": "Emberbrand"
+    },
+    {
+      "key": "item.sword_gravedigger.desc",
+      "value": "Brann kept it sharp for forty years and never once used it on the living."
+    },
+    {
+      "key": "item.sword_gravedigger.name",
+      "value": "Gravedigger's Falchion"
+    },
+    {
+      "key": "item.sword_guard_issue.desc",
+      "value": "Standard issue, notched from a night you do not talk about. They let you keep it. That was the mercy."
+    },
+    {
+      "key": "item.sword_guard_issue.name",
+      "value": "Crown Guard Sword"
+    },
+    {
+      "key": "item.sword_hearth.desc",
+      "value": "Quenched in oathfire instead of water. The edge holds a little warmth, and the dead flinch from it."
+    },
+    {
+      "key": "item.sword_hearth.name",
+      "value": "Hearthsteel Blade"
+    },
+    {
+      "key": "item.sword_warden_oath.desc",
+      "value": "Crane's own sword, left in the cellar with the point driven into the floor. He never came back for it."
+    },
+    {
+      "key": "item.sword_warden_oath.name",
+      "value": "Warden's Oath"
+    },
+    {
+      "key": "item.tool_lantern.desc",
+      "value": "Shuttered on three sides. You see the road; the road does not see you."
+    },
+    {
+      "key": "item.tool_lantern.name",
+      "value": "Warden's Lantern"
+    },
+    {
+      "key": "item.tool_shovel.desc",
+      "value": "Brann's spare. Carrying it marks you as someone who intends to bury people properly."
+    },
+    {
+      "key": "item.tool_shovel.name",
+      "value": "Iron Shovel"
+    },
+    {
+      "key": "item.torch.desc",
+      "value": "Fire keeps the cold out, the dark back, and the dead honest."
+    },
+    {
+      "key": "item.torch.name",
+      "value": "Pitch Torch"
+    },
+    {
+      "key": "item.trinket_ashcharm.desc",
+      "value": "A pinch of a burned village in a glass thimble. The Marshals sell them. Maren cannot look at it."
+    },
+    {
+      "key": "item.trinket_ashcharm.name",
+      "value": "Ash Charm"
+    },
+    {
+      "key": "item.trinket_crane_seal.desc",
+      "value": "The old warden's seal of office. The wax under it is forty years old and still soft."
+    },
+    {
+      "key": "item.trinket_crane_seal.name",
+      "value": "Crane's Warden Seal"
+    },
+    {
+      "key": "item.trinket_ember_knot.desc",
+      "value": "A cord soaked in hearth ash, tied with a knot nobody living remembers how to undo."
+    },
+    {
+      "key": "item.trinket_ember_knot.name",
+      "value": "Ember Knot"
+    },
+    {
+      "key": "item.trinket_lion_pin.desc",
+      "value": "Wearing the Protector's crest in Rennfall is either loyalty or bait. Nobody has decided which."
+    },
+    {
+      "key": "item.trinket_lion_pin.name",
+      "value": "Scaled Lion Pin"
+    },
+    {
+      "key": "item.trinket_queens_seal.desc",
+      "value": "Wax from the testament that exiled you. Still faintly warm, which should be impossible."
+    },
+    {
+      "key": "item.trinket_queens_seal.name",
+      "value": "The Queen's Broken Seal"
+    },
+    {
+      "key": "item.trinket_road_charm.desc",
+      "value": "Two coins wired together, carried four days out of Greymarch by someone who arrived and someone who did not."
+    },
+    {
+      "key": "item.trinket_road_charm.name",
+      "value": "Road Charm"
+    },
+    {
+      "key": "item.trinket_root_ring.desc",
+      "value": "Grown, not forged. It tightens slightly whenever you stand on turned earth."
+    },
+    {
+      "key": "item.trinket_root_ring.name",
+      "value": "Root Ring"
+    },
+    {
+      "key": "item.trinket_salt_seal.desc",
+      "value": "Opens gates, closes mouths, and costs more than either."
+    },
+    {
+      "key": "item.trinket_salt_seal.name",
+      "value": "Salt League Seal"
+    },
+    {
+      "key": "item.trinket_tally.desc",
+      "value": "A notched stick. Sixty years of names, and Brann can still recite any notch you point at."
+    },
+    {
+      "key": "item.trinket_tally.name",
+      "value": "Gravedigger's Tally"
+    },
+    {
+      "key": "item.whetstone.desc",
+      "value": "Ten minutes of work for an hour of not dying. Fair trade."
+    },
+    {
+      "key": "item.whetstone.name",
+      "value": "Whetstone"
+    },
+    {
+      "key": "journal.done",
+      "value": "FINISHED"
+    },
+    {
+      "key": "journal.following",
+      "value": "FOLLOWING"
+    },
+    {
+      "key": "journal.main",
+      "value": "THE STORY"
+    },
+    {
+      "key": "journal.mainNone",
+      "value": "Nothing presses. Rest while it lasts."
+    },
+    {
+      "key": "journal.side",
+      "value": "SIDE WORK"
+    },
+    {
+      "key": "journal.sideNone",
+      "value": "Nothing taken on. Ask the people here — they have work."
+    },
+    {
+      "key": "journal.tab",
+      "value": "JOURNAL"
+    },
+    {
+      "key": "journal.tabSkills",
+      "value": "Skills"
+    },
+    {
+      "key": "journal.tabWarden",
+      "value": "WARDEN"
+    },
+    {
+      "key": "journal.tapToFollow",
+      "value": "Tap to follow it with the arrow"
+    },
+    {
+      "key": "kind.Armor",
+      "value": "Armour"
+    },
+    {
+      "key": "kind.Consumable",
+      "value": "Consumable"
+    },
+    {
+      "key": "kind.Material",
+      "value": "Material"
+    },
+    {
+      "key": "kind.Quest",
+      "value": "Story item"
+    },
+    {
+      "key": "kind.Relic",
+      "value": "Relic"
+    },
+    {
+      "key": "kind.Trinket",
+      "value": "Trinket"
+    },
+    {
+      "key": "kind.Weapon",
+      "value": "Weapon"
+    },
+    {
+      "key": "menu.continue",
+      "value": "Continue"
+    },
+    {
+      "key": "menu.newGame",
+      "value": "New Game"
+    },
+    {
+      "key": "menu.options",
+      "value": "Options"
+    },
+    {
+      "key": "menu.quit",
+      "value": "Quit"
+    },
+    {
+      "key": "night.push.1",
+      "value": "They come out of the treeline"
+    },
+    {
+      "key": "night.push.2",
+      "value": "The second push"
+    },
+    {
+      "key": "night.push.3",
+      "value": "The third push"
+    },
+    {
+      "key": "night.push.4",
+      "value": "They keep coming"
+    },
+    {
+      "key": "night.push.last",
+      "value": "The last of them"
+    },
+    {
+      "key": "offer.accept",
+      "value": "Take it on"
+    },
+    {
+      "key": "offer.doneHeading",
+      "value": "Work done"
+    },
+    {
+      "key": "offer.handIn",
+      "value": "Hand it over"
+    },
+    {
+      "key": "offer.heading",
+      "value": "Work offered"
+    },
+    {
+      "key": "offer.later",
+      "value": "Not now"
+    },
+    {
+      "key": "offer.reward",
+      "value": "Pays {0} experience and {1} coin"
+    },
+    {
+      "key": "options.close",
+      "value": "Close"
+    },
+    {
+      "key": "options.language",
+      "value": "Language"
+    },
+    {
+      "key": "options.leftHanded",
+      "value": "Left-handed controls"
+    },
+    {
+      "key": "options.music",
+      "value": "Music"
+    },
+    {
+      "key": "options.off",
+      "value": "OFF"
+    },
+    {
+      "key": "options.on",
+      "value": "ON"
+    },
+    {
+      "key": "options.questArrow",
+      "value": "Quest arrow"
+    },
+    {
+      "key": "options.sfx",
+      "value": "Effects"
+    },
+    {
+      "key": "options.shake",
+      "value": "Screen shake"
+    },
+    {
+      "key": "options.subtitles",
+      "value": "Subtitles"
+    },
+    {
+      "key": "options.textSpeed",
+      "value": "Text speed"
+    },
+    {
+      "key": "options.title",
+      "value": "Options"
+    },
+    {
+      "key": "options.voice",
+      "value": "Voice"
+    },
+    {
+      "key": "place.Greymarch",
+      "value": "Greymarch"
+    },
+    {
+      "key": "place.Hollow",
+      "value": "Blackthorn Hollow"
+    },
+    {
+      "key": "place.Rennfall",
+      "value": "Rennfall"
+    },
+    {
+      "key": "place.TradeRoad",
+      "value": "The Valley Road"
+    },
+    {
+      "key": "prompt.board",
+      "value": "Read the notice board"
+    },
+    {
+      "key": "prompt.build.palisade",
+      "value": "Raise a palisade (8 timber, 4 stone)"
+    },
+    {
+      "key": "prompt.build.shelter",
+      "value": "Raise a shelter (6 timber, 2 stone)"
+    },
+    {
+      "key": "prompt.built",
+      "value": "Standing"
+    },
+    {
+      "key": "prompt.door.close",
+      "value": "Close the door"
+    },
+    {
+      "key": "prompt.door.open",
+      "value": "Open the door"
+    },
+    {
+      "key": "prompt.gather.iron",
+      "value": "Mine iron"
+    },
+    {
+      "key": "prompt.gather.regrowing",
+      "value": "Picked clean. It grows back soon"
+    },
+    {
+      "key": "prompt.gather.stone",
+      "value": "Quarry stone: tap USE or strike the rock"
+    },
+    {
+      "key": "prompt.gather.timber",
+      "value": "Chop timber: tap USE or strike the tree"
+    },
+    {
+      "key": "prompt.hearth.callNight",
+      "value": "Call the night"
+    },
+    {
+      "key": "prompt.hearth.light",
+      "value": "Light the oathfire"
+    },
+    {
+      "key": "prompt.hearth.tend",
+      "value": "Tend the oathfire"
+    },
+    {
+      "key": "prompt.salvage",
+      "value": "Search the wreck"
+    },
+    {
+      "key": "prompt.search",
+      "value": "Search here"
+    },
+    {
+      "key": "prompt.stores",
+      "value": "Search the raiders' stores"
+    },
+    {
+      "key": "prompt.talk",
+      "value": "Talk"
+    },
+    {
+      "key": "prompt.trade",
+      "value": "Trade"
+    },
+    {
+      "key": "prompt.travel",
+      "value": "Take the road"
+    },
+    {
+      "key": "prompt.travel.greymarch",
+      "value": "Go on to Greymarch"
+    },
+    {
+      "key": "prompt.travel.hollow",
+      "value": "Follow the goat track down into the Hollow"
+    },
+    {
+      "key": "prompt.travel.hollowOut",
+      "value": "Climb back up to the trade road"
+    },
+    {
+      "key": "prompt.travel.rennfall",
+      "value": "Take the road back to Rennfall"
+    },
+    {
+      "key": "prompt.travel.road",
+      "value": "Take the trade road east"
+    },
+    {
+      "key": "prompt.travel.valley",
+      "value": "Take the road back to the valley"
+    },
+    {
+      "key": "prompt.use",
+      "value": "Use"
+    },
+    {
+      "key": "quest.q_first_fire.s1",
+      "value": "Meet Brann Hollowell in the village square"
+    },
+    {
+      "key": "quest.q_first_fire.s2",
+      "value": "Chop 8 timber and quarry 5 stone (strike, or tap USE)"
+    },
+    {
+      "key": "quest.q_first_fire.s3",
+      "value": "Light the oathfire in the square"
+    },
+    {
+      "key": "quest.q_first_fire.summary",
+      "value": "Rennfall has been dark for forty years. Light the oathfire before the sun goes down."
+    },
+    {
+      "key": "quest.q_first_fire.title",
+      "value": "The First Fire"
+    },
+    {
+      "key": "quest.q_first_night.s0",
+      "value": "Talk to Brann by the new fire"
+    },
+    {
+      "key": "quest.q_first_night.s1",
+      "value": "Tend the oathfire to call the night, then defeat 8 of the dead"
+    },
+    {
+      "key": "quest.q_first_night.s2",
+      "value": "At dawn, tell Brann what to do with the fallen"
+    },
+    {
+      "key": "quest.q_first_night.summary",
+      "value": "The dead come for any new fire in the vale. Hear Brann out, then call the night and hold the light until dawn."
+    },
+    {
+      "key": "quest.q_first_night.title",
+      "value": "The First Night"
+    },
+    {
+      "key": "quest.q_hollow.s1",
+      "value": "Ask Corporal Dace in Greymarch about the raids"
+    },
+    {
+      "key": "quest.q_hollow.s2",
+      "value": "Find the scraped post on the trade road and go down into the Hollow"
+    },
+    {
+      "key": "quest.q_hollow.s3",
+      "value": "Break the raiders' camp"
+    },
+    {
+      "key": "quest.q_hollow.s4",
+      "value": "Bring down Rook Varr in the ruin"
+    },
+    {
+      "key": "quest.q_hollow.s5",
+      "value": "Cut the prisoner free"
+    },
+    {
+      "key": "quest.q_hollow.s6",
+      "value": "Take Rook's ledger to Vesna Kell in Greymarch"
+    },
+    {
+      "key": "quest.q_hollow.summary",
+      "value": "Someone is taking wagons off the valley road, drivers and all. Find where they go, and who buys what is taken."
+    },
+    {
+      "key": "quest.q_hollow.title",
+      "value": "Blackthorn Hollow"
+    },
+    {
+      "key": "quest.q_inspector.s1",
+      "value": "Receive Inspector Maren in the village"
+    },
+    {
+      "key": "quest.q_inspector.s2",
+      "value": "Answer the Ash Marshals' order"
+    },
+    {
+      "key": "quest.q_inspector.summary",
+      "value": "Inspector Maren arrives to guide the settlement. Her guidance comes with a ledger and a sealed order."
+    },
+    {
+      "key": "quest.q_inspector.title",
+      "value": "The Marshal's Kindness"
+    },
+    {
+      "key": "quest.q_prologue.s1",
+      "value": "Reach the queen in the record house"
+    },
+    {
+      "key": "quest.q_prologue.s2",
+      "value": "Answer the court at your trial"
+    },
+    {
+      "key": "quest.q_prologue.s3",
+      "value": "Accept the testament and travel to Rennfall"
+    },
+    {
+      "key": "quest.q_prologue.summary",
+      "value": "Guard the queen through the renewal rite, and answer for what happens next."
+    },
+    {
+      "key": "quest.q_prologue.title",
+      "value": "The Night the Crown Cracked"
+    },
+    {
+      "key": "quest.q_records_house.s1",
+      "value": "Search the ruined record house for Crane's journal"
+    },
+    {
+      "key": "quest.q_records_house.summary",
+      "value": "Gethin swears the ruined record house still holds Warden Crane's journal, and that the dead down there do not like visitors."
+    },
+    {
+      "key": "quest.q_records_house.title",
+      "value": "The Names Beneath the Record House"
+    },
+    {
+      "key": "quest.q_shelter.s1",
+      "value": "Raise three shelters inside the hearth light"
+    },
+    {
+      "key": "quest.q_shelter.summary",
+      "value": "Refugees are sleeping in the mud. Raise shelters inside the hearth's light."
+    },
+    {
+      "key": "quest.q_shelter.title",
+      "value": "Roofs Before Walls"
+    },
+    {
+      "key": "quest.q_summons.s1",
+      "value": "Take the east road out of Rennfall"
+    },
+    {
+      "key": "quest.q_summons.s2",
+      "value": "Follow the trade road to the gates of Greymarch"
+    },
+    {
+      "key": "quest.q_summons.s3",
+      "value": "Find Vesna Kell of the Salt League in Greymarch"
+    },
+    {
+      "key": "quest.q_summons.summary",
+      "value": "The High Marshal convenes in Greymarch, and Maren's report needs the Warden's seal. Vesna Kell of the Salt League has been asking after you."
+    },
+    {
+      "key": "quest.q_summons.title",
+      "value": "Summoned to Greymarch"
+    },
+    {
+      "key": "quest.returnTo",
+      "value": "Return to {0}"
+    },
+    {
+      "key": "quest.sq_criers_news.s1",
+      "value": "Put down six of the road's men"
+    },
+    {
+      "key": "quest.sq_criers_news.summary",
+      "value": "Pell shouts the city's news twice a day and has nothing but grain prices. Give him road men in the dirt to shout about."
+    },
+    {
+      "key": "quest.sq_criers_news.title",
+      "value": "Something Worth Shouting"
+    },
+    {
+      "key": "quest.sq_dace_patrol.s1",
+      "value": "Break the camp in the Hollow"
+    },
+    {
+      "key": "quest.sq_dace_patrol.s2",
+      "value": "Bring word that their captain is down"
+    },
+    {
+      "key": "quest.sq_dace_patrol.summary",
+      "value": "Dace cannot send a patrol he has not been given. What he can do is write down what the Warden did, and let his captain read it."
+    },
+    {
+      "key": "quest.sq_dace_patrol.title",
+      "value": "A Corporal's Arithmetic"
+    },
+    {
+      "key": "quest.sq_flawless_vigil.s1",
+      "value": "Hold a night without taking a single wound"
+    },
+    {
+      "key": "quest.sq_flawless_vigil.summary",
+      "value": "Brann claims two wardens ever held a night untouched. He is not saying it to flatter you."
+    },
+    {
+      "key": "quest.sq_flawless_vigil.title",
+      "value": "A Night Without a Wound"
+    },
+    {
+      "key": "quest.sq_iron_seam.s1",
+      "value": "Bring Sabel six measures of iron"
+    },
+    {
+      "key": "quest.sq_iron_seam.s2",
+      "value": "Clear whatever the digging woke"
+    },
+    {
+      "key": "quest.sq_iron_seam.summary",
+      "value": "There is good iron under the north slope, and a reason the old villagers stopped digging it. Find out which is worth more."
+    },
+    {
+      "key": "quest.sq_iron_seam.title",
+      "value": "The Seam Nobody Works"
+    },
+    {
+      "key": "quest.sq_miras_wagon.s1",
+      "value": "Bring Mira five measures of iron"
+    },
+    {
+      "key": "quest.sq_miras_wagon.s2",
+      "value": "See the valley road quiet again"
+    },
+    {
+      "key": "quest.sq_miras_wagon.summary",
+      "value": "Mira wants to drive again, and a carter without iron fittings has a cart that comes apart on the first hill."
+    },
+    {
+      "key": "quest.sq_miras_wagon.title",
+      "value": "Wagon Forty-One"
+    },
+    {
+      "key": "quest.sq_oonas_letter.s1",
+      "value": "Take the letter from Oona"
+    },
+    {
+      "key": "quest.sq_oonas_letter.s2",
+      "value": "Carry the letter to Brann in Rennfall"
+    },
+    {
+      "key": "quest.sq_oonas_letter.summary",
+      "value": "Oona's brother marched with Brann's company twenty years ago. She has written to ask if he is alive, and the post does not go to Rennfall."
+    },
+    {
+      "key": "quest.sq_oonas_letter.title",
+      "value": "A Letter for the Valley"
+    },
+    {
+      "key": "quest.sq_porters_load.s1",
+      "value": "Bring Oona four measures of salt meat"
+    },
+    {
+      "key": "quest.sq_porters_load.summary",
+      "value": "The gate porters work the day on nothing. Oona will buy salt meat off you at a fair price and feed the line herself."
+    },
+    {
+      "key": "quest.sq_porters_load.title",
+      "value": "What the Porters Eat"
+    },
+    {
+      "key": "quest.sq_reputation_board.s1",
+      "value": "Complete five posted contracts"
+    },
+    {
+      "key": "quest.sq_reputation_board.s2",
+      "value": "Survive three nights as Warden of Rennfall"
+    },
+    {
+      "key": "quest.sq_reputation_board.summary",
+      "value": "A settlement is judged by whether its posted work gets done. Clear the board and word travels further than any banner."
+    },
+    {
+      "key": "quest.sq_reputation_board.title",
+      "value": "The Warden's Word"
+    },
+    {
+      "key": "quest.sq_roofline.s1",
+      "value": "Raise four buildings inside the hearth light"
+    },
+    {
+      "key": "quest.sq_roofline.s2",
+      "value": "Bring Hesketh two pitch and three rope"
+    },
+    {
+      "key": "quest.sq_roofline.summary",
+      "value": "The sky has that grey weight to it. Every roof raised before the storm is a family that does not sleep in mud."
+    },
+    {
+      "key": "quest.sq_roofline.title",
+      "value": "Before the Rain"
+    },
+    {
+      "key": "quest.sq_shepherds_distance.s1",
+      "value": "Put down three of the ones that lead"
+    },
+    {
+      "key": "quest.sq_shepherds_distance.s2",
+      "value": "Hold the valley two nights more"
+    },
+    {
+      "key": "quest.sq_shepherds_distance.summary",
+      "value": "It stood at the treeline and did not come in. Whatever decides that is worth making nervous."
+    },
+    {
+      "key": "quest.sq_shepherds_distance.title",
+      "value": "The Distance He Keeps"
+    },
+    {
+      "key": "quest.sq_stew.s1",
+      "value": "Borrow Hesketh's big pot"
+    },
+    {
+      "key": "quest.sq_stew.s2",
+      "value": "Bring Winna two measures of salt meat and two loaves"
+    },
+    {
+      "key": "quest.sq_stew.summary",
+      "value": "Old Winna feeds the night watch, but her pot cracked. Hesketh the cooper has a big one, and the stew needs meat and bread."
+    },
+    {
+      "key": "quest.sq_stew.title",
+      "value": "Something Hot"
+    },
+    {
+      "key": "quest.sq_surveyors_eye.s1",
+      "value": "Raise six roofs inside the hearth light"
+    },
+    {
+      "key": "quest.sq_surveyors_eye.s2",
+      "value": "Clear four posted contracts so the board reads busy"
+    },
+    {
+      "key": "quest.sq_surveyors_eye.summary",
+      "value": "The ledger went east, so men with chains and charts will come west. Let them find a settlement that looks too useful to break up."
+    },
+    {
+      "key": "quest.sq_surveyors_eye.title",
+      "value": "What the Surveyors Will See"
+    },
+    {
+      "key": "quest.sq_tally.s1",
+      "value": "Put down twelve of the risen so Brann can name them"
+    },
+    {
+      "key": "quest.sq_tally.summary",
+      "value": "Brann has kept a tally stick for every burial in Rennfall. He wants the last twelve names carved before he forgets them."
+    },
+    {
+      "key": "quest.sq_tally.title",
+      "value": "Sixty Years of Names"
+    },
+    {
+      "key": "quest.sq_unmarked_boots.s1",
+      "value": "Find proof of who pays the raiders"
+    },
+    {
+      "key": "quest.sq_unmarked_boots.s2",
+      "value": "Show the ledger to Ser Galen, and let a Crown officer see it"
+    },
+    {
+      "key": "quest.sq_unmarked_boots.summary",
+      "value": "The bandits on the trade road wear boots stamped by a Greymarch cobbler. Vesna will pay for proof, and Harrow will pay more for silence."
+    },
+    {
+      "key": "quest.sq_unmarked_boots.title",
+      "value": "Unmarked Boots"
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.s1",
+      "value": "Stock oiled cloth for bandages and roofing"
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.s2",
+      "value": "Put salt meat in the stores for the road-worn"
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.summary",
+      "value": "She arrived with a wound, two coins on a wire, and the names of everyone who did not. Outfit the next ones before they get here."
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.title",
+      "value": "What Nessa Carried"
+    },
+    {
+      "key": "quest.sq_whisperers.s1",
+      "value": "Put down six of the chanting dead"
+    },
+    {
+      "key": "quest.sq_whisperers.summary",
+      "value": "Inspector Maren wants the chanting dead counted and burned. Iskra wants one kept whole. You cannot do both."
+    },
+    {
+      "key": "quest.sq_whisperers.title",
+      "value": "The Ones That Chant"
+    },
+    {
+      "key": "quest.sq_wicks_lamp.s1",
+      "value": "Find Wick's lamp on the trade road"
+    },
+    {
+      "key": "quest.sq_wicks_lamp.summary",
+      "value": "Wick dropped his lamp running from the first night. He thinks it is out past the farm on the trade road, and he is not going back for it."
+    },
+    {
+      "key": "quest.sq_wicks_lamp.title",
+      "value": "The Lamp Boy's Lamp"
+    },
+    {
+      "key": "quest.sq_widows_vigil.s1",
+      "value": "Bring Asta three pitch torches"
+    },
+    {
+      "key": "quest.sq_widows_vigil.s2",
+      "value": "Stand a night in the valley for her"
+    },
+    {
+      "key": "quest.sq_widows_vigil.summary",
+      "value": "Asta keeps a light burning for a son who is not coming back. She will not ask the city for pitch, so she asks you."
+    },
+    {
+      "key": "quest.sq_widows_vigil.title",
+      "value": "Lamps for the Long Street"
+    },
+    {
+      "key": "rarity.Common",
+      "value": "Common"
+    },
+    {
+      "key": "rarity.Fine",
+      "value": "Fine"
+    },
+    {
+      "key": "rarity.Oathbound",
+      "value": "Oathbound"
+    },
+    {
+      "key": "rarity.Rare",
+      "value": "Rare"
+    },
+    {
+      "key": "shop.bought",
+      "value": "Bought: {0}"
+    },
+    {
+      "key": "shop.buy",
+      "value": "Buy"
+    },
+    {
+      "key": "shop.cannotAfford",
+      "value": "Not enough coin"
+    },
+    {
+      "key": "shop.coin",
+      "value": "Your purse: {0} coin"
+    },
+    {
+      "key": "shop.leave",
+      "value": "Leave"
+    },
+    {
+      "key": "shop.nothingToSell",
+      "value": "Nothing in the pack worth selling."
+    },
+    {
+      "key": "shop.price",
+      "value": "{0} coin"
+    },
+    {
+      "key": "shop.sabel.name",
+      "value": "Sabel's Stall"
+    },
+    {
+      "key": "shop.sell",
+      "value": "Sell"
+    },
+    {
+      "key": "shop.sellFor",
+      "value": "Sells for {0}"
+    },
+    {
+      "key": "skill.battle_fury.desc",
+      "value": "For a short while every blow lands harder."
+    },
+    {
+      "key": "skill.battle_fury.name",
+      "value": "Battle Fury"
+    },
+    {
+      "key": "skill.ember_burst.desc",
+      "value": "A ring of hearth-fire bursts out around the Warden and scorches everything close."
+    },
+    {
+      "key": "skill.ember_burst.name",
+      "value": "Ember Burst"
+    },
+    {
+      "key": "skill.ember_step.desc",
+      "value": "Vanish in a puff of sparks and step out a few paces on."
+    },
+    {
+      "key": "skill.ember_step.name",
+      "value": "Ember Step"
+    },
+    {
+      "key": "skill.field_dressing.desc",
+      "value": "Bind the worst of it and keep standing. Restores health."
+    },
+    {
+      "key": "skill.field_dressing.name",
+      "value": "Field Dressing"
+    },
+    {
+      "key": "skill.hamstring.desc",
+      "value": "Cut behind the knee. What was chasing you now limps."
+    },
+    {
+      "key": "skill.hamstring.name",
+      "value": "Hamstring"
+    },
+    {
+      "key": "skill.hearth_breath.desc",
+      "value": "Fire pours out ahead in a widening fan."
+    },
+    {
+      "key": "skill.hearth_breath.name",
+      "value": "Hearth Breath"
+    },
+    {
+      "key": "skill.iron_thirst.desc",
+      "value": "The blade drinks, and some of what it drinks comes back to you as health."
+    },
+    {
+      "key": "skill.iron_thirst.name",
+      "value": "Iron Thirst"
+    },
+    {
+      "key": "skill.opening_cut.desc",
+      "value": "A low, dirty slash that keeps bleeding after the blade has moved on."
+    },
+    {
+      "key": "skill.opening_cut.name",
+      "value": "Opening Cut"
+    },
+    {
+      "key": "skills.cost",
+      "value": "{0} mana  ·  {1}s to recover"
+    },
+    {
+      "key": "skills.dodge",
+      "value": "Dodge is always ready on its own button."
+    },
+    {
+      "key": "skills.heading",
+      "value": "Two skills can be carried into a fight. Tap I or II to carry one."
+    },
+    {
+      "key": "skills.locked",
+      "value": "Opens at level {0}"
+    },
+    {
+      "key": "speaker.asta",
+      "value": "Widow Asta"
+    },
+    {
+      "key": "speaker.aurel",
+      "value": "Lord Protector Aurel"
+    },
+    {
+      "key": "speaker.brann",
+      "value": "Brann Hollowell"
+    },
+    {
+      "key": "speaker.crane",
+      "value": "The Grey Shepherd"
+    },
+    {
+      "key": "speaker.dace",
+      "value": "Corporal Dace"
+    },
+    {
+      "key": "speaker.galen",
+      "value": "Ser Galen"
+    },
+    {
+      "key": "speaker.gethin",
+      "value": "Gethin the Digger"
+    },
+    {
+      "key": "speaker.hesketh",
+      "value": "Hesketh the Cooper"
+    },
+    {
+      "key": "speaker.iskra",
+      "value": "Iskra Vell"
+    },
+    {
+      "key": "speaker.isolde",
+      "value": "Queen Isolde"
+    },
+    {
+      "key": "speaker.kael",
+      "value": "Kael Voss"
+    },
+    {
+      "key": "speaker.maren",
+      "value": "Inspector Maren"
+    },
+    {
+      "key": "speaker.mira",
+      "value": "Mira Holt"
+    },
+    {
+      "key": "speaker.oona",
+      "value": "Oona the Porter"
+    },
+    {
+      "key": "speaker.pell",
+      "value": "Pell the Crier"
+    },
+    {
+      "key": "speaker.refugee",
+      "value": "Nessa Aldwin"
+    },
+    {
+      "key": "speaker.rook",
+      "value": "Rook Varr"
+    },
+    {
+      "key": "speaker.sabel",
+      "value": "Sabel Orr"
+    },
+    {
+      "key": "speaker.surveyor",
+      "value": "Surveyor Kestrel"
+    },
+    {
+      "key": "speaker.tobias",
+      "value": "Tobias Reed"
+    },
+    {
+      "key": "speaker.vesna",
+      "value": "Vesna Kell"
+    },
+    {
+      "key": "speaker.wick",
+      "value": "Wick"
+    },
+    {
+      "key": "speaker.winna",
+      "value": "Old Winna"
+    },
+    {
+      "key": "stat.armour",
+      "value": "Armour"
+    },
+    {
+      "key": "stat.damage",
+      "value": "Damage"
+    },
+    {
+      "key": "stat.heals",
+      "value": "Restores"
+    },
+    {
+      "key": "stat.health",
+      "value": "Health"
+    },
+    {
+      "key": "stat.mana",
+      "value": "Ember"
+    },
+    {
+      "key": "stat.value",
+      "value": "Worth"
+    },
+    {
+      "key": "title.tagline",
+      "value": "The dead do not sleep in untended ground"
+    },
+    {
+      "key": "toast.bossDown",
+      "value": "Their captain has fallen"
+    },
+    {
+      "key": "toast.built",
+      "value": "The hearth light reaches further"
+    },
+    {
+      "key": "toast.contractPaid",
+      "value": "Contract paid"
+    },
+    {
+      "key": "toast.contractTaken",
+      "value": "Contract taken"
+    },
+    {
+      "key": "toast.dawn",
+      "value": "Dawn. The valley is quiet again."
+    },
+    {
+      "key": "toast.equipped",
+      "value": "Equipped"
+    },
+    {
+      "key": "toast.eventMissed",
+      "value": "They waited as long as they could"
+    },
+    {
+      "key": "toast.found",
+      "value": "Found: {0}"
+    },
+    {
+      "key": "toast.gathered",
+      "value": "+{0} {1}  ·  {2} in your pack"
+    },
+    {
+      "key": "toast.graveStir",
+      "value": "The graves stir."
+    },
+    {
+      "key": "toast.hearthNeeds",
+      "value": "The hearth needs timber {0}/{1} and stone {2}/{3}"
+    },
+    {
+      "key": "toast.hearthResting",
+      "value": "The valley is still catching its breath"
+    },
+    {
+      "key": "toast.hearthTended",
+      "value": "The oathfire burns steady"
+    },
+    {
+      "key": "toast.hollowCamp",
+      "value": "The camp is broken"
+    },
+    {
+      "key": "toast.hollowPass",
+      "value": "The pass is clear"
+    },
+    {
+      "key": "toast.needMaterials",
+      "value": "Not enough materials"
+    },
+    {
+      "key": "toast.nightFalls",
+      "value": "Night falls. Something is moving in the trees."
+    },
+    {
+      "key": "toast.nothingToSay",
+      "value": "Nothing more to say for now"
+    },
+    {
+      "key": "toast.questDone",
+      "value": "Done: {0}"
+    },
+    {
+      "key": "toast.questTaken",
+      "value": "Taken on: {0}"
+    },
+    {
+      "key": "toast.recovered",
+      "value": "You wake by the light, bruised but breathing"
+    },
+    {
+      "key": "toast.recoveredCoin",
+      "value": "You wake by the light  ·  {0} coin lost in the fall"
+    },
+    {
+      "key": "toast.roadClear",
+      "value": "The road is quiet again"
+    },
+    {
+      "key": "toast.rookDown",
+      "value": "Rook Varr has fallen"
+    },
+    {
+      "key": "toast.used",
+      "value": "Used"
+    },
+    {
+      "key": "tone.guile",
+      "value": "Guile"
+    },
+    {
+      "key": "tone.iron",
+      "value": "Iron"
+    },
+    {
+      "key": "tone.mercy",
+      "value": "Mercy"
+    }
+  ]
+}

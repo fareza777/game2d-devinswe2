@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "id": "ember_burst",
+      "level": 3,
+      "ability": "Offensive/AoEExplosion"
+    },
+    {
+      "id": "opening_cut",
+      "level": 4,
+      "ability": "Offensive/BleedingStrike"
+    },
+    {
+      "id": "field_dressing",
+      "level": 5,
+      "ability": "Support/Heal Self"
+    },
+    {
+      "id": "hearth_breath",
+      "level": 6,
+      "ability": "Offensive/ConeOfFire"
+    },
+    {
+      "id": "hamstring",
+      "level": 7,
+      "ability": "Offensive/Hamstring"
+    },
+    {
+      "id": "battle_fury",
+      "level": 8,
+      "ability": "Offensive/Enrage"
+    },
+    {
+      "id": "iron_thirst",
+      "level": 9,
+      "ability": "Offensive/Lifesteal I"
+    },
+    {
+      "id": "ember_step",
+      "level": 10,
+      "ability": "Support/Blink I"
+    }
+  ]
+}

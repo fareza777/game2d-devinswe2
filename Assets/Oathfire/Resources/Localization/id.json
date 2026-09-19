@@ -1,0 +1,3160 @@
+{
+  "entries": [
+    {
+      "key": "board.accept",
+      "value": "AMBIL"
+    },
+    {
+      "key": "board.claim",
+      "value": "KLAIM"
+    },
+    {
+      "key": "board.close",
+      "value": "Tutup"
+    },
+    {
+      "key": "board.inProgress",
+      "value": "BERJALAN"
+    },
+    {
+      "key": "board.reward",
+      "value": "{0} diperlukan  ·  {1} koin"
+    },
+    {
+      "key": "board.summary",
+      "value": "{0} ditawarkan  ·  {1} diambil  ·  {2} selesai"
+    },
+    {
+      "key": "board.title",
+      "value": "Papan Warden"
+    },
+    {
+      "key": "boss.banner",
+      "value": "{0}  ·  {1} / {2}"
+    },
+    {
+      "key": "boss.rook",
+      "value": "Rook Varr"
+    },
+    {
+      "key": "cine.opening.p1_valley.1",
+      "value": "Orang kota bilang tanah itu cuma tanah. Tempat menanam gandum, tempat mengubur ibu, tempat berdiri raja."
+    },
+    {
+      "key": "cine.opening.p1_valley.2",
+      "value": "Aku sudah menggali kubur di Rennfall enam puluh tahun. Aku bisa bilang satu hal pasti: tanah itu mendengar."
+    },
+    {
+      "key": "cine.opening.p1b_burial.1",
+      "value": "Dulu kami mengubur orang mati di bawah lantai rumah. Nenek di bawah perapian, paman di bawah pintu."
+    },
+    {
+      "key": "cine.opening.p1b_burial.2",
+      "value": "Orang asing bilang itu seram. Bagi kami itu menjaga keluarga tetap dekat. Bagi tanah, itu pembayaran."
+    },
+    {
+      "key": "cine.opening.p2_first_testament.1",
+      "value": "Tiga ratus tahun lalu seorang panglima membuat janji. Kita kubur orang mati kita, dan tanah memberi kita panen. Kematian tetap di bawah."
+    },
+    {
+      "key": "cine.opening.p2b_harvest.1",
+      "value": "Dan tanah membayar. Tiga ratus tahun lumbung penuh. Para raja menyebutnya anugerah mereka. Padahal itu bukan milik mereka."
+    },
+    {
+      "key": "cine.opening.p3_burning.1",
+      "value": "Lalu datang demam. Lalu datang regu pembakar. Mereka bilang api menyucikan. Mereka membakar semuanya."
+    },
+    {
+      "key": "cine.opening.p3_burning.2",
+      "value": "Tanah itu lapar. Dan tanah yang lapar mulai membangunkan siapa pun yang pernah ia telan."
+    },
+    {
+      "key": "cine.opening.p3b_first_rising.1",
+      "value": "Yang pertama bangkit di ladang dekat Ashcombe. Tak ada yang menjerit. Bagian itulah yang selalu dilupakan orang."
+    },
+    {
+      "key": "cine.opening.p3b_first_rising.2",
+      "value": "Mereka mengenali wajahnya. Mereka berdiri di sana menyebut namanya, lalu ia menoleh, dan ia menjawab."
+    },
+    {
+      "key": "cine.opening.p4_cracked_crown.1",
+      "value": "Kael. Pergi. Sekarang. Apa pun yang kau dengar, jangan kembali."
+    },
+    {
+      "key": "cine.opening.p4_cracked_crown.2",
+      "value": "Malam itu mahkota retak. Ratu mati. Dan kerajaan butuh seseorang untuk disalahkan."
+    },
+    {
+      "key": "cine.opening.p4b_queen_falls.1",
+      "value": "Setiap raja memakai mahkota itu dan mengucapkan sumpah itu, dan tak satu pun memberi tahu rakyat berapa harganya."
+    },
+    {
+      "key": "cine.opening.p4b_queen_falls.2",
+      "value": "Lalu mahkota itu retak. Dan seluruh utangnya ditagih sekaligus, seperti kebiasaan utang."
+    },
+    {
+      "key": "cine.opening.p5_trial.1",
+      "value": "Atas kelalaian yang merenggut nyawa Sri Ratu, gelar dan pedangmu dicabut. Namun Sri Ratu, dalam kemurahannya, meninggalkan wasiat untukmu."
+    },
+    {
+      "key": "cine.opening.p5_trial.2",
+      "value": "Lembah Rennfall. Semoga tanah itu memperlakukanmu dengan adil."
+    },
+    {
+      "key": "cine.opening.p5b_testament.1",
+      "value": "Mereka memberinya lembah mati dan menyebutnya warisan. Seluruh istana tertawa puas."
+    },
+    {
+      "key": "cine.opening.p5b_testament.2",
+      "value": "Tak ada yang membaca klausul keempat. Kecuali seorang pedagang, dan pedagang tak pernah tertawa gratis."
+    },
+    {
+      "key": "cine.opening.p6_road.1",
+      "value": "Mereka mengirim dia ke tempat orang mati tidak mau tidur. Mereka kira itu hukuman."
+    },
+    {
+      "key": "cine.opening.p6_road.2",
+      "value": "Mereka lupa satu hal. Siapa pun yang menyalakan api pertama di Rennfall memegang kerajaan di tangannya."
+    },
+    {
+      "key": "cine.opening.p6b_rennfall.1",
+      "value": "Jadi aku menggali satu kubur lagi, menunggu di tepi jalan, dan berharap tak perlu memakainya."
+    },
+    {
+      "key": "cine.opening.p6b_rennfall.2",
+      "value": "Warden. Batunya dingin dan matahari hampir turun. Nyalakan, dan mari kita lihat apa yang sudah kita mulai."
+    },
+    {
+      "key": "contract.cull_elite.body",
+      "value": "Ada sesuatu di luar sana yang mengatur mereka. Yang bertubuh besar membawa tanda pangkat lama di balik pembusukan. Tumbangkan dua, dan yang mengatur mereka akan balik memperhatikanmu."
+    },
+    {
+      "key": "contract.cull_elite.client",
+      "value": "Pengumuman Warden Sendiri"
+    },
+    {
+      "key": "contract.cull_elite.title",
+      "value": "Yang Memimpin Mereka"
+    },
+    {
+      "key": "contract.cull_knights.body",
+      "value": "Yang berzirah dulunya prajurit. Mereka masih menjaga formasi. Tumbangkan tiga, dan saya akan percaya lembah ini bisa dipertahankan."
+    },
+    {
+      "key": "contract.cull_knights.client",
+      "value": "Ser Galen"
+    },
+    {
+      "key": "contract.cull_knights.title",
+      "value": "Mayat Berzirah"
+    },
+    {
+      "key": "contract.cull_mages.body",
+      "value": "Yang merapal bukan mayat biasa. Kantor saya ingin mereka dihitung, dibakar, dan dicatat. Saya juga, dengan alasan berbeda."
+    },
+    {
+      "key": "contract.cull_mages.client",
+      "value": "Inspektur Maren"
+    },
+    {
+      "key": "contract.cull_mages.title",
+      "value": "Yang Berbisik"
+    },
+    {
+      "key": "contract.cull_scouts.body",
+      "value": "Mereka berkumpul di batas cahaya dan menghitung atap kita. Tumbangkan sebagian, biar sisanya belajar menghitung lebih sedikit."
+    },
+    {
+      "key": "contract.cull_scouts.client",
+      "value": "Brann Hollowell"
+    },
+    {
+      "key": "contract.cull_scouts.title",
+      "value": "Kurangi Mereka di Tepi Hutan"
+    },
+    {
+      "key": "contract.labour_shelter.body",
+      "value": "Tak ada yang minta rumah. Atap, dinding penahan angin, dan tempat di dalam cahaya sudah cukup untuk menghentikan tangis di malam hari."
+    },
+    {
+      "key": "contract.labour_shelter.client",
+      "value": "Para Pengungsi"
+    },
+    {
+      "key": "contract.labour_shelter.title",
+      "value": "Atap untuk yang Lelah di Jalan"
+    },
+    {
+      "key": "contract.supply_bone.body",
+      "value": "Jangan pasang wajah muram. Mereka berhenti jadi manusia sebelum sampai ke tangan saya. Sisanya cuma kapur, dan kapur itu yang membuat kalian tetap bernapas."
+    },
+    {
+      "key": "contract.supply_bone.client",
+      "value": "Iskra Vell"
+    },
+    {
+      "key": "contract.supply_bone.title",
+      "value": "Giling Sampai Halus"
+    },
+    {
+      "key": "contract.supply_iron.body",
+      "value": "Besi Rennfall lebih mahal daripada gosip Rennfall, dan saya berdagang keduanya. Tanpa pertanyaan, tanpa surat jalan, plus sebotol untuk jerih payah Anda."
+    },
+    {
+      "key": "contract.supply_iron.client",
+      "value": "Vesna Kell"
+    },
+    {
+      "key": "contract.supply_iron.title",
+      "value": "Kiriman Diam-Diam"
+    },
+    {
+      "key": "contract.supply_stone.body",
+      "value": "Tiap batu yang kita pasang melebarkan lingkaran sejengkal. Terdengar sepele, sampai malam tiba."
+    },
+    {
+      "key": "contract.supply_stone.client",
+      "value": "Gudang Pemukiman"
+    },
+    {
+      "key": "contract.supply_stone.title",
+      "value": "Batu untuk Lingkaran Perapian"
+    },
+    {
+      "key": "contract.supply_timber.body",
+      "value": "Dinding tak berdiri sendiri, dan pohon terdekat dari cahaya paling aman ditebang. Bawa kayunya sebelum gelap."
+    },
+    {
+      "key": "contract.supply_timber.client",
+      "value": "Gudang Pemukiman"
+    },
+    {
+      "key": "contract.supply_timber.title",
+      "value": "Tebang untuk Pagar"
+    },
+    {
+      "key": "contract.vigil_long.body",
+      "value": "Lord Protektor memerlukan bukti bahwa lembah benar-benar dipertahankan, bukan sekadar diklaim. Bertahanlah, dan catatan resmi akan menuliskannya."
+    },
+    {
+      "key": "contract.vigil_long.client",
+      "value": "Juru Tulis Protektorat"
+    },
+    {
+      "key": "contract.vigil_long.title",
+      "value": "Bukti Bertahan"
+    },
+    {
+      "key": "contract.vigil_unhurt.body",
+      "value": "Bertahan semalam penuh tanpa terluka. Aku pernah melihat dua warden berhasil. Keduanya bukan tipe yang suka menyombong."
+    },
+    {
+      "key": "contract.vigil_unhurt.client",
+      "value": "Brann Hollowell"
+    },
+    {
+      "key": "contract.vigil_unhurt.title",
+      "value": "Tanpa Lecet"
+    },
+    {
+      "key": "dlg.after_first_night.brann_1",
+      "value": "Masih bernapas. Bagus. Sekarang bagian yang takkan diajarkan siapa pun di ibu kota: apa yang kita lakukan pada yang gugur."
+    },
+    {
+      "key": "dlg.after_first_night.brann_burn",
+      "value": "Sesuai perintahmu, Warden. Berdirilah searah angin. Dan jangan sebutkan nama mereka setelahnya. Aku tak ingin nama itu di kepalaku."
+    },
+    {
+      "key": "dlg.after_first_night.brann_bury",
+      "value": "Kalau begitu aku yang menggali. Empat puluh tahun aku menunggu seseorang mengucapkan perintah itu dengan lantang."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice",
+      "value": "Kubur mereka, dan tanah tetap subur dan tenang. Bakar mereka, dan Barisan Abu tersenyum padamu. Tak bisa dua-duanya."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice.c1",
+      "value": "Kita kubur mereka. Dengan layak, lengkap dengan nama."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice.c2",
+      "value": "Kita bakar mereka. Aku tak mau mempertaruhkan desa."
+    },
+    {
+      "key": "dlg.after_first_night.brann_choice.c3",
+      "value": "Kubur orang kita. Bakar milik mereka. Biar Barisan Abu menghitung asapnya."
+    },
+    {
+      "key": "dlg.after_first_night.brann_end",
+      "value": "Satu hal lagi. Seorang penunggang datang saat fajar, memakai lambang api. Dia akan sampai di gerbang siang nanti, dan dia akan minta diantar berkeliling."
+    },
+    {
+      "key": "dlg.after_first_night.brann_split",
+      "value": "Cerdik. Berbahaya, tapi cerdik. Barisan Abu menghitung mayat, bukan kubur. Semoga mereka tak pernah belajar menghitung keduanya."
+    },
+    {
+      "key": "dlg.brann_letter.b1",
+      "value": "Surat? Tak ada yang menulis untukku. Sini."
+    },
+    {
+      "key": "dlg.brann_letter.b2",
+      "value": "Brann membacanya dua kali. Lalu ia duduk di tepi sumur."
+    },
+    {
+      "key": "dlg.brann_letter.b3",
+      "value": "Tamsin Oller. Kena panah di arungan dan mengeluh sebulan penuh. Sekarang beternak domba di balik punggung bukit utara. Masih hidup, dan gendut."
+    },
+    {
+      "key": "dlg.brann_letter.b4",
+      "value": "Katakan itu pada kakaknya. Katakan dia tak pernah belajar menulis, kalau tidak dia pasti sudah mengabari bertahun-tahun lalu."
+    },
+    {
+      "key": "dlg.city_asta.n1",
+      "value": "Anakku dulu menarik pedati garam ke Rennfall, sebelum lembah itu gelap. Empat puluh tahun aku menunggu pedati di jalan itu."
+    },
+    {
+      "key": "dlg.city_asta.n2",
+      "value": "Katanya ada yang menyalakan api tua itu lagi. Kalau itu kau, berarti yang mati di jalan itu belum dilupakan. Katakan itu pada mereka."
+    },
+    {
+      "key": "dlg.city_dace.n1",
+      "value": "Debu jalan dan segel Rennfall. Berarti kau sang Warden. Para juru tulis Marshal bilang kau akan datang."
+    },
+    {
+      "key": "dlg.city_dace.n2",
+      "value": "Simpan pedangmu di sarungnya di dalam tembok ini. Greymarch punya lebih banyak hukum daripada batu, dan yang ditegakkan selalu yang mahal."
+    },
+    {
+      "key": "dlg.city_dace.n3",
+      "value": "Kalau kau mencari perempuan Liga Garam, dia selalu di alun-alun pasar. Ikuti saja pedatinya."
+    },
+    {
+      "key": "dlg.city_dace_raids.r1",
+      "value": "Kau sudah bicara dengan perempuan Serikat Garam. Bagus. Berarti kau tahu jalan itu sedang dihitung."
+    },
+    {
+      "key": "dlg.city_dace_raids.r2",
+      "value": "Tiga pedati dalam sepuluh hari. Tak ada mayat di jalan, artinya kusirnya ikut dibawa. Yang terakhir kusir Serikat. Mira Holt."
+    },
+    {
+      "key": "dlg.city_dace_raids.r3",
+      "value": "Sersanku bilang mereka keluar dari Ceruk Duri Hitam, lewat pertanian tua. Kaptenku bilang Ceruk itu bukan urusan kami."
+    },
+    {
+      "key": "dlg.city_dace_raids.r3.c1",
+      "value": "Kalau begitu itu urusanku. Siapa pemimpinnya?"
+    },
+    {
+      "key": "dlg.city_dace_raids.r3.c2",
+      "value": "Bukan urusanmu, atau bukan perintahmu?"
+    },
+    {
+      "key": "dlg.city_dace_raids.r3.c3",
+      "value": "Apa yang terjadi pada para kusir?"
+    },
+    {
+      "key": "dlg.city_dace_raids.r4",
+      "value": "Kapten mereka Rook Varr. Dulu ia memakai seragam kelabu penjaga jalan. Ia tahu cara patroli kami bergerak karena dulu ia sendiri yang berjalan."
+    },
+    {
+      "key": "dlg.city_dace_raids.r4b",
+      "value": "...Dua-duanya. Ada orang di atas kaptenku yang suka Ceruk itu dibiarkan. Aku tidak pernah bilang begitu, Warden."
+    },
+    {
+      "key": "dlg.city_dace_raids.r4c",
+      "value": "Ditebus, kalau ada yang membayar. Kalau tidak ada, Ceruk itu dalam."
+    },
+    {
+      "key": "dlg.city_dace_raids.r5",
+      "value": "Tempuh jalan dagang kembali ke arah lembah. Lewat pertanian ada tiang yang tandanya dikerik. Turunlah di siang hari, dan jangan kira mereka petani."
+    },
+    {
+      "key": "dlg.city_mira.m1",
+      "value": "Warden! Penjaga gerbang membiarkanku masuk tanpa bea begitu aku menyebut namamu. Itu belum pernah terjadi seumur hidupku."
+    },
+    {
+      "key": "dlg.city_mira.m2",
+      "value": "Serikat membayar ganti pedatiku. Setengah dari harganya, dan dari Vesna itu sudah hampir seperti pelukan."
+    },
+    {
+      "key": "dlg.city_mira.m3",
+      "value": "Kalau kau butuh kusir yang hafal setiap lubang jalan dari sini sampai lembah, aku murah sekarang. Sangat murah."
+    },
+    {
+      "key": "dlg.city_oona.n1",
+      "value": "Garam, tali, minyak lampu. Liga yang memindahkan semuanya, dan Liga ingat siapa yang membayar."
+    },
+    {
+      "key": "dlg.city_oona.n2",
+      "value": "Vesna sudah seminggu menanyai seisi pasar soal Rennfall. Apa pun yang dia mau darimu, harganya sudah dia hitung."
+    },
+    {
+      "key": "dlg.city_oona_letter.o1",
+      "value": "Kau akan kembali ke lembah? Kalau begitu kau bisa berbuat baik yang hanya memakan satu kantongmu."
+    },
+    {
+      "key": "dlg.city_oona_letter.o2",
+      "value": "Untuk Brann Hollowell. Adikku ada di kompinya. Kalau dia masih hidup, Brann tahu. Kalau tidak, Brann juga tahu."
+    },
+    {
+      "key": "dlg.city_pell.n1",
+      "value": "Dengarlah, dengarlah! Sidang Mahkota dipanggil! Setiap pemegang perapian pertama, dipanggil ke Greymarch sebelum bulan baru!"
+    },
+    {
+      "key": "dlg.city_pell.n2",
+      "value": "Apa itu pemegang perapian pertama? Entahlah. Aku dibayar untuk meneriakkannya, bukan untuk memahaminya."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_1",
+      "value": "Warden. Tobias Reed, penunggang kedua Barisan Abu. Saya tidak datang untuk bertarung. Saya datang untuk mencatat."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_2",
+      "value": "Setiap pemukiman yang bertahan semalam wajib menyerahkan daftar orang matinya. Nama, tanggal, di mana mereka ditumbangkan. Kantor menyebutnya sensus kehilangan."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3",
+      "value": "Saya akan jujur, karena Anda akan tahu juga akhirnya. Lembah yang menyerahkan daftar lengkap adalah lembah yang sudah diukur Protektorat. Tanah yang terukur akan diambil alih pengelolaannya."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3.c1",
+      "value": "Ambil hitungan lengkapnya. Rennfall tak menyembunyikan apa pun."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3.c2",
+      "value": "Mereka manusia sebelum jadi catatan. Tak ada daftar."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_3.c3",
+      "value": "Anda akan dapat hitungan. Bukan yang sebenarnya."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_false",
+      "value": "Anda mengatakannya di depan saya. Entah Anda benar-benar baru, atau Anda sudah memutuskan saya sepadan dengan risikonya."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_false_2",
+      "value": "Berikan angka Anda. Akan saya bawa. Tapi daftar yang pendek berarti pemukiman kecil, dan pemukiman kecil tak dapat prajurit saat jalan dagang ditutup."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_full",
+      "value": "Terima kasih. Akan saya tulis rapi, dan saya catat bahwa warden bekerja sama. Kata itu memberi Anda satu musim, mungkin dua."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_full_2",
+      "value": "Kantor membayar untuk kepatuhan. Jangan dihabiskan untuk minum. Dan Warden — saat para juru ukur datang, jangan berlagak terkejut."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_refuse",
+      "value": "Saya sudah menduga. Empat tahun saya berkuda, dan selalu mereka yang menggali kuburnya sendiri."
+    },
+    {
+      "key": "dlg.event_ash_ledger.rider_refuse_2",
+      "value": "Akan saya catat sebagai pemukiman yang tak mampu menyediakan catatan. Itu kata yang lebih kecil daripada penolakan. Hanya itu kebaikan yang bisa saya berikan, dan saya membayarnya."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_1",
+      "value": "Warden. Angka Anda sudah saya laporkan. Sembilan belas orang mati. Lalu seorang juru tulis membandingkannya dengan batu nisan dan menghitung tiga puluh satu."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_2",
+      "value": "Saya berkuda empat hari untuk mengatakannya langsung, bukan mengirim orang untuk mengatakannya dengan cara lain. Anda paham itu harganya apa bagi saya?"
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3",
+      "value": "Ini yang tak diketahui siapa pun di lembah Anda. Saya pernah melaporkan hitungan yang kurang. Dua kali. Kedua pemukiman itu sekarang lenyap, dan bukan karena kantor mengetahuinya."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3.c1",
+      "value": "Kenapa Anda berani ambil risiko itu dua kali?"
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3.c2",
+      "value": "Kalau begitu laporkan angka yang benar. Saya yang bertanggung jawab."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_3.c3",
+      "value": "Anda datang sendirian. Artinya Anda menginginkan sesuatu dari saya."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_end",
+      "value": "Jaga hitungannya tetap pendek. Jaga apinya tetap tinggi. Dan saat ada pejabat meminta daftar orang mati Anda, tanyakan pada diri sendiri siapa yang mengajari mereka menginginkannya."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_true",
+      "value": "Tidak. Anda tak boleh jadi pemberani dengan ongkos saya — saya sudah melaporkannya kurang, dan koreksi sekarang menyeret nama saya, bukan nama Anda. Simpan keberanian Anda untuk hal yang membaca daftar-daftar itu."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_want",
+      "value": "Saya ingin saksi yang masih hidup musim semi depan. Anda warden pertama di tiga lembah yang menyalakan api sebelum Barisan Abu datang, bukan sesudahnya."
+    },
+    {
+      "key": "dlg.event_marshal_returns.back_why",
+      "value": "Karena hitungan lengkap bukan catatan. Itu daftar belanja. Siapa pun yang membangkitkan orang mati Anda membaca catatan kami, dan pemukiman dengan daftar terpanjang jatuh lebih dulu."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_1",
+      "value": "Jangan— jangan angkat itu. Saya hangat. Pegang tangan saya, saya hangat, saya masih hangat."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_2",
+      "value": "Nessa Aldwin. Dari Greymarch, empat hari di jalan bersama adik saya. Pagi tadi ia berhenti hangat, dan saya meninggalkannya di bawah pedati."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3",
+      "value": "Ada luka di lengan saya kena paku pagar. Paku. Anda boleh melihatnya. Tolong lihat dulu sebelum memutuskan."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3.c1",
+      "value": "Masuk ke dalam cahaya. Sekarang, sebelum gelombang berikutnya berbalik."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3.c2",
+      "value": "Perlihatkan lengannya. Saya putuskan sesudahnya, bukan sebelumnya."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_3.c3",
+      "value": "Anda menunggu di luar batu sampai fajar. Maaf."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_arm",
+      "value": "Ini. Karat dan kulit robek, dan tak ada apa pun bergerak di bawahnya. Empat hari saya memeriksanya dengan cahaya api. Saya tahu apa yang harus dicari."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_arm.c1",
+      "value": "Kalau begitu Anda bagian dari kami. Pergi ke perapian."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_arm.c2",
+      "value": "Apa yang dilakukan Greymarch saat rakyatnya berjalan keluar?"
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_greymarch",
+      "value": "Memuati pedati. Bukan dengan orang — dengan gandum, dan peti bercap untuk jalan dagang. Penjaga gerbang mereka taruh di pedati, sisanya kami di luar."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_in",
+      "value": "Saya akan bekerja. Saya bisa menjahit, mengangkut, berjaga semalaman agar orang lain bisa tidur. Cukup tunjukkan di mana tangan saya berguna."
+    },
+    {
+      "key": "dlg.event_night_refugee.nessa_out",
+      "value": "Di luar batu. Ya. Saya akan berkata sama di posisi Anda, dan saya akan benci mendengar suara saya sendiri mengatakannya."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_1",
+      "value": "Vesna Kell, Serikat Garam, dan kusir saya tak akan menghentikan kuda, jadi kita bicara sambil mereka mengentak."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_2",
+      "value": "Satu peti. Daging asin, dua gulung tali, segulung kain berminyak, dan satu bilah yang tak lagi dibutuhkan seorang pengawal. Sembilan puluh koin, dan saya merugikan diri sendiri."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3",
+      "value": "Sebelum Anda bertanya: tanpa surat jalan. Serikat tak melewatkan pedati di lembah wabah, jadi secara resmi pedati ini sedang di tempat lain, dengan sangat meyakinkan."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3.c1",
+      "value": "Sepakat. Turunkan di dekat perapian."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3.c2",
+      "value": "Bilah siapa, Vesna? Sebutkan nama pengawalnya."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_3.c3",
+      "value": "Kami tak membeli yang tak bisa kami pertanggungjawabkan. Jalan terus."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade",
+      "value": "Saya tak dapat nama. Saya dapat peti dari jalan dagang dengan cap tukang sepatu Greymarch masih di kulit sepatunya, dan saya tak bertanya kenapa garnisun menjual perlengkapannya sendiri."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade_2",
+      "value": "Pertanyaan itu lebih berharga bagi Anda daripada petinya. Ambillah, dan ingat siapa yang membiarkan Anda bertanya. Delapan puluh, lalu pedati berangkat."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade_2.c1",
+      "value": "Delapan puluh. Dan kulit sepatunya ikut."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_blade_2.c2",
+      "value": "Simpan petinya. Saya sudah dapat yang saya cari."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_refused",
+      "value": "Berprinsip. Di lembah setipis ini. Baiklah — akan saya catat di buku saya, di bawah alasan mengapa Rennfall menarik untuk diamati."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_sold",
+      "value": "Senang berbisnis. Saat jalan dibuka lagi, saya kembali dengan barang lebih baik dan harga lebih buruk. Itulah yang Serikat sebut hubungan."
+    },
+    {
+      "key": "dlg.event_salt_offer.vesna_sold_evidence",
+      "value": "Kulitnya juga kalau begitu. Kalau ada yang bertanya dari mana Anda mendapatkannya, Anda membelinya dari perempuan yang pedatinya sedang di tempat lain."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_1",
+      "value": "Jangan angkat itu. Kalau aku mau apinya padam, malam pertama sudah kubiarkan mereka mengambilnya."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_2",
+      "value": "Mereka berdiri di tepi hutan menghitung atapmu karena aku menyuruh mereka menghitung. Menghitung bukan menyerang. Kau sudah dapat empat malam tenang dariku."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3",
+      "value": "Lihat bahuku sebelum kau putuskan aku ini apa. Ayo. Tanda pangkatnya masih ada di balik pembusukan."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3.c1",
+      "value": "Itu tanda warden. Itu tanda Crane."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3.c2",
+      "value": "Aku tak peduli dulu kau siapa. Ada alasan kau di luar cahaya."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_3.c3",
+      "value": "Kalau begitu katakan apa maumu, dan katakan terus terang."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_crane",
+      "value": "Warden Rennfall, enam puluh satu tahun, dan Barisan Abu menggantungku karena menolak membakar orang matiku sendiri. Mereka teliti. Tapi kurang teliti."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_offer",
+      "value": "Ini versi terus terangnya. Yang membuat mereka tetap berjalan bukan di luar sini di antara pepohonan. Ia ada di bawah rumah catatanmu, dan ditaruh di sana oleh orang-orang yang membubuhkan nama mereka."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_offer_2",
+      "value": "Aku tak bisa masuk. Cahaya yang kau nyalakan mengurus itu. Kau bisa. Buka ruang bawahnya, baca apa yang ditandatangani, lalu katakan padaku siapa di antara kita yang lebih ingin digantung Protektorat."
+    },
+    {
+      "key": "dlg.event_shepherd_speaks.shade_refused",
+      "value": "Bagus. Simpan itu. Kau akan memerlukannya saat tahu siapa yang menaruhku di sini, dan menemukan nama mereka ditulis dengan tulisan tangan yang kau kenali."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_1",
+      "value": "Kestrel, juru ukur Protektorat. Rekan saya memegang rantai, saya memegang pena, dan tak satu pun dari kami memutuskan apa pun. Ingat itu saat Anda mulai berteriak."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_2",
+      "value": "Daftar Anda sampai ke kantor. Pemukiman yang bertahan semalam dan menyerahkan catatan adalah pemukiman yang layak dinilai. Penilaian berarti batas tanah, upeti, dan sebuah nama di peta."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3",
+      "value": "Saya perlu menyusuri batas sebelum senja. Di mana Anda bilang batasnya, di situ saya menuliskannya, dan apa yang saya tulis itulah yang berlaku empat puluh tahun ke depan."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3.c1",
+      "value": "Susuri dengan jujur. Api menjangkau sejauh yang dijangkaunya."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3.c2",
+      "value": "Tulis lebih luas. Masukkan urat besi utara dan tepi hutan."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_3.c3",
+      "value": "Tulis kecil saja. Tanah miskin tak layak dipajaki."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_honest",
+      "value": "Jujur. Itu lebih langka daripada dugaan Anda, dan nilainya persis sebesar ongkosnya. Kantor suka angka yang bersih; Anda akan dinilai adil dan dipajaki penuh."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_small",
+      "value": "Kecil kalau begitu. Upeti lebih ringan, perhatian lebih sedikit, dan tak ada prajurit saat jalan ditutup. Saya pernah melihat kedua pilihan berakhir buruk. Saya belum pernah melihat pilihan ketiga."
+    },
+    {
+      "key": "dlg.event_surveyors.chain_wide",
+      "value": "Berani. Saya tulis sesuai yang Anda susuri. Pahami bahwa klaim luas berarti kewajiban luas — setiap batu di dalam garis itu jadi tanggungan Anda, dan kantor akan menuntutnya."
+    },
+    {
+      "key": "dlg.galen_ledger.g1",
+      "value": "Itu jilid Greymarch. Dari mana kau dapat ini?"
+    },
+    {
+      "key": "dlg.galen_ledger.g2",
+      "value": "Ser Galen membaca dalam diam. Di cap sang pengurus ia menutup buku itu dan mengembalikannya tanpa menatapmu."
+    },
+    {
+      "key": "dlg.galen_ledger.g3",
+      "value": "Aku sudah melihatnya. Hanya itu yang bisa kukatakan hari ini. Bawa kembali pada yang mengutusmu, dan katakan seorang perwira Mahkota sudah melihatnya."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_1",
+      "value": "Warden. Ada kurir dari paman saya. Suratnya untuk saya, tapi isinya tentang Anda."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2",
+      "value": "Dia menawarkan kursi Marrowin kepada saya. Syaratnya ditulis seperti basa-basi. 'Bila sang Warden tidak selamat dari lembah ini.'"
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2.c1",
+      "value": "Dan apa balasanmu, Galen?"
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2.c2",
+      "value": "Ambil kursinya. Lalu berutang budi padaku."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_2.c3",
+      "value": "Pulanglah malam ini. Aku takkan menunggu kau memutuskan."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_answer",
+      "value": "Belum apa-apa. Justru itu yang memalukan. Tiga hari, dan saya belum menulis sepatah kata pun."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_dismissed",
+      "value": "Sesuai perintah, Warden. Kalau masih berarti, saya tak pernah ingin mendapatkan kursi itu dengan cara yang dia inginkan."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_end",
+      "value": "Pesta di Greymarch dua hari lagi. Apa pun yang terjadi di sana, jangan minum duluan, dan jangan makan apa yang tidak dimakan sang Adipati."
+    },
+    {
+      "key": "dlg.galen_loyalty.galen_scheme",
+      "value": "Anda ingin memakai saya untuk melawannya. Seharusnya saya tersinggung. Nyatanya saya justru lega."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_1",
+      "value": "Empat puluh tahun aku membersihkan batu itu dan tak pernah sekali pun menyalakannya. Aku tak berhak. Kau berhak."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2",
+      "value": "Sekarang dengar, karena bagian ini penting. Semua yang disentuh api adalah milik kita. Yang tidak, milik mereka."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2.c1",
+      "value": "Kalau begitu kita perbesar cahayanya."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2.c2",
+      "value": "Mereka. Maksudmu orang-orang yang dikubur di sini."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_2.c3",
+      "value": "Siapa yang mengajarimu aturan ini, Brann?"
+    },
+    {
+      "key": "dlg.hearth_lit.brann_dead",
+      "value": "Aku kenal sebagian besar dari mereka. Ada yang menjual telur padaku. Ada yang menikahi sepupuku. Sekarang mereka berdiri di tepi hutan, menunggu cahaya padam."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_end",
+      "value": "Tidurlah selagi bisa. Mereka akan datang malam ini. Api baru selalu memancing mereka."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_expand",
+      "value": "Betul. Tiap atap yang kau dirikan, tiap dinding yang kau pasang, apinya menjangkau lebih jauh. Itulah seluruh rahasia lembah ini."
+    },
+    {
+      "key": "dlg.hearth_lit.brann_rules",
+      "value": "Warden terakhir. Sebelum Barisan Abu menyeretnya sebagai pelanggar hukum. Dia mencatat semuanya, kalau ruang bawah rumah catatan belum memakan buku itu."
+    },
+    {
+      "key": "dlg.hollow_mira_after.a1",
+      "value": "Aku pergi, aku pergi. Jalan lebih aman dengan kawanannya terkubur. Sampai jumpa di Greymarch, Warden."
+    },
+    {
+      "key": "dlg.hollow_mira_bound.b1",
+      "value": "Di belakangmu, bukan, bukan di belakang. Dia di reruntuhan dekat batu-batu tua. Rook. Jangan biarkan dia bicara. Dia bicara sampai kau dekat."
+    },
+    {
+      "key": "dlg.hollow_mira_bound.b2",
+      "value": "Potong tali ini nanti. Kalau masih ada nanti."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f1",
+      "value": "Dia tumbang. Dia benar-benar tumbang. Beri aku waktu, tanganku belum bisa digerakkan."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f2",
+      "value": "Mira Holt, Serikat Garam, pedati empat puluh satu. Mereka ambil garamnya, bagalnya, dan peluit kusirku, dan aku lebih ingin peluit itu kembali daripada garamnya."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f3",
+      "value": "Peti besinya di bawah terpal dekat pilar. Dia mencatat semuanya. Rook tak pernah percaya pembeli yang tak bisa ia buktikan."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f4",
+      "value": "Peti itu tidak terkunci. Di bawah kantong-kantong koin ada buku catatan bersampul kelabu Greymarch: tanggal, pedati, dan cap seorang pengurus di samping setiap penjualan."
+    },
+    {
+      "key": "dlg.hollow_mira_freed.f5",
+      "value": "Vesna Kell akan lebih menginginkan buku itu daripada diriku. Aku akan berjalan ke Greymarch. Temui aku di sana. Aku berutang minuman dan seekor bagal."
+    },
+    {
+      "key": "dlg.hollow_rook.k1",
+      "value": "Jadi lembah mengirim Warden-nya. Kukira yang datang Marshal. Marshal setidaknya mau tawar-menawar."
+    },
+    {
+      "key": "dlg.hollow_rook.k2",
+      "value": "Kau hancurkan kawananku demi seorang kusir garam dan beberapa pedati. Kau tahu siapa yang membeli rampasan kami? Tidak. Kalau tahu, kau tak akan berdiri di situ."
+    },
+    {
+      "key": "dlg.hollow_rook.k2.c1",
+      "value": "Letakkan pedangmu, Rook. Ini berakhir bagaimanapun juga."
+    },
+    {
+      "key": "dlg.hollow_rook.k2.c2",
+      "value": "Katakan siapa yang membayarmu, dan para Marshal akan dengar kau bekerja sama."
+    },
+    {
+      "key": "dlg.hollow_rook.k2.c3",
+      "value": "Lepaskan perempuan itu dan pergilah dari Ceruk ini."
+    },
+    {
+      "key": "dlg.hollow_rook.k3a",
+      "value": "Memang. Dan bagianmu yang paling pendek."
+    },
+    {
+      "key": "dlg.hollow_rook.k3b",
+      "value": "Perak Greymarch, dicap di benteng. Hanya itu yang kau dapat, dan kau tak akan hidup untuk membelanjakannya."
+    },
+    {
+      "key": "dlg.hollow_rook.k3c",
+      "value": "Pergi ke mana? Setiap jalan di lembah ini sudah ada pemiliknya. Yang ini milikku."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_1",
+      "value": "Warden Voss. Saya Inspektur Maren Ashby, dari Barisan Abu. Sang Marsekal Tinggi mengirimkan rekomendasinya, dan mengirim saya."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2",
+      "value": "Saya ditugaskan membimbing pemukiman ini dalam ritus sterilisasi. Yang dimulai, katanya, dengan daftar lengkap orang mati Anda."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2.c1",
+      "value": "Setiap jenazah yang kami ambil akan dibakar. Itu janjiku."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2.c2",
+      "value": "Di sini kami menguburkan orang mati kami. Itu takkan berubah."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_2.c3",
+      "value": "Tinggallah seminggu. Hitung sesukamu. Setelah itu kita bicara."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_delayed",
+      "value": "Seminggu. Anda bukan yang pertama membeli waktu dari Barisan Abu. Kebanyakan hanya mendapat seminggu."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_end",
+      "value": "Satu hal lagi, Warden. Apa pun yang ditakdirkan membunuh Anda di sini, ia sudah terjaga di antara pepohonan. Saya melihat tandanya."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_pleased",
+      "value": "Terima kasih. Sungguh. Anda tak tahu betapa jarang jawaban itu datang tanpa perdebatan."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_refused",
+      "value": "Kalau begitu saya harus mencatatnya persis seperti ucapan Anda. Saya lebih suka menulis hal lain. Beri saya alasan untuk itu."
+    },
+    {
+      "key": "dlg.maren_arrival.maren_summons",
+      "value": "Dan Marshal Agung bersidang di Greymarch tiga hari lagi. Laporanku butuh segelmu, langsung. Ambil jalan timur keluar lembah dan tetaplah di jalan berbatu. Ada perempuan Liga Garam di sana, Vesna Kell, yang menanyakan dirimu. Temui dia lebih dulu. Dia membayar utangnya dengan kabar."
+    },
+    {
+      "key": "dlg.merchant_sabel.leave",
+      "value": "Kalau begitu saya di sini sampai jalan ditutup. Sesudah itu, tanya Warden ke mana saya pergi."
+    },
+    {
+      "key": "dlg.merchant_sabel.open",
+      "value": "Sabel Orr. Saya membawa yang tak dibawa Serikat: partai kecil, timbangan jujur, dan tanpa surat jalan."
+    },
+    {
+      "key": "dlg.merchant_sabel.stall",
+      "value": "Semua yang tertulis ada di pedati. Tunjuk, bayar, bawa pulang."
+    },
+    {
+      "key": "dlg.merchant_sabel.stall.c1",
+      "value": "Tunjukkan daganganmu."
+    },
+    {
+      "key": "dlg.merchant_sabel.stall.c2",
+      "value": "Tidak hari ini."
+    },
+    {
+      "key": "dlg.merchant_sabel.trade",
+      "value": "Lihat sepuasnya. Menyentuh juga boleh, kalau membeli."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_1",
+      "value": "Jadi kau yang mereka kirim. Kapten Pengawal, ya? Atau sekarang cuma Kael?"
+    },
+    {
+      "key": "dlg.prologue_intro.brann_end",
+      "value": "Istirahatlah. Besok kita menggali. Sekali ini bukan kubur, tapi pondasi."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_people",
+      "value": "Hidup? Aku. Itu seluruh sensusnya. Sisanya masih di sini, kok. Cuma bukan jenis yang bisa diajak bicara."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_politics",
+      "value": "Hah. Pertanyaan cerdas. Tak ada yang bilang lembah ini tak berharga. Mereka bilang ini berbahaya. Makanya dia berikan padamu."
+    },
+    {
+      "key": "dlg.prologue_intro.brann_stay",
+      "value": "Bagus. Pelajaran pertamamu: nyalakan api sebelum gelap, jaga tetap menyala, dan jangan kubur siapa pun di luar lingkaran."
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice",
+      "value": "Di sini itu tak penting. Tanah tidak membaca gelar. Kau mau tinggal, atau mau mati? Dua-duanya jawaban jujur."
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice.c1",
+      "value": "Aku tinggal. Tunjukkan perapiannya."
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice.c2",
+      "value": "Berapa orang yang masih hidup di sini?"
+    },
+    {
+      "key": "dlg.prologue_intro.warden_choice.c3",
+      "value": "Siapa yang bilang ke Protektor bahwa lembah ini tak berharga?"
+    },
+    {
+      "key": "dlg.vesna_ledger.v1",
+      "value": "Anda membawa kembali kusir saya, dan orang yang menculiknya sudah terkubur. Serikat berutang pada Anda. Kalimat itu mungkin saya ucapkan setahun sekali."
+    },
+    {
+      "key": "dlg.vesna_ledger.v2",
+      "value": "Vesna membalik halaman buku itu perlahan. Di cap sang pengurus, senyumnya hilang."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3",
+      "value": "Pengurus Adipati Harrow. Setiap pedati curian dijual kembali ke gudang Greymarch sendiri. Sang Adipati membuat lembah Anda kelaparan dan membeli kembali makanannya dengan uang kota."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3.c1",
+      "value": "Serikat boleh memilikinya. Dengan harga."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3.c2",
+      "value": "Buku ini tetap bersamaku. Sidang Mahkota yang akan melihatnya."
+    },
+    {
+      "key": "dlg.vesna_ledger.v3.c3",
+      "value": "Salin. Kirim satu ke para Marshal supaya tak ada yang bisa menguburnya."
+    },
+    {
+      "key": "dlg.vesna_ledger.v4a",
+      "value": "Dua ratus perak Serikat, dan janji Serikat bahwa kami memakainya dengan baik. Senang berbisnis dengan Anda."
+    },
+    {
+      "key": "dlg.vesna_ledger.v4b",
+      "value": "Kalau begitu jaga lebih baik daripada Rook. Orang yang menjual makanan sebuah lembah tak akan berhenti hanya karena sebuah buku."
+    },
+    {
+      "key": "dlg.vesna_ledger.v4c",
+      "value": "Dua salinan, dua surat bersegel. Hati-hati sekali. Saya mulai menyukai Anda, dan itu buruk untuk bisnis."
+    },
+    {
+      "key": "dlg.vesna_ledger.v5",
+      "value": "Satu hal lagi. Halaman terakhir: kiriman ke benteng besi tua di utara kota, setiap minggu, dengan pengawalan. Apa pun yang sedang dibangun Harrow, ia membangunnya di sana."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_1",
+      "value": "Vesna Kell, Serikat Garam. Saya menjual garam, tali, besi, dan informasi. Hari ini informasinya gratis, dan itu seharusnya membuat Anda khawatir."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_2",
+      "value": "Wasiat Anda punya klausul keempat. Siapa pun yang menyalakan perapian pertama di Rennfall berhak memanggil Sidang Mahkota."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3",
+      "value": "Anda sudah menyalakannya. Jadi pertanyaannya bukan lagi apakah Anda penting, melainkan siapa yang membeli Anda lebih dulu."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3.c1",
+      "value": "Sebutkan hargamu untuk kontrak jalan dagang."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3.c2",
+      "value": "Rennfall tidak dijual. Tidak kepada siapa pun."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_3.c3",
+      "value": "Siapa lagi yang sudah kau beri tahu?"
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_contract",
+      "value": "Dua belas persen dari semua yang keluar lembah, dan Serikat menjaga jalan Anda tetap terbuka. Termasuk dari bandit."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_end",
+      "value": "Bagaimanapun, orang-orang bersepatu tanpa lambang sudah menghitung gerobak Anda selama tiga hari. Bagian itu saya berikan cuma-cuma."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_refused",
+      "value": "Mengagumkan. Mahal, tapi mengagumkan. Saat gerobak pertama terbakar, tawaran saya masih ada, dengan harga lebih buruk."
+    },
+    {
+      "key": "dlg.vesna_offer.vesna_told",
+      "value": "Jujur? Adipati Harrow, kemarin. Saya ingin memberi tahu Anda lebih dulu, tapi kemarin Anda tak punya uang."
+    },
+    {
+      "key": "dlg.villager_gethin.n1",
+      "value": "Sekarang saya yang menggali kubur, sejak tangan Brann tak kuat lagi. Dua belas sejak perjalanan, dan tak satu pun tetap di tempatnya."
+    },
+    {
+      "key": "dlg.villager_gethin.n2",
+      "value": "Jangan pandang saya begitu. Harus ada yang tahu di mana semua orang dikubur, atau kita menguburkan mereka dua kali."
+    },
+    {
+      "key": "dlg.villager_hesketh.n1",
+      "value": "Tukang tong, itu pekerjaanku. Empat puluh tong semusim di Greymarch, dan sekarang aku memasang simpai ember untuk desa bersumur satu."
+    },
+    {
+      "key": "dlg.villager_hesketh.n2",
+      "value": "Jangan kasihani aku. Orang yang punya keahlian tetap makan. Orang yang bisa merapatkan tong dari hujan makan dua kali."
+    },
+    {
+      "key": "dlg.villager_hesketh_pot.p1",
+      "value": "Panci Winna? Retak karena dia merebusnya sampai kering. Bilang padanya aku yang bilang."
+    },
+    {
+      "key": "dlg.villager_hesketh_pot.p2",
+      "value": "Ini. Besi, bukan tanah liat. Kembalikan dengan semangkuk isinya dan kita anggap impas."
+    },
+    {
+      "key": "dlg.villager_iskra.n1",
+      "value": "Semua orang berjalan agak memutar melewati mejaku. Tak apa. Mereka tetap datang saat luka mulai menghijau."
+    },
+    {
+      "key": "dlg.villager_iskra.n2",
+      "value": "Bawakan aku bubuk tulang dan akan kubuat sesuatu yang menjaga orang tetap bernapas semalaman. Jangan tanya tulang siapa."
+    },
+    {
+      "key": "dlg.villager_wick.n1",
+      "value": "Kau Warden itu? Kata Ibu, Warden cuma orang yang tidak pergi."
+    },
+    {
+      "key": "dlg.villager_wick.n2",
+      "value": "Aku yang mengisi lampu-lampu. Semuanya, tiap petang, termasuk yang di dekat rumah runtuh yang tak didekati siapa pun."
+    },
+    {
+      "key": "dlg.villager_winna.n1",
+      "value": "Aku yang menenun kain pembungkus separuh desa ini. Sekarang aku menenun lagi untuk yang hidup, dan tanganku tak bisa membedakannya."
+    },
+    {
+      "key": "dlg.villager_winna.n2",
+      "value": "Nyalakan setiap malam, Warden. Bukan karena apa yang ada di luar sana. Tapi karena jadi apa kita di malam-malam saat kita tidak menyalakannya."
+    },
+    {
+      "key": "event.ambush.banner",
+      "value": "Jalan tertutup di belakang Anda."
+    },
+    {
+      "key": "event.ash_ledger.banner",
+      "value": "Seorang penunggang Barisan Abu menyusuri jalan lembah."
+    },
+    {
+      "key": "event.goSpeak",
+      "value": "Temui dan ajak bicara"
+    },
+    {
+      "key": "event.goSpeakTimed",
+      "value": "Temui dan ajak bicara — {0} sebelum mereka pergi"
+    },
+    {
+      "key": "event.hollow.camp",
+      "value": "Kawanan di api unggun bangkit berdiri."
+    },
+    {
+      "key": "event.hollow.pass",
+      "value": "Para pengintai melompat turun ke celah."
+    },
+    {
+      "key": "event.marshal_returns.banner",
+      "value": "Penunggang Barisan Abu kembali, dan kali ini ia tidak mencatat."
+    },
+    {
+      "key": "event.night_refugee.banner",
+      "value": "Seseorang terhuyung menuju cahaya."
+    },
+    {
+      "key": "event.salt_offer.banner",
+      "value": "Pedati Serikat Garam menunggu. Tak akan lama."
+    },
+    {
+      "key": "event.shepherd_sighting.banner",
+      "value": "Ada yang berdiri di tepi hutan. Ia tidak melangkah masuk."
+    },
+    {
+      "key": "event.shepherd_speaks.banner",
+      "value": "Kali ini ia mendekat. Ia berdiri di dalam cahaya."
+    },
+    {
+      "key": "event.surveyors.banner",
+      "value": "Dua orang dengan rantai ukur sedang menyusuri batas tanah Anda."
+    },
+    {
+      "key": "event.wild.banner",
+      "value": "Ada yang keluar dari antara pepohonan."
+    },
+    {
+      "key": "faction.ash",
+      "value": "Barisan Abu"
+    },
+    {
+      "key": "faction.crown",
+      "value": "Protektorat"
+    },
+    {
+      "key": "faction.hearth",
+      "value": "Perapian Rennfall"
+    },
+    {
+      "key": "faction.salt",
+      "value": "Serikat Garam"
+    },
+    {
+      "key": "hero.armour",
+      "value": "Zirah"
+    },
+    {
+      "key": "hero.built",
+      "value": "Atap didirikan"
+    },
+    {
+      "key": "hero.close",
+      "value": "Tutup buku"
+    },
+    {
+      "key": "hero.coin",
+      "value": "Koin"
+    },
+    {
+      "key": "hero.contracts",
+      "value": "Kontrak diselesaikan"
+    },
+    {
+      "key": "hero.damage",
+      "value": "Serangan"
+    },
+    {
+      "key": "hero.experience",
+      "value": "Pengalaman"
+    },
+    {
+      "key": "hero.felled",
+      "value": "Ditumbangkan"
+    },
+    {
+      "key": "hero.health",
+      "value": "Nyawa"
+    },
+    {
+      "key": "hero.level",
+      "value": "Level"
+    },
+    {
+      "key": "hero.name",
+      "value": "Kael Voss  ·  Warden Rennfall"
+    },
+    {
+      "key": "hero.nights",
+      "value": "Malam dipertahankan"
+    },
+    {
+      "key": "hero.section.deeds",
+      "value": "APA YANG TELAH IA LAKUKAN"
+    },
+    {
+      "key": "hero.section.self",
+      "value": "DIRINYA"
+    },
+    {
+      "key": "hero.section.standing",
+      "value": "BAGAIMANA IA DIPANDANG"
+    },
+    {
+      "key": "hero.section.worn",
+      "value": "YANG IA BAWA"
+    },
+    {
+      "key": "hero.slot.body",
+      "value": "Badan"
+    },
+    {
+      "key": "hero.slot.empty",
+      "value": "kosong"
+    },
+    {
+      "key": "hero.slot.feet",
+      "value": "Alas kaki"
+    },
+    {
+      "key": "hero.slot.hands",
+      "value": "Tangan"
+    },
+    {
+      "key": "hero.slot.head",
+      "value": "Kepala"
+    },
+    {
+      "key": "hero.slot.legs",
+      "value": "Kaki"
+    },
+    {
+      "key": "hero.slot.mainHand",
+      "value": "Tangan pedang"
+    },
+    {
+      "key": "hero.slot.neck",
+      "value": "Leher"
+    },
+    {
+      "key": "hero.slot.offHand",
+      "value": "Tangan kiri"
+    },
+    {
+      "key": "hero.slot.ring",
+      "value": "Cincin"
+    },
+    {
+      "key": "hero.slot.trinket",
+      "value": "Dibawa dekat"
+    },
+    {
+      "key": "hero.title",
+      "value": "Buku Sang Warden"
+    },
+    {
+      "key": "hud.board",
+      "value": "KERJA"
+    },
+    {
+      "key": "hud.hero",
+      "value": "BUKU"
+    },
+    {
+      "key": "hud.level",
+      "value": "LV {0}"
+    },
+    {
+      "key": "hud.levelUp",
+      "value": "LEVEL {0}"
+    },
+    {
+      "key": "hud.levelUpGains",
+      "value": "HP maks +{0}   ·   Serangan +{1}   ·   Luka pulih"
+    },
+    {
+      "key": "hud.night",
+      "value": "{0}  ·  {1} masih berdiri"
+    },
+    {
+      "key": "hud.pack",
+      "value": "TAS"
+    },
+    {
+      "key": "hud.skillUnlocked",
+      "value": "Skill baru: {0}"
+    },
+    {
+      "key": "hud.use",
+      "value": "PAKAI"
+    },
+    {
+      "key": "hud.xpGain",
+      "value": "+{0} XP"
+    },
+    {
+      "key": "inv.back",
+      "value": "KEMBALI"
+    },
+    {
+      "key": "inv.cat.all",
+      "value": "Semua"
+    },
+    {
+      "key": "inv.cat.armour",
+      "value": "Zirah"
+    },
+    {
+      "key": "inv.cat.empty",
+      "value": "Tak ada barang jenis ini di tas."
+    },
+    {
+      "key": "inv.cat.materials",
+      "value": "Bahan"
+    },
+    {
+      "key": "inv.cat.quest",
+      "value": "Quest"
+    },
+    {
+      "key": "inv.cat.supplies",
+      "value": "Ramuan"
+    },
+    {
+      "key": "inv.cat.trinkets",
+      "value": "Perhiasan"
+    },
+    {
+      "key": "inv.cat.weapons",
+      "value": "Senjata"
+    },
+    {
+      "key": "inv.close",
+      "value": "Tutup"
+    },
+    {
+      "key": "inv.dollStats",
+      "value": "Serangan {0}   ·   Zirah {1}   ·   Nyawa {2}"
+    },
+    {
+      "key": "inv.equip",
+      "value": "PAKAI"
+    },
+    {
+      "key": "inv.equipped",
+      "value": "  (dipakai)"
+    },
+    {
+      "key": "inv.pick.none",
+      "value": "Tak ada barang di tas yang cocok di sana"
+    },
+    {
+      "key": "inv.pick.title",
+      "value": "Pakai di: {0}"
+    },
+    {
+      "key": "inv.stats",
+      "value": "Level {0}   HP {1}   SRG {2}   ZRH {3}   Koin {4}"
+    },
+    {
+      "key": "inv.tab.bag",
+      "value": "TAS"
+    },
+    {
+      "key": "inv.tab.equipment",
+      "value": "PERLENGKAPAN"
+    },
+    {
+      "key": "inv.title",
+      "value": "Bawaan"
+    },
+    {
+      "key": "inv.unequip",
+      "value": "LEPAS"
+    },
+    {
+      "key": "inv.use",
+      "value": "GUNAKAN"
+    },
+    {
+      "key": "item.amulet_bone.desc",
+      "value": "Taring keberuntungan seseorang. Untung baginya taring itu tak lagi di mulutnya."
+    },
+    {
+      "key": "item.amulet_bone.name",
+      "value": "Taring di Tali"
+    },
+    {
+      "key": "item.amulet_gold.desc",
+      "value": "Dibuat untuk seorang bangsawan yang tak pernah kembali mengambilnya."
+    },
+    {
+      "key": "item.amulet_gold.name",
+      "value": "Kalung Api Surya"
+    },
+    {
+      "key": "item.amulet_silver.desc",
+      "value": "Biru seperti air salju. Menenangkan napas dalam pertarungan panjang."
+    },
+    {
+      "key": "item.amulet_silver.name",
+      "value": "Liontin Batu Sungai"
+    },
+    {
+      "key": "item.armor_ash_harness.desc",
+      "value": "Perlengkapan regu yang masuk ke desa terbakar. Baunya asap, dan tak pernah hilang."
+    },
+    {
+      "key": "item.armor_ash_harness.name",
+      "value": "Harnes Marsekal Abu"
+    },
+    {
+      "key": "item.armor_bone_lattice.desc",
+      "value": "Buatan Iskra: bilah tulang paha yang diikat lilin kubur. Orang mati ragu memukul sesama mereka sendiri."
+    },
+    {
+      "key": "item.armor_bone_lattice.name",
+      "value": "Jalinan Tulang"
+    },
+    {
+      "key": "item.armor_guard_mail.desc",
+      "value": "Lambang singa di dadanya digores hilang. Kael sendiri yang melakukannya, di jalan."
+    },
+    {
+      "key": "item.armor_guard_mail.name",
+      "value": "Rantai Pengawal Mahkota"
+    },
+    {
+      "key": "item.armor_padded.desc",
+      "value": "Jahitan pengungsi di atas potongan prajurit. Hangat, dan di sini itu lebih berharga."
+    },
+    {
+      "key": "item.armor_padded.name",
+      "value": "Mantel Berlapis"
+    },
+    {
+      "key": "item.armor_refugee.desc",
+      "value": "Mantel musim dingin milik seseorang, dipotong dua kali dan diwariskan dua kali lagi."
+    },
+    {
+      "key": "item.armor_refugee.name",
+      "value": "Wol Bertambal"
+    },
+    {
+      "key": "item.armor_warden_coat.desc",
+      "value": "Dilapisi lilin penahan hujan dan lembap kubur, dengan saku dalam untuk benda yang seharusnya tak dibawa warden."
+    },
+    {
+      "key": "item.armor_warden_coat.name",
+      "value": "Mantel Panjang Warden"
+    },
+    {
+      "key": "item.armor_warden_plate.desc",
+      "value": "Diambil dari pos tenggelam. Masih berbau samar abu basah."
+    },
+    {
+      "key": "item.armor_warden_plate.name",
+      "value": "Zirah Warden"
+    },
+    {
+      "key": "item.axe_grave.desc",
+      "value": "Dibuat untuk akar, bukan tulang. Dua musim dingin lalu ia berhenti peduli bedanya."
+    },
+    {
+      "key": "item.axe_grave.name",
+      "value": "Pembelah Kubur"
+    },
+    {
+      "key": "item.axe_harrow.desc",
+      "value": "Perlengkapan kadipaten. Cukup berat sampai anak buah Adipati mengayunkannya dengan dua tangan dan seluruh dendamnya."
+    },
+    {
+      "key": "item.axe_harrow.name",
+      "value": "Pembelah Perang Greymarch"
+    },
+    {
+      "key": "item.axe_woodcutter.desc",
+      "value": "Berat, lambat, jujur. Membelah pinus dan tulang dengan kesabaran yang sama."
+    },
+    {
+      "key": "item.axe_woodcutter.name",
+      "value": "Kapak Penebang"
+    },
+    {
+      "key": "item.bandage.desc",
+      "value": "Direbus, dikeringkan, digulung. Satu-satunya obat di lembah yang tak pernah habis."
+    },
+    {
+      "key": "item.bandage.name",
+      "value": "Kain Linen Rebus"
+    },
+    {
+      "key": "item.boots_gold.desc",
+      "value": "Tiap langkah berdenting seperti lonceng kecil. Mengendap-endap urusan orang lain."
+    },
+    {
+      "key": "item.boots_gold.name",
+      "value": "Sepatu Zirah Ksatria"
+    },
+    {
+      "key": "item.boots_iron.desc",
+      "value": "Lebih berat dari kelihatannya, lebih ringan dari bunyinya."
+    },
+    {
+      "key": "item.boots_iron.name",
+      "value": "Sepatu Berpelat"
+    },
+    {
+      "key": "item.boots_leather.desc",
+      "value": "Sudah dua kali ganti sol. Yang kiri masih bocor kalau hujan."
+    },
+    {
+      "key": "item.boots_leather.name",
+      "value": "Sepatu Jalan"
+    },
+    {
+      "key": "item.bow_black.desc",
+      "value": "Tobias membuatnya dari pohon yew yang tumbuh dari kuburan massal. Cerita itu hanya akan ia ceritakan sekali."
+    },
+    {
+      "key": "item.bow_black.name",
+      "value": "Bulu Hitam"
+    },
+    {
+      "key": "item.bow_hunter.desc",
+      "value": "Ditarik benar, ia menembus tengkorak dari delapan puluh langkah. Ditarik salah, ibu jarimu patah."
+    },
+    {
+      "key": "item.bow_hunter.name",
+      "value": "Busur Panjang Lembah"
+    },
+    {
+      "key": "item.bow_poacher.desc",
+      "value": "Tobias mengukir sendiri takik talinya. Melanggar tiga aturan, berguna di ketiganya."
+    },
+    {
+      "key": "item.bow_poacher.name",
+      "value": "Busur Pemburu Gelap"
+    },
+    {
+      "key": "item.dagger_quiet.desc",
+      "value": "Pisau pedagang, seimbang untuk dilempar sekaligus untuk disangkal."
+    },
+    {
+      "key": "item.dagger_quiet.name",
+      "value": "Kerja Sunyi"
+    },
+    {
+      "key": "item.food_bread.desc",
+      "value": "Paling baru dua hari lalu. Di Rennfall, itu terhitung masih segar."
+    },
+    {
+      "key": "item.food_bread.name",
+      "value": "Roti Ransum Keras"
+    },
+    {
+      "key": "item.food_salt_meat.desc",
+      "value": "Diawetkan Serikat dan dihargai Serikat. Alot seperti tali, tapi menjaga penjaga tetap tegak sampai fajar."
+    },
+    {
+      "key": "item.food_salt_meat.name",
+      "value": "Daging Asin"
+    },
+    {
+      "key": "item.food_stew.desc",
+      "value": "Umbi, daging asin, dan apa pun hasil jerat. Selalu dimakan sambil berdiri."
+    },
+    {
+      "key": "item.food_stew.name",
+      "value": "Sup Perapian"
+    },
+    {
+      "key": "item.gloves_gold.desc",
+      "value": "Emas di pergelangan agar pasukan bisa melihat tangan mana yang memberi perintah."
+    },
+    {
+      "key": "item.gloves_gold.name",
+      "value": "Sarung Tangan Kapten"
+    },
+    {
+      "key": "item.gloves_iron.desc",
+      "value": "Pelat di buku jari, kulit di telapak. Mayat berjalan tidak suka dipukul dengan ini."
+    },
+    {
+      "key": "item.gloves_iron.name",
+      "value": "Sarung Tangan Berpunggung Besi"
+    },
+    {
+      "key": "item.gloves_leather.desc",
+      "value": "Kaku oleh getah lama. Menggenggam gagang kapak seolah dibuat untuk itu."
+    },
+    {
+      "key": "item.gloves_leather.name",
+      "value": "Sarung Tangan Kerja"
+    },
+    {
+      "key": "item.helm_hood.desc",
+      "value": "Menahan hujan. Tak berguna melawan yang berjalan di dalamnya."
+    },
+    {
+      "key": "item.helm_hood.name",
+      "value": "Tudung Berminyak"
+    },
+    {
+      "key": "item.helm_marshal.desc",
+      "value": "Kain penyaring dan kaca berasap. Kau bisa bernapas di jalan yang terbakar, dan bisa dibedakan dari orang-orang di dalamnya."
+    },
+    {
+      "key": "item.helm_marshal.name",
+      "value": "Tudung Jelaga"
+    },
+    {
+      "key": "item.helm_sallet.desc",
+      "value": "Penyoknya bekas gada di istana. Pemiliknya selamat. Nyaris."
+    },
+    {
+      "key": "item.helm_sallet.name",
+      "value": "Helm Penyok"
+    },
+    {
+      "key": "item.helm_warden.desc",
+      "value": "Menahan hujan dari tengkuk dan membuat wajahmu terlihat. Kata Brann, bagian kedua lebih penting."
+    },
+    {
+      "key": "item.helm_warden.name",
+      "value": "Topi Lebar Warden"
+    },
+    {
+      "key": "item.legs_gold.desc",
+      "value": "Zirah upacara yang ternyata zirah sungguhan."
+    },
+    {
+      "key": "item.legs_gold.name",
+      "value": "Pelindung Kaki Bersepuh"
+    },
+    {
+      "key": "item.legs_iron.desc",
+      "value": "Dingin di pagi hari, hangat di siang hari, berat di sore hari."
+    },
+    {
+      "key": "item.legs_iron.name",
+      "value": "Celana Rantai"
+    },
+    {
+      "key": "item.legs_leather.desc",
+      "value": "Ditambal di lutut. Setiap warden lebih sering berlutut daripada yang mereka akui."
+    },
+    {
+      "key": "item.legs_leather.name",
+      "value": "Celana Kulit"
+    },
+    {
+      "key": "item.mat_bone_dust.desc",
+      "value": "Hasil gilingan mayat gelisah. Barisan Abu menyebut memilikinya pelanggar hukum. Bagi Iskra itu hal biasa."
+    },
+    {
+      "key": "item.mat_bone_dust.name",
+      "value": "Serbuk Tulang"
+    },
+    {
+      "key": "item.mat_cloth.desc",
+      "value": "Menahan hujan di atap atau di luka. Pemukiman tak pernah punya cukup untuk keduanya."
+    },
+    {
+      "key": "item.mat_cloth.name",
+      "value": "Kain Berminyak"
+    },
+    {
+      "key": "item.mat_grave_wax.desc",
+      "value": "Dikerik dari peti yang tak pernah dibuka. Menyegel sumpah sekaligus luka."
+    },
+    {
+      "key": "item.mat_grave_wax.name",
+      "value": "Lilin Kubur"
+    },
+    {
+      "key": "item.mat_hide.desc",
+      "value": "Kebanyakan dari rusa. Rusa di lembah ini sudah gelisah selama empat puluh tahun."
+    },
+    {
+      "key": "item.mat_hide.name",
+      "value": "Kulit Samak"
+    },
+    {
+      "key": "item.mat_iron.desc",
+      "value": "Gelap, padat, dan alasan Adipati Harrow terus mengirim 'bandit'."
+    },
+    {
+      "key": "item.mat_iron.name",
+      "value": "Besi Rennfall"
+    },
+    {
+      "key": "item.mat_nails.desc",
+      "value": "Ditempa tangan, tidak seragam, dan lebih berharga daripada papan yang dipakukan."
+    },
+    {
+      "key": "item.mat_nails.name",
+      "value": "Paku Besi"
+    },
+    {
+      "key": "item.mat_pitch.desc",
+      "value": "Menahan bocor di atap, menutup luka dengan buruk, dan terbakar seperti sebuah janji."
+    },
+    {
+      "key": "item.mat_pitch.name",
+      "value": "Getah Pinus"
+    },
+    {
+      "key": "item.mat_rope.desc",
+      "value": "Menahan atap, mengikat tawanan, dan menyatukan jembatan untuk satu penyeberangan lagi."
+    },
+    {
+      "key": "item.mat_rope.name",
+      "value": "Tali Ter"
+    },
+    {
+      "key": "item.mat_saltbrick.desc",
+      "value": "Mata uang Serikat dalam segala hal kecuali namanya. Mengawetkan daging, membayar suap, larut kena hujan."
+    },
+    {
+      "key": "item.mat_saltbrick.name",
+      "value": "Bata Garam"
+    },
+    {
+      "key": "item.mat_stone.desc",
+      "value": "Untuk perapian, pondasi, dan nisan. Belakangan ini kebanyakan nisan."
+    },
+    {
+      "key": "item.mat_stone.name",
+      "value": "Batu Galian"
+    },
+    {
+      "key": "item.mat_timber.desc",
+      "value": "Ditebang dari pinus hitam. Setiap dinding desa bermula dari sini."
+    },
+    {
+      "key": "item.mat_timber.name",
+      "value": "Kayu Kering"
+    },
+    {
+      "key": "item.oil_flask.desc",
+      "value": "Lempar, sulut, dan jangan berdiri searah angin dari idemu sendiri."
+    },
+    {
+      "key": "item.oil_flask.name",
+      "value": "Botol Ter"
+    },
+    {
+      "key": "item.potion_large.desc",
+      "value": "Diracik untuk prajurit yang harus tetap berdiri. Tiga botol dan kau takkan merasakan apa pun."
+    },
+    {
+      "key": "item.potion_large.name",
+      "value": "Botol Tabib"
+    },
+    {
+      "key": "item.potion_mana.desc",
+      "value": "Iskra menyulingnya dari abu perapian. Panas sampai ke perut, dan justru itu gunanya."
+    },
+    {
+      "key": "item.potion_mana.name",
+      "value": "Anggur Bara"
+    },
+    {
+      "key": "item.potion_nightsight.desc",
+      "value": "Gelap berubah kelabu dan dingin terasa menusuk. Jangan pakai dua kali dalam semalam."
+    },
+    {
+      "key": "item.potion_nightsight.name",
+      "value": "Tetes Mata Malam"
+    },
+    {
+      "key": "item.potion_small.desc",
+      "value": "Rasanya seperti gudang lembap. Tetap saja menutup luka."
+    },
+    {
+      "key": "item.potion_small.name",
+      "value": "Ramuan Akar Pahit"
+    },
+    {
+      "key": "item.potion_stoneskin.desc",
+      "value": "Rasanya seperti batu tulis basah. Selama sejam, tebasan hanya terasa seperti dorongan."
+    },
+    {
+      "key": "item.potion_stoneskin.name",
+      "value": "Ramuan Kulit Batu"
+    },
+    {
+      "key": "item.quest_burn_ledger.desc",
+      "value": "Setiap desa yang dibersihkan, dengan kolom jiwa tercatat. Kolom terakhir selalu penuh dan selalu salah."
+    },
+    {
+      "key": "item.quest_burn_ledger.name",
+      "value": "Buku Catatan Regu Pembakar"
+    },
+    {
+      "key": "item.quest_crane_journal.desc",
+      "value": "Empat puluh tahun penguburan, tercatat per nama. Entri terakhirnya bukan nama, melainkan permintaan maaf."
+    },
+    {
+      "key": "item.quest_crane_journal.name",
+      "value": "Catatan Warden Crane"
+    },
+    {
+      "key": "item.quest_harrow_ledger.desc",
+      "value": "Sepatu, anak panah, dan daging asin, dikeluarkan untuk orang-orang yang resminya bandit."
+    },
+    {
+      "key": "item.quest_harrow_ledger.name",
+      "value": "Buku Perbekalan Greymarch"
+    },
+    {
+      "key": "item.quest_marshal_writ.desc",
+      "value": "Dicap dua kali, ditandatangani sekali. Isinya: Rennfall bekerja sama — sebuah perisai, sampai ia jadi tanda terima."
+    },
+    {
+      "key": "item.quest_marshal_writ.name",
+      "value": "Surat Kepatuhan"
+    },
+    {
+      "key": "item.quest_moot_writ.desc",
+      "value": "Ditandatangani, disegel, dan bernilai satu perang. Memegangnya membuatmu orang paling diundang sekaligus paling diburu di Valcaris."
+    },
+    {
+      "key": "item.quest_moot_writ.name",
+      "value": "Surat Sidang Mahkota"
+    },
+    {
+      "key": "item.quest_oona_letter.desc",
+      "value": "Disegel dengan lilin dan dialamatkan, dengan huruf kapital yang hati-hati, kepada Brann Hollowell."
+    },
+    {
+      "key": "item.quest_oona_letter.name",
+      "value": "Surat Oona"
+    },
+    {
+      "key": "item.quest_order_orders.desc",
+      "value": "'Bila Hak Perapian terbukti sah, lembah harus diresmikan dengan api. Tidak ada pengecualian.'"
+    },
+    {
+      "key": "item.quest_order_orders.name",
+      "value": "Surat Perintah Tersegel Barisan Abu"
+    },
+    {
+      "key": "item.quest_testament.desc",
+      "value": "Menyerahkan Lembah Rennfall kepada Kael Voss. Klausul keempatnya ditulis dengan tulisan tangan yang berbeda."
+    },
+    {
+      "key": "item.quest_testament.name",
+      "value": "Surat Wasiat Ratu"
+    },
+    {
+      "key": "item.quest_wick_lamp.desc",
+      "value": "Penyok, kacanya retak, sumbunya masih di dalam. Ia tetap akan menginginkannya kembali."
+    },
+    {
+      "key": "item.quest_wick_lamp.name",
+      "value": "Lampu Wick"
+    },
+    {
+      "key": "item.relic_hearth_coal.desc",
+      "value": "Bara yang menyalakan api sumpah pertama di Rennfall. Ia tak pernah padam, hanya menunggu."
+    },
+    {
+      "key": "item.relic_hearth_coal.name",
+      "value": "Bara Pertama"
+    },
+    {
+      "key": "item.relic_root_crown_shard.desc",
+      "value": "Serpihan mahkota yang retak di kepala Ratu. Ia masih tumbuh, sangat perlahan, di dalam gelap tasmu."
+    },
+    {
+      "key": "item.relic_root_crown_shard.name",
+      "value": "Serpihan Mahkota Akar"
+    },
+    {
+      "key": "item.ring_copper.desc",
+      "value": "Cincin petani, aus dan licin. Lebih banyak melihat panen daripada perkelahian."
+    },
+    {
+      "key": "item.ring_copper.name",
+      "value": "Cincin Tembaga"
+    },
+    {
+      "key": "item.ring_gold.desc",
+      "value": "Batunya hangat saat disentuh, bahkan di tengah salju."
+    },
+    {
+      "key": "item.ring_gold.name",
+      "value": "Cincin Jantung Bara"
+    },
+    {
+      "key": "item.ring_iron.desc",
+      "value": "Batu perseginya dipotong untuk mencap lilin. Sama baiknya untuk mencap rahang."
+    },
+    {
+      "key": "item.ring_iron.name",
+      "value": "Cincin Segel Warden"
+    },
+    {
+      "key": "item.shield_lion.desc",
+      "value": "Lambang keluarga Ser Galen. Membawanya di Rennfall adalah pernyataan politik."
+    },
+    {
+      "key": "item.shield_lion.name",
+      "value": "Perisai Singa Bersisik"
+    },
+    {
+      "key": "item.shield_oak.desc",
+      "value": "Buatan desa. Bagian tengahnya piringan bajak yang ditempa rata."
+    },
+    {
+      "key": "item.shield_oak.name",
+      "value": "Perisai Kayu Ek"
+    },
+    {
+      "key": "item.shield_tower.desc",
+      "value": "Cukup besar untuk tidur di baliknya, dan memang begitulah penjaga malam memakainya."
+    },
+    {
+      "key": "item.shield_tower.name",
+      "value": "Perisai Menara Jaga"
+    },
+    {
+      "key": "item.shield_warden.desc",
+      "value": "Lambang perapiannya dicat, bukan ditempa. Tetap saja membuat para pengungsi berdiri lebih tegak."
+    },
+    {
+      "key": "item.shield_warden.name",
+      "value": "Perisai Bundar Perapian"
+    },
+    {
+      "key": "item.spear_ash.desc",
+      "value": "Cukup panjang untuk menahan sesuatu yang terbakar tetap sejauh lengan, dan hanya itu yang diminta dari sebuah tombak."
+    },
+    {
+      "key": "item.spear_ash.name",
+      "value": "Tombak Kayu Abu"
+    },
+    {
+      "key": "item.spear_warden.desc",
+      "value": "Jangkauan itu penting saat orang mati datang berbondong. Para warden lama tahu itu."
+    },
+    {
+      "key": "item.spear_warden.name",
+      "value": "Tombak Warden"
+    },
+    {
+      "key": "item.staff_apothecary.desc",
+      "value": "Berongga, bersumbat, dan penuh benda yang seharusnya tak disimpan berdekatan. Iskra bersikeras itu aman."
+    },
+    {
+      "key": "item.staff_apothecary.name",
+      "value": "Tongkat Tabib"
+    },
+    {
+      "key": "item.sword_emberbrand.desc",
+      "value": "Ditempa dalam api sumpah. Tetap hangat di tangan meski lembah membeku."
+    },
+    {
+      "key": "item.sword_emberbrand.name",
+      "value": "Bara Baja"
+    },
+    {
+      "key": "item.sword_gravedigger.desc",
+      "value": "Brann mengasahnya selama empat puluh tahun dan tak sekali pun memakainya pada yang hidup."
+    },
+    {
+      "key": "item.sword_gravedigger.name",
+      "value": "Golok Penggali Kubur"
+    },
+    {
+      "key": "item.sword_guard_issue.desc",
+      "value": "Pedang dinas biasa, sumbing sejak malam yang tak pernah kau ceritakan. Mereka membiarkanmu menyimpannya. Itulah belas kasihnya."
+    },
+    {
+      "key": "item.sword_guard_issue.name",
+      "value": "Pedang Pengawal Mahkota"
+    },
+    {
+      "key": "item.sword_hearth.desc",
+      "value": "Dipadamkan dalam api sumpah, bukan air. Matanya menyimpan sedikit hangat, dan orang mati menghindarinya."
+    },
+    {
+      "key": "item.sword_hearth.name",
+      "value": "Bilah Baja Perapian"
+    },
+    {
+      "key": "item.sword_warden_oath.desc",
+      "value": "Pedang milik Crane sendiri, ditinggalkan di ruang bawah dengan ujung tertancap di lantai. Ia tak pernah kembali mengambilnya."
+    },
+    {
+      "key": "item.sword_warden_oath.name",
+      "value": "Sumpah Warden"
+    },
+    {
+      "key": "item.tool_lantern.desc",
+      "value": "Tertutup di tiga sisi. Kau melihat jalan, dan jalan tidak melihatmu."
+    },
+    {
+      "key": "item.tool_lantern.name",
+      "value": "Lentera Warden"
+    },
+    {
+      "key": "item.tool_shovel.desc",
+      "value": "Cadangan milik Brann. Membawanya menandakan kau berniat mengubur orang dengan layak."
+    },
+    {
+      "key": "item.tool_shovel.name",
+      "value": "Sekop Besi"
+    },
+    {
+      "key": "item.torch.desc",
+      "value": "Api menahan dingin, mengusir gelap, dan membuat orang mati tahu diri."
+    },
+    {
+      "key": "item.torch.name",
+      "value": "Obor Ter"
+    },
+    {
+      "key": "item.trinket_ashcharm.desc",
+      "value": "Sejumput desa yang terbakar dalam bidal kaca. Barisan Abu menjualnya. Maren tak sanggup memandangnya."
+    },
+    {
+      "key": "item.trinket_ashcharm.name",
+      "value": "Jimat Abu"
+    },
+    {
+      "key": "item.trinket_crane_seal.desc",
+      "value": "Segel jabatan warden lama. Lilin di bawahnya berusia empat puluh tahun dan masih lunak."
+    },
+    {
+      "key": "item.trinket_crane_seal.name",
+      "value": "Segel Warden Crane"
+    },
+    {
+      "key": "item.trinket_ember_knot.desc",
+      "value": "Tali yang direndam abu perapian, diikat dengan simpul yang tak seorang pun ingat cara membukanya."
+    },
+    {
+      "key": "item.trinket_ember_knot.name",
+      "value": "Simpul Bara"
+    },
+    {
+      "key": "item.trinket_lion_pin.desc",
+      "value": "Memakai lambang Protektor di Rennfall bisa berarti kesetiaan atau umpan. Belum ada yang memutuskan."
+    },
+    {
+      "key": "item.trinket_lion_pin.name",
+      "value": "Pin Singa Bersisik"
+    },
+    {
+      "key": "item.trinket_queens_seal.desc",
+      "value": "Lilin dari wasiat yang mengasingkanmu. Masih terasa hangat, padahal itu mustahil."
+    },
+    {
+      "key": "item.trinket_queens_seal.name",
+      "value": "Segel Ratu yang Retak"
+    },
+    {
+      "key": "item.trinket_road_charm.desc",
+      "value": "Dua keping koin diikat kawat, dibawa empat hari dari Greymarch oleh satu orang yang sampai dan satu yang tidak."
+    },
+    {
+      "key": "item.trinket_road_charm.name",
+      "value": "Jimat Jalan"
+    },
+    {
+      "key": "item.trinket_root_ring.desc",
+      "value": "Tumbuh, bukan ditempa. Ia sedikit menyempit tiap kali kau berdiri di atas tanah yang baru digali."
+    },
+    {
+      "key": "item.trinket_root_ring.name",
+      "value": "Cincin Akar"
+    },
+    {
+      "key": "item.trinket_salt_seal.desc",
+      "value": "Membuka gerbang, menutup mulut, dan harganya lebih mahal dari keduanya."
+    },
+    {
+      "key": "item.trinket_salt_seal.name",
+      "value": "Segel Serikat Garam"
+    },
+    {
+      "key": "item.trinket_tally.desc",
+      "value": "Sebilah kayu bertakik. Enam puluh tahun nama, dan Brann masih bisa menyebut takik mana pun yang kau tunjuk."
+    },
+    {
+      "key": "item.trinket_tally.name",
+      "value": "Hitungan Penggali Kubur"
+    },
+    {
+      "key": "item.whetstone.desc",
+      "value": "Sepuluh menit kerja untuk sejam tidak mati. Pertukaran yang adil."
+    },
+    {
+      "key": "item.whetstone.name",
+      "value": "Batu Asah"
+    },
+    {
+      "key": "journal.done",
+      "value": "SELESAI"
+    },
+    {
+      "key": "journal.following",
+      "value": "DIIKUTI"
+    },
+    {
+      "key": "journal.main",
+      "value": "KISAH UTAMA"
+    },
+    {
+      "key": "journal.mainNone",
+      "value": "Tak ada yang mendesak. Beristirahatlah selagi bisa."
+    },
+    {
+      "key": "journal.side",
+      "value": "PEKERJAAN SAMPINGAN"
+    },
+    {
+      "key": "journal.sideNone",
+      "value": "Belum ada yang diterima. Tanyakan pada orang-orang di sini, mereka punya pekerjaan."
+    },
+    {
+      "key": "journal.tab",
+      "value": "JURNAL"
+    },
+    {
+      "key": "journal.tabSkills",
+      "value": "Skill"
+    },
+    {
+      "key": "journal.tabWarden",
+      "value": "WARDEN"
+    },
+    {
+      "key": "journal.tapToFollow",
+      "value": "Ketuk untuk diikuti panah"
+    },
+    {
+      "key": "kind.Armor",
+      "value": "Zirah"
+    },
+    {
+      "key": "kind.Consumable",
+      "value": "Habis pakai"
+    },
+    {
+      "key": "kind.Material",
+      "value": "Bahan"
+    },
+    {
+      "key": "kind.Quest",
+      "value": "Barang cerita"
+    },
+    {
+      "key": "kind.Relic",
+      "value": "Pusaka"
+    },
+    {
+      "key": "kind.Trinket",
+      "value": "Perhiasan"
+    },
+    {
+      "key": "kind.Weapon",
+      "value": "Senjata"
+    },
+    {
+      "key": "menu.continue",
+      "value": "Lanjutkan"
+    },
+    {
+      "key": "menu.newGame",
+      "value": "Permainan Baru"
+    },
+    {
+      "key": "menu.options",
+      "value": "Pengaturan"
+    },
+    {
+      "key": "menu.quit",
+      "value": "Keluar"
+    },
+    {
+      "key": "night.push.1",
+      "value": "Mereka keluar dari tepi hutan"
+    },
+    {
+      "key": "night.push.2",
+      "value": "Gelombang kedua"
+    },
+    {
+      "key": "night.push.3",
+      "value": "Gelombang ketiga"
+    },
+    {
+      "key": "night.push.4",
+      "value": "Mereka terus berdatangan"
+    },
+    {
+      "key": "night.push.last",
+      "value": "Yang terakhir dari mereka"
+    },
+    {
+      "key": "offer.accept",
+      "value": "Terima"
+    },
+    {
+      "key": "offer.doneHeading",
+      "value": "Pekerjaan selesai"
+    },
+    {
+      "key": "offer.handIn",
+      "value": "Serahkan"
+    },
+    {
+      "key": "offer.heading",
+      "value": "Pekerjaan ditawarkan"
+    },
+    {
+      "key": "offer.later",
+      "value": "Nanti saja"
+    },
+    {
+      "key": "offer.reward",
+      "value": "Upah {0} pengalaman dan {1} koin"
+    },
+    {
+      "key": "options.close",
+      "value": "Tutup"
+    },
+    {
+      "key": "options.language",
+      "value": "Bahasa"
+    },
+    {
+      "key": "options.leftHanded",
+      "value": "Kontrol tangan kiri"
+    },
+    {
+      "key": "options.music",
+      "value": "Musik"
+    },
+    {
+      "key": "options.off",
+      "value": "MATI"
+    },
+    {
+      "key": "options.on",
+      "value": "NYALA"
+    },
+    {
+      "key": "options.questArrow",
+      "value": "Panah quest"
+    },
+    {
+      "key": "options.sfx",
+      "value": "Efek Suara"
+    },
+    {
+      "key": "options.shake",
+      "value": "Guncangan layar"
+    },
+    {
+      "key": "options.subtitles",
+      "value": "Subtitle"
+    },
+    {
+      "key": "options.textSpeed",
+      "value": "Kecepatan Teks"
+    },
+    {
+      "key": "options.title",
+      "value": "Pengaturan"
+    },
+    {
+      "key": "options.voice",
+      "value": "Suara Tokoh"
+    },
+    {
+      "key": "place.Greymarch",
+      "value": "Greymarch"
+    },
+    {
+      "key": "place.Hollow",
+      "value": "Ceruk Duri Hitam"
+    },
+    {
+      "key": "place.Rennfall",
+      "value": "Rennfall"
+    },
+    {
+      "key": "place.TradeRoad",
+      "value": "Jalan Lembah"
+    },
+    {
+      "key": "prompt.board",
+      "value": "Baca papan pengumuman"
+    },
+    {
+      "key": "prompt.build.palisade",
+      "value": "Bangun pagar kayu (8 kayu, 4 batu)"
+    },
+    {
+      "key": "prompt.build.shelter",
+      "value": "Bangun tempat berlindung (6 kayu, 2 batu)"
+    },
+    {
+      "key": "prompt.built",
+      "value": "Sudah berdiri"
+    },
+    {
+      "key": "prompt.door.close",
+      "value": "Tutup pintu"
+    },
+    {
+      "key": "prompt.door.open",
+      "value": "Buka pintu"
+    },
+    {
+      "key": "prompt.gather.iron",
+      "value": "Tambang besi"
+    },
+    {
+      "key": "prompt.gather.regrowing",
+      "value": "Sudah habis. Sebentar lagi tumbuh lagi"
+    },
+    {
+      "key": "prompt.gather.stone",
+      "value": "Gali batu: ketuk PAKAI atau pukul batunya"
+    },
+    {
+      "key": "prompt.gather.timber",
+      "value": "Tebang kayu: ketuk PAKAI atau tebas pohonnya"
+    },
+    {
+      "key": "prompt.hearth.callNight",
+      "value": "Panggil malam"
+    },
+    {
+      "key": "prompt.hearth.light",
+      "value": "Nyalakan api sumpah"
+    },
+    {
+      "key": "prompt.hearth.tend",
+      "value": "Rawat api sumpah"
+    },
+    {
+      "key": "prompt.salvage",
+      "value": "Geledah bangkai pedati"
+    },
+    {
+      "key": "prompt.search",
+      "value": "Geledah di sini"
+    },
+    {
+      "key": "prompt.stores",
+      "value": "Geledah perbekalan perampok"
+    },
+    {
+      "key": "prompt.talk",
+      "value": "Bicara"
+    },
+    {
+      "key": "prompt.trade",
+      "value": "Berdagang"
+    },
+    {
+      "key": "prompt.travel",
+      "value": "Tempuh jalan"
+    },
+    {
+      "key": "prompt.travel.greymarch",
+      "value": "Lanjut ke Greymarch"
+    },
+    {
+      "key": "prompt.travel.hollow",
+      "value": "Ikuti jalan setapak turun ke Ceruk"
+    },
+    {
+      "key": "prompt.travel.hollowOut",
+      "value": "Naik kembali ke jalan dagang"
+    },
+    {
+      "key": "prompt.travel.rennfall",
+      "value": "Kembali ke Rennfall lewat jalan"
+    },
+    {
+      "key": "prompt.travel.road",
+      "value": "Tempuh jalan dagang ke timur"
+    },
+    {
+      "key": "prompt.travel.valley",
+      "value": "Kembali ke lembah lewat jalan"
+    },
+    {
+      "key": "prompt.use",
+      "value": "Pakai"
+    },
+    {
+      "key": "quest.q_first_fire.s1",
+      "value": "Temui Brann Hollowell di alun-alun desa"
+    },
+    {
+      "key": "quest.q_first_fire.s2",
+      "value": "Tebang 8 kayu dan gali 5 batu (tebas, atau ketuk PAKAI)"
+    },
+    {
+      "key": "quest.q_first_fire.s3",
+      "value": "Nyalakan api sumpah di alun-alun"
+    },
+    {
+      "key": "quest.q_first_fire.summary",
+      "value": "Rennfall gelap selama empat puluh tahun. Nyalakan api sumpah sebelum matahari turun."
+    },
+    {
+      "key": "quest.q_first_fire.title",
+      "value": "Api Pertama"
+    },
+    {
+      "key": "quest.q_first_night.s0",
+      "value": "Bicara dengan Brann di dekat api yang baru"
+    },
+    {
+      "key": "quest.q_first_night.s1",
+      "value": "Rawat api sumpah untuk memanggil malam, lalu kalahkan 8 mayat hidup"
+    },
+    {
+      "key": "quest.q_first_night.s2",
+      "value": "Saat fajar, katakan pada Brann apa yang dilakukan pada yang gugur"
+    },
+    {
+      "key": "quest.q_first_night.summary",
+      "value": "Orang mati mendatangi setiap api baru di lembah. Dengarkan Brann, lalu panggil malam dan jaga cahaya sampai fajar."
+    },
+    {
+      "key": "quest.q_first_night.title",
+      "value": "Malam Pertama"
+    },
+    {
+      "key": "quest.q_hollow.s1",
+      "value": "Tanyakan soal perampokan kepada Kopral Dace di Greymarch"
+    },
+    {
+      "key": "quest.q_hollow.s2",
+      "value": "Temukan tiang tanpa tanda di jalan dagang dan turun ke Ceruk"
+    },
+    {
+      "key": "quest.q_hollow.s3",
+      "value": "Hancurkan kamp para perampok"
+    },
+    {
+      "key": "quest.q_hollow.s4",
+      "value": "Tumbangkan Rook Varr di reruntuhan"
+    },
+    {
+      "key": "quest.q_hollow.s5",
+      "value": "Bebaskan sang tawanan"
+    },
+    {
+      "key": "quest.q_hollow.s6",
+      "value": "Bawa buku catatan Rook kepada Vesna Kell di Greymarch"
+    },
+    {
+      "key": "quest.q_hollow.summary",
+      "value": "Seseorang merampas pedati di jalan lembah, beserta kusirnya. Temukan ke mana mereka dibawa, dan siapa yang membeli rampasannya."
+    },
+    {
+      "key": "quest.q_hollow.title",
+      "value": "Ceruk Duri Hitam"
+    },
+    {
+      "key": "quest.q_inspector.s1",
+      "value": "Sambut Inspektur Maren di desa"
+    },
+    {
+      "key": "quest.q_inspector.s2",
+      "value": "Jawab perintah Barisan Abu"
+    },
+    {
+      "key": "quest.q_inspector.summary",
+      "value": "Inspektur Maren datang untuk membimbing pemukiman. Bimbingannya datang bersama buku catatan dan perintah tersegel."
+    },
+    {
+      "key": "quest.q_inspector.title",
+      "value": "Kebaikan Seorang Inspektur"
+    },
+    {
+      "key": "quest.q_prologue.s1",
+      "value": "Capai Ratu di ruang makam"
+    },
+    {
+      "key": "quest.q_prologue.s2",
+      "value": "Jawab pengadilan atas tuduhanmu"
+    },
+    {
+      "key": "quest.q_prologue.s3",
+      "value": "Terima wasiat dan berangkat ke Rennfall"
+    },
+    {
+      "key": "quest.q_prologue.summary",
+      "value": "Jaga sang Ratu selama ritus pembaruan, lalu pertanggungjawabkan apa yang terjadi setelahnya."
+    },
+    {
+      "key": "quest.q_prologue.title",
+      "value": "Malam Mahkota Retak"
+    },
+    {
+      "key": "quest.q_records_house.s1",
+      "value": "Geledah rumah catatan yang runtuh untuk mencari jurnal Crane"
+    },
+    {
+      "key": "quest.q_records_house.summary",
+      "value": "Gethin bersumpah rumah catatan yang runtuh masih menyimpan jurnal Warden Crane, dan orang mati di bawah sana tak suka tamu."
+    },
+    {
+      "key": "quest.q_records_house.title",
+      "value": "Nama-Nama di Bawah Rumah Catatan"
+    },
+    {
+      "key": "quest.q_shelter.s1",
+      "value": "Dirikan tiga tempat berteduh di dalam cahaya api"
+    },
+    {
+      "key": "quest.q_shelter.summary",
+      "value": "Para pengungsi tidur di lumpur. Bangun tempat berlindung di dalam cahaya perapian."
+    },
+    {
+      "key": "quest.q_shelter.title",
+      "value": "Atap Sebelum Dinding"
+    },
+    {
+      "key": "quest.q_summons.s1",
+      "value": "Ambil jalan timur keluar dari Rennfall"
+    },
+    {
+      "key": "quest.q_summons.s2",
+      "value": "Susuri jalan dagang sampai gerbang Greymarch"
+    },
+    {
+      "key": "quest.q_summons.s3",
+      "value": "Temukan Vesna Kell dari Liga Garam di Greymarch"
+    },
+    {
+      "key": "quest.q_summons.summary",
+      "value": "Marshal Agung bersidang di Greymarch, dan laporan Maren butuh segel Warden. Vesna Kell dari Liga Garam menanyakan dirimu."
+    },
+    {
+      "key": "quest.q_summons.title",
+      "value": "Dipanggil ke Greymarch"
+    },
+    {
+      "key": "quest.returnTo",
+      "value": "Kembali ke {0}"
+    },
+    {
+      "key": "quest.sq_criers_news.s1",
+      "value": "Tumbangkan enam perampok jalan"
+    },
+    {
+      "key": "quest.sq_criers_news.summary",
+      "value": "Pell meneriakkan kabar kota dua kali sehari dan tak punya apa-apa selain harga gandum. Beri dia kabar perampok jalan yang tumbang."
+    },
+    {
+      "key": "quest.sq_criers_news.title",
+      "value": "Kabar yang Layak Diteriakkan"
+    },
+    {
+      "key": "quest.sq_dace_patrol.s1",
+      "value": "Hancurkan kamp di Ceruk"
+    },
+    {
+      "key": "quest.sq_dace_patrol.s2",
+      "value": "Bawa kabar bahwa kapten mereka tumbang"
+    },
+    {
+      "key": "quest.sq_dace_patrol.summary",
+      "value": "Dace tak bisa mengirim patroli yang tak pernah diberikan padanya. Yang bisa ia lakukan adalah mencatat apa yang dilakukan sang Warden, lalu membiarkan kaptennya membaca."
+    },
+    {
+      "key": "quest.sq_dace_patrol.title",
+      "value": "Hitungan Seorang Kopral"
+    },
+    {
+      "key": "quest.sq_flawless_vigil.s1",
+      "value": "Bertahan semalam tanpa terluka sekali pun"
+    },
+    {
+      "key": "quest.sq_flawless_vigil.summary",
+      "value": "Brann bilang hanya dua warden yang pernah bertahan semalam tanpa tergores. Ia tidak sedang memujimu."
+    },
+    {
+      "key": "quest.sq_flawless_vigil.title",
+      "value": "Semalam Tanpa Luka"
+    },
+    {
+      "key": "quest.sq_iron_seam.s1",
+      "value": "Bawakan Sabel enam bagian besi"
+    },
+    {
+      "key": "quest.sq_iron_seam.s2",
+      "value": "Bersihkan apa pun yang terbangun oleh galian"
+    },
+    {
+      "key": "quest.sq_iron_seam.summary",
+      "value": "Ada besi bagus di lereng utara, dan ada alasan warga lama berhenti menggalinya. Cari tahu mana yang lebih berharga."
+    },
+    {
+      "key": "quest.sq_iron_seam.title",
+      "value": "Urat Besi yang Tak Digarap"
+    },
+    {
+      "key": "quest.sq_miras_wagon.s1",
+      "value": "Bawakan Mira lima bagian besi"
+    },
+    {
+      "key": "quest.sq_miras_wagon.s2",
+      "value": "Pastikan jalan lembah kembali sunyi"
+    },
+    {
+      "key": "quest.sq_miras_wagon.summary",
+      "value": "Mira ingin kembali menjadi kusir, dan kusir tanpa besi pengikat punya pedati yang copot di tanjakan pertama."
+    },
+    {
+      "key": "quest.sq_miras_wagon.title",
+      "value": "Pedati Empat Puluh Satu"
+    },
+    {
+      "key": "quest.sq_oonas_letter.s1",
+      "value": "Ambil surat dari Oona"
+    },
+    {
+      "key": "quest.sq_oonas_letter.s2",
+      "value": "Antar surat itu kepada Brann di Rennfall"
+    },
+    {
+      "key": "quest.sq_oonas_letter.summary",
+      "value": "Adik Oona ikut kompi Brann dua puluh tahun lalu. Ia menulis surat untuk menanyakan apakah adiknya masih hidup, dan kurir pos tak pernah ke Rennfall."
+    },
+    {
+      "key": "quest.sq_oonas_letter.title",
+      "value": "Surat untuk Lembah"
+    },
+    {
+      "key": "quest.sq_porters_load.s1",
+      "value": "Bawakan Oona empat bagian daging garam"
+    },
+    {
+      "key": "quest.sq_porters_load.summary",
+      "value": "Para kuli gerbang bekerja seharian tanpa bekal. Oona mau membeli daging garam darimu dengan harga pantas dan membagikannya sendiri."
+    },
+    {
+      "key": "quest.sq_porters_load.title",
+      "value": "Bekal Para Kuli"
+    },
+    {
+      "key": "quest.sq_reputation_board.s1",
+      "value": "Selesaikan lima kontrak yang ditempel"
+    },
+    {
+      "key": "quest.sq_reputation_board.s2",
+      "value": "Bertahan tiga malam sebagai Warden Rennfall"
+    },
+    {
+      "key": "quest.sq_reputation_board.summary",
+      "value": "Sebuah pemukiman dinilai dari apakah pekerjaan yang ditempel benar-benar selesai. Bersihkan papan, dan kabarnya menyebar lebih jauh daripada panji mana pun."
+    },
+    {
+      "key": "quest.sq_reputation_board.title",
+      "value": "Ucapan Sang Warden"
+    },
+    {
+      "key": "quest.sq_roofline.s1",
+      "value": "Bangun empat bangunan di dalam cahaya perapian"
+    },
+    {
+      "key": "quest.sq_roofline.s2",
+      "value": "Bawakan Hesketh dua ter dan tiga tali"
+    },
+    {
+      "key": "quest.sq_roofline.summary",
+      "value": "Langit terasa kelabu dan berat. Setiap atap yang berdiri sebelum badai berarti satu keluarga yang tak tidur di lumpur."
+    },
+    {
+      "key": "quest.sq_roofline.title",
+      "value": "Sebelum Hujan"
+    },
+    {
+      "key": "quest.sq_shepherds_distance.s1",
+      "value": "Tumbangkan tiga yang memimpin mereka"
+    },
+    {
+      "key": "quest.sq_shepherds_distance.s2",
+      "value": "Pertahankan lembah dua malam lagi"
+    },
+    {
+      "key": "quest.sq_shepherds_distance.summary",
+      "value": "Ia berdiri di tepi hutan dan tak melangkah masuk. Apa pun yang memutuskan itu pantas dibuat gelisah."
+    },
+    {
+      "key": "quest.sq_shepherds_distance.title",
+      "value": "Jarak yang Ia Jaga"
+    },
+    {
+      "key": "quest.sq_stew.s1",
+      "value": "Pinjam panci besar Hesketh"
+    },
+    {
+      "key": "quest.sq_stew.s2",
+      "value": "Bawakan Winna dua bagian daging garam dan dua roti"
+    },
+    {
+      "key": "quest.sq_stew.summary",
+      "value": "Winna Tua memberi makan penjaga malam, tapi pancinya retak. Hesketh si tukang tong punya panci besar, dan rebusannya butuh daging dan roti."
+    },
+    {
+      "key": "quest.sq_stew.title",
+      "value": "Sesuatu yang Hangat"
+    },
+    {
+      "key": "quest.sq_surveyors_eye.s1",
+      "value": "Dirikan enam atap di dalam cahaya perapian"
+    },
+    {
+      "key": "quest.sq_surveyors_eye.s2",
+      "value": "Selesaikan empat kontrak agar papan terlihat sibuk"
+    },
+    {
+      "key": "quest.sq_surveyors_eye.summary",
+      "value": "Daftar itu pergi ke timur, jadi orang-orang dengan rantai ukur dan peta akan datang ke barat. Biar mereka menemukan pemukiman yang terlihat terlalu berguna untuk dibubarkan."
+    },
+    {
+      "key": "quest.sq_surveyors_eye.title",
+      "value": "Apa yang Akan Dilihat Juru Ukur"
+    },
+    {
+      "key": "quest.sq_tally.s1",
+      "value": "Tumbangkan dua belas mayat bangkit agar Brann bisa menamai mereka"
+    },
+    {
+      "key": "quest.sq_tally.summary",
+      "value": "Brann menyimpan kayu hitungan untuk setiap penguburan di Rennfall. Ia ingin dua belas nama terakhir diukir sebelum ia melupakannya."
+    },
+    {
+      "key": "quest.sq_tally.title",
+      "value": "Enam Puluh Tahun Nama"
+    },
+    {
+      "key": "quest.sq_unmarked_boots.s1",
+      "value": "Temukan bukti siapa yang membayar para perampok"
+    },
+    {
+      "key": "quest.sq_unmarked_boots.s2",
+      "value": "Tunjukkan buku catatan itu kepada Ser Galen, biar perwira Mahkota melihatnya"
+    },
+    {
+      "key": "quest.sq_unmarked_boots.summary",
+      "value": "Bandit di jalan dagang memakai sepatu bercap tukang sepatu Greymarch. Vesna membayar untuk bukti, dan Harrow membayar lebih untuk diam."
+    },
+    {
+      "key": "quest.sq_unmarked_boots.title",
+      "value": "Sepatu Tanpa Lambang"
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.s1",
+      "value": "Sediakan kain berminyak untuk perban dan atap"
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.s2",
+      "value": "Isi gudang dengan daging asin untuk mereka yang lelah di jalan"
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.summary",
+      "value": "Ia datang dengan luka, dua koin berkawat, dan nama semua orang yang tak sampai. Siapkan perlengkapan untuk yang berikutnya sebelum mereka tiba."
+    },
+    {
+      "key": "quest.sq_what_nessa_carried.title",
+      "value": "Apa yang Dibawa Nessa"
+    },
+    {
+      "key": "quest.sq_whisperers.s1",
+      "value": "Tumbangkan enam mayat perapal"
+    },
+    {
+      "key": "quest.sq_whisperers.summary",
+      "value": "Inspektur Maren ingin mayat perapal dihitung dan dibakar. Iskra ingin satu disisakan utuh. Kau tak bisa melakukan keduanya."
+    },
+    {
+      "key": "quest.sq_whisperers.title",
+      "value": "Yang Merapal"
+    },
+    {
+      "key": "quest.sq_wicks_lamp.s1",
+      "value": "Temukan lampu Wick di jalan dagang"
+    },
+    {
+      "key": "quest.sq_wicks_lamp.summary",
+      "value": "Wick menjatuhkan lampunya saat lari dari malam pertama. Ia kira lampu itu tertinggal di dekat ladang di jalan dagang, dan ia tak mau kembali mengambilnya."
+    },
+    {
+      "key": "quest.sq_wicks_lamp.title",
+      "value": "Lampu Si Pembawa Lampu"
+    },
+    {
+      "key": "quest.sq_widows_vigil.s1",
+      "value": "Bawakan Asta tiga obor ter"
+    },
+    {
+      "key": "quest.sq_widows_vigil.s2",
+      "value": "Jaga satu malam di lembah untuknya"
+    },
+    {
+      "key": "quest.sq_widows_vigil.summary",
+      "value": "Asta menjaga satu lampu tetap menyala untuk anak yang tak akan pulang. Ia tak mau meminta ter kepada kota, jadi ia meminta padamu."
+    },
+    {
+      "key": "quest.sq_widows_vigil.title",
+      "value": "Lampu untuk Jalan Panjang"
+    },
+    {
+      "key": "rarity.Common",
+      "value": "Biasa"
+    },
+    {
+      "key": "rarity.Fine",
+      "value": "Bagus"
+    },
+    {
+      "key": "rarity.Oathbound",
+      "value": "Terikat Sumpah"
+    },
+    {
+      "key": "rarity.Rare",
+      "value": "Langka"
+    },
+    {
+      "key": "shop.bought",
+      "value": "Dibeli: {0}"
+    },
+    {
+      "key": "shop.buy",
+      "value": "Beli"
+    },
+    {
+      "key": "shop.cannotAfford",
+      "value": "Koin tidak cukup"
+    },
+    {
+      "key": "shop.coin",
+      "value": "Kantongmu: {0} koin"
+    },
+    {
+      "key": "shop.leave",
+      "value": "Pergi"
+    },
+    {
+      "key": "shop.nothingToSell",
+      "value": "Tak ada di tas yang layak dijual."
+    },
+    {
+      "key": "shop.price",
+      "value": "{0} koin"
+    },
+    {
+      "key": "shop.sabel.name",
+      "value": "Lapak Sabel"
+    },
+    {
+      "key": "shop.sell",
+      "value": "Jual"
+    },
+    {
+      "key": "shop.sellFor",
+      "value": "Laku {0}"
+    },
+    {
+      "key": "skill.battle_fury.desc",
+      "value": "Untuk sesaat, setiap pukulan mendarat lebih keras."
+    },
+    {
+      "key": "skill.battle_fury.name",
+      "value": "Amuk Tempur"
+    },
+    {
+      "key": "skill.ember_burst.desc",
+      "value": "Lingkaran api perapian meledak di sekitar Warden dan membakar semua yang dekat."
+    },
+    {
+      "key": "skill.ember_burst.name",
+      "value": "Ledakan Bara"
+    },
+    {
+      "key": "skill.ember_step.desc",
+      "value": "Lenyap dalam percikan bara dan muncul beberapa langkah di depan."
+    },
+    {
+      "key": "skill.ember_step.name",
+      "value": "Langkah Bara"
+    },
+    {
+      "key": "skill.field_dressing.desc",
+      "value": "Balut luka terparah dan tetap berdiri. Memulihkan darah."
+    },
+    {
+      "key": "skill.field_dressing.name",
+      "value": "Balut Lapangan"
+    },
+    {
+      "key": "skill.hamstring.desc",
+      "value": "Sayat di belakang lutut. Yang mengejarmu kini terpincang."
+    },
+    {
+      "key": "skill.hamstring.name",
+      "value": "Potong Urat"
+    },
+    {
+      "key": "skill.hearth_breath.desc",
+      "value": "Api tercurah ke depan dalam kipas yang melebar."
+    },
+    {
+      "key": "skill.hearth_breath.name",
+      "value": "Napas Perapian"
+    },
+    {
+      "key": "skill.iron_thirst.desc",
+      "value": "Bilah itu minum, dan sebagian yang diminumnya kembali padamu sebagai darah."
+    },
+    {
+      "key": "skill.iron_thirst.name",
+      "value": "Dahaga Besi"
+    },
+    {
+      "key": "skill.opening_cut.desc",
+      "value": "Tebasan rendah yang terus berdarah setelah bilahnya berlalu."
+    },
+    {
+      "key": "skill.opening_cut.name",
+      "value": "Sayatan Pembuka"
+    },
+    {
+      "key": "skills.cost",
+      "value": "{0} mana  ·  pulih {1} dtk"
+    },
+    {
+      "key": "skills.dodge",
+      "value": "Menghindar selalu siap di tombolnya sendiri."
+    },
+    {
+      "key": "skills.heading",
+      "value": "Dua skill bisa dibawa bertarung. Ketuk I atau II untuk membawanya."
+    },
+    {
+      "key": "skills.locked",
+      "value": "Terbuka di level {0}"
+    },
+    {
+      "key": "speaker.asta",
+      "value": "Janda Asta"
+    },
+    {
+      "key": "speaker.aurel",
+      "value": "Lord Protektor Aurel"
+    },
+    {
+      "key": "speaker.brann",
+      "value": "Brann Hollowell"
+    },
+    {
+      "key": "speaker.crane",
+      "value": "Sang Gembala Kelabu"
+    },
+    {
+      "key": "speaker.dace",
+      "value": "Kopral Dace"
+    },
+    {
+      "key": "speaker.galen",
+      "value": "Ser Galen"
+    },
+    {
+      "key": "speaker.gethin",
+      "value": "Gethin si Penggali"
+    },
+    {
+      "key": "speaker.hesketh",
+      "value": "Hesketh si Tukang Tong"
+    },
+    {
+      "key": "speaker.iskra",
+      "value": "Iskra Vell"
+    },
+    {
+      "key": "speaker.isolde",
+      "value": "Ratu Isolde"
+    },
+    {
+      "key": "speaker.kael",
+      "value": "Kael Voss"
+    },
+    {
+      "key": "speaker.maren",
+      "value": "Inspektur Maren"
+    },
+    {
+      "key": "speaker.mira",
+      "value": "Mira Holt"
+    },
+    {
+      "key": "speaker.oona",
+      "value": "Oona si Kuli"
+    },
+    {
+      "key": "speaker.pell",
+      "value": "Pell si Juru Teriak"
+    },
+    {
+      "key": "speaker.refugee",
+      "value": "Nessa Aldwin"
+    },
+    {
+      "key": "speaker.rook",
+      "value": "Rook Varr"
+    },
+    {
+      "key": "speaker.sabel",
+      "value": "Sabel Orr"
+    },
+    {
+      "key": "speaker.surveyor",
+      "value": "Juru Ukur Kestrel"
+    },
+    {
+      "key": "speaker.tobias",
+      "value": "Tobias Reed"
+    },
+    {
+      "key": "speaker.vesna",
+      "value": "Vesna Kell"
+    },
+    {
+      "key": "speaker.wick",
+      "value": "Wick"
+    },
+    {
+      "key": "speaker.winna",
+      "value": "Winna Tua"
+    },
+    {
+      "key": "stat.armour",
+      "value": "Zirah"
+    },
+    {
+      "key": "stat.damage",
+      "value": "Serangan"
+    },
+    {
+      "key": "stat.heals",
+      "value": "Memulihkan"
+    },
+    {
+      "key": "stat.health",
+      "value": "Nyawa"
+    },
+    {
+      "key": "stat.mana",
+      "value": "Bara"
+    },
+    {
+      "key": "stat.value",
+      "value": "Harga"
+    },
+    {
+      "key": "title.tagline",
+      "value": "Orang mati tak tidur di tanah yang terlantar"
+    },
+    {
+      "key": "toast.bossDown",
+      "value": "Pemimpin mereka telah tumbang"
+    },
+    {
+      "key": "toast.built",
+      "value": "Cahaya perapian menjangkau lebih jauh"
+    },
+    {
+      "key": "toast.contractPaid",
+      "value": "Kontrak dibayar"
+    },
+    {
+      "key": "toast.contractTaken",
+      "value": "Kontrak diambil"
+    },
+    {
+      "key": "toast.dawn",
+      "value": "Fajar. Lembah kembali sunyi."
+    },
+    {
+      "key": "toast.equipped",
+      "value": "Dipakai"
+    },
+    {
+      "key": "toast.eventMissed",
+      "value": "Mereka menunggu selama yang mereka bisa"
+    },
+    {
+      "key": "toast.found",
+      "value": "Ditemukan: {0}"
+    },
+    {
+      "key": "toast.gathered",
+      "value": "+{0} {1}  ·  {2} di tas"
+    },
+    {
+      "key": "toast.graveStir",
+      "value": "Kuburan-kuburan bergerak."
+    },
+    {
+      "key": "toast.hearthNeeds",
+      "value": "Perapian butuh kayu {0}/{1} dan batu {2}/{3}"
+    },
+    {
+      "key": "toast.hearthResting",
+      "value": "Lembah masih mengatur napas"
+    },
+    {
+      "key": "toast.hearthTended",
+      "value": "Api sumpah menyala mantap"
+    },
+    {
+      "key": "toast.hollowCamp",
+      "value": "Kamp perampok sudah dihancurkan"
+    },
+    {
+      "key": "toast.hollowPass",
+      "value": "Celah sudah aman"
+    },
+    {
+      "key": "toast.needMaterials",
+      "value": "Bahan tidak cukup"
+    },
+    {
+      "key": "toast.nightFalls",
+      "value": "Malam turun. Ada yang bergerak di antara pepohonan."
+    },
+    {
+      "key": "toast.nothingToSay",
+      "value": "Belum ada yang perlu dibicarakan"
+    },
+    {
+      "key": "toast.questDone",
+      "value": "Selesai: {0}"
+    },
+    {
+      "key": "toast.questTaken",
+      "value": "Diterima: {0}"
+    },
+    {
+      "key": "toast.recovered",
+      "value": "Anda terbangun di dekat cahaya, memar tapi masih bernapas"
+    },
+    {
+      "key": "toast.recoveredCoin",
+      "value": "Anda terbangun di dekat cahaya  ·  {0} koin hilang"
+    },
+    {
+      "key": "toast.roadClear",
+      "value": "Jalan kembali sunyi"
+    },
+    {
+      "key": "toast.rookDown",
+      "value": "Rook Varr telah tumbang"
+    },
+    {
+      "key": "toast.used",
+      "value": "Terpakai"
+    },
+    {
+      "key": "tone.guile",
+      "value": "Siasat"
+    },
+    {
+      "key": "tone.iron",
+      "value": "Besi"
+    },
+    {
+      "key": "tone.mercy",
+      "value": "Belas"
+    }
+  ]
+}

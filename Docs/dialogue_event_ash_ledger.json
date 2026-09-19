@@ -1,0 +1,134 @@
+{
+  "id": "event_ash_ledger",
+  "startNode": "rider_1",
+  "nodes": [
+    {
+      "id": "rider_1",
+      "speaker": "tobias",
+      "text": {
+        "en": "Warden. Tobias Reed, second rider of the Ash Marshals. I am not here to fight anything. I am here to write.",
+        "id": "Warden. Tobias Reed, penunggang kedua Barisan Abu. Saya tidak datang untuk bertarung. Saya datang untuk mencatat."
+      },
+      "next": "rider_2"
+    },
+    {
+      "id": "rider_2",
+      "speaker": "tobias",
+      "text": {
+        "en": "Every settlement that holds a night must return a ledger of its dead. Names, dates, where they were put down. The office calls it a census of loss.",
+        "id": "Setiap pemukiman yang bertahan semalam wajib menyerahkan daftar orang matinya. Nama, tanggal, di mana mereka ditumbangkan. Kantor menyebutnya sensus kehilangan."
+      },
+      "next": "rider_3"
+    },
+    {
+      "id": "rider_3",
+      "speaker": "tobias",
+      "text": {
+        "en": "I will be honest with you, because you will find out anyway. A valley that returns a full ledger is a valley the Protectorate has measured. Measured ground gets administered.",
+        "id": "Saya akan jujur, karena Anda akan tahu juga akhirnya. Lembah yang menyerahkan daftar lengkap adalah lembah yang sudah diukur Protektorat. Tanah yang terukur akan diambil alih pengelolaannya."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Take the full count. Rennfall has nothing to hide.",
+            "id": "Ambil hitungan lengkapnya. Rennfall tak menyembunyikan apa pun."
+          },
+          "tone": "iron",
+          "setFlag": "act1.ledger_surrendered",
+          "faction": "crown",
+          "reputation": 10,
+          "next": "rider_full"
+        },
+        {
+          "text": {
+            "en": "They were people before they were entries. No ledger.",
+            "id": "Mereka manusia sebelum jadi catatan. Tak ada daftar."
+          },
+          "tone": "mercy",
+          "setFlag": "act1.ledger_refused",
+          "faction": "hearth",
+          "reputation": 12,
+          "next": "rider_refuse"
+        },
+        {
+          "text": {
+            "en": "You will get a count. It will not be the true one.",
+            "id": "Anda akan dapat hitungan. Bukan yang sebenarnya."
+          },
+          "tone": "guile",
+          "setFlag": "act1.ledger_falsified",
+          "faction": "ash",
+          "reputation": -6,
+          "next": "rider_false"
+        }
+      ]
+    },
+    {
+      "id": "rider_full",
+      "speaker": "tobias",
+      "text": {
+        "en": "Thank you. I will write it clean, and I will write that the warden cooperated. That word buys you a season, maybe two.",
+        "id": "Terima kasih. Akan saya tulis rapi, dan saya catat bahwa warden bekerja sama. Kata itu memberi Anda satu musim, mungkin dua."
+      },
+      "next": "rider_full_2"
+    },
+    {
+      "id": "rider_full_2",
+      "speaker": "tobias",
+      "text": {
+        "en": "The office pays for compliance. Do not spend it all on drink. And Warden — when the surveyors come, do not act surprised.",
+        "id": "Kantor membayar untuk kepatuhan. Jangan dihabiskan untuk minum. Dan Warden — saat para juru ukur datang, jangan berlagak terkejut."
+      },
+      "giveCoin": 50,
+      "giveItems": [
+        "quest_marshal_writ"
+      ],
+      "setFlags": [
+        "event.ash_ledger.done",
+        "act2.surveyors_coming"
+      ]
+    },
+    {
+      "id": "rider_refuse",
+      "speaker": "tobias",
+      "text": {
+        "en": "I thought you might say that. I have been riding four years and it is always the ones who dug the graves themselves.",
+        "id": "Saya sudah menduga. Empat tahun saya berkuda, dan selalu mereka yang menggali kuburnya sendiri."
+      },
+      "next": "rider_refuse_2"
+    },
+    {
+      "id": "rider_refuse_2",
+      "speaker": "tobias",
+      "text": {
+        "en": "I will file it as a settlement unable to produce records. That is a smaller word than refusal. It is the only kindness I can do you, and it costs me something.",
+        "id": "Akan saya catat sebagai pemukiman yang tak mampu menyediakan catatan. Itu kata yang lebih kecil daripada penolakan. Hanya itu kebaikan yang bisa saya berikan, dan saya membayarnya."
+      },
+      "setFlags": [
+        "event.ash_ledger.done",
+        "act2.marshal_sympathetic"
+      ]
+    },
+    {
+      "id": "rider_false",
+      "speaker": "tobias",
+      "text": {
+        "en": "You say that to my face. Either you are very new at this or you have decided I am worth the risk.",
+        "id": "Anda mengatakannya di depan saya. Entah Anda benar-benar baru, atau Anda sudah memutuskan saya sepadan dengan risikonya."
+      },
+      "next": "rider_false_2"
+    },
+    {
+      "id": "rider_false_2",
+      "speaker": "tobias",
+      "text": {
+        "en": "Give me your number. I will carry it. But a short ledger means a small settlement, and small settlements do not get soldiers when the trade road closes.",
+        "id": "Berikan angka Anda. Akan saya bawa. Tapi daftar yang pendek berarti pemukiman kecil, dan pemukiman kecil tak dapat prajurit saat jalan dagang ditutup."
+      },
+      "setFlags": [
+        "event.ash_ledger.done",
+        "act2.ledger_lie_standing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "villager_winna",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "winna",
+      "textKey": "dlg.villager_winna.n1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "n2",
+      "choices": []
+    },
+    {
+      "id": "n2",
+      "speaker": "winna",
+      "textKey": "dlg.villager_winna.n2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

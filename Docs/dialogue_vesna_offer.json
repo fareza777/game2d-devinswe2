@@ -1,0 +1,109 @@
+{
+  "id": "vesna_offer",
+  "startNode": "vesna_1",
+  "nodes": [
+    {
+      "id": "vesna_1",
+      "speaker": "vesna",
+      "text": {
+        "en": "Vesna Kell, Salt League. I sell salt, rope, iron, and information. Today the information is free, which should worry you.",
+        "id": "Vesna Kell, Serikat Garam. Saya menjual garam, tali, besi, dan informasi. Hari ini informasinya gratis, dan itu seharusnya membuat Anda khawatir."
+      },
+      "next": "vesna_2"
+    },
+    {
+      "id": "vesna_2",
+      "speaker": "vesna",
+      "text": {
+        "en": "Your testament has a fourth clause. Whoever lights the first hearth in Rennfall may call the Moot of Crowns.",
+        "id": "Wasiat Anda punya klausul keempat. Siapa pun yang menyalakan perapian pertama di Rennfall berhak memanggil Sidang Mahkota."
+      },
+      "setFlags": [
+        "act2.knows_hearth_right"
+      ],
+      "next": "vesna_3"
+    },
+    {
+      "id": "vesna_3",
+      "speaker": "vesna",
+      "text": {
+        "en": "You already lit it. So the question is no longer whether you matter. It is who buys you first.",
+        "id": "Anda sudah menyalakannya. Jadi pertanyaannya bukan lagi apakah Anda penting, melainkan siapa yang membeli Anda lebih dulu."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Name your price for the road contract.",
+            "id": "Sebutkan hargamu untuk kontrak jalan dagang."
+          },
+          "tone": "guile",
+          "setFlag": "act2.salt_contract",
+          "faction": "salt",
+          "reputation": 15,
+          "next": "vesna_contract"
+        },
+        {
+          "text": {
+            "en": "Rennfall is not for sale. Not to anyone.",
+            "id": "Rennfall tidak dijual. Tidak kepada siapa pun."
+          },
+          "tone": "iron",
+          "setFlag": "act2.refused_salt",
+          "faction": "hearth",
+          "reputation": 15,
+          "next": "vesna_refused"
+        },
+        {
+          "text": {
+            "en": "Who else have you told?",
+            "id": "Siapa lagi yang sudah kau beri tahu?"
+          },
+          "tone": "mercy",
+          "setFlag": "act2.asked_who_knows",
+          "next": "vesna_told"
+        }
+      ]
+    },
+    {
+      "id": "vesna_contract",
+      "speaker": "vesna",
+      "text": {
+        "en": "Twelve percent of everything that leaves the valley, and the League keeps your road open. Bandits included.",
+        "id": "Dua belas persen dari semua yang keluar lembah, dan Serikat menjaga jalan Anda tetap terbuka. Termasuk dari bandit."
+      },
+      "next": "vesna_end"
+    },
+    {
+      "id": "vesna_refused",
+      "speaker": "vesna",
+      "text": {
+        "en": "Admirable. Expensive, but admirable. When the first wagon burns, my offer will still be here, at a worse rate.",
+        "id": "Mengagumkan. Mahal, tapi mengagumkan. Saat gerobak pertama terbakar, tawaran saya masih ada, dengan harga lebih buruk."
+      },
+      "next": "vesna_end"
+    },
+    {
+      "id": "vesna_told",
+      "speaker": "vesna",
+      "text": {
+        "en": "Honestly? Duke Harrow, yesterday. I would have told you first, but you had no money yesterday.",
+        "id": "Jujur? Adipati Harrow, kemarin. Saya ingin memberi tahu Anda lebih dulu, tapi kemarin Anda tak punya uang."
+      },
+      "setFlags": [
+        "act2.harrow_knows"
+      ],
+      "next": "vesna_end"
+    },
+    {
+      "id": "vesna_end",
+      "speaker": "vesna",
+      "text": {
+        "en": "Either way: men in unmarked boots have been counting your wagons for three days. That part I am giving you for nothing.",
+        "id": "Bagaimanapun, orang-orang bersepatu tanpa lambang sudah menghitung gerobak Anda selama tiga hari. Bagian itu saya berikan cuma-cuma."
+      },
+      "setFlags": [
+        "act2.bandits_hinted"
+      ]
+    }
+  ]
+}

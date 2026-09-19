@@ -1,0 +1,90 @@
+{
+  "id": "prologue_intro",
+  "startNode": "brann_1",
+  "nodes": [
+    {
+      "id": "brann_1",
+      "speaker": "brann",
+      "text": {
+        "en": "So you're the one they sent. Knight-Captain, was it? Or is it just Kael now?",
+        "id": "Jadi kau yang mereka kirim. Kapten Pengawal, ya? Atau sekarang cuma Kael?"
+      },
+      "next": "warden_choice"
+    },
+    {
+      "id": "warden_choice",
+      "speaker": "brann",
+      "text": {
+        "en": "Doesn't matter much out here. The land doesn't read titles. Are you staying, or are you dying? Both are honest answers.",
+        "id": "Di sini itu tak penting. Tanah tidak membaca gelar. Kau mau tinggal, atau mau mati? Dua-duanya jawaban jujur."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "I'm staying. Show me the hearth.",
+            "id": "Aku tinggal. Tunjukkan perapiannya."
+          },
+          "tone": "iron",
+          "setFlag": "prologue.stay",
+          "next": "brann_stay"
+        },
+        {
+          "text": {
+            "en": "How many people are still alive here?",
+            "id": "Berapa orang yang masih hidup di sini?"
+          },
+          "tone": "mercy",
+          "setFlag": "prologue.asked_people",
+          "next": "brann_people"
+        },
+        {
+          "text": {
+            "en": "Who told the Protector this valley was worthless?",
+            "id": "Siapa yang bilang ke Protektor bahwa lembah ini tak berharga?"
+          },
+          "tone": "guile",
+          "setFlag": "prologue.asked_politics",
+          "next": "brann_politics"
+        }
+      ]
+    },
+    {
+      "id": "brann_stay",
+      "speaker": "brann",
+      "text": {
+        "en": "Good. Then the first thing you learn is this: light the fire before dark, keep it lit, and never bury anyone outside the ring.",
+        "id": "Bagus. Pelajaran pertamamu: nyalakan api sebelum gelap, jaga tetap menyala, dan jangan kubur siapa pun di luar lingkaran."
+      },
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_people",
+      "speaker": "brann",
+      "text": {
+        "en": "Alive? Me. That's the whole census. The rest are... still here, mind you. Just not the talking sort.",
+        "id": "Hidup? Aku. Itu seluruh sensusnya. Sisanya masih di sini, kok. Cuma bukan jenis yang bisa diajak bicara."
+      },
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_politics",
+      "speaker": "brann",
+      "text": {
+        "en": "Hah. Clever question. Nobody told him it was worthless. They told him it was dangerous. That's why he gave it to you.",
+        "id": "Hah. Pertanyaan cerdas. Tak ada yang bilang lembah ini tak berharga. Mereka bilang ini berbahaya. Makanya dia berikan padamu."
+      },
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_end",
+      "speaker": "brann",
+      "text": {
+        "en": "Get some rest. Tomorrow we dig. Not graves, for once. Foundations.",
+        "id": "Istirahatlah. Besok kita menggali. Sekali ini bukan kubur, tapi pondasi."
+      },
+      "setFlags": [
+        "prologue.met_brann"
+      ]
+    }
+  ]
+}

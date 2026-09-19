@@ -1,0 +1,129 @@
+{
+  "id": "galen_loyalty",
+  "startNode": "galen_1",
+  "nodes": [
+    {
+      "id": "galen_1",
+      "speaker": "galen",
+      "textKey": "dlg.galen_loyalty.galen_1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "galen_2",
+      "choices": []
+    },
+    {
+      "id": "galen_2",
+      "speaker": "galen",
+      "textKey": "dlg.galen_loyalty.galen_2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.galen_loyalty.galen_2.c1",
+          "next": "galen_answer",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act3.galen_asked",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.galen_loyalty.galen_2.c2",
+          "next": "galen_scheme",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act3.galen_scheme",
+          "faction": "crown",
+          "reputation": 10,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.galen_loyalty.galen_2.c3",
+          "next": "galen_dismissed",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act3.galen_dismissed",
+          "faction": "crown",
+          "reputation": -12,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "galen_answer",
+      "speaker": "galen",
+      "textKey": "dlg.galen_loyalty.galen_answer",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act3.galen_honest"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "galen_end",
+      "choices": []
+    },
+    {
+      "id": "galen_scheme",
+      "speaker": "galen",
+      "textKey": "dlg.galen_loyalty.galen_scheme",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act3.galen_ally"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "galen_end",
+      "choices": []
+    },
+    {
+      "id": "galen_dismissed",
+      "speaker": "galen",
+      "textKey": "dlg.galen_loyalty.galen_dismissed",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act3.galen_gone"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "galen_end",
+      "choices": []
+    },
+    {
+      "id": "galen_end",
+      "speaker": "galen",
+      "textKey": "dlg.galen_loyalty.galen_end",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act3.feast_warned"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

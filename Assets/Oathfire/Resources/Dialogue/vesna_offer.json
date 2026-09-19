@@ -1,0 +1,140 @@
+{
+  "id": "vesna_offer",
+  "startNode": "vesna_1",
+  "nodes": [
+    {
+      "id": "vesna_1",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_offer.vesna_1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_2",
+      "choices": []
+    },
+    {
+      "id": "vesna_2",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_offer.vesna_2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.knows_hearth_right"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_3",
+      "choices": []
+    },
+    {
+      "id": "vesna_3",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_offer.vesna_3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.vesna_offer.vesna_3.c1",
+          "next": "vesna_contract",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.salt_contract",
+          "faction": "salt",
+          "reputation": 15,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.vesna_offer.vesna_3.c2",
+          "next": "vesna_refused",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.refused_salt",
+          "faction": "hearth",
+          "reputation": 15,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.vesna_offer.vesna_3.c3",
+          "next": "vesna_told",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.asked_who_knows",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "vesna_contract",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_offer.vesna_contract",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_end",
+      "choices": []
+    },
+    {
+      "id": "vesna_refused",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_offer.vesna_refused",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_end",
+      "choices": []
+    },
+    {
+      "id": "vesna_told",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_offer.vesna_told",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.harrow_knows"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "vesna_end",
+      "choices": []
+    },
+    {
+      "id": "vesna_end",
+      "speaker": "vesna",
+      "textKey": "dlg.vesna_offer.vesna_end",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.bandits_hinted"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "villager_wick",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "wick",
+      "text": {
+        "en": "Are you the Warden? Mam says a Warden is just someone who didn't leave.",
+        "id": "Kau Warden itu? Kata Ibu, Warden cuma orang yang tidak pergi."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "wick",
+      "text": {
+        "en": "I keep the lamps filled. All of them, every evening, even the one by the ruin nobody goes near.",
+        "id": "Aku yang mengisi lampu-lampu. Semuanya, tiap petang, termasuk yang di dekat rumah runtuh yang tak didekati siapa pun."
+      }
+    }
+  ]
+}

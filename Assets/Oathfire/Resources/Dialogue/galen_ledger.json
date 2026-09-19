@@ -1,0 +1,48 @@
+{
+  "id": "galen_ledger",
+  "startNode": "g1",
+  "nodes": [
+    {
+      "id": "g1",
+      "speaker": "galen",
+      "textKey": "dlg.galen_ledger.g1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "g2",
+      "choices": []
+    },
+    {
+      "id": "g2",
+      "speaker": "",
+      "textKey": "dlg.galen_ledger.g2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "g3",
+      "choices": []
+    },
+    {
+      "id": "g3",
+      "speaker": "galen",
+      "textKey": "dlg.galen_ledger.g3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.galen_saw_ledger",
+        "act2.harrow_knows"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

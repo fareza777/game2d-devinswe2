@@ -1,0 +1,105 @@
+{
+  "id": "after_first_night",
+  "startNode": "brann_1",
+  "nodes": [
+    {
+      "id": "brann_1",
+      "speaker": "brann",
+      "text": {
+        "en": "Still breathing. Good. Now the part nobody in the capital will teach you: what we do with the ones that fell.",
+        "id": "Masih bernapas. Bagus. Sekarang bagian yang takkan diajarkan siapa pun di ibu kota: apa yang kita lakukan pada yang gugur."
+      },
+      "next": "brann_choice"
+    },
+    {
+      "id": "brann_choice",
+      "speaker": "brann",
+      "text": {
+        "en": "Bury them and the ground stays sweet, and quiet. Burn them and the Marshals smiles at you. It cannot be both.",
+        "id": "Kubur mereka, dan tanah tetap subur dan tenang. Bakar mereka, dan Barisan Abu tersenyum padamu. Tak bisa dua-duanya."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "We bury them. Properly, with names.",
+            "id": "Kita kubur mereka. Dengan layak, lengkap dengan nama."
+          },
+          "tone": "mercy",
+          "setFlag": "act1.rite_bury",
+          "faction": "hearth",
+          "reputation": 12,
+          "next": "brann_bury"
+        },
+        {
+          "text": {
+            "en": "We burn them. I will not risk the village.",
+            "id": "Kita bakar mereka. Aku tak mau mempertaruhkan desa."
+          },
+          "tone": "iron",
+          "setFlag": "act1.rite_burn",
+          "faction": "ash",
+          "reputation": 12,
+          "next": "brann_burn"
+        },
+        {
+          "text": {
+            "en": "Bury ours. Burn theirs. Let the Marshals count the smoke.",
+            "id": "Kubur orang kita. Bakar milik mereka. Biar Barisan Abu menghitung asapnya."
+          },
+          "tone": "guile",
+          "setFlag": "act1.rite_split",
+          "faction": "salt",
+          "reputation": 8,
+          "next": "brann_split"
+        }
+      ]
+    },
+    {
+      "id": "brann_bury",
+      "speaker": "brann",
+      "text": {
+        "en": "Then I'll dig. Been waiting forty years for someone to give that order out loud.",
+        "id": "Kalau begitu aku yang menggali. Empat puluh tahun aku menunggu seseorang mengucapkan perintah itu dengan lantang."
+      },
+      "setFlags": [
+        "act1.rite_performed"
+      ],
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_burn",
+      "speaker": "brann",
+      "text": {
+        "en": "As you say, Warden. Stand upwind. And don't tell me their names afterwards. I don't want them in my head.",
+        "id": "Sesuai perintahmu, Warden. Berdirilah searah angin. Dan jangan sebutkan nama mereka setelahnya. Aku tak ingin nama itu di kepalaku."
+      },
+      "setFlags": [
+        "act1.rite_performed"
+      ],
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_split",
+      "speaker": "brann",
+      "text": {
+        "en": "Clever. Dangerous, but clever. The Marshals count bodies, not graves. Let us hope they never learn to count both.",
+        "id": "Cerdik. Berbahaya, tapi cerdik. Barisan Abu menghitung mayat, bukan kubur. Semoga mereka tak pernah belajar menghitung keduanya."
+      },
+      "setFlags": [
+        "act1.rite_performed"
+      ],
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_end",
+      "speaker": "brann",
+      "text": {
+        "en": "One more thing. A rider came at dawn, wearing the flame. She'll be at the gate by noon, and she'll want a tour.",
+        "id": "Satu hal lagi. Seorang penunggang datang saat fajar, memakai lambang api. Dia akan sampai di gerbang siang nanti, dan dia akan minta diantar berkeliling."
+      },
+      "setFlags": [
+        "act1.maren_incoming"
+      ]
+    }
+  ]
+}

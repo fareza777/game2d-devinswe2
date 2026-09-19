@@ -1,0 +1,135 @@
+{
+  "id": "event_salt_offer",
+  "startNode": "vesna_1",
+  "nodes": [
+    {
+      "id": "vesna_1",
+      "speaker": "vesna",
+      "text": {
+        "en": "Vesna Kell, Salt League, and my driver will not stop the horses, so we talk while they stamp.",
+        "id": "Vesna Kell, Serikat Garam, dan kusir saya tak akan menghentikan kuda, jadi kita bicara sambil mereka mengentak."
+      },
+      "next": "vesna_2"
+    },
+    {
+      "id": "vesna_2",
+      "speaker": "vesna",
+      "text": {
+        "en": "One crate. Salted meat, two coils of rope, a bolt of oiled cloth, and a blade a guardsman stopped needing. Ninety coin, and I am robbing myself.",
+        "id": "Satu peti. Daging asin, dua gulung tali, segulung kain berminyak, dan satu bilah yang tak lagi dibutuhkan seorang pengawal. Sembilan puluh koin, dan saya merugikan diri sendiri."
+      },
+      "next": "vesna_3"
+    },
+    {
+      "id": "vesna_3",
+      "speaker": "vesna",
+      "text": {
+        "en": "Before you ask: no manifest. The League does not route carts through plague valleys, so officially this cart is somewhere else, being somewhere else very convincingly.",
+        "id": "Sebelum Anda bertanya: tanpa surat jalan. Serikat tak melewatkan pedati di lembah wabah, jadi secara resmi pedati ini sedang di tempat lain, dengan sangat meyakinkan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Done. Unload it by the hearth.",
+            "id": "Sepakat. Turunkan di dekat perapian."
+          },
+          "tone": "iron",
+          "costCoin": 90,
+          "setFlag": "act1.salt_trade_made",
+          "faction": "salt",
+          "reputation": 10,
+          "next": "vesna_sold"
+        },
+        {
+          "text": {
+            "en": "Whose blade, Vesna? Say the name of the guardsman.",
+            "id": "Bilah siapa, Vesna? Sebutkan nama pengawalnya."
+          },
+          "tone": "guile",
+          "setFlag": "act2.bandits_hinted",
+          "next": "vesna_blade"
+        },
+        {
+          "text": {
+            "en": "We are not buying what we cannot account for. Drive on.",
+            "id": "Kami tak membeli yang tak bisa kami pertanggungjawabkan. Jalan terus."
+          },
+          "tone": "mercy",
+          "setFlag": "act1.salt_trade_refused",
+          "faction": "crown",
+          "reputation": 6,
+          "next": "vesna_refused"
+        }
+      ]
+    },
+    {
+      "id": "vesna_blade",
+      "speaker": "vesna",
+      "text": {
+        "en": "I don't get names. I get crates off the trade road with the Greymarch cobbler's stamp still on the boot leather, and I do not ask why a garrison is selling its own kit.",
+        "id": "Saya tak dapat nama. Saya dapat peti dari jalan dagang dengan cap tukang sepatu Greymarch masih di kulit sepatunya, dan saya tak bertanya kenapa garnisun menjual perlengkapannya sendiri."
+      },
+      "next": "vesna_blade_2"
+    },
+    {
+      "id": "vesna_blade_2",
+      "speaker": "vesna",
+      "text": {
+        "en": "That question was worth more to you than the crate was. Take it, and remember who let you ask it. Eighty, and the cart leaves.",
+        "id": "Pertanyaan itu lebih berharga bagi Anda daripada petinya. Ambillah, dan ingat siapa yang membiarkan Anda bertanya. Delapan puluh, lalu pedati berangkat."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Eighty. And the boot leather comes with it.",
+            "id": "Delapan puluh. Dan kulit sepatunya ikut."
+          },
+          "tone": "guile",
+          "costCoin": 80,
+          "setFlag": "act1.salt_trade_made",
+          "faction": "salt",
+          "reputation": 12,
+          "next": "vesna_sold_evidence"
+        },
+        {
+          "text": {
+            "en": "Keep the crate. I have what I came for.",
+            "id": "Simpan petinya. Saya sudah dapat yang saya cari."
+          },
+          "tone": "iron",
+          "setFlag": "act1.salt_trade_refused",
+          "next": "vesna_refused"
+        }
+      ]
+    },
+    {
+      "id": "vesna_sold",
+      "speaker": "vesna",
+      "text": {
+        "en": "Pleasure. When the road reopens I will come back with better and charge you worse. That is what the League calls a relationship.",
+        "id": "Senang berbisnis. Saat jalan dibuka lagi, saya kembali dengan barang lebih baik dan harga lebih buruk. Itulah yang Serikat sebut hubungan."
+      },
+      "giveItems": ["food_salt_meat", "mat_rope", "mat_rope", "mat_cloth", "sword_guard_issue"],
+      "setFlags": ["event.salt_offer.done", "act2.knows_hearth_right"]
+    },
+    {
+      "id": "vesna_sold_evidence",
+      "speaker": "vesna",
+      "text": {
+        "en": "The leather too, then. If anybody asks where you got it, you bought it from a woman whose cart was somewhere else.",
+        "id": "Kulitnya juga kalau begitu. Kalau ada yang bertanya dari mana Anda mendapatkannya, Anda membelinya dari perempuan yang pedatinya sedang di tempat lain."
+      },
+      "giveItems": ["food_salt_meat", "mat_rope", "mat_rope", "mat_cloth", "sword_guard_issue", "quest_harrow_ledger"],
+      "setFlags": ["event.salt_offer.done", "act2.knows_hearth_right", "act2.bandits_hinted"]
+    },
+    {
+      "id": "vesna_refused",
+      "speaker": "vesna",
+      "text": {
+        "en": "Principled. In a valley this thin. Well — I will note it in my book under reasons Rennfall will be interesting to watch.",
+        "id": "Berprinsip. Di lembah setipis ini. Baiklah — akan saya catat di buku saya, di bawah alasan mengapa Rennfall menarik untuk diamati."
+      },
+      "setFlags": ["event.salt_offer.done"]
+    }
+  ]
+}

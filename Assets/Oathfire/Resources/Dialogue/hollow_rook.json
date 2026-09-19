@@ -1,0 +1,110 @@
+{
+  "id": "hollow_rook",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "rook",
+      "textKey": "dlg.hollow_rook.k1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "k2",
+      "choices": []
+    },
+    {
+      "id": "k2",
+      "speaker": "rook",
+      "textKey": "dlg.hollow_rook.k2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.hollow_rook.k2.c1",
+          "next": "k3a",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.hollow_rook.k2.c2",
+          "next": "k3b",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.rook_bargained",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.hollow_rook.k2.c3",
+          "next": "k3c",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "k3a",
+      "speaker": "rook",
+      "textKey": "dlg.hollow_rook.k3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "k3b",
+      "speaker": "rook",
+      "textKey": "dlg.hollow_rook.k3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.rook_named_greymarch"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "k3c",
+      "speaker": "rook",
+      "textKey": "dlg.hollow_rook.k3c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

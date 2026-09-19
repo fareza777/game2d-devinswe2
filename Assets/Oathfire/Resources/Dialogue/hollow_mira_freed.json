@@ -1,0 +1,75 @@
+{
+  "id": "hollow_mira_freed",
+  "startNode": "f1",
+  "nodes": [
+    {
+      "id": "f1",
+      "speaker": "mira",
+      "textKey": "dlg.hollow_mira_freed.f1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "f2",
+      "choices": []
+    },
+    {
+      "id": "f2",
+      "speaker": "mira",
+      "textKey": "dlg.hollow_mira_freed.f2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "f3",
+      "choices": []
+    },
+    {
+      "id": "f3",
+      "speaker": "mira",
+      "textKey": "dlg.hollow_mira_freed.f3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "f4",
+      "choices": []
+    },
+    {
+      "id": "f4",
+      "speaker": "",
+      "textKey": "dlg.hollow_mira_freed.f4",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.prisoner_freed"
+      ],
+      "giveItems": [
+        "quest_harrow_ledger"
+      ],
+      "takeItems": [],
+      "giveCoin": 25,
+      "next": "f5",
+      "choices": []
+    },
+    {
+      "id": "f5",
+      "speaker": "mira",
+      "textKey": "dlg.hollow_mira_freed.f5",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

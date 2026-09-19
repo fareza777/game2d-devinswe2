@@ -1,0 +1,23 @@
+{
+  "id": "villager_hesketh",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "hesketh",
+      "text": {
+        "en": "Cooper by trade. Forty barrels a season in Greymarch, and here I am hooping buckets for a village with one well.",
+        "id": "Tukang tong, itu pekerjaanku. Empat puluh tong semusim di Greymarch, dan sekarang aku memasang simpai ember untuk desa bersumur satu."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "hesketh",
+      "text": {
+        "en": "Do not pity me. A man with a trade eats. A man who can seal a barrel against rain eats twice.",
+        "id": "Jangan kasihani aku. Orang yang punya keahlian tetap makan. Orang yang bisa merapatkan tong dari hujan makan dua kali."
+      }
+    }
+  ]
+}

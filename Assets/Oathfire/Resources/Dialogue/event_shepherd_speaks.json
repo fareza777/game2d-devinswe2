@@ -1,0 +1,146 @@
+{
+  "id": "event_shepherd_speaks",
+  "startNode": "shade_1",
+  "nodes": [
+    {
+      "id": "shade_1",
+      "speaker": "crane",
+      "textKey": "dlg.event_shepherd_speaks.shade_1",
+      "voiceClip": "dlg_event_shepherd_speaks_shade_1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "shade_2",
+      "choices": []
+    },
+    {
+      "id": "shade_2",
+      "speaker": "crane",
+      "textKey": "dlg.event_shepherd_speaks.shade_2",
+      "voiceClip": "dlg_event_shepherd_speaks_shade_2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "shade_3",
+      "choices": []
+    },
+    {
+      "id": "shade_3",
+      "speaker": "crane",
+      "textKey": "dlg.event_shepherd_speaks.shade_3",
+      "voiceClip": "dlg_event_shepherd_speaks_shade_3",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_shepherd_speaks.shade_3.c1",
+          "next": "shade_crane",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.knows_crane",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_shepherd_speaks.shade_3.c2",
+          "next": "shade_refused",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.refused_crane",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_shepherd_speaks.shade_3.c3",
+          "next": "shade_offer",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "shade_crane",
+      "speaker": "crane",
+      "textKey": "dlg.event_shepherd_speaks.shade_crane",
+      "voiceClip": "dlg_event_shepherd_speaks_shade_crane",
+      "mood": "",
+      "setFlags": [
+        "act1.knows_crane",
+        "act2.crane_revealed"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "shade_offer",
+      "choices": []
+    },
+    {
+      "id": "shade_offer",
+      "speaker": "crane",
+      "textKey": "dlg.event_shepherd_speaks.shade_offer",
+      "voiceClip": "dlg_event_shepherd_speaks_shade_offer",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "shade_offer_2",
+      "choices": []
+    },
+    {
+      "id": "shade_offer_2",
+      "speaker": "crane",
+      "textKey": "dlg.event_shepherd_speaks.shade_offer_2",
+      "voiceClip": "dlg_event_shepherd_speaks_shade_offer_2",
+      "mood": "",
+      "setFlags": [
+        "event.shepherd_speaks.done",
+        "act1.knows_journal",
+        "act1.night1_survived"
+      ],
+      "giveItems": [
+        "quest_crane_journal"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "shade_refused",
+      "speaker": "crane",
+      "textKey": "dlg.event_shepherd_speaks.shade_refused",
+      "voiceClip": "dlg_event_shepherd_speaks_shade_refused",
+      "mood": "",
+      "setFlags": [
+        "event.shepherd_speaks.done",
+        "act2.crane_hostile"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

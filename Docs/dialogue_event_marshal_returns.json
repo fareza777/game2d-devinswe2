@@ -1,0 +1,116 @@
+{
+  "id": "event_marshal_returns",
+  "startNode": "back_1",
+  "nodes": [
+    {
+      "id": "back_1",
+      "speaker": "tobias",
+      "text": {
+        "en": "Warden. I filed your number. Nineteen dead. Then a clerk compared it against the burial stones and counted thirty-one.",
+        "id": "Warden. Angka Anda sudah saya laporkan. Sembilan belas orang mati. Lalu seorang juru tulis membandingkannya dengan batu nisan dan menghitung tiga puluh satu."
+      },
+      "next": "back_2"
+    },
+    {
+      "id": "back_2",
+      "speaker": "tobias",
+      "text": {
+        "en": "I rode four days to tell you that in person instead of sending men to tell you differently. Do you understand what that cost me?",
+        "id": "Saya berkuda empat hari untuk mengatakannya langsung, bukan mengirim orang untuk mengatakannya dengan cara lain. Anda paham itu harganya apa bagi saya?"
+      },
+      "next": "back_3"
+    },
+    {
+      "id": "back_3",
+      "speaker": "tobias",
+      "text": {
+        "en": "Here is what nobody in your valley knows. I have filed a short count before. Twice. Both settlements are gone now, and not because the office found out.",
+        "id": "Ini yang tak diketahui siapa pun di lembah Anda. Saya pernah melaporkan hitungan yang kurang. Dua kali. Kedua pemukiman itu sekarang lenyap, dan bukan karena kantor mengetahuinya."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Why would you risk that twice?",
+            "id": "Kenapa Anda berani ambil risiko itu dua kali?"
+          },
+          "tone": "mercy",
+          "setFlag": "act2.tobias_confided",
+          "next": "back_why"
+        },
+        {
+          "text": {
+            "en": "Then file the true number. I will answer for it.",
+            "id": "Kalau begitu laporkan angka yang benar. Saya yang bertanggung jawab."
+          },
+          "tone": "iron",
+          "setFlag": "act2.ledger_corrected",
+          "faction": "ash",
+          "reputation": 10,
+          "next": "back_true"
+        },
+        {
+          "text": {
+            "en": "You came alone. That means you want something from me.",
+            "id": "Anda datang sendirian. Artinya Anda menginginkan sesuatu dari saya."
+          },
+          "tone": "guile",
+          "setFlag": "act2.tobias_leverage",
+          "next": "back_want"
+        }
+      ]
+    },
+    {
+      "id": "back_why",
+      "speaker": "tobias",
+      "text": {
+        "en": "Because a full count is not a record. It is a shopping list. Whoever is raising your dead reads our ledgers, and the settlements with the longest lists went first.",
+        "id": "Karena hitungan lengkap bukan catatan. Itu daftar belanja. Siapa pun yang membangkitkan orang mati Anda membaca catatan kami, dan pemukiman dengan daftar terpanjang jatuh lebih dulu."
+      },
+      "setFlags": [
+        "act2.ledger_is_a_list"
+      ],
+      "next": "back_end"
+    },
+    {
+      "id": "back_want",
+      "speaker": "tobias",
+      "text": {
+        "en": "I want a witness who is still alive next spring. You are the first warden in three valleys who lit the fire before the Marshals arrived, not after.",
+        "id": "Saya ingin saksi yang masih hidup musim semi depan. Anda warden pertama di tiga lembah yang menyalakan api sebelum Barisan Abu datang, bukan sesudahnya."
+      },
+      "setFlags": [
+        "act2.ledger_is_a_list"
+      ],
+      "next": "back_end"
+    },
+    {
+      "id": "back_true",
+      "speaker": "tobias",
+      "text": {
+        "en": "No. You do not get to be brave at my expense — I already filed it short, and a correction now names me, not you. Keep your courage for the thing that reads those lists.",
+        "id": "Tidak. Anda tak boleh jadi pemberani dengan ongkos saya — saya sudah melaporkannya kurang, dan koreksi sekarang menyeret nama saya, bukan nama Anda. Simpan keberanian Anda untuk hal yang membaca daftar-daftar itu."
+      },
+      "setFlags": [
+        "act2.ledger_is_a_list",
+        "act2.tobias_exposed"
+      ],
+      "next": "back_end"
+    },
+    {
+      "id": "back_end",
+      "speaker": "tobias",
+      "text": {
+        "en": "Keep the count short. Keep the fire high. And when someone official asks you for a list of your dead, ask yourself who taught them to want one.",
+        "id": "Jaga hitungannya tetap pendek. Jaga apinya tetap tinggi. Dan saat ada pejabat meminta daftar orang mati Anda, tanyakan pada diri sendiri siapa yang mengajari mereka menginginkannya."
+      },
+      "giveCoin": 30,
+      "giveItems": [
+        "quest_marshal_writ"
+      ],
+      "setFlags": [
+        "event.marshal_returns.done",
+        "act2.marshal_ally"
+      ]
+    }
+  ]
+}

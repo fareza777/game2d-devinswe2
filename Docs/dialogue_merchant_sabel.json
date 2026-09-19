@@ -1,0 +1,56 @@
+{
+  "id": "merchant_sabel",
+  "startNode": "open",
+  "nodes": [
+    {
+      "id": "open",
+      "speaker": "sabel",
+      "text": {
+        "en": "Sabel Orr. I carry what the League will not: small lots, fair weight, and no manifest to sign.",
+        "id": "Sabel Orr. Saya membawa yang tak dibawa Serikat: partai kecil, timbangan jujur, dan tanpa surat jalan."
+      },
+      "next": "stall"
+    },
+    {
+      "id": "stall",
+      "speaker": "sabel",
+      "text": {
+        "en": "Everything on the board is here on the cart. Point, pay, carry it off.",
+        "id": "Semua yang tertulis ada di pedati. Tunjuk, bayar, bawa pulang."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Show me what you have.",
+            "id": "Tunjukkan daganganmu."
+          },
+          "action": "shop:sabel",
+          "next": "trade"
+        },
+        {
+          "text": {
+            "en": "Nothing today.",
+            "id": "Tidak hari ini."
+          },
+          "next": "leave"
+        }
+      ]
+    },
+    {
+      "id": "leave",
+      "speaker": "sabel",
+      "text": {
+        "en": "Then I will be here until the road closes. After that, ask the Warden where I went.",
+        "id": "Kalau begitu saya di sini sampai jalan ditutup. Sesudah itu, tanya Warden ke mana saya pergi."
+      }
+    },
+    {
+      "id": "trade",
+      "speaker": "sabel",
+      "text": {
+        "en": "Look all you like. Touching is also allowed, if you are buying.",
+        "id": "Lihat sepuasnya. Menyentuh juga boleh, kalau membeli."
+      }
+    }
+  ]
+}

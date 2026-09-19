@@ -1,0 +1,125 @@
+{
+  "id": "hearth_lit",
+  "startNode": "brann_1",
+  "nodes": [
+    {
+      "id": "brann_1",
+      "speaker": "brann",
+      "textKey": "dlg.hearth_lit.brann_1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "brann_2",
+      "choices": []
+    },
+    {
+      "id": "brann_2",
+      "speaker": "brann",
+      "textKey": "dlg.hearth_lit.brann_2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.hearth_lit.brann_2.c1",
+          "next": "brann_expand",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.chose_expand",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.hearth_lit.brann_2.c2",
+          "next": "brann_dead",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.asked_dead",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.hearth_lit.brann_2.c3",
+          "next": "brann_rules",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.asked_rules",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "brann_expand",
+      "speaker": "brann",
+      "textKey": "dlg.hearth_lit.brann_expand",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "brann_end",
+      "choices": []
+    },
+    {
+      "id": "brann_dead",
+      "speaker": "brann",
+      "textKey": "dlg.hearth_lit.brann_dead",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "brann_end",
+      "choices": []
+    },
+    {
+      "id": "brann_rules",
+      "speaker": "brann",
+      "textKey": "dlg.hearth_lit.brann_rules",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act1.knows_journal"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "brann_end",
+      "choices": []
+    },
+    {
+      "id": "brann_end",
+      "speaker": "brann",
+      "textKey": "dlg.hearth_lit.brann_end",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act1.night1_ready"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

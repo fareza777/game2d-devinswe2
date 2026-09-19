@@ -1,0 +1,61 @@
+{
+  "_comment": "The Warden's skills, learned by level. 'ability' is the pack asset under Example scene/Scripts/AbilitySystem/Abilities Active/ (without .asset). Two can be carried into a fight at once; the dodge is always on its own button.",
+  "skills": [
+    {
+      "id": "ember_burst",
+      "level": 3,
+      "ability": "Offensive/AoEExplosion",
+      "name": {"en": "Ember Burst", "id": "Ledakan Bara"},
+      "desc": {"en": "A ring of hearth-fire bursts out around the Warden and scorches everything close.", "id": "Lingkaran api perapian meledak di sekitar Warden dan membakar semua yang dekat."}
+    },
+    {
+      "id": "opening_cut",
+      "level": 4,
+      "ability": "Offensive/BleedingStrike",
+      "name": {"en": "Opening Cut", "id": "Sayatan Pembuka"},
+      "desc": {"en": "A low, dirty slash that keeps bleeding after the blade has moved on.", "id": "Tebasan rendah yang terus berdarah setelah bilahnya berlalu."}
+    },
+    {
+      "id": "field_dressing",
+      "level": 5,
+      "ability": "Support/Heal Self",
+      "name": {"en": "Field Dressing", "id": "Balut Lapangan"},
+      "desc": {"en": "Bind the worst of it and keep standing. Restores health.", "id": "Balut luka terparah dan tetap berdiri. Memulihkan darah."}
+    },
+    {
+      "id": "hearth_breath",
+      "level": 6,
+      "ability": "Offensive/ConeOfFire",
+      "name": {"en": "Hearth Breath", "id": "Napas Perapian"},
+      "desc": {"en": "Fire pours out ahead in a widening fan.", "id": "Api tercurah ke depan dalam kipas yang melebar."}
+    },
+    {
+      "id": "hamstring",
+      "level": 7,
+      "ability": "Offensive/Hamstring",
+      "name": {"en": "Hamstring", "id": "Potong Urat"},
+      "desc": {"en": "Cut behind the knee. What was chasing you now limps.", "id": "Sayat di belakang lutut. Yang mengejarmu kini terpincang."}
+    },
+    {
+      "id": "battle_fury",
+      "level": 8,
+      "ability": "Offensive/Enrage",
+      "name": {"en": "Battle Fury", "id": "Amuk Tempur"},
+      "desc": {"en": "For a short while every blow lands harder.", "id": "Untuk sesaat, setiap pukulan mendarat lebih keras."}
+    },
+    {
+      "id": "iron_thirst",
+      "level": 9,
+      "ability": "Offensive/Lifesteal I",
+      "name": {"en": "Iron Thirst", "id": "Dahaga Besi"},
+      "desc": {"en": "The blade drinks, and some of what it drinks comes back to you as health.", "id": "Bilah itu minum, dan sebagian yang diminumnya kembali padamu sebagai darah."}
+    },
+    {
+      "id": "ember_step",
+      "level": 10,
+      "ability": "Support/Blink I",
+      "name": {"en": "Ember Step", "id": "Langkah Bara"},
+      "desc": {"en": "Vanish in a puff of sparks and step out a few paces on.", "id": "Lenyap dalam percikan bara dan muncul beberapa langkah di depan."}
+    }
+  ]
+}

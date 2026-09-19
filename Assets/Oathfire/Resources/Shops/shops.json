@@ -1,0 +1,87 @@
+{
+  "shops": [
+    {
+      "id": "sabel",
+      "nameKey": "shop.sabel.name",
+      "sellRate": 0.35,
+      "stock": [
+        {
+          "item": "potion_small",
+          "price": 30
+        },
+        {
+          "item": "bandage",
+          "price": 16
+        },
+        {
+          "item": "food_bread",
+          "price": 8
+        },
+        {
+          "item": "food_stew",
+          "price": 20
+        },
+        {
+          "item": "food_salt_meat",
+          "price": 22
+        },
+        {
+          "item": "torch",
+          "price": 10
+        },
+        {
+          "item": "mat_rope",
+          "price": 14
+        },
+        {
+          "item": "mat_cloth",
+          "price": 15
+        },
+        {
+          "item": "mat_pitch",
+          "price": 26
+        },
+        {
+          "item": "mat_iron",
+          "price": 20
+        },
+        {
+          "item": "helm_hood",
+          "price": 45
+        },
+        {
+          "item": "gloves_leather",
+          "price": 70
+        },
+        {
+          "item": "boots_leather",
+          "price": 70
+        },
+        {
+          "item": "legs_leather",
+          "price": 75
+        },
+        {
+          "item": "amulet_bone",
+          "price": 80
+        },
+        {
+          "item": "shield_oak",
+          "price": 85
+        },
+        {
+          "item": "axe_woodcutter",
+          "price": 95
+        },
+        {
+          "item": "ring_copper",
+          "price": 110
+        },
+        {
+          "item": "potion_large",
+          "price": 85
+        }
+      ]
+    }
+  ]
+}

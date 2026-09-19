@@ -1,0 +1,23 @@
+{
+  "id": "city_pell",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "pell",
+      "text": {
+        "en": "Hear it, hear it! The Moot of Crowns is called! Every holder of a first hearth, summoned to Greymarch by the new moon!",
+        "id": "Dengarlah, dengarlah! Sidang Mahkota dipanggil! Setiap pemegang perapian pertama, dipanggil ke Greymarch sebelum bulan baru!"
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "pell",
+      "text": {
+        "en": "What is a holder of a first hearth? No idea. They pay me to shout it, not to understand it.",
+        "id": "Apa itu pemegang perapian pertama? Entahlah. Aku dibayar untuk meneriakkannya, bukan untuk memahaminya."
+      }
+    }
+  ]
+}

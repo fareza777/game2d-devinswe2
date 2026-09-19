@@ -1,0 +1,29 @@
+{
+  "id": "city_oona_letter",
+  "startNode": "o1",
+  "nodes": [
+    {
+      "id": "o1",
+      "speaker": "oona",
+      "text": {
+        "en": "You are going back to the valley? Then you can do me a kindness that costs you nothing but a pocket.",
+        "id": "Kau akan kembali ke lembah? Kalau begitu kau bisa berbuat baik yang hanya memakan satu kantongmu."
+      },
+      "next": "o2"
+    },
+    {
+      "id": "o2",
+      "speaker": "oona",
+      "text": {
+        "en": "For Brann Hollowell. My brother was in his company. If he is alive, Brann will know. If he is not, Brann will know that too.",
+        "id": "Untuk Brann Hollowell. Adikku ada di kompinya. Kalau dia masih hidup, Brann tahu. Kalau tidak, Brann juga tahu."
+      },
+      "giveItems": [
+        "quest_oona_letter"
+      ],
+      "setFlags": [
+        "sq.letter.given"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "brann_letter",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "brann",
+      "textKey": "dlg.brann_letter.b1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [
+        "quest_oona_letter"
+      ],
+      "giveCoin": 0,
+      "next": "b2",
+      "choices": []
+    },
+    {
+      "id": "b2",
+      "speaker": "",
+      "textKey": "dlg.brann_letter.b2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "b3",
+      "choices": []
+    },
+    {
+      "id": "b3",
+      "speaker": "brann",
+      "textKey": "dlg.brann_letter.b3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "b4",
+      "choices": []
+    },
+    {
+      "id": "b4",
+      "speaker": "brann",
+      "textKey": "dlg.brann_letter.b4",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "sq.letter.delivered"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

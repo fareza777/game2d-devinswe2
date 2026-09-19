@@ -1,0 +1,374 @@
+{
+  "id": "opening",
+  "musicClip": "opening_theme",
+  "nextScene": "Prologue",
+  "panels": [
+    {
+      "id": "p1_valley",
+      "image": "p1_valley",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p1_valley.1",
+          "voiceClip": "p1_valley_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p1_valley.2",
+          "voiceClip": "p1_valley_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.47,
+          "y": 0.1,
+          "radius": 0.3,
+          "intensity": 0.9
+        }
+      ],
+      "watchers": [],
+      "emberParticles": true
+    },
+    {
+      "id": "p1b_burial",
+      "image": "p1b_burial",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p1b_burial.1",
+          "voiceClip": "p1b_burial_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p1b_burial.2",
+          "voiceClip": "p1b_burial_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p2_first_testament",
+      "image": "p2_first_testament",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p2_first_testament.1",
+          "voiceClip": "p2_first_testament_1_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.5,
+          "y": 0.42,
+          "radius": 0.34,
+          "intensity": 0.55
+        }
+      ],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p2b_harvest",
+      "image": "p2b_harvest",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p2b_harvest.1",
+          "voiceClip": "p2b_harvest_1_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p3_burning",
+      "image": "p3_burning",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p3_burning.1",
+          "voiceClip": "p3_burning_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p3_burning.2",
+          "voiceClip": "p3_burning_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.5,
+          "y": 0.45,
+          "radius": 0.55,
+          "intensity": 1.0
+        }
+      ],
+      "watchers": [],
+      "emberParticles": true
+    },
+    {
+      "id": "p3b_first_rising",
+      "image": "p3b_first_rising",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p3b_first_rising.1",
+          "voiceClip": "p3b_first_rising_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p3b_first_rising.2",
+          "voiceClip": "p3b_first_rising_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p4_cracked_crown",
+      "image": "p4_cracked_crown",
+      "lines": [
+        {
+          "speaker": "isolde",
+          "textKey": "cine.opening.p4_cracked_crown.1",
+          "voiceClip": "p4_cracked_crown_1_isolde",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p4_cracked_crown.2",
+          "voiceClip": "p4_cracked_crown_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.5,
+          "y": 0.62,
+          "radius": 0.3,
+          "intensity": 0.7
+        }
+      ],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p4b_queen_falls",
+      "image": "p4b_queen_falls",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p4b_queen_falls.1",
+          "voiceClip": "p4b_queen_falls_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p4b_queen_falls.2",
+          "voiceClip": "p4b_queen_falls_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p5_trial",
+      "image": "p5_trial",
+      "lines": [
+        {
+          "speaker": "aurel",
+          "textKey": "cine.opening.p5_trial.1",
+          "voiceClip": "p5_trial_1_aurel",
+          "hold": 0.7
+        },
+        {
+          "speaker": "aurel",
+          "textKey": "cine.opening.p5_trial.2",
+          "voiceClip": "p5_trial_2_aurel",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.22,
+          "y": 0.66,
+          "radius": 0.16,
+          "intensity": 0.6
+        },
+        {
+          "x": 0.78,
+          "y": 0.66,
+          "radius": 0.16,
+          "intensity": 0.6
+        }
+      ],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p5b_testament",
+      "image": "p5b_testament",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p5b_testament.1",
+          "voiceClip": "p5b_testament_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p5b_testament.2",
+          "voiceClip": "p5b_testament_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "p6_road",
+      "image": "p6_road",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p6_road.1",
+          "voiceClip": "p6_road_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p6_road.2",
+          "voiceClip": "p6_road_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.5,
+          "y": 0.34,
+          "radius": 0.12,
+          "intensity": 0.8
+        }
+      ],
+      "watchers": [
+        {
+          "x": 0.12,
+          "y": 0.3,
+          "scale": 1.5,
+          "appearAt": 1.0
+        },
+        {
+          "x": 0.85,
+          "y": 0.27,
+          "scale": 1.7,
+          "appearAt": 2.2
+        },
+        {
+          "x": 0.26,
+          "y": 0.4,
+          "scale": 1.1,
+          "appearAt": 3.4
+        },
+        {
+          "x": 0.7,
+          "y": 0.44,
+          "scale": 1.0,
+          "appearAt": 4.6
+        },
+        {
+          "x": 0.4,
+          "y": 0.52,
+          "scale": 0.8,
+          "appearAt": 6.0
+        }
+      ],
+      "emberParticles": false
+    },
+    {
+      "id": "p6b_rennfall",
+      "image": "p6b_rennfall",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p6b_rennfall.1",
+          "voiceClip": "p6b_rennfall_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.opening.p6b_rennfall.2",
+          "voiceClip": "p6b_rennfall_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    }
+  ]
+}

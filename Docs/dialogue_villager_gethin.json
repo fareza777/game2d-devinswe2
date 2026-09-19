@@ -1,0 +1,23 @@
+{
+  "id": "villager_gethin",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "gethin",
+      "text": {
+        "en": "I dig the graves now Brann's hands have gone. Twelve since the road, and not one of them stayed put.",
+        "id": "Sekarang saya yang menggali kubur, sejak tangan Brann tak kuat lagi. Dua belas sejak perjalanan, dan tak satu pun tetap di tempatnya."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "gethin",
+      "text": {
+        "en": "Don't look at me like that. Somebody has to know where everyone is buried, or we bury them twice.",
+        "id": "Jangan pandang saya begitu. Harus ada yang tahu di mana semua orang dikubur, atau kita menguburkan mereka dua kali."
+      }
+    }
+  ]
+}

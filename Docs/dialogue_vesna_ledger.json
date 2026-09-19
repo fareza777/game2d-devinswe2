@@ -1,0 +1,107 @@
+{
+  "id": "vesna_ledger",
+  "startNode": "v1",
+  "nodes": [
+    {
+      "id": "v1",
+      "speaker": "vesna",
+      "text": {
+        "en": "You brought back my carter, and the man who took her is in the ground. The League owes you. That is a sentence I say perhaps once a year.",
+        "id": "Anda membawa kembali kusir saya, dan orang yang menculiknya sudah terkubur. Serikat berutang pada Anda. Kalimat itu mungkin saya ucapkan setahun sekali."
+      },
+      "next": "v2"
+    },
+    {
+      "id": "v2",
+      "speaker": "",
+      "text": {
+        "en": "Vesna turns the ledger's pages slowly. At the steward's mark, she stops smiling.",
+        "id": "Vesna membalik halaman buku itu perlahan. Di cap sang pengurus, senyumnya hilang."
+      },
+      "next": "v3"
+    },
+    {
+      "id": "v3",
+      "speaker": "vesna",
+      "text": {
+        "en": "Duke Harrow's steward. Every stolen wagon sold back into Greymarch's own stores. The Duke is starving your valley and buying its food back with the city's money.",
+        "id": "Pengurus Adipati Harrow. Setiap pedati curian dijual kembali ke gudang Greymarch sendiri. Sang Adipati membuat lembah Anda kelaparan dan membeli kembali makanannya dengan uang kota."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The League can have it. For a price.",
+            "id": "Serikat boleh memilikinya. Dengan harga."
+          },
+          "next": "v4a",
+          "tone": "guile",
+          "setFlag": "act2.ledger_to_league",
+          "faction": "salt",
+          "reputation": 15
+        },
+        {
+          "text": {
+            "en": "It stays with me. The Moot of Crowns will see it.",
+            "id": "Buku ini tetap bersamaku. Sidang Mahkota yang akan melihatnya."
+          },
+          "next": "v4b",
+          "tone": "iron",
+          "setFlag": "act2.ledger_kept",
+          "faction": "hearth",
+          "reputation": 15
+        },
+        {
+          "text": {
+            "en": "Copy it. Send one to the Marshals so nobody can bury it.",
+            "id": "Salin. Kirim satu ke para Marshal supaya tak ada yang bisa menguburnya."
+          },
+          "next": "v4c",
+          "tone": "mercy",
+          "setFlag": "act2.ledger_copied",
+          "faction": "ash",
+          "reputation": 10
+        }
+      ]
+    },
+    {
+      "id": "v4a",
+      "speaker": "vesna",
+      "text": {
+        "en": "Two hundred in League silver, and the League's word that we use it well. A pleasure.",
+        "id": "Dua ratus perak Serikat, dan janji Serikat bahwa kami memakainya dengan baik. Senang berbisnis dengan Anda."
+      },
+      "giveCoin": 90,
+      "next": "v5"
+    },
+    {
+      "id": "v4b",
+      "speaker": "vesna",
+      "text": {
+        "en": "Then guard it better than Rook did. Men who sell a valley's food will not stop at a book.",
+        "id": "Kalau begitu jaga lebih baik daripada Rook. Orang yang menjual makanan sebuah lembah tak akan berhenti hanya karena sebuah buku."
+      },
+      "next": "v5"
+    },
+    {
+      "id": "v4c",
+      "speaker": "vesna",
+      "text": {
+        "en": "Two copies, two sealed letters. Careful. I am starting to like you, which is bad for business.",
+        "id": "Dua salinan, dua surat bersegel. Hati-hati sekali. Saya mulai menyukai Anda, dan itu buruk untuk bisnis."
+      },
+      "next": "v5"
+    },
+    {
+      "id": "v5",
+      "speaker": "vesna",
+      "text": {
+        "en": "One more thing. The last page: deliveries to the old iron keep north of the city, every week, under guard. Whatever Harrow is building, he is building it there.",
+        "id": "Satu hal lagi. Halaman terakhir: kiriman ke benteng besi tua di utara kota, setiap minggu, dengan pengawalan. Apa pun yang sedang dibangun Harrow, ia membangunnya di sana."
+      },
+      "setFlags": [
+        "act2.ledger_delivered",
+        "act2.keep_rumoured"
+      ]
+    }
+  ]
+}

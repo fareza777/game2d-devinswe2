@@ -1,0 +1,138 @@
+{
+  "id": "city_dace_raids",
+  "startNode": "r1",
+  "nodes": [
+    {
+      "id": "r1",
+      "speaker": "dace",
+      "textKey": "dlg.city_dace_raids.r1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "r2",
+      "choices": []
+    },
+    {
+      "id": "r2",
+      "speaker": "dace",
+      "textKey": "dlg.city_dace_raids.r2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "r3",
+      "choices": []
+    },
+    {
+      "id": "r3",
+      "speaker": "dace",
+      "textKey": "dlg.city_dace_raids.r3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.city_dace_raids.r3.c1",
+          "next": "r4",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.city_dace_raids.r3.c2",
+          "next": "r4b",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.dace_suspects",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.city_dace_raids.r3.c3",
+          "next": "r4c",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "r4b",
+      "speaker": "dace",
+      "textKey": "dlg.city_dace_raids.r4b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "r4",
+      "choices": []
+    },
+    {
+      "id": "r4c",
+      "speaker": "dace",
+      "textKey": "dlg.city_dace_raids.r4c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "r4",
+      "choices": []
+    },
+    {
+      "id": "r4",
+      "speaker": "dace",
+      "textKey": "dlg.city_dace_raids.r4",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "r5",
+      "choices": []
+    },
+    {
+      "id": "r5",
+      "speaker": "dace",
+      "textKey": "dlg.city_dace_raids.r5",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.dace_briefed"
+      ],
+      "giveItems": [
+        "potion_small"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

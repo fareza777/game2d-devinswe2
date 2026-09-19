@@ -1,0 +1,14 @@
+{
+  "encounters": [
+    {
+      "scene": "TradeRoad",
+      "minGroup": 1,
+      "maxGroup": 3,
+      "secondsBetween": 30,
+      "chance": 0.5,
+      "respiteSeconds": 25,
+      "counterKey": "kills.wild",
+      "bannerKey": "event.wild.banner"
+    }
+  ]
+}

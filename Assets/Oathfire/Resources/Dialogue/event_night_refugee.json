@@ -1,0 +1,171 @@
+{
+  "id": "event_night_refugee",
+  "startNode": "nessa_1",
+  "nodes": [
+    {
+      "id": "nessa_1",
+      "speaker": "refugee",
+      "textKey": "dlg.event_night_refugee.nessa_1",
+      "voiceClip": "dlg_event_night_refugee_nessa_1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "nessa_2",
+      "choices": []
+    },
+    {
+      "id": "nessa_2",
+      "speaker": "refugee",
+      "textKey": "dlg.event_night_refugee.nessa_2",
+      "voiceClip": "dlg_event_night_refugee_nessa_2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "nessa_3",
+      "choices": []
+    },
+    {
+      "id": "nessa_3",
+      "speaker": "refugee",
+      "textKey": "dlg.event_night_refugee.nessa_3",
+      "voiceClip": "dlg_event_night_refugee_nessa_3",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_night_refugee.nessa_3.c1",
+          "next": "nessa_in",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.refugee_sheltered",
+          "faction": "hearth",
+          "reputation": 14,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_night_refugee.nessa_3.c2",
+          "next": "nessa_arm",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.refugee_inspected",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_night_refugee.nessa_3.c3",
+          "next": "nessa_out",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.refugee_turned_out",
+          "faction": "hearth",
+          "reputation": -10,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "nessa_arm",
+      "speaker": "refugee",
+      "textKey": "dlg.event_night_refugee.nessa_arm",
+      "voiceClip": "dlg_event_night_refugee_nessa_arm",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_night_refugee.nessa_arm.c1",
+          "next": "nessa_in",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.refugee_sheltered",
+          "faction": "hearth",
+          "reputation": 10,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_night_refugee.nessa_arm.c2",
+          "next": "nessa_greymarch",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.bandits_hinted",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "nessa_greymarch",
+      "speaker": "refugee",
+      "textKey": "dlg.event_night_refugee.nessa_greymarch",
+      "voiceClip": "dlg_event_night_refugee_nessa_greymarch",
+      "mood": "",
+      "setFlags": [
+        "act2.bandits_hinted"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "nessa_in",
+      "choices": []
+    },
+    {
+      "id": "nessa_in",
+      "speaker": "refugee",
+      "textKey": "dlg.event_night_refugee.nessa_in",
+      "voiceClip": "dlg_event_night_refugee_nessa_in",
+      "mood": "",
+      "setFlags": [
+        "event.night_refugee.done",
+        "act1.rennfall_grows"
+      ],
+      "giveItems": [
+        "food_stew",
+        "mat_cloth",
+        "trinket_road_charm"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "nessa_out",
+      "speaker": "refugee",
+      "textKey": "dlg.event_night_refugee.nessa_out",
+      "voiceClip": "dlg_event_night_refugee_nessa_out",
+      "mood": "",
+      "setFlags": [
+        "event.night_refugee.done",
+        "act1.refugee_at_the_stones"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

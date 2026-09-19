@@ -1,0 +1,253 @@
+{
+  "id": "opening_cinematic",
+  "artStyle": "Linocut illustration for a dark fantasy book. Limited palette. Masterful printmaking, carved gouge strokes, visible wood grain texture, heavy negative space. Vertical composition. No text, no letters, no border, no frame.",
+  "voices": {
+    "brann": "Old gravedigger narrator, late sixties, rural northern accent, gravelly and warm, dry humour hiding grief, speaks slowly like telling a story by the fire.",
+    "isolde": "Queen in her forties, calm and tired, low regal voice, gentle but commanding, last words before death.",
+    "aurel": "Lord Protector in his fifties, smooth aristocratic baritone, courteous, measured, quietly dangerous."
+  },
+  "panels": [
+    {
+      "id": "p1_valley",
+      "prompt": "A tiny campfire far below on the floor of a vast night valley, seen from a high ridge between two black pine trees. Fog fills the valley in pale bands, dark forested slopes, a thin crescent moon, deep night sky carved in fine strokes. Lonely, vast, patient.",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "City folk say land is just land. A place to grow wheat. A place to bury your mother. A place for kings to stand.",
+          "id": "Orang kota bilang tanah itu cuma tanah. Tempat menanam gandum, tempat mengubur ibu, tempat berdiri raja.",
+          "direction": "slow, almost amused",
+          "voiceClip": "p1_valley_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "I've dug graves in Rennfall for sixty years. I can tell you one thing for certain. The land listens.",
+          "id": "Aku sudah menggali kubur di Rennfall enam puluh tahun. Aku bisa bilang satu hal pasti: tanah itu mendengar.",
+          "direction": "quiet certainty",
+          "voiceClip": "p1_valley_2_brann"
+        }
+      ],
+      "palette": "night"
+    },
+    {
+      "id": "p1b_burial",
+      "prompt": "Villagers at night lowering a shrouded body into a grave dug beneath the floor of their own house, lantern light, pale roots already reaching up through the soil toward the shroud, family standing in a ring, heads bowed.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "We used to bury our dead under the floor. Grandmother beneath the hearth, uncle beneath the door.",
+          "id": "Dulu kami mengubur orang mati di bawah lantai rumah. Nenek di bawah perapian, paman di bawah pintu.",
+          "direction": "warm, remembering",
+          "voiceClip": "p1b_burial_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "Strangers called it grim. We called it keeping the family close. The land called it payment.",
+          "id": "Orang asing bilang itu seram. Bagi kami itu menjaga keluarga tetap dekat. Bagi tanah, itu pembayaran.",
+          "direction": "the last three words darker",
+          "voiceClip": "p1b_burial_2_brann"
+        }
+      ]
+    },
+    {
+      "id": "p2_first_testament",
+      "prompt": "An ancient warlord in fur and iron kneeling in a cracked field, pressing a crown woven from living roots into the black earth, roots crawling outward like veins, ghostly faces of the buried faintly visible in the soil, a circle of standing stones behind him.",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "Three hundred years ago, a warlord made a promise. We bury our dead, and the land gives us harvest. And death stays below.",
+          "id": "Tiga ratus tahun lalu seorang panglima membuat janji. Kita kubur orang mati kita, dan tanah memberi kita panen. Kematian tetap di bawah.",
+          "direction": "reverent, like reciting scripture",
+          "voiceClip": "p2_first_testament_1_brann"
+        }
+      ],
+      "palette": "codex"
+    },
+    {
+      "id": "p2b_harvest",
+      "prompt": "A vast harvest field at golden dusk, wheat taller than the reapers, wagons heavy with grain rolling toward a walled town, a line of fresh grave markers along the field's edge, unremarked, ordinary.",
+      "palette": "codex",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "And it paid. Three hundred years of full barns. Kings called it their blessing. It was never theirs to give.",
+          "id": "Dan tanah membayar. Tiga ratus tahun lumbung penuh. Para raja menyebutnya anugerah mereka. Padahal itu bukan milik mereka.",
+          "direction": "dry, edged",
+          "voiceClip": "p2b_harvest_1_brann"
+        }
+      ]
+    },
+    {
+      "id": "p3_burning",
+      "prompt": "A towering funeral pyre at night, rows of shrouded bodies waiting in the mud, masked officials in soot-blackened hoods raising torches, tally boards and ledgers under their arms, smoke rising into a starless sky, villagers watching with hollow faces, embers drifting like snow.",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "Then came the fever. Then came the burning crews. They said fire makes you clean. They burned everything.",
+          "id": "Lalu datang demam. Lalu datang regu pembakar. Mereka bilang api menyucikan. Mereka membakar semuanya.",
+          "direction": "harder, bitter",
+          "voiceClip": "p3_burning_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "And a hungry land... starts waking anyone it ever swallowed.",
+          "id": "Tanah itu lapar. Dan tanah yang lapar mulai membangunkan siapa pun yang pernah ia telan.",
+          "direction": "low, ominous pause before the last words",
+          "voiceClip": "p3_burning_2_brann"
+        }
+      ],
+      "palette": "codex"
+    },
+    {
+      "id": "p3b_first_rising",
+      "prompt": "Dawn over a burned field of ash and blackened stubble. A single gaunt figure standing upright in the ash, back to us, facing a distant village. Crows lifting off in a panic. Ash falling like grey snow.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "The first one stood up in a field near Ashcombe. Nobody screamed. That is the part people forget.",
+          "id": "Yang pertama bangkit di ladang dekat Ashcombe. Tak ada yang menjerit. Bagian itulah yang selalu dilupakan orang.",
+          "direction": "quiet, factual, unsettling",
+          "voiceClip": "p3b_first_rising_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "They knew his face. They stood there and said his name, and he turned around, and he answered.",
+          "id": "Mereka mengenali wajahnya. Mereka berdiri di sana menyebut namanya, lalu ia menoleh, dan ia menjawab.",
+          "direction": "slow, almost tender, then cold",
+          "voiceClip": "p3b_first_rising_2_brann"
+        }
+      ]
+    },
+    {
+      "id": "p4_cracked_crown",
+      "prompt": "Inside a vaulted royal crypt hall, a queen on her throne with a root crown splitting apart on her head, pale grey-green light pouring up through cracks in the stone floor, a lone armored male knight running down the long colonnade toward her, too far away.",
+      "lines": [
+        {
+          "speaker": "isolde",
+          "en": "Kael. Go. Now. Whatever you hear, do not come back.",
+          "id": "Kael. Pergi. Sekarang. Apa pun yang kau dengar, jangan kembali.",
+          "direction": "calm, exhausted, final command",
+          "voiceClip": "p4_cracked_crown_1_isolde"
+        },
+        {
+          "speaker": "brann",
+          "en": "That night the crown cracked. The queen died. And a kingdom needed someone to blame.",
+          "id": "Malam itu mahkota retak. Ratu mati. Dan kerajaan butuh seseorang untuk disalahkan.",
+          "direction": "flat, heavy",
+          "voiceClip": "p4_cracked_crown_2_brann"
+        }
+      ],
+      "palette": "codex"
+    },
+    {
+      "id": "p4b_queen_falls",
+      "prompt": "Close view of a dead queen's hand open on a stone floor, a crown of split roots fallen beside it, pale grey-green light leaking from the cracks between the flagstones, a guard's gauntlet just entering frame, too late.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "Every king wore that crown and swore that oath, and not one of them told the people what it cost.",
+          "id": "Setiap raja memakai mahkota itu dan mengucapkan sumpah itu, dan tak satu pun memberi tahu rakyat berapa harganya.",
+          "direction": "hard",
+          "voiceClip": "p4b_queen_falls_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "Then it broke. And the debt came due all at once, the way debts do.",
+          "id": "Lalu mahkota itu retak. Dan seluruh utangnya ditagih sekaligus, seperti kebiasaan utang.",
+          "direction": "grim finality",
+          "voiceClip": "p4b_queen_falls_2_brann"
+        }
+      ]
+    },
+    {
+      "id": "p5_trial",
+      "prompt": "A lone broad-shouldered male knight kneeling in chains, seen from behind, centre foreground of a vast stone judgment hall. Long iron chains run from his wrists to rings in the floor. Far ahead a regent lord sits high on a carved seat under a banner with a lion. Faceless courtiers stand in rows along both walls. A single shaft of pale light falls on the kneeling knight.",
+      "lines": [
+        {
+          "speaker": "aurel",
+          "en": "For the negligence that took Her Majesty's life, your title and your sword are forfeit. And yet, in her mercy, the Queen left you a testament.",
+          "id": "Atas kelalaian yang merenggut nyawa Sri Ratu, gelar dan pedangmu dicabut. Namun Sri Ratu, dalam kemurahannya, meninggalkan wasiat untukmu.",
+          "direction": "smooth, courteous, dangerous",
+          "voiceClip": "p5_trial_1_aurel"
+        },
+        {
+          "speaker": "aurel",
+          "en": "The Vale of Rennfall. May the land treat you fairly.",
+          "id": "Lembah Rennfall. Semoga tanah itu memperlakukanmu dengan adil.",
+          "direction": "a thin smile in the voice",
+          "voiceClip": "p5_trial_2_aurel"
+        }
+      ],
+      "palette": "night"
+    },
+    {
+      "id": "p5b_testament",
+      "prompt": "Extreme close-up of an unrolled parchment on a dark table, lit by one candle at the frame edge. The writing is pure illegible cursive scribble with no readable letters or words, four dense blocks of wavy ink lines, the lowest block written in a visibly different hurried hand with darker ink. A broken dark red wax seal hangs at the parchment's edge. No legible text anywhere, no letters, no numbers.",
+      "palette": "codex",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "They gave him a dead valley and called it an inheritance. Everyone at court had a fine laugh.",
+          "id": "Mereka memberinya lembah mati dan menyebutnya warisan. Seluruh istana tertawa puas.",
+          "direction": "wry, bitter",
+          "voiceClip": "p5b_testament_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "Nobody read the fourth clause. Nobody but a merchant, and merchants never laugh for free.",
+          "id": "Tak ada yang membaca klausul keempat. Kecuali seorang pedagang, dan pedagang tak pernah tertawa gratis.",
+          "direction": "sly",
+          "voiceClip": "p5b_testament_2_brann"
+        }
+      ]
+    },
+    {
+      "id": "p6_road",
+      "prompt": "Deep dark forest seen down a long narrow road at dusk. In the far distance on the road, very small, a covered wagon and a tiny cloaked traveller with a lantern. In the foreground and along both edges, half-hidden behind tall black tree trunks, several gaunt skeletal figures in tattered rags stand perfectly still, turned toward the road, watching. They are separate from the traveller, far from her. Pale mist, bare branches with crows, cold grey-green sky.",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "They sent him to the place where the dead won't sleep. They thought it was a punishment.",
+          "id": "Mereka mengirim dia ke tempat orang mati tidak mau tidur. Mereka kira itu hukuman.",
+          "direction": "wry",
+          "voiceClip": "p6_road_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "They forgot one thing. Whoever lights the first fire in Rennfall... holds the kingdom in their hands.",
+          "id": "Mereka lupa satu hal. Siapa pun yang menyalakan api pertama di Rennfall memegang kerajaan di tangannya.",
+          "direction": "pause, then almost a whisper",
+          "voiceClip": "p6_road_2_brann"
+        }
+      ],
+      "palette": "night"
+    },
+    {
+      "id": "p6b_rennfall",
+      "prompt": "A ruined village clearing at dusk: collapsed roofs, a broken circular hearth of stones at the centre choked with weeds, an old man in a wide hat leaning on a shovel beside a freshly dug empty grave, watching the road, waiting.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "So I dug one more grave, and I waited on the road, and I hoped I would not need it.",
+          "id": "Jadi aku menggali satu kubur lagi, menunggu di tepi jalan, dan berharap tak perlu memakainya.",
+          "direction": "weary, wry",
+          "voiceClip": "p6b_rennfall_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "Warden. The stone is cold and the sun is going. Light it, and let us find out what we have started.",
+          "id": "Warden. Batunya dingin dan matahari hampir turun. Nyalakan, dan mari kita lihat apa yang sudah kita mulai.",
+          "direction": "direct address, quiet weight",
+          "voiceClip": "p6b_rennfall_2_brann"
+        }
+      ]
+    }
+  ],
+  "titleCard": {
+    "composition": "engine",
+    "note": "Logo text OATHFIRE, hearth stones and animated flame are composed in Unity; no generated title image."
+  }
+}

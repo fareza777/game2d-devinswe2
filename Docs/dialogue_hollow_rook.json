@@ -1,0 +1,77 @@
+{
+  "id": "hollow_rook",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "rook",
+      "text": {
+        "en": "So the valley sends its Warden. I hoped for a Marshal. Marshals, at least, bargain.",
+        "id": "Jadi lembah mengirim Warden-nya. Kukira yang datang Marshal. Marshal setidaknya mau tawar-menawar."
+      },
+      "next": "k2"
+    },
+    {
+      "id": "k2",
+      "speaker": "rook",
+      "text": {
+        "en": "You broke my crew for a salt carter and a few wagons. Do you know who buys what we take? No. You would not be standing there if you did.",
+        "id": "Kau hancurkan kawananku demi seorang kusir garam dan beberapa pedati. Kau tahu siapa yang membeli rampasan kami? Tidak. Kalau tahu, kau tak akan berdiri di situ."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Put the blade down, Rook. This ends either way.",
+            "id": "Letakkan pedangmu, Rook. Ini berakhir bagaimanapun juga."
+          },
+          "next": "k3a",
+          "tone": "iron"
+        },
+        {
+          "text": {
+            "en": "Tell me who pays you, and the Marshals hear you talked.",
+            "id": "Katakan siapa yang membayarmu, dan para Marshal akan dengar kau bekerja sama."
+          },
+          "next": "k3b",
+          "tone": "guile",
+          "setFlag": "act2.rook_bargained"
+        },
+        {
+          "text": {
+            "en": "Let the woman go and walk out of the Hollow.",
+            "id": "Lepaskan perempuan itu dan pergilah dari Ceruk ini."
+          },
+          "next": "k3c",
+          "tone": "mercy"
+        }
+      ]
+    },
+    {
+      "id": "k3a",
+      "speaker": "rook",
+      "text": {
+        "en": "It does. Yours was always going to be the short end of it.",
+        "id": "Memang. Dan bagianmu yang paling pendek."
+      }
+    },
+    {
+      "id": "k3b",
+      "speaker": "rook",
+      "text": {
+        "en": "Greymarch silver, stamped at the keep. That is all you get, and you will not live to spend it.",
+        "id": "Perak Greymarch, dicap di benteng. Hanya itu yang kau dapat, dan kau tak akan hidup untuk membelanjakannya."
+      },
+      "setFlags": [
+        "act2.rook_named_greymarch"
+      ]
+    },
+    {
+      "id": "k3c",
+      "speaker": "rook",
+      "text": {
+        "en": "Walk out to where? Every road in this valley belongs to someone now. This one is mine.",
+        "id": "Pergi ke mana? Setiap jalan di lembah ini sudah ada pemiliknya. Yang ini milikku."
+      }
+    }
+  ]
+}

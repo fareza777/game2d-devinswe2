@@ -1,0 +1,118 @@
+{
+  "id": "maren_arrival",
+  "startNode": "maren_1",
+  "nodes": [
+    {
+      "id": "maren_1",
+      "speaker": "maren",
+      "text": {
+        "en": "Warden Voss. Inspector Maren Ashby, of the Ash Marshals. The High Marshal sends her commendation, and me.",
+        "id": "Warden Voss. Saya Inspektur Maren Ashby, dari Barisan Abu. Sang Marsekal Tinggi mengirimkan rekomendasinya, dan mengirim saya."
+      },
+      "next": "maren_2"
+    },
+    {
+      "id": "maren_2",
+      "speaker": "maren",
+      "text": {
+        "en": "I am to guide this settlement in the sterilisation protocols. Which begins, I am told, with a full account of your dead.",
+        "id": "Saya ditugaskan membimbing pemukiman ini dalam ritus sterilisasi. Yang dimulai, katanya, dengan daftar lengkap orang mati Anda."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Every body we take is burned. You have my word.",
+            "id": "Setiap jenazah yang kami ambil akan dibakar. Itu janjiku."
+          },
+          "tone": "iron",
+          "setFlag": "act1.order_answer_given",
+          "faction": "ash",
+          "reputation": 18,
+          "next": "maren_pleased"
+        },
+        {
+          "text": {
+            "en": "We bury our dead here. That is not going to change.",
+            "id": "Di sini kami menguburkan orang mati kami. Itu takkan berubah."
+          },
+          "tone": "mercy",
+          "setFlag": "act1.order_answer_given",
+          "faction": "ash",
+          "reputation": -15,
+          "next": "maren_refused"
+        },
+        {
+          "text": {
+            "en": "Stay a week. Count what you like. Then we talk.",
+            "id": "Tinggallah seminggu. Hitung sesukamu. Setelah itu kita bicara."
+          },
+          "tone": "guile",
+          "setFlag": "act1.order_answer_given",
+          "faction": "salt",
+          "reputation": 6,
+          "next": "maren_delayed"
+        }
+      ]
+    },
+    {
+      "id": "maren_pleased",
+      "speaker": "maren",
+      "text": {
+        "en": "Thank you. Truly. You have no idea how rarely that answer comes without an argument attached.",
+        "id": "Terima kasih. Sungguh. Anda tak tahu betapa jarang jawaban itu datang tanpa perdebatan."
+      },
+      "setFlags": [
+        "act1.maren_trusts"
+      ],
+      "next": "maren_end"
+    },
+    {
+      "id": "maren_refused",
+      "speaker": "maren",
+      "text": {
+        "en": "Then I must write that down exactly as you said it. I would rather write something else. Give me a reason to.",
+        "id": "Kalau begitu saya harus mencatatnya persis seperti ucapan Anda. Saya lebih suka menulis hal lain. Beri saya alasan untuk itu."
+      },
+      "setFlags": [
+        "act1.maren_conflicted"
+      ],
+      "next": "maren_end"
+    },
+    {
+      "id": "maren_delayed",
+      "speaker": "maren",
+      "text": {
+        "en": "A week. You are not the first to buy time from the Marshals. Most of them only bought a week.",
+        "id": "Seminggu. Anda bukan yang pertama membeli waktu dari Barisan Abu. Kebanyakan hanya mendapat seminggu."
+      },
+      "setFlags": [
+        "act1.maren_watching"
+      ],
+      "next": "maren_end"
+    },
+    {
+      "id": "maren_end",
+      "speaker": "maren",
+      "text": {
+        "en": "One more thing, Warden. Whatever you were sent here to die of, it is already awake in the trees. I have seen the marks.",
+        "id": "Satu hal lagi, Warden. Apa pun yang ditakdirkan membunuh Anda di sini, ia sudah terjaga di antara pepohonan. Saya melihat tandanya."
+      },
+      "setFlags": [
+        "act1.maren_arrived",
+        "act1.shepherd_hinted"
+      ],
+      "next": "maren_summons"
+    },
+    {
+      "id": "maren_summons",
+      "speaker": "maren",
+      "text": {
+        "en": "And the High Marshal sits in Greymarch in three days. My report needs your seal on it, in person. Take the east road out of the valley and keep to the cobbles. There is a Salt League woman there, Vesna Kell, who has been asking about you. See her first. She pays her debts in news.",
+        "id": "Dan Marshal Agung bersidang di Greymarch tiga hari lagi. Laporanku butuh segelmu, langsung. Ambil jalan timur keluar lembah dan tetaplah di jalan berbatu. Ada perempuan Liga Garam di sana, Vesna Kell, yang menanyakan dirimu. Temui dia lebih dulu. Dia membayar utangnya dengan kabar."
+      },
+      "setFlags": [
+        "act1.summoned_greymarch"
+      ]
+    }
+  ]
+}

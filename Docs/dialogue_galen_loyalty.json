@@ -1,0 +1,103 @@
+{
+  "id": "galen_loyalty",
+  "startNode": "galen_1",
+  "nodes": [
+    {
+      "id": "galen_1",
+      "speaker": "galen",
+      "text": {
+        "en": "Warden. A courier came from my uncle. The letter was for me, but it was about you.",
+        "id": "Warden. Ada kurir dari paman saya. Suratnya untuk saya, tapi isinya tentang Anda."
+      },
+      "next": "galen_2"
+    },
+    {
+      "id": "galen_2",
+      "speaker": "galen",
+      "text": {
+        "en": "He offers me the Marrowin seat. The condition is written like a courtesy. 'Should the Warden not survive the valley.'",
+        "id": "Dia menawarkan kursi Marrowin kepada saya. Syaratnya ditulis seperti basa-basi. 'Bila sang Warden tidak selamat dari lembah ini.'"
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "And what did you write back, Galen?",
+            "id": "Dan apa balasanmu, Galen?"
+          },
+          "tone": "mercy",
+          "setFlag": "act3.galen_asked",
+          "next": "galen_answer"
+        },
+        {
+          "text": {
+            "en": "Take the seat. Then owe me the favour.",
+            "id": "Ambil kursinya. Lalu berutang budi padaku."
+          },
+          "tone": "guile",
+          "setFlag": "act3.galen_scheme",
+          "faction": "crown",
+          "reputation": 10,
+          "next": "galen_scheme"
+        },
+        {
+          "text": {
+            "en": "Ride home tonight. I will not wait for you to decide.",
+            "id": "Pulanglah malam ini. Aku takkan menunggu kau memutuskan."
+          },
+          "tone": "iron",
+          "setFlag": "act3.galen_dismissed",
+          "faction": "crown",
+          "reputation": -12,
+          "next": "galen_dismissed"
+        }
+      ]
+    },
+    {
+      "id": "galen_answer",
+      "speaker": "galen",
+      "text": {
+        "en": "Nothing yet. That is the part that shames me. Three days, and I have not written a single word.",
+        "id": "Belum apa-apa. Justru itu yang memalukan. Tiga hari, dan saya belum menulis sepatah kata pun."
+      },
+      "setFlags": [
+        "act3.galen_honest"
+      ],
+      "next": "galen_end"
+    },
+    {
+      "id": "galen_scheme",
+      "speaker": "galen",
+      "text": {
+        "en": "You would use me against him. I should be offended. I find that I am mostly relieved.",
+        "id": "Anda ingin memakai saya untuk melawannya. Seharusnya saya tersinggung. Nyatanya saya justru lega."
+      },
+      "setFlags": [
+        "act3.galen_ally"
+      ],
+      "next": "galen_end"
+    },
+    {
+      "id": "galen_dismissed",
+      "speaker": "galen",
+      "text": {
+        "en": "As you order, Warden. For what it is worth, I never intended to earn that seat the way he wants it earned.",
+        "id": "Sesuai perintah, Warden. Kalau masih berarti, saya tak pernah ingin mendapatkan kursi itu dengan cara yang dia inginkan."
+      },
+      "setFlags": [
+        "act3.galen_gone"
+      ],
+      "next": "galen_end"
+    },
+    {
+      "id": "galen_end",
+      "speaker": "galen",
+      "text": {
+        "en": "The feast at Greymarch is in two days. Whatever happens there, do not drink first, and do not eat what the Duke does not.",
+        "id": "Pesta di Greymarch dua hari lagi. Apa pun yang terjadi di sana, jangan minum duluan, dan jangan makan apa yang tidak dimakan sang Adipati."
+      },
+      "setFlags": [
+        "act3.feast_warned"
+      ]
+    }
+  ]
+}

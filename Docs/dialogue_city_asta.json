@@ -1,0 +1,23 @@
+{
+  "id": "city_asta",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "asta",
+      "text": {
+        "en": "My son drove the salt carts to Rennfall, before the valley went dark. Forty years I have watched that road for a wagon.",
+        "id": "Anakku dulu menarik pedati garam ke Rennfall, sebelum lembah itu gelap. Empat puluh tahun aku menunggu pedati di jalan itu."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "asta",
+      "text": {
+        "en": "They say someone has lit the old fire again. If that was you, then the dead on that road are not forgotten. Tell them so.",
+        "id": "Katanya ada yang menyalakan api tua itu lagi. Kalau itu kau, berarti yang mati di jalan itu belum dilupakan. Katakan itu pada mereka."
+      }
+    }
+  ]
+}

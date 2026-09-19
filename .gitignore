@@ -1,0 +1,29 @@
+# Unity
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+*.csproj
+*.sln
+.vs/
+
+# Shared third-party asset (junction, paid Asset Store content)
+/Assets/SmallScaleInt/
+/Assets/SmallScaleInt.meta
+
+# Secrets
+Tools/.env
+.env
+
+# Tool outputs cache
+Tools/cache/
+
+# Local editor and tool files
+*.slnx
+.utmp/
+.vscode/
+__pycache__/
+*.pyc

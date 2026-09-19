@@ -1,0 +1,93 @@
+{
+  "id": "hearth_lit",
+  "startNode": "brann_1",
+  "nodes": [
+    {
+      "id": "brann_1",
+      "speaker": "brann",
+      "text": {
+        "en": "Forty years I kept that stone clean and never once lit it. Didn't have the right. You do.",
+        "id": "Empat puluh tahun aku membersihkan batu itu dan tak pernah sekali pun menyalakannya. Aku tak berhak. Kau berhak."
+      },
+      "next": "brann_2"
+    },
+    {
+      "id": "brann_2",
+      "speaker": "brann",
+      "text": {
+        "en": "Now listen, because this part matters. Everything the fire touches is ours. Everything it doesn't belongs to them.",
+        "id": "Sekarang dengar, karena bagian ini penting. Semua yang disentuh api adalah milik kita. Yang tidak, milik mereka."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Then we make the light bigger.",
+            "id": "Kalau begitu kita perbesar cahayanya."
+          },
+          "tone": "iron",
+          "setFlag": "act1.chose_expand",
+          "next": "brann_expand"
+        },
+        {
+          "text": {
+            "en": "Them. You mean the people buried here.",
+            "id": "Mereka. Maksudmu orang-orang yang dikubur di sini."
+          },
+          "tone": "mercy",
+          "setFlag": "act1.asked_dead",
+          "next": "brann_dead"
+        },
+        {
+          "text": {
+            "en": "Who taught you these rules, Brann?",
+            "id": "Siapa yang mengajarimu aturan ini, Brann?"
+          },
+          "tone": "guile",
+          "setFlag": "act1.asked_rules",
+          "next": "brann_rules"
+        }
+      ]
+    },
+    {
+      "id": "brann_expand",
+      "speaker": "brann",
+      "text": {
+        "en": "Aye. Every roof you raise, every wall you set, the fire reaches further. That's the whole trick of this valley.",
+        "id": "Betul. Tiap atap yang kau dirikan, tiap dinding yang kau pasang, apinya menjangkau lebih jauh. Itulah seluruh rahasia lembah ini."
+      },
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_dead",
+      "speaker": "brann",
+      "text": {
+        "en": "I knew most of them. Sold me eggs. Married my cousin. Now they stand in the treeline and wait for the light to fail.",
+        "id": "Aku kenal sebagian besar dari mereka. Ada yang menjual telur padaku. Ada yang menikahi sepupuku. Sekarang mereka berdiri di tepi hutan, menunggu cahaya padam."
+      },
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_rules",
+      "speaker": "brann",
+      "text": {
+        "en": "The last warden. Before the Marshals took him for an outlaw. He wrote it all down, if the cellar hasn't eaten the book.",
+        "id": "Warden terakhir. Sebelum Barisan Abu menyeretnya sebagai pelanggar hukum. Dia mencatat semuanya, kalau ruang bawah rumah catatan belum memakan buku itu."
+      },
+      "setFlags": [
+        "act1.knows_journal"
+      ],
+      "next": "brann_end"
+    },
+    {
+      "id": "brann_end",
+      "speaker": "brann",
+      "text": {
+        "en": "Sleep while you can. They'll come tonight. New fire always draws them.",
+        "id": "Tidurlah selagi bisa. Mereka akan datang malam ini. Api baru selalu memancing mereka."
+      },
+      "setFlags": [
+        "act1.night1_ready"
+      ]
+    }
+  ]
+}

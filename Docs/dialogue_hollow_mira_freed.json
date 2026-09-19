@@ -1,0 +1,57 @@
+{
+  "id": "hollow_mira_freed",
+  "startNode": "f1",
+  "nodes": [
+    {
+      "id": "f1",
+      "speaker": "mira",
+      "text": {
+        "en": "He's down. He's really down. Give me a moment, my hands don't work yet.",
+        "id": "Dia tumbang. Dia benar-benar tumbang. Beri aku waktu, tanganku belum bisa digerakkan."
+      },
+      "next": "f2"
+    },
+    {
+      "id": "f2",
+      "speaker": "mira",
+      "text": {
+        "en": "Mira Holt, Salt League, wagon forty-one. They took the salt, the mules and my driver's whistle, and I want the whistle back more than the salt.",
+        "id": "Mira Holt, Serikat Garam, pedati empat puluh satu. Mereka ambil garamnya, bagalnya, dan peluit kusirku, dan aku lebih ingin peluit itu kembali daripada garamnya."
+      },
+      "next": "f3"
+    },
+    {
+      "id": "f3",
+      "speaker": "mira",
+      "text": {
+        "en": "His strongbox is under the tarp by the pillars. He wrote everything down. Rook never trusted a buyer he couldn't prove.",
+        "id": "Peti besinya di bawah terpal dekat pilar. Dia mencatat semuanya. Rook tak pernah percaya pembeli yang tak bisa ia buktikan."
+      },
+      "next": "f4"
+    },
+    {
+      "id": "f4",
+      "speaker": "",
+      "text": {
+        "en": "The strongbox is not locked. Under the coin pouches lies a ledger bound in Greymarch grey: dates, wagons, and a steward's mark beside every sale.",
+        "id": "Peti itu tidak terkunci. Di bawah kantong-kantong koin ada buku catatan bersampul kelabu Greymarch: tanggal, pedati, dan cap seorang pengurus di samping setiap penjualan."
+      },
+      "giveItems": [
+        "quest_harrow_ledger"
+      ],
+      "giveCoin": 25,
+      "setFlags": [
+        "act2.prisoner_freed"
+      ],
+      "next": "f5"
+    },
+    {
+      "id": "f5",
+      "speaker": "mira",
+      "text": {
+        "en": "Vesna Kell will want that more than she wants me back. I'll walk to Greymarch. Find me there. I owe you a drink and a mule.",
+        "id": "Vesna Kell akan lebih menginginkan buku itu daripada diriku. Aku akan berjalan ke Greymarch. Temui aku di sana. Aku berutang minuman dan seekor bagal."
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "event_ash_ledger",
+  "startNode": "rider_1",
+  "nodes": [
+    {
+      "id": "rider_1",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_1",
+      "voiceClip": "dlg_event_ash_ledger_rider_1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "rider_2",
+      "choices": []
+    },
+    {
+      "id": "rider_2",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_2",
+      "voiceClip": "dlg_event_ash_ledger_rider_2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "rider_3",
+      "choices": []
+    },
+    {
+      "id": "rider_3",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_3",
+      "voiceClip": "dlg_event_ash_ledger_rider_3",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_ash_ledger.rider_3.c1",
+          "next": "rider_full",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.ledger_surrendered",
+          "faction": "crown",
+          "reputation": 10,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_ash_ledger.rider_3.c2",
+          "next": "rider_refuse",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.ledger_refused",
+          "faction": "hearth",
+          "reputation": 12,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_ash_ledger.rider_3.c3",
+          "next": "rider_false",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act1.ledger_falsified",
+          "faction": "ash",
+          "reputation": -6,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "rider_full",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_full",
+      "voiceClip": "dlg_event_ash_ledger_rider_full",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "rider_full_2",
+      "choices": []
+    },
+    {
+      "id": "rider_full_2",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_full_2",
+      "voiceClip": "dlg_event_ash_ledger_rider_full_2",
+      "mood": "",
+      "setFlags": [
+        "event.ash_ledger.done",
+        "act2.surveyors_coming"
+      ],
+      "giveItems": [
+        "quest_marshal_writ"
+      ],
+      "takeItems": [],
+      "giveCoin": 50,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "rider_refuse",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_refuse",
+      "voiceClip": "dlg_event_ash_ledger_rider_refuse",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "rider_refuse_2",
+      "choices": []
+    },
+    {
+      "id": "rider_refuse_2",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_refuse_2",
+      "voiceClip": "dlg_event_ash_ledger_rider_refuse_2",
+      "mood": "",
+      "setFlags": [
+        "event.ash_ledger.done",
+        "act2.marshal_sympathetic"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "rider_false",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_false",
+      "voiceClip": "dlg_event_ash_ledger_rider_false",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "rider_false_2",
+      "choices": []
+    },
+    {
+      "id": "rider_false_2",
+      "speaker": "tobias",
+      "textKey": "dlg.event_ash_ledger.rider_false_2",
+      "voiceClip": "dlg_event_ash_ledger_rider_false_2",
+      "mood": "",
+      "setFlags": [
+        "event.ash_ledger.done",
+        "act2.ledger_lie_standing"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

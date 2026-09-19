@@ -1,0 +1,23 @@
+{
+  "id": "villager_iskra",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "iskra",
+      "text": {
+        "en": "Everyone walks a little wider around my table. That is fine. They still come when a wound goes green.",
+        "id": "Semua orang berjalan agak memutar melewati mejaku. Tak apa. Mereka tetap datang saat luka mulai menghijau."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "iskra",
+      "text": {
+        "en": "Bring me bone dust and I will make something that keeps a man breathing through a night. Do not ask whose bone.",
+        "id": "Bawakan aku bubuk tulang dan akan kubuat sesuatu yang menjaga orang tetap bernapas semalaman. Jangan tanya tulang siapa."
+      }
+    }
+  ]
+}
