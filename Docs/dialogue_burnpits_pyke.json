@@ -1,0 +1,64 @@
+{
+  "id": "burnpits_pyke",
+  "startNode": "p1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "pyke",
+      "text": {
+        "en": "Mind the tally line. Every cord on that wagon is a notch — and right now three notches are walking around in a poacher's pocket.",
+        "id": "Jangan injak garis hitung. Tiap tumpuk di gerobak itu satu parut — dan sekarang tiga parut sedang berjalan-jalan di saku pemencol."
+      },
+      "next": "p2"
+    },
+    {
+      "id": "p2",
+      "speaker": "pyke",
+      "text": {
+        "en": "When the poachers bolted from the last raid they dropped what they were carrying — including my cord-tallies. Find the three sticks in the stackyard before the League counts this camp short.",
+        "id": "Saat pemencol kabur dari serbuan terakhir, mereka menjatuhkan bawaannya — termasuk tongkat hitungku. Temukan tiga tongkat itu di halaman kayu sebelum Liga mencatat kamp ini kurang."
+      },
+      "next": "p3"
+    },
+    {
+      "id": "p3",
+      "speaker": "pyke",
+      "text": {
+        "en": "Bring them back and I'll notch you a lantern off the foreman's share — the kind that keeps its flame in wind.",
+        "id": "Bawa kembali dan kuparutkan lentera dari jatah mandor — jenis yang apinya tak padam ditiup angin."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Three sticks in the stackyard. I'll find them.",
+            "id": "Tiga tongkat di halaman kayu. Akan kutemukan."
+          },
+          "next": "p4"
+        },
+        {
+          "text": {
+            "en": "You count wood for a living?",
+            "id": "Kau menghitung kayu untuk hidup?"
+          },
+          "next": "p5"
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "speaker": "pyke",
+      "text": {
+        "en": "Good. And don't step on the ricks — they're stacked to breathe.",
+        "id": "Bagus. Dan jangan injak tumpukannya — kayu disusun supaya bisa bernapas."
+      }
+    },
+    {
+      "id": "p5",
+      "speaker": "pyke",
+      "text": {
+        "en": "Somebody has to say how much fire a valley burns. That's me. That's the tally.",
+        "id": "Harus ada yang bilang berapa banyak api yang dibakar lembah ini. Itu aku. Itulah hitungan."
+      }
+    }
+  ]
+}

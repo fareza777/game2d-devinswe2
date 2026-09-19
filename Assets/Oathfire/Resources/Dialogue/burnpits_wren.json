@@ -1,0 +1,96 @@
+{
+  "id": "burnpits_wren",
+  "startNode": "w1",
+  "nodes": [
+    {
+      "id": "w1",
+      "speaker": "wren",
+      "textKey": "dlg.burnpits_wren.w1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "w2",
+      "choices": []
+    },
+    {
+      "id": "w2",
+      "speaker": "wren",
+      "textKey": "dlg.burnpits_wren.w2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "w3",
+      "choices": []
+    },
+    {
+      "id": "w3",
+      "speaker": "wren",
+      "textKey": "dlg.burnpits_wren.w3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.burnpits_wren.w3.c1",
+          "next": "w4a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.burnpits_wren.w3.c2",
+          "next": "w4b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "w4a",
+      "speaker": "wren",
+      "textKey": "dlg.burnpits_wren.w4a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "w4b",
+      "speaker": "wren",
+      "textKey": "dlg.burnpits_wren.w4b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

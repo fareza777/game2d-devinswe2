@@ -1,0 +1,56 @@
+{
+  "id": "burnpits_penn",
+  "startNode": "pn1",
+  "nodes": [
+    {
+      "id": "pn1",
+      "speaker": "penn",
+      "text": {
+        "en": "You're the warden! I saw you on the dragway. I know this whole camp — better than Wren, better than anybody.",
+        "id": "Kau warden itu! Kulihat kau di jalan seret. Aku kenal seluruh kamp ini — lebih dari Wren, lebih dari siapa pun."
+      },
+      "next": "pn2"
+    },
+    {
+      "id": "pn2",
+      "speaker": "penn",
+      "text": {
+        "en": "When the poachers ran they dropped their sacks everywhere — good coal, burst and spilled all over the burn ground. I marked every spot. Rain'll mud it all away if nobody picks it up.",
+        "id": "Saat para pemencol kabur mereka menjatuhkan karung di mana-mana — arang bagus, pecah dan tumpah di seluruh tanah pembakaran. Aku menandai tiap tempatnya. Hujan akan melarutkan semua kalau tak ada yang memungut."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Show me where the sacks burst, soot-boy.",
+            "id": "Tunjukkan di mana karungnya pecah, bocah jelaga."
+          },
+          "next": "pn3"
+        },
+        {
+          "text": {
+            "en": "Why not pick it up yourself?",
+            "id": "Kenapa tak kau pungut sendiri?"
+          },
+          "next": "pn4"
+        }
+      ]
+    },
+    {
+      "id": "pn3",
+      "speaker": "penn",
+      "text": {
+        "en": "Four heaps, all inside the scorch marks. I'll tell Clod you're doing it — he'll want the credit for thinking of it.",
+        "id": "Empat timbunan, semua di dalam bekas hangus. Kubilang pada Clod kau yang melakukannya — dia pasti mau jadi yang punya ide."
+      }
+    },
+    {
+      "id": "pn4",
+      "speaker": "penn",
+      "text": {
+        "en": "I do! But the burn ground's Wren's and I'm not allowed past the tally line when the clamps are lit. That's the rule. You're allowed, though — you cleared the pans.",
+        "id": "Sudah! Tapi tanah pembakaran wilayah Wren dan aku tak boleh lewat garis hitung saat klamp menyala. Itu aturannya. Kau boleh — kau yang membersihkan petak."
+      },
+      "next": "pn3"
+    }
+  ]
+}

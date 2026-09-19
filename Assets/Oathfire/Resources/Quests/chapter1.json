@@ -1500,6 +1500,130 @@
         "faction": "league",
         "reputation": 6
       }
+    },
+    {
+      "id": "sq_char_pits",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.wren",
+      "giverScene": "Burnpits",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.char",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.pits.done"
+        }
+      ],
+      "reward": {
+        "experience": 280,
+        "coin": 50,
+        "items": [
+          "axe_woodcutter"
+        ],
+        "faction": "league",
+        "reputation": 9
+      }
+    },
+    {
+      "id": "sq_cord_tallies",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.pyke",
+      "giverScene": "Burnpits",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_cord_tally",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.cord.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 35,
+        "items": [
+          "tool_lantern"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_keeper_rod",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.ferra",
+      "giverScene": "Burnpits",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_keeper_rod",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.rod.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "boots_leather"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_char_coal",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.penn",
+      "giverScene": "Burnpits",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_char_coal",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.coal.done"
+        }
+      ],
+      "reward": {
+        "experience": 190,
+        "coin": 28,
+        "items": [
+          "legs_leather"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
     }
   ]
 }

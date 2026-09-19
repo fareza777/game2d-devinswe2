@@ -1,0 +1,32 @@
+{
+  "id": "burnpits_kell",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "kell",
+      "textKey": "dlg.burnpits_kell.k1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "k2",
+      "choices": []
+    },
+    {
+      "id": "k2",
+      "speaker": "kell",
+      "textKey": "dlg.burnpits_kell.k2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -349,6 +349,8 @@ namespace Oathfire.EditorTools
                 "Hollow" => (new Color(1f, 0.88f, 0.74f), 0.84f),
                 // A walled granary court: long late-day light, wheat-coloured, a touch cooler on stone.
                 "Saltpans" => (new Color(1f, 0.93f, 0.78f), 0.9f),
+                // A camp under its own smoke: dimmer, grey-green light that never quite clears.
+                "Burnpits" => (new Color(0.84f, 0.87f, 0.8f), 0.82f),
                 _ => (new Color(0.9f, 0.9f, 0.9f), globalLight),
             };
             light.color = day.colour;

@@ -42,6 +42,19 @@ namespace Oathfire.EditorTools
             BuildSearchSpots(map, at);
             MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.saltpansOut", "");
 
+            // The burners' road east to the Burnpits: the camp that makes the pans' fire. It is a
+            // marked turning only once the pans stand clear and Hask's letter names the trouble there.
+            if (at.trail != null)
+            {
+                var burnRoad = new GameObject("Burners' road");
+                burnRoad.transform.position = map.At(at.trail);
+                GameObject pitsExit = MapScene.BuildExit(map.At(at.trail), "Burnpits", "prompt.travel.burnpits", "act2.found_burnpits");
+                pitsExit.transform.SetParent(burnRoad.transform, true);
+                MapScene.BuildProp("Burners' post", "Misc B52_E", map.At(at.trail) + new Vector3(0.45f, -0.2f, 0f), pitsExit.transform,
+                    solid: false, strikeable: false);
+                MapScene.Gate(burnRoad, "act2.burnpits_rumoured");
+            }
+
             MapScene.SetUpUi(includeContractBoard: false);
             new GameObject("PlayerState", typeof(PlayerState));
             new GameObject("EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule));
@@ -63,8 +76,13 @@ namespace Oathfire.EditorTools
             MapScene.CellRef[] spots = at.villagers ?? System.Array.Empty<MapScene.CellRef>();
             // villagers order from compose_saltpans.py: factor, pan-keeper, mirren, tess, lene.
             if (spots.Length > 0)
-                MapScene.BuildTalker("Factor Hask", "speaker.hask", map.At(spots[0]), "NPC2",
+            {
+                GameObject hask = MapScene.BuildTalker("Factor Hask", "speaker.hask", map.At(spots[0]), "NPC2",
                     new Color(0.84f, 0.76f, 0.58f), 1f, new[] { ("saltpans_hask", "", "") });
+                // Once the pans stand clear, Hask has a second letter ready: the burners' camp that
+                // keeps his fires is losing its clamps to poachers.
+                MapScene.PrependConversation(hask, "burnpits_writ", "sq.salt_floor.done", "act2.burnpits_rumoured");
+            }
             if (spots.Length > 1)
                 MapScene.BuildTalker("Pan-keeper Collum", "speaker.collum", map.At(spots[1]), "NPC1",
                     new Color(0.8f, 0.74f, 0.62f), 0.97f, new[] { ("saltpans_collum", "", "") });

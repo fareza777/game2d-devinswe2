@@ -1,0 +1,32 @@
+{
+  "id": "burnpits_clod",
+  "startNode": "c1",
+  "nodes": [
+    {
+      "id": "c1",
+      "speaker": "clod",
+      "text": {
+        "en": "Sit down if you're sitting, or walk on if you're walking. The fire doesn't mind either.",
+        "id": "Duduk kalau mau duduk, jalan kalau mau jalan. Api ini tak keberatan dua-duanya."
+      },
+      "next": "c2"
+    },
+    {
+      "id": "c2",
+      "speaker": "clod",
+      "text": {
+        "en": "Forty years I've burned for this valley. The trick isn't the fire — any fool lights a fire. The trick is the earth over it, thick enough to smother, thin enough to breathe. That's the whole art.",
+        "id": "Empat puluh tahun aku membakar untuk lembah ini. Rahasianya bukan api — bodoh mana pun bisa menyalakan api. Rahasianya tanah di atasnya, cukup tebal untuk menutup, cukup tipis untuk bernapas. Itu seluruh seninya."
+      },
+      "next": "c3"
+    },
+    {
+      "id": "c3",
+      "speaker": "clod",
+      "text": {
+        "en": "The poachers? They'll learn. Everything that burns wrong learns, once. Then it doesn't burn at all.",
+        "id": "Para pemencol? Mereka akan belajar. Semua yang membakar salah akan belajar, sekali. Lalu tak membakar sama sekali."
+      }
+    }
+  ]
+}

@@ -59,6 +59,8 @@ AMBIENCE = {
     "road": (22.0, "open countryside road: steady wind over fields, larks overhead, grass rustling, no music"),
     "city": (22.0, "busy medieval walled city: crowd murmur in a market square, cart wheels on cobbles, distant smithy, no music"),
     "ravine": (22.0, "a deep rocky ravine: wind moaning between cliffs, a campfire crackling nearby, a crow calling, a wooden palisade creaking, no music"),
+    "salt_works": (22.0, "a brine works on a bare flat: low wind over open ground, water dripping in a boiling cauldron, shovelled crust scraping, a cart axle creaking far off, no music"),
+    "char_camp": (22.0, "a charcoal burners' camp in a wood clearing: slow fire crackle under an earthed mound, an axe splitting a log far off, wind in a treeline, crows, no music"),
 }
 
 # The codex look has a sound: small ensembles of old instruments, nothing synthetic, melancholy before heroic.
@@ -70,6 +72,8 @@ MUSIC = {
     "city_greymarch": (60, f"grand but weary walled city theme, low brass, harp arpeggios, hammered dulcimer, a sense of politics and old stone, 90 bpm, {STYLE}"),
     "hollow_camp": (60, f"tense outlaw camp theme in a dark ravine, low plucked cello and muted frame drum, sparse uneasy fiddle, creeping danger, 85 bpm, {STYLE}"),
     "battle": (45, f"fast fierce medieval skirmish music, driving taiko and snare drums, sharp fiddle runs, brass stabs, 140 bpm, {STYLE}"),
+    "saltpans_works": (60, f"patient work-yard theme for a salt camp under a pale sky, slow hand-drum pulse, low droning strings, a dry lonely flute, labour that never ends, 75 bpm, {STYLE}"),
+    "burnpits_smoke": (60, f"smoky sparse theme for a charcoal camp in a burned clearing, low dark drone, muffled frame drum, a dry sawing fiddle that never resolves, 70 bpm, {STYLE}"),
 }
 
 

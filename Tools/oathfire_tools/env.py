@@ -22,4 +22,4 @@ def require(name: str) -> str:
     value = os.environ.get(name)
     if not value:
         raise RuntimeError(f"{name} is not set in {ENV_FILE}")
-    return value
+    return value.strip()

@@ -26,6 +26,7 @@ BUILDER_FOR_SCENE = {
     "Hollow": "HollowSceneBuilder.cs",
     "Keep": "KeepSceneBuilder.cs",
     "Saltpans": "SaltpansSceneBuilder.cs",
+    "Burnpits": "BurnpitsSceneBuilder.cs",
 }
 
 

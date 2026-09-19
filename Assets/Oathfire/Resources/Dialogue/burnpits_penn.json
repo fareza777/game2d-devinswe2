@@ -1,0 +1,83 @@
+{
+  "id": "burnpits_penn",
+  "startNode": "pn1",
+  "nodes": [
+    {
+      "id": "pn1",
+      "speaker": "penn",
+      "textKey": "dlg.burnpits_penn.pn1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "pn2",
+      "choices": []
+    },
+    {
+      "id": "pn2",
+      "speaker": "penn",
+      "textKey": "dlg.burnpits_penn.pn2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.burnpits_penn.pn2.c1",
+          "next": "pn3",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.burnpits_penn.pn2.c2",
+          "next": "pn4",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "pn3",
+      "speaker": "penn",
+      "textKey": "dlg.burnpits_penn.pn3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "pn4",
+      "speaker": "penn",
+      "textKey": "dlg.burnpits_penn.pn4",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "pn3",
+      "choices": []
+    }
+  ]
+}

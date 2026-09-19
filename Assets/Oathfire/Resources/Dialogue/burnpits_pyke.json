@@ -1,0 +1,96 @@
+{
+  "id": "burnpits_pyke",
+  "startNode": "p1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "pyke",
+      "textKey": "dlg.burnpits_pyke.p1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "p2",
+      "choices": []
+    },
+    {
+      "id": "p2",
+      "speaker": "pyke",
+      "textKey": "dlg.burnpits_pyke.p2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "p3",
+      "choices": []
+    },
+    {
+      "id": "p3",
+      "speaker": "pyke",
+      "textKey": "dlg.burnpits_pyke.p3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.burnpits_pyke.p3.c1",
+          "next": "p4",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.burnpits_pyke.p3.c2",
+          "next": "p5",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "speaker": "pyke",
+      "textKey": "dlg.burnpits_pyke.p4",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "p5",
+      "speaker": "pyke",
+      "textKey": "dlg.burnpits_pyke.p5",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

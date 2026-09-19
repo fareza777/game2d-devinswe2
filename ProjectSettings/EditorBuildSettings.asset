@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Oathfire/Scenes/Saltpans.unity
     guid: 18e764ea9ebef800f937dafe6634e85f
+  - enabled: 1
+    path: Assets/Oathfire/Scenes/Burnpits.unity
+    guid: 9c2b037b24502a532b47f57c3a7eb1e3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

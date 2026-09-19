@@ -1,0 +1,64 @@
+{
+  "id": "burnpits_wren",
+  "startNode": "w1",
+  "nodes": [
+    {
+      "id": "w1",
+      "speaker": "wren",
+      "text": {
+        "en": "Stand upwind or stand still — the burn doesn't care which. This is the Burnpits: the League's charcoal camp, where the pans' fire is made a week at a time.",
+        "id": "Berdiri melawan angin atau berdiri diam — bakarannya tak peduli. Ini Lubang Bakar: kamp arang Liga, tempat api petak dibuat seminggu demi seminggu."
+      },
+      "next": "w2"
+    },
+    {
+      "id": "w2",
+      "speaker": "wren",
+      "text": {
+        "en": "Six clamps are burning and I'm short four nights of sleep. Poachers come out of the trees at dusk to crack them open — green coal, spoiled burn, my name on the shortfall.",
+        "id": "Enam klamp sedang membakar dan aku kurang tidur empat malam. Pemencol keluar dari pepohonan saat senja untuk membobolnya — arang mentah, bakaran rusak, namaku di catatan rugi."
+      },
+      "next": "w3"
+    },
+    {
+      "id": "w3",
+      "speaker": "wren",
+      "text": {
+        "en": "They take cordwood too when the stacks stand dark. I can't fight them and keep the burn. You cleared the pans — clear my ground. Four of them should teach the rest.",
+        "id": "Mereka juga mengangkut kayu saat tumpukannya gelap. Aku tak bisa melawan mereka sambil menjaga bakaran. Kau membersihkan petak — bersihkan tanahku. Empat saja cukup mengajar sisanya."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The poachers won't strip another clamp.",
+            "id": "Para pemencol takkan membuka klamp lagi."
+          },
+          "next": "w4a"
+        },
+        {
+          "text": {
+            "en": "And what does a cleared burn ground pay?",
+            "id": "Dan berapa upah tanah bakar yang bersih?"
+          },
+          "next": "w4b"
+        }
+      ]
+    },
+    {
+      "id": "w4a",
+      "speaker": "wren",
+      "text": {
+        "en": "Then burn steady. Come back when the smoke's the only thing moving out there.",
+        "id": "Kalau begitu bakarlah tenang. Kembali saat asap jadi satu-satunya yang bergerak di sana."
+      }
+    },
+    {
+      "id": "w4b",
+      "speaker": "wren",
+      "text": {
+        "en": "A woodman's axe and the League's thanks. We weigh here too — just in fuel instead of crust.",
+        "id": "Kapak penebang dan terima kasih Liga. Kami juga menimbang di sini — hanya saja dalam bahan bakar, bukan kerak."
+      }
+    }
+  ]
+}
