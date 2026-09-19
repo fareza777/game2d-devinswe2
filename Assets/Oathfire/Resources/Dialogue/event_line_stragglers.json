@@ -1,0 +1,116 @@
+{
+  "id": "event_line_stragglers",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "straggler",
+      "textKey": "dlg.event_line_stragglers.s1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "s2",
+      "choices": []
+    },
+    {
+      "id": "s2",
+      "speaker": "straggler",
+      "textKey": "dlg.event_line_stragglers.s2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_line_stragglers.s2.c1",
+          "next": "s3a",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.stragglers_fed",
+          "faction": "hearth",
+          "reputation": 6,
+          "costCoin": 12,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_line_stragglers.s2.c2",
+          "next": "s3b",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.stragglers_sent",
+          "faction": "ash",
+          "reputation": 6,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_line_stragglers.s2.c3",
+          "next": "s3c",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.stragglers_quartered",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "s3a",
+      "speaker": "straggler",
+      "textKey": "dlg.event_line_stragglers.s3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.line_stragglers.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "s3b",
+      "speaker": "straggler",
+      "textKey": "dlg.event_line_stragglers.s3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.paymaster_hinted",
+        "event.line_stragglers.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "s3c",
+      "speaker": "straggler",
+      "textKey": "dlg.event_line_stragglers.s3c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.wagons_hinted",
+        "event.line_stragglers.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

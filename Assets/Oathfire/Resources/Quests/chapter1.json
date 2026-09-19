@@ -1220,6 +1220,161 @@
         "faction": "hearth",
         "reputation": 6
       }
+    },
+    {
+      "id": "sq_iron_tithe",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.sabel",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "mat_iron",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.iron_tithe.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 40,
+        "items": [
+          "ring_iron"
+        ],
+        "faction": "salt",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_salt_share",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.iskra",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "food_salt_meat",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.salt.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 18,
+        "items": [
+          "amulet_bone"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_back_count",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.dace",
+      "giverScene": "Greymarch",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.deserter",
+              "amount": 8,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.backs.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 45,
+        "items": [
+          "bow_hunter"
+        ],
+        "faction": "ash",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tallybook",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.roane_spared",
+      "giver": "speaker.roane",
+      "giverScene": "Keep",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_roane_tally",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.tallybook.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "trinket_root_ring"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_pay_roll",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.manifest_delivered",
+      "giver": "speaker.maren",
+      "giverScene": "Rennfall",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_pay_roll",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.payroll.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 50,
+        "items": [
+          "amulet_silver"
+        ],
+        "faction": "ash",
+        "reputation": 8
+      }
     }
   ]
 }

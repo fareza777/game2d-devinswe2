@@ -1,375 +1,393 @@
 {
-  "_comment": "Where the quest arrow points for each objective key. target: npc (id = speaker key), hearth, board, gather (id = item id), build, exit (id = scene). scene: where that target lives; from another scene the arrow points at the road that leads there. Kill counters also point at the nearest live enemy whenever one is close. Objectives with no fixed place (an event visitor's gift, a choice) are left out on purpose: no arrow is better than a wrong one.",
-  "routes": [
-    {
-      "from": "Rennfall",
-      "to": "TradeRoad",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Rennfall",
-      "to": "Greymarch",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "TradeRoad",
-      "to": "Rennfall",
-      "via": "Rennfall"
-    },
-    {
-      "from": "TradeRoad",
-      "to": "Greymarch",
-      "via": "Greymarch"
-    },
-    {
-      "from": "Greymarch",
-      "to": "Rennfall",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Greymarch",
-      "to": "TradeRoad",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Rennfall",
-      "to": "Hollow",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Greymarch",
-      "to": "Hollow",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "TradeRoad",
-      "to": "Hollow",
-      "via": "Hollow"
-    },
-    {
-      "from": "Hollow",
-      "to": "TradeRoad",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Hollow",
-      "to": "Rennfall",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Hollow",
-      "to": "Greymarch",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "TradeRoad",
-      "to": "Keep",
-      "via": "Keep"
-    },
-    {
-      "from": "Keep",
-      "to": "TradeRoad",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Rennfall",
-      "to": "Keep",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Greymarch",
-      "to": "Keep",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Keep",
-      "to": "Rennfall",
-      "via": "TradeRoad"
-    },
-    {
-      "from": "Keep",
-      "to": "Greymarch",
-      "via": "TradeRoad"
-    }
-  ],
-  "guides": [
-    {
-      "key": "prologue.met_brann",
-      "target": "npc",
-      "id": "speaker.brann",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "mat_timber",
-      "target": "gather",
-      "id": "mat_timber",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "mat_stone",
-      "target": "gather",
-      "id": "mat_stone",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act1.oathfire_lit",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "kills.night1",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act1.rite_performed",
-      "target": "npc",
-      "id": "speaker.brann",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "built.shelter",
-      "target": "build",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act1.maren_arrived",
-      "target": "npc",
-      "id": "speaker.maren",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "kills.mage",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "kills.knight",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "kills.elite",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "night.flawless",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "nights.survived",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "contracts.completed",
-      "target": "board",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "mat_pitch",
-      "target": "npc",
-      "id": "speaker.sabel",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "mat_rope",
-      "target": "npc",
-      "id": "speaker.sabel",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "mat_cloth",
-      "target": "npc",
-      "id": "speaker.sabel",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act1.night1_ready",
-      "target": "npc",
-      "id": "speaker.brann",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act2.left_the_valley",
-      "target": "exit",
-      "id": "TradeRoad",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act2.reached_greymarch",
-      "target": "exit",
-      "id": "Greymarch",
-      "scene": "TradeRoad"
-    },
-    {
-      "key": "act2.bandits_hinted",
-      "target": "npc",
-      "id": "speaker.vesna",
-      "scene": "Greymarch"
-    },
-    {
-      "key": "act1.order_answer_given",
-      "target": "npc",
-      "id": "speaker.maren",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act2.dace_briefed",
-      "target": "npc",
-      "id": "speaker.dace",
-      "scene": "Greymarch"
-    },
-    {
-      "key": "act2.found_hollow",
-      "target": "exit",
-      "id": "Hollow",
-      "scene": "TradeRoad"
-    },
-    {
-      "key": "kills.hollow",
-      "target": "spot",
-      "id": "hollow_fight",
-      "scene": "Hollow"
-    },
-    {
-      "key": "act2.rook_defeated",
-      "target": "spot",
-      "id": "hollow_boss",
-      "scene": "Hollow"
-    },
-    {
-      "key": "act2.prisoner_freed",
-      "target": "npc",
-      "id": "speaker.mira",
-      "scene": "Hollow"
-    },
-    {
-      "key": "quest_harrow_ledger",
-      "target": "npc",
-      "id": "speaker.mira",
-      "scene": "Hollow"
-    },
-    {
-      "key": "act2.ledger_delivered",
-      "target": "npc",
-      "id": "speaker.vesna",
-      "scene": "Greymarch"
-    },
-    {
-      "key": "kills.bandit",
-      "target": "exit",
-      "id": "Hollow",
-      "scene": "TradeRoad"
-    },
-    {
-      "key": "act2.hollow_camp_cleared",
-      "target": "spot",
-      "id": "hollow_fight",
-      "scene": "Hollow"
-    },
-    {
-      "key": "quest_crane_journal",
-      "target": "spot",
-      "id": "search_records",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "quest_wick_lamp",
-      "target": "spot",
-      "id": "search_lamp",
-      "scene": "TradeRoad"
-    },
-    {
-      "key": "sq.stew.pot",
-      "target": "npc",
-      "id": "speaker.hesketh",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "food_bread",
-      "target": "npc",
-      "id": "speaker.sabel",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act2.galen_saw_ledger",
-      "target": "npc",
-      "id": "speaker.galen",
-      "scene": "Greymarch"
-    },
-    {
-      "key": "sq.letter.given",
-      "target": "npc",
-      "id": "speaker.oona",
-      "scene": "Greymarch"
-    },
-    {
-      "key": "sq.letter.delivered",
-      "target": "npc",
-      "id": "speaker.brann",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "kills.skeleton",
-      "target": "hearth",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "torch",
-      "target": "npc",
-      "id": "speaker.sabel",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "mat_iron",
-      "target": "npc",
-      "id": "speaker.sabel",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "food_salt_meat",
-      "target": "npc",
-      "id": "speaker.sabel",
-      "scene": "Rennfall"
-    },
-    {
-      "key": "act2.road_ambush_cleared",
-      "target": "spot",
-      "id": "road_ambush",
-      "scene": "TradeRoad"
-    },
-    {
-      "key": "act2.found_keep",
-      "target": "exit",
-      "id": "Keep",
-      "scene": "TradeRoad"
-    },
-    {
-      "key": "kills.keep",
-      "target": "spot",
-      "id": "keep_fight",
-      "scene": "Keep"
-    },
-    {
-      "key": "act2.durn_defeated",
-      "target": "spot",
-      "id": "keep_boss",
-      "scene": "Keep"
-    },
-    {
-      "key": "quest_keep_manifest",
-      "target": "spot",
-      "id": "keep_manifest",
-      "scene": "Keep"
-    },
-    {
-      "key": "act2.manifest_delivered",
-      "target": "npc",
-      "id": "speaker.maren",
-      "scene": "Rennfall"
-    }
-  ]
+ "_comment": "Where the quest arrow points for each objective key. target: npc (id = speaker key), hearth, board, gather (id = item id), build, exit (id = scene). scene: where that target lives; from another scene the arrow points at the road that leads there. Kill counters also point at the nearest live enemy whenever one is close. Objectives with no fixed place (an event visitor's gift, a choice) are left out on purpose: no arrow is better than a wrong one.",
+ "routes": [
+  {
+   "from": "Rennfall",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Rennfall",
+   "to": "Greymarch",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Rennfall",
+   "via": "Rennfall"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Greymarch",
+   "via": "Greymarch"
+  },
+  {
+   "from": "Greymarch",
+   "to": "Rennfall",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Greymarch",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Rennfall",
+   "to": "Hollow",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Greymarch",
+   "to": "Hollow",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Hollow",
+   "via": "Hollow"
+  },
+  {
+   "from": "Hollow",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Hollow",
+   "to": "Rennfall",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Hollow",
+   "to": "Greymarch",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Keep",
+   "via": "Keep"
+  },
+  {
+   "from": "Keep",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Rennfall",
+   "to": "Keep",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Greymarch",
+   "to": "Keep",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Keep",
+   "to": "Rennfall",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Keep",
+   "to": "Greymarch",
+   "via": "TradeRoad"
+  }
+ ],
+ "guides": [
+  {
+   "key": "prologue.met_brann",
+   "target": "npc",
+   "id": "speaker.brann",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "mat_timber",
+   "target": "gather",
+   "id": "mat_timber",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "mat_stone",
+   "target": "gather",
+   "id": "mat_stone",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act1.oathfire_lit",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "kills.night1",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act1.rite_performed",
+   "target": "npc",
+   "id": "speaker.brann",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "built.shelter",
+   "target": "build",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act1.maren_arrived",
+   "target": "npc",
+   "id": "speaker.maren",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "kills.mage",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "kills.knight",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "kills.elite",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "night.flawless",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "nights.survived",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "contracts.completed",
+   "target": "board",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "mat_pitch",
+   "target": "npc",
+   "id": "speaker.sabel",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "mat_rope",
+   "target": "npc",
+   "id": "speaker.sabel",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "mat_cloth",
+   "target": "npc",
+   "id": "speaker.sabel",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act1.night1_ready",
+   "target": "npc",
+   "id": "speaker.brann",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act2.left_the_valley",
+   "target": "exit",
+   "id": "TradeRoad",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act2.reached_greymarch",
+   "target": "exit",
+   "id": "Greymarch",
+   "scene": "TradeRoad"
+  },
+  {
+   "key": "act2.bandits_hinted",
+   "target": "npc",
+   "id": "speaker.vesna",
+   "scene": "Greymarch"
+  },
+  {
+   "key": "act1.order_answer_given",
+   "target": "npc",
+   "id": "speaker.maren",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act2.dace_briefed",
+   "target": "npc",
+   "id": "speaker.dace",
+   "scene": "Greymarch"
+  },
+  {
+   "key": "act2.found_hollow",
+   "target": "exit",
+   "id": "Hollow",
+   "scene": "TradeRoad"
+  },
+  {
+   "key": "kills.hollow",
+   "target": "spot",
+   "id": "hollow_fight",
+   "scene": "Hollow"
+  },
+  {
+   "key": "act2.rook_defeated",
+   "target": "spot",
+   "id": "hollow_boss",
+   "scene": "Hollow"
+  },
+  {
+   "key": "act2.prisoner_freed",
+   "target": "npc",
+   "id": "speaker.mira",
+   "scene": "Hollow"
+  },
+  {
+   "key": "quest_harrow_ledger",
+   "target": "npc",
+   "id": "speaker.mira",
+   "scene": "Hollow"
+  },
+  {
+   "key": "act2.ledger_delivered",
+   "target": "npc",
+   "id": "speaker.vesna",
+   "scene": "Greymarch"
+  },
+  {
+   "key": "kills.bandit",
+   "target": "exit",
+   "id": "Hollow",
+   "scene": "TradeRoad"
+  },
+  {
+   "key": "act2.hollow_camp_cleared",
+   "target": "spot",
+   "id": "hollow_fight",
+   "scene": "Hollow"
+  },
+  {
+   "key": "quest_crane_journal",
+   "target": "spot",
+   "id": "search_records",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "quest_wick_lamp",
+   "target": "spot",
+   "id": "search_lamp",
+   "scene": "TradeRoad"
+  },
+  {
+   "key": "sq.stew.pot",
+   "target": "npc",
+   "id": "speaker.hesketh",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "food_bread",
+   "target": "npc",
+   "id": "speaker.sabel",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act2.galen_saw_ledger",
+   "target": "npc",
+   "id": "speaker.galen",
+   "scene": "Greymarch"
+  },
+  {
+   "key": "sq.letter.given",
+   "target": "npc",
+   "id": "speaker.oona",
+   "scene": "Greymarch"
+  },
+  {
+   "key": "sq.letter.delivered",
+   "target": "npc",
+   "id": "speaker.brann",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "kills.skeleton",
+   "target": "hearth",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "torch",
+   "target": "npc",
+   "id": "speaker.sabel",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "mat_iron",
+   "target": "npc",
+   "id": "speaker.sabel",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "food_salt_meat",
+   "target": "npc",
+   "id": "speaker.sabel",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "act2.road_ambush_cleared",
+   "target": "spot",
+   "id": "road_ambush",
+   "scene": "TradeRoad"
+  },
+  {
+   "key": "act2.found_keep",
+   "target": "exit",
+   "id": "Keep",
+   "scene": "TradeRoad"
+  },
+  {
+   "key": "kills.keep",
+   "target": "spot",
+   "id": "keep_fight",
+   "scene": "Keep"
+  },
+  {
+   "key": "act2.durn_defeated",
+   "target": "spot",
+   "id": "keep_boss",
+   "scene": "Keep"
+  },
+  {
+   "key": "quest_keep_manifest",
+   "target": "spot",
+   "id": "keep_manifest",
+   "scene": "Keep"
+  },
+  {
+   "key": "act2.manifest_delivered",
+   "target": "npc",
+   "id": "speaker.maren",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "kills.deserter",
+   "target": "spot",
+   "id": "keep_fight",
+   "scene": "Keep"
+  },
+  {
+   "key": "quest_roane_tally",
+   "target": "spot",
+   "id": "keep_tally",
+   "scene": "Keep"
+  },
+  {
+   "key": "quest_pay_roll",
+   "target": "spot",
+   "id": "keep_pay",
+   "scene": "Keep"
+  }
+ ]
 }

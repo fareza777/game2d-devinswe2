@@ -124,6 +124,14 @@ namespace Oathfire.EditorTools
             MapScene.GiveNpcBody(citizen, soldier ? "NPC2" : "NPC1", tint);
             ActorSorting.Raise(citizen);
 
+            // A market where nobody moves reads as a diorama: citizens drift between the stalls, and the
+            // two soldiers walk a longer patrol than the porters do.
+            var wanderer = citizen.AddComponent<World.NpcWanderer>();
+            var wander = new SerializedObject(wanderer);
+            wander.FindProperty("radius").floatValue = soldier ? 3.2f : 2.2f;
+            wander.FindProperty("walkSpeed").floatValue = soldier ? 1.1f : 0.8f;
+            wander.ApplyModifiedPropertiesWithoutUndo();
+
             var serialized = new SerializedObject(citizen.AddComponent<NpcDialogue>());
             serialized.FindProperty("speakerKey").stringValue = speakerKey;
             SerializedProperty conversations = serialized.FindProperty("conversations");

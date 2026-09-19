@@ -245,6 +245,8 @@ UI_STRINGS = {
     "speaker.durn": ("Castellan Durn", "Castellan Durn"),
     "speaker.roane": ("Roane", "Roane"),
     "speaker.courier": ("A Voice With No Banner", "Suara Tanpa Panji"),
+    "speaker.straggler": ("Line Straggler", "Sisa Barisan"),
+    "speaker.reckoner": ("Line Reckoner", "Juru Hitung Barisan"),
     "boss.durn": ("Castellan Durn", "Castellan Durn"),
     "place.Keep": ("The Iron Keep", "Benteng Besi"),
     "prompt.travel.keep": ("Take the overgrown keep road north", "Tempuh jalan benteng yang ditumbuhi ke utara"),

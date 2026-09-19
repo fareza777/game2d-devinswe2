@@ -955,6 +955,26 @@
       "icon": "LootIcons_28",
       "slot": 0,
       "stackSize": 1
+    },
+    {
+      "id": "quest_roane_tally",
+      "kind": 5,
+      "rarity": 0,
+      "value": 0,
+      "setsFlag": "quest.roane_tally",
+      "icon": "LootIcons_30",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_pay_roll",
+      "kind": 5,
+      "rarity": 2,
+      "value": 0,
+      "setsFlag": "quest.pay_roll",
+      "icon": "LootIcons_31",
+      "slot": 0,
+      "stackSize": 1
     }
   ]
 }

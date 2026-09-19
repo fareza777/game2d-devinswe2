@@ -1,178 +1,218 @@
 {
-  "events": [
-    {
-      "id": "ash_ledger",
-      "kind": "Visitor",
-      "phase": "Day",
-      "scriptId": "event_ash_ledger",
-      "speakerKey": "speaker.tobias",
-      "banner": {
-        "en": "A Marshal's rider has come up the valley road.",
-        "id": "Seorang penunggang Barisan Abu menyusuri jalan lembah."
-      },
-      "requiresFlag": "act1.night1_cleared",
-      "minNights": 1,
-      "priority": 30,
-      "chance": 0.8,
-      "approachAngle": 200,
-      "approachDistance": 2.2,
-      "tint": "#8C97A6"
-    },
-    {
-      "id": "night_refugee",
-      "kind": "Visitor",
-      "phase": "Night",
-      "scriptId": "event_night_refugee",
-      "speakerKey": "speaker.refugee",
-      "banner": {
-        "en": "Someone is stumbling toward the light.",
-        "id": "Seseorang terhuyung menuju cahaya."
-      },
-      "requiresFlag": "act1.oathfire_lit",
-      "minNights": 1,
-      "priority": 40,
-      "chance": 0.7,
-      "approachAngle": 45,
-      "approachDistance": 2.6,
-      "tint": "#B9AE9A",
-      "timeLimitSeconds": 150,
-      "expireFlag": "event.night_refugee.lost"
-    },
-    {
-      "id": "salt_offer",
-      "kind": "Visitor",
-      "phase": "Day",
-      "scriptId": "event_salt_offer",
-      "speakerKey": "speaker.vesna",
-      "banner": {
-        "en": "A Salt League cart is waiting. It will not wait long.",
-        "id": "Pedati Serikat Garam menunggu. Tak akan lama."
-      },
-      "requiresFlag": "act1.night1_cleared",
-      "minNights": 1,
-      "priority": 20,
-      "chance": 0.6,
-      "approachAngle": 340,
-      "approachDistance": 2.0,
-      "tint": "#C6B389",
-      "timeLimitSeconds": 120,
-      "expireFlag": "event.salt_offer.missed"
-    },
-    {
-      "id": "shepherd_sighting",
-      "kind": "Apparition",
-      "phase": "Night",
-      "scriptId": "",
-      "speakerKey": "",
-      "banner": {
-        "en": "Something is standing at the treeline. It is not walking in.",
-        "id": "Ada yang berdiri di tepi hutan. Ia tidak melangkah masuk."
-      },
-      "requiresFlag": "act1.night1_cleared",
-      "minNights": 1,
-      "priority": 50,
-      "chance": 0.5,
-      "approachAngle": 120,
-      "approachDistance": 2.8,
-      "tint": "#6E7A72",
-      "timeLimitSeconds": 9
-    },
-    {
-      "id": "surveyors",
-      "kind": "Visitor",
-      "phase": "Day",
-      "scriptId": "event_surveyors",
-      "speakerKey": "speaker.surveyor",
-      "banner": {
-        "en": "Two men with measuring chains are walking your boundary.",
-        "id": "Dua orang dengan rantai ukur sedang menyusuri batas tanah Anda."
-      },
-      "requiresFlag": "act2.surveyors_coming",
-      "minNights": 2,
-      "priority": 35,
-      "chance": 0.8,
-      "approachAngle": 210,
-      "approachDistance": 2.2,
-      "tint": "#9AA3AE"
-    },
-    {
-      "id": "marshal_returns",
-      "kind": "Visitor",
-      "phase": "Day",
-      "scriptId": "event_marshal_returns",
-      "speakerKey": "speaker.tobias",
-      "banner": {
-        "en": "The Marshal's rider has come back, and he is not writing this time.",
-        "id": "Penunggang Barisan Abu kembali, dan kali ini ia tidak mencatat."
-      },
-      "requiresFlag": "act2.ledger_lie_standing",
-      "minNights": 2,
-      "priority": 45,
-      "chance": 0.85,
-      "approachAngle": 200,
-      "approachDistance": 2.2,
-      "tint": "#8C97A6"
-    },
-    {
-      "id": "keep_deserter",
-      "kind": "Visitor",
-      "phase": "Day",
-      "scriptId": "event_keep_deserter",
-      "speakerKey": "speaker.roane",
-      "banner": {
-        "en": "A man in a stripped sash has followed the road home.",
-        "id": "Seorang berserban terkoyak mengikuti jalan pulang."
-      },
-      "requiresFlag": "act2.roane_spared",
-      "minNights": 2,
-      "priority": 25,
-      "chance": 0.7,
-      "approachAngle": 340,
-      "approachDistance": 2.4,
-      "tint": "#8E8A80",
-      "timeLimitSeconds": 150,
-      "expireFlag": "event.keep_deserter.missed"
-    },
-    {
-      "id": "manifest_buyer",
-      "kind": "Visitor",
-      "phase": "Night",
-      "scriptId": "event_manifest_buyer",
-      "speakerKey": "speaker.courier",
-      "banner": {
-        "en": "A hooded rider waits at the light's edge, asking for the Warden by title.",
-        "id": "Seorang penunggang bertudung menunggu di tepi cahaya, menanyakan sang Warden."
-      },
-      "requiresFlag": "act2.manifest_delivered",
-      "minNights": 2,
-      "priority": 42,
-      "chance": 0.65,
-      "approachAngle": 160,
-      "approachDistance": 2.0,
-      "tint": "#5A5E6E",
-      "timeLimitSeconds": 120,
-      "expireFlag": "event.manifest_buyer.missed"
-    },
-    {
-      "id": "shepherd_speaks",
-      "kind": "Visitor",
-      "phase": "Night",
-      "scriptId": "event_shepherd_speaks",
-      "speakerKey": "speaker.crane",
-      "banner": {
-        "en": "It came closer this time. It is standing inside the light.",
-        "id": "Kali ini ia mendekat. Ia berdiri di dalam cahaya."
-      },
-      "requiresFlag": "event.shepherd_sighting.done",
-      "minNights": 2,
-      "priority": 60,
-      "chance": 0.55,
-      "approachAngle": 120,
-      "approachDistance": 1.6,
-      "tint": "#7E8A84",
-      "shade": true,
-      "timeLimitSeconds": 150,
-      "expireFlag": "event.shepherd_speaks.ignored"
-    }
-  ]
+ "events": [
+  {
+   "id": "ash_ledger",
+   "kind": "Visitor",
+   "phase": "Day",
+   "scriptId": "event_ash_ledger",
+   "speakerKey": "speaker.tobias",
+   "banner": {
+    "en": "A Marshal's rider has come up the valley road.",
+    "id": "Seorang penunggang Barisan Abu menyusuri jalan lembah."
+   },
+   "requiresFlag": "act1.night1_cleared",
+   "minNights": 1,
+   "priority": 30,
+   "chance": 0.8,
+   "approachAngle": 200,
+   "approachDistance": 2.2,
+   "tint": "#8C97A6"
+  },
+  {
+   "id": "night_refugee",
+   "kind": "Visitor",
+   "phase": "Night",
+   "scriptId": "event_night_refugee",
+   "speakerKey": "speaker.refugee",
+   "banner": {
+    "en": "Someone is stumbling toward the light.",
+    "id": "Seseorang terhuyung menuju cahaya."
+   },
+   "requiresFlag": "act1.oathfire_lit",
+   "minNights": 1,
+   "priority": 40,
+   "chance": 0.7,
+   "approachAngle": 45,
+   "approachDistance": 2.6,
+   "tint": "#B9AE9A",
+   "timeLimitSeconds": 150,
+   "expireFlag": "event.night_refugee.lost"
+  },
+  {
+   "id": "salt_offer",
+   "kind": "Visitor",
+   "phase": "Day",
+   "scriptId": "event_salt_offer",
+   "speakerKey": "speaker.vesna",
+   "banner": {
+    "en": "A Salt League cart is waiting. It will not wait long.",
+    "id": "Pedati Serikat Garam menunggu. Tak akan lama."
+   },
+   "requiresFlag": "act1.night1_cleared",
+   "minNights": 1,
+   "priority": 20,
+   "chance": 0.6,
+   "approachAngle": 340,
+   "approachDistance": 2.0,
+   "tint": "#C6B389",
+   "timeLimitSeconds": 120,
+   "expireFlag": "event.salt_offer.missed"
+  },
+  {
+   "id": "shepherd_sighting",
+   "kind": "Apparition",
+   "phase": "Night",
+   "scriptId": "",
+   "speakerKey": "",
+   "banner": {
+    "en": "Something is standing at the treeline. It is not walking in.",
+    "id": "Ada yang berdiri di tepi hutan. Ia tidak melangkah masuk."
+   },
+   "requiresFlag": "act1.night1_cleared",
+   "minNights": 1,
+   "priority": 50,
+   "chance": 0.5,
+   "approachAngle": 120,
+   "approachDistance": 2.8,
+   "tint": "#6E7A72",
+   "timeLimitSeconds": 9
+  },
+  {
+   "id": "surveyors",
+   "kind": "Visitor",
+   "phase": "Day",
+   "scriptId": "event_surveyors",
+   "speakerKey": "speaker.surveyor",
+   "banner": {
+    "en": "Two men with measuring chains are walking your boundary.",
+    "id": "Dua orang dengan rantai ukur sedang menyusuri batas tanah Anda."
+   },
+   "requiresFlag": "act2.surveyors_coming",
+   "minNights": 2,
+   "priority": 35,
+   "chance": 0.8,
+   "approachAngle": 210,
+   "approachDistance": 2.2,
+   "tint": "#9AA3AE"
+  },
+  {
+   "id": "marshal_returns",
+   "kind": "Visitor",
+   "phase": "Day",
+   "scriptId": "event_marshal_returns",
+   "speakerKey": "speaker.tobias",
+   "banner": {
+    "en": "The Marshal's rider has come back, and he is not writing this time.",
+    "id": "Penunggang Barisan Abu kembali, dan kali ini ia tidak mencatat."
+   },
+   "requiresFlag": "act2.ledger_lie_standing",
+   "minNights": 2,
+   "priority": 45,
+   "chance": 0.85,
+   "approachAngle": 200,
+   "approachDistance": 2.2,
+   "tint": "#8C97A6"
+  },
+  {
+   "id": "keep_deserter",
+   "kind": "Visitor",
+   "phase": "Day",
+   "scriptId": "event_keep_deserter",
+   "speakerKey": "speaker.roane",
+   "banner": {
+    "en": "A man in a stripped sash has followed the road home.",
+    "id": "Seorang berserban terkoyak mengikuti jalan pulang."
+   },
+   "requiresFlag": "act2.roane_spared",
+   "minNights": 2,
+   "priority": 25,
+   "chance": 0.7,
+   "approachAngle": 340,
+   "approachDistance": 2.4,
+   "tint": "#8E8A80",
+   "timeLimitSeconds": 150,
+   "expireFlag": "event.keep_deserter.missed"
+  },
+  {
+   "id": "manifest_buyer",
+   "kind": "Visitor",
+   "phase": "Night",
+   "scriptId": "event_manifest_buyer",
+   "speakerKey": "speaker.courier",
+   "banner": {
+    "en": "A hooded rider waits at the light's edge, asking for the Warden by title.",
+    "id": "Seorang penunggang bertudung menunggu di tepi cahaya, menanyakan sang Warden."
+   },
+   "requiresFlag": "act2.manifest_delivered",
+   "minNights": 2,
+   "priority": 42,
+   "chance": 0.65,
+   "approachAngle": 160,
+   "approachDistance": 2.0,
+   "tint": "#5A5E6E",
+   "timeLimitSeconds": 120,
+   "expireFlag": "event.manifest_buyer.missed"
+  },
+  {
+   "id": "shepherd_speaks",
+   "kind": "Visitor",
+   "phase": "Night",
+   "scriptId": "event_shepherd_speaks",
+   "speakerKey": "speaker.crane",
+   "banner": {
+    "en": "It came closer this time. It is standing inside the light.",
+    "id": "Kali ini ia mendekat. Ia berdiri di dalam cahaya."
+   },
+   "requiresFlag": "event.shepherd_sighting.done",
+   "minNights": 2,
+   "priority": 60,
+   "chance": 0.55,
+   "approachAngle": 120,
+   "approachDistance": 1.6,
+   "tint": "#7E8A84",
+   "shade": true,
+   "timeLimitSeconds": 150,
+   "expireFlag": "event.shepherd_speaks.ignored"
+  },
+  {
+   "id": "line_stragglers",
+   "kind": "Visitor",
+   "phase": "Night",
+   "scriptId": "event_line_stragglers",
+   "speakerKey": "speaker.straggler",
+   "banner": {
+    "en": "Two figures in grey come out of the dark, hands open and held high.",
+    "id": "Dua sosok keabu-abuan keluar dari gelap, tangan terbuka dan terangkat."
+   },
+   "requiresFlag": "act2.durn_defeated",
+   "minNights": 1,
+   "priority": 20,
+   "chance": 0.75,
+   "approachAngle": 20,
+   "approachDistance": 2.2,
+   "tint": "#6E6A60",
+   "timeLimitSeconds": 150,
+   "expireFlag": "event.line_stragglers.missed"
+  },
+  {
+   "id": "ash_reckoner",
+   "kind": "Visitor",
+   "phase": "Day",
+   "scriptId": "event_ash_reckoner",
+   "speakerKey": "speaker.reckoner",
+   "banner": {
+    "en": "A clerk in Line grey unslings a lacquered box of tallies at the village edge.",
+    "id": "Seorang juru tulis berabu Barisan menurunkan kotak lak berisi catatan di tepi desa."
+   },
+   "requiresFlag": "act2.manifest_delivered",
+   "minNights": 2,
+   "priority": 30,
+   "chance": 0.7,
+   "approachAngle": 300,
+   "approachDistance": 2.4,
+   "tint": "#4E5462",
+   "timeLimitSeconds": 160,
+   "expireFlag": "event.ash_reckoner.missed"
+  }
+ ]
 }

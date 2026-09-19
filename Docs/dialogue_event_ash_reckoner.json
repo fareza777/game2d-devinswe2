@@ -1,0 +1,89 @@
+{
+  "id": "event_ash_reckoner",
+  "startNode": "r1",
+  "nodes": [
+    {
+      "id": "r1",
+      "speaker": "reckoner",
+      "text": {
+        "en": "Warden. The Line keeps books the way other armies keep graves — everything tallied, nothing mourned. Your inspector's report reached the count-house, and I have been sent to square the keep's account.",
+        "id": "Warden. Barisan menyimpan buku seperti pasukan lain menyimpan makam — semuanya terhitung, tak ada yang diratapi. Laporan inspekturmu sampai ke rumah hitung, dan aku dikirim untuk menyelesaikan pembukuan benteng."
+      },
+      "next": "r2"
+    },
+    {
+      "id": "r2",
+      "speaker": "reckoner",
+      "text": {
+        "en": "There is a debt outstanding — thirty silver in unpaid witness-fee for the manifest. And one question the count-house would rather I did not write down, which means I must ask it twice: where is the clerk Roane?",
+        "id": "Ada satu hutang yang belum lunas — tiga puluh perak upah saksi untuk manifest itu. Dan satu pertanyaan yang lebih suka tak kutulis di rumah hitung, yang berarti harus kutanyakan dua kali: di mana juru tulis Roane?"
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The clerk? Dead in the keep. I saw the body myself.",
+            "id": "Juru tulis itu? Mati di benteng. Kulihat mayatnya sendiri."
+          },
+          "next": "r3a",
+          "tone": "mercy",
+          "setFlag": "act2.roane_covered",
+          "requiresFlag": "act2.roane_settled"
+        },
+        {
+          "text": {
+            "en": "Ask the clerks' roll in Greymarch. They keep a list of the living.",
+            "id": "Tanyakan pada daftar juru tulis di Greymarch. Mereka menyimpan nama yang masih hidup."
+          },
+          "next": "r3b",
+          "tone": "guile",
+          "setFlag": "act2.reckoner_deflected"
+        },
+        {
+          "text": {
+            "en": "Pay the fee, reckoner. The valley's books are its own.",
+            "id": "Bayar upahnya, juru hitung. Pembukuan lembah ini urusan lembah."
+          },
+          "next": "r3c",
+          "tone": "iron",
+          "setFlag": "act2.reckoner_short"
+        }
+      ]
+    },
+    {
+      "id": "r3a",
+      "speaker": "reckoner",
+      "text": {
+        "en": "Dead men keep the best books — nothing left to be afraid of. Then the account squares at thirty, and a name is struck in pencil. Here is your fee, Warden.",
+        "id": "Orang mati menyimpan buku terbaik — tak ada lagi yang perlu ditakuti. Maka pembukuannya lunas di angka tiga puluh, dan sebuah nama dicoret pensil. Ini upahmu, Warden."
+      },
+      "giveCoin": 30,
+      "setFlags": [
+        "event.ash_reckoner.done"
+      ]
+    },
+    {
+      "id": "r3b",
+      "speaker": "reckoner",
+      "text": {
+        "en": "A roll of the living. They will like that phrase at the count-house — it sounds like policy. Your fee, Warden, and a word given free: whoever bought the keep's wagons will want this valley's books too.",
+        "id": "Daftar yang masih hidup. Mereka akan menyukai ungkapan itu di rumah hitung — terdengar seperti kebijakan. Upahmu, Warden, dan satu kata gratis: siapa pun yang membeli pedati benteng akan menginginkan buku lembah ini juga."
+      },
+      "giveCoin": 30,
+      "setFlags": [
+        "event.ash_reckoner.done"
+      ]
+    },
+    {
+      "id": "r3c",
+      "speaker": "reckoner",
+      "text": {
+        "en": "Short answers are still answers, in my trade. Thirty silver, and I write the valley down as unhelpful but honest — the count-house reads that as a compliment.",
+        "id": "Jawaban singkat tetap jawaban, dalam pekerjaanku. Tiga puluh perak, dan kutulis lembah ini tak membantu tapi jujur — rumah hitung membacanya sebagai pujian."
+      },
+      "giveCoin": 30,
+      "setFlags": [
+        "event.ash_reckoner.done"
+      ]
+    }
+  ]
+}

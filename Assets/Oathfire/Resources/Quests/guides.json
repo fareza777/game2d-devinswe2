@@ -369,6 +369,24 @@
       "target": "npc",
       "id": "speaker.maren",
       "scene": "Rennfall"
+    },
+    {
+      "key": "kills.deserter",
+      "target": "spot",
+      "id": "keep_fight",
+      "scene": "Keep"
+    },
+    {
+      "key": "quest_roane_tally",
+      "target": "spot",
+      "id": "keep_tally",
+      "scene": "Keep"
+    },
+    {
+      "key": "quest_pay_roll",
+      "target": "spot",
+      "id": "keep_pay",
+      "scene": "Keep"
     }
   ]
 }

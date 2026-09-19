@@ -1581,6 +1581,38 @@
         "en": "Sealed with candle wax and addressed, in careful capitals, to Brann Hollowell.",
         "id": "Disegel dengan lilin dan dialamatkan, dengan huruf kapital yang hati-hati, kepada Brann Hollowell."
       }
+    },
+    {
+      "id": "quest_roane_tally",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.roane_tally",
+      "name": {
+        "en": "Roane's Tally-Book",
+        "id": "Buku Hitungan Roane"
+      },
+      "desc": {
+        "en": "A clerk's tally-book, its spine cracked from being thrown. The pages still add up to every bar of iron the keep ever held.",
+        "id": "Buku hitungan juru tulis, punggungnya retak karena dilempar. Halaman-halamannya masih menjumlahkan setiap batang besi yang pernah disimpan benteng."
+      },
+      "icon": "LootIcons_30"
+    },
+    {
+      "id": "quest_pay_roll",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.pay_roll",
+      "name": {
+        "en": "The Deserters' Pay-Roll",
+        "id": "Daftar Gaji Pembelot"
+      },
+      "desc": {
+        "en": "A roll of pay-chits marked in a hand that is not Ash Line issue, each stamped with the same left-handed sign.",
+        "id": "Segulung bon gaji bertuliskan tangan yang bukan terbitan Barisan Abu, masing-masing berstempel tanda tangan kiri yang sama."
+      },
+      "icon": "LootIcons_31"
     }
   ]
 }

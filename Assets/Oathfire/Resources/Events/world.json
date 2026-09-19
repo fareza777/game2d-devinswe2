@@ -146,6 +146,40 @@
       "timeLimitSeconds": 150,
       "expireFlag": "event.shepherd_speaks.ignored",
       "bannerKey": "event.shepherd_speaks.banner"
+    },
+    {
+      "id": "line_stragglers",
+      "kind": 0,
+      "phase": 2,
+      "scriptId": "event_line_stragglers",
+      "speakerKey": "speaker.straggler",
+      "requiresFlag": "act2.durn_defeated",
+      "minNights": 1,
+      "priority": 20,
+      "chance": 0.75,
+      "approachAngle": 20,
+      "approachDistance": 2.2,
+      "tint": "#6E6A60",
+      "timeLimitSeconds": 150,
+      "expireFlag": "event.line_stragglers.missed",
+      "bannerKey": "event.line_stragglers.banner"
+    },
+    {
+      "id": "ash_reckoner",
+      "kind": 0,
+      "phase": 1,
+      "scriptId": "event_ash_reckoner",
+      "speakerKey": "speaker.reckoner",
+      "requiresFlag": "act2.manifest_delivered",
+      "minNights": 2,
+      "priority": 30,
+      "chance": 0.7,
+      "approachAngle": 300,
+      "approachDistance": 2.4,
+      "tint": "#4E5462",
+      "timeLimitSeconds": 160,
+      "expireFlag": "event.ash_reckoner.missed",
+      "bannerKey": "event.ash_reckoner.banner"
     }
   ]
 }
