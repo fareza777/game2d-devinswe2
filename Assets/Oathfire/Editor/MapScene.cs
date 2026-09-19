@@ -37,7 +37,7 @@ namespace Oathfire.EditorTools
         [System.Serializable]
         public class MapAnchors
         {
-            public CellRef hearth, player, board, brann, maren, roadOut, trail, trail2, search;
+            public CellRef hearth, player, board, brann, maren, roadOut, trail, trail2, trail3, search;
             public CellRef[] plots, timber, stone, arrivals, villagers;
         }
 
@@ -347,6 +347,8 @@ namespace Oathfire.EditorTools
                 "Greymarch" => (new Color(0.86f, 0.9f, 0.96f), 0.86f),
                 // A ravine the sun reaches late: dusty amber light, a little dimmer than the open road.
                 "Hollow" => (new Color(1f, 0.88f, 0.74f), 0.84f),
+                // A walled granary court: long late-day light, wheat-coloured, a touch cooler on stone.
+                "Grange" => (new Color(1f, 0.9f, 0.72f), 0.88f),
                 _ => (new Color(0.9f, 0.9f, 0.9f), globalLight),
             };
             light.color = day.colour;

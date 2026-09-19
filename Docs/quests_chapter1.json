@@ -1769,6 +1769,175 @@
         "faction": "ash",
         "reputation": 8
       }
+    },
+    {
+      "id": "sq_weigh_floor",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.grange_rumoured",
+      "giver": "speaker.hask",
+      "giverScene": "Grange",
+      "title": {
+        "en": "The Weigh-Floor Must Stand Clear",
+        "id": "Lantai Timbang Harus Bersih"
+      },
+      "summary": {
+        "en": "Deserter-foragers squat the barn bays at night, weighing nothing and taking sacks by the armful. Factor Hask wants them off the weigh-floor before the League counts its losses in his name.",
+        "id": "Perampok bayaran menduduki kandang-kandang lumbung di malam hari, tak menimbang apa-apa dan membawa karung sekalenggong. Faktor Hask ingin mereka pergi dari lantai timbang sebelum Liga mencatat kerugian atas namanya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Drive the foragers out of the grange's bays",
+            "id": "Usir para perampok dari kandang-kandang lumbung"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.grange",
+              "amount": 5
+            }
+          ],
+          "setsFlag": "sq.weigh_floor.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 60,
+        "items": [
+          "trinket_lion_pin"
+        ],
+        "faction": "league",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_tally_sticks",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.grange_rumoured",
+      "giver": "speaker.collum",
+      "giverScene": "Grange",
+      "title": {
+        "en": "Every Notch a Sack",
+        "id": "Setiap Parut Satu Karung"
+      },
+      "summary": {
+        "en": "Three tally-sticks went missing with the night crews, and without them the books cannot say whose grain the foragers took. Reeve Collum needs them found — in the bays, under the sack rows, wherever a count was broken.",
+        "id": "Tiga tongkat hitung hilang bersama kru malam, dan tanpanya pembukuan tak bisa memastikan gandum siapa yang dicuri para perampok. Reeve Collum ingin mereka ditemukan — di kandang, di bawah deretan karung, di mana pun hitungan dipatahkan."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the three dropped tally-sticks around the weigh-court",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di sekitar pengadilan timbang"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_grange_tally",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "trinket_tally"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_silo_key",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.grange_rumoured",
+      "giver": "speaker.lene",
+      "giverScene": "Grange",
+      "title": {
+        "en": "The Key-Warden's Errand",
+        "id": "Tugas Penjaga Kunci"
+      },
+      "summary": {
+        "en": "Wit-warden Ostler was carrying the silo key to the capital when the foragers took him on the manor terrace. They left him alive and kept the key. Gate-warden Lene wants it back before the League learns it was ever missing.",
+        "id": "Penjaga kunci Ostler membawa kunci silo ke ibu kota saat para perampok menangkapnya di teras manor. Mereka membiarkannya hidup dan menyimpan kuncinya. Lene ingin kunci itu kembali sebelum Liga tahu ia pernah hilang."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Recover the silo key from the manor terrace",
+            "id": "Ambil kembali kunci silo dari teras manor"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_silo_key",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.silo_key.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 45,
+        "items": [
+          "dagger_quiet"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_spillage",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.grange_rumoured",
+      "giver": "speaker.tess",
+      "giverScene": "Grange",
+      "title": {
+        "en": "What the Scales Never Counted",
+        "id": "Yang Tak Pernah Dihitung Timbangan"
+      },
+      "summary": {
+        "en": "The League's rule is simple: once a sack is cut, what spills belongs to no one — and no one may take it. Tess knows where grain spills inside the walls the gleaners cannot cross. Gather it and carry it back out to the lane.",
+        "id": "Aturan Liga sederhana: begitu karung dibelah, yang tumpah bukan milik siapa-siapa — dan tak boleh diambil siapa-siapa. Tess tahu di mana gandum tumpah di dalam tembok yang tak bisa dilintasi pemungut. Pungut dan bawa keluar ke lajur."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather four spilled sacks of grain inside the weigh-court",
+            "id": "Pungut empat karung gandum tumpah di dalam pengadilan timbang"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_spill_sack",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.spillage.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "food_stew",
+          "food_stew"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
     }
   ]
 }

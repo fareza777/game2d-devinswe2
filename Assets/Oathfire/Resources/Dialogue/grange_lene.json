@@ -1,0 +1,83 @@
+{
+  "id": "grange_lene",
+  "startNode": "l1",
+  "nodes": [
+    {
+      "id": "l1",
+      "speaker": "lene",
+      "textKey": "dlg.grange_lene.l1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "l2",
+      "choices": []
+    },
+    {
+      "id": "l2",
+      "speaker": "lene",
+      "textKey": "dlg.grange_lene.l2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.grange_lene.l2.c1",
+          "next": "l3a",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.grange_lene.l2.c2",
+          "next": "l3b",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "l3a",
+      "speaker": "lene",
+      "textKey": "dlg.grange_lene.l3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "l3b",
+      "speaker": "lene",
+      "textKey": "dlg.grange_lene.l3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

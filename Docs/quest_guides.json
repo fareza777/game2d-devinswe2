@@ -90,6 +90,56 @@
    "from": "Keep",
    "to": "Greymarch",
    "via": "TradeRoad"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Grange",
+   "via": "Grange"
+  },
+  {
+   "from": "Grange",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Rennfall",
+   "to": "Grange",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Greymarch",
+   "to": "Grange",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Hollow",
+   "to": "Grange",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Keep",
+   "to": "Grange",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Grange",
+   "to": "Rennfall",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Grange",
+   "to": "Greymarch",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Grange",
+   "to": "Hollow",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Grange",
+   "to": "Keep",
+   "via": "TradeRoad"
   }
  ],
  "guides": [
@@ -388,6 +438,30 @@
    "target": "spot",
    "id": "keep_pay",
    "scene": "Keep"
+  },
+  {
+   "key": "kills.grange",
+   "target": "spot",
+   "id": "grange_fight",
+   "scene": "Grange"
+  },
+  {
+   "key": "quest_grange_tally",
+   "target": "spot",
+   "id": "grange_tally_1",
+   "scene": "Grange"
+  },
+  {
+   "key": "quest_silo_key",
+   "target": "spot",
+   "id": "grange_silo_key",
+   "scene": "Grange"
+  },
+  {
+   "key": "quest_spill_sack",
+   "target": "spot",
+   "id": "grange_spill_1",
+   "scene": "Grange"
   }
  ]
 }

@@ -1,0 +1,96 @@
+{
+  "id": "grange_hask",
+  "startNode": "h1",
+  "nodes": [
+    {
+      "id": "h1",
+      "speaker": "hask",
+      "textKey": "dlg.grange_hask.h1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "h2",
+      "choices": []
+    },
+    {
+      "id": "h2",
+      "speaker": "hask",
+      "textKey": "dlg.grange_hask.h2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "h3",
+      "choices": []
+    },
+    {
+      "id": "h3",
+      "speaker": "hask",
+      "textKey": "dlg.grange_hask.h3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.grange_hask.h3.c1",
+          "next": "h4a",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.grange_hask.h3.c2",
+          "next": "h4b",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "h4a",
+      "speaker": "hask",
+      "textKey": "dlg.grange_hask.h4a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h4b",
+      "speaker": "hask",
+      "textKey": "dlg.grange_hask.h4b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

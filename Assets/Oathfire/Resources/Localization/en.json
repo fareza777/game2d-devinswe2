@@ -841,6 +841,122 @@
       "value": "You would use me against him. I should be offended. I find that I am mostly relieved."
     },
     {
+      "key": "dlg.grange_boru.b1",
+      "value": "Sack to scale, scale to ledger, ledger to silence. Walk where you like; the floor remembers every step anyway."
+    },
+    {
+      "key": "dlg.grange_collum.c1",
+      "value": "Count with me. One hundred twelve sacks received, one hundred nine entered, three sticks gone. The books cannot say whose grain walked out until the sticks are found — and a book that cannot say is a book that lies."
+    },
+    {
+      "key": "dlg.grange_collum.c2",
+      "value": "Each stick is split and notched twice — porter's knife on one side, mine on the other. The night crews dropped them in the bays when the foragers came through. Find me three and the count closes."
+    },
+    {
+      "key": "dlg.grange_collum.c3",
+      "value": "Hask weighs. I count. Do not confuse them — he prices what crossed the gate, I record what stayed."
+    },
+    {
+      "key": "dlg.grange_hask.h1",
+      "value": "Stop where you are. The scale reads a fraction heavier and I intend to know whether that is a warden or a thief."
+    },
+    {
+      "key": "dlg.grange_hask.h2",
+      "value": "Saltwold grange. The League's weigh-court for this valley: every sack that crosses the gate is counted twice — once by the porter's knife, once by mine. Nothing here is free; it is only weighed."
+    },
+    {
+      "key": "dlg.grange_hask.h3",
+      "value": "At night the bays fill with foragers — deserters who learned a sack of grain beats a sack of coin you cannot chew. They squat in the dark and carry out what the League counts in my name. I want the floor standing clear. Weigh it, warden."
+    },
+    {
+      "key": "dlg.grange_hask.h3.c1",
+      "value": "The bays will stand clear. Consider it weighed."
+    },
+    {
+      "key": "dlg.grange_hask.h3.c2",
+      "value": "What does the League pay for five foragers off its floor?"
+    },
+    {
+      "key": "dlg.grange_hask.h4a",
+      "value": "Then the scale settles. Come back when the count is short of them."
+    },
+    {
+      "key": "dlg.grange_hask.h4b",
+      "value": "Its weight in pin and patience. The League does not haggle, warden — it balances."
+    },
+    {
+      "key": "dlg.grange_lene.l1",
+      "value": "Halt. Torch behind you, gate behind me, and nothing crosses without a count. That's the whole law of this lane. State your business before I count you as loitering."
+    },
+    {
+      "key": "dlg.grange_lene.l2",
+      "value": "Since you carry a warden's stamp: Ostler — wit-warden, my partner on this gate — took the silo key up the terrace to walk it to the capital. Foragers took him coming back down. They left him breathing and kept the key. Find it before the League learns it was ever gone, and I will owe you a count of my own."
+    },
+    {
+      "key": "dlg.grange_lene.l2.c1",
+      "value": "The terrace is already on my list."
+    },
+    {
+      "key": "dlg.grange_lene.l2.c2",
+      "value": "A gate-warden owes a warden. I will hold you to it."
+    },
+    {
+      "key": "dlg.grange_lene.l3a",
+      "value": "Good. Walk quiet up there — whatever's squatting on that terrace answers questions with edges."
+    },
+    {
+      "key": "dlg.grange_lene.l3b",
+      "value": "You can hold me to it from behind the key. Bring it here and we will talk about debts."
+    },
+    {
+      "key": "dlg.grange_mirren.m1",
+      "value": "Warm yourself. The fire is the only thing in this court the League does not weigh — a courtesy from when the court fed the valley it now charges."
+    },
+    {
+      "key": "dlg.grange_mirren.m2",
+      "value": "I carried sacks on this floor before your keep was cold iron. Then the walls went up and the scale went down to half-weights. Watch the gate at dusk — the lane fills with those the count forgot."
+    },
+    {
+      "key": "dlg.grange_tess.t1",
+      "value": "Careful with the cart — it is all we have left that rolls. They let us wait in the lane but not past the gate. Spilled grain, they say, belongs to no one. No one inside the walls, they mean."
+    },
+    {
+      "key": "dlg.grange_tess.t2",
+      "value": "A warden walks in and out. We do not. There are spills inside — where sacks get cut at the scale, where the bays' floor gives. Gather what the court will never count and carry it back to us. Four sacks' worth would feed the lane a week."
+    },
+    {
+      "key": "dlg.grange_tess.t2.c1",
+      "value": "The League's rules do not feed anyone. I will gather it."
+    },
+    {
+      "key": "dlg.grange_tess.t2.c2",
+      "value": "Theft is theft, hungry or not."
+    },
+    {
+      "key": "dlg.grange_tess.t3a",
+      "value": "Spilled is spilled, warden. That is their own rule. I only argue about whose hands reach it first."
+    },
+    {
+      "key": "dlg.grange_tess.t3b",
+      "value": "Then eat well tonight, and think of us by the gate fire. Rules fill no stomach — I checked."
+    },
+    {
+      "key": "dlg.grange_writ.w1",
+      "value": "The manifest named more than the keep's ghosts. Among Durn's diverted wagons is one that never reached him — a Salt League grain train, waylaid a league short of the Iron Keep."
+    },
+    {
+      "key": "dlg.grange_writ.w2",
+      "value": "Their weigh-court sits at the end of the toll lane off the trade road — Saltwold Grange. Walled, warded, and this season, short of honest hands. The League asks for wardens the way it weighs: precisely, and only once."
+    },
+    {
+      "key": "dlg.grange_writ.w2.c1",
+      "value": "I'll walk the toll lane and see what a weigh-court wants."
+    },
+    {
+      "key": "dlg.grange_writ.w3",
+      "value": "Tell Factor Hask the Inspector sends her count — and remind him the valley reads a scale better than the League reads a wall."
+    },
+    {
       "key": "dlg.hearth_lit.brann_1",
       "value": "Forty years I kept that stone clean and never once lit it. Didn't have the right. You do."
     },
@@ -1267,6 +1383,14 @@
     {
       "key": "event.goSpeakTimed",
       "value": "Go and speak to them — {0} before they leave"
+    },
+    {
+      "key": "event.grange.bays",
+      "value": "Deserter-foragers squat the bays."
+    },
+    {
+      "key": "event.grange.key",
+      "value": "The key-warden's 'guests' object."
     },
     {
       "key": "event.hollow.camp",
@@ -2005,6 +2129,14 @@
       "value": "Warden Crane's Journal"
     },
     {
+      "key": "item.quest_grange_tally.desc",
+      "value": "A split stick notched by two knives — the porter's count and the reeve's. Where it lies is where a sack stopped being counted."
+    },
+    {
+      "key": "item.quest_grange_tally.name",
+      "value": "Dropped Tally-Stick"
+    },
+    {
       "key": "item.quest_harrow_ledger.desc",
       "value": "Boots, arrows and salt pork, issued to men who are officially bandits."
     },
@@ -2067,6 +2199,22 @@
     {
       "key": "item.quest_roane_tally.name",
       "value": "Roane's Tally-Book"
+    },
+    {
+      "key": "item.quest_silo_key.desc",
+      "value": "Iron, long-shafted, the only key that opens the grange's silo doors. Wit-warden Ostler was meant to carry it to the capital and never arrived."
+    },
+    {
+      "key": "item.quest_silo_key.name",
+      "value": "The Silo Key"
+    },
+    {
+      "key": "item.quest_spill_sack.desc",
+      "value": "Grain the scales never counted, gathered handful by handful off the stones. The League's rule says it belongs to no one; the gleaners' rule says it belongs to the hungry."
+    },
+    {
+      "key": "item.quest_spill_sack.name",
+      "value": "Spilled Grain, Gathered"
     },
     {
       "key": "item.quest_testament.desc",
@@ -2505,6 +2653,10 @@
       "value": "Voice"
     },
     {
+      "key": "place.Grange",
+      "value": "Saltwold Grange"
+    },
+    {
       "key": "place.Greymarch",
       "value": "Greymarch"
     },
@@ -2603,6 +2755,14 @@
     {
       "key": "prompt.travel",
       "value": "Take the road"
+    },
+    {
+      "key": "prompt.travel.grange",
+      "value": "Take the toll lane to Saltwold Grange"
+    },
+    {
+      "key": "prompt.travel.grangeOut",
+      "value": "Walk back down the lane to the trade road"
     },
     {
       "key": "prompt.travel.greymarch",
@@ -3021,6 +3181,30 @@
       "value": "The Distance He Keeps"
     },
     {
+      "key": "quest.sq_silo_key.s1",
+      "value": "Recover the silo key from the manor terrace"
+    },
+    {
+      "key": "quest.sq_silo_key.summary",
+      "value": "Wit-warden Ostler was carrying the silo key to the capital when the foragers took him on the manor terrace. They left him alive and kept the key. Gate-warden Lene wants it back before the League learns it was ever missing."
+    },
+    {
+      "key": "quest.sq_silo_key.title",
+      "value": "The Key-Warden's Errand"
+    },
+    {
+      "key": "quest.sq_spillage.s1",
+      "value": "Gather four spilled sacks of grain inside the weigh-court"
+    },
+    {
+      "key": "quest.sq_spillage.summary",
+      "value": "The League's rule is simple: once a sack is cut, what spills belongs to no one — and no one may take it. Tess knows where grain spills inside the walls the gleaners cannot cross. Gather it and carry it back out to the lane."
+    },
+    {
+      "key": "quest.sq_spillage.title",
+      "value": "What the Scales Never Counted"
+    },
+    {
       "key": "quest.sq_stew.s1",
       "value": "Borrow Hesketh's big pot"
     },
@@ -3065,6 +3249,18 @@
       "value": "Sixty Years of Names"
     },
     {
+      "key": "quest.sq_tally_sticks.s1",
+      "value": "Find the three dropped tally-sticks around the weigh-court"
+    },
+    {
+      "key": "quest.sq_tally_sticks.summary",
+      "value": "Three tally-sticks went missing with the night crews, and without them the books cannot say whose grain the foragers took. Reeve Collum needs them found — in the bays, under the sack rows, wherever a count was broken."
+    },
+    {
+      "key": "quest.sq_tally_sticks.title",
+      "value": "Every Notch a Sack"
+    },
+    {
       "key": "quest.sq_tallybook.s1",
       "value": "Find Roane's tally-book in the keep's corridor"
     },
@@ -3091,6 +3287,18 @@
     {
       "key": "quest.sq_unmarked_boots.title",
       "value": "Unmarked Boots"
+    },
+    {
+      "key": "quest.sq_weigh_floor.s1",
+      "value": "Drive the foragers out of the grange's bays"
+    },
+    {
+      "key": "quest.sq_weigh_floor.summary",
+      "value": "Deserter-foragers squat the barn bays at night, weighing nothing and taking sacks by the armful. Factor Hask wants them off the weigh-floor before the League counts its losses in his name."
+    },
+    {
+      "key": "quest.sq_weigh_floor.title",
+      "value": "The Weigh-Floor Must Stand Clear"
     },
     {
       "key": "quest.sq_what_nessa_carried.s1",
@@ -3293,8 +3501,16 @@
       "value": "Lord Protector Aurel"
     },
     {
+      "key": "speaker.boru",
+      "value": "Boru the Porter"
+    },
+    {
       "key": "speaker.brann",
       "value": "Brann Hollowell"
+    },
+    {
+      "key": "speaker.collum",
+      "value": "Reeve Collum"
     },
     {
       "key": "speaker.courier",
@@ -3321,6 +3537,10 @@
       "value": "Gethin the Digger"
     },
     {
+      "key": "speaker.hask",
+      "value": "Factor Hask"
+    },
+    {
       "key": "speaker.hesketh",
       "value": "Hesketh the Cooper"
     },
@@ -3337,12 +3557,20 @@
       "value": "Kael Voss"
     },
     {
+      "key": "speaker.lene",
+      "value": "Gate-warden Lene"
+    },
+    {
       "key": "speaker.maren",
       "value": "Inspector Maren"
     },
     {
       "key": "speaker.mira",
       "value": "Mira Holt"
+    },
+    {
+      "key": "speaker.mirren",
+      "value": "Old Mirren"
     },
     {
       "key": "speaker.oona",
@@ -3379,6 +3607,10 @@
     {
       "key": "speaker.surveyor",
       "value": "Surveyor Kestrel"
+    },
+    {
+      "key": "speaker.tess",
+      "value": "Tess of the Lane"
     },
     {
       "key": "speaker.tobias",
@@ -3463,6 +3695,10 @@
     {
       "key": "toast.gathered",
       "value": "+{0} {1}  ·  {2} in your pack"
+    },
+    {
+      "key": "toast.grangeBays",
+      "value": "The bays stand clear"
     },
     {
       "key": "toast.graveStir",

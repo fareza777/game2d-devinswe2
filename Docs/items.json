@@ -1613,6 +1613,54 @@
         "id": "Segulung bon gaji bertuliskan tangan yang bukan terbitan Barisan Abu, masing-masing berstempel tanda tangan kiri yang sama."
       },
       "icon": "LootIcons_31"
+    },
+    {
+      "id": "quest_grange_tally",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.grange_tally",
+      "name": {
+        "en": "Dropped Tally-Stick",
+        "id": "Tongkat Hitung yang Terjatuh"
+      },
+      "desc": {
+        "en": "A split stick notched by two knives — the porter's count and the reeve's. Where it lies is where a sack stopped being counted.",
+        "id": "Tongkat belah berparut dua pisau — hitungan porter dan hitungan rieff. Di mana ia tergeletak, di situlah satu karung berhenti dihitung."
+      },
+      "icon": "LootIcons_30"
+    },
+    {
+      "id": "quest_silo_key",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.silo_key",
+      "name": {
+        "en": "The Silo Key",
+        "id": "Kunci Silo"
+      },
+      "desc": {
+        "en": "Iron, long-shafted, the only key that opens the grange's silo doors. Wit-warden Ostler was meant to carry it to the capital and never arrived.",
+        "id": "Besi bergagang panjang, satu-satunya kunci pembuka pintu silo lumbung. Penjaga kunci Ostler seharusnya membawanya ke ibu kota dan tak pernah sampai."
+      },
+      "icon": "LootIcons_31"
+    },
+    {
+      "id": "quest_spill_sack",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.spill_sack",
+      "name": {
+        "en": "Spilled Grain, Gathered",
+        "id": "Tumpahan Gandum yang Dipungut"
+      },
+      "desc": {
+        "en": "Grain the scales never counted, gathered handful by handful off the stones. The League's rule says it belongs to no one; the gleaners' rule says it belongs to the hungry.",
+        "id": "Gandum yang tak pernah dihitung timbangan, dipungut segenggam demi segenggam dari batu. Aturan Liga bilang ini bukan milik siapa-siapa; aturan para pemungut bilang ini milik yang lapar."
+      },
+      "icon": "LootIcons_29"
     }
   ]
 }
