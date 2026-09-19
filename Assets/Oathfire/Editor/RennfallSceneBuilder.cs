@@ -100,6 +100,9 @@ namespace Oathfire.EditorTools
             MapScene.PrependConversation(GameObject.Find("Hesketh the Cooper"), "villager_hesketh_pot", "quest.sq_stew.taken", "sq.stew.pot");
             MapScene.PrependConversation(GameObject.Find("Brann Hollowell"), "brann_letter", "quest.sq_oonas_letter.taken",
                 "sq.letter.delivered", "quest_oona_letter");
+            // Carrying the keep's manifest home makes it hers to deal with.
+            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "keep_manifest", "act2.manifest_found",
+                "act2.manifest_delivered", "quest_keep_manifest");
         }
 
         static void SetUpVillagers(MapScene.MapFile map, MapScene.MapAnchors at)

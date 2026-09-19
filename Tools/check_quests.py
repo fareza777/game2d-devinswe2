@@ -24,6 +24,7 @@ BUILDER_FOR_SCENE = {
     "TradeRoad": "TradeRoadSceneBuilder.cs",
     "Greymarch": "GreymarchSceneBuilder.cs",
     "Hollow": "HollowSceneBuilder.cs",
+    "Keep": "KeepSceneBuilder.cs",
 }
 
 

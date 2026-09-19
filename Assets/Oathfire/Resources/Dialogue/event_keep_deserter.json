@@ -1,0 +1,92 @@
+{
+  "id": "event_keep_deserter",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "roane",
+      "textKey": "dlg.event_keep_deserter.d1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "d2",
+      "choices": []
+    },
+    {
+      "id": "d2",
+      "speaker": "roane",
+      "textKey": "dlg.event_keep_deserter.d2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_keep_deserter.d2.c1",
+          "next": "d3a",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.roane_settled",
+          "faction": "hearth",
+          "reputation": 8,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_keep_deserter.d2.c2",
+          "next": "d3b",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.roane_moved_on",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "d3a",
+      "speaker": "roane",
+      "textKey": "dlg.event_keep_deserter.d3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.keep_deserter.done"
+      ],
+      "giveItems": [
+        "mat_rope",
+        "mat_rope",
+        "mat_iron"
+      ],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "d3b",
+      "speaker": "roane",
+      "textKey": "dlg.event_keep_deserter.d3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.keep_deserter.done",
+        "act2.paymaster_hinted"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

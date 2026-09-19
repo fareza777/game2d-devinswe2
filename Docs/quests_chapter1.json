@@ -516,6 +516,104 @@
       }
     },
     {
+      "id": "q_keep",
+      "act": "act2",
+      "mainQuest": true,
+      "unlockFlag": "act2.keep_rumoured",
+      "title": {
+        "en": "The Iron Keep",
+        "id": "Benteng Besi"
+      },
+      "summary": {
+        "en": "The ledger's last page points north: a dead Crown keep that still takes deliveries, under guard. Whatever Harrow is building, it is being built there.",
+        "id": "Halaman terakhir buku menunjuk ke utara: benteng Mahkota yang mati namun masih menerima kiriman, dengan pengawalan. Apa pun yang dibangun Harrow, ia membangunnya di sana."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take the overgrown keep road off the trade road",
+            "id": "Tempuh jalan benteng yang ditumbuhi dari jalan dagang"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.found_keep"
+            }
+          ],
+          "setsFlag": "act2.keep_s1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Break the deserters holding the keep",
+            "id": "Hancurkan para desertir yang memegang benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.keep",
+              "amount": 6
+            }
+          ],
+          "setsFlag": "act2.keep_s2"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Face Castellan Durn on the dais of the great hall",
+            "id": "Hadapi Castellan Durn di anjungan aula agung"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.durn_defeated"
+            }
+          ],
+          "setsFlag": "act2.keep_s3"
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Find the quartermaster's manifest in the vault",
+            "id": "Temukan manifest bendahara di ruang bawah tanah"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_keep_manifest",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "act2.keep_s4"
+        },
+        {
+          "id": "s5",
+          "text": {
+            "en": "Bring the manifest to Inspector Maren in Rennfall",
+            "id": "Bawa manifest itu kepada Inspektur Maren di Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.manifest_delivered"
+            }
+          ],
+          "setsFlag": "act2.keep_done"
+        }
+      ],
+      "reward": {
+        "experience": 650,
+        "coin": 55,
+        "items": [
+          "axe_harrow",
+          "potion_small"
+        ],
+        "faction": "ash",
+        "reputation": 10
+      }
+    },
+    {
       "id": "sq_tally",
       "act": "act1",
       "mainQuest": false,

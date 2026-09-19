@@ -33,6 +33,10 @@
       "value": "{0}  ·  {1} / {2}"
     },
     {
+      "key": "boss.durn",
+      "value": "Castellan Durn"
+    },
+    {
       "key": "boss.rook",
       "value": "Rook Varr"
     },
@@ -453,6 +457,62 @@
       "value": "Akan saya catat sebagai pemukiman yang tak mampu menyediakan catatan. Itu kata yang lebih kecil daripada penolakan. Hanya itu kebaikan yang bisa saya berikan, dan saya membayarnya."
     },
     {
+      "key": "dlg.event_keep_deserter.d1",
+      "value": "Warden. Roane — aku penjaga buku di benteng, sebelum kau membiarkanku pergi. Orang-orangmu bilang orang yang bekerja boleh tinggal untuk makan."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d2",
+      "value": "Aku bisa menghitung, mengangkut, dan aku tahu setiap gudang yang layak disegel. Yang tak bisa kulakukan adalah kembali — bukan ke Barisan, bukan ke gaya penyimpanan Durn."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d2.c1",
+      "value": "Tinggallah. Buku gudang butuh tangan yang memahaminya."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d2.c2",
+      "value": "Satu kali makan, lalu jalan. Kami tak bisa memberi makan bayangan desertir."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d3a",
+      "value": "Kalau begitu aku milikmu, warden. Aturan pertama buku yang baik: semua yang masuk, dua kali yang keluar. Ini ada di mantelku — gudangmu lebih butuh."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d3b",
+      "value": "Adil. Lebih dari adil. Sebagai tambahan — bendahara di manifest itu menandatangani dengan tangan kiri. Perhatikan tangannya, bukan namanya."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c1",
+      "value": "Warden Rennfall. Aku tak membawa surat perintah dan tak menjawab panji mana pun, jadi kita bisa sama-sama jujur: sebuah dokumen meninggalkan benteng besi, dan majikanku lebih suka bila itu tidak terjadi."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2",
+      "value": "Seratus dua puluh perak bersegel untuk salinanmu, dan kebisuanmu tentang tangan yang menandatanganinya. Tolak, dan aku berkuda pergi — dan tak ada yang pernah kukatakan."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2.c1",
+      "value": "Perak adalah perak. Ambil salinannya."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2.c2",
+      "value": "Para Marshal membacanya dulu. Pergi."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2.c3",
+      "value": "Pergi sebelum penjagaku melihatmu, dan katakan pada majikanmu bahwa lembah ini kini menyimpan bukunya sendiri."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c3a",
+      "value": "Senang berbisnis. Bila itu menolong tidurmu: kau bukan satu-satunya salinan. Kau hanya satu-satunya yang akan membacanya."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c3b",
+      "value": "Kalau begitu aku tak pernah di sini. Sebagai tambahan, warden — majikanku menghormati penolakan. Ia menganggarkannya."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c3c",
+      "value": "Ia menyimpan sebagian. Milikmu, rupanya. Selamat malam, warden — dan lihatlah ke bawah rumah catatan. Buku hanyalah lapisan teratas."
+    },
+    {
       "key": "dlg.event_marshal_returns.back_1",
       "value": "Warden. Angka Anda sudah saya laporkan. Sembilan belas orang mati. Lalu seorang juru tulis membandingkannya dengan batu nisan dan menghitung tiga puluh satu."
     },
@@ -817,6 +877,86 @@
       "value": "Pergi ke mana? Setiap jalan di lembah ini sudah ada pemiliknya. Yang ini milikku."
     },
     {
+      "key": "dlg.keep_durn.d1",
+      "value": "Satu lagi warden mendaki bukit. Para pembeli Rook mengirim kabar kau mungkin datang. Mereka tak mengirim kabar kau akan sampai sejauh ini."
+    },
+    {
+      "key": "dlg.keep_durn.d2",
+      "value": "Aku bendahara Barisan Abu di sini, sebelum Barisan berjalan ke selatan dan lupa membawa kuncinya. Segala yang di bawah aula ini dulu milikku untuk kuhitung. Sekarang milikku untuk kusimpan."
+    },
+    {
+      "key": "dlg.keep_durn.d2.c1",
+      "value": "Makanan lembah, dijual kembali dengan harga. Kau sudah selesai menghitung, Durn."
+    },
+    {
+      "key": "dlg.keep_durn.d2.c2",
+      "value": "Serahkan manifest itu dan berjalan ke selatan menyusul Barisan."
+    },
+    {
+      "key": "dlg.keep_durn.d2.c3",
+      "value": "Pengurus Harrow membayar mahal. Sebutkan hargamu untuk berbalik melawannya."
+    },
+    {
+      "key": "dlg.keep_durn.d3a",
+      "value": "Tidak. Aku sudah selesai dihitung. Ada bedanya, dan kau akan segera mempelajarinya."
+    },
+    {
+      "key": "dlg.keep_durn.d3b",
+      "value": "Ke selatan adalah tempat Barisan berada, dan seutas tali menanti para desertir. Aku lebih memilih mencoba peruntungan denganmu, warden."
+    },
+    {
+      "key": "dlg.keep_durn.d3c",
+      "value": "Ia membayar untuk diam, bukan untuk pedang. Apa pun tawaranmu, jawabannya sudah ada di gudangku — di bawah penjagaanku."
+    },
+    {
+      "key": "dlg.keep_manifest.m1",
+      "value": "Anda kembali dari benteng itu. Tunjukkan apa yang layak dipertahankan oleh sebuah benteng mati."
+    },
+    {
+      "key": "dlg.keep_manifest.m2",
+      "value": "Maren membaca manifest itu di bawah cahaya lampu. Dua kali. Pada cap pengurus, ia menutup buku itu dan tidak membukanya lagi."
+    },
+    {
+      "key": "dlg.keep_manifest.m3",
+      "value": "Setiap pedati yang disimpangkan, diterima dan dicap — beserta tanda tangan bendahara yang harus kujawab karena mengetahuinya. Ini sampai ke Marshal Agung malam ini. Bukan lewat pos. Lewat saya."
+    },
+    {
+      "key": "dlg.keep_roane_shut.r1",
+      "value": "Jangan — kumohon. Aku hanya penjaga buku. Durn memegang anjungan, anak buahnya memegang koridor, dan aku menghitung apa yang masuk lewat celah itu."
+    },
+    {
+      "key": "dlg.keep_roane_shut.r2",
+      "value": "Manifest itu? Peti merah, di ruang bawah ini. Semua kiriman pengurus Harrow, bertanda dan bersegel. Ambillah — saat sang Castellan sudah tak bisa merebutnya kembali."
+    },
+    {
+      "key": "dlg.keep_roane_spared.s1",
+      "value": "Aku berangkat saat fajar. Halaman manifest yang kau cari adalah yang bersegel syahbandar — jangan biarkan siapa pun menyebutnya palsu. Tinta itu terlalu mahal untuk ditiru."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t1",
+      "value": "Selesai kalau begitu. Durn tumbang, gudangnya milikmu untuk dihitung. Bagaimana dengan orang yang menjaga bukunya?"
+    },
+    {
+      "key": "dlg.keep_roane_turns.t2",
+      "value": "Aku hafal setiap nama di buku itu. Aku bisa bacakan cap pengurus itu terbalik. Atau aku bisa pergi. Kata-katamu yang menentukan."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t2.c1",
+      "value": "Pergi, dan terus ke selatan. Lembah tak menggantung juru tulis."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t2.c2",
+      "value": "Kau akan menjawab setiap baris yang kau hitung. Keluar."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t3a",
+      "value": "Ke selatan. Ada desa dengan api baru — kudengar mereka menerima orang tersesat. Terima kasih, warden. Sungguh."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t3b",
+      "value": "Kalau begitu buku-buku itu bicara tanpaku. Mereka bicara, kau tahu. Setiap halamannya."
+    },
+    {
       "key": "dlg.maren_arrival.maren_1",
       "value": "Warden Voss. Saya Inspektur Maren Ashby, dari Barisan Abu. Sang Marsekal Tinggi mengirimkan rekomendasinya, dan mengirim saya."
     },
@@ -1067,6 +1207,26 @@
     {
       "key": "event.hollow.pass",
       "value": "Para pengintai melompat turun ke celah."
+    },
+    {
+      "key": "event.keep.corridor",
+      "value": "Perisai terangkat dalam cahaya obor."
+    },
+    {
+      "key": "event.keep.vault",
+      "value": "Orang mati masih menjaga gudang bawah."
+    },
+    {
+      "key": "event.keep.watch",
+      "value": "Penjaga vestibul keluar."
+    },
+    {
+      "key": "event.keep_deserter.banner",
+      "value": "Seorang berserban terkoyak mengikuti jalan pulang."
+    },
+    {
+      "key": "event.manifest_buyer.banner",
+      "value": "Seorang penunggang bertudung menunggu di tepi cahaya, menanyakan sang Warden."
     },
     {
       "key": "event.marshal_returns.banner",
@@ -1781,6 +1941,14 @@
       "value": "Buku Perbekalan Greymarch"
     },
     {
+      "key": "item.quest_keep_manifest.desc",
+      "value": "Setiap pedati yang disimpangkan dan diterima di benteng besi, bersegel syahbandar dan bertanda tangan kiri bendahara."
+    },
+    {
+      "key": "item.quest_keep_manifest.name",
+      "value": "Manifest Benteng"
+    },
+    {
       "key": "item.quest_marshal_writ.desc",
       "value": "Dicap dua kali, ditandatangani sekali. Isinya: Rennfall bekerja sama — sebuah perisai, sampai ia jadi tanda terima."
     },
@@ -2257,6 +2425,10 @@
       "value": "Ceruk Duri Hitam"
     },
     {
+      "key": "place.Keep",
+      "value": "Benteng Besi"
+    },
+    {
       "key": "place.Rennfall",
       "value": "Rennfall"
     },
@@ -2317,6 +2489,10 @@
       "value": "Rawat api sumpah"
     },
     {
+      "key": "prompt.keepStores",
+      "value": "Geledah perbekalan bendahara"
+    },
+    {
       "key": "prompt.salvage",
       "value": "Geledah bangkai pedati"
     },
@@ -2351,6 +2527,14 @@
     {
       "key": "prompt.travel.hollowOut",
       "value": "Naik kembali ke jalan dagang"
+    },
+    {
+      "key": "prompt.travel.keep",
+      "value": "Tempuh jalan benteng yang ditumbuhi ke utara"
+    },
+    {
+      "key": "prompt.travel.keepOut",
+      "value": "Kembali ke jalan lembah"
     },
     {
       "key": "prompt.travel.rennfall",
@@ -2455,6 +2639,34 @@
     {
       "key": "quest.q_inspector.title",
       "value": "Kebaikan Seorang Inspektur"
+    },
+    {
+      "key": "quest.q_keep.s1",
+      "value": "Tempuh jalan benteng yang ditumbuhi dari jalan dagang"
+    },
+    {
+      "key": "quest.q_keep.s2",
+      "value": "Hancurkan para desertir yang memegang benteng"
+    },
+    {
+      "key": "quest.q_keep.s3",
+      "value": "Hadapi Castellan Durn di anjungan aula agung"
+    },
+    {
+      "key": "quest.q_keep.s4",
+      "value": "Temukan manifest bendahara di ruang bawah tanah"
+    },
+    {
+      "key": "quest.q_keep.s5",
+      "value": "Bawa manifest itu kepada Inspektur Maren di Rennfall"
+    },
+    {
+      "key": "quest.q_keep.summary",
+      "value": "Halaman terakhir buku menunjuk ke utara: benteng Mahkota yang mati namun masih menerima kiriman, dengan pengawalan. Apa pun yang dibangun Harrow, ia membangunnya di sana."
+    },
+    {
+      "key": "quest.q_keep.title",
+      "value": "Benteng Besi"
     },
     {
       "key": "quest.q_prologue.s1",
@@ -2937,12 +3149,20 @@
       "value": "Brann Hollowell"
     },
     {
+      "key": "speaker.courier",
+      "value": "Suara Tanpa Panji"
+    },
+    {
       "key": "speaker.crane",
       "value": "Sang Gembala Kelabu"
     },
     {
       "key": "speaker.dace",
       "value": "Kopral Dace"
+    },
+    {
+      "key": "speaker.durn",
+      "value": "Castellan Durn"
     },
     {
       "key": "speaker.galen",
@@ -2987,6 +3207,10 @@
     {
       "key": "speaker.refugee",
       "value": "Nessa Aldwin"
+    },
+    {
+      "key": "speaker.roane",
+      "value": "Roane"
     },
     {
       "key": "speaker.rook",
@@ -3065,6 +3289,10 @@
       "value": "Fajar. Lembah kembali sunyi."
     },
     {
+      "key": "toast.durnDown",
+      "value": "Castellan Durn telah tumbang"
+    },
+    {
       "key": "toast.equipped",
       "value": "Dipakai"
     },
@@ -3103,6 +3331,14 @@
     {
       "key": "toast.hollowPass",
       "value": "Celah sudah aman"
+    },
+    {
+      "key": "toast.keepCorridor",
+      "value": "Koridor sudah aman"
+    },
+    {
+      "key": "toast.keepWatch",
+      "value": "Vestibul sudah sunyi"
     },
     {
       "key": "toast.needMaterials",

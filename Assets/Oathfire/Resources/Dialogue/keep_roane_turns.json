@@ -1,0 +1,87 @@
+{
+  "id": "keep_roane_turns",
+  "startNode": "t1",
+  "nodes": [
+    {
+      "id": "t1",
+      "speaker": "roane",
+      "textKey": "dlg.keep_roane_turns.t1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "t2",
+      "choices": []
+    },
+    {
+      "id": "t2",
+      "speaker": "roane",
+      "textKey": "dlg.keep_roane_turns.t2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.keep_roane_turns.t2.c1",
+          "next": "t3a",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.roane_spared",
+          "faction": "hearth",
+          "reputation": 8,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.keep_roane_turns.t2.c2",
+          "next": "t3b",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.roane_driven",
+          "faction": "ash",
+          "reputation": 6,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "t3a",
+      "speaker": "roane",
+      "textKey": "dlg.keep_roane_turns.t3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.roane_answered"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "t3b",
+      "speaker": "roane",
+      "textKey": "dlg.keep_roane_turns.t3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.roane_answered"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

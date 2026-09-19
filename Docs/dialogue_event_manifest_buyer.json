@@ -1,0 +1,89 @@
+{
+  "id": "event_manifest_buyer",
+  "startNode": "c1",
+  "nodes": [
+    {
+      "id": "c1",
+      "speaker": "courier",
+      "text": {
+        "en": "Warden of Rennfall. I carry no writ and answer to no banner, so we can both be honest: a document left the iron keep, and my employer would rather it had not.",
+        "id": "Warden Rennfall. Aku tak membawa surat perintah dan tak menjawab panji mana pun, jadi kita bisa sama-sama jujur: sebuah dokumen meninggalkan benteng besi, dan majikanku lebih suka bila itu tidak terjadi."
+      },
+      "next": "c2"
+    },
+    {
+      "id": "c2",
+      "speaker": "courier",
+      "text": {
+        "en": "One hundred and twenty in stamped silver for your copy of it, and your silence on the hand that signed it. Refuse, and I ride on — and nothing I said was ever said.",
+        "id": "Seratus dua puluh perak bersegel untuk salinanmu, dan kebisuanmu tentang tangan yang menandatanganinya. Tolak, dan aku berkuda pergi — dan tak ada yang pernah kukatakan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Silver is silver. Take the copy.",
+            "id": "Perak adalah perak. Ambil salinannya."
+          },
+          "next": "c3a",
+          "tone": "guile",
+          "setFlag": "act2.manifest_sold"
+        },
+        {
+          "text": {
+            "en": "The Marshals read it first. Ride on.",
+            "id": "Para Marshal membacanya dulu. Pergi."
+          },
+          "next": "c3b",
+          "tone": "iron",
+          "setFlag": "act2.buyer_refused",
+          "faction": "hearth",
+          "reputation": 8
+        },
+        {
+          "text": {
+            "en": "Leave before my watch sees you, and tell your employer the valley keeps its books now.",
+            "id": "Pergi sebelum penjagaku melihatmu, dan katakan pada majikanmu bahwa lembah ini kini menyimpan bukunya sendiri."
+          },
+          "next": "c3c",
+          "tone": "mercy",
+          "setFlag": "act2.buyer_warned"
+        }
+      ]
+    },
+    {
+      "id": "c3a",
+      "speaker": "courier",
+      "text": {
+        "en": "A pleasure. If it helps you sleep: you were never the only copy. You were simply the only one who would have read it.",
+        "id": "Senang berbisnis. Bila itu menolong tidurmu: kau bukan satu-satunya salinan. Kau hanya satu-satunya yang akan membacanya."
+      },
+      "giveCoin": 120,
+      "setFlags": [
+        "event.manifest_buyer.done"
+      ]
+    },
+    {
+      "id": "c3b",
+      "speaker": "courier",
+      "text": {
+        "en": "Then I was never here. For what it is worth, warden — my employer respects refusals. He budgets for them.",
+        "id": "Kalau begitu aku tak pernah di sini. Sebagai tambahan, warden — majikanku menghormati penolakan. Ia menganggarkannya."
+      },
+      "setFlags": [
+        "event.manifest_buyer.done"
+      ]
+    },
+    {
+      "id": "c3c",
+      "speaker": "courier",
+      "text": {
+        "en": "It keeps some of them. Yours, it seems. Good night, warden — and do look under the record house. Ledgers are only ever the top layer.",
+        "id": "Ia menyimpan sebagian. Milikmu, rupanya. Selamat malam, warden — dan lihatlah ke bawah rumah catatan. Buku hanyalah lapisan teratas."
+      },
+      "setFlags": [
+        "event.manifest_buyer.done",
+        "act2.recordhouse_hinted"
+      ]
+    }
+  ]
+}

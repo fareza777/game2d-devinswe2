@@ -1,0 +1,49 @@
+{
+  "id": "keep_manifest",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "maren",
+      "textKey": "dlg.keep_manifest.m1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [
+        "quest_keep_manifest"
+      ],
+      "giveCoin": 0,
+      "next": "m2",
+      "choices": []
+    },
+    {
+      "id": "m2",
+      "speaker": "",
+      "textKey": "dlg.keep_manifest.m2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m3",
+      "choices": []
+    },
+    {
+      "id": "m3",
+      "speaker": "maren",
+      "textKey": "dlg.keep_manifest.m3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.manifest_delivered"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

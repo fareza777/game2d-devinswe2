@@ -1,0 +1,73 @@
+{
+  "id": "event_keep_deserter",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "roane",
+      "text": {
+        "en": "Warden. Roane — I kept the books at the keep, before you let me walk. Your people said a man who works can stay for a meal.",
+        "id": "Warden. Roane — aku penjaga buku di benteng, sebelum kau membiarkanku pergi. Orang-orangmu bilang orang yang bekerja boleh tinggal untuk makan."
+      },
+      "next": "d2"
+    },
+    {
+      "id": "d2",
+      "speaker": "roane",
+      "text": {
+        "en": "I can count, haul, and I know every store worth sealing. What I cannot do is go back — not to the Line, not to Durn's kind of keeping.",
+        "id": "Aku bisa menghitung, mengangkut, dan aku tahu setiap gudang yang layak disegel. Yang tak bisa kulakukan adalah kembali — bukan ke Barisan, bukan ke gaya penyimpanan Durn."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Stay. The stores ledger needs a hand that knows one.",
+            "id": "Tinggallah. Buku gudang butuh tangan yang memahaminya."
+          },
+          "next": "d3a",
+          "tone": "mercy",
+          "setFlag": "act2.roane_settled",
+          "faction": "hearth",
+          "reputation": 8
+        },
+        {
+          "text": {
+            "en": "One meal, then the road. We cannot feed a deserter's shadow.",
+            "id": "Satu kali makan, lalu jalan. Kami tak bisa memberi makan bayangan desertir."
+          },
+          "next": "d3b",
+          "tone": "iron",
+          "setFlag": "act2.roane_moved_on"
+        }
+      ]
+    },
+    {
+      "id": "d3a",
+      "speaker": "roane",
+      "text": {
+        "en": "Then I am yours, warden. First rule of a good ledger: everything that comes in, twice what goes out. These were in my coat — your stores have more use for them.",
+        "id": "Kalau begitu aku milikmu, warden. Aturan pertama buku yang baik: semua yang masuk, dua kali yang keluar. Ini ada di mantelku — gudangmu lebih butuh."
+      },
+      "giveItems": [
+        "mat_rope",
+        "mat_rope",
+        "mat_iron"
+      ],
+      "setFlags": [
+        "event.keep_deserter.done"
+      ]
+    },
+    {
+      "id": "d3b",
+      "speaker": "roane",
+      "text": {
+        "en": "Fair. More than fair. For what it is worth — the paymaster in that manifest signs left-handed. Watch for the hand, not the name.",
+        "id": "Adil. Lebih dari adil. Sebagai tambahan — bendahara di manifest itu menandatangani dengan tangan kiri. Perhatikan tangannya, bukan namanya."
+      },
+      "setFlags": [
+        "event.keep_deserter.done",
+        "act2.paymaster_hinted"
+      ]
+    }
+  ]
+}

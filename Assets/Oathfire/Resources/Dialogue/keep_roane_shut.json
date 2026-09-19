@@ -1,0 +1,34 @@
+{
+  "id": "keep_roane_shut",
+  "startNode": "r1",
+  "nodes": [
+    {
+      "id": "r1",
+      "speaker": "roane",
+      "textKey": "dlg.keep_roane_shut.r1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "r2",
+      "choices": []
+    },
+    {
+      "id": "r2",
+      "speaker": "roane",
+      "textKey": "dlg.keep_roane_shut.r2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.manifest_hinted"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

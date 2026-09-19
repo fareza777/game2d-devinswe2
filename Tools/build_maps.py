@@ -28,6 +28,9 @@ SCENES = {
     # Blackthorn Hollow: a palisaded bandit camp in a ravine, tents round a cookfire, a long pass west to an
     # overgrown ruin where their captain keeps his prisoner. Reached by a trail off the trade road.
     "hollow": {"region": (-159, -114, -56, -30), "plaza": 3, "style": "hollow"},
+    # The old iron keep north of Greymarch: the pack's walled great hall stands alone at the map's edge,
+    # so the build adds its own approach — a bare forecourt on the rise and a breach in the vestibule wall.
+    "keep": {"region": (-158, -135, -116, -66), "plaza": 3, "style": "keep"},
 }
 
 
@@ -126,9 +129,16 @@ def road_anchors(walkable: set[tuple[int, int]]) -> dict:
     search = next((cell for cell in ordered[3 * len(ordered) // 8:]
                    if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 5 for t in taken)),
                   ordered[3 * len(ordered) // 8])
+    # The overgrown keep road, past the ambush toward the Greymarch end — it only becomes a road once
+    # Vesna's ledger says someone is using it.
+    taken.append(search)
+    trail2 = next((cell for cell in ordered[3 * len(ordered) // 4:]
+                   if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 6 for t in taken)),
+                  ordered[3 * len(ordered) // 4])
     return {
         "search": point(search),
         "trail": point(trail),
+        "trail2": point(trail2),
         "hearth": point(middle),   # where the road closes
         "player": point(arrival),
         "board": point(ordered[len(ordered) // 12 + 3]),  # the way back, a few steps from where you arrived
@@ -249,6 +259,117 @@ def pick_anchors(walkable: set[tuple[int, int]], plaza: tuple[int, int]) -> dict
     }
 
 
+def keep_approach(layers: list[dict]) -> None:
+    """Builds the keep's forecourt and opens the vestibule wall.
+
+    The walled hall stands alone at the edge of the example map — nothing connects to it. The keep gets
+    what a ruin on a rise would have: a bare earth forecourt outside the vestibule's north wall, a breach
+    where the masonry has fallen, and scattered wreckage of the carts that came here loaded and left empty.
+    Region-relative cells: x' = x + 158, y' = y + 116.
+    """
+    ground = next(layer for layer in layers if layer["name"] == "Ground")
+    objects = next(layer for layer in layers if layer["name"] == "Objects")
+    walls = next(layer for layer in layers if layer["name"] == "Walls")
+    collider_layers = [layer for layer in layers if layer["name"].startswith("Collider")]
+
+    # The forecourt: plain earth on the rise outside the vestibule's north wall.
+    apron = [(x, y) for x in range(6, 19) for y in range(1, 7)]
+    for i, cell in enumerate(apron):
+        ground["cells"][cell] = PLAIN_EARTH[(cell[0] + cell[1]) % len(PLAIN_EARTH)]
+
+    # The breach: two fallen wall cells in the vestibule's north face, earth going through.
+    for cell in ((11, 7), (12, 7)):
+        walls["cells"].pop(cell, None)
+        for layer in collider_layers:
+            layer["cells"].pop(cell, None)
+        ground["cells"][cell] = "Ground A1_S"
+    # Broken masonry either side of the gap.
+    objects["cells"][(10, 7)] = "Stone A5_N"
+    objects["cells"][(13, 7)] = "Misc C9_E"
+
+    # The vestibule's double door to the corridor has rusted off its hinges: remove the leaves, the
+    # mullion and their blockers so the passage is open. Abs (-147/-146/-145, -101) -> rel (11/12/13, 15).
+    for cell in ((11, 15), (12, 15), (13, 15)):
+        objects["cells"].pop(cell, None)
+        for layer in collider_layers:
+            layer["cells"].pop(cell, None)
+    detail = next((layer for layer in layers if layer["name"] == "WallDetail1"), None)
+    if detail:
+        detail["cells"].pop((12, 15), None)
+
+    # The quartermaster's last barricade: a crate and its blocker sealing the vault arch from inside
+    # the hall. Cleared so the manifest room can be reached. Abs (-145, -73) -> rel (13, 43).
+    objects["cells"].pop((13, 43), None)
+    for layer in collider_layers:
+        layer["cells"].pop((13, 43), None)
+
+    # What a siege camp leaves: a dead cart, dropped crates, stone off the wall.
+    objects["cells"][(8, 2)] = "Misc B5_E"      # a cart that never made the return run
+    objects["cells"][(16, 3)] = "Misc B8_E"     # split crates
+    objects["cells"][(7, 5)] = "Stone A5_N"     # fallen masonry
+    objects["cells"][(17, 2)] = "Misc B45_N"    # stone pile
+    # Wall stumps and dead trees frame the forecourt instead of fence posts.
+    for cell, tile in {(5, 1): "Wall A11_E", (5, 3): "Wall A11_E", (5, 6): "Wall A10_E",
+                     (19, 1): "Wall A11_E", (19, 4): "Wall A11_E", (19, 6): "Wall A10_E",
+                     (7, 1): "Tree B4_W", (13, 1): "Tree B4_W", (17, 6): "Tree B4_W"}.items():
+        walls["cells"][cell] = tile
+
+
+def keep_anchors(layers: list[dict], walkable: set[tuple[int, int]]) -> dict:
+    """Places the keep's anchors on its spine: forecourt, vestibule, corridor, hall, vault.
+
+    The scene reads as a gauntlet — in through the breach, down the torch-lit corridor, across the great
+    hall — so anchors sit at the rooms, not in rings round a square.
+    """
+    from collections import deque
+
+    def nearest_walkable(target):
+        return min(walkable, key=lambda c: (c[0] - target[0]) ** 2 + (c[1] - target[1]) ** 2)
+
+    # Everything must be reachable from the forecourt through the breach.
+    arrival = nearest_walkable((12, 3))
+    dist = {arrival: 0}
+    queue = deque([arrival])
+    while queue:
+        cell = queue.popleft()
+        for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            nxt = (cell[0] + dx, cell[1] + dy)
+            if nxt in walkable and nxt not in dist:
+                dist[nxt] = dist[cell] + 1
+                queue.append(nxt)
+    reachable = set(dist)
+    print(f"[keep] {len(reachable)} of {len(walkable)} cells reachable from the forecourt")
+
+    def room(abs_x, abs_y):
+        return nearest_walkable((abs_x + 158, abs_y + 116))
+
+    vestibule = room(-146, -105)
+    corridor = room(-146, -97)
+    hall = room(-147, -82)
+    dais = room(-143, -75)
+    vault = room(-145, -68)
+    vault_stores = room(-145, -70)
+    vestibule_stores = room(-148, -105)
+    road_out = nearest_walkable((12, 1))
+
+    def walk_dist(target):
+        return dist.get(target, -1)
+
+    print(f"[keep] walk: breach->vestibule {walk_dist(vestibule)}, corridor {walk_dist(corridor)}, "
+          f"hall {walk_dist(hall)}, dais {walk_dist(dais)}, vault {walk_dist(vault)}")
+
+    point = lambda cell: {"x": cell[0], "y": cell[1]}
+    return {
+        "player": point(arrival),
+        "roadOut": point(road_out),
+        "hearth": point(dais),
+        "villagers": [point(vault)],
+        "arrivals": [point(vestibule), point(corridor), point(hall)],
+        "timber": [point(vault_stores), point(vestibule_stores)],
+        "plots": [], "stone": [],
+    }
+
+
 PLAIN_EARTH = ["Ground A1_E", "Ground A1_N", "Ground A1_S", "Ground A1_W"]
 
 
@@ -298,6 +419,9 @@ def build(name: str, spec: dict, scratch: Path) -> None:
 
     if spec.get("style") == "hollow":
         print(f"[{name}] levelled {plain_earth(layers)} cells of patchy ground into plain earth")
+    if spec.get("style") == "keep":
+        keep_approach(layers)
+        print(f"[{name}] paved the forecourt and breached the vestibule wall")
     named = {layer["name"]: layer["cells"] for layer in layers}
     dropped = drop_unknown_tiles(named)
     missing = [entry for entry in check_tiles(named) if not entry.startswith("?")]
@@ -305,9 +429,12 @@ def build(name: str, spec: dict, scratch: Path) -> None:
         raise SystemExit("tiles the pack does not have: " + ", ".join(missing))
     print(f"[{name}] dropped {dropped} cells the example scene left as unresolved tiles")
     walkable = open_ground(layers)
-    if spec.get("style") == "hollow":
+    if spec.get("style") == "keep":
+        # The vault's doorway is a Wall D11 arch: it renders a doorframe but has no collider under it.
+        walkable.add((13, 44))
+    if spec.get("style") in ("hollow", "keep"):
         fenced = fence_edges(layers, walkable)
-        print(f"[{name}] fenced {fenced} open edges so nobody walks off the ravine into the void")
+        print(f"[{name}] fenced {fenced} open edges so nobody walks off into the void")
     towards = built_centre(layers) if spec.get("style") == "settlement" else None
     plaza = largest_clearing(walkable, spec["plaza"], towards)
     print(f"[{name}] walkable {len(walkable)}; buildings centre {towards}; square at {plaza}")
@@ -316,6 +443,8 @@ def build(name: str, spec: dict, scratch: Path) -> None:
         anchors = road_anchors(walkable)
     elif spec.get("style") == "hollow":
         anchors = hollow_anchors(layers, walkable)
+    elif spec.get("style") == "keep":
+        anchors = keep_anchors(layers, walkable)
     else:
         anchors = pick_anchors(walkable, plaza or (30, 30))
     payload = {

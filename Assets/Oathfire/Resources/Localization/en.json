@@ -33,6 +33,10 @@
       "value": "{0}  ·  {1} / {2}"
     },
     {
+      "key": "boss.durn",
+      "value": "Castellan Durn"
+    },
+    {
       "key": "boss.rook",
       "value": "Rook Varr"
     },
@@ -453,6 +457,62 @@
       "value": "I will file it as a settlement unable to produce records. That is a smaller word than refusal. It is the only kindness I can do you, and it costs me something."
     },
     {
+      "key": "dlg.event_keep_deserter.d1",
+      "value": "Warden. Roane — I kept the books at the keep, before you let me walk. Your people said a man who works can stay for a meal."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d2",
+      "value": "I can count, haul, and I know every store worth sealing. What I cannot do is go back — not to the Line, not to Durn's kind of keeping."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d2.c1",
+      "value": "Stay. The stores ledger needs a hand that knows one."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d2.c2",
+      "value": "One meal, then the road. We cannot feed a deserter's shadow."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d3a",
+      "value": "Then I am yours, warden. First rule of a good ledger: everything that comes in, twice what goes out. These were in my coat — your stores have more use for them."
+    },
+    {
+      "key": "dlg.event_keep_deserter.d3b",
+      "value": "Fair. More than fair. For what it is worth — the paymaster in that manifest signs left-handed. Watch for the hand, not the name."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c1",
+      "value": "Warden of Rennfall. I carry no writ and answer to no banner, so we can both be honest: a document left the iron keep, and my employer would rather it had not."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2",
+      "value": "One hundred and twenty in stamped silver for your copy of it, and your silence on the hand that signed it. Refuse, and I ride on — and nothing I said was ever said."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2.c1",
+      "value": "Silver is silver. Take the copy."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2.c2",
+      "value": "The Marshals read it first. Ride on."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c2.c3",
+      "value": "Leave before my watch sees you, and tell your employer the valley keeps its books now."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c3a",
+      "value": "A pleasure. If it helps you sleep: you were never the only copy. You were simply the only one who would have read it."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c3b",
+      "value": "Then I was never here. For what it is worth, warden — my employer respects refusals. He budgets for them."
+    },
+    {
+      "key": "dlg.event_manifest_buyer.c3c",
+      "value": "It keeps some of them. Yours, it seems. Good night, warden — and do look under the record house. Ledgers are only ever the top layer."
+    },
+    {
       "key": "dlg.event_marshal_returns.back_1",
       "value": "Warden. I filed your number. Nineteen dead. Then a clerk compared it against the burial stones and counted thirty-one."
     },
@@ -817,6 +877,86 @@
       "value": "Walk out to where? Every road in this valley belongs to someone now. This one is mine."
     },
     {
+      "key": "dlg.keep_durn.d1",
+      "value": "Another warden up the hill. Rook's buyers sent word you might come. They did not send word you would get this far."
+    },
+    {
+      "key": "dlg.keep_durn.d2",
+      "value": "I was the Ash Line's quartermaster here, before the Line walked south and forgot to take the keys. Everything under this hall was mine to count. Now it is mine to keep."
+    },
+    {
+      "key": "dlg.keep_durn.d2.c1",
+      "value": "The valley's food, sold back at a price. You are done counting, Durn."
+    },
+    {
+      "key": "dlg.keep_durn.d2.c2",
+      "value": "Hand me the manifest and walk south after the Line."
+    },
+    {
+      "key": "dlg.keep_durn.d2.c3",
+      "value": "Harrow's steward pays well. Name your price to turn on him instead."
+    },
+    {
+      "key": "dlg.keep_durn.d3a",
+      "value": "No. I am done being counted. There is a difference, and you are about to learn it."
+    },
+    {
+      "key": "dlg.keep_durn.d3b",
+      "value": "South is where the Line is, and a rope waits for deserters. I will take my chances with you, warden."
+    },
+    {
+      "key": "dlg.keep_durn.d3c",
+      "value": "He pays for silence, not for swords. Whatever you offer, his answer is already in my vault — under my guard."
+    },
+    {
+      "key": "dlg.keep_manifest.m1",
+      "value": "You came back from the keep. Show me what was worth holding a dead fortress for."
+    },
+    {
+      "key": "dlg.keep_manifest.m2",
+      "value": "Maren reads the manifest by lamplight. Twice. At the steward's mark she closes the book and does not open it again."
+    },
+    {
+      "key": "dlg.keep_manifest.m3",
+      "value": "Every diverted wagon received and stamped — and a paymaster's signature I will have to answer for knowing. This reaches the High Marshal tonight. Not by post. By me."
+    },
+    {
+      "key": "dlg.keep_roane_shut.r1",
+      "value": "Don't — please. I only kept the books. Durn holds the dais, his men hold the corridor, and I counted what came in through the breach."
+    },
+    {
+      "key": "dlg.keep_roane_shut.r2",
+      "value": "The manifest? Red chest, right here in the vault. Everything Harrow's steward sent, signed and stamped. Take it — when the Castellan is in no state to take it back."
+    },
+    {
+      "key": "dlg.keep_roane_spared.s1",
+      "value": "I go at first light. The page you want in the manifest is the one with the harbormaster's seal — do not let anyone call it a forgery. The ink is too expensive to fake."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t1",
+      "value": "Then it is done. Durn is down, the store is yours to count. What happens to the man who kept his books?"
+    },
+    {
+      "key": "dlg.keep_roane_turns.t2",
+      "value": "I know every name in that book. I can read you the steward's mark backwards. Or I can walk. Your word decides which."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t2.c1",
+      "value": "Walk, and keep walking south. The valley does not hang clerks."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t2.c2",
+      "value": "You will answer for every line you counted. Out."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t3a",
+      "value": "South. There is a village with a new fire — I hear they take strays. Thank you, warden. Truly."
+    },
+    {
+      "key": "dlg.keep_roane_turns.t3b",
+      "value": "Then the books speak without me. They do, you know. Every page of them."
+    },
+    {
       "key": "dlg.maren_arrival.maren_1",
       "value": "Warden Voss. Inspector Maren Ashby, of the Ash Marshals. The High Marshal sends her commendation, and me."
     },
@@ -1067,6 +1207,26 @@
     {
       "key": "event.hollow.pass",
       "value": "Lookouts drop into the pass."
+    },
+    {
+      "key": "event.keep.corridor",
+      "value": "Shields rise in the torch-light."
+    },
+    {
+      "key": "event.keep.vault",
+      "value": "The dead still keep the vault."
+    },
+    {
+      "key": "event.keep.watch",
+      "value": "The vestibule watch turns out."
+    },
+    {
+      "key": "event.keep_deserter.banner",
+      "value": "A man in a stripped sash has followed the road home."
+    },
+    {
+      "key": "event.manifest_buyer.banner",
+      "value": "A hooded rider waits at the light's edge, asking for the Warden by title."
     },
     {
       "key": "event.marshal_returns.banner",
@@ -1781,6 +1941,14 @@
       "value": "Greymarch Supply Ledger"
     },
     {
+      "key": "item.quest_keep_manifest.desc",
+      "value": "Every diverted wagon received at the iron keep, stamped with a harbormaster's seal and a paymaster's left-handed mark."
+    },
+    {
+      "key": "item.quest_keep_manifest.name",
+      "value": "The Keep's Manifest"
+    },
+    {
       "key": "item.quest_marshal_writ.desc",
       "value": "Stamped twice and signed once. It says Rennfall cooperates, which is a shield until it is a receipt."
     },
@@ -2257,6 +2425,10 @@
       "value": "Blackthorn Hollow"
     },
     {
+      "key": "place.Keep",
+      "value": "The Iron Keep"
+    },
+    {
       "key": "place.Rennfall",
       "value": "Rennfall"
     },
@@ -2317,6 +2489,10 @@
       "value": "Tend the oathfire"
     },
     {
+      "key": "prompt.keepStores",
+      "value": "Search the quartermaster's stores"
+    },
+    {
       "key": "prompt.salvage",
       "value": "Search the wreck"
     },
@@ -2351,6 +2527,14 @@
     {
       "key": "prompt.travel.hollowOut",
       "value": "Climb back up to the trade road"
+    },
+    {
+      "key": "prompt.travel.keep",
+      "value": "Take the overgrown keep road north"
+    },
+    {
+      "key": "prompt.travel.keepOut",
+      "value": "Take the road back to the valley road"
     },
     {
       "key": "prompt.travel.rennfall",
@@ -2455,6 +2639,34 @@
     {
       "key": "quest.q_inspector.title",
       "value": "The Marshal's Kindness"
+    },
+    {
+      "key": "quest.q_keep.s1",
+      "value": "Take the overgrown keep road off the trade road"
+    },
+    {
+      "key": "quest.q_keep.s2",
+      "value": "Break the deserters holding the keep"
+    },
+    {
+      "key": "quest.q_keep.s3",
+      "value": "Face Castellan Durn on the dais of the great hall"
+    },
+    {
+      "key": "quest.q_keep.s4",
+      "value": "Find the quartermaster's manifest in the vault"
+    },
+    {
+      "key": "quest.q_keep.s5",
+      "value": "Bring the manifest to Inspector Maren in Rennfall"
+    },
+    {
+      "key": "quest.q_keep.summary",
+      "value": "The ledger's last page points north: a dead Crown keep that still takes deliveries, under guard. Whatever Harrow is building, it is being built there."
+    },
+    {
+      "key": "quest.q_keep.title",
+      "value": "The Iron Keep"
     },
     {
       "key": "quest.q_prologue.s1",
@@ -2937,12 +3149,20 @@
       "value": "Brann Hollowell"
     },
     {
+      "key": "speaker.courier",
+      "value": "A Voice With No Banner"
+    },
+    {
       "key": "speaker.crane",
       "value": "The Grey Shepherd"
     },
     {
       "key": "speaker.dace",
       "value": "Corporal Dace"
+    },
+    {
+      "key": "speaker.durn",
+      "value": "Castellan Durn"
     },
     {
       "key": "speaker.galen",
@@ -2987,6 +3207,10 @@
     {
       "key": "speaker.refugee",
       "value": "Nessa Aldwin"
+    },
+    {
+      "key": "speaker.roane",
+      "value": "Roane"
     },
     {
       "key": "speaker.rook",
@@ -3065,6 +3289,10 @@
       "value": "Dawn. The valley is quiet again."
     },
     {
+      "key": "toast.durnDown",
+      "value": "Castellan Durn has fallen"
+    },
+    {
       "key": "toast.equipped",
       "value": "Equipped"
     },
@@ -3103,6 +3331,14 @@
     {
       "key": "toast.hollowPass",
       "value": "The pass is clear"
+    },
+    {
+      "key": "toast.keepCorridor",
+      "value": "The corridor is clear"
+    },
+    {
+      "key": "toast.keepWatch",
+      "value": "The vestibule is quiet"
     },
     {
       "key": "toast.needMaterials",

@@ -59,6 +59,36 @@
       "from": "Hollow",
       "to": "Greymarch",
       "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Keep",
+      "via": "Keep"
+    },
+    {
+      "from": "Keep",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Greymarch",
+      "via": "TradeRoad"
     }
   ],
   "guides": [
@@ -309,6 +339,36 @@
       "target": "spot",
       "id": "road_ambush",
       "scene": "TradeRoad"
+    },
+    {
+      "key": "act2.found_keep",
+      "target": "exit",
+      "id": "Keep",
+      "scene": "TradeRoad"
+    },
+    {
+      "key": "kills.keep",
+      "target": "spot",
+      "id": "keep_fight",
+      "scene": "Keep"
+    },
+    {
+      "key": "act2.durn_defeated",
+      "target": "spot",
+      "id": "keep_boss",
+      "scene": "Keep"
+    },
+    {
+      "key": "quest_keep_manifest",
+      "target": "spot",
+      "id": "keep_manifest",
+      "scene": "Keep"
+    },
+    {
+      "key": "act2.manifest_delivered",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
     }
   ]
 }

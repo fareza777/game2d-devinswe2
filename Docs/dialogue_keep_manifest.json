@@ -1,0 +1,38 @@
+{
+  "id": "keep_manifest",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "maren",
+      "text": {
+        "en": "You came back from the keep. Show me what was worth holding a dead fortress for.",
+        "id": "Anda kembali dari benteng itu. Tunjukkan apa yang layak dipertahankan oleh sebuah benteng mati."
+      },
+      "next": "m2",
+      "takeItems": [
+        "quest_keep_manifest"
+      ]
+    },
+    {
+      "id": "m2",
+      "speaker": "",
+      "text": {
+        "en": "Maren reads the manifest by lamplight. Twice. At the steward's mark she closes the book and does not open it again.",
+        "id": "Maren membaca manifest itu di bawah cahaya lampu. Dua kali. Pada cap pengurus, ia menutup buku itu dan tidak membukanya lagi."
+      },
+      "next": "m3"
+    },
+    {
+      "id": "m3",
+      "speaker": "maren",
+      "text": {
+        "en": "Every diverted wagon received and stamped — and a paymaster's signature I will have to answer for knowing. This reaches the High Marshal tonight. Not by post. By me.",
+        "id": "Setiap pedati yang disimpangkan, diterima dan dicap — beserta tanda tangan bendahara yang harus kujawab karena mengetahuinya. Ini sampai ke Marshal Agung malam ini. Bukan lewat pos. Lewat saya."
+      },
+      "setFlags": [
+        "act2.manifest_delivered"
+      ]
+    }
+  ]
+}

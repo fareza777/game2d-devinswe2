@@ -1,0 +1,19 @@
+{
+  "id": "keep_roane_spared",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "roane",
+      "textKey": "dlg.keep_roane_spared.s1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

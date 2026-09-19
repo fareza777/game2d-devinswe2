@@ -114,6 +114,46 @@
       "tint": "#8C97A6"
     },
     {
+      "id": "keep_deserter",
+      "kind": "Visitor",
+      "phase": "Day",
+      "scriptId": "event_keep_deserter",
+      "speakerKey": "speaker.roane",
+      "banner": {
+        "en": "A man in a stripped sash has followed the road home.",
+        "id": "Seorang berserban terkoyak mengikuti jalan pulang."
+      },
+      "requiresFlag": "act2.roane_spared",
+      "minNights": 2,
+      "priority": 25,
+      "chance": 0.7,
+      "approachAngle": 340,
+      "approachDistance": 2.4,
+      "tint": "#8E8A80",
+      "timeLimitSeconds": 150,
+      "expireFlag": "event.keep_deserter.missed"
+    },
+    {
+      "id": "manifest_buyer",
+      "kind": "Visitor",
+      "phase": "Night",
+      "scriptId": "event_manifest_buyer",
+      "speakerKey": "speaker.courier",
+      "banner": {
+        "en": "A hooded rider waits at the light's edge, asking for the Warden by title.",
+        "id": "Seorang penunggang bertudung menunggu di tepi cahaya, menanyakan sang Warden."
+      },
+      "requiresFlag": "act2.manifest_delivered",
+      "minNights": 2,
+      "priority": 42,
+      "chance": 0.65,
+      "approachAngle": 160,
+      "approachDistance": 2.0,
+      "tint": "#5A5E6E",
+      "timeLimitSeconds": 120,
+      "expireFlag": "event.manifest_buyer.missed"
+    },
+    {
       "id": "shepherd_speaks",
       "kind": "Visitor",
       "phase": "Night",

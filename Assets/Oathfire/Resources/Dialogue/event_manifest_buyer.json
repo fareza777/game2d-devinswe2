@@ -1,0 +1,115 @@
+{
+  "id": "event_manifest_buyer",
+  "startNode": "c1",
+  "nodes": [
+    {
+      "id": "c1",
+      "speaker": "courier",
+      "textKey": "dlg.event_manifest_buyer.c1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "c2",
+      "choices": []
+    },
+    {
+      "id": "c2",
+      "speaker": "courier",
+      "textKey": "dlg.event_manifest_buyer.c2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.event_manifest_buyer.c2.c1",
+          "next": "c3a",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.manifest_sold",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_manifest_buyer.c2.c2",
+          "next": "c3b",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.buyer_refused",
+          "faction": "hearth",
+          "reputation": 8,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.event_manifest_buyer.c2.c3",
+          "next": "c3c",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.buyer_warned",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "c3a",
+      "speaker": "courier",
+      "textKey": "dlg.event_manifest_buyer.c3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.manifest_buyer.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 120,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "c3b",
+      "speaker": "courier",
+      "textKey": "dlg.event_manifest_buyer.c3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.manifest_buyer.done"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "c3c",
+      "speaker": "courier",
+      "textKey": "dlg.event_manifest_buyer.c3c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "event.manifest_buyer.done",
+        "act2.recordhouse_hinted"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "keep_durn",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "durn",
+      "text": {
+        "en": "Another warden up the hill. Rook's buyers sent word you might come. They did not send word you would get this far.",
+        "id": "Satu lagi warden mendaki bukit. Para pembeli Rook mengirim kabar kau mungkin datang. Mereka tak mengirim kabar kau akan sampai sejauh ini."
+      },
+      "next": "d2"
+    },
+    {
+      "id": "d2",
+      "speaker": "durn",
+      "text": {
+        "en": "I was the Ash Line's quartermaster here, before the Line walked south and forgot to take the keys. Everything under this hall was mine to count. Now it is mine to keep.",
+        "id": "Aku bendahara Barisan Abu di sini, sebelum Barisan berjalan ke selatan dan lupa membawa kuncinya. Segala yang di bawah aula ini dulu milikku untuk kuhitung. Sekarang milikku untuk kusimpan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The valley's food, sold back at a price. You are done counting, Durn.",
+            "id": "Makanan lembah, dijual kembali dengan harga. Kau sudah selesai menghitung, Durn."
+          },
+          "next": "d3a",
+          "tone": "iron"
+        },
+        {
+          "text": {
+            "en": "Hand me the manifest and walk south after the Line.",
+            "id": "Serahkan manifest itu dan berjalan ke selatan menyusul Barisan."
+          },
+          "next": "d3b",
+          "tone": "mercy"
+        },
+        {
+          "text": {
+            "en": "Harrow's steward pays well. Name your price to turn on him instead.",
+            "id": "Pengurus Harrow membayar mahal. Sebutkan hargamu untuk berbalik melawannya."
+          },
+          "next": "d3c",
+          "tone": "guile",
+          "setFlag": "act2.durn_bargained"
+        }
+      ]
+    },
+    {
+      "id": "d3a",
+      "speaker": "durn",
+      "text": {
+        "en": "No. I am done being counted. There is a difference, and you are about to learn it.",
+        "id": "Tidak. Aku sudah selesai dihitung. Ada bedanya, dan kau akan segera mempelajarinya."
+      }
+    },
+    {
+      "id": "d3b",
+      "speaker": "durn",
+      "text": {
+        "en": "South is where the Line is, and a rope waits for deserters. I will take my chances with you, warden.",
+        "id": "Ke selatan adalah tempat Barisan berada, dan seutas tali menanti para desertir. Aku lebih memilih mencoba peruntungan denganmu, warden."
+      }
+    },
+    {
+      "id": "d3c",
+      "speaker": "durn",
+      "text": {
+        "en": "He pays for silence, not for swords. Whatever you offer, his answer is already in my vault — under my guard.",
+        "id": "Ia membayar untuk diam, bukan untuk pedang. Apa pun tawaranmu, jawabannya sudah ada di gudangku — di bawah penjagaanku."
+      }
+    }
+  ]
+}

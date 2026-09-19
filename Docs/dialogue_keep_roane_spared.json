@@ -1,0 +1,14 @@
+{
+  "id": "keep_roane_spared",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "roane",
+      "text": {
+        "en": "I go at first light. The page you want in the manifest is the one with the harbormaster's seal — do not let anyone call it a forgery. The ink is too expensive to fake.",
+        "id": "Aku berangkat saat fajar. Halaman manifest yang kau cari adalah yang bersegel syahbandar — jangan biarkan siapa pun menyebutnya palsu. Tinta itu terlalu mahal untuk ditiru."
+      }
+    }
+  ]
+}

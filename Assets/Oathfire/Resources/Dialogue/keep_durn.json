@@ -1,0 +1,108 @@
+{
+  "id": "keep_durn",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "durn",
+      "textKey": "dlg.keep_durn.d1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "d2",
+      "choices": []
+    },
+    {
+      "id": "d2",
+      "speaker": "durn",
+      "textKey": "dlg.keep_durn.d2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.keep_durn.d2.c1",
+          "next": "d3a",
+          "tone": "iron",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.keep_durn.d2.c2",
+          "next": "d3b",
+          "tone": "mercy",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.keep_durn.d2.c3",
+          "next": "d3c",
+          "tone": "guile",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "act2.durn_bargained",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "d3a",
+      "speaker": "durn",
+      "textKey": "dlg.keep_durn.d3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "d3b",
+      "speaker": "durn",
+      "textKey": "dlg.keep_durn.d3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "d3c",
+      "speaker": "durn",
+      "textKey": "dlg.keep_durn.d3c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

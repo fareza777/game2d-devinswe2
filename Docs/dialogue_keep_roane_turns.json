@@ -1,0 +1,69 @@
+{
+  "id": "keep_roane_turns",
+  "startNode": "t1",
+  "nodes": [
+    {
+      "id": "t1",
+      "speaker": "roane",
+      "text": {
+        "en": "Then it is done. Durn is down, the store is yours to count. What happens to the man who kept his books?",
+        "id": "Selesai kalau begitu. Durn tumbang, gudangnya milikmu untuk dihitung. Bagaimana dengan orang yang menjaga bukunya?"
+      },
+      "next": "t2"
+    },
+    {
+      "id": "t2",
+      "speaker": "roane",
+      "text": {
+        "en": "I know every name in that book. I can read you the steward's mark backwards. Or I can walk. Your word decides which.",
+        "id": "Aku hafal setiap nama di buku itu. Aku bisa bacakan cap pengurus itu terbalik. Atau aku bisa pergi. Kata-katamu yang menentukan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Walk, and keep walking south. The valley does not hang clerks.",
+            "id": "Pergi, dan terus ke selatan. Lembah tak menggantung juru tulis."
+          },
+          "next": "t3a",
+          "tone": "mercy",
+          "setFlag": "act2.roane_spared",
+          "faction": "hearth",
+          "reputation": 8
+        },
+        {
+          "text": {
+            "en": "You will answer for every line you counted. Out.",
+            "id": "Kau akan menjawab setiap baris yang kau hitung. Keluar."
+          },
+          "next": "t3b",
+          "tone": "iron",
+          "setFlag": "act2.roane_driven",
+          "faction": "ash",
+          "reputation": 6
+        }
+      ]
+    },
+    {
+      "id": "t3a",
+      "speaker": "roane",
+      "text": {
+        "en": "South. There is a village with a new fire — I hear they take strays. Thank you, warden. Truly.",
+        "id": "Ke selatan. Ada desa dengan api baru — kudengar mereka menerima orang tersesat. Terima kasih, warden. Sungguh."
+      },
+      "setFlags": [
+        "act2.roane_answered"
+      ]
+    },
+    {
+      "id": "t3b",
+      "speaker": "roane",
+      "text": {
+        "en": "Then the books speak without me. They do, you know. Every page of them.",
+        "id": "Kalau begitu buku-buku itu bicara tanpaku. Mereka bicara, kau tahu. Setiap halamannya."
+      },
+      "setFlags": [
+        "act2.roane_answered"
+      ]
+    }
+  ]
+}

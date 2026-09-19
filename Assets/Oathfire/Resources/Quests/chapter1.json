@@ -420,6 +420,86 @@
       }
     },
     {
+      "id": "q_keep",
+      "act": "act2",
+      "mainQuest": true,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.found_keep",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.keep_s1"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.keep",
+              "amount": 6,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.keep_s2"
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.durn_defeated",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.keep_s3"
+        },
+        {
+          "id": "s4",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_keep_manifest",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.keep_s4"
+        },
+        {
+          "id": "s5",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.manifest_delivered",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.keep_done"
+        }
+      ],
+      "reward": {
+        "experience": 650,
+        "coin": 55,
+        "items": [
+          "axe_harrow",
+          "potion_small"
+        ],
+        "faction": "ash",
+        "reputation": 10
+      }
+    },
+    {
       "id": "sq_tally",
       "act": "act1",
       "mainQuest": false,

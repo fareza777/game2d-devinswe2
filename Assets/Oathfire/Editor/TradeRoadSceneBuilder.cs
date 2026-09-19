@@ -135,6 +135,19 @@ namespace Oathfire.EditorTools
                 MapScene.Gate(trail, "act2.dace_briefed");
             }
 
+            // The old keep road, overgrown since the garrison walked off it. It reads as a road again only
+            // once Vesna's ledger says someone has been making deliveries up there.
+            if (at.trail2 != null)
+            {
+                var keepRoad = new GameObject("Keep road");
+                keepRoad.transform.position = map.At(at.trail2);
+                GameObject keepExit = MapScene.BuildExit(map.At(at.trail2), "Keep", "prompt.travel.keep", "act2.found_keep");
+                keepExit.transform.SetParent(keepRoad.transform, true);
+                MapScene.BuildProp("Trail post", "Misc B52_E", map.At(at.trail2) + new Vector3(-0.45f, 0.2f, 0f), keepExit.transform,
+                    solid: false, strikeable: false);
+                MapScene.Gate(keepRoad, "act2.keep_rumoured");
+            }
+
             if (at.search != null)
                 MapScene.BuildSearchSpot("Wick's lamp", map.At(at.search), "search_lamp", "Misc A2_E", "quest_wick_lamp",
                     "sq.lamp.found", "quest.sq_wicks_lamp.taken");

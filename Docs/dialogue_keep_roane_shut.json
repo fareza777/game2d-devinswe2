@@ -1,0 +1,26 @@
+{
+  "id": "keep_roane_shut",
+  "startNode": "r1",
+  "nodes": [
+    {
+      "id": "r1",
+      "speaker": "roane",
+      "text": {
+        "en": "Don't — please. I only kept the books. Durn holds the dais, his men hold the corridor, and I counted what came in through the breach.",
+        "id": "Jangan — kumohon. Aku hanya penjaga buku. Durn memegang anjungan, anak buahnya memegang koridor, dan aku menghitung apa yang masuk lewat celah itu."
+      },
+      "next": "r2"
+    },
+    {
+      "id": "r2",
+      "speaker": "roane",
+      "text": {
+        "en": "The manifest? Red chest, right here in the vault. Everything Harrow's steward sent, signed and stamped. Take it — when the Castellan is in no state to take it back.",
+        "id": "Manifest itu? Peti merah, di ruang bawah ini. Semua kiriman pengurus Harrow, bertanda dan bersegel. Ambillah — saat sang Castellan sudah tak bisa merebutnya kembali."
+      },
+      "setFlags": [
+        "act2.manifest_hinted"
+      ]
+    }
+  ]
+}

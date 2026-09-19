@@ -502,6 +502,22 @@
       "icon": "LootIcons_28"
     },
     {
+      "id": "quest_keep_manifest",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.keep_manifest",
+      "name": {
+        "en": "The Keep's Manifest",
+        "id": "Manifest Benteng"
+      },
+      "desc": {
+        "en": "Every diverted wagon received at the iron keep, stamped with a harbormaster's seal and a paymaster's left-handed mark.",
+        "id": "Setiap pedati yang disimpangkan dan diterima di benteng besi, bersegel syahbandar dan bertanda tangan kiri bendahara."
+      },
+      "icon": "LootIcons_28"
+    },
+    {
       "id": "quest_order_orders",
       "kind": "Quest",
       "rarity": "Rare",
