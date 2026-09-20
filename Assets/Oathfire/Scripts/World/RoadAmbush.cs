@@ -20,8 +20,8 @@ namespace Oathfire.World
         public void SetLooks(ActorLook[] attackerLooks) => looks = attackerLooks;
         [SerializeField] int count = 4;
         [Tooltip("The road comes after the first nights: tougher than night one, gentler than the pack's sandbox.")]
-        [SerializeField] float healthMultiplier = 0.75f;
-        [SerializeField] int hitDamage = 7;
+        [SerializeField] float healthMultiplier = 0.85f;
+        [SerializeField] int hitDamage = 9;
         [SerializeField] float triggerRadius = 4.5f;
         [SerializeField] float spread = 6f;
         [Tooltip("Shown across the top when the road closes.")]

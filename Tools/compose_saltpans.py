@@ -114,6 +114,17 @@ def dress_camp(camp: Camp) -> None:
         p(cell, tile)
     for cell in ((0, 6), (2, 8), (31, 11), (32, 16), (5, 23), (12, 22), (18, 24), (25, 2)):
         camp.put("Objects", cell, "Flora B3_N")
+    # The bare upper flat and the west end of the yard: gleaners' leavings and wind-worn things —
+    # dead scrub, stone, a wrecked gleaner cart, sacks that never made the lane.
+    for cell, tile in {(4, 2): "Misc E9_N", (8, 1): "Misc E8_N", (14, 2): "Stone A3_E",
+                       (20, 1): "Misc E10_N", (26, 2): "Misc E8_N", (16, 0): "Misc E11_N",
+                       (3, 15): "Misc E11_N", (6, 18): "Stone A4_E", (9, 22): "Misc E9_N",
+                       (1, 24): "Tree E5_N", (17, 20): "Misc C9_E", (19, 17): "Misc B45_N",
+                       (14, 16): "Misc B58_E", (29, 12): "Misc B53_E"}.items():
+        p(cell, tile)
+    p((10, 3), "Misc B40_E", solid=False)   # a spread gleaning-cloth, salt drying on it
+    p((5, 16), "Misc C2_N", solid=False)    # a dropped basket
+    p((23, 4), "Misc C8_E", solid=False)    # stone pail by the gleaner tents
 
 
 def anchors(camp: Camp) -> dict:

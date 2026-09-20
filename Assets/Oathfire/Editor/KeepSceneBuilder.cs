@@ -42,9 +42,9 @@ namespace Oathfire.EditorTools
             GameObject[] deserters = TradeRoadSceneBuilder.EnemyPrefabs();
             ActorLook[] looks = DeserterLooks();
             // The watch has fallen back inside the breach; the corridor guard holds the narrow ground.
-            BuildFight("Vestibule watch", map.At(at.arrivals[0]), deserters, looks, count: 3, unlocked: 2, health: 0.9f, damage: 10,
+            BuildFight("Vestibule watch", map.At(at.arrivals[0]), deserters, looks, count: 3, unlocked: 2, health: 1f, damage: 12,
                 "event.keep.watch", "act2.keep_watch_cleared", "toast.keepWatch", triggerRadius: 4.2f, spread: 3.4f);
-            BuildFight("Corridor guard", map.At(at.arrivals[1]), deserters, looks, count: 3, unlocked: 3, health: 0.95f, damage: 11,
+            BuildFight("Corridor guard", map.At(at.arrivals[1]), deserters, looks, count: 4, unlocked: 3, health: 1.05f, damage: 13,
                 "event.keep.corridor", "act2.keep_corridor_cleared", "toast.keepCorridor", triggerRadius: 3.0f, spread: 2.4f);
 
             BuildCastellan(map.At(at.hearth));
@@ -98,6 +98,7 @@ namespace Oathfire.EditorTools
             MapScene.Look("Stripped sash", "NPC1", new Color(0.72f, 0.7f, 0.64f), 0.95f, 1.05f, "kills.deserter"),
             MapScene.Look("Keep watch", "NPC2", new Color(0.5f, 0.54f, 0.62f), 1f, 1.12f, "kills.deserter"),
             MapScene.Look("Powder caster", "NPC1", new Color(0.74f, 0.66f, 0.78f), 0.92f, 1.02f, "kills.deserter"),
+            MapScene.Look("Mustered-out knight", "NPC2", new Color(0.42f, 0.44f, 0.5f), 1.08f, 1.22f, "kills.deserter"),
         };
 
         static void BuildFight(string name, Vector3 position, GameObject[] prefabs, ActorLook[] looks, int count, int unlocked,

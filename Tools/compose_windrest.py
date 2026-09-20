@@ -121,6 +121,16 @@ def dress_knoll(knoll: Knoll) -> None:
         knoll.put("Objects", cell, "Flora B1_S")
     for cell in ((5, 16), (12, 17), (16, 16), (17, 20), (24, 15), (31, 14), (31, 20), (4, 22), (12, 2)):
         knoll.put("Objects", cell, "Flora B3_N")
+    # The open pasture on the upper slope: a hay rack for the workhorses, a stone trough,
+    # a resting sheaf or two — the hill is worked, not empty.
+    p((5, 2), "Misc B29_N")
+    p((10, 1), "Tree A2_S")
+    p((20, 2), "Misc B29_E")
+    p((28, 4), "Misc E2_N", solid=False)
+    p((7, 1), "Misc E3_N", solid=False)
+    p((14, 3), "Stone A2_E")
+    p((25, 1), "Misc E6_E", solid=False)
+    p((2, 6), "Misc B42_E")                   # a stone trough on the pasture side
 
 
 def anchors(knoll: Knoll) -> dict:

@@ -1857,6 +1857,10 @@
       "value": "HP maks +{0}   ·   Serangan +{1}   ·   Luka pulih"
     },
     {
+      "key": "hud.menu",
+      "value": "MENU"
+    },
+    {
       "key": "hud.night",
       "value": "{0}  ·  {1} masih berdiri"
     },
@@ -2837,6 +2841,10 @@
       "value": "Senjata"
     },
     {
+      "key": "menu.back",
+      "value": "Kembali"
+    },
+    {
       "key": "menu.continue",
       "value": "Lanjutkan"
     },
@@ -2851,6 +2859,38 @@
     {
       "key": "menu.quit",
       "value": "Keluar"
+    },
+    {
+      "key": "menu.resume",
+      "value": "Lanjutkan"
+    },
+    {
+      "key": "menu.save",
+      "value": "Simpan"
+    },
+    {
+      "key": "menu.saveTitle",
+      "value": "Tulis perjalanan ke slot"
+    },
+    {
+      "key": "menu.saved",
+      "value": "Perjalanan tertulis di slot {0}"
+    },
+    {
+      "key": "menu.slot",
+      "value": "Slot {0}"
+    },
+    {
+      "key": "menu.slotEmpty",
+      "value": "belum ada tulisan"
+    },
+    {
+      "key": "menu.title",
+      "value": "Jalan Menunggu"
+    },
+    {
+      "key": "menu.toTitle",
+      "value": "Kembali ke Menu Utama"
     },
     {
       "key": "night.push.1",

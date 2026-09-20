@@ -41,9 +41,9 @@ namespace Oathfire.EditorTools
             GameObject[] bandits = TradeRoadSceneBuilder.EnemyPrefabs();
             ActorLook[] looks = TradeRoadSceneBuilder.BanditLooks();
             // The crew round the fire are the plain ones; the lookouts in the pass include the turned warden and the caster.
-            BuildFight("Camp fight", map.At(at.arrivals[0]), bandits, looks, count: 4, unlocked: 2, health: 0.8f, damage: 8,
+            BuildFight("Camp fight", map.At(at.arrivals[0]), bandits, looks, count: 5, unlocked: 2, health: 0.9f, damage: 10,
                 "event.hollow.camp", "act2.hollow_camp_cleared", "toast.hollowCamp");
-            BuildFight("Pass fight", map.At(at.arrivals[1]), bandits, looks, count: 3, unlocked: 4, health: 0.85f, damage: 9,
+            BuildFight("Pass fight", map.At(at.arrivals[1]), bandits, looks, count: 4, unlocked: 4, health: 0.95f, damage: 11,
                 "event.hollow.pass", "act2.hollow_pass_cleared", "toast.hollowPass");
 
             BuildCaptain(map.At(at.hearth));

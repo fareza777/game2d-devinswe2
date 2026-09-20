@@ -356,8 +356,14 @@ namespace Oathfire.EditorTools
                     MapScene.Look("Grave-risen", "", Color.white, 0.95f, 1.02f),
                     MapScene.Look("Mossbound", "", new Color(0.72f, 0.88f, 0.68f), 0.95f, 1.1f),
                     MapScene.Look("Ashen", "", new Color(0.7f, 0.74f, 0.86f), 0.9f, 1.02f),
+                    MapScene.Look("Barrow-pale", "", new Color(0.86f, 0.84f, 0.74f), 1.02f, 1.14f),
+                    MapScene.Look("Rot-brown", "", new Color(0.76f, 0.66f, 0.52f), 0.92f, 1.06f),
                 },
-                new[] { MapScene.Look("Emberborn", "", new Color(1f, 0.62f, 0.45f), 1.15f, 1.25f) });
+                new[]
+                {
+                    MapScene.Look("Emberborn", "", new Color(1f, 0.62f, 0.45f), 1.15f, 1.25f),
+                    MapScene.Look("Cold crown", "", new Color(0.62f, 0.78f, 0.95f), 1.1f, 1.22f),
+                });
         }
 
         static void SetUpWorldEvents()

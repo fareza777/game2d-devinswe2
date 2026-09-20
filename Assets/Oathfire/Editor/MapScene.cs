@@ -390,6 +390,7 @@ namespace Oathfire.EditorTools
             hudSkin.FindPropertyRelative("attackIcon").objectReferenceValue = LoadSubSprite(SkillSheet, "SkillIcons_5");
             hud.FindProperty("packIcon").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_56");
             hud.FindProperty("bookIcon").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_107");
+            hud.FindProperty("menuIcon").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_48");
             hud.ApplyModifiedPropertiesWithoutUndo();
 
             var controlsGo = new GameObject("MobileControls", typeof(MobileControls));
@@ -457,6 +458,11 @@ namespace Oathfire.EditorTools
             hero.FindProperty("panelSprite").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_0");
             hero.FindProperty("frameSprite").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_17");
             hero.ApplyModifiedPropertiesWithoutUndo();
+
+            var menuGo = new GameObject("PauseMenuPanel", typeof(PauseMenuPanel));
+            var menu = new SerializedObject(menuGo.GetComponent<PauseMenuPanel>());
+            menu.FindProperty("panelSprite").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_0");
+            menu.ApplyModifiedPropertiesWithoutUndo();
 
             var inventoryGo = new GameObject("InventoryPanel", typeof(InventoryPanel));
             var inventory = new SerializedObject(inventoryGo.GetComponent<InventoryPanel>());

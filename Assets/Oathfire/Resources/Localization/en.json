@@ -1857,6 +1857,10 @@
       "value": "Max health +{0}   ·   Attack +{1}   ·   Wounds healed"
     },
     {
+      "key": "hud.menu",
+      "value": "MENU"
+    },
+    {
       "key": "hud.night",
       "value": "{0}  ·  {1} still standing"
     },
@@ -2837,6 +2841,10 @@
       "value": "Weapon"
     },
     {
+      "key": "menu.back",
+      "value": "Back"
+    },
+    {
       "key": "menu.continue",
       "value": "Continue"
     },
@@ -2851,6 +2859,38 @@
     {
       "key": "menu.quit",
       "value": "Quit"
+    },
+    {
+      "key": "menu.resume",
+      "value": "Continue"
+    },
+    {
+      "key": "menu.save",
+      "value": "Save Game"
+    },
+    {
+      "key": "menu.saveTitle",
+      "value": "Write the journey to a slot"
+    },
+    {
+      "key": "menu.saved",
+      "value": "Journey written to slot {0}"
+    },
+    {
+      "key": "menu.slot",
+      "value": "Slot {0}"
+    },
+    {
+      "key": "menu.slotEmpty",
+      "value": "nothing written yet"
+    },
+    {
+      "key": "menu.title",
+      "value": "The Road Waits"
+    },
+    {
+      "key": "menu.toTitle",
+      "value": "Return to Title"
     },
     {
       "key": "night.push.1",

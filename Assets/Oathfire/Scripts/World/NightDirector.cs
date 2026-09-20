@@ -18,7 +18,7 @@ namespace Oathfire.World
         [SerializeField] GameObject[] eliteEnemies;
         [SerializeField] ActorLook[] looks;
         [SerializeField] ActorLook[] eliteLooks;
-        [SerializeField] int[] waveSizes = { 3, 4, 5 };
+        [SerializeField] int[] waveSizes = { 4, 5, 6 };
         [SerializeField] float waveDelaySeconds = 8f;
         [SerializeField] float spawnRingOffset = 4f;
         [SerializeField] string killCounterKey = "kills.night1";
@@ -54,20 +54,20 @@ namespace Oathfire.World
         public int TotalWaves => CurrentWaves.Length;
 
         /// <summary>
-        /// The nights get harder, and stranger, as the settlement survives them. The first is a lesson: eight plain
-        /// skeleton warriors at little more than half strength. Each night adds one new kind and one new look:
+        /// The nights get harder, and stranger, as the settlement survives them. The first is a lesson: plain
+        /// skeleton warriors at reduced strength. Each night adds one new kind and one new look:
         /// chanting mages on the second, armoured knights on the third, smouldering champions from the fourth.
         /// </summary>
         int NightNumber => (Core.GameServices.Save.Current?.GetCounter("nights.survived") ?? 0) + 1;
 
         int[] CurrentWaves => NightNumber switch
         {
-            1 => new[] { 2, 3, 3 },
-            2 => new[] { 3, 4, 4 },
+            1 => new[] { 3, 4, 4 },
+            2 => new[] { 4, 5, 5 },
             _ => waveSizes,
         };
 
-        float HealthMultiplier => NightNumber switch { 1 => 0.6f, 2 => 0.8f, 3 => 0.9f, _ => 1f };
+        float HealthMultiplier => NightNumber switch { 1 => 0.7f, 2 => 0.9f, 3 => 1f, _ => 1.15f };
 
         /// <summary>Which bodies may walk tonight, in the order they are introduced.</summary>
         static readonly string[] Introduced = { "Warrior", "Mage", "Knight" };
@@ -82,7 +82,7 @@ namespace Oathfire.World
             return NightNumber >= 4;
         }
 
-        int HitDamage => NightNumber switch { 1 => 6, 2 => 8, _ => 10 };
+        int HitDamage => NightNumber switch { 1 => 7, 2 => 9, 3 => 11, _ => 13 };
 
         void Awake() => Instance = this;
 

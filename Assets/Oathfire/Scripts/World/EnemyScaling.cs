@@ -20,7 +20,7 @@ namespace Oathfire.World
             get
             {
                 int level = Progress.PlayerState.Instance?.Level ?? 1;
-                return Mathf.Min(1.6f, 1f + (level - 1) * 0.07f);
+                return Mathf.Min(1.8f, 1f + (level - 1) * 0.08f);
             }
         }
 
@@ -28,7 +28,7 @@ namespace Oathfire.World
         {
             float scale = LevelScale;
             healthMultiplier *= scale;
-            hitDamage = Mathf.RoundToInt(hitDamage * Mathf.Min(1.35f, 1f + (scale - 1f) * 0.5f));
+            hitDamage = Mathf.RoundToInt(hitDamage * Mathf.Min(1.45f, 1f + (scale - 1f) * 0.5f));
             EnemyHealth2D health = enemy.GetComponentInChildren<EnemyHealth2D>();
             if (health)
                 health.ApplyExternalHealthMultiplier(healthMultiplier, fillToMax: true);

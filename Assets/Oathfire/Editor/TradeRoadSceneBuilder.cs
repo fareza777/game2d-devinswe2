@@ -79,6 +79,7 @@ namespace Oathfire.EditorTools
             MapScene.Look("Unmarked boots", "NPC1", new Color(0.55f, 0.52f, 0.5f), 0.95f, 1.05f, "kills.bandit"),
             MapScene.Look("Road warden turned", "NPC2", new Color(0.62f, 0.64f, 0.7f), 1f, 1.12f, "kills.bandit"),
             MapScene.Look("Hedge caster", "NPC1", new Color(0.7f, 0.62f, 0.78f), 0.92f, 1.02f, "kills.bandit"),
+            MapScene.Look("Marshfoot", "NPC2", new Color(0.58f, 0.64f, 0.52f), 0.98f, 1.1f, "kills.bandit"),
         };
 
         /// <summary>What walks the road when nothing has been scripted to.</summary>
