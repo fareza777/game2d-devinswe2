@@ -1,0 +1,96 @@
+{
+  "id": "windrest_tam",
+  "startNode": "t1",
+  "nodes": [
+    {
+      "id": "t1",
+      "speaker": "tam",
+      "textKey": "dlg.windrest_tam.t1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "t2",
+      "choices": []
+    },
+    {
+      "id": "t2",
+      "speaker": "tam",
+      "textKey": "dlg.windrest_tam.t2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "t3",
+      "choices": []
+    },
+    {
+      "id": "t3",
+      "speaker": "tam",
+      "textKey": "dlg.windrest_tam.t3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.windrest_tam.t3.c1",
+          "next": "t4a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.windrest_tam.t3.c2",
+          "next": "t4b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "t4a",
+      "speaker": "tam",
+      "textKey": "dlg.windrest_tam.t4a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "t4b",
+      "speaker": "tam",
+      "textKey": "dlg.windrest_tam.t4b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

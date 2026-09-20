@@ -1501,6 +1501,114 @@
       "value": "Light it every night, Warden. Not because of what is out there. Because of what we become on the nights we do not."
     },
     {
+      "key": "dlg.windrest_bryd.b1",
+      "value": "Bryd — I keep the mill's count. Every stook that leaves this hill is notched twice: once on my stick, once on the carter's. That's how the League knows whose flour it weighs."
+    },
+    {
+      "key": "dlg.windrest_bryd.b2",
+      "value": "Three of my tally-sticks went down in the field when the raiders came through — dropped between the rows where the count broke. Without them the books say the mill ground grain that doesn't exist."
+    },
+    {
+      "key": "dlg.windrest_bryd.b3",
+      "value": "Walk the stook rows and pick them up. A stick under your hand counts better than a guess in my book."
+    },
+    {
+      "key": "dlg.windrest_bryd.b3.c1",
+      "value": "I'll find your three sticks."
+    },
+    {
+      "key": "dlg.windrest_bryd.b3.c2",
+      "value": "Why not just cut new ones?"
+    },
+    {
+      "key": "dlg.windrest_bryd.b4a",
+      "value": "Good. The notches remember what the men forgot."
+    },
+    {
+      "key": "dlg.windrest_bryd.b4b",
+      "value": "A fresh stick holds no memory of the load it counted — the League counts only what was notched when the grain stood. Find the old ones."
+    },
+    {
+      "key": "dlg.windrest_corl.c1",
+      "value": "Mind the vanes — they don't stop for a visitor, they stop for no wind. I'm Corl; this is the Windrest, the knoll that grinds for Rennfall and the League's count both."
+    },
+    {
+      "key": "dlg.windrest_corl.c2",
+      "value": "But the vanes are turning over a field I can't work. Grain-raiders — deserters mostly — squat the stook rows at dusk and carry off sheaves by the armload. My cart stands loaded and doesn't dare the lane."
+    },
+    {
+      "key": "dlg.windrest_corl.c3",
+      "value": "You've cleared the League's ground before, the count's man tells it. Clear my field — four of them off it and the rest will remember the hill has a master."
+    },
+    {
+      "key": "dlg.windrest_corl.c3.c1",
+      "value": "The field will stand clear by nightfall."
+    },
+    {
+      "key": "dlg.windrest_corl.c3.c2",
+      "value": "What does a cleared field pay a Warden?"
+    },
+    {
+      "key": "dlg.windrest_corl.c4a",
+      "value": "Then work the rows while I work the stones. Come back when the field's quiet again."
+    },
+    {
+      "key": "dlg.windrest_corl.c4b",
+      "value": "An oak shield off the League's stores and the mill's thanks — the shield's the better half of that bargain, mind."
+    },
+    {
+      "key": "dlg.windrest_odle.d1",
+      "value": "Odle — I pull the mill's cart, when a cart is allowed to roll. For now I walk the lane so the ruts remember wheels and the raiders remember someone still claims it."
+    },
+    {
+      "key": "dlg.windrest_odo.o1",
+      "value": "Odo — the League's count sits where the sacks are weighed, which is here, under this canopy, not up at the manor where it's warmer. Stand clear of the scale."
+    },
+    {
+      "key": "dlg.windrest_odo.o2",
+      "value": "The mill's count runs through Bryd's sticks and my book, and until the field clears, both of us count what we already know: nothing is moving down the hill."
+    },
+    {
+      "key": "dlg.windrest_tam.t1",
+      "value": "I'm Tam — I stack the meal and load the cart, or I did before the raiders made the lane a dice game. The cart's half-loaded and hasn't rolled in days."
+    },
+    {
+      "key": "dlg.windrest_tam.t2",
+      "value": "Last time Odle tried the lane they cut the cart rope and let the sacks fall where they would — four of them, spilled white down the hill. It's the League's flour, and I'll take the blame for every spilt sack."
+    },
+    {
+      "key": "dlg.windrest_tam.t3",
+      "value": "If you're walking down anyway, pick them up where they split — you'll see the white against the grass. Four sacks and the count comes back even."
+    },
+    {
+      "key": "dlg.windrest_tam.t3.c1",
+      "value": "I'll carry the four sacks back."
+    },
+    {
+      "key": "dlg.windrest_tam.t3.c2",
+      "value": "What's a sack of meal worth to a boy?"
+    },
+    {
+      "key": "dlg.windrest_tam.t4a",
+      "value": "Mind the grass off the lane — they spill where they fall, and some fell far."
+    },
+    {
+      "key": "dlg.windrest_tam.t4b",
+      "value": "A lamp of lamp oil and my name off the tally — the oil's worth more, but the name's worth everything."
+    },
+    {
+      "key": "dlg.windrest_writ.n1",
+      "value": "You've steadied the hearth, so I'll ask after my pot. My meal barrel's near the dust — the Windrest mill hasn't sent a cart down the north lane in a fortnight."
+    },
+    {
+      "key": "dlg.windrest_writ.n2",
+      "value": "The knoll's past the north gate where the street lets out. Miller Corl grinds for the League and the town alike — if his vanes have stopped, something's squatting on his hill."
+    },
+    {
+      "key": "dlg.windrest_writ.n3",
+      "value": "Walk up and see. A cook with no flour is just a woman staring at a cold pot, and I refuse to be her."
+    },
+    {
       "key": "event.ambush.banner",
       "value": "The road has closed behind you."
     },
@@ -1563,6 +1671,10 @@
     {
       "key": "event.marshal_returns.banner",
       "value": "The Marshal's rider has come back, and he is not writing this time."
+    },
+    {
+      "key": "event.mill.field",
+      "value": "Grain-raiders cut through the stooks."
     },
     {
       "key": "event.night_refugee.banner",
@@ -2321,6 +2433,22 @@
       "value": "Writ of Compliance"
     },
     {
+      "key": "item.quest_mill_sack.desc",
+      "value": "A slashed sack of Windrest flour, split open where the cart rope was cut. Heavy with grass seeds now, but it was the League's count when it fell."
+    },
+    {
+      "key": "item.quest_mill_sack.name",
+      "value": "Spilled Meal Sack"
+    },
+    {
+      "key": "item.quest_mill_tally.desc",
+      "value": "A split hazel stick notched twice — Bryd's knife and the carter's. Every notch is a stook of grain the League's book still believes in."
+    },
+    {
+      "key": "item.quest_mill_tally.name",
+      "value": "The Mill's Tally-Stick"
+    },
+    {
       "key": "item.quest_moot_writ.desc",
       "value": "Signed, sealed, and worth a war. Holding it makes you the most invited and most hunted person in Valcaris."
     },
@@ -2849,6 +2977,10 @@
       "value": "The Valley Road"
     },
     {
+      "key": "place.Windrest",
+      "value": "The Windrest"
+    },
+    {
       "key": "prompt.board",
       "value": "Read the notice board"
     },
@@ -2975,6 +3107,14 @@
     {
       "key": "prompt.travel.valley",
       "value": "Take the road back to the valley"
+    },
+    {
+      "key": "prompt.travel.windrest",
+      "value": "Take the north lane up to the Windrest"
+    },
+    {
+      "key": "prompt.travel.windrestOut",
+      "value": "Walk the lane back down to Rennfall"
     },
     {
       "key": "prompt.use",
@@ -3585,6 +3725,42 @@
       "value": "Lamps for the Long Street"
     },
     {
+      "key": "quest.sq_wind_raiders.s1",
+      "value": "Drive the grain-raiders out of the Windrest's field"
+    },
+    {
+      "key": "quest.sq_wind_raiders.summary",
+      "value": "Grain-raiders squat the Windrest's stook rows at dusk and carry the sheaves off by the armload. Miller Corl's vanes turn over a field no one can work — drive four off and the hill remembers its master."
+    },
+    {
+      "key": "quest.sq_wind_raiders.title",
+      "value": "A Field Under Occupation"
+    },
+    {
+      "key": "quest.sq_wind_sacks.s1",
+      "value": "Gather the four spilled meal sacks along the lane"
+    },
+    {
+      "key": "quest.sq_wind_sacks.summary",
+      "value": "The raiders cut the cart rope and let the flour fall — four sacks of meal spilled down the lane. Tam carries the blame for every one. Pick them up where they split."
+    },
+    {
+      "key": "quest.sq_wind_sacks.title",
+      "value": "White Against the Grass"
+    },
+    {
+      "key": "quest.sq_wind_tallies.s1",
+      "value": "Find the three tally-sticks dropped in the field"
+    },
+    {
+      "key": "quest.sq_wind_tallies.summary",
+      "value": "Three tally-sticks were dropped among the stook rows when the raiders came through. Bryd's count hangs on them — a fresh stick holds no memory of the load it counted. Find the old ones."
+    },
+    {
+      "key": "quest.sq_wind_tallies.title",
+      "value": "What the Sticks Remember"
+    },
+    {
       "key": "rarity.Common",
       "value": "Common"
     },
@@ -3737,12 +3913,20 @@
       "value": "Brann Hollowell"
     },
     {
+      "key": "speaker.bryd",
+      "value": "Bryd of the Count"
+    },
+    {
       "key": "speaker.clod",
       "value": "Old Clod"
     },
     {
       "key": "speaker.collum",
       "value": "Reeve Collum"
+    },
+    {
+      "key": "speaker.corl",
+      "value": "Miller Corl"
     },
     {
       "key": "speaker.courier",
@@ -3813,6 +3997,14 @@
       "value": "Old Mirren"
     },
     {
+      "key": "speaker.odle",
+      "value": "Odle the Carter"
+    },
+    {
+      "key": "speaker.odo",
+      "value": "Odo the Weigher"
+    },
+    {
       "key": "speaker.oona",
       "value": "Oona the Porter"
     },
@@ -3855,6 +4047,10 @@
     {
       "key": "speaker.surveyor",
       "value": "Surveyor Kestrel"
+    },
+    {
+      "key": "speaker.tam",
+      "value": "Tam the Mill-lad"
     },
     {
       "key": "speaker.tess",
@@ -3983,6 +4179,10 @@
     {
       "key": "toast.keepWatch",
       "value": "The vestibule is quiet"
+    },
+    {
+      "key": "toast.millField",
+      "value": "The field stands clear"
     },
     {
       "key": "toast.needMaterials",

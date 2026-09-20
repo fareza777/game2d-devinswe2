@@ -42,6 +42,7 @@ namespace Oathfire.EditorTools
             SetUpSideWork(map, at);
             SetUpNoticeBoard(map.At(at.board));
             SetUpRoadOut(map.At(at.roadOut));
+            SetUpMillLane(map, at);
             SetUpGathering(map, at);
             SetUpBuildSites(map, at.plots);
             SetUpNight(map.At(at.hearth));
@@ -107,6 +108,10 @@ namespace Oathfire.EditorTools
             // marks the toll lane on the map.
             MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "saltpans_writ", "act2.manifest_delivered",
                 "act2.saltpans_rumoured");
+            // Once the village has survived a night, Winna's flour barrel runs low: the mill's
+            // cart hasn't come down the north lane, and her asking puts the knoll on the map.
+            MapScene.PrependConversation(GameObject.Find("Old Winna"), "windrest_writ", "act1.night1_survived",
+                "act1.windrest_rumoured");
         }
 
         static void SetUpVillagers(MapScene.MapFile map, MapScene.MapAnchors at)
@@ -225,6 +230,20 @@ namespace Oathfire.EditorTools
             serialized.FindProperty("promptKey").stringValue = "prompt.travel.road";
             serialized.FindProperty("setsFlag").stringValue = "act2.left_the_valley";
             serialized.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        /// <summary>The north lane out to the mill knoll — it exists on the map once Winna asks after her flour.</summary>
+        static void SetUpMillLane(MapScene.MapFile map, MapScene.MapAnchors at)
+        {
+            if (at.trail == null)
+                return;
+            var lane = new GameObject("Mill lane");
+            lane.transform.position = map.At(at.trail);
+            GameObject exit = MapScene.BuildExit(map.At(at.trail), "Windrest", "prompt.travel.windrest", "act2.found_windrest");
+            exit.transform.SetParent(lane.transform, true);
+            MapScene.BuildProp("Lane post", "Misc B52_E", map.At(at.trail) + new Vector3(-0.45f, 0.2f, 0f), exit.transform,
+                solid: false, strikeable: false);
+            MapScene.Gate(lane, "act1.windrest_rumoured");
         }
 
         static void SetUpNoticeBoard(Vector3 position)

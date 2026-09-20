@@ -1,0 +1,47 @@
+{
+  "id": "windrest_writ",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "winna",
+      "textKey": "dlg.windrest_writ.n1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "n2",
+      "choices": []
+    },
+    {
+      "id": "n2",
+      "speaker": "winna",
+      "textKey": "dlg.windrest_writ.n2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "n3",
+      "choices": []
+    },
+    {
+      "id": "n3",
+      "speaker": "winna",
+      "textKey": "dlg.windrest_writ.n3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act1.windrest_rumoured"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

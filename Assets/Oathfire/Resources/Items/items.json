@@ -1035,6 +1035,26 @@
       "icon": "LootIcons_24",
       "slot": 0,
       "stackSize": 1
+    },
+    {
+      "id": "quest_mill_tally",
+      "kind": 5,
+      "rarity": 1,
+      "value": 0,
+      "setsFlag": "quest.mill_tally",
+      "icon": "LootIcons_30",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_mill_sack",
+      "kind": 5,
+      "rarity": 0,
+      "value": 0,
+      "setsFlag": "quest.mill_sack",
+      "icon": "LootIcons_27",
+      "slot": 0,
+      "stackSize": 1
     }
   ]
 }

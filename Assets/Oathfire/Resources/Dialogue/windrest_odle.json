@@ -1,0 +1,19 @@
+{
+  "id": "windrest_odle",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "odle",
+      "textKey": "dlg.windrest_odle.d1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

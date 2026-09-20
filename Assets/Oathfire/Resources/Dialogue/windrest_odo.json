@@ -1,0 +1,32 @@
+{
+  "id": "windrest_odo",
+  "startNode": "o1",
+  "nodes": [
+    {
+      "id": "o1",
+      "speaker": "odo",
+      "textKey": "dlg.windrest_odo.o1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "o2",
+      "choices": []
+    },
+    {
+      "id": "o2",
+      "speaker": "odo",
+      "textKey": "dlg.windrest_odo.o2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

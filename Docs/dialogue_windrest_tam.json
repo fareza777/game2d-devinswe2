@@ -1,0 +1,64 @@
+{
+  "id": "windrest_tam",
+  "startNode": "t1",
+  "nodes": [
+    {
+      "id": "t1",
+      "speaker": "tam",
+      "text": {
+        "en": "I'm Tam — I stack the meal and load the cart, or I did before the raiders made the lane a dice game. The cart's half-loaded and hasn't rolled in days.",
+        "id": "Aku Tam — aku menumpuk tepung dan memuat kereta, atau dulu begitu sebelum perampok membuat lorong ini jadi permainan dadu. Keretanya setengah muat dan tak jalan berhari-hari."
+      },
+      "next": "t2"
+    },
+    {
+      "id": "t2",
+      "speaker": "tam",
+      "text": {
+        "en": "Last time Odle tried the lane they cut the cart rope and let the sacks fall where they would — four of them, spilled white down the hill. It's the League's flour, and I'll take the blame for every spilt sack.",
+        "id": "Terakhir kali Odle mencoba lorong itu, mereka memotong tali kereta dan membiarkan karungnya jatuh sembarangan — empat karung, tumpah putih menuruni bukit. Itu tepung Liga, dan aku yang akan menanggung tiap karung tumpah."
+      },
+      "next": "t3"
+    },
+    {
+      "id": "t3",
+      "speaker": "tam",
+      "text": {
+        "en": "If you're walking down anyway, pick them up where they split — you'll see the white against the grass. Four sacks and the count comes back even.",
+        "id": "Kalau kau turun lewat sana juga, pungut di tempat mereka pecah — akan terlihat putihnya di atas rumput. Empat karung dan hitungannya genap lagi."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "I'll carry the four sacks back.",
+            "id": "Akan kubawa pulang keempat karungnya."
+          },
+          "next": "t4a"
+        },
+        {
+          "text": {
+            "en": "What's a sack of meal worth to a boy?",
+            "id": "Berapa harga sekarung tepung untuk seorang anak?"
+          },
+          "next": "t4b"
+        }
+      ]
+    },
+    {
+      "id": "t4a",
+      "speaker": "tam",
+      "text": {
+        "en": "Mind the grass off the lane — they spill where they fall, and some fell far.",
+        "id": "Hati-hati di rumput di luar lorong — karungnya tumpah di tempat jatuhnya, dan ada yang jatuh jauh."
+      }
+    },
+    {
+      "id": "t4b",
+      "speaker": "tam",
+      "text": {
+        "en": "A lamp of lamp oil and my name off the tally — the oil's worth more, but the name's worth everything.",
+        "id": "Sembulan minyak lampu dan namaku lepas dari catatan rugi — minyaknya lebih mahal, tapi namaku berarti segalanya."
+      }
+    }
+  ]
+}

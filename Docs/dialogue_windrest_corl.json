@@ -1,0 +1,64 @@
+{
+  "id": "windrest_corl",
+  "startNode": "c1",
+  "nodes": [
+    {
+      "id": "c1",
+      "speaker": "corl",
+      "text": {
+        "en": "Mind the vanes — they don't stop for a visitor, they stop for no wind. I'm Corl; this is the Windrest, the knoll that grinds for Rennfall and the League's count both.",
+        "id": "Awas kincirnya — ia tak berhenti untuk tamu, ia berhenti kalau tak ada angin. Aku Corl; ini Windrest, bukit yang menggiling untuk Rennfall dan catatan Liga."
+      },
+      "next": "c2"
+    },
+    {
+      "id": "c2",
+      "speaker": "corl",
+      "text": {
+        "en": "But the vanes are turning over a field I can't work. Grain-raiders — deserters mostly — squat the stook rows at dusk and carry off sheaves by the armload. My cart stands loaded and doesn't dare the lane.",
+        "id": "Tapi kincirku berputar di atas ladang yang tak bisa kugarap. Perampok gandum — kebanyakan pembelot — menduduki barisan berkas saat senja dan membawa kabur gandum sekalenggong. Keretaku sudah penuh muatan tapi tak berani turun."
+      },
+      "next": "c3"
+    },
+    {
+      "id": "c3",
+      "speaker": "corl",
+      "text": {
+        "en": "You've cleared the League's ground before, the count's man tells it. Clear my field — four of them off it and the rest will remember the hill has a master.",
+        "id": "Kau pernah membersihkan tanah Liga, kata penghitungnya. Bersihkan ladangku — usir empat saja, sisanya akan ingat bukit ini ada tuannya."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The field will stand clear by nightfall.",
+            "id": "Ladangnya akan bersih sebelum gelap."
+          },
+          "next": "c4a"
+        },
+        {
+          "text": {
+            "en": "What does a cleared field pay a Warden?",
+            "id": "Berapa upah ladang yang bersih untuk seorang Warden?"
+          },
+          "next": "c4b"
+        }
+      ]
+    },
+    {
+      "id": "c4a",
+      "speaker": "corl",
+      "text": {
+        "en": "Then work the rows while I work the stones. Come back when the field's quiet again.",
+        "id": "Kalau begitu kerjakan barisannya sementara aku memutar batu giling. Kembali saat ladangnya tenang lagi."
+      }
+    },
+    {
+      "id": "c4b",
+      "speaker": "corl",
+      "text": {
+        "en": "An oak shield off the League's stores and the mill's thanks — the shield's the better half of that bargain, mind.",
+        "id": "Perisai kayu ek dari gudang Liga dan terima kasih penggilingan — perisainya bagian yang lebih baik dari tawaran itu, catat itu."
+      }
+    }
+  ]
+}

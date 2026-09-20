@@ -46,6 +46,16 @@ PORTRAITS = {
              "hooded robe hung with small bone charms and glass vials, unsettling calm gaze",
     "crane": "An ancient necromancer shepherd, gaunt hollow face half hidden by a deep grey hood, long white beard, "
              "eyes like cold lanterns, tattered warden's cloak, a shepherd's crook of bound bones",
+    "corl": "A master miller in his fifties, broad flour-dusted face, grizzled short beard white with meal dust, "
+            "heavy brow and patient tired eyes, rolled linen sleeves and a leather apron strap over one shoulder",
+    "bryd": "A miller's wife in her forties, sharp clever face, hair tucked under a plain kerchief, "
+            "chalk marks of tally notches on her cheek and knuckles, appraising eyes that count everything",
+    "tam": "A miller's lad of about sixteen, narrow freckled face under a flop of pale hair, flour on his nose, "
+           "eager worried eyes, oversized rolled-up work shirt",
+    "odo": "A salt League weigher in his forties, thin precise face, pinched lips, ink-stained fingers folded, "
+           "a flat ledger clerk's cap, suspicious exact eyes behind a still expression",
+    "odle": "A carter in his thirties, lean sun-browned face, dusty curls under a flat wool cap, "
+            "easy half-smile, rope burns on his knuckles, a traveller's unhurried gaze",
 }
 
 

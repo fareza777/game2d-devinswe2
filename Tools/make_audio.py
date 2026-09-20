@@ -61,6 +61,7 @@ AMBIENCE = {
     "ravine": (22.0, "a deep rocky ravine: wind moaning between cliffs, a campfire crackling nearby, a crow calling, a wooden palisade creaking, no music"),
     "salt_works": (22.0, "a brine works on a bare flat: low wind over open ground, water dripping in a boiling cauldron, shovelled crust scraping, a cart axle creaking far off, no music"),
     "char_camp": (22.0, "a charcoal burners' camp in a wood clearing: slow fire crackle under an earthed mound, an axe splitting a log far off, wind in a treeline, crows, no music"),
+    "windmill_hill": (22.0, "a windy open hill with a wooden windmill: steady gusts over grass, slow creaking timber vanes turning, ropes and a wooden frame straining, a far-off cart wheel, skylarks, no music"),
 }
 
 # The codex look has a sound: small ensembles of old instruments, nothing synthetic, melancholy before heroic.
@@ -74,6 +75,7 @@ MUSIC = {
     "battle": (45, f"fast fierce medieval skirmish music, driving taiko and snare drums, sharp fiddle runs, brass stabs, 140 bpm, {STYLE}"),
     "saltpans_works": (60, f"patient work-yard theme for a salt camp under a pale sky, slow hand-drum pulse, low droning strings, a dry lonely flute, labour that never ends, 75 bpm, {STYLE}"),
     "burnpits_smoke": (60, f"smoky sparse theme for a charcoal camp in a burned clearing, low dark drone, muffled frame drum, a dry sawing fiddle that never resolves, 70 bpm, {STYLE}"),
+    "windrest_mill": (60, f"airy open-hill theme for a working windmill above green fields, a slow circling fiddle figure like turning vanes, bright wooden flute, light finger cymbal ticks, breath and sky, 78 bpm, {STYLE}"),
 }
 
 

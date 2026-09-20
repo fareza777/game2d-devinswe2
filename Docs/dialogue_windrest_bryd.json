@@ -1,0 +1,64 @@
+{
+  "id": "windrest_bryd",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "bryd",
+      "text": {
+        "en": "Bryd — I keep the mill's count. Every stook that leaves this hill is notched twice: once on my stick, once on the carter's. That's how the League knows whose flour it weighs.",
+        "id": "Bryd — aku yang memegang hitungan penggilingan. Setiap berkas yang turun dari bukit ini diparut dua kali: sekali di tongkatku, sekali di tongkat kusir. Begitu Liga tahu tepung siapa yang ditimbang."
+      },
+      "next": "b2"
+    },
+    {
+      "id": "b2",
+      "speaker": "bryd",
+      "text": {
+        "en": "Three of my tally-sticks went down in the field when the raiders came through — dropped between the rows where the count broke. Without them the books say the mill ground grain that doesn't exist.",
+        "id": "Tiga tongkat hitungku terjatuh di ladang saat para perampok lewat — jatuh di sela barisan tempat hitungannya patah. Tanpa itu, pembukuan bilang penggilingan menggiling gandum yang tak ada."
+      },
+      "next": "b3"
+    },
+    {
+      "id": "b3",
+      "speaker": "bryd",
+      "text": {
+        "en": "Walk the stook rows and pick them up. A stick under your hand counts better than a guess in my book.",
+        "id": "Susuri barisan berkas dan pungut ketiganya. Tongkat di tanganmu lebih bisa dihitung daripada terkaan di bukuku."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "I'll find your three sticks.",
+            "id": "Akan kutemukan tiga tongkatmu."
+          },
+          "next": "b4a"
+        },
+        {
+          "text": {
+            "en": "Why not just cut new ones?",
+            "id": "Kenapa tak buat tongkat baru saja?"
+          },
+          "next": "b4b"
+        }
+      ]
+    },
+    {
+      "id": "b4a",
+      "speaker": "bryd",
+      "text": {
+        "en": "Good. The notches remember what the men forgot.",
+        "id": "Bagus. Parutnya mengingat apa yang dilupakan orang-orang."
+      }
+    },
+    {
+      "id": "b4b",
+      "speaker": "bryd",
+      "text": {
+        "en": "A fresh stick holds no memory of the load it counted — the League counts only what was notched when the grain stood. Find the old ones.",
+        "id": "Tongkat baru tak menyimpan ingatan muatan yang dihitungnya — Liga hanya menghitung apa yang terparut saat gandumnya masih berdiri. Temukan yang lama."
+      }
+    }
+  ]
+}

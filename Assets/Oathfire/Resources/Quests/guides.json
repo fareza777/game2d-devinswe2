@@ -199,6 +199,76 @@
       "from": "Burnpits",
       "to": "Keep",
       "via": "Saltpans"
+    },
+    {
+      "from": "Windrest",
+      "to": "Rennfall",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "TradeRoad",
+      "via": "Rennfall"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Greymarch",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Hollow",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Hollow",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Keep",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Keep",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Saltpans",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Burnpits",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Windrest",
+      "via": "Rennfall"
     }
   ],
   "guides": [
@@ -545,6 +615,24 @@
       "target": "spot",
       "id": "char_coal_1",
       "scene": "Burnpits"
+    },
+    {
+      "key": "kills.mill",
+      "target": "spot",
+      "id": "mill_fight",
+      "scene": "Windrest"
+    },
+    {
+      "key": "quest_mill_tally",
+      "target": "spot",
+      "id": "mill_tally_1",
+      "scene": "Windrest"
+    },
+    {
+      "key": "quest_mill_sack",
+      "target": "spot",
+      "id": "mill_sack_1",
+      "scene": "Windrest"
     }
   ]
 }

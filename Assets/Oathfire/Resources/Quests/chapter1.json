@@ -1624,6 +1624,99 @@
         "faction": "league",
         "reputation": 6
       }
+    },
+    {
+      "id": "sq_wind_raiders",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.windrest_rumoured",
+      "giver": "speaker.corl",
+      "giverScene": "Windrest",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.mill",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.wind.done"
+        }
+      ],
+      "reward": {
+        "experience": 180,
+        "coin": 40,
+        "items": [
+          "shield_oak"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_wind_tallies",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.windrest_rumoured",
+      "giver": "speaker.bryd",
+      "giverScene": "Windrest",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_mill_tally",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.wind_tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 30,
+        "items": [
+          "whetstone"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_wind_sacks",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.windrest_rumoured",
+      "giver": "speaker.tam",
+      "giverScene": "Windrest",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_mill_sack",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.wind_sacks.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 30,
+        "items": [
+          "oil_flask"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
     }
   ]
 }

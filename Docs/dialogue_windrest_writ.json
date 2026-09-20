@@ -1,0 +1,33 @@
+{
+  "id": "windrest_writ",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "winna",
+      "text": {
+        "en": "You've steadied the hearth, so I'll ask after my pot. My meal barrel's near the dust — the Windrest mill hasn't sent a cart down the north lane in a fortnight.",
+        "id": "Apimu sudah menenangkan tungku, jadi aku mau menanyakan periukku. Tongkat tepungku hampir habis — penggilingan Windrest tak mengirim kereta lewat lorong utara dua minggu ini."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "winna",
+      "text": {
+        "en": "The knoll's past the north gate where the street lets out. Miller Corl grinds for the League and the town alike — if his vanes have stopped, something's squatting on his hill.",
+        "id": "Bukitnya lewat gerbang utara di ujung jalan. Miller Corl menggiling untuk Liga dan kota — kalau kincirnya berhenti, pasti ada yang menduduki bukitnya."
+      },
+      "next": "n3"
+    },
+    {
+      "id": "n3",
+      "speaker": "winna",
+      "text": {
+        "en": "Walk up and see. A cook with no flour is just a woman staring at a cold pot, and I refuse to be her.",
+        "id": "Pergi lihat sendiri. Juru masak tanpa tepung cuma perempuan yang menatap periuk dingin, dan aku menolak jadi perempuan itu."
+      },
+      "setFlags": ["act1.windrest_rumoured"]
+    }
+  ]
+}
