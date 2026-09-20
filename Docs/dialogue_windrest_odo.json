@@ -1,0 +1,23 @@
+{
+  "id": "windrest_odo",
+  "startNode": "o1",
+  "nodes": [
+    {
+      "id": "o1",
+      "speaker": "odo",
+      "text": {
+        "en": "Odo — the League's count sits where the sacks are weighed, which is here, under this canopy, not up at the manor where it's warmer. Stand clear of the scale.",
+        "id": "Odo — hitungan Liga berada di tempat karung ditimbang, yaitu di sini, di bawah kanopi ini, bukan di manor yang lebih hangat. Jangan halangi timbangannya."
+      },
+      "next": "o2"
+    },
+    {
+      "id": "o2",
+      "speaker": "odo",
+      "text": {
+        "en": "The mill's count runs through Bryd's sticks and my book, and until the field clears, both of us count what we already know: nothing is moving down the hill.",
+        "id": "Hitungan penggilingan berjalan lewat tongkat Bryd dan bukuku, dan sampai ladangnya bersih, kami berdua menghitung apa yang sudah kami tahu: tak ada yang turun dari bukit."
+      }
+    }
+  ]
+}

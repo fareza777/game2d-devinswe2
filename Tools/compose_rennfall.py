@@ -358,6 +358,8 @@ def anchors(town: Town, buildings: list[dict], walkable: set[tuple[int, int]], h
         "timber": [free_near((CENTRE + dx, CENTRE + dy), apart=3.0)
                    for dx, dy in ((-14, 12), (13, -14), (14, 13))],
         "stone": [free_near((CENTRE + dx, CENTRE + dy), apart=3.0) for dx, dy in ((-14, -13), (12, 6))],
+        # Where the north street leaves the village between the trees: the lane to the Windrest.
+        "trail": point((CENTRE - 1, CENTRE - VILLAGE)),
         # Where Crane's journal lies: by the ruined record house, the building nobody rebuilt.
         "search": free_near(next(((b["x"], b["y"]) for b in buildings if b["kind"] == "ruin"), (CENTRE - 10, CENTRE - 13)),
                             apart=2.0),

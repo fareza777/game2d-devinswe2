@@ -1501,6 +1501,114 @@
       "value": "Nyalakan setiap malam, Warden. Bukan karena apa yang ada di luar sana. Tapi karena jadi apa kita di malam-malam saat kita tidak menyalakannya."
     },
     {
+      "key": "dlg.windrest_bryd.b1",
+      "value": "Bryd — aku yang memegang hitungan penggilingan. Setiap berkas yang turun dari bukit ini diparut dua kali: sekali di tongkatku, sekali di tongkat kusir. Begitu Liga tahu tepung siapa yang ditimbang."
+    },
+    {
+      "key": "dlg.windrest_bryd.b2",
+      "value": "Tiga tongkat hitungku terjatuh di ladang saat para perampok lewat — jatuh di sela barisan tempat hitungannya patah. Tanpa itu, pembukuan bilang penggilingan menggiling gandum yang tak ada."
+    },
+    {
+      "key": "dlg.windrest_bryd.b3",
+      "value": "Susuri barisan berkas dan pungut ketiganya. Tongkat di tanganmu lebih bisa dihitung daripada terkaan di bukuku."
+    },
+    {
+      "key": "dlg.windrest_bryd.b3.c1",
+      "value": "Akan kutemukan tiga tongkatmu."
+    },
+    {
+      "key": "dlg.windrest_bryd.b3.c2",
+      "value": "Kenapa tak buat tongkat baru saja?"
+    },
+    {
+      "key": "dlg.windrest_bryd.b4a",
+      "value": "Bagus. Parutnya mengingat apa yang dilupakan orang-orang."
+    },
+    {
+      "key": "dlg.windrest_bryd.b4b",
+      "value": "Tongkat baru tak menyimpan ingatan muatan yang dihitungnya — Liga hanya menghitung apa yang terparut saat gandumnya masih berdiri. Temukan yang lama."
+    },
+    {
+      "key": "dlg.windrest_corl.c1",
+      "value": "Awas kincirnya — ia tak berhenti untuk tamu, ia berhenti kalau tak ada angin. Aku Corl; ini Windrest, bukit yang menggiling untuk Rennfall dan catatan Liga."
+    },
+    {
+      "key": "dlg.windrest_corl.c2",
+      "value": "Tapi kincirku berputar di atas ladang yang tak bisa kugarap. Perampok gandum — kebanyakan pembelot — menduduki barisan berkas saat senja dan membawa kabur gandum sekalenggong. Keretaku sudah penuh muatan tapi tak berani turun."
+    },
+    {
+      "key": "dlg.windrest_corl.c3",
+      "value": "Kau pernah membersihkan tanah Liga, kata penghitungnya. Bersihkan ladangku — usir empat saja, sisanya akan ingat bukit ini ada tuannya."
+    },
+    {
+      "key": "dlg.windrest_corl.c3.c1",
+      "value": "Ladangnya akan bersih sebelum gelap."
+    },
+    {
+      "key": "dlg.windrest_corl.c3.c2",
+      "value": "Berapa upah ladang yang bersih untuk seorang Warden?"
+    },
+    {
+      "key": "dlg.windrest_corl.c4a",
+      "value": "Kalau begitu kerjakan barisannya sementara aku memutar batu giling. Kembali saat ladangnya tenang lagi."
+    },
+    {
+      "key": "dlg.windrest_corl.c4b",
+      "value": "Perisai kayu ek dari gudang Liga dan terima kasih penggilingan — perisainya bagian yang lebih baik dari tawaran itu, catat itu."
+    },
+    {
+      "key": "dlg.windrest_odle.d1",
+      "value": "Odle — aku yang menarik kereta penggilingan, kalau kereta diizinkan jalan. Sekarang aku menyusuri lorong ini supaya relnya ingat pada roda dan para perampok ingat lorong ini masih ada yang punya."
+    },
+    {
+      "key": "dlg.windrest_odo.o1",
+      "value": "Odo — hitungan Liga berada di tempat karung ditimbang, yaitu di sini, di bawah kanopi ini, bukan di manor yang lebih hangat. Jangan halangi timbangannya."
+    },
+    {
+      "key": "dlg.windrest_odo.o2",
+      "value": "Hitungan penggilingan berjalan lewat tongkat Bryd dan bukuku, dan sampai ladangnya bersih, kami berdua menghitung apa yang sudah kami tahu: tak ada yang turun dari bukit."
+    },
+    {
+      "key": "dlg.windrest_tam.t1",
+      "value": "Aku Tam — aku menumpuk tepung dan memuat kereta, atau dulu begitu sebelum perampok membuat lorong ini jadi permainan dadu. Keretanya setengah muat dan tak jalan berhari-hari."
+    },
+    {
+      "key": "dlg.windrest_tam.t2",
+      "value": "Terakhir kali Odle mencoba lorong itu, mereka memotong tali kereta dan membiarkan karungnya jatuh sembarangan — empat karung, tumpah putih menuruni bukit. Itu tepung Liga, dan aku yang akan menanggung tiap karung tumpah."
+    },
+    {
+      "key": "dlg.windrest_tam.t3",
+      "value": "Kalau kau turun lewat sana juga, pungut di tempat mereka pecah — akan terlihat putihnya di atas rumput. Empat karung dan hitungannya genap lagi."
+    },
+    {
+      "key": "dlg.windrest_tam.t3.c1",
+      "value": "Akan kubawa pulang keempat karungnya."
+    },
+    {
+      "key": "dlg.windrest_tam.t3.c2",
+      "value": "Berapa harga sekarung tepung untuk seorang anak?"
+    },
+    {
+      "key": "dlg.windrest_tam.t4a",
+      "value": "Hati-hati di rumput di luar lorong — karungnya tumpah di tempat jatuhnya, dan ada yang jatuh jauh."
+    },
+    {
+      "key": "dlg.windrest_tam.t4b",
+      "value": "Sembulan minyak lampu dan namaku lepas dari catatan rugi — minyaknya lebih mahal, tapi namaku berarti segalanya."
+    },
+    {
+      "key": "dlg.windrest_writ.n1",
+      "value": "Apimu sudah menenangkan tungku, jadi aku mau menanyakan periukku. Tongkat tepungku hampir habis — penggilingan Windrest tak mengirim kereta lewat lorong utara dua minggu ini."
+    },
+    {
+      "key": "dlg.windrest_writ.n2",
+      "value": "Bukitnya lewat gerbang utara di ujung jalan. Miller Corl menggiling untuk Liga dan kota — kalau kincirnya berhenti, pasti ada yang menduduki bukitnya."
+    },
+    {
+      "key": "dlg.windrest_writ.n3",
+      "value": "Pergi lihat sendiri. Juru masak tanpa tepung cuma perempuan yang menatap periuk dingin, dan aku menolak jadi perempuan itu."
+    },
+    {
       "key": "event.ambush.banner",
       "value": "Jalan tertutup di belakang Anda."
     },
@@ -1563,6 +1671,10 @@
     {
       "key": "event.marshal_returns.banner",
       "value": "Penunggang Barisan Abu kembali, dan kali ini ia tidak mencatat."
+    },
+    {
+      "key": "event.mill.field",
+      "value": "Perampok gandum menerobos barisan berkas."
     },
     {
       "key": "event.night_refugee.banner",
@@ -1743,6 +1855,10 @@
     {
       "key": "hud.levelUpGains",
       "value": "HP maks +{0}   ·   Serangan +{1}   ·   Luka pulih"
+    },
+    {
+      "key": "hud.menu",
+      "value": "MENU"
     },
     {
       "key": "hud.night",
@@ -2321,6 +2437,22 @@
       "value": "Surat Kepatuhan"
     },
     {
+      "key": "item.quest_mill_sack.desc",
+      "value": "Karung tepung Windrest yang disobek, pecah di tempat tali kereta dipotong. Kini berat oleh biji rumput, tapi saat jatuh ia masih hitungan Liga."
+    },
+    {
+      "key": "item.quest_mill_sack.name",
+      "value": "Karung Tepung Tumpah"
+    },
+    {
+      "key": "item.quest_mill_tally.desc",
+      "value": "Tongkat hazel belah berparut dua pisau — pisau Bryd dan pisau kusir. Setiap parut adalah seberkas gandum yang masih dipercaya buku Liga."
+    },
+    {
+      "key": "item.quest_mill_tally.name",
+      "value": "Tongkat Hitung Penggilingan"
+    },
+    {
       "key": "item.quest_moot_writ.desc",
       "value": "Ditandatangani, disegel, dan bernilai satu perang. Memegangnya membuatmu orang paling diundang sekaligus paling diburu di Valcaris."
     },
@@ -2709,6 +2841,10 @@
       "value": "Senjata"
     },
     {
+      "key": "menu.back",
+      "value": "Kembali"
+    },
+    {
       "key": "menu.continue",
       "value": "Lanjutkan"
     },
@@ -2723,6 +2859,38 @@
     {
       "key": "menu.quit",
       "value": "Keluar"
+    },
+    {
+      "key": "menu.resume",
+      "value": "Lanjutkan"
+    },
+    {
+      "key": "menu.save",
+      "value": "Simpan"
+    },
+    {
+      "key": "menu.saveTitle",
+      "value": "Tulis perjalanan ke slot"
+    },
+    {
+      "key": "menu.saved",
+      "value": "Perjalanan tertulis di slot {0}"
+    },
+    {
+      "key": "menu.slot",
+      "value": "Slot {0}"
+    },
+    {
+      "key": "menu.slotEmpty",
+      "value": "belum ada tulisan"
+    },
+    {
+      "key": "menu.title",
+      "value": "Jalan Menunggu"
+    },
+    {
+      "key": "menu.toTitle",
+      "value": "Kembali ke Menu Utama"
     },
     {
       "key": "night.push.1",
@@ -2847,6 +3015,10 @@
     {
       "key": "place.TradeRoad",
       "value": "Jalan Lembah"
+    },
+    {
+      "key": "place.Windrest",
+      "value": "Bukit Windrest"
     },
     {
       "key": "prompt.board",
@@ -2975,6 +3147,14 @@
     {
       "key": "prompt.travel.valley",
       "value": "Kembali ke lembah lewat jalan"
+    },
+    {
+      "key": "prompt.travel.windrest",
+      "value": "Tempuh lorong utara ke Bukit Windrest"
+    },
+    {
+      "key": "prompt.travel.windrestOut",
+      "value": "Kembali menyusuri lorong ke Rennfall"
     },
     {
       "key": "prompt.use",
@@ -3585,6 +3765,42 @@
       "value": "Lampu untuk Jalan Panjang"
     },
     {
+      "key": "quest.sq_wind_raiders.s1",
+      "value": "Usir para perampok gandum dari ladang Windrest"
+    },
+    {
+      "key": "quest.sq_wind_raiders.summary",
+      "value": "Perampok gandum menduduki barisan berkas Windrest saat senja dan mengangkut gandumnya sekalenggong. Kincir Miller Corl berputar di atas ladang yang tak bisa digarap — usir empat dan bukit itu ingat tuannya."
+    },
+    {
+      "key": "quest.sq_wind_raiders.title",
+      "value": "Ladang yang Diduduki"
+    },
+    {
+      "key": "quest.sq_wind_sacks.s1",
+      "value": "Pungut empat karung tepung tumpah di sepanjang lorong"
+    },
+    {
+      "key": "quest.sq_wind_sacks.summary",
+      "value": "Para perampok memotong tali kereta dan membiarkan tepungnya jatuh — empat karung tumpah menuruni lorong. Tam menanggung kesalahan tiap karungnya. Pungut di tempat mereka pecah."
+    },
+    {
+      "key": "quest.sq_wind_sacks.title",
+      "value": "Putih di Atas Rumput"
+    },
+    {
+      "key": "quest.sq_wind_tallies.s1",
+      "value": "Temukan tiga tongkat hitung yang terjatuh di ladang"
+    },
+    {
+      "key": "quest.sq_wind_tallies.summary",
+      "value": "Tiga tongkat hitung terjatuh di antara barisan berkas saat para perampok lewat. Hitungan Bryd bergantung padanya — tongkat baru tak menyimpan ingatan muatannya. Temukan yang lama."
+    },
+    {
+      "key": "quest.sq_wind_tallies.title",
+      "value": "Apa yang Diingat Tongkat"
+    },
+    {
       "key": "rarity.Common",
       "value": "Biasa"
     },
@@ -3737,12 +3953,20 @@
       "value": "Brann Hollowell"
     },
     {
+      "key": "speaker.bryd",
+      "value": "Bryd si Penghitung"
+    },
+    {
       "key": "speaker.clod",
       "value": "Clod si Tua"
     },
     {
       "key": "speaker.collum",
       "value": "Reeve Collum"
+    },
+    {
+      "key": "speaker.corl",
+      "value": "Miller Corl"
     },
     {
       "key": "speaker.courier",
@@ -3813,6 +4037,14 @@
       "value": "Mirren si Tua"
     },
     {
+      "key": "speaker.odle",
+      "value": "Odle si Kusir"
+    },
+    {
+      "key": "speaker.odo",
+      "value": "Odo si Penimbang"
+    },
+    {
       "key": "speaker.oona",
       "value": "Oona si Kuli"
     },
@@ -3855,6 +4087,10 @@
     {
       "key": "speaker.surveyor",
       "value": "Juru Ukur Kestrel"
+    },
+    {
+      "key": "speaker.tam",
+      "value": "Tam si Anak Giling"
     },
     {
       "key": "speaker.tess",
@@ -3983,6 +4219,10 @@
     {
       "key": "toast.keepWatch",
       "value": "Vestibul sudah sunyi"
+    },
+    {
+      "key": "toast.millField",
+      "value": "Ladangnya sudah bersih"
     },
     {
       "key": "toast.needMaterials",

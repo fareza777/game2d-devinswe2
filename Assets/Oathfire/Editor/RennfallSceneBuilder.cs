@@ -42,6 +42,7 @@ namespace Oathfire.EditorTools
             SetUpSideWork(map, at);
             SetUpNoticeBoard(map.At(at.board));
             SetUpRoadOut(map.At(at.roadOut));
+            SetUpMillLane(map, at);
             SetUpGathering(map, at);
             SetUpBuildSites(map, at.plots);
             SetUpNight(map.At(at.hearth));
@@ -107,6 +108,10 @@ namespace Oathfire.EditorTools
             // marks the toll lane on the map.
             MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "saltpans_writ", "act2.manifest_delivered",
                 "act2.saltpans_rumoured");
+            // Once the village has survived a night, Winna's flour barrel runs low: the mill's
+            // cart hasn't come down the north lane, and her asking puts the knoll on the map.
+            MapScene.PrependConversation(GameObject.Find("Old Winna"), "windrest_writ", "act1.night1_survived",
+                "act1.windrest_rumoured");
         }
 
         static void SetUpVillagers(MapScene.MapFile map, MapScene.MapAnchors at)
@@ -227,6 +232,20 @@ namespace Oathfire.EditorTools
             serialized.ApplyModifiedPropertiesWithoutUndo();
         }
 
+        /// <summary>The north lane out to the mill knoll — it exists on the map once Winna asks after her flour.</summary>
+        static void SetUpMillLane(MapScene.MapFile map, MapScene.MapAnchors at)
+        {
+            if (at.trail == null)
+                return;
+            var lane = new GameObject("Mill lane");
+            lane.transform.position = map.At(at.trail);
+            GameObject exit = MapScene.BuildExit(map.At(at.trail), "Windrest", "prompt.travel.windrest", "act2.found_windrest");
+            exit.transform.SetParent(lane.transform, true);
+            MapScene.BuildProp("Lane post", "Misc B52_E", map.At(at.trail) + new Vector3(-0.45f, 0.2f, 0f), exit.transform,
+                solid: false, strikeable: false);
+            MapScene.Gate(lane, "act1.windrest_rumoured");
+        }
+
         static void SetUpNoticeBoard(Vector3 position)
         {
             GameObject board = MapScene.BuildProp("Notice Board", "Misc B54_E", position, null, solid: true, strikeable: false);
@@ -337,8 +356,14 @@ namespace Oathfire.EditorTools
                     MapScene.Look("Grave-risen", "", Color.white, 0.95f, 1.02f),
                     MapScene.Look("Mossbound", "", new Color(0.72f, 0.88f, 0.68f), 0.95f, 1.1f),
                     MapScene.Look("Ashen", "", new Color(0.7f, 0.74f, 0.86f), 0.9f, 1.02f),
+                    MapScene.Look("Barrow-pale", "", new Color(0.86f, 0.84f, 0.74f), 1.02f, 1.14f),
+                    MapScene.Look("Rot-brown", "", new Color(0.76f, 0.66f, 0.52f), 0.92f, 1.06f),
                 },
-                new[] { MapScene.Look("Emberborn", "", new Color(1f, 0.62f, 0.45f), 1.15f, 1.25f) });
+                new[]
+                {
+                    MapScene.Look("Emberborn", "", new Color(1f, 0.62f, 0.45f), 1.15f, 1.25f),
+                    MapScene.Look("Cold crown", "", new Color(0.62f, 0.78f, 0.95f), 1.1f, 1.22f),
+                });
         }
 
         static void SetUpWorldEvents()

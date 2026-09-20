@@ -388,6 +388,75 @@ def keep_anchors(layers: list[dict], walkable: set[tuple[int, int]]) -> dict:
 PLAIN_EARTH = ["Ground A1_E", "Ground A1_N", "Ground A1_S", "Ground A1_W"]
 
 
+def dress(layers: list[dict], props: dict) -> int:
+    """Lays hand-picked props onto open ground — cell -> (tile, solid).
+
+    Solid props get a pack collision tile under them; Tree*/Wall* tiles already block by name.
+    Only cells with bare ground are dressed; anything occupied is skipped.
+    """
+    ground = {c for l in layers if l["name"].startswith("Ground") for c in l["cells"]}
+    busy = {c for l in layers if not l["name"].startswith("Ground") for c in l["cells"]}
+    objects = next((l for l in layers if l["name"] == "Objects"), None)
+    if objects is None:
+        objects = {"name": "Objects", "order": 0, "cells": {}}
+        layers.append(objects)
+    colliders = next((l for l in layers if l["name"] == "Colliders"), None)
+    if colliders is None:
+        colliders = {"name": "Colliders", "order": -100, "cells": {}}
+        layers.append(colliders)
+    placed = 0
+    for cell, (tile, solid) in props.items():
+        if cell not in ground or cell in busy:
+            continue
+        objects["cells"][cell] = tile
+        if solid and not tile.startswith(("Tree", "Wall")):
+            colliders["cells"][cell] = "Ground G21_S"
+        placed += 1
+    return placed
+
+
+# The ravine floor was left bare by the crop: dead trees, bone piles, the deserters' cage and
+# their torn banners — Blackthorn Hollow reads as a camp that survived the pass, not a stage.
+HOLLOW_DRESSING = {
+    (6, 13): ("Misc B51_E", True),     # cage at the camp's mouth
+    (5, 19): ("Misc C3_E", True),      # bones by the fire line
+    (7, 22): ("Misc C4_E", True),      # trampled coal
+    (8, 16): ("Misc D2_E", True),      # torn banner
+    (4, 22): ("Misc D1_E", True),
+    (10, 19): ("Misc C4_E", True),
+    # the canyon run east — dead trees and debris hugging the walls
+    (31, 10): ("Tree E3_E", True),
+    (33, 12): ("Misc C5_E", True),     # the deserters' warning totem
+    (34, 13): ("Misc C3_N", True),     # more bones
+    (36, 19): ("Stone A2_E", True),
+    (39, 22): ("Broken Wood 1", False),
+    (40, 17): ("Misc D4_W", True),     # torn banner at the far mouth
+    (35, 12): ("Misc C4_E", True),
+    # the upper shelf — bare rock and the pass's dead
+    (29, 5): ("Tree E1_S", True),
+    (28, 7): ("Stone A1_E", True),
+    (30, 9): ("Misc C6_E", True),      # a white dead sapling
+    (32, 9): ("Tree E3_S", True),
+    (30, 7): ("Misc C3_E", True),
+    (29, 9): ("BrokenStone small1", False),
+}
+
+# The keep's bailey was empty flagstone: the deserters' siege-camp — tents, loot sacks, a cage,
+# scaffolds leaning on the curtain wall — the hall's garrison living rough in its own yard.
+KEEP_DRESSING = {
+    (4, 27): ("Misc B55_N", True),     # scaffold against the inner wall
+    (18, 27): ("Misc B56_N", True),
+    (4, 31): ("Misc B51_E", True),     # the provost's cage
+    (20, 34): ("Misc A2_N", True),     # looted barrels
+    (3, 36): ("Misc D1_E", True),      # torn garrison banner
+    (19, 40): ("Misc B45_N", True),    # grain sacks from the magaz
+    (6, 30): ("Misc B47_N", True),     # a deserter's red tent
+    (12, 33): ("Misc B58_E", True),    # cordwood for the yard fires
+    (16, 41): ("Misc C8_E", True),
+    (9, 41): ("Misc C4_E", True),
+}
+
+
 def plain_earth(layers: list[dict]) -> int:
     """Makes a ravine floor read as bare ground.
 
@@ -434,8 +503,10 @@ def build(name: str, spec: dict, scratch: Path) -> None:
 
     if spec.get("style") == "hollow":
         print(f"[{name}] levelled {plain_earth(layers)} cells of patchy ground into plain earth")
+        print(f"[{name}] dressed {dress(layers, HOLLOW_DRESSING)} cells with the pass's leavings")
     if spec.get("style") == "keep":
         keep_approach(layers)
+        print(f"[{name}] dressed {dress(layers, KEEP_DRESSING)} cells of the bailey as a siege-camp")
         print(f"[{name}] paved the forecourt and breached the vestibule wall")
     named = {layer["name"]: layer["cells"] for layer in layers}
     dropped = drop_unknown_tiles(named)

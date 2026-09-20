@@ -22,6 +22,14 @@ namespace Oathfire.EditorTools
         public const string Package = "Assets/SmallScaleInt/Fantasy kingdom Tileset";
         public const string Prefabs = Package + "/Example scene/Prefabs/";
         const string Tiles = Package + "/Environment/Tiles/";
+        const string AnimatedTiles = Package + "/Environment/Animated tiles/";
+
+        /// <summary>Tile assets live in Tiles/, but animated ones (windmills, water) live beside them.</summary>
+        static TileBase LoadTile(string tileName)
+        {
+            TileBase tile = AssetDatabase.LoadAssetAtPath<TileBase>(Tiles + tileName + ".asset");
+            return tile ? tile : AssetDatabase.LoadAssetAtPath<TileBase>(AnimatedTiles + tileName + ".asset");
+        }
         const string UiSheet = Package + "/Example scene/UI/UISprites.png";
         const string SkillSheet = Package + "/Example scene/UI/SkillIcons.png";
         const string LootSheet = Package + "/Example scene/UI/LootIcons.png";
@@ -137,7 +145,7 @@ namespace Oathfire.EditorTools
                 foreach (MapCell cell in layer.cells)
                 {
                     if (!tileCache.TryGetValue(cell.tile, out TileBase tile))
-                        tileCache[cell.tile] = tile = AssetDatabase.LoadAssetAtPath<TileBase>(Tiles + cell.tile + ".asset");
+                        tileCache[cell.tile] = tile = LoadTile(cell.tile);
                     if (tile)
                         tilemap.SetTile(new Vector3Int(cell.x, cell.y, 0), tile);
                 }
@@ -239,11 +247,16 @@ namespace Oathfire.EditorTools
         /// <summary>The sprite a tile asset draws, whatever tile class the pack used for it.</summary>
         public static Sprite TileSprite(string tileName)
         {
-            var tile = AssetDatabase.LoadAssetAtPath<TileBase>(Tiles + tileName + ".asset");
+            var tile = LoadTile(tileName);
             if (!tile)
                 return null;
             SerializedProperty sprite = new SerializedObject(tile).FindProperty("m_Sprite");
-            return sprite?.objectReferenceValue as Sprite;
+            if (sprite?.objectReferenceValue is Sprite still)
+                return still;
+            SerializedProperty frames = new SerializedObject(tile).FindProperty("m_AnimatedSprites");
+            return frames is { isArray: true, arraySize: > 0 }
+                ? frames.GetArrayElementAtIndex(0).objectReferenceValue as Sprite
+                : null;
         }
 
         /// <summary>Lights at the torches painted by the last Paint; SetUpCamera hands them to the day/night cycle.</summary>
@@ -377,6 +390,7 @@ namespace Oathfire.EditorTools
             hudSkin.FindPropertyRelative("attackIcon").objectReferenceValue = LoadSubSprite(SkillSheet, "SkillIcons_5");
             hud.FindProperty("packIcon").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_56");
             hud.FindProperty("bookIcon").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_107");
+            hud.FindProperty("menuIcon").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_48");
             hud.ApplyModifiedPropertiesWithoutUndo();
 
             var controlsGo = new GameObject("MobileControls", typeof(MobileControls));
@@ -444,6 +458,11 @@ namespace Oathfire.EditorTools
             hero.FindProperty("panelSprite").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_0");
             hero.FindProperty("frameSprite").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_17");
             hero.ApplyModifiedPropertiesWithoutUndo();
+
+            var menuGo = new GameObject("PauseMenuPanel", typeof(PauseMenuPanel));
+            var menu = new SerializedObject(menuGo.GetComponent<PauseMenuPanel>());
+            menu.FindProperty("panelSprite").objectReferenceValue = LoadSubSprite(UiSheet, "UISprites_0");
+            menu.ApplyModifiedPropertiesWithoutUndo();
 
             var inventoryGo = new GameObject("InventoryPanel", typeof(InventoryPanel));
             var inventory = new SerializedObject(inventoryGo.GetComponent<InventoryPanel>());

@@ -11,9 +11,12 @@ from pathlib import Path
 from PIL import Image
 
 PROJECT = Path(__file__).resolve().parent.parent
-PACK = PROJECT / "Assets" / "SmallScaleInt" / "Fantasy kingdom Tileset" / "Environment"
-TILES = PACK / "Tiles"
-SPRITES = PACK / "Sprites"
+PACK = PROJECT / "Assets" / "SmallScaleInt" / "Fantasy kingdom Tileset"
+ENVIRONMENT = PACK / "Environment"
+TILES = ENVIRONMENT / "Tiles"
+ANIMATED_TILES = ENVIRONMENT / "Animated tiles"
+SPRITES = ENVIRONMENT / "Sprites"
+ANIMATION_FRAMES = PACK / "Animations" / "Animated Tiles"
 
 CELL_W, CELL_H = 1.0, 0.5  # the isometric grid Rennfall uses
 
@@ -22,7 +25,7 @@ CELL_W, CELL_H = 1.0, 0.5  # the isometric grid Rennfall uses
 def sprite_files() -> dict[str, Path]:
     """Sprite GUID to its PNG, read from the .meta beside each image."""
     table = {}
-    for meta in SPRITES.glob("*.png.meta"):
+    for meta in list(SPRITES.glob("*.png.meta")) + list(ANIMATION_FRAMES.rglob("*.png.meta")):
         match = re.search(r"^guid: ([0-9a-f]{32})", meta.read_text(encoding="utf-8", errors="ignore"), re.M)
         if match:
             table[match.group(1)] = meta.with_suffix("")
@@ -34,9 +37,14 @@ def tile_sprite(tile_name: str) -> tuple[Image.Image, float, float, float] | Non
     """The tile's image, its pivot in pixels, and its pixels-per-unit."""
     asset = TILES / f"{tile_name}.asset"
     if not asset.exists():
+        asset = ANIMATED_TILES / f"{tile_name}.asset"
+    if not asset.exists():
         return None
     text = asset.read_text(encoding="utf-8", errors="ignore")
     guid = re.search(r"m_Sprite: \{fileID: \d+, guid: ([0-9a-f]{32})", text)
+    if not guid:
+        # Animated tiles (windmills, water) carry a frame list instead of one sprite; draw the first frame.
+        guid = re.search(r"m_AnimatedSprites:\s*\n\s*- \{fileID: \d+, guid: ([0-9a-f]{32})", text)
     if not guid:
         return None
     png = sprite_files().get(guid.group(1))

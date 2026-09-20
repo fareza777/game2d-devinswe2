@@ -8,7 +8,9 @@ import random
 from collections import deque
 from pathlib import Path
 
-TILES = Path(__file__).resolve().parent.parent / "Assets" / "SmallScaleInt" / "Fantasy kingdom Tileset" / "Environment" / "Tiles"
+ENVIRONMENT = Path(__file__).resolve().parent.parent / "Assets" / "SmallScaleInt" / "Fantasy kingdom Tileset" / "Environment"
+TILES = ENVIRONMENT / "Tiles"
+ANIMATED = ENVIRONMENT / "Animated tiles"
 
 # Overlay pieces, not surfaces: each one is a scatter of tufts or pebbles on transparent ground, so they
 # break a hard edge without covering what is underneath.
@@ -188,6 +190,6 @@ def check_tiles(layers: dict[str, dict[tuple[int, int], str]]) -> list[str]:
         for tile in cells.values():
             if tile in missing:
                 missing[tile] += 1
-            elif not (TILES / f"{tile}.asset").exists():
+            elif not (TILES / f"{tile}.asset").exists() and not (ANIMATED / f"{tile}.asset").exists():
                 missing[tile] = 1
     return [f"{tile} x{count}" for tile, count in sorted(missing.items())]

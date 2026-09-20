@@ -135,8 +135,8 @@ namespace Oathfire.EditorTools
                 attackers.GetArrayElementAtIndex(i).objectReferenceValue = prefabs[i];
             serialized.FindProperty("count").intValue = 4;
             serialized.FindProperty("unlockedLooks").intValue = 3;
-            serialized.FindProperty("healthMultiplier").floatValue = 0.9f;
-            serialized.FindProperty("hitDamage").intValue = 11;
+            serialized.FindProperty("healthMultiplier").floatValue = 1f;
+            serialized.FindProperty("hitDamage").intValue = 12;
             serialized.FindProperty("triggerRadius").floatValue = 4f;
             serialized.FindProperty("spread").floatValue = 3f;
             serialized.FindProperty("bannerKey").stringValue = "event.char.pits";

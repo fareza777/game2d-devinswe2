@@ -19,6 +19,7 @@ namespace Oathfire.UI
         [SerializeField] Controls.MobileUiSkin skin = new Controls.MobileUiSkin();
         [SerializeField] Sprite packIcon;
         [SerializeField] Sprite bookIcon;
+        [SerializeField] Sprite menuIcon;
 
         // The bar frame's groove, measured in the sprite's own pixels (UISprites_17, 362x71): the fill must sit
         // exactly inside it. Left/right 19, bottom 23, top 16; the rest is bevel and drop shadow.
@@ -317,6 +318,7 @@ namespace Oathfire.UI
             BuildUseButton();
             BuildPackButton();
             BuildBookButton();
+            BuildMenuButton();
             BuildLevelUpBanner();
             BuildPlaceName();
 
@@ -411,6 +413,11 @@ namespace Oathfire.UI
         void BuildBookButton() =>
             BuildMenuMedallion("BookButton", bookIcon, -250f, "hud.hero",
                 () => FindAnyObjectByType<HeroPanel>(FindObjectsInactive.Include)?.Toggle());
+
+        /// <summary>Opens the road menu: resume, save into a slot, or ride back to the title.</summary>
+        void BuildMenuButton() =>
+            BuildMenuMedallion("MenuButton", menuIcon, -460f, "hud.menu",
+                () => FindAnyObjectByType<PauseMenuPanel>(FindObjectsInactive.Include)?.Toggle());
 
         /// <summary>
         /// A round menu button in the same bronze-ring style as the combat controls, with its picture inside and
