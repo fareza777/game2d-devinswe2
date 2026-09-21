@@ -1,6 +1,6 @@
 {
   "id": "toll_effa",
-  "startNode": "a1",
+  "startNode": "e1",
   "nodes": [
     {
       "id": "e1",
@@ -12,7 +12,7 @@
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "",
+      "next": "e2",
       "choices": []
     },
     {

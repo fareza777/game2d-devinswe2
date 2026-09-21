@@ -1,6 +1,6 @@
 {
   "id": "maren_ledger",
-  "startNode": "a1",
+  "startNode": "m1",
   "nodes": [
     {
       "id": "m1",
@@ -12,7 +12,7 @@
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "",
+      "next": "m2",
       "choices": []
     },
     {
@@ -25,7 +25,7 @@
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "",
+      "next": "m3",
       "choices": []
     },
     {

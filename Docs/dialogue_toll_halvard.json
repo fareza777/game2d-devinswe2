@@ -1,6 +1,6 @@
 {
  "id": "toll_halvard",
- "startNode": "a1",
+ "startNode": "h1",
  "nodes": [
   {
    "id": "h1",
@@ -8,7 +8,8 @@
    "text": {
     "en": "A warden in the court. I wondered which of us the coin would send for — me for the books, or you for the die. Sit on the counter, friend. The last toll was already paid; it just hasn't been counted.",
     "id": "Seorang warden di halaman. Aku bertanya-tanya siapa yang akan dikirim koin untuk siapa — aku untuk bukunya, atau kau untuk die-nya. Duduklah di meja, kawan. Tol terakhir sudah dibayar; hanya belum dihitung."
-   }
+   },
+   "next": "h2"
   },
   {
    "id": "h2",
@@ -16,7 +17,8 @@
    "text": {
     "en": "They sold a valley its own seal and I cut the hands that took it — every seal on every false slip in this fort came off my die, and not one of them says my name. That's what a cutter is for. You want the true ledger? It's under the counter. Over me.",
     "id": "Mereka menjual lembah ini segelnya sendiri dan akulah yang memahat tangan-tangan yang mengambilnya — tiap segel di tiap slip palsu di benteng ini keluar dari die-ku, dan tak satu pun menyebut namaku. Itulah gunanya pemahat. Kau mau buku besar sejati? Di bawah meja itu. Lewati aku."
-   }
+   },
+   "next": "h3"
   },
   {
    "id": "h3",

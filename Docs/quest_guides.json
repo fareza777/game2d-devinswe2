@@ -344,7 +344,7 @@
   {
    "from": "Stampworks",
    "to": "Chalkpit",
-   "via": "Chalkpit"
+   "via": "TradeRoad"
   },
   {
    "from": "Chalkpit",
@@ -524,7 +524,7 @@
   {
    "from": "Tollbank",
    "to": "Stampworks",
-   "via": "TradeRoad"
+   "via": "Chalkpit"
   },
   {
    "from": "Stampworks",
@@ -634,7 +634,7 @@
   {
    "from": "DroversRest",
    "to": "Stampworks",
-   "via": "TradeRoad"
+   "via": "Chalkpit"
   },
   {
    "from": "Stampworks",
@@ -650,6 +650,11 @@
    "from": "Tollbank",
    "to": "DroversRest",
    "via": "DroversRest"
+  },
+  {
+   "from": "Saltpans",
+   "to": "Chalkpit",
+   "via": "TradeRoad"
   }
  ],
  "guides": [
@@ -1146,6 +1151,18 @@
    "target": "spot",
    "id": "drove_corral",
    "scene": "DroversRest"
+  },
+  {
+   "key": "act2.found_stampworks",
+   "target": "exit",
+   "id": "Stampworks",
+   "scene": "Chalkpit"
+  },
+  {
+   "key": "act2.die_delivered",
+   "target": "npc",
+   "id": "speaker.maren",
+   "scene": "Rennfall"
   }
  ]
 }

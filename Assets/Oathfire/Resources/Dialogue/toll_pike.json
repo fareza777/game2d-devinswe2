@@ -1,6 +1,6 @@
 {
   "id": "toll_pike",
-  "startNode": "a1",
+  "startNode": "p1",
   "nodes": [
     {
       "id": "p1",

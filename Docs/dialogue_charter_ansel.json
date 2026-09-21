@@ -8,7 +8,8 @@
    "text": {
     "en": "You carry a dead yard's die into a live building, warden. The Marshal's man told me you might. Give it here — the cut will say what the price of silence bought.",
     "id": "Kau membawa die sebuah halaman mati ke dalam gedung yang hidup, warden. Orang Marshal bilang kau mungkin datang. Serahkan — potongannya akan berkata berapa harga diam itu dibeli."
-   }
+   },
+   "next": "a2"
   },
   {
    "id": "a2",
@@ -16,7 +17,8 @@
    "text": {
     "en": "I sink dies for this house — I know that hand. The rim-mark is Halvard's: the League's die-cutter, gone from the rolls six years, and paid these years in coin that never touched a ledger. He was the left hand. The right wrote the payroll.",
     "id": "Aku memahat die untuk gedung ini — aku kenal tangan itu. Tanda tepiannya milik Halvard: pemahat die Liga, hilang dari daftar enam tahun, dan selama ini dibayar dengan koin yang tak pernah menyentuh buku. Dia tangan kirinya. Tangan kanan yang menulis daftar gaji."
-   }
+   },
+   "next": "a3"
   },
   {
    "id": "a3",

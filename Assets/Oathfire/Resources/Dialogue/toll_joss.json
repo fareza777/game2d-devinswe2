@@ -1,6 +1,6 @@
 {
   "id": "toll_joss",
-  "startNode": "a1",
+  "startNode": "j1",
   "nodes": [
     {
       "id": "j1",
@@ -12,7 +12,7 @@
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "",
+      "next": "j2",
       "choices": []
     },
     {

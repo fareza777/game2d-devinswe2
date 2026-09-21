@@ -1,6 +1,6 @@
 {
   "id": "toll_halvard",
-  "startNode": "a1",
+  "startNode": "h1",
   "nodes": [
     {
       "id": "h1",
@@ -12,7 +12,7 @@
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "",
+      "next": "h2",
       "choices": []
     },
     {
@@ -25,7 +25,7 @@
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "",
+      "next": "h3",
       "choices": []
     },
     {

@@ -169,7 +169,6 @@ UI_STRINGS = {
     "menu.save": ("Save Game", "Simpan"),
     "menu.saveTitle": ("Write the journey to a slot", "Tulis perjalanan ke slot"),
     "menu.toTitle": ("Return to Title", "Kembali ke Menu Utama"),
-    "menu.quit": ("Quit", "Keluar"),
     "menu.back": ("Back", "Kembali"),
     "menu.slot": ("Slot {0}", "Slot {0}"),
     "menu.slotEmpty": ("nothing written yet", "belum ada tulisan"),

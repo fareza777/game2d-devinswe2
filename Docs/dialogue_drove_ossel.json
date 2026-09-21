@@ -1,6 +1,6 @@
 {
  "id": "drove_ossel",
- "startNode": "a1",
+ "startNode": "o1",
  "nodes": [
   {
    "id": "o1",
@@ -8,7 +8,8 @@
    "text": {
     "en": "Warden. You'll forgive the look of the place — the corral's a mouth and something's been feeding through it three nights. Pack animals first, then the tack, then whatever isn't nailed. If you've got steel, the jackals are yours.",
     "id": "Warden. Maafkan keadaan tempat ini — kandang itu sebuah mulut dan ada yang menggerogotinya tiga malam. Hewan beban dulu, lalu pelananya, lalu apa pun yang tak dipaku. Kalau kau punya baja, serigala itu milikmu."
-   }
+   },
+   "next": "o2"
   },
   {
    "id": "o2",

@@ -96,7 +96,7 @@ namespace Oathfire.EditorTools
                 // Fed on what the pans spilled, Tess pays it back with a place: the drovers' camp
                 // east of the toll road that still buys honest salt.
                 MapScene.PrependConversation(GameObject.Find("Tess of the Tents"), "saltpans_tess_rest",
-                    "sq.salt_spill.done", "act2.drovers_rumoured");
+                    "sq.spillage.done", "act2.drovers_rumoured");
             }
             if (spots.Length > 4)
                 MapScene.BuildTalker("Watch-lene", "speaker.lene", map.At(spots[4]), "NPC2",

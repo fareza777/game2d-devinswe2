@@ -1,6 +1,6 @@
 {
   "id": "drove_ossel",
-  "startNode": "a1",
+  "startNode": "o1",
   "nodes": [
     {
       "id": "o1",
@@ -12,7 +12,7 @@
       "giveItems": [],
       "takeItems": [],
       "giveCoin": 0,
-      "next": "",
+      "next": "o2",
       "choices": []
     },
     {

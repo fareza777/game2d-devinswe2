@@ -1,6 +1,6 @@
 {
  "id": "maren_ledger",
- "startNode": "a1",
+ "startNode": "m1",
  "nodes": [
   {
    "id": "m1",
@@ -8,7 +8,8 @@
    "text": {
     "en": "The fort's books. Open it on the lamp — I want to see what a sold seal looks like when it's written down honest.",
     "id": "Buku benteng itu. Buka di bawah lampu — aku ingin melihat rupa segel yang dijual saat ditulis dengan jujur."
-   }
+   },
+   "next": "m2"
   },
   {
    "id": "m2",
@@ -16,7 +17,8 @@
    "text": {
     "en": "...Every slip. Every hand. The charter house will burn its own name before this stands — and the Marshal will hold the torch herself. The valley's seal is its own again, warden. Whatever else Halvard was, the coin he struck ends with you.",
     "id": "...Tiap slip. Tiap tangan. Gedung piagam akan membakar namanya sendiri sebelum ini berdiri — dan Marshal sendiri yang memegang obornya. Segel lembah ini miliknya sendiri lagi, warden. Apa pun Halvard dulu, koin yang ia cap berakhir padamu."
-   }
+   },
+   "next": "m3"
   },
   {
    "id": "m3",

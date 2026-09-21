@@ -1,6 +1,6 @@
 {
  "id": "toll_joss",
- "startNode": "a1",
+ "startNode": "j1",
  "nodes": [
   {
    "id": "j1",
@@ -8,7 +8,8 @@
    "text": {
     "en": "I counted tolls by wood — every cart a cut, every cut a shilling. The crew paid us in sticks we couldn't read, then burned the wood so no one could. Three tallies still lie in the court — my count. Bring them and the dead men get named.",
     "id": "Aku menghitung tol dengan kayu — tiap pedati satu toreh, tiap toreh satu shilling. Pasukan cuci membayar kami dengan tongkat yang tak bisa mereka baca, lalu membakar kayunya agar tak ada yang bisa. Tiga tongkat masih di halaman — hitunganku. Bawakan, dan orang mati itu dinamai."
-   }
+   },
+   "next": "j2"
   },
   {
    "id": "j2",
