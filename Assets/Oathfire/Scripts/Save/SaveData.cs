@@ -18,6 +18,8 @@ namespace Oathfire.Save
         public Vector3 playerPosition;
         public int playerLevel = 1;
         public int playerHealth = 100;
+        /// <summary>The Warden's bag and worn gear; serialized inline so a load restores every item.</summary>
+        public Items.Inventory inventory = new Items.Inventory();
         /// <summary>The quest the Warden chose to follow; empty follows the story.</summary>
         public string trackedQuest = string.Empty;
         /// <summary>The two skills carried on the controls (skill ids from the skill book).</summary>

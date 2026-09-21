@@ -2841,12 +2841,20 @@
       "value": "Weapon"
     },
     {
+      "key": "menu.autosave",
+      "value": "Autosave"
+    },
+    {
       "key": "menu.back",
       "value": "Back"
     },
     {
       "key": "menu.continue",
       "value": "Continue"
+    },
+    {
+      "key": "menu.loadTitle",
+      "value": "Choose which road to walk again"
     },
     {
       "key": "menu.newGame",

@@ -174,6 +174,8 @@ UI_STRINGS = {
     "menu.slot": ("Slot {0}", "Slot {0}"),
     "menu.slotEmpty": ("nothing written yet", "belum ada tulisan"),
     "menu.saved": ("Journey written to slot {0}", "Perjalanan tertulis di slot {0}"),
+    "menu.autosave": ("Autosave", "Simpanan Otomatis"),
+    "menu.loadTitle": ("Choose which road to walk again", "Pilih jalan yang mau dilanjutkan"),
     "toast.equipped": ("Equipped", "Dipakai"),
     "toast.used": ("Used", "Terpakai"),
     "tone.iron": ("Iron", "Besi"),

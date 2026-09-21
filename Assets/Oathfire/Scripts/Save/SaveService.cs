@@ -24,10 +24,13 @@ namespace Oathfire.Save
         public SaveData NewGame()
         {
             Current = new SaveData();
+            CurrentSlot = AutosaveSlot;
             sessionStart = Time.realtimeSinceStartup;
             // The notice board belongs to the run, not to the device. Without this a new game inherits the
             // last one's postings, and the board refuses to roll again because it already rolled that night.
             Contracts.ContractBoard.ClearForSlot(CurrentSlot);
+            // A fresh journey starts with an empty bag even if a Warden is still standing from the last run.
+            Progress.PlayerState.Instance?.ReadFrom(Current);
             return Current;
         }
 
@@ -55,6 +58,7 @@ namespace Oathfire.Save
             CurrentSlot = slot;
             sessionStart = Time.realtimeSinceStartup;
             Contracts.ContractBoard.Reset();   // the cached board belongs to the slot we just left
+            Progress.PlayerState.Instance?.ReadFrom(data);
             return true;
         }
 
@@ -62,6 +66,9 @@ namespace Oathfire.Save
         {
             if (Current == null)
                 NewGame();
+
+            // The bag, level and experience travel with the flags: a load must hand the same Warden back.
+            Progress.PlayerState.Instance?.WriteTo(Current);
 
             Current.checkpointId = checkpointId;
             Current.sceneName = sceneName;

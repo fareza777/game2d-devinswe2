@@ -43,8 +43,13 @@ namespace Oathfire.Progress
             DontDestroyOnLoad(gameObject);
             Core.GameServices.EnsureCreated();
             Items.ItemDatabase.EnsureLoaded();
-            Inventory.Changed += () => Changed?.Invoke();
+            Inventory.Changed += OnInventoryChanged;
+            // A save loaded at the title screen reaches the first scene's PlayerState through this path.
+            if (Core.GameServices.Save.Current != null)
+                ReadFrom(Core.GameServices.Save.Current);
         }
+
+        void OnInventoryChanged() => Changed?.Invoke();
 
         public void AddExperience(int amount)
         {
@@ -64,6 +69,7 @@ namespace Oathfire.Progress
         public void WriteTo(Save.SaveData save)
         {
             save.playerLevel = Level;
+            save.inventory = Inventory;
             save.AddCounter("xp", Experience - save.GetCounter("xp"));
         }
 
@@ -71,6 +77,12 @@ namespace Oathfire.Progress
         {
             Level = Mathf.Max(1, save.playerLevel);
             Experience = save.GetCounter("xp");
+            if (save.inventory != null && save.inventory != Inventory)
+            {
+                Inventory.Changed -= OnInventoryChanged;
+                Inventory = save.inventory;
+                Inventory.Changed += OnInventoryChanged;
+            }
             Changed?.Invoke();
         }
     }

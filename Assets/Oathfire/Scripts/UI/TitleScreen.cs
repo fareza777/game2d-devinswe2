@@ -27,6 +27,8 @@ namespace Oathfire.UI
 
         RectTransform menuHolder;
         RectTransform optionsSheet;
+        RectTransform continueSheet;
+        RectTransform continueRows;
         Image fireGlow;
         readonly List<Button> buttons = new List<Button>();
 
@@ -57,12 +59,112 @@ namespace Oathfire.UI
             Core.GameServices.Flow.LoadScene(OpeningScene);
         }
 
+        /// <summary>Every written page is listed — the autosave first, then the three hand-saved slots.</summary>
         void Continue()
         {
-            int slot = Core.GameServices.Save.MostRecentSlot();
-            if (slot == int.MinValue || !Core.GameServices.Save.Load(slot))
+            foreach (Transform child in continueRows)
+                Destroy(child.gameObject);
+
+            var save = Core.GameServices.Save;
+            bool any = false;
+            for (int slot = Save.SaveService.AutosaveSlot; slot < Save.SaveService.SlotCount; slot++)
+            {
+                Save.SaveData peek = save.Peek(slot);
+                if (peek == null)
+                    continue;
+                int captured = slot;
+                string title = slot == Save.SaveService.AutosaveSlot
+                    ? Core.GameServices.Localization.Get("menu.autosave")
+                    : Core.GameServices.Localization.Format("menu.slot", slot + 1);
+                string meta = $"{peek.sceneName}  ·  {FormatWhen(peek.savedAtIso)}";
+                AddSaveRow(title, meta, () => ContinueFrom(captured));
+                any = true;
+            }
+
+            continueSheet.gameObject.SetActive(any);
+        }
+
+        void ContinueFrom(int slot)
+        {
+            if (!Core.GameServices.Save.Load(slot))
                 return;
             Core.GameServices.Flow.LoadScene(Core.GameServices.Save.Current.sceneName);
+        }
+
+        static string FormatWhen(string iso) =>
+            DateTime.TryParse(iso, out DateTime when) ? when.ToLocalTime().ToString("d MMM · HH:mm") : "";
+
+        void AddSaveRow(string title, string meta, Action action)
+        {
+            var plate = NewImage("SaveRow", continueRows, null, new Color(0.13f, 0.12f, 0.09f, 0.95f));
+            plate.raycastTarget = true;
+            plate.gameObject.AddComponent<LayoutElement>().preferredHeight = 110f;
+            var button = plate.gameObject.AddComponent<Button>();
+            var colors = button.colors;
+            colors.highlightedColor = new Color(0.2f, 0.18f, 0.13f);
+            colors.pressedColor = Ember;
+            button.colors = colors;
+            button.onClick.AddListener(() => action());
+
+            var name = NewText("Name", plate.rectTransform, 38, Bone);
+            name.text = title;
+            name.fontStyle = FontStyles.SmallCaps;
+            name.characterSpacing = 4f;
+            name.alignment = TextAlignmentOptions.Left;
+            name.rectTransform.anchorMin = new Vector2(0.05f, 0.5f);
+            name.rectTransform.anchorMax = new Vector2(0.95f, 1f);
+            name.rectTransform.offsetMin = name.rectTransform.offsetMax = Vector2.zero;
+
+            var info = NewText("Meta", plate.rectTransform, 28, BoneDim);
+            info.text = meta;
+            info.alignment = TextAlignmentOptions.Left;
+            info.rectTransform.anchorMin = new Vector2(0.05f, 0.05f);
+            info.rectTransform.anchorMax = new Vector2(0.95f, 0.5f);
+            info.rectTransform.offsetMin = info.rectTransform.offsetMax = Vector2.zero;
+        }
+
+        void BuildContinueSheet()
+        {
+            continueSheet = NewRect("ContinueSheet", transform);
+            Stretch(continueSheet);
+            var dim = NewImage("Dim", continueSheet, null, new Color(0.02f, 0.02f, 0.02f, 0.93f));
+            Stretch(dim.rectTransform);
+            dim.raycastTarget = true;
+            dim.gameObject.AddComponent<Button>().onClick.AddListener(() => continueSheet.gameObject.SetActive(false));
+
+            var sheet = NewImage("Sheet", continueSheet, null, new Color(0.09f, 0.1f, 0.08f, 0.98f));
+            sheet.rectTransform.anchorMin = new Vector2(0.08f, 0.25f);
+            sheet.rectTransform.anchorMax = new Vector2(0.92f, 0.75f);
+            sheet.rectTransform.offsetMin = sheet.rectTransform.offsetMax = Vector2.zero;
+            sheet.raycastTarget = true;
+
+            var heading = NewLocalizedText("Heading", sheet.rectTransform, 46, Ember, "menu.loadTitle");
+            heading.fontStyle = FontStyles.SmallCaps;
+            heading.characterSpacing = 6f;
+            heading.rectTransform.anchorMin = new Vector2(0f, 0.86f);
+            heading.rectTransform.anchorMax = new Vector2(1f, 0.98f);
+            heading.rectTransform.offsetMin = heading.rectTransform.offsetMax = Vector2.zero;
+
+            continueRows = NewRect("Rows", sheet.rectTransform);
+            continueRows.anchorMin = new Vector2(0.06f, 0.16f);
+            continueRows.anchorMax = new Vector2(0.94f, 0.84f);
+            continueRows.offsetMin = continueRows.offsetMax = Vector2.zero;
+            var rowsLayout = continueRows.gameObject.AddComponent<VerticalLayoutGroup>();
+            rowsLayout.spacing = 14f;
+            rowsLayout.childControlHeight = true;
+            rowsLayout.childControlWidth = true;
+            rowsLayout.childForceExpandHeight = false;
+            rowsLayout.childForceExpandWidth = true;
+
+            var close = NewImage("Close", sheet.rectTransform, null, new Color(0.14f, 0.13f, 0.1f, 1f));
+            close.raycastTarget = true;
+            close.rectTransform.anchorMin = new Vector2(0.25f, 0.02f);
+            close.rectTransform.anchorMax = new Vector2(0.75f, 0.12f);
+            close.rectTransform.offsetMin = close.rectTransform.offsetMax = Vector2.zero;
+            close.gameObject.AddComponent<Button>().onClick.AddListener(() => continueSheet.gameObject.SetActive(false));
+            NewLocalizedText("Label", close.rectTransform, 40, Bone, "menu.back");
+
+            continueSheet.gameObject.SetActive(false);
         }
 
         void ToggleOptions(bool visible) => optionsSheet.gameObject.SetActive(visible);
@@ -166,6 +268,7 @@ namespace Oathfire.UI
             AddButton("menu.options", () => ToggleOptions(true));
             AddButton("menu.quit", Quit);
 
+            BuildContinueSheet();
             BuildOptions();
         }
 

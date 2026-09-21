@@ -2841,12 +2841,20 @@
       "value": "Senjata"
     },
     {
+      "key": "menu.autosave",
+      "value": "Simpanan Otomatis"
+    },
+    {
       "key": "menu.back",
       "value": "Kembali"
     },
     {
       "key": "menu.continue",
       "value": "Lanjutkan"
+    },
+    {
+      "key": "menu.loadTitle",
+      "value": "Pilih jalan yang mau dilanjutkan"
     },
     {
       "key": "menu.newGame",
