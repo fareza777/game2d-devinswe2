@@ -83,6 +83,21 @@ namespace Oathfire.Progress
                 Inventory = save.inventory;
                 Inventory.Changed += OnInventoryChanged;
             }
+            // Saves written before the bag travelled are empty-handed even though the prologue already
+            // paid the kit out; refit them once so the sword is not missing on an old slot.
+            if (Inventory.stacks.Count == 0 && Inventory.equipment.Count == 0 && Inventory.coin == 0
+                && save.HasFlag("prologue.kit_granted"))
+            {
+                foreach (var (item, count) in Oathfire.ProloguePlaceholder.StartingKit)
+                    Inventory.Add(item, count);
+                Inventory.Equip("sword_guard_issue");
+                Inventory.Equip("armor_padded");
+                Inventory.Add("boots_leather");
+                Inventory.Equip("boots_leather");
+                Inventory.Add("legs_leather");
+                Inventory.Equip("legs_leather");
+                Inventory.coin = 25;
+            }
             Changed?.Invoke();
         }
     }

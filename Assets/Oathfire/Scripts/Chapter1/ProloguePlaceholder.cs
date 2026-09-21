@@ -11,7 +11,7 @@ namespace Oathfire
     {
         const string RennfallScene = "Rennfall";
 
-        static readonly (string item, int count)[] StartingKit =
+        public static readonly (string item, int count)[] StartingKit =
         {
             ("quest_testament", 1),
             ("sword_guard_issue", 1),
