@@ -1,0 +1,83 @@
+{
+  "id": "chalkpit_brack",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "brack",
+      "textKey": "dlg.chalkpit_brack.b1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "b2",
+      "choices": []
+    },
+    {
+      "id": "b2",
+      "speaker": "brack",
+      "textKey": "dlg.chalkpit_brack.b2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.chalkpit_brack.b2.c1",
+          "next": "b3a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.chalkpit_brack.b2.c2",
+          "next": "b3b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "b3a",
+      "speaker": "brack",
+      "textKey": "dlg.chalkpit_brack.b3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "b3b",
+      "speaker": "brack",
+      "textKey": "dlg.chalkpit_brack.b3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

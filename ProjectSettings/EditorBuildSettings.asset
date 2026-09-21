@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Oathfire/Scenes/Windrest.unity
     guid: 924f4529a9b0ebe28b7b429ca4afc459
+  - enabled: 1
+    path: Assets/Oathfire/Scenes/Chalkpit.unity
+    guid: c8dd4a2806f9161d6947310051e7f063
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -76,6 +76,18 @@ PORTRAITS = {
               "ink-stained fingertips, pale eyes behind a squint, a robe of dusty grey wool",
     "hask": "A salt League factor in his fifties, pompous full face, carefully combed greying hair, "
             "small ringed fingers steepled, a measure-master's chain of office, imperious squint",
+    "brack": "A quarry foreman in his fifties, massive weathered face dusted white with chalk, "
+             "shaved grey bristles on a square jaw, deep furrows at the eyes, a leather shoulder-yoke still on",
+    "ines": "A tally clerk woman in her thirties, sharp thin face under a clerk's cap, chalk dust in her "
+            "hairline, ink-stained lips pressed thin, a stick of chalk behind one ear, quick exact eyes",
+    "simm": "A seal warden in his forties, narrow careful face, neat dark beard, a brass seal-stamp hung "
+            "at his chest on a chain, polished precise eyes that weigh everything",
+    "ket": "A squatter woman in her forties, lean chalk-pale face, wild unbound hair greyed with dust, "
+           "bright unfazed eyes, a patched shawl, the smile of someone who owns a hole",
+    "rill": "A stone cutter in his thirties, broad flat nose and heavy jaw, face pale with rock dust, "
+            "a leather headband, calm stubborn eyes, forearms wrapped in chalk-stained cloth",
+    "dess": "A pit porter in his twenties, round open face gone pale under chalk dust, short cropped hair, "
+            "a sling strap across his chest, the blank patience of someone who carries things",
     "hesketh": "A thatcher and roofer in his forties, weather-roughened face, straw-yellow hair tied back, "
                "chalk dust on his brow, a craftsman's squint, cracked thumbnail on a worried hand",
     "kell": "A coal cart driver in his fifties, round honest face smudged with charcoal, "

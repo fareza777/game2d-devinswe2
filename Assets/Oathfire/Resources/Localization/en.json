@@ -449,6 +449,138 @@
       "value": "Take the burners' road — it forks east off our lane, marked with a post. If the pits go dark the pans go dark, and then this whole valley is digging through ash for its salt."
     },
     {
+      "key": "dlg.chalkpit_brack.b1",
+      "value": "Careful on the rim — a cut face does not care whether you fall or jump. I'm Brack. I ran this pit when it was still a pit: sixty souls on the face, and every block that left here carried the League's seal."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b2",
+      "value": "Then the pay stopped. The manifest put the blame on my wagons — said the lime money walked into a keep and never walked out. My crew held one week on credit, and then the pit went quiet. Now pit-jacks squat the cut and pick it like a bone."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b2.c1",
+      "value": "The floor will stand clear. I'll see to it."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b2.c2",
+      "value": "What are the jacks taking?"
+    },
+    {
+      "key": "dlg.chalkpit_brack.b3a",
+      "value": "Then I owe you a foreman's word. Walk the lane down — and don't stand under the hoist when it creaks."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b3b",
+      "value": "Cut blocks and the League's good name. They stamp spoil with a seal they stole and sell it as first-grade chalk. Every bag they move is a lie the valley believes."
+    },
+    {
+      "key": "dlg.chalkpit_dess.d1",
+      "value": "Slab to table, table to scale, scale to ledger — that was the whole job. Now I walk the rim and the ledger walks itself."
+    },
+    {
+      "key": "dlg.chalkpit_dess.d2",
+      "value": "Dess. Porter, thirty loads a day when the pit breathed. The jacks don't bother us — we carry nothing now, and a porter's hands are only worth robbing when they're full."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i1",
+      "value": "Tally-clerk Ines. I still post the count at this post every morning, even though there is nothing left to count — a habit the League pays better than it deserves."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i2",
+      "value": "The night the crew walked, three of my tally-sticks went down into the cut with them. Without those sticks the books cannot prove whose lime the jacks are selling — every sack they ship is certified by my silence."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i2.c1",
+      "value": "I'll find your sticks. A count should be able to speak."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i2.c2",
+      "value": "Why not just cut new sticks?"
+    },
+    {
+      "key": "dlg.chalkpit_ines.i3a",
+      "value": "Look along the cut faces and under the slab tables — wherever a count was broken off mid-stroke."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i3b",
+      "value": "A new stick only proves the count restarted. The old ones prove it was broken — and a League court hangs on the difference."
+    },
+    {
+      "key": "dlg.chalkpit_ket.k1",
+      "value": "You're standing in my kitchen. Kettle on the fire, roof of sky, floor of chalk — best room in the valley, if you don't mind the echo."
+    },
+    {
+      "key": "dlg.chalkpit_ket.k2",
+      "value": "Ket. I squatted here before the jacks came and I'll squat here after — the pit keeps the rain off better than any League roof they never paid me under. The jacks? They keep to the rim and the tables. They leave me the floor because the floor is where the pit drops its dead."
+    },
+    {
+      "key": "dlg.chalkpit_ket.k3",
+      "value": "Their captain sleeps up on the hoist platform, near the stamp he doesn't dare touch. Chalk remembers, warden — and a pit remembers louder."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r1",
+      "value": "Mind the bench — that face is live. Cutter Rill. I stayed when the rest walked: a pit you stop cutting is just a hole, and I didn't spend twelve years learning a hole."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r2",
+      "value": "My kiln's cold and the League's lime bags are split all over the floor — burn-lime, good stone, going to dew. The dew will take it or the jacks will; the kiln should get there first."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r2.c1",
+      "value": "I'll gather the spill. A kiln shouldn't go cold over split sacks."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r2.c2",
+      "value": "Why stay when the pay stopped?"
+    },
+    {
+      "key": "dlg.chalkpit_rill.r3a",
+      "value": "Four bags, scattered down where the faces meet the floor. Bring them back dry and I'll call it square."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r3b",
+      "value": "Because a face remembers the hand that cut it. Leave it half-finished and it will fall on somebody — usually the somebody who least deserves it."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s1",
+      "value": "Seal-warden Simm. My whole office is a brass head on a wooden haft — the stamp that says a block is League chalk and not just rock someone paid for."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s2",
+      "value": "When the crew walked, the last clerk left the stamp on the derrick platform — on the hoist, over the deep end. I have not climbed down for it because the jacks watch that platform like it owes them money. If they learn what that stamp can certify, every bag of spoil in the valley becomes 'League first-grade.'"
+    },
+    {
+      "key": "dlg.chalkpit_simm.s2.c1",
+      "value": "Then I'll go up and take it off the hoist."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s2.c2",
+      "value": "What stops them from just climbing for it?"
+    },
+    {
+      "key": "dlg.chalkpit_simm.s3a",
+      "value": "Mind the deep end. And mind what the stamp has been marking since it dropped — the jacks keep their worst near it."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s3b",
+      "value": "Superstition. They believe the hoist hung a man once and will do it again. For once, a pit ghost works in our favour."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w1",
+      "value": "The pay-roll answered the manifest's last question — where the coin came from. The deserters were paid against a lime contract that the League never signed. The payments were routed through a dead pit in the hills."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w2",
+      "value": "The Chalkpit. The League's lime workings, abandoned mid-dig when its crew's pay never arrived — because Durn's ledgers had already spent it. A dust-white spur branches off the trade road past the salt track. The pit should be empty. If it is not, I want to know whose hands are in it."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w2.c1",
+      "value": "I'll walk the chalk spur and see what the pit is keeping."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w3",
+      "value": "Mind the rim — a worked face does not forgive a careless step. And warden: if someone down there claims the League's stamp, they are lying. The League still has its seal. Whoever cut chalk under it is cutting for someone else."
+    },
+    {
       "key": "dlg.city_asta.n1",
       "value": "My son drove the salt carts to Rennfall, before the valley went dark. Forty years I have watched that road for a wagon."
     },
@@ -1681,6 +1813,14 @@
       "value": "Someone is stumbling toward the light."
     },
     {
+      "key": "event.pit.floor",
+      "value": "Pit-jacks squat the cut."
+    },
+    {
+      "key": "event.pit.seal",
+      "value": "The stamp's watchers object."
+    },
+    {
       "key": "event.salt.key",
       "value": "The key-warden's 'guests' object."
     },
@@ -2485,6 +2625,30 @@
       "value": "The Deserters' Pay-Roll"
     },
     {
+      "key": "item.quest_pit_lime.desc",
+      "value": "A burst sack of burn-lime, gathered off the pit floor before the dew takes it. Worth little to a thief and everything to a kiln that has gone cold."
+    },
+    {
+      "key": "item.quest_pit_lime.name",
+      "value": "Split Lime Bag"
+    },
+    {
+      "key": "item.quest_pit_seal.desc",
+      "value": "Brass-headed, chalk-flecked — the stamp that made a cut block League property and a cart-load legal. The last clerk left it on the hoist and never came back for it."
+    },
+    {
+      "key": "item.quest_pit_seal.name",
+      "value": "The Pit's Seal-Stamp"
+    },
+    {
+      "key": "item.quest_pit_tally.desc",
+      "value": "A chalk-stained stick split for the count — cut face, cart, and kiln each holding a third of the truth. Where it lies is where a load of lime stopped being anybody's."
+    },
+    {
+      "key": "item.quest_pit_tally.name",
+      "value": "Dropped Tally-Stick"
+    },
+    {
       "key": "item.quest_roane_tally.desc",
       "value": "A clerk's tally-book, its spine cracked from being thrown. The pages still add up to every bar of iron the keep ever held."
     },
@@ -3001,6 +3165,10 @@
       "value": "The Burnpits"
     },
     {
+      "key": "place.Chalkpit",
+      "value": "The Chalkpit"
+    },
+    {
       "key": "place.Greymarch",
       "value": "Greymarch"
     },
@@ -3115,6 +3283,14 @@
     {
       "key": "prompt.travel.burnpitsOut",
       "value": "Walk the burners' road back to the pans"
+    },
+    {
+      "key": "prompt.travel.chalkpit",
+      "value": "Take the chalk spur to the pit"
+    },
+    {
+      "key": "prompt.travel.chalkpitOut",
+      "value": "Walk the spur back to the trade road"
     },
     {
       "key": "prompt.travel.greymarch",
@@ -3523,6 +3699,54 @@
     {
       "key": "quest.sq_pay_roll.title",
       "value": "Who Paid the Deserters"
+    },
+    {
+      "key": "quest.sq_pit_jacks.s1",
+      "value": "Drive the pit-jacks out of the chalk cut"
+    },
+    {
+      "key": "quest.sq_pit_jacks.summary",
+      "value": "Pit-jacks — deserters who found chalk dust easier than crust — squat the cut and strip the slab tables bare. Foreman Brack wants the floor walked clean before the League sends a crew that cannot dig."
+    },
+    {
+      "key": "quest.sq_pit_jacks.title",
+      "value": "The Cut Belongs to the Picks"
+    },
+    {
+      "key": "quest.sq_pit_lime.s1",
+      "value": "Gather the four split lime bags off the pit floor"
+    },
+    {
+      "key": "quest.sq_pit_lime.summary",
+      "value": "The League's lime bags split where the crew dropped them — good burn-lime going to dew on the pit floor. Cutter Rill still has a kiln to feed; he wants the spill gathered before the weather does."
+    },
+    {
+      "key": "quest.sq_pit_lime.title",
+      "value": "Cold Kilns, White Bags"
+    },
+    {
+      "key": "quest.sq_pit_seal.s1",
+      "value": "Take the seal-stamp off the derrick platform — it will not be unguarded"
+    },
+    {
+      "key": "quest.sq_pit_seal.summary",
+      "value": "The pit's seal-stamp — the brass head that made a block League property — still sits on the derrick platform where the last clerk dropped it. The jacks know what it is worth. Seal-warden Simm wants it down before they learn."
+    },
+    {
+      "key": "quest.sq_pit_seal.title",
+      "value": "The Stamp That Weighs"
+    },
+    {
+      "key": "quest.sq_pit_tallies.s1",
+      "value": "Find the three dropped tally-sticks in the pit"
+    },
+    {
+      "key": "quest.sq_pit_tallies.summary",
+      "value": "The night the crew walked off, three tally-sticks were dropped in the cut — and without them the books cannot say whose lime the jacks are selling. Tally-clerk Ines needs them found."
+    },
+    {
+      "key": "quest.sq_pit_tallies.title",
+      "value": "Three Sticks, One Truth"
     },
     {
       "key": "quest.sq_porters_load.s1",
@@ -3957,6 +4181,10 @@
       "value": "Boru the Porter"
     },
     {
+      "key": "speaker.brack",
+      "value": "Foreman Brack"
+    },
+    {
       "key": "speaker.brann",
       "value": "Brann Hollowell"
     },
@@ -3989,6 +4217,10 @@
       "value": "Corporal Dace"
     },
     {
+      "key": "speaker.dess",
+      "value": "Dess the Porter"
+    },
+    {
       "key": "speaker.durn",
       "value": "Castellan Durn"
     },
@@ -4013,6 +4245,10 @@
       "value": "Hesketh the Cooper"
     },
     {
+      "key": "speaker.ines",
+      "value": "Tally-clerk Ines"
+    },
+    {
       "key": "speaker.iskra",
       "value": "Iskra Vell"
     },
@@ -4027,6 +4263,10 @@
     {
       "key": "speaker.kell",
       "value": "Kell the Carter"
+    },
+    {
+      "key": "speaker.ket",
+      "value": "Ket of the Floor"
     },
     {
       "key": "speaker.lene",
@@ -4077,6 +4317,10 @@
       "value": "Nessa Aldwin"
     },
     {
+      "key": "speaker.rill",
+      "value": "Cutter Rill"
+    },
+    {
       "key": "speaker.roane",
       "value": "Roane"
     },
@@ -4087,6 +4331,10 @@
     {
       "key": "speaker.sabel",
       "value": "Sabel Orr"
+    },
+    {
+      "key": "speaker.simm",
+      "value": "Seal-warden Simm"
     },
     {
       "key": "speaker.straggler",
@@ -4243,6 +4491,10 @@
     {
       "key": "toast.nothingToSay",
       "value": "Nothing more to say for now"
+    },
+    {
+      "key": "toast.pitClear",
+      "value": "The pit floor stands clear"
     },
     {
       "key": "toast.questDone",

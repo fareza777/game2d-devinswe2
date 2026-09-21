@@ -1,0 +1,55 @@
+{
+  "id": "chalkpit_simm",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "simm",
+      "text": {
+        "en": "Seal-warden Simm. My whole office is a brass head on a wooden haft — the stamp that says a block is League chalk and not just rock someone paid for.",
+        "id": "Penjaga segel Simm. Seluruh jabatanku adalah kepala kuningan di tangkai kayu — stempel yang menyatakan sebuah blok adalah kapur Liga dan bukan sekadar batu yang dibayar orang."
+      },
+      "next": "s2"
+    },
+    {
+      "id": "s2",
+      "speaker": "simm",
+      "text": {
+        "en": "When the crew walked, the last clerk left the stamp on the derrick platform — on the hoist, over the deep end. I have not climbed down for it because the jacks watch that platform like it owes them money. If they learn what that stamp can certify, every bag of spoil in the valley becomes 'League first-grade.'",
+        "id": "Waktu kru itu pergi, juru hitung terakhir meninggalkan stempelnya di anjungan kerek — di atas kerek, di ujung terdalam. Aku belum turun mengambilnya karena para jack mengawasi anjungan itu seperti anjungan itu berutang pada mereka. Kalau mereka tahu apa yang bisa disahkan stempel itu, tiap karung sisa galian di lembah ini jadi 'kelas satu Liga.'"
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "Then I'll go up and take it off the hoist.",
+            "id": "Maka aku naik dan mengambilnya dari kerek itu."
+          },
+          "next": "s3a"
+        },
+        {
+          "text": {
+            "en": "What stops them from just climbing for it?",
+            "id": "Apa yang menghalangi mereka memanjat ke sana?"
+          },
+          "next": "s3b"
+        }
+      ]
+    },
+    {
+      "id": "s3a",
+      "speaker": "simm",
+      "text": {
+        "en": "Mind the deep end. And mind what the stamp has been marking since it dropped — the jacks keep their worst near it.",
+        "id": "Jaga langkah di ujung dalam. Dan jaga dirimu dari apa yang dijaga stempel itu sejak ia jatuh — para jack menyimpan yang terburuk di dekatnya."
+      }
+    },
+    {
+      "id": "s3b",
+      "speaker": "simm",
+      "text": {
+        "en": "Superstition. They believe the hoist hung a man once and will do it again. For once, a pit ghost works in our favour.",
+        "id": "Takhayul. Mereka percaya kerek itu pernah menggantung orang dan akan mengulanginya. Sekali ini, hantu lubang bekerja untuk kita."
+      }
+    }
+  ]
+}

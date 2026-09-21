@@ -269,6 +269,76 @@
       "from": "Burnpits",
       "to": "Windrest",
       "via": "Rennfall"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Hollow",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Windrest",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Hollow",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Windrest",
+      "via": "TradeRoad"
     }
   ],
   "guides": [
@@ -633,6 +703,30 @@
       "target": "spot",
       "id": "mill_sack_1",
       "scene": "Windrest"
+    },
+    {
+      "key": "kills.pit",
+      "target": "spot",
+      "id": "pit_fight",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "quest_pit_tally",
+      "target": "spot",
+      "id": "pit_tally_1",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "quest_pit_seal",
+      "target": "spot",
+      "id": "pit_seal_stamp",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "quest_pit_lime",
+      "target": "spot",
+      "id": "pit_lime_1",
+      "scene": "Chalkpit"
     }
   ]
 }

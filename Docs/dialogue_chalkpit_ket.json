@@ -1,0 +1,32 @@
+{
+  "id": "chalkpit_ket",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "ket",
+      "text": {
+        "en": "You're standing in my kitchen. Kettle on the fire, roof of sky, floor of chalk — best room in the valley, if you don't mind the echo.",
+        "id": "Kau sedang berdiri di dapurku. Ketel di api, atap dari langit, lantai dari kapur — kamar terbaik di lembah, kalau kau tak keberatan dengan gema."
+      },
+      "next": "k2"
+    },
+    {
+      "id": "k2",
+      "speaker": "ket",
+      "text": {
+        "en": "Ket. I squatted here before the jacks came and I'll squat here after — the pit keeps the rain off better than any League roof they never paid me under. The jacks? They keep to the rim and the tables. They leave me the floor because the floor is where the pit drops its dead.",
+        "id": "Ket. Aku mendiami tempat ini sebelum para jack datang dan akan tetap di sini sesudahnya — lubang ini menahan hujan lebih baik dari atap Liga mana pun yang tak pernah kubayar. Para jack? Mereka berpegang pada tepian dan meja-meja. Mereka membiarkanku di lantai karena lantai adalah tempat lubang menjatuhkan orang matinya."
+      },
+      "next": "k3"
+    },
+    {
+      "id": "k3",
+      "speaker": "ket",
+      "text": {
+        "en": "Their captain sleeps up on the hoist platform, near the stamp he doesn't dare touch. Chalk remembers, warden — and a pit remembers louder.",
+        "id": "Kapten mereka tidur di anjungan kerek, dekat stempel yang tak berani ia sentuh. Kapur punya ingatan, warden — dan lubang mengingat lebih keras lagi."
+      }
+    }
+  ]
+}

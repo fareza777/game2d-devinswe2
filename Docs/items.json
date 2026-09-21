@@ -1741,6 +1741,54 @@
     "id": "Karung tepung Windrest yang disobek, pecah di tempat tali kereta dipotong. Kini berat oleh biji rumput, tapi saat jatuh ia masih hitungan Liga."
    },
    "icon": "LootIcons_27"
+  },
+  {
+   "id": "quest_pit_tally",
+   "kind": "Quest",
+   "rarity": "Fine",
+   "value": 0,
+   "setsFlag": "quest.pit_tally",
+   "name": {
+    "en": "Dropped Tally-Stick",
+    "id": "Tongkat Hitung yang Terjatuh"
+   },
+   "desc": {
+    "en": "A chalk-stained stick split for the count — cut face, cart, and kiln each holding a third of the truth. Where it lies is where a load of lime stopped being anybody's.",
+    "id": "Tongkat berparut ternoda kapur — muka potong, pedati, dan tungku masing-masing memegang sepertiga kebenaran. Di mana ia tergeletak, di situlah satu muatan kapur berhenti jadi milik siapa pun."
+   },
+   "icon": "LootIcons_30"
+  },
+  {
+   "id": "quest_pit_seal",
+   "kind": "Quest",
+   "rarity": "Rare",
+   "value": 0,
+   "setsFlag": "quest.pit_seal",
+   "name": {
+    "en": "The Pit's Seal-Stamp",
+    "id": "Stempel Segel Lubang"
+   },
+   "desc": {
+    "en": "Brass-headed, chalk-flecked — the stamp that made a cut block League property and a cart-load legal. The last clerk left it on the hoist and never came back for it.",
+    "id": "Berkepala kuningan, berbintik kapur — stempel yang membuat blok potong jadi milik Liga dan muatan pedati jadi sah. Juru hitung terakhir meninggalkannya di kerek dan tak pernah kembali."
+   },
+   "icon": "LootIcons_31"
+  },
+  {
+   "id": "quest_pit_lime",
+   "kind": "Quest",
+   "rarity": "Common",
+   "value": 0,
+   "setsFlag": "quest.pit_lime",
+   "name": {
+    "en": "Split Lime Bag",
+    "id": "Karung Kapur yang Terbelah"
+   },
+   "desc": {
+    "en": "A burst sack of burn-lime, gathered off the pit floor before the dew takes it. Worth little to a thief and everything to a kiln that has gone cold.",
+    "id": "Karung kapur bakar yang pecah, dipungut dari lantai lubang sebelum embun mengambilnya. Tak berarti bagi maling, tapi segalanya bagi tungku yang sudah padam."
+   },
+   "icon": "LootIcons_29"
   }
  ]
 }

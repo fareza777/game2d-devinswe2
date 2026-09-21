@@ -1,0 +1,83 @@
+{
+  "id": "chalkpit_ines",
+  "startNode": "i1",
+  "nodes": [
+    {
+      "id": "i1",
+      "speaker": "ines",
+      "textKey": "dlg.chalkpit_ines.i1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "i2",
+      "choices": []
+    },
+    {
+      "id": "i2",
+      "speaker": "ines",
+      "textKey": "dlg.chalkpit_ines.i2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.chalkpit_ines.i2.c1",
+          "next": "i3a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.chalkpit_ines.i2.c2",
+          "next": "i3b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "i3a",
+      "speaker": "ines",
+      "textKey": "dlg.chalkpit_ines.i3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "i3b",
+      "speaker": "ines",
+      "textKey": "dlg.chalkpit_ines.i3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

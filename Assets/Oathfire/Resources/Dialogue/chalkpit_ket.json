@@ -1,0 +1,45 @@
+{
+  "id": "chalkpit_ket",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "ket",
+      "textKey": "dlg.chalkpit_ket.k1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "k2",
+      "choices": []
+    },
+    {
+      "id": "k2",
+      "speaker": "ket",
+      "textKey": "dlg.chalkpit_ket.k2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "k3",
+      "choices": []
+    },
+    {
+      "id": "k3",
+      "speaker": "ket",
+      "textKey": "dlg.chalkpit_ket.k3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

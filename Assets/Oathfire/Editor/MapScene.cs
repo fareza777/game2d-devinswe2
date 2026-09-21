@@ -45,7 +45,7 @@ namespace Oathfire.EditorTools
         [System.Serializable]
         public class MapAnchors
         {
-            public CellRef hearth, player, board, brann, maren, roadOut, trail, trail2, trail3, search;
+            public CellRef hearth, player, board, brann, maren, roadOut, trail, trail2, trail3, trail4, search;
             public CellRef[] plots, timber, stone, arrivals, villagers;
         }
 

@@ -1,0 +1,83 @@
+{
+  "id": "chalkpit_simm",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "simm",
+      "textKey": "dlg.chalkpit_simm.s1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "s2",
+      "choices": []
+    },
+    {
+      "id": "s2",
+      "speaker": "simm",
+      "textKey": "dlg.chalkpit_simm.s2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.chalkpit_simm.s2.c1",
+          "next": "s3a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.chalkpit_simm.s2.c2",
+          "next": "s3b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "s3a",
+      "speaker": "simm",
+      "textKey": "dlg.chalkpit_simm.s3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "s3b",
+      "speaker": "simm",
+      "textKey": "dlg.chalkpit_simm.s3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

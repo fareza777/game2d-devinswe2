@@ -1,0 +1,55 @@
+{
+  "id": "chalkpit_brack",
+  "startNode": "b1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "brack",
+      "text": {
+        "en": "Careful on the rim — a cut face does not care whether you fall or jump. I'm Brack. I ran this pit when it was still a pit: sixty souls on the face, and every block that left here carried the League's seal.",
+        "id": "Hati-hati di tepian — muka galian tak peduli kau jatuh atau melompat. Aku Brack. Aku memimpin lubang ini saat ia masih jadi lubang: enam puluh jiwa di muka galian, dan tiap blok yang pergi dari sini membawa segel Liga."
+      },
+      "next": "b2"
+    },
+    {
+      "id": "b2",
+      "speaker": "brack",
+      "text": {
+        "en": "Then the pay stopped. The manifest put the blame on my wagons — said the lime money walked into a keep and never walked out. My crew held one week on credit, and then the pit went quiet. Now pit-jacks squat the cut and pick it like a bone.",
+        "id": "Lalu gajinya berhenti. Manifest itu menumpahkan salah pada pedatiku — katanya uang kapur berjalan masuk benteng dan tak pernah keluar. Kruku bertahan seminggu dengan utang, lalu lubang ini senyap. Sekarang para pit-jack menduduki galian dan mencungkilnya seperti tulang."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "The floor will stand clear. I'll see to it.",
+            "id": "Lantainya akan bersih. Aku yang urus."
+          },
+          "next": "b3a"
+        },
+        {
+          "text": {
+            "en": "What are the jacks taking?",
+            "id": "Apa yang diambil para jack?"
+          },
+          "next": "b3b"
+        }
+      ]
+    },
+    {
+      "id": "b3a",
+      "speaker": "brack",
+      "text": {
+        "en": "Then I owe you a foreman's word. Walk the lane down — and don't stand under the hoist when it creaks.",
+        "id": "Maka aku berutang kata seorang mandor padamu. Turun lewat lajur — dan jangan berdiri di bawah kerek saat ia berderit."
+      }
+    },
+    {
+      "id": "b3b",
+      "speaker": "brack",
+      "text": {
+        "en": "Cut blocks and the League's good name. They stamp spoil with a seal they stole and sell it as first-grade chalk. Every bag they move is a lie the valley believes.",
+        "id": "Blok potong dan nama baik Liga. Mereka mencap sisa galian dengan segel curian dan menjualnya sebagai kapur kelas satu. Tiap karung yang mereka angkut adalah dusta yang dipercaya lembah ini."
+      }
+    }
+  ]
+}

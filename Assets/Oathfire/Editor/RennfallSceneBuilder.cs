@@ -104,8 +104,12 @@ namespace Oathfire.EditorTools
             // Carrying the keep's manifest home makes it hers to deal with.
             MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "keep_manifest", "act2.manifest_found",
                 "act2.manifest_delivered", "quest_keep_manifest");
+            // The pay-roll answers the manifest's last question: where the coin came from. It names
+            // the League's dead lime pit — and sends the Warden to see who is cutting it now.
+            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "chalkpit_writ", "sq.payroll.done",
+                "act2.chalkpit_rumoured");
             // And once it is delivered, the manifest names the League's waylaid grain train — her writ
-            // marks the toll lane on the map.
+            // marks the toll lane on the map. (Prepended last so it fires before the chalk writ.)
             MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "saltpans_writ", "act2.manifest_delivered",
                 "act2.saltpans_rumoured");
             // Once the village has survived a night, Winna's flour barrel runs low: the mill's

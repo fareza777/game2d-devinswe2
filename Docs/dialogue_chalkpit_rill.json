@@ -1,0 +1,55 @@
+{
+  "id": "chalkpit_rill",
+  "startNode": "r1",
+  "nodes": [
+    {
+      "id": "r1",
+      "speaker": "rill",
+      "text": {
+        "en": "Mind the bench — that face is live. Cutter Rill. I stayed when the rest walked: a pit you stop cutting is just a hole, and I didn't spend twelve years learning a hole.",
+        "id": "Hati-hati di undaknya — muka itu hidup. Pemahat Rill. Aku bertahan saat yang lain pergi: lubang yang berhenti dipotong hanyalah lobang, dan aku tak menghabiskan dua belas tahun belajar lobang."
+      },
+      "next": "r2"
+    },
+    {
+      "id": "r2",
+      "speaker": "rill",
+      "text": {
+        "en": "My kiln's cold and the League's lime bags are split all over the floor — burn-lime, good stone, going to dew. The dew will take it or the jacks will; the kiln should get there first.",
+        "id": "Tungkuku dingin dan karung-karung kapur Liga terbelah di seluruh lantai — kapur bakar, batu bagus, jadi santapan embun. Embun yang akan mengambilnya, atau para jack; tungku harusnya sampai duluan."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "I'll gather the spill. A kiln shouldn't go cold over split sacks.",
+            "id": "Kupungut tumpahannya. Tungku tak seharusnya padam gara-gara karung pecah."
+          },
+          "next": "r3a"
+        },
+        {
+          "text": {
+            "en": "Why stay when the pay stopped?",
+            "id": "Kenapa bertahan ketika gajinya berhenti?"
+          },
+          "next": "r3b"
+        }
+      ]
+    },
+    {
+      "id": "r3a",
+      "speaker": "rill",
+      "text": {
+        "en": "Four bags, scattered down where the faces meet the floor. Bring them back dry and I'll call it square.",
+        "id": "Empat karung, berserakan di tempat muka galian bertemu lantai. Bawa kembali dalam keadaan kering dan kukatakan impas."
+      }
+    },
+    {
+      "id": "r3b",
+      "speaker": "rill",
+      "text": {
+        "en": "Because a face remembers the hand that cut it. Leave it half-finished and it will fall on somebody — usually the somebody who least deserves it.",
+        "id": "Karena muka galian mengingat tangan yang memahatnya. Tinggalkan setengah jadi dan ia akan menimpa seseorang — biasanya orang yang paling tak pantas tertimpa."
+      }
+    }
+  ]
+}

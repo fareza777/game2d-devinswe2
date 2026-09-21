@@ -449,6 +449,138 @@
       "value": "Tempuh jalan pembakar — bercabang ke timur dari lajur kami, ditandai sebuah tiang. Kalau lubang bakar padam, petak padam, dan seluruh lembah ini mengorek abu demi garamnya."
     },
     {
+      "key": "dlg.chalkpit_brack.b1",
+      "value": "Hati-hati di tepian — muka galian tak peduli kau jatuh atau melompat. Aku Brack. Aku memimpin lubang ini saat ia masih jadi lubang: enam puluh jiwa di muka galian, dan tiap blok yang pergi dari sini membawa segel Liga."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b2",
+      "value": "Lalu gajinya berhenti. Manifest itu menumpahkan salah pada pedatiku — katanya uang kapur berjalan masuk benteng dan tak pernah keluar. Kruku bertahan seminggu dengan utang, lalu lubang ini senyap. Sekarang para pit-jack menduduki galian dan mencungkilnya seperti tulang."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b2.c1",
+      "value": "Lantainya akan bersih. Aku yang urus."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b2.c2",
+      "value": "Apa yang diambil para jack?"
+    },
+    {
+      "key": "dlg.chalkpit_brack.b3a",
+      "value": "Maka aku berutang kata seorang mandor padamu. Turun lewat lajur — dan jangan berdiri di bawah kerek saat ia berderit."
+    },
+    {
+      "key": "dlg.chalkpit_brack.b3b",
+      "value": "Blok potong dan nama baik Liga. Mereka mencap sisa galian dengan segel curian dan menjualnya sebagai kapur kelas satu. Tiap karung yang mereka angkut adalah dusta yang dipercaya lembah ini."
+    },
+    {
+      "key": "dlg.chalkpit_dess.d1",
+      "value": "Lempeng ke meja, meja ke timbangan, timbangan ke buku — itulah seluruh pekerjaannya dulu. Sekarang aku berjalan di tepian dan bukunya berjalan sendiri."
+    },
+    {
+      "key": "dlg.chalkpit_dess.d2",
+      "value": "Dess. Porter, tiga puluh muatan sehari ketika lubang ini bernapas. Para jack tak menggangguku — tak ada yang kubawa sekarang, dan tangan porter hanya layak dirampok saat sedang penuh."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i1",
+      "value": "Juru hitung Ines. Aku masih mencatat hitungan di tiang ini tiap pagi, meski tak ada lagi yang bisa dihitung — kebiasaan yang dibayar Liga lebih mahal dari nilainya."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i2",
+      "value": "Di malam kru itu pergi, tiga tongkat hitungku ikut jatuh ke galian bersama mereka. Tanpa tongkat-tongkat itu pembukuan tak bisa membuktikan kapur siapa yang dijual para jack — tiap karung yang mereka kirim disahkan oleh diamku."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i2.c1",
+      "value": "Kutemukan tongkat-tongkatmu. Sebuah hitungan harus bisa bersuara."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i2.c2",
+      "value": "Kenapa tak membuat tongkat baru saja?"
+    },
+    {
+      "key": "dlg.chalkpit_ines.i3a",
+      "value": "Cari di sepanjang muka galian dan di bawah meja-meja lempeng — di mana pun sebuah hitungan dipatahkan di tengah guratan."
+    },
+    {
+      "key": "dlg.chalkpit_ines.i3b",
+      "value": "Tongkat baru hanya membuktikan hitungan dimulai ulang. Yang lama membuktikan hitungan dipatahkan — dan pengadilan Liga bergantung pada perbedaan itu."
+    },
+    {
+      "key": "dlg.chalkpit_ket.k1",
+      "value": "Kau sedang berdiri di dapurku. Ketel di api, atap dari langit, lantai dari kapur — kamar terbaik di lembah, kalau kau tak keberatan dengan gema."
+    },
+    {
+      "key": "dlg.chalkpit_ket.k2",
+      "value": "Ket. Aku mendiami tempat ini sebelum para jack datang dan akan tetap di sini sesudahnya — lubang ini menahan hujan lebih baik dari atap Liga mana pun yang tak pernah kubayar. Para jack? Mereka berpegang pada tepian dan meja-meja. Mereka membiarkanku di lantai karena lantai adalah tempat lubang menjatuhkan orang matinya."
+    },
+    {
+      "key": "dlg.chalkpit_ket.k3",
+      "value": "Kapten mereka tidur di anjungan kerek, dekat stempel yang tak berani ia sentuh. Kapur punya ingatan, warden — dan lubang mengingat lebih keras lagi."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r1",
+      "value": "Hati-hati di undaknya — muka itu hidup. Pemahat Rill. Aku bertahan saat yang lain pergi: lubang yang berhenti dipotong hanyalah lobang, dan aku tak menghabiskan dua belas tahun belajar lobang."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r2",
+      "value": "Tungkuku dingin dan karung-karung kapur Liga terbelah di seluruh lantai — kapur bakar, batu bagus, jadi santapan embun. Embun yang akan mengambilnya, atau para jack; tungku harusnya sampai duluan."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r2.c1",
+      "value": "Kupungut tumpahannya. Tungku tak seharusnya padam gara-gara karung pecah."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r2.c2",
+      "value": "Kenapa bertahan ketika gajinya berhenti?"
+    },
+    {
+      "key": "dlg.chalkpit_rill.r3a",
+      "value": "Empat karung, berserakan di tempat muka galian bertemu lantai. Bawa kembali dalam keadaan kering dan kukatakan impas."
+    },
+    {
+      "key": "dlg.chalkpit_rill.r3b",
+      "value": "Karena muka galian mengingat tangan yang memahatnya. Tinggalkan setengah jadi dan ia akan menimpa seseorang — biasanya orang yang paling tak pantas tertimpa."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s1",
+      "value": "Penjaga segel Simm. Seluruh jabatanku adalah kepala kuningan di tangkai kayu — stempel yang menyatakan sebuah blok adalah kapur Liga dan bukan sekadar batu yang dibayar orang."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s2",
+      "value": "Waktu kru itu pergi, juru hitung terakhir meninggalkan stempelnya di anjungan kerek — di atas kerek, di ujung terdalam. Aku belum turun mengambilnya karena para jack mengawasi anjungan itu seperti anjungan itu berutang pada mereka. Kalau mereka tahu apa yang bisa disahkan stempel itu, tiap karung sisa galian di lembah ini jadi 'kelas satu Liga.'"
+    },
+    {
+      "key": "dlg.chalkpit_simm.s2.c1",
+      "value": "Maka aku naik dan mengambilnya dari kerek itu."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s2.c2",
+      "value": "Apa yang menghalangi mereka memanjat ke sana?"
+    },
+    {
+      "key": "dlg.chalkpit_simm.s3a",
+      "value": "Jaga langkah di ujung dalam. Dan jaga dirimu dari apa yang dijaga stempel itu sejak ia jatuh — para jack menyimpan yang terburuk di dekatnya."
+    },
+    {
+      "key": "dlg.chalkpit_simm.s3b",
+      "value": "Takhayul. Mereka percaya kerek itu pernah menggantung orang dan akan mengulanginya. Sekali ini, hantu lubang bekerja untuk kita."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w1",
+      "value": "Daftar gaji itu menjawab pertanyaan terakhir manifest — dari mana koin itu berasal. Para pembelot dibayar lewat kontrak kapur yang tak pernah ditandatangani Liga. Pembayarannya disalurkan melalui lubang mati di perbukitan."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w2",
+      "value": "Lubang Kapur itu. Tambang kapur Liga, ditinggalkan di tengah penggalian ketika gaji krunya tak pernah datang — karena buku Durn sudah membelanjakannya. Sebuah simpangan putih-debu bercabang dari jalan dagang melewati jejak garam. Lubang itu seharusnya kosong. Kalau tidak, aku ingin tahu tangan siapa yang ada di dalamnya."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w2.c1",
+      "value": "Akan kutempuh simpangan kapur itu dan kulihat apa yang disimpan lubangnya."
+    },
+    {
+      "key": "dlg.chalkpit_writ.w3",
+      "value": "Jaga tepiannya — muka galian tak memaafkan langkah ceroboh. Dan warden: kalau ada di bawah sana yang mengaku memegang cap Liga, mereka berdusta. Liga masih menyimpan segelnya. Siapa pun yang memotong kapur di bawahnya memotong untuk orang lain."
+    },
+    {
       "key": "dlg.city_asta.n1",
       "value": "Anakku dulu menarik pedati garam ke Rennfall, sebelum lembah itu gelap. Empat puluh tahun aku menunggu pedati di jalan itu."
     },
@@ -1681,6 +1813,14 @@
       "value": "Seseorang terhuyung menuju cahaya."
     },
     {
+      "key": "event.pit.floor",
+      "value": "Para pit-jack menduduki galian."
+    },
+    {
+      "key": "event.pit.seal",
+      "value": "Para penjaga stempel berkeberatan."
+    },
+    {
       "key": "event.salt.key",
       "value": "'Tamu-tamu' penjaga kunci berkeberatan."
     },
@@ -2485,6 +2625,30 @@
       "value": "Daftar Gaji Pembelot"
     },
     {
+      "key": "item.quest_pit_lime.desc",
+      "value": "Karung kapur bakar yang pecah, dipungut dari lantai lubang sebelum embun mengambilnya. Tak berarti bagi maling, tapi segalanya bagi tungku yang sudah padam."
+    },
+    {
+      "key": "item.quest_pit_lime.name",
+      "value": "Karung Kapur yang Terbelah"
+    },
+    {
+      "key": "item.quest_pit_seal.desc",
+      "value": "Berkepala kuningan, berbintik kapur — stempel yang membuat blok potong jadi milik Liga dan muatan pedati jadi sah. Juru hitung terakhir meninggalkannya di kerek dan tak pernah kembali."
+    },
+    {
+      "key": "item.quest_pit_seal.name",
+      "value": "Stempel Segel Lubang"
+    },
+    {
+      "key": "item.quest_pit_tally.desc",
+      "value": "Tongkat berparut ternoda kapur — muka potong, pedati, dan tungku masing-masing memegang sepertiga kebenaran. Di mana ia tergeletak, di situlah satu muatan kapur berhenti jadi milik siapa pun."
+    },
+    {
+      "key": "item.quest_pit_tally.name",
+      "value": "Tongkat Hitung yang Terjatuh"
+    },
+    {
       "key": "item.quest_roane_tally.desc",
       "value": "Buku hitungan juru tulis, punggungnya retak karena dilempar. Halaman-halamannya masih menjumlahkan setiap batang besi yang pernah disimpan benteng."
     },
@@ -3001,6 +3165,10 @@
       "value": "Lubang Bakar"
     },
     {
+      "key": "place.Chalkpit",
+      "value": "Lubang Kapur"
+    },
+    {
       "key": "place.Greymarch",
       "value": "Greymarch"
     },
@@ -3115,6 +3283,14 @@
     {
       "key": "prompt.travel.burnpitsOut",
       "value": "Kembali menyusuri jalan pembakar ke petak"
+    },
+    {
+      "key": "prompt.travel.chalkpit",
+      "value": "Tempuh simpangan kapur ke lubang"
+    },
+    {
+      "key": "prompt.travel.chalkpitOut",
+      "value": "Kembali menyusuri simpangan ke jalan dagang"
     },
     {
       "key": "prompt.travel.greymarch",
@@ -3523,6 +3699,54 @@
     {
       "key": "quest.sq_pay_roll.title",
       "value": "Siapa yang Membayar Pembelot"
+    },
+    {
+      "key": "quest.sq_pit_jacks.s1",
+      "value": "Usir para pit-jack dari lubang kapur"
+    },
+    {
+      "key": "quest.sq_pit_jacks.summary",
+      "value": "Para pit-jack — pembelot yang merasa debu kapur lebih mudah daripada kerak — menduduki lubang dan menguras meja-meja lempeng. Mandor Brack ingin lantainya bersih sebelum Liga mengirim kru yang tak bisa menggali."
+    },
+    {
+      "key": "quest.sq_pit_jacks.title",
+      "value": "Lubang Ini Milik para Pemahat"
+    },
+    {
+      "key": "quest.sq_pit_lime.s1",
+      "value": "Pungut empat karung kapur yang terbelah di lantai lubang"
+    },
+    {
+      "key": "quest.sq_pit_lime.summary",
+      "value": "Karung-karung kapur Liga pecah di tempat kru menjatuhkannya — kapur bakar bagus jadi santapan embun di lantai lubang. Pemahat Rill masih punya tungku yang harus diberi makan; ia ingin tumpahan itu dipungut sebelum cuaca melakukannya."
+    },
+    {
+      "key": "quest.sq_pit_lime.title",
+      "value": "Tungku Dingin, Karung Putih"
+    },
+    {
+      "key": "quest.sq_pit_seal.s1",
+      "value": "Ambil stempel segel dari anjungan kerek — tempat itu tak akan kosong"
+    },
+    {
+      "key": "quest.sq_pit_seal.summary",
+      "value": "Stempel segel lubang — kepala kuningan yang membuat blok jadi milik Liga — masih tergeletak di anjungan kerek tempat juru hitung terakhir menjatuhkannya. Para jack tahu harganya. Penjaga segel Simm ingin stempel itu turun sebelum mereka paham."
+    },
+    {
+      "key": "quest.sq_pit_seal.title",
+      "value": "Stempel yang Menimbang"
+    },
+    {
+      "key": "quest.sq_pit_tallies.s1",
+      "value": "Temukan tiga tongkat hitung yang terjatuh di lubang"
+    },
+    {
+      "key": "quest.sq_pit_tallies.summary",
+      "value": "Di malam kru itu pergi, tiga tongkat hitung terjatuh di lubang — dan tanpanya pembukuan tak bisa memastikan kapur siapa yang dijual para jack. Juru hitung Ines ingin mereka ditemukan."
+    },
+    {
+      "key": "quest.sq_pit_tallies.title",
+      "value": "Tiga Tongkat, Satu Kebenaran"
     },
     {
       "key": "quest.sq_porters_load.s1",
@@ -3957,6 +4181,10 @@
       "value": "Boru si Porter"
     },
     {
+      "key": "speaker.brack",
+      "value": "Mandor Brack"
+    },
+    {
       "key": "speaker.brann",
       "value": "Brann Hollowell"
     },
@@ -3989,6 +4217,10 @@
       "value": "Kopral Dace"
     },
     {
+      "key": "speaker.dess",
+      "value": "Dess si Porter"
+    },
+    {
       "key": "speaker.durn",
       "value": "Castellan Durn"
     },
@@ -4013,6 +4245,10 @@
       "value": "Hesketh si Tukang Tong"
     },
     {
+      "key": "speaker.ines",
+      "value": "Juru Hitung Ines"
+    },
+    {
       "key": "speaker.iskra",
       "value": "Iskra Vell"
     },
@@ -4027,6 +4263,10 @@
     {
       "key": "speaker.kell",
       "value": "Kell si Kusir"
+    },
+    {
+      "key": "speaker.ket",
+      "value": "Ket dari Lantai Lubang"
     },
     {
       "key": "speaker.lene",
@@ -4077,6 +4317,10 @@
       "value": "Nessa Aldwin"
     },
     {
+      "key": "speaker.rill",
+      "value": "Pemahat Rill"
+    },
+    {
       "key": "speaker.roane",
       "value": "Roane"
     },
@@ -4087,6 +4331,10 @@
     {
       "key": "speaker.sabel",
       "value": "Sabel Orr"
+    },
+    {
+      "key": "speaker.simm",
+      "value": "Penjaga Segel Simm"
     },
     {
       "key": "speaker.straggler",
@@ -4243,6 +4491,10 @@
     {
       "key": "toast.nothingToSay",
       "value": "Belum ada yang perlu dibicarakan"
+    },
+    {
+      "key": "toast.pitClear",
+      "value": "Lantai lubang sudah bersih"
     },
     {
       "key": "toast.questDone",

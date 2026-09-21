@@ -1,0 +1,55 @@
+{
+  "id": "chalkpit_ines",
+  "startNode": "i1",
+  "nodes": [
+    {
+      "id": "i1",
+      "speaker": "ines",
+      "text": {
+        "en": "Tally-clerk Ines. I still post the count at this post every morning, even though there is nothing left to count — a habit the League pays better than it deserves.",
+        "id": "Juru hitung Ines. Aku masih mencatat hitungan di tiang ini tiap pagi, meski tak ada lagi yang bisa dihitung — kebiasaan yang dibayar Liga lebih mahal dari nilainya."
+      },
+      "next": "i2"
+    },
+    {
+      "id": "i2",
+      "speaker": "ines",
+      "text": {
+        "en": "The night the crew walked, three of my tally-sticks went down into the cut with them. Without those sticks the books cannot prove whose lime the jacks are selling — every sack they ship is certified by my silence.",
+        "id": "Di malam kru itu pergi, tiga tongkat hitungku ikut jatuh ke galian bersama mereka. Tanpa tongkat-tongkat itu pembukuan tak bisa membuktikan kapur siapa yang dijual para jack — tiap karung yang mereka kirim disahkan oleh diamku."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "I'll find your sticks. A count should be able to speak.",
+            "id": "Kutemukan tongkat-tongkatmu. Sebuah hitungan harus bisa bersuara."
+          },
+          "next": "i3a"
+        },
+        {
+          "text": {
+            "en": "Why not just cut new sticks?",
+            "id": "Kenapa tak membuat tongkat baru saja?"
+          },
+          "next": "i3b"
+        }
+      ]
+    },
+    {
+      "id": "i3a",
+      "speaker": "ines",
+      "text": {
+        "en": "Look along the cut faces and under the slab tables — wherever a count was broken off mid-stroke.",
+        "id": "Cari di sepanjang muka galian dan di bawah meja-meja lempeng — di mana pun sebuah hitungan dipatahkan di tengah guratan."
+      }
+    },
+    {
+      "id": "i3b",
+      "speaker": "ines",
+      "text": {
+        "en": "A new stick only proves the count restarted. The old ones prove it was broken — and a League court hangs on the difference.",
+        "id": "Tongkat baru hanya membuktikan hitungan dimulai ulang. Yang lama membuktikan hitungan dipatahkan — dan pengadilan Liga bergantung pada perbedaan itu."
+      }
+    }
+  ]
+}

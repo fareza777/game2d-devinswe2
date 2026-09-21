@@ -163,6 +163,19 @@ namespace Oathfire.EditorTools
                 MapScene.Gate(tollLane, "act2.saltpans_rumoured");
             }
 
+            // The chalk spur: a dust-white turning to the League's abandoned lime pit. It reads as
+            // a turning only once the pay-roll names it — Maren's third writ sends the Warden up it.
+            if (at.trail4 != null)
+            {
+                var chalkSpur = new GameObject("Chalk spur");
+                chalkSpur.transform.position = map.At(at.trail4);
+                GameObject pitExit = MapScene.BuildExit(map.At(at.trail4), "Chalkpit", "prompt.travel.chalkpit", "act2.found_chalkpit");
+                pitExit.transform.SetParent(chalkSpur.transform, true);
+                MapScene.BuildProp("Lime post", "Misc B53_E", map.At(at.trail4) + new Vector3(-0.45f, -0.2f, 0f), pitExit.transform,
+                    solid: false, strikeable: false);
+                MapScene.Gate(chalkSpur, "act2.chalkpit_rumoured");
+            }
+
             if (at.search != null)
                 MapScene.BuildSearchSpot("Wick's lamp", map.At(at.search), "search_lamp", "Misc A2_E", "quest_wick_lamp",
                     "sq.lamp.found", "quest.sq_wicks_lamp.taken");

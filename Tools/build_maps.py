@@ -143,11 +143,18 @@ def road_anchors(walkable: set[tuple[int, int]]) -> dict:
     trail3 = next((cell for cell in ordered[len(ordered) // 5:len(ordered) // 3]
                    if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 6 for t in taken)),
                   ordered[len(ordered) // 5])
+    # The chalk workings' spur: a dust-white turning in the middle stretch, near enough the salt
+    # track that a lime cart could share the road — the pay-roll names it once it reaches Maren.
+    taken.append(trail3)
+    trail4 = next((cell for cell in ordered[len(ordered) // 3:len(ordered) // 2]
+                   if open_all_round(cell) and all(abs(cell[0] - t[0]) + abs(cell[1] - t[1]) >= 6 for t in taken)),
+                  ordered[len(ordered) // 3])
     return {
         "search": point(search),
         "trail": point(trail),
         "trail2": point(trail2),
         "trail3": point(trail3),
+        "trail4": point(trail4),
         "hearth": point(middle),   # where the road closes
         "player": point(arrival),
         "board": point(ordered[len(ordered) // 12 + 3]),  # the way back, a few steps from where you arrived

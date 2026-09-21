@@ -1,0 +1,23 @@
+{
+  "id": "chalkpit_dess",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "dess",
+      "text": {
+        "en": "Slab to table, table to scale, scale to ledger — that was the whole job. Now I walk the rim and the ledger walks itself.",
+        "id": "Lempeng ke meja, meja ke timbangan, timbangan ke buku — itulah seluruh pekerjaannya dulu. Sekarang aku berjalan di tepian dan bukunya berjalan sendiri."
+      },
+      "next": "d2"
+    },
+    {
+      "id": "d2",
+      "speaker": "dess",
+      "text": {
+        "en": "Dess. Porter, thirty loads a day when the pit breathed. The jacks don't bother us — we carry nothing now, and a porter's hands are only worth robbing when they're full.",
+        "id": "Dess. Porter, tiga puluh muatan sehari ketika lubang ini bernapas. Para jack tak menggangguku — tak ada yang kubawa sekarang, dan tangan porter hanya layak dirampok saat sedang penuh."
+      }
+    }
+  ]
+}

@@ -120,6 +120,7 @@ namespace Oathfire.EditorTools
             SaltpansSceneBuilder.Build();
             BurnpitsSceneBuilder.Build();
             WindrestSceneBuilder.Build();
+            ChalkpitSceneBuilder.Build();
         }
 
         /// <summary>

@@ -1,0 +1,43 @@
+{
+  "id": "chalkpit_writ",
+  "startNode": "w1",
+  "nodes": [
+    {
+      "id": "w1",
+      "speaker": "maren",
+      "text": {
+        "en": "The pay-roll answered the manifest's last question — where the coin came from. The deserters were paid against a lime contract that the League never signed. The payments were routed through a dead pit in the hills.",
+        "id": "Daftar gaji itu menjawab pertanyaan terakhir manifest — dari mana koin itu berasal. Para pembelot dibayar lewat kontrak kapur yang tak pernah ditandatangani Liga. Pembayarannya disalurkan melalui lubang mati di perbukitan."
+      },
+      "next": "w2"
+    },
+    {
+      "id": "w2",
+      "speaker": "maren",
+      "text": {
+        "en": "The Chalkpit. The League's lime workings, abandoned mid-dig when its crew's pay never arrived — because Durn's ledgers had already spent it. A dust-white spur branches off the trade road past the salt track. The pit should be empty. If it is not, I want to know whose hands are in it.",
+        "id": "Lubang Kapur itu. Tambang kapur Liga, ditinggalkan di tengah penggalian ketika gaji krunya tak pernah datang — karena buku Durn sudah membelanjakannya. Sebuah simpangan putih-debu bercabang dari jalan dagang melewati jejak garam. Lubang itu seharusnya kosong. Kalau tidak, aku ingin tahu tangan siapa yang ada di dalamnya."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "I'll walk the chalk spur and see what the pit is keeping.",
+            "id": "Akan kutempuh simpangan kapur itu dan kulihat apa yang disimpan lubangnya."
+          },
+          "next": "w3"
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "speaker": "maren",
+      "text": {
+        "en": "Mind the rim — a worked face does not forgive a careless step. And warden: if someone down there claims the League's stamp, they are lying. The League still has its seal. Whoever cut chalk under it is cutting for someone else.",
+        "id": "Jaga tepiannya — muka galian tak memaafkan langkah ceroboh. Dan warden: kalau ada di bawah sana yang mengaku memegang cap Liga, mereka berdusta. Liga masih menyimpan segelnya. Siapa pun yang memotong kapur di bawahnya memotong untuk orang lain."
+      },
+      "setFlags": [
+        "act2.chalkpit_rumoured"
+      ]
+    }
+  ]
+}

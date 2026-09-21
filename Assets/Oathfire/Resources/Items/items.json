@@ -1055,6 +1055,36 @@
       "icon": "LootIcons_27",
       "slot": 0,
       "stackSize": 1
+    },
+    {
+      "id": "quest_pit_tally",
+      "kind": 5,
+      "rarity": 1,
+      "value": 0,
+      "setsFlag": "quest.pit_tally",
+      "icon": "LootIcons_30",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_pit_seal",
+      "kind": 5,
+      "rarity": 2,
+      "value": 0,
+      "setsFlag": "quest.pit_seal",
+      "icon": "LootIcons_31",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_pit_lime",
+      "kind": 5,
+      "rarity": 0,
+      "value": 0,
+      "setsFlag": "quest.pit_lime",
+      "icon": "LootIcons_29",
+      "slot": 0,
+      "stackSize": 1
     }
   ]
 }
