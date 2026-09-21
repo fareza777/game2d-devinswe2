@@ -93,7 +93,7 @@
       "faction": "hearth",
       "reputation": 3,
       "rewardItem": "potion_mana",
-      "requiresFlag": "act1.records_house_cleared",
+      "requiresFlag": "act1.records_house_done",
       "expiresAfterNights": 6
     },
     {
@@ -150,7 +150,7 @@
       "faction": "hearth",
       "reputation": 10,
       "rewardItem": "sword_emberbrand",
-      "requiresFlag": "act1.records_house_cleared",
+      "requiresFlag": "act1.records_house_done",
       "expiresAfterNights": 12
     }
   ]

@@ -94,10 +94,11 @@ def dress_knoll(knoll: Knoll) -> None:
     p((27, 4), "Misc B41_N")                    # miller's awning tent against the wall of weather
     p((29, 7), "Misc B42_N")                    # the yard well
     p((19, 4), "Misc B54_E", solid=False)       # notice board at the yard gate
-    # Stook rows in the field — cut grain standing to dry, every other cell so it reads as rows.
-    for x in range(FIELD_RECT[0] + 1, FIELD_RECT[2]):
-        for y in range(FIELD_RECT[1] + 1, FIELD_RECT[3]):
-            if (x + y) % 2 == 0:
+    # Stook rows in the field — cut grain standing to dry in reaped rows with bare aisles
+    # between them: every other row is stooks with gaps, the next is open footpath.
+    for y in range(FIELD_RECT[1] + 1, FIELD_RECT[3]):
+        for x in range(FIELD_RECT[0] + 1, FIELD_RECT[2]):
+            if y % 2 == 0 and x % 4 != 0:
                 knoll.prop((x, y), "Misc B8_N" if (x * 5 + y) % 3 else "Misc B8_E")
     # Field markers: the scare-pole and a banner that shows the wind's mind.
     p((8, 9), "Misc B52_E", solid=False)

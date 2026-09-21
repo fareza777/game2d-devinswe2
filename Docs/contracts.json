@@ -1,289 +1,289 @@
 {
-  "contracts": [
-    {
-      "id": "cull_scouts",
-      "kind": "Cull",
-      "rank": "Copper",
-      "target": "kills.skeleton",
-      "minAmount": 5,
-      "maxAmount": 9,
-      "coinPerUnit": 3,
-      "experiencePerUnit": 14,
-      "faction": "hearth",
-      "reputation": 2,
-      "expiresAfterNights": 3,
-      "client": {
-        "en": "Brann Hollowell",
-        "id": "Brann Hollowell"
-      },
-      "title": {
-        "en": "Thin the Treeline",
-        "id": "Kurangi Mereka di Tepi Hutan"
-      },
-      "body": {
-        "en": "They gather where the light ends and count our roofs. Put some of them down so the rest learn to count lower.",
-        "id": "Mereka berkumpul di batas cahaya dan menghitung atap kita. Tumbangkan sebagian, biar sisanya belajar menghitung lebih sedikit."
-      }
-    },
-    {
-      "id": "cull_knights",
-      "kind": "Cull",
-      "rank": "Iron",
-      "target": "kills.knight",
-      "minAmount": 3,
-      "maxAmount": 5,
-      "coinPerUnit": 12,
-      "experiencePerUnit": 40,
-      "faction": "hearth",
-      "reputation": 4,
-      "rewardItem": "mat_iron",
-      "requiresFlag": "act1.night1_cleared",
-      "expiresAfterNights": 4,
-      "client": {
-        "en": "Ser Galen",
-        "id": "Ser Galen"
-      },
-      "title": {
-        "en": "Armoured Dead",
-        "id": "Mayat Berzirah"
-      },
-      "body": {
-        "en": "The ones in plate were soldiers once. They still hold formation. Break three of them and I will believe this valley can be held.",
-        "id": "Yang berzirah dulunya prajurit. Mereka masih menjaga formasi. Tumbangkan tiga, dan saya akan percaya lembah ini bisa dipertahankan."
-      }
-    },
-    {
-      "id": "cull_mages",
-      "kind": "Cull",
-      "rank": "Silver",
-      "target": "kills.mage",
-      "minAmount": 3,
-      "maxAmount": 6,
-      "coinPerUnit": 15,
-      "experiencePerUnit": 52,
-      "faction": "ash",
-      "reputation": 5,
-      "requiresFlag": "act1.maren_arrived",
-      "expiresAfterNights": 5,
-      "client": {
-        "en": "Inspector Maren",
-        "id": "Inspektur Maren"
-      },
-      "title": {
-        "en": "The Ones That Whisper",
-        "id": "Yang Berbisik"
-      },
-      "body": {
-        "en": "The chanting ones are not dead in the ordinary way. My office wants them counted, burned, and entered in the ledger. So do I, for different reasons.",
-        "id": "Yang merapal bukan mayat biasa. Kantor saya ingin mereka dihitung, dibakar, dan dicatat. Saya juga, dengan alasan berbeda."
-      }
-    },
-    {
-      "id": "supply_timber",
-      "kind": "Supply",
-      "rank": "Copper",
-      "target": "mat_timber",
-      "minAmount": 10,
-      "maxAmount": 18,
-      "coinPerUnit": 2,
-      "experiencePerUnit": 6,
-      "faction": "hearth",
-      "reputation": 2,
-      "client": {
-        "en": "Settlement Stores",
-        "id": "Gudang Pemukiman"
-      },
-      "title": {
-        "en": "Cut for the Palisade",
-        "id": "Tebang untuk Pagar"
-      },
-      "body": {
-        "en": "Walls do not build themselves, and the trees nearest the light are the safest to fell. Bring the timber in before dark.",
-        "id": "Dinding tak berdiri sendiri, dan pohon terdekat dari cahaya paling aman ditebang. Bawa kayunya sebelum gelap."
-      }
-    },
-    {
-      "id": "supply_stone",
-      "kind": "Supply",
-      "rank": "Copper",
-      "target": "mat_stone",
-      "minAmount": 8,
-      "maxAmount": 14,
-      "coinPerUnit": 3,
-      "experiencePerUnit": 7,
-      "faction": "hearth",
-      "reputation": 2,
-      "client": {
-        "en": "Settlement Stores",
-        "id": "Gudang Pemukiman"
-      },
-      "title": {
-        "en": "Stone for the Hearth Ring",
-        "id": "Batu untuk Lingkaran Perapian"
-      },
-      "body": {
-        "en": "Every stone we set widens the circle by a hand's breadth. It does not sound like much until the night comes.",
-        "id": "Tiap batu yang kita pasang melebarkan lingkaran sejengkal. Terdengar sepele, sampai malam tiba."
-      }
-    },
-    {
-      "id": "supply_iron",
-      "kind": "Supply",
-      "rank": "Iron",
-      "target": "mat_iron",
-      "minAmount": 6,
-      "maxAmount": 12,
-      "coinPerUnit": 8,
-      "experiencePerUnit": 16,
-      "faction": "salt",
-      "reputation": 4,
-      "rewardItem": "potion_large",
-      "requiresFlag": "act2.knows_hearth_right",
-      "expiresAfterNights": 6,
-      "client": {
-        "en": "Vesna Kell",
-        "id": "Vesna Kell"
-      },
-      "title": {
-        "en": "A Quiet Shipment",
-        "id": "Kiriman Diam-Diam"
-      },
-      "body": {
-        "en": "Rennfall iron pays better than Rennfall gossip, and I deal in both. No questions, no manifest, and a flask for your trouble.",
-        "id": "Besi Rennfall lebih mahal daripada gosip Rennfall, dan saya berdagang keduanya. Tanpa pertanyaan, tanpa surat jalan, plus sebotol untuk jerih payah Anda."
-      }
-    },
-    {
-      "id": "supply_bone",
-      "kind": "Supply",
-      "rank": "Silver",
-      "target": "mat_bone_dust",
-      "minAmount": 4,
-      "maxAmount": 9,
-      "coinPerUnit": 14,
-      "experiencePerUnit": 22,
-      "faction": "hearth",
-      "reputation": 3,
-      "rewardItem": "potion_mana",
-      "requiresFlag": "act1.records_house_cleared",
-      "expiresAfterNights": 6,
-      "client": {
-        "en": "Iskra Vell",
-        "id": "Iskra Vell"
-      },
-      "title": {
-        "en": "Grind Them Fine",
-        "id": "Giling Sampai Halus"
-      },
-      "body": {
-        "en": "Do not look so grim. They stopped being people before I got to them. What is left is chalk, and chalk keeps the rest of you breathing.",
-        "id": "Jangan pasang wajah muram. Mereka berhenti jadi manusia sebelum sampai ke tangan saya. Sisanya cuma kapur, dan kapur itu yang membuat kalian tetap bernapas."
-      }
-    },
-    {
-      "id": "labour_shelter",
-      "kind": "Labour",
-      "rank": "Copper",
-      "target": "built.shelter",
-      "minAmount": 2,
-      "maxAmount": 4,
-      "coinPerUnit": 10,
-      "experiencePerUnit": 30,
-      "faction": "hearth",
-      "reputation": 5,
-      "client": {
-        "en": "The Refugees",
-        "id": "Para Pengungsi"
-      },
-      "title": {
-        "en": "Roofs for the Road-Worn",
-        "id": "Atap untuk yang Lelah di Jalan"
-      },
-      "body": {
-        "en": "Nobody is asking for a house. A roof, a wall against the wind, and a place inside the light is enough to stop the crying at night.",
-        "id": "Tak ada yang minta rumah. Atap, dinding penahan angin, dan tempat di dalam cahaya sudah cukup untuk menghentikan tangis di malam hari."
-      }
-    },
-    {
-      "id": "vigil_unhurt",
-      "kind": "Vigil",
-      "rank": "Iron",
-      "target": "night.flawless",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "coinPerUnit": 40,
-      "experiencePerUnit": 140,
-      "faction": "hearth",
-      "reputation": 8,
-      "rewardItem": "trinket_ashcharm",
-      "requiresFlag": "act1.night1_cleared",
-      "expiresAfterNights": 8,
-      "client": {
-        "en": "Brann Hollowell",
-        "id": "Brann Hollowell"
-      },
-      "title": {
-        "en": "Not a Scratch",
-        "id": "Tanpa Lecet"
-      },
-      "body": {
-        "en": "Hold a whole night without taking a wound. I have seen two wardens manage it. Neither of them was the boasting kind.",
-        "id": "Bertahan semalam penuh tanpa terluka. Aku pernah melihat dua warden berhasil. Keduanya bukan tipe yang suka menyombong."
-      }
-    },
-    {
-      "id": "vigil_long",
-      "kind": "Vigil",
-      "rank": "Silver",
-      "target": "nights.survived",
-      "minAmount": 2,
-      "maxAmount": 4,
-      "coinPerUnit": 32,
-      "experiencePerUnit": 110,
-      "faction": "crown",
-      "reputation": 6,
-      "rewardItem": "armor_guard_mail",
-      "requiresFlag": "act1.first_night_done",
-      "expiresAfterNights": 10,
-      "client": {
-        "en": "Protectorate Clerk",
-        "id": "Juru Tulis Protektorat"
-      },
-      "title": {
-        "en": "Proof of Holding",
-        "id": "Bukti Bertahan"
-      },
-      "body": {
-        "en": "The Protector requires evidence that the valley is held, not merely claimed. Survive the nights, and the ledger will say so.",
-        "id": "Lord Protektor memerlukan bukti bahwa lembah benar-benar dipertahankan, bukan sekadar diklaim. Bertahanlah, dan catatan resmi akan menuliskannya."
-      }
-    },
-    {
-      "id": "cull_elite",
-      "kind": "Cull",
-      "rank": "Oathbound",
-      "target": "kills.elite",
-      "minAmount": 2,
-      "maxAmount": 3,
-      "coinPerUnit": 54,
-      "experiencePerUnit": 200,
-      "faction": "hearth",
-      "reputation": 10,
-      "rewardItem": "sword_emberbrand",
-      "requiresFlag": "act1.records_house_cleared",
-      "expiresAfterNights": 12,
-      "client": {
-        "en": "Warden's Own Notice",
-        "id": "Pengumuman Warden Sendiri"
-      },
-      "title": {
-        "en": "The Ones That Lead",
-        "id": "Yang Memimpin Mereka"
-      },
-      "body": {
-        "en": "Something out there is arranging them. The big ones carry old rank-marks under the rot. Take two, and whatever is arranging them will notice you back.",
-        "id": "Ada sesuatu di luar sana yang mengatur mereka. Yang bertubuh besar membawa tanda pangkat lama di balik pembusukan. Tumbangkan dua, dan yang mengatur mereka akan balik memperhatikanmu."
-      }
-    }
-  ]
+ "contracts": [
+  {
+   "id": "cull_scouts",
+   "kind": "Cull",
+   "rank": "Copper",
+   "target": "kills.skeleton",
+   "minAmount": 5,
+   "maxAmount": 9,
+   "coinPerUnit": 3,
+   "experiencePerUnit": 14,
+   "faction": "hearth",
+   "reputation": 2,
+   "expiresAfterNights": 3,
+   "client": {
+    "en": "Brann Hollowell",
+    "id": "Brann Hollowell"
+   },
+   "title": {
+    "en": "Thin the Treeline",
+    "id": "Kurangi Mereka di Tepi Hutan"
+   },
+   "body": {
+    "en": "They gather where the light ends and count our roofs. Put some of them down so the rest learn to count lower.",
+    "id": "Mereka berkumpul di batas cahaya dan menghitung atap kita. Tumbangkan sebagian, biar sisanya belajar menghitung lebih sedikit."
+   }
+  },
+  {
+   "id": "cull_knights",
+   "kind": "Cull",
+   "rank": "Iron",
+   "target": "kills.knight",
+   "minAmount": 3,
+   "maxAmount": 5,
+   "coinPerUnit": 12,
+   "experiencePerUnit": 40,
+   "faction": "hearth",
+   "reputation": 4,
+   "rewardItem": "mat_iron",
+   "requiresFlag": "act1.night1_cleared",
+   "expiresAfterNights": 4,
+   "client": {
+    "en": "Ser Galen",
+    "id": "Ser Galen"
+   },
+   "title": {
+    "en": "Armoured Dead",
+    "id": "Mayat Berzirah"
+   },
+   "body": {
+    "en": "The ones in plate were soldiers once. They still hold formation. Break three of them and I will believe this valley can be held.",
+    "id": "Yang berzirah dulunya prajurit. Mereka masih menjaga formasi. Tumbangkan tiga, dan saya akan percaya lembah ini bisa dipertahankan."
+   }
+  },
+  {
+   "id": "cull_mages",
+   "kind": "Cull",
+   "rank": "Silver",
+   "target": "kills.mage",
+   "minAmount": 3,
+   "maxAmount": 6,
+   "coinPerUnit": 15,
+   "experiencePerUnit": 52,
+   "faction": "ash",
+   "reputation": 5,
+   "requiresFlag": "act1.maren_arrived",
+   "expiresAfterNights": 5,
+   "client": {
+    "en": "Inspector Maren",
+    "id": "Inspektur Maren"
+   },
+   "title": {
+    "en": "The Ones That Whisper",
+    "id": "Yang Berbisik"
+   },
+   "body": {
+    "en": "The chanting ones are not dead in the ordinary way. My office wants them counted, burned, and entered in the ledger. So do I, for different reasons.",
+    "id": "Yang merapal bukan mayat biasa. Kantor saya ingin mereka dihitung, dibakar, dan dicatat. Saya juga, dengan alasan berbeda."
+   }
+  },
+  {
+   "id": "supply_timber",
+   "kind": "Supply",
+   "rank": "Copper",
+   "target": "mat_timber",
+   "minAmount": 10,
+   "maxAmount": 18,
+   "coinPerUnit": 2,
+   "experiencePerUnit": 6,
+   "faction": "hearth",
+   "reputation": 2,
+   "client": {
+    "en": "Settlement Stores",
+    "id": "Gudang Pemukiman"
+   },
+   "title": {
+    "en": "Cut for the Palisade",
+    "id": "Tebang untuk Pagar"
+   },
+   "body": {
+    "en": "Walls do not build themselves, and the trees nearest the light are the safest to fell. Bring the timber in before dark.",
+    "id": "Dinding tak berdiri sendiri, dan pohon terdekat dari cahaya paling aman ditebang. Bawa kayunya sebelum gelap."
+   }
+  },
+  {
+   "id": "supply_stone",
+   "kind": "Supply",
+   "rank": "Copper",
+   "target": "mat_stone",
+   "minAmount": 8,
+   "maxAmount": 14,
+   "coinPerUnit": 3,
+   "experiencePerUnit": 7,
+   "faction": "hearth",
+   "reputation": 2,
+   "client": {
+    "en": "Settlement Stores",
+    "id": "Gudang Pemukiman"
+   },
+   "title": {
+    "en": "Stone for the Hearth Ring",
+    "id": "Batu untuk Lingkaran Perapian"
+   },
+   "body": {
+    "en": "Every stone we set widens the circle by a hand's breadth. It does not sound like much until the night comes.",
+    "id": "Tiap batu yang kita pasang melebarkan lingkaran sejengkal. Terdengar sepele, sampai malam tiba."
+   }
+  },
+  {
+   "id": "supply_iron",
+   "kind": "Supply",
+   "rank": "Iron",
+   "target": "mat_iron",
+   "minAmount": 6,
+   "maxAmount": 12,
+   "coinPerUnit": 8,
+   "experiencePerUnit": 16,
+   "faction": "salt",
+   "reputation": 4,
+   "rewardItem": "potion_large",
+   "requiresFlag": "act2.knows_hearth_right",
+   "expiresAfterNights": 6,
+   "client": {
+    "en": "Vesna Kell",
+    "id": "Vesna Kell"
+   },
+   "title": {
+    "en": "A Quiet Shipment",
+    "id": "Kiriman Diam-Diam"
+   },
+   "body": {
+    "en": "Rennfall iron pays better than Rennfall gossip, and I deal in both. No questions, no manifest, and a flask for your trouble.",
+    "id": "Besi Rennfall lebih mahal daripada gosip Rennfall, dan saya berdagang keduanya. Tanpa pertanyaan, tanpa surat jalan, plus sebotol untuk jerih payah Anda."
+   }
+  },
+  {
+   "id": "supply_bone",
+   "kind": "Supply",
+   "rank": "Silver",
+   "target": "mat_bone_dust",
+   "minAmount": 4,
+   "maxAmount": 9,
+   "coinPerUnit": 14,
+   "experiencePerUnit": 22,
+   "faction": "hearth",
+   "reputation": 3,
+   "rewardItem": "potion_mana",
+   "requiresFlag": "act1.records_house_done",
+   "expiresAfterNights": 6,
+   "client": {
+    "en": "Iskra Vell",
+    "id": "Iskra Vell"
+   },
+   "title": {
+    "en": "Grind Them Fine",
+    "id": "Giling Sampai Halus"
+   },
+   "body": {
+    "en": "Do not look so grim. They stopped being people before I got to them. What is left is chalk, and chalk keeps the rest of you breathing.",
+    "id": "Jangan pasang wajah muram. Mereka berhenti jadi manusia sebelum sampai ke tangan saya. Sisanya cuma kapur, dan kapur itu yang membuat kalian tetap bernapas."
+   }
+  },
+  {
+   "id": "labour_shelter",
+   "kind": "Labour",
+   "rank": "Copper",
+   "target": "built.shelter",
+   "minAmount": 2,
+   "maxAmount": 4,
+   "coinPerUnit": 10,
+   "experiencePerUnit": 30,
+   "faction": "hearth",
+   "reputation": 5,
+   "client": {
+    "en": "The Refugees",
+    "id": "Para Pengungsi"
+   },
+   "title": {
+    "en": "Roofs for the Road-Worn",
+    "id": "Atap untuk yang Lelah di Jalan"
+   },
+   "body": {
+    "en": "Nobody is asking for a house. A roof, a wall against the wind, and a place inside the light is enough to stop the crying at night.",
+    "id": "Tak ada yang minta rumah. Atap, dinding penahan angin, dan tempat di dalam cahaya sudah cukup untuk menghentikan tangis di malam hari."
+   }
+  },
+  {
+   "id": "vigil_unhurt",
+   "kind": "Vigil",
+   "rank": "Iron",
+   "target": "night.flawless",
+   "minAmount": 1,
+   "maxAmount": 1,
+   "coinPerUnit": 40,
+   "experiencePerUnit": 140,
+   "faction": "hearth",
+   "reputation": 8,
+   "rewardItem": "trinket_ashcharm",
+   "requiresFlag": "act1.night1_cleared",
+   "expiresAfterNights": 8,
+   "client": {
+    "en": "Brann Hollowell",
+    "id": "Brann Hollowell"
+   },
+   "title": {
+    "en": "Not a Scratch",
+    "id": "Tanpa Lecet"
+   },
+   "body": {
+    "en": "Hold a whole night without taking a wound. I have seen two wardens manage it. Neither of them was the boasting kind.",
+    "id": "Bertahan semalam penuh tanpa terluka. Aku pernah melihat dua warden berhasil. Keduanya bukan tipe yang suka menyombong."
+   }
+  },
+  {
+   "id": "vigil_long",
+   "kind": "Vigil",
+   "rank": "Silver",
+   "target": "nights.survived",
+   "minAmount": 2,
+   "maxAmount": 4,
+   "coinPerUnit": 32,
+   "experiencePerUnit": 110,
+   "faction": "crown",
+   "reputation": 6,
+   "rewardItem": "armor_guard_mail",
+   "requiresFlag": "act1.first_night_done",
+   "expiresAfterNights": 10,
+   "client": {
+    "en": "Protectorate Clerk",
+    "id": "Juru Tulis Protektorat"
+   },
+   "title": {
+    "en": "Proof of Holding",
+    "id": "Bukti Bertahan"
+   },
+   "body": {
+    "en": "The Protector requires evidence that the valley is held, not merely claimed. Survive the nights, and the ledger will say so.",
+    "id": "Lord Protektor memerlukan bukti bahwa lembah benar-benar dipertahankan, bukan sekadar diklaim. Bertahanlah, dan catatan resmi akan menuliskannya."
+   }
+  },
+  {
+   "id": "cull_elite",
+   "kind": "Cull",
+   "rank": "Oathbound",
+   "target": "kills.elite",
+   "minAmount": 2,
+   "maxAmount": 3,
+   "coinPerUnit": 54,
+   "experiencePerUnit": 200,
+   "faction": "hearth",
+   "reputation": 10,
+   "rewardItem": "sword_emberbrand",
+   "requiresFlag": "act1.records_house_done",
+   "expiresAfterNights": 12,
+   "client": {
+    "en": "Warden's Own Notice",
+    "id": "Pengumuman Warden Sendiri"
+   },
+   "title": {
+    "en": "The Ones That Lead",
+    "id": "Yang Memimpin Mereka"
+   },
+   "body": {
+    "en": "Something out there is arranging them. The big ones carry old rank-marks under the rot. Take two, and whatever is arranging them will notice you back.",
+    "id": "Ada sesuatu di luar sana yang mengatur mereka. Yang bertubuh besar membawa tanda pangkat lama di balik pembusukan. Tumbangkan dua, dan yang mengatur mereka akan balik memperhatikanmu."
+   }
+  }
+ ]
 }
