@@ -10,8 +10,11 @@ namespace Oathfire.World
     public class SceneExit : MonoBehaviour
     {
         [SerializeField] string destinationScene = "Rennfall";
+        [Tooltip("Where a hero arriving from this road stands. Unset: open ground is searched near the road.")]
+        [SerializeField] Transform arrivalPoint;
 
         public string Destination => destinationScene;
+        public Transform ArrivalPoint => arrivalPoint;
         [SerializeField] string promptKey = "prompt.travel";
         [Tooltip("Set once the player has taken this road, so quests can tell where they have been.")]
         [SerializeField] string setsFlag;

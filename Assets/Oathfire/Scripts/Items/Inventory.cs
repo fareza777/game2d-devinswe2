@@ -33,10 +33,11 @@ namespace Oathfire.Items
 
         public int Count(string itemId)
         {
+            int total = 0;
             foreach (Stack stack in stacks)
                 if (stack.itemId == itemId)
-                    return stack.count;
-            return 0;
+                    total += stack.count;
+            return total;
         }
 
         public void Add(string itemId, int count = 1)

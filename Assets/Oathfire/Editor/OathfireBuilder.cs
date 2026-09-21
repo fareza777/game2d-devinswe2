@@ -101,6 +101,27 @@ namespace Oathfire.EditorTools
                 EditorApplication.Exit(report.summary.result == UnityEditor.Build.Reporting.BuildResult.Succeeded ? 0 : 1);
         }
 
+        public static void BuildLinux()
+        {
+            PlayerSettings.productName = "Oathfire";
+            PlayerSettings.defaultScreenWidth = 540;
+            PlayerSettings.defaultScreenHeight = 960;
+            PlayerSettings.fullScreenMode = FullScreenMode.Windowed;
+            PlayerSettings.resizableWindow = true;
+            PlayerSettings.SplashScreen.show = false;
+
+            var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
+            {
+                scenes = EditorBuildSettings.scenes.Select(scene => scene.path).ToArray(),
+                locationPathName = "Builds/Linux/Oathfire.x86_64",
+                target = BuildTarget.StandaloneLinux64,
+                options = BuildOptions.Development,
+            });
+            Debug.Log($"[Oathfire] Linux build: {report.summary.result}, errors={report.summary.totalErrors}");
+            if (Application.isBatchMode)
+                EditorApplication.Exit(report.summary.result == UnityEditor.Build.Reporting.BuildResult.Succeeded ? 0 : 1);
+        }
+
         public static void BuildAll()
         {
             BuildScenes();

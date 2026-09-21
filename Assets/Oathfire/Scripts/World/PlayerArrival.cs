@@ -27,8 +27,10 @@ namespace Oathfire.World
                 return;
 
             // A few steps in from the road, far enough that the travel prompt is not the first thing offered.
-            Vector2 road = exit.transform.position;
-            Vector3 spot = SpawnPlanner.FindOpenPoint(road, road, StandOff * 0.8f, StandOff * 1.4f);
+            // A pinned arrival point wins outright: some road mouths stand in pockets with no open ring nearby.
+            Vector3 spot = exit.ArrivalPoint
+                ? exit.ArrivalPoint.position
+                : SpawnPlanner.FindOpenPoint(exit.transform.position, exit.transform.position, StandOff * 0.8f, StandOff * 1.4f);
             transform.position = new Vector3(spot.x, spot.y, transform.position.z);
             var body = GetComponent<Rigidbody2D>();
             if (body)

@@ -646,7 +646,7 @@ namespace Oathfire.EditorTools
         }
 
         /// <summary>A road out of a map: stand on it, tap Use, travel.</summary>
-        public static GameObject BuildExit(Vector3 position, string destination, string promptKey, string flag)
+        public static GameObject BuildExit(Vector3 position, string destination, string promptKey, string flag, Vector3? arrival = null)
         {
             var exit = new GameObject($"Road to {destination}", typeof(CircleCollider2D), typeof(World.WorldInteractable), typeof(World.SceneExit));
             exit.transform.position = position;
@@ -654,6 +654,13 @@ namespace Oathfire.EditorTools
             serialized.FindProperty("destinationScene").stringValue = destination;
             serialized.FindProperty("promptKey").stringValue = promptKey;
             serialized.FindProperty("setsFlag").stringValue = flag ?? "";
+            if (arrival.HasValue)
+            {
+                var marker = new GameObject("Arrival");
+                marker.transform.SetParent(exit.transform, false);
+                marker.transform.position = arrival.Value;
+                serialized.FindProperty("arrivalPoint").objectReferenceValue = marker.transform;
+            }
             serialized.ApplyModifiedPropertiesWithoutUndo();
             return exit;
         }

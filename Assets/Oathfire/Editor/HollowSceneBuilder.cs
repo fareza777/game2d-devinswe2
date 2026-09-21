@@ -43,13 +43,15 @@ namespace Oathfire.EditorTools
             // The crew round the fire are the plain ones; the lookouts in the pass include the turned warden and the caster.
             BuildFight("Camp fight", map.At(at.arrivals[0]), bandits, looks, count: 5, unlocked: 2, health: 0.9f, damage: 10,
                 "event.hollow.camp", "act2.hollow_camp_cleared", "toast.hollowCamp");
-            BuildFight("Pass fight", map.At(at.arrivals[1]), bandits, looks, count: 4, unlocked: 4, health: 0.95f, damage: 11,
-                "event.hollow.pass", "act2.hollow_pass_cleared", "toast.hollowPass");
+            BuildFight("Pass fight", map.At(at.arrivals[1]) + new Vector3(5.5f, 1.25f, 0f), bandits, looks, count: 4, unlocked: 4, health: 0.95f, damage: 11,
+                "event.hollow.pass", "act2.hollow_pass_cleared", "toast.hollowPass", spread: 2.0f);
 
             BuildCaptain(map.At(at.hearth));
             BuildPrisoner(map.At(at.villagers[0]));
             BuildStores(map, at);
-            MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.hollowOut", "");
+            // The road mouth stands in a walled pocket; anyone walking in lands on the open strip beside it.
+            MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.hollowOut", "",
+                arrival: map.At(new MapScene.CellRef { x = 26, y = 7 }));
 
             MapScene.SetUpUi(includeContractBoard: false);
             new GameObject("PlayerState", typeof(PlayerState));
@@ -87,7 +89,7 @@ namespace Oathfire.EditorTools
         }
 
         static void BuildFight(string name, Vector3 position, GameObject[] prefabs, ActorLook[] looks, int count, int unlocked,
-            float health, int damage, string bannerKey, string clearedFlag, string toastKey)
+            float health, int damage, string bannerKey, string clearedFlag, string toastKey, float spread = 3.5f)
         {
             var fight = new GameObject(name, typeof(RoadAmbush), typeof(QuestSpot));
             fight.transform.position = position;
@@ -104,7 +106,7 @@ namespace Oathfire.EditorTools
             serialized.FindProperty("hitDamage").intValue = damage;
             // The ravine is narrow: they come from close by, and only once the hero is actually among the tents.
             serialized.FindProperty("triggerRadius").floatValue = 3.6f;
-            serialized.FindProperty("spread").floatValue = 3.5f;
+            serialized.FindProperty("spread").floatValue = spread;
             serialized.FindProperty("bannerKey").stringValue = bannerKey;
             serialized.FindProperty("clearedFlag").stringValue = clearedFlag;
             serialized.FindProperty("counterKey").stringValue = "kills.hollow";

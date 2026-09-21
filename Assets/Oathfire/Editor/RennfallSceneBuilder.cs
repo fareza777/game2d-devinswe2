@@ -199,7 +199,7 @@ namespace Oathfire.EditorTools
             {
                 "Brann Hollowell" => 1.6f,
                 "Inspector Maren" => 2.0f,
-                "Wick" => 3.2f,
+                "Wick" => 1.9f,
                 "Old Winna" => 1.8f,
                 _ => 2.4f,
             };

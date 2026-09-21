@@ -1,4 +1,6 @@
+using System.Linq;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Oathfire.World
 {
@@ -69,7 +71,16 @@ namespace Oathfire.World
             }
 
             float step = Mathf.Min(walkSpeed * Time.deltaTime, distance);
-            transform.position += delta / distance * step;
+            Vector3 next = transform.position + delta / distance * step;
+            if (CoveredByRoof(next))
+            {
+                hasDestination = false;
+                stuckFor = 0f;
+                pauseUntil = Time.time + Random.Range(idlePause.x, idlePause.y);
+                Hold();
+                return;
+            }
+            transform.position = next;
             stuckFor += step < walkSpeed * Time.deltaTime * 0.35f ? Time.deltaTime : -stuckFor;
 
             if (anim)
@@ -94,7 +105,11 @@ namespace Oathfire.World
             {
                 Vector2 offset = Random.insideUnitCircle * radius;
                 Vector2 point = (Vector2)home + offset;
-                if (SpawnPlanner.IsOpen(point, 0.3f) && SpawnPlanner.HasClearApproach(transform.position, point, 0.2f))
+                bool shaded = false;
+                for (int s = 1; s <= 8 && !shaded; s++)
+                    shaded = CoveredByRoof(Vector2.Lerp(transform.position, point, s / 8f));
+                if (SpawnPlanner.IsOpen(point, 0.3f) && SpawnPlanner.HasClearApproach(transform.position, point, 0.2f)
+                    && !shaded)
                 {
                     destination = point;
                     hasDestination = true;
@@ -102,6 +117,35 @@ namespace Oathfire.World
                 }
             }
             pauseUntil = Time.time + Random.Range(idlePause.x, idlePause.y);
+            return false;
+        }
+
+        Tilemap groundMap;
+        Tilemap[] roofMaps;
+
+        /// <summary>True when a roof tile sits in front of the point on screen — a walker there vanishes behind a house.</summary>
+        bool CoveredByRoof(Vector2 point)
+        {
+            if (!groundMap)
+            {
+                GameObject found = GameObject.Find("Ground");
+                groundMap = found ? found.GetComponent<Tilemap>() : null;
+                roofMaps = FindObjectsByType<Tilemap>(FindObjectsSortMode.None)
+                    .Where(map => map.name.StartsWith("Roof")).ToArray();
+            }
+            if (!groundMap)
+                return false;
+            Vector3Int cell = groundMap.WorldToCell(point);
+            for (int back = 1; back <= 6; back++)
+                for (int side = -2; side <= 2; side++)
+                {
+                    int d = cell.x + cell.y - back, c = cell.x - cell.y + side;
+                    if ((d + c) % 2 != 0)
+                        continue;
+                    var front = new Vector3Int((d + c) / 2, (d - c) / 2, 0);
+                    if (roofMaps != null && roofMaps.Any(map => map && map.HasTile(front)))
+                        return true;
+                }
             return false;
         }
 
