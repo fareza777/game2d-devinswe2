@@ -167,6 +167,14 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("Spilled coal", map.At(spots[i]) + new Vector3(0.3f, -0.15f, 0f),
                     $"char_coal_{i - 3}", heapTiles[i - 4], "quest_char_coal",
                     $"char.coal_{i - 3}", "quest.sq_char_coal.taken");
+            // The burnmaster's staff and a harness left hardening in the ash.
+            if (spots.Length > 7)
+                MapScene.BuildSearchSpot("The burnmaster's staff", map.At(spots[7]) + new Vector3(0.7f, -0.45f, 0f),
+                    "cache_char_staff", "Chest A1_E", "staff_cinder", "cache.char.staff", "");
+            if (at.stone != null && at.stone.Length > 1)
+                MapScene.BuildSearchSpot("The ash-hardened cache", map.At(at.stone[1]) + new Vector3(0.7f, 0.3f, 0f),
+                    "cache_char_harness", "Chest A1_E", "armor_ash_harness", "cache.char.harness", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
     }
 }

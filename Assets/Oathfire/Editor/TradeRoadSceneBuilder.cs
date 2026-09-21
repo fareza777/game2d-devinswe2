@@ -180,6 +180,12 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("Wick's lamp", map.At(at.search), "search_lamp", "Misc A2_E", "quest_wick_lamp",
                     "sq.lamp.found", "quest.sq_wicks_lamp.taken");
 
+            // A courier's star spilled beside the toll road — whoever buried it left watchers.
+            if (at.brann != null)
+                MapScene.BuildSearchSpot("The courier's cache", map.At(at.brann) + new Vector3(0.85f, -0.4f, 0f),
+                    "cache_road_star", "Chest A1_E", "trinket_marshal_star", "cache.road.star", "",
+                    EnemyPrefabs(), 2, "event.cacheGuard");
+
             // Wayside salvage: the carts that did not make it are worth searching.
             var parent = new GameObject("Salvage").transform;
             string[] wrecks = { "Misc B5_E", "Misc B8_E" };

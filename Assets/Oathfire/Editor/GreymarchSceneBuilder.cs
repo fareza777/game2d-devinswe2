@@ -39,6 +39,7 @@ namespace Oathfire.EditorTools
             SetUpCitizens(map, at);
             SetUpNoticeBoard(map.At(at.board));
             SetUpRoadHome(map.At(at.roadOut));
+            SetUpStash(map, at);
             MapScene.SetUpUi(includeContractBoard: true);
 
             new GameObject("PlayerState", typeof(PlayerState));
@@ -152,6 +153,14 @@ namespace Oathfire.EditorTools
             GameObject board = MapScene.BuildProp("City Notices", "Misc B54_E", position, null, solid: true, strikeable: false);
             board.AddComponent<WorldInteractable>();
             board.AddComponent<NoticeBoard>();
+        }
+
+        /// <summary>A marshal's chest left in an alley when the corps went north — the city never claimed it.</summary>
+        static void SetUpStash(MapScene.MapFile map, MapScene.MapAnchors at)
+        {
+            if (at.villagers != null && at.villagers.Length > 5)
+                MapScene.BuildSearchSpot("The marshal's chest", map.At(at.villagers[5]) + new Vector3(0.8f, -0.4f, 0f),
+                    "cache_city_helm", "Chest A1_E", "helm_marshal", "cache.city.helm", "");
         }
 
         static void SetUpRoadHome(Vector3 position)

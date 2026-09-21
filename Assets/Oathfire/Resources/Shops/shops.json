@@ -80,6 +80,38 @@
         {
           "item": "potion_large",
           "price": 85
+        },
+        {
+          "item": "helm_kettle",
+          "price": 60
+        },
+        {
+          "item": "bow_yew",
+          "price": 260
+        },
+        {
+          "item": "shield_kite",
+          "price": 250
+        },
+        {
+          "item": "gloves_iron",
+          "price": 160
+        },
+        {
+          "item": "boots_iron",
+          "price": 160
+        },
+        {
+          "item": "legs_iron",
+          "price": 180
+        },
+        {
+          "item": "armor_league_mail",
+          "price": 320
+        },
+        {
+          "item": "mace_tollkeeper",
+          "price": 230
         }
       ]
     }

@@ -211,6 +211,21 @@ namespace Oathfire.EditorTools
             if (at.timber != null && at.timber.Length > 1)
                 MapScene.BuildSearchSpot("Deserter pay-roll", map.At(at.timber[1]) + new Vector3(-0.6f, 0.25f, 0f),
                     "keep_pay", "Misc A2_E", "quest_pay_roll", "act2.payroll_found", "quest.sq_pay_roll.taken");
+            // What the vault was holding for a war that never came: the captain's sword, the oath-wall,
+            // and a warden's plate — all of it still under the old garrison's watch.
+            if (at.arrivals != null && at.arrivals.Length > 2)
+            {
+                MapScene.BuildSearchSpot("The captain's chest", map.At(at.arrivals[2]) + new Vector3(0.8f, -0.3f, 0f),
+                    "cache_keep_sword", "Chest A1_E", "sword_crowned", "cache.keep.sword", "act2.durn_defeated",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 3, "event.keep.vault");
+                MapScene.BuildSearchSpot("The oath-wall", map.At(at.arrivals[0]) + new Vector3(0.85f, 0.35f, 0f),
+                    "cache_keep_shield", "Chest A1_E", "shield_oathwall", "cache.keep.shield", "act2.durn_defeated",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 3, "event.keep.vault");
+            }
+            if (at.timber != null && at.timber.Length > 0)
+                MapScene.BuildSearchSpot("The warden's plate", map.At(at.timber[0]) + new Vector3(0.8f, -0.4f, 0f),
+                    "cache_keep_plate", "Chest A1_E", "armor_warden_plate", "cache.keep.plate", "act2.durn_defeated",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
 
         /// <summary>What the keep was built to hold: iron in the vault, salt meat in the vestibule.</summary>

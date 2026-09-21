@@ -1885,6 +1885,10 @@
       "value": "A clerk in Line grey unslings a lacquered box of tallies at the village edge."
     },
     {
+      "key": "event.cacheGuard",
+      "value": "It was not left unwatched."
+    },
+    {
       "key": "event.char.pits",
       "value": "Wood-poachers strip the clamps."
     },
@@ -2265,6 +2269,14 @@
       "value": "Sunfire Amulet"
     },
     {
+      "key": "item.amulet_kings_shilling.desc",
+      "value": "The enlistment coin of a dead kingdom, drilled and hung on cord. Wear it and a dead payroll remembers you kindly."
+    },
+    {
+      "key": "item.amulet_kings_shilling.name",
+      "value": "The King's Shilling"
+    },
+    {
       "key": "item.amulet_silver.desc",
       "value": "Blue as meltwater. It steadies the breath in a long fight."
     },
@@ -2289,12 +2301,28 @@
       "value": "Bone Lattice"
     },
     {
+      "key": "item.armor_forgemaster.desc",
+      "value": "Half armour, half apron — leather a thumb thick, scorched at the hem. You are slower. Nothing else that hits you notices."
+    },
+    {
+      "key": "item.armor_forgemaster.name",
+      "value": "Forgemaster's Apron"
+    },
+    {
       "key": "item.armor_guard_mail.desc",
       "value": "The lion was scratched off the breast. Kael did that himself, on the road."
     },
     {
       "key": "item.armor_guard_mail.name",
       "value": "Crown Guard Mail"
+    },
+    {
+      "key": "item.armor_league_mail.desc",
+      "value": "A weigh-yard officer's mail — the scales stamped on each link so no one forgets what it protects."
+    },
+    {
+      "key": "item.armor_league_mail.name",
+      "value": "League Half-Mail"
     },
     {
       "key": "item.armor_padded.desc",
@@ -2409,6 +2437,22 @@
       "value": "Poacher's Bow"
     },
     {
+      "key": "item.bow_yew.desc",
+      "value": "Plain self-bow of yew heartwood — drawn flat, shot flat, aimed for the hollow of a throat."
+    },
+    {
+      "key": "item.bow_yew.name",
+      "value": "Yew Flatbow"
+    },
+    {
+      "key": "item.dagger_flicker.desc",
+      "value": "A stamped-offhand blade from the die yard — struck, not forged, and sharper for it. The coiners' idea of small change."
+    },
+    {
+      "key": "item.dagger_flicker.name",
+      "value": "The Flicker"
+    },
+    {
       "key": "item.dagger_quiet.desc",
       "value": "A merchant's knife, balanced for throwing and for deniability."
     },
@@ -2465,12 +2509,28 @@
       "value": "Work Gloves"
     },
     {
+      "key": "item.helm_barbute.desc",
+      "value": "A T-faced helm found in a pan-house where no soldier should have stood so long. Its last wearer held. The helm remembers."
+    },
+    {
+      "key": "item.helm_barbute.name",
+      "value": "Barbute of the Stand"
+    },
+    {
       "key": "item.helm_hood.desc",
       "value": "Keeps the rain out. Does nothing about what walks in it."
     },
     {
       "key": "item.helm_hood.name",
       "value": "Oiled Hood"
+    },
+    {
+      "key": "item.helm_kettle.desc",
+      "value": "A brimmed iron hat honest as a soup pot. Keeps the rain off; keeps a little of the sword off too."
+    },
+    {
+      "key": "item.helm_kettle.name",
+      "value": "Kettle Helm"
     },
     {
       "key": "item.helm_marshal.desc",
@@ -2519,6 +2579,14 @@
     {
       "key": "item.legs_leather.name",
       "value": "Leather Breeches"
+    },
+    {
+      "key": "item.mace_tollkeeper.desc",
+      "value": "Iron-headed and ledger-long — the mace the toll house issued before the tolls stopped being honest. It settles arguments the way ledgers never could."
+    },
+    {
+      "key": "item.mace_tollkeeper.name",
+      "value": "Tollkeeper's Mace"
     },
     {
       "key": "item.mat_bone_dust.desc",
@@ -2913,6 +2981,22 @@
       "value": "Warden's Signet"
     },
     {
+      "key": "item.ring_serpent.desc",
+      "value": "A ring of river-serpent wire, cold as moving water. The strike comes faster once it knows your hand."
+    },
+    {
+      "key": "item.ring_serpent.name",
+      "value": "Serpent Coil"
+    },
+    {
+      "key": "item.shield_kite.desc",
+      "value": "Long board, blunted nose — a shield for someone who intends to walk home through the mob, not stand to it."
+    },
+    {
+      "key": "item.shield_kite.name",
+      "value": "Kite Shield"
+    },
+    {
       "key": "item.shield_lion.desc",
       "value": "Ser Galen's family arms. Carrying it in Rennfall is a political statement."
     },
@@ -2927,6 +3011,14 @@
     {
       "key": "item.shield_oak.name",
       "value": "Oak Roundshield"
+    },
+    {
+      "key": "item.shield_oathwall.desc",
+      "value": "A tower shield banded in hearth-iron — built for the last door of a keep that was never attacked. It waits to keep an oath it was never asked for."
+    },
+    {
+      "key": "item.shield_oathwall.name",
+      "value": "The Oathwall"
     },
     {
       "key": "item.shield_tower.desc",
@@ -2953,6 +3045,14 @@
       "value": "Ashwood Pike"
     },
     {
+      "key": "item.spear_glaive_ash.desc",
+      "value": "A polearm the Marshals broke from an officer's halberd and re-hafted in ash wood. Reach is a kind of mercy."
+    },
+    {
+      "key": "item.spear_glaive_ash.name",
+      "value": "Ash Glaive"
+    },
+    {
       "key": "item.spear_warden.desc",
       "value": "Reach matters when the dead come in numbers. The old wardens knew it."
     },
@@ -2967,6 +3067,22 @@
     {
       "key": "item.staff_apothecary.name",
       "value": "Apothecary's Staff"
+    },
+    {
+      "key": "item.staff_cinder.desc",
+      "value": "A charcoal-burner's quarterstaff, its ends hardened in the very clamps it guarded. Still smells of the pit."
+    },
+    {
+      "key": "item.staff_cinder.name",
+      "value": "Cinder Staff"
+    },
+    {
+      "key": "item.sword_crowned.desc",
+      "value": "A sword meant for a queen's last captain, sealed in a dead keep's vault when the road south stopped mattering. The edge never got its war."
+    },
+    {
+      "key": "item.sword_crowned.name",
+      "value": "Crownwarden"
     },
     {
       "key": "item.sword_emberbrand.desc",
@@ -2999,6 +3115,14 @@
     {
       "key": "item.sword_hearth.name",
       "value": "Hearthsteel Blade"
+    },
+    {
+      "key": "item.sword_marshlight.desc",
+      "value": "A pale blade that caught the fen's lamp-glow and kept it. Struck at a keep's vault, still cold."
+    },
+    {
+      "key": "item.sword_marshlight.name",
+      "value": "Marshlight Blade"
     },
     {
       "key": "item.sword_warden_oath.desc",
@@ -3049,6 +3173,14 @@
       "value": "Crane's Warden Seal"
     },
     {
+      "key": "item.trinket_dice_loaded.desc",
+      "value": "Two bone dice that land on your side of the argument, in a coin purse you did not earn. Someone in Greymarch misses these."
+    },
+    {
+      "key": "item.trinket_dice_loaded.name",
+      "value": "Loaded Dice"
+    },
+    {
       "key": "item.trinket_ember_knot.desc",
       "value": "A cord soaked in hearth ash, tied with a knot nobody living remembers how to undo."
     },
@@ -3063,6 +3195,14 @@
     {
       "key": "item.trinket_lion_pin.name",
       "value": "Scaled Lion Pin"
+    },
+    {
+      "key": "item.trinket_marshal_star.desc",
+      "value": "A tarnished star of rank dropped by a courier who never delivered it. Brass, mostly. The authority is borrowed but sharp."
+    },
+    {
+      "key": "item.trinket_marshal_star.name",
+      "value": "Marshal's Star"
     },
     {
       "key": "item.trinket_queens_seal.desc",

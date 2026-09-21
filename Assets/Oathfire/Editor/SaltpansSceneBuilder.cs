@@ -182,6 +182,15 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("Spilled salt", map.At(spots[i]) + new Vector3(0.3f, -0.15f, 0f),
                     $"salt_spill_{i - 3}", heapTiles[i - 4], "quest_salt_spill",
                     $"salt.spill_{i - 3}", "quest.sq_salt_spill.taken");
+            // The quartermaster's spear and the helm of the pan-house's last defender.
+            if (at.arrivals != null && at.arrivals.Length > 2)
+            {
+                MapScene.BuildSearchSpot("The quartermaster's spear", map.At(at.arrivals[0]) + new Vector3(0.8f, -0.3f, 0f),
+                    "cache_salt_spear", "Chest A1_E", "spear_warden", "cache.salt.spear", "");
+                MapScene.BuildSearchSpot("The defender's cache", map.At(at.arrivals[2]) + new Vector3(0.8f, 0.3f, 0f),
+                    "cache_salt_helm", "Chest A1_E", "helm_barbute", "cache.salt.helm", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
+            }
         }
     }
 }

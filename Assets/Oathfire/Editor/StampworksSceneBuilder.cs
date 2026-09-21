@@ -159,6 +159,18 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("Spilled silver blanks", map.At(spots[i]) + new Vector3(0.3f, -0.15f, 0f),
                     $"stamp_blank_{i - 4}", blankTiles[i - 5], "quest_stamp_blank",
                     $"stamp.blank_{i - 4}", "quest.sq_stamp_blanks.taken");
+            // A stamped blade, the forgemaster's apron, and the yard's deepest cache.
+            if (spots.Length > 4)
+                MapScene.BuildSearchSpot("The flicker-blade", map.At(spots[4]) + new Vector3(0.9f, -0.45f, 0f),
+                    "cache_stamp_dagger", "Chest A1_E", "dagger_flicker", "cache.stamp.dagger", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
+            if (at.villagers != null && at.villagers.Length > 0)
+                MapScene.BuildSearchSpot("The forgemaster's apron", map.At(at.villagers[0]) + new Vector3(0.8f, 0.4f, 0f),
+                    "cache_stamp_apron", "Chest A1_E", "armor_forgemaster", "cache.stamp.apron", "");
+            if (at.stone != null && at.stone.Length > 1)
+                MapScene.BuildSearchSpot("The lattice cache", map.At(at.stone[1]) + new Vector3(0.7f, -0.3f, 0f),
+                    "cache_stamp_lattice", "Chest A1_E", "armor_bone_lattice", "cache.stamp.lattice", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 3, "event.cacheGuard");
         }
     }
 }

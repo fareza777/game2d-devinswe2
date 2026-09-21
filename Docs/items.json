@@ -1,1858 +1,2168 @@
 {
- "items": [
-  {
-   "id": "sword_guard_issue",
-   "kind": "Weapon",
-   "slot": "MainHand",
-   "rarity": "Common",
-   "value": 40,
-   "damage": 12,
-   "attackSpeed": 1.0,
-   "name": {
-    "en": "Crown Guard Sword",
-    "id": "Pedang Pengawal Mahkota"
-   },
-   "desc": {
-    "en": "Standard issue, notched from a night you do not talk about. They let you keep it. That was the mercy.",
-    "id": "Pedang dinas biasa, sumbing sejak malam yang tak pernah kau ceritakan. Mereka membiarkanmu menyimpannya. Itulah belas kasihnya."
-   },
-   "icon": "LootIcons_101"
-  },
-  {
-   "id": "sword_gravedigger",
-   "kind": "Weapon",
-   "slot": "MainHand",
-   "rarity": "Fine",
-   "value": 120,
-   "damage": 16,
-   "attackSpeed": 0.95,
-   "name": {
-    "en": "Gravedigger's Falchion",
-    "id": "Golok Penggali Kubur"
-   },
-   "desc": {
-    "en": "Brann kept it sharp for forty years and never once used it on the living.",
-    "id": "Brann mengasahnya selama empat puluh tahun dan tak sekali pun memakainya pada yang hidup."
-   },
-   "icon": "LootIcons_80"
-  },
-  {
-   "id": "axe_woodcutter",
-   "kind": "Weapon",
-   "slot": "MainHand",
-   "rarity": "Common",
-   "value": 55,
-   "damage": 18,
-   "attackSpeed": 0.75,
-   "name": {
-    "en": "Woodcutter's Axe",
-    "id": "Kapak Penebang"
-   },
-   "desc": {
-    "en": "Heavy, slow, honest. Splits pine and bone with equal patience.",
-    "id": "Berat, lambat, jujur. Membelah pinus dan tulang dengan kesabaran yang sama."
-   },
-   "icon": "LootIcons_100"
-  },
-  {
-   "id": "spear_warden",
-   "kind": "Weapon",
-   "slot": "MainHand",
-   "rarity": "Fine",
-   "value": 150,
-   "damage": 15,
-   "attackSpeed": 1.1,
-   "name": {
-    "en": "Warden's Spear",
-    "id": "Tombak Warden"
-   },
-   "desc": {
-    "en": "Reach matters when the dead come in numbers. The old wardens knew it.",
-    "id": "Jangkauan itu penting saat orang mati datang berbondong. Para warden lama tahu itu."
-   },
-   "icon": "LootIcons_3"
-  },
-  {
-   "id": "bow_poacher",
-   "kind": "Weapon",
-   "slot": "MainHand",
-   "rarity": "Common",
-   "value": 70,
-   "damage": 10,
-   "attackSpeed": 1.25,
-   "name": {
-    "en": "Poacher's Bow",
-    "id": "Busur Pemburu Gelap"
-   },
-   "desc": {
-    "en": "Tobias carved the nocks himself. Illegal on three counts, useful on all of them.",
-    "id": "Tobias mengukir sendiri takik talinya. Melanggar tiga aturan, berguna di ketiganya."
-   },
-   "icon": "LootIcons_44"
-  },
-  {
-   "id": "sword_emberbrand",
-   "kind": "Weapon",
-   "slot": "MainHand",
-   "rarity": "Rare",
-   "value": 420,
-   "damage": 24,
-   "attackSpeed": 1.0,
-   "name": {
-    "en": "Emberbrand",
-    "id": "Bara Baja"
-   },
-   "desc": {
-    "en": "Forged in an oathfire. Warm in the hand even in the dead cold of the vale.",
-    "id": "Ditempa dalam api sumpah. Tetap hangat di tangan meski lembah membeku."
-   },
-   "icon": "LootIcons_86"
-  },
-  {
-   "id": "armor_padded",
-   "kind": "Armor",
-   "slot": "Body",
-   "rarity": "Common",
-   "value": 35,
-   "armor": 4,
-   "health": 10,
-   "name": {
-    "en": "Padded Coat",
-    "id": "Mantel Berlapis"
-   },
-   "desc": {
-    "en": "Refugee stitching over a soldier's cut. Warm, which counts for more out here.",
-    "id": "Jahitan pengungsi di atas potongan prajurit. Hangat, dan di sini itu lebih berharga."
-   },
-   "icon": "LootIcons_91"
-  },
-  {
-   "id": "armor_guard_mail",
-   "kind": "Armor",
-   "slot": "Body",
-   "rarity": "Fine",
-   "value": 180,
-   "armor": 9,
-   "health": 20,
-   "moveSpeed": -0.03,
-   "name": {
-    "en": "Crown Guard Mail",
-    "id": "Rantai Pengawal Mahkota"
-   },
-   "desc": {
-    "en": "The lion was scratched off the breast. Kael did that himself, on the road.",
-    "id": "Lambang singa di dadanya digores hilang. Kael sendiri yang melakukannya, di jalan."
-   },
-   "icon": "LootIcons_77"
-  },
-  {
-   "id": "armor_warden_plate",
-   "kind": "Armor",
-   "slot": "Body",
-   "rarity": "Rare",
-   "value": 500,
-   "armor": 16,
-   "health": 35,
-   "moveSpeed": -0.06,
-   "name": {
-    "en": "Warden's Plate",
-    "id": "Zirah Warden"
-   },
-   "desc": {
-    "en": "Taken from the drowned waystation. Still smells faintly of wet ash.",
-    "id": "Diambil dari pos tenggelam. Masih berbau samar abu basah."
-   },
-   "icon": "LootIcons_104"
-  },
-  {
-   "id": "helm_hood",
-   "kind": "Armor",
-   "slot": "Head",
-   "rarity": "Common",
-   "value": 25,
-   "armor": 2,
-   "name": {
-    "en": "Oiled Hood",
-    "id": "Tudung Berminyak"
-   },
-   "desc": {
-    "en": "Keeps the rain out. Does nothing about what walks in it.",
-    "id": "Menahan hujan. Tak berguna melawan yang berjalan di dalamnya."
-   },
-   "icon": "LootIcons_60"
-  },
-  {
-   "id": "helm_sallet",
-   "kind": "Armor",
-   "slot": "Head",
-   "rarity": "Fine",
-   "value": 160,
-   "armor": 7,
-   "name": {
-    "en": "Dented Sallet",
-    "id": "Helm Penyok"
-   },
-   "desc": {
-    "en": "The dent is from a mace at the palace. The owner survived. Barely.",
-    "id": "Penyoknya bekas gada di istana. Pemiliknya selamat. Nyaris."
-   },
-   "icon": "LootIcons_78"
-  },
-  {
-   "id": "shield_oak",
-   "kind": "Armor",
-   "slot": "OffHand",
-   "rarity": "Common",
-   "value": 45,
-   "armor": 6,
-   "moveSpeed": -0.02,
-   "name": {
-    "en": "Oak Roundshield",
-    "id": "Perisai Kayu Ek"
-   },
-   "desc": {
-    "en": "Village make. The boss is a plough disc hammered flat.",
-    "id": "Buatan desa. Bagian tengahnya piringan bajak yang ditempa rata."
-   },
-   "icon": "LootIcons_89"
-  },
-  {
-   "id": "shield_lion",
-   "kind": "Armor",
-   "slot": "OffHand",
-   "rarity": "Rare",
-   "value": 380,
-   "armor": 12,
-   "health": 15,
-   "moveSpeed": -0.04,
-   "name": {
-    "en": "Scaled Lion Shield",
-    "id": "Perisai Singa Bersisik"
-   },
-   "desc": {
-    "en": "Ser Galen's family arms. Carrying it in Rennfall is a political statement.",
-    "id": "Lambang keluarga Ser Galen. Membawanya di Rennfall adalah pernyataan politik."
-   },
-   "icon": "LootIcons_82"
-  },
-  {
-   "id": "trinket_ashcharm",
-   "kind": "Trinket",
-   "slot": "Trinket",
-   "rarity": "Fine",
-   "value": 130,
-   "health": 25,
-   "name": {
-    "en": "Ash Charm",
-    "id": "Jimat Abu"
-   },
-   "desc": {
-    "en": "A pinch of a burned village in a glass thimble. The Marshals sell them. Maren cannot look at it.",
-    "id": "Sejumput desa yang terbakar dalam bidal kaca. Barisan Abu menjualnya. Maren tak sanggup memandangnya."
-   },
-   "icon": "LootIcons_32"
-  },
-  {
-   "id": "trinket_root_ring",
-   "kind": "Trinket",
-   "slot": "Ring",
-   "rarity": "Rare",
-   "value": 340,
-   "moveSpeed": 0.08,
-   "damage": 3,
-   "name": {
-    "en": "Root Ring",
-    "id": "Cincin Akar"
-   },
-   "desc": {
-    "en": "Grown, not forged. It tightens slightly whenever you stand on turned earth.",
-    "id": "Tumbuh, bukan ditempa. Ia sedikit menyempit tiap kali kau berdiri di atas tanah yang baru digali."
-   },
-   "icon": "LootIcons_45"
-  },
-  {
-   "id": "trinket_queens_seal",
-   "kind": "Relic",
-   "slot": "Trinket",
-   "rarity": "Oathbound",
-   "value": 0,
-   "health": 20,
-   "damage": 5,
-   "setsFlag": "relic.queens_seal",
-   "name": {
-    "en": "The Queen's Broken Seal",
-    "id": "Segel Ratu yang Retak"
-   },
-   "desc": {
-    "en": "Wax from the testament that exiled you. Still faintly warm, which should be impossible.",
-    "id": "Lilin dari wasiat yang mengasingkanmu. Masih terasa hangat, padahal itu mustahil."
-   },
-   "icon": "LootIcons_19"
-  },
-  {
-   "id": "potion_small",
-   "kind": "Consumable",
-   "rarity": "Common",
-   "stackSize": 12,
-   "value": 20,
-   "healAmount": 40,
-   "name": {
-    "en": "Bitterroot Draught",
-    "id": "Ramuan Akar Pahit"
-   },
-   "desc": {
-    "en": "Tastes like a wet cellar. Closes wounds anyway.",
-    "id": "Rasanya seperti gudang lembap. Tetap saja menutup luka."
-   },
-   "icon": "LootIcons_4"
-  },
-  {
-   "id": "potion_large",
-   "kind": "Consumable",
-   "rarity": "Fine",
-   "stackSize": 8,
-   "value": 60,
-   "healAmount": 110,
-   "name": {
-    "en": "Surgeon's Flask",
-    "id": "Botol Tabib"
-   },
-   "desc": {
-    "en": "Brewed for soldiers who must keep standing. Three of these and you will feel nothing at all.",
-    "id": "Diracik untuk prajurit yang harus tetap berdiri. Tiga botol dan kau takkan merasakan apa pun."
-   },
-   "icon": "LootIcons_4"
-  },
-  {
-   "id": "potion_mana",
-   "kind": "Consumable",
-   "rarity": "Fine",
-   "stackSize": 8,
-   "value": 55,
-   "manaAmount": 60,
-   "name": {
-    "en": "Emberwine",
-    "id": "Anggur Bara"
-   },
-   "desc": {
-    "en": "Iskra distills it from hearth ash. It burns all the way down and the burn is the point.",
-    "id": "Iskra menyulingnya dari abu perapian. Panas sampai ke perut, dan justru itu gunanya."
-   },
-   "icon": "LootIcons_12"
-  },
-  {
-   "id": "food_bread",
-   "kind": "Consumable",
-   "rarity": "Common",
-   "stackSize": 20,
-   "value": 6,
-   "healAmount": 15,
-   "name": {
-    "en": "Hard Ration Bread",
-    "id": "Roti Ransum Keras"
-   },
-   "desc": {
-    "en": "Two days old at best. In Rennfall, that makes it fresh.",
-    "id": "Paling baru dua hari lalu. Di Rennfall, itu terhitung masih segar."
-   },
-   "icon": "LootIcons_24"
-  },
-  {
-   "id": "torch",
-   "kind": "Consumable",
-   "rarity": "Common",
-   "stackSize": 10,
-   "value": 8,
-   "name": {
-    "en": "Pitch Torch",
-    "id": "Obor Ter"
-   },
-   "desc": {
-    "en": "Fire keeps the cold out, the dark back, and the dead honest.",
-    "id": "Api menahan dingin, mengusir gelap, dan membuat orang mati tahu diri."
-   },
-   "icon": "LootIcons_25"
-  },
-  {
-   "id": "mat_timber",
-   "kind": "Material",
-   "rarity": "Common",
-   "stackSize": 99,
-   "value": 4,
-   "name": {
-    "en": "Seasoned Timber",
-    "id": "Kayu Kering"
-   },
-   "desc": {
-    "en": "Cut from the black pines. Every wall in the village starts here.",
-    "id": "Ditebang dari pinus hitam. Setiap dinding desa bermula dari sini."
-   },
-   "icon": "LootIcons_30"
-  },
-  {
-   "id": "mat_stone",
-   "kind": "Material",
-   "rarity": "Common",
-   "stackSize": 99,
-   "value": 5,
-   "name": {
-    "en": "Quarried Stone",
-    "id": "Batu Galian"
-   },
-   "desc": {
-    "en": "Hearths, foundations, and grave markers. Mostly grave markers, lately.",
-    "id": "Untuk perapian, pondasi, dan nisan. Belakangan ini kebanyakan nisan."
-   },
-   "icon": "LootIcons_16"
-  },
-  {
-   "id": "mat_iron",
-   "kind": "Material",
-   "rarity": "Fine",
-   "stackSize": 99,
-   "value": 14,
-   "name": {
-    "en": "Rennfall Iron",
-    "id": "Besi Rennfall"
-   },
-   "desc": {
-    "en": "Dark, dense, and the reason Duke Harrow keeps sending 'bandits'.",
-    "id": "Gelap, padat, dan alasan Adipati Harrow terus mengirim 'bandit'."
-   },
-   "icon": "LootIcons_10"
-  },
-  {
-   "id": "mat_bone_dust",
-   "kind": "Material",
-   "rarity": "Fine",
-   "stackSize": 99,
-   "value": 18,
-   "name": {
-    "en": "Bone Dust",
-    "id": "Serbuk Tulang"
-   },
-   "desc": {
-    "en": "Ground from the restless dead. The Marshals calls owning it a crime. Iskra calls it Tuesday.",
-    "id": "Hasil gilingan mayat gelisah. Barisan Abu menyebut memilikinya pelanggar hukum. Bagi Iskra itu hal biasa."
-   },
-   "icon": "LootIcons_61"
-  },
-  {
-   "id": "mat_grave_wax",
-   "kind": "Material",
-   "rarity": "Rare",
-   "stackSize": 50,
-   "value": 40,
-   "name": {
-    "en": "Grave Wax",
-    "id": "Lilin Kubur"
-   },
-   "desc": {
-    "en": "Scraped from coffins that were never opened. Seals oaths and wounds alike.",
-    "id": "Dikerik dari peti yang tak pernah dibuka. Menyegel sumpah sekaligus luka."
-   },
-   "icon": "LootIcons_74"
-  },
-  {
-   "id": "quest_testament",
-   "kind": "Quest",
-   "rarity": "Oathbound",
-   "value": 0,
-   "setsFlag": "quest.has_testament",
-   "name": {
-    "en": "The Queen's Testament",
-    "id": "Surat Wasiat Ratu"
-   },
-   "desc": {
-    "en": "Grants the Vale of Rennfall to Kael Voss. The fourth clause is written in a different hand.",
-    "id": "Menyerahkan Lembah Rennfall kepada Kael Voss. Klausul keempatnya ditulis dengan tulisan tangan yang berbeda."
-   },
-   "icon": "LootIcons_28"
-  },
-  {
-   "id": "quest_crane_journal",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.crane_journal",
-   "name": {
-    "en": "Warden Crane's Journal",
-    "id": "Catatan Warden Crane"
-   },
-   "desc": {
-    "en": "Forty years of burials, listed by name. The last entry is not a name. It is an apology.",
-    "id": "Empat puluh tahun penguburan, tercatat per nama. Entri terakhirnya bukan nama, melainkan permintaan maaf."
-   },
-   "icon": "LootIcons_28"
-  },
-  {
-   "id": "quest_harrow_ledger",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.harrow_ledger",
-   "name": {
-    "en": "Greymarch Supply Ledger",
-    "id": "Buku Perbekalan Greymarch"
-   },
-   "desc": {
-    "en": "Boots, arrows and salt pork, issued to men who are officially bandits.",
-    "id": "Sepatu, anak panah, dan daging asin, dikeluarkan untuk orang-orang yang resminya bandit."
-   },
-   "icon": "LootIcons_28"
-  },
-  {
-   "id": "quest_keep_manifest",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.keep_manifest",
-   "name": {
-    "en": "The Keep's Manifest",
-    "id": "Manifest Benteng"
-   },
-   "desc": {
-    "en": "Every diverted wagon received at the iron keep, stamped with a harbormaster's seal and a paymaster's left-handed mark.",
-    "id": "Setiap pedati yang disimpangkan dan diterima di benteng besi, bersegel syahbandar dan bertanda tangan kiri bendahara."
-   },
-   "icon": "LootIcons_28"
-  },
-  {
-   "id": "quest_order_orders",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.maren_orders",
-   "name": {
-    "en": "Sealed Writ of the Ash Marshals",
-    "id": "Surat Perintah Tersegel Barisan Abu"
-   },
-   "desc": {
-    "en": "'Should the Hearth Right prove valid, the valley is to be cleared by fire. No exceptions are granted.'",
-    "id": "'Bila Hak Perapian terbukti sah, lembah harus diresmikan dengan api. Tidak ada pengecualian.'"
-   },
-   "icon": "LootIcons_66"
-  },
-  {
-   "id": "relic_hearth_coal",
-   "kind": "Relic",
-   "rarity": "Oathbound",
-   "value": 0,
-   "setsFlag": "relic.first_coal",
-   "name": {
-    "en": "First Coal",
-    "id": "Bara Pertama"
-   },
-   "desc": {
-    "en": "The ember that started the first oathfire in Rennfall. It has never gone out. It has only waited.",
-    "id": "Bara yang menyalakan api sumpah pertama di Rennfall. Ia tak pernah padam, hanya menunggu."
-   },
-   "icon": "LootIcons_11"
-  },
-  {
-   "id": "sword_hearth",
-   "kind": "Weapon",
-   "rarity": "Fine",
-   "value": 190,
-   "name": {
-    "en": "Hearthsteel Blade",
-    "id": "Bilah Baja Perapian"
-   },
-   "desc": {
-    "en": "Quenched in oathfire instead of water. The edge holds a little warmth, and the dead flinch from it.",
-    "id": "Dipadamkan dalam api sumpah, bukan air. Matanya menyimpan sedikit hangat, dan orang mati menghindarinya."
-   },
-   "slot": "MainHand",
-   "damage": 19,
-   "attackSpeed": 1.0,
-   "icon": "LootIcons_80"
-  },
-  {
-   "id": "sword_warden_oath",
-   "kind": "Weapon",
-   "rarity": "Rare",
-   "value": 520,
-   "name": {
-    "en": "Warden's Oath",
-    "id": "Sumpah Warden"
-   },
-   "desc": {
-    "en": "Crane's own sword, left in the cellar with the point driven into the floor. He never came back for it.",
-    "id": "Pedang milik Crane sendiri, ditinggalkan di ruang bawah dengan ujung tertancap di lantai. Ia tak pernah kembali mengambilnya."
-   },
-   "slot": "MainHand",
-   "damage": 27,
-   "attackSpeed": 1.05,
-   "health": 10,
-   "icon": "LootIcons_86"
-  },
-  {
-   "id": "axe_grave",
-   "kind": "Weapon",
-   "rarity": "Fine",
-   "value": 165,
-   "name": {
-    "en": "Gravecutter",
-    "id": "Pembelah Kubur"
-   },
-   "desc": {
-    "en": "Meant for roots, not bone. It stopped caring about the difference two winters ago.",
-    "id": "Dibuat untuk akar, bukan tulang. Dua musim dingin lalu ia berhenti peduli bedanya."
-   },
-   "slot": "MainHand",
-   "damage": 22,
-   "attackSpeed": 0.8,
-   "icon": "LootIcons_81"
-  },
-  {
-   "id": "axe_harrow",
-   "kind": "Weapon",
-   "rarity": "Rare",
-   "value": 460,
-   "name": {
-    "en": "Greymarch Warcleaver",
-    "id": "Pembelah Perang Greymarch"
-   },
-   "desc": {
-    "en": "Ducal issue. Heavy enough that the Duke's men swing it with both hands and their whole grudge.",
-    "id": "Perlengkapan kadipaten. Cukup berat sampai anak buah Adipati mengayunkannya dengan dua tangan dan seluruh dendamnya."
-   },
-   "slot": "MainHand",
-   "damage": 31,
-   "attackSpeed": 0.7,
-   "moveSpeed": -0.04,
-   "icon": "LootIcons_87"
-  },
-  {
-   "id": "spear_ash",
-   "kind": "Weapon",
-   "rarity": "Fine",
-   "value": 210,
-   "name": {
-    "en": "Ashwood Pike",
-    "id": "Tombak Kayu Abu"
-   },
-   "desc": {
-    "en": "Long enough to keep a burning thing at arm's length, which is all anyone asks of a pike.",
-    "id": "Cukup panjang untuk menahan sesuatu yang terbakar tetap sejauh lengan, dan hanya itu yang diminta dari sebuah tombak."
-   },
-   "slot": "MainHand",
-   "damage": 18,
-   "attackSpeed": 1.15,
-   "icon": "LootIcons_3"
-  },
-  {
-   "id": "bow_hunter",
-   "kind": "Weapon",
-   "rarity": "Fine",
-   "value": 230,
-   "name": {
-    "en": "Longbow of the Vale",
-    "id": "Busur Panjang Lembah"
-   },
-   "desc": {
-    "en": "Drawn properly it puts a shaft through a skull at eighty paces. Drawn badly it breaks your thumb.",
-    "id": "Ditarik benar, ia menembus tengkorak dari delapan puluh langkah. Ditarik salah, ibu jarimu patah."
-   },
-   "slot": "MainHand",
-   "damage": 16,
-   "attackSpeed": 1.3,
-   "icon": "LootIcons_44"
-  },
-  {
-   "id": "bow_black",
-   "kind": "Weapon",
-   "rarity": "Rare",
-   "value": 495,
-   "name": {
-    "en": "Blackfletch",
-    "id": "Bulu Hitam"
-   },
-   "desc": {
-    "en": "Tobias made it from a yew that grew out of a mass grave. He will tell you that story only once.",
-    "id": "Tobias membuatnya dari pohon yew yang tumbuh dari kuburan massal. Cerita itu hanya akan ia ceritakan sekali."
-   },
-   "slot": "MainHand",
-   "damage": 23,
-   "attackSpeed": 1.35,
-   "moveSpeed": 0.03,
-   "icon": "LootIcons_44"
-  },
-  {
-   "id": "staff_apothecary",
-   "kind": "Weapon",
-   "rarity": "Fine",
-   "value": 240,
-   "name": {
-    "en": "Apothecary's Staff",
-    "id": "Tongkat Tabib"
-   },
-   "desc": {
-    "en": "Hollow, stoppered, and full of things that should not share a shelf. Iskra insists it is perfectly safe.",
-    "id": "Berongga, bersumbat, dan penuh benda yang seharusnya tak disimpan berdekatan. Iskra bersikeras itu aman."
-   },
-   "slot": "MainHand",
-   "damage": 14,
-   "attackSpeed": 1.1,
-   "health": 15,
-   "icon": "LootIcons_3"
-  },
-  {
-   "id": "dagger_quiet",
-   "kind": "Weapon",
-   "rarity": "Fine",
-   "value": 140,
-   "name": {
-    "en": "Quiet Work",
-    "id": "Kerja Sunyi"
-   },
-   "desc": {
-    "en": "A merchant's knife, balanced for throwing and for deniability.",
-    "id": "Pisau pedagang, seimbang untuk dilempar sekaligus untuk disangkal."
-   },
-   "slot": "OffHand",
-   "damage": 9,
-   "attackSpeed": 1.5,
-   "icon": "LootIcons_94"
-  },
-  {
-   "id": "armor_refugee",
-   "kind": "Armor",
-   "rarity": "Common",
-   "value": 48,
-   "name": {
-    "en": "Patched Wool",
-    "id": "Wol Bertambal"
-   },
-   "desc": {
-    "en": "Someone's winter coat, cut down twice and handed on twice more.",
-    "id": "Mantel musim dingin milik seseorang, dipotong dua kali dan diwariskan dua kali lagi."
-   },
-   "slot": "Body",
-   "armor": 5,
-   "health": 14,
-   "icon": "LootIcons_91"
-  },
-  {
-   "id": "armor_warden_coat",
-   "kind": "Armor",
-   "rarity": "Fine",
-   "value": 240,
-   "name": {
-    "en": "Warden's Long Coat",
-    "id": "Mantel Panjang Warden"
-   },
-   "desc": {
-    "en": "Waxed against rain and grave-damp, with deep pockets for what wardens are not supposed to carry.",
-    "id": "Dilapisi lilin penahan hujan dan lembap kubur, dengan saku dalam untuk benda yang seharusnya tak dibawa warden."
-   },
-   "slot": "Body",
-   "armor": 11,
-   "health": 26,
-   "icon": "LootIcons_77"
-  },
-  {
-   "id": "armor_ash_harness",
-   "kind": "Armor",
-   "rarity": "Rare",
-   "value": 540,
-   "name": {
-    "en": "Ash Marshal Harness",
-    "id": "Harnes Marsekal Abu"
-   },
-   "desc": {
-    "en": "Issued to the crews who walk into burning villages. It smells of smoke and will not stop.",
-    "id": "Perlengkapan regu yang masuk ke desa terbakar. Baunya asap, dan tak pernah hilang."
-   },
-   "slot": "Body",
-   "armor": 17,
-   "health": 30,
-   "moveSpeed": -0.05,
-   "icon": "LootIcons_104"
-  },
-  {
-   "id": "armor_bone_lattice",
-   "kind": "Armor",
-   "rarity": "Oathbound",
-   "value": 900,
-   "name": {
-    "en": "Bone Lattice",
-    "id": "Jalinan Tulang"
-   },
-   "desc": {
-    "en": "Iskra's work: splints of femur bound in grave wax. The dead hesitate before striking their own.",
-    "id": "Buatan Iskra: bilah tulang paha yang diikat lilin kubur. Orang mati ragu memukul sesama mereka sendiri."
-   },
-   "slot": "Body",
-   "armor": 20,
-   "health": 40,
-   "moveSpeed": -0.02,
-   "icon": "LootIcons_83"
-  },
-  {
-   "id": "helm_warden",
-   "kind": "Armor",
-   "rarity": "Fine",
-   "value": 175,
-   "name": {
-    "en": "Warden's Wide Hat",
-    "id": "Topi Lebar Warden"
-   },
-   "desc": {
-    "en": "Keeps rain off the neck and lets everyone see your face. Brann says the second part matters more.",
-    "id": "Menahan hujan dari tengkuk dan membuat wajahmu terlihat. Kata Brann, bagian kedua lebih penting."
-   },
-   "slot": "Head",
-   "armor": 6,
-   "health": 8,
-   "icon": "LootIcons_92"
-  },
-  {
-   "id": "helm_marshal",
-   "kind": "Armor",
-   "rarity": "Rare",
-   "value": 380,
-   "name": {
-    "en": "Soot Hood",
-    "id": "Tudung Jelaga"
-   },
-   "desc": {
-    "en": "Filtered cloth and smoked glass. You can breathe in a burning street, and be told apart from the people in it.",
-    "id": "Kain penyaring dan kaca berasap. Kau bisa bernapas di jalan yang terbakar, dan bisa dibedakan dari orang-orang di dalamnya."
-   },
-   "slot": "Head",
-   "armor": 11,
-   "icon": "LootIcons_60"
-  },
-  {
-   "id": "shield_warden",
-   "kind": "Armor",
-   "rarity": "Fine",
-   "value": 210,
-   "name": {
-    "en": "Hearth Round",
-    "id": "Perisai Bundar Perapian"
-   },
-   "desc": {
-    "en": "The hearth mark is painted, not forged. It still makes refugees stand a little straighter.",
-    "id": "Lambang perapiannya dicat, bukan ditempa. Tetap saja membuat para pengungsi berdiri lebih tegak."
-   },
-   "slot": "OffHand",
-   "armor": 9,
-   "health": 10,
-   "moveSpeed": -0.02,
-   "icon": "LootIcons_88"
-  },
-  {
-   "id": "shield_tower",
-   "kind": "Armor",
-   "rarity": "Rare",
-   "value": 430,
-   "name": {
-    "en": "Vigil Tower Shield",
-    "id": "Perisai Menara Jaga"
-   },
-   "desc": {
-    "en": "Big enough to sleep behind, which is exactly what the night watch does with it.",
-    "id": "Cukup besar untuk tidur di baliknya, dan memang begitulah penjaga malam memakainya."
-   },
-   "slot": "OffHand",
-   "armor": 15,
-   "health": 18,
-   "moveSpeed": -0.07,
-   "icon": "LootIcons_82"
-  },
-  {
-   "id": "trinket_tally",
-   "kind": "Trinket",
-   "rarity": "Common",
-   "value": 70,
-   "name": {
-    "en": "Gravedigger's Tally",
-    "id": "Hitungan Penggali Kubur"
-   },
-   "desc": {
-    "en": "A notched stick. Sixty years of names, and Brann can still recite any notch you point at.",
-    "id": "Sebilah kayu bertakik. Enam puluh tahun nama, dan Brann masih bisa menyebut takik mana pun yang kau tunjuk."
-   },
-   "slot": "Trinket",
-   "health": 12,
-   "icon": "LootIcons_44"
-  },
-  {
-   "id": "trinket_salt_seal",
-   "kind": "Trinket",
-   "rarity": "Fine",
-   "value": 220,
-   "name": {
-    "en": "Salt League Seal",
-    "id": "Segel Serikat Garam"
-   },
-   "desc": {
-    "en": "Opens gates, closes mouths, and costs more than either.",
-    "id": "Membuka gerbang, menutup mulut, dan harganya lebih mahal dari keduanya."
-   },
-   "slot": "Trinket",
-   "damage": 2,
-   "moveSpeed": 0.05,
-   "icon": "LootIcons_19"
-  },
-  {
-   "id": "trinket_lion_pin",
-   "kind": "Trinket",
-   "rarity": "Fine",
-   "value": 260,
-   "name": {
-    "en": "Scaled Lion Pin",
-    "id": "Pin Singa Bersisik"
-   },
-   "desc": {
-    "en": "Wearing the Protector's crest in Rennfall is either loyalty or bait. Nobody has decided which.",
-    "id": "Memakai lambang Protektor di Rennfall bisa berarti kesetiaan atau umpan. Belum ada yang memutuskan."
-   },
-   "slot": "Trinket",
-   "armor": 5,
-   "health": 15,
-   "icon": "LootIcons_41"
-  },
-  {
-   "id": "trinket_ember_knot",
-   "kind": "Trinket",
-   "rarity": "Rare",
-   "value": 430,
-   "name": {
-    "en": "Ember Knot",
-    "id": "Simpul Bara"
-   },
-   "desc": {
-    "en": "A cord soaked in hearth ash, tied with a knot nobody living remembers how to undo.",
-    "id": "Tali yang direndam abu perapian, diikat dengan simpul yang tak seorang pun ingat cara membukanya."
-   },
-   "slot": "Trinket",
-   "damage": 6,
-   "health": 18,
-   "icon": "LootIcons_4"
-  },
-  {
-   "id": "trinket_crane_seal",
-   "kind": "Trinket",
-   "rarity": "Oathbound",
-   "value": 0,
-   "name": {
-    "en": "Crane's Warden Seal",
-    "id": "Segel Warden Crane"
-   },
-   "desc": {
-    "en": "The old warden's seal of office. The wax under it is forty years old and still soft.",
-    "id": "Segel jabatan warden lama. Lilin di bawahnya berusia empat puluh tahun dan masih lunak."
-   },
-   "slot": "Trinket",
-   "damage": 8,
-   "health": 25,
-   "setsFlag": "relic.crane_seal",
-   "icon": "LootIcons_19"
-  },
-  {
-   "id": "potion_stoneskin",
-   "kind": "Consumable",
-   "rarity": "Rare",
-   "value": 95,
-   "name": {
-    "en": "Stoneskin Draught",
-    "id": "Ramuan Kulit Batu"
-   },
-   "desc": {
-    "en": "Tastes of wet slate. For an hour, a blade feels like a shove.",
-    "id": "Rasanya seperti batu tulis basah. Selama sejam, tebasan hanya terasa seperti dorongan."
-   },
-   "stackSize": 6,
-   "healAmount": 25,
-   "icon": "LootIcons_19"
-  },
-  {
-   "id": "potion_nightsight",
-   "kind": "Consumable",
-   "rarity": "Fine",
-   "value": 48,
-   "name": {
-    "en": "Nightsight Tincture",
-    "id": "Tetes Mata Malam"
-   },
-   "desc": {
-    "en": "The dark goes grey and the cold goes sharp. Do not use it twice in one night.",
-    "id": "Gelap berubah kelabu dan dingin terasa menusuk. Jangan pakai dua kali dalam semalam."
-   },
-   "stackSize": 8,
-   "manaAmount": 35,
-   "icon": "LootIcons_19"
-  },
-  {
-   "id": "food_stew",
-   "kind": "Consumable",
-   "rarity": "Common",
-   "value": 14,
-   "name": {
-    "en": "Hearth Stew",
-    "id": "Sup Perapian"
-   },
-   "desc": {
-    "en": "Root vegetables, salt pork, and whatever the traps caught. Eaten standing, always.",
-    "id": "Umbi, daging asin, dan apa pun hasil jerat. Selalu dimakan sambil berdiri."
-   },
-   "stackSize": 10,
-   "healAmount": 45,
-   "icon": "LootIcons_33"
-  },
-  {
-   "id": "bandage",
-   "kind": "Consumable",
-   "rarity": "Common",
-   "value": 12,
-   "name": {
-    "en": "Boiled Linen",
-    "id": "Kain Linen Rebus"
-   },
-   "desc": {
-    "en": "Boiled, dried, rolled. The only medicine in the valley that never runs out.",
-    "id": "Direbus, dikeringkan, digulung. Satu-satunya obat di lembah yang tak pernah habis."
-   },
-   "stackSize": 15,
-   "healAmount": 28,
-   "icon": "LootIcons_60"
-  },
-  {
-   "id": "oil_flask",
-   "kind": "Consumable",
-   "rarity": "Fine",
-   "value": 40,
-   "name": {
-    "en": "Pitch Flask",
-    "id": "Botol Ter"
-   },
-   "desc": {
-    "en": "Throw it, light it, and do not stand downwind of your own idea.",
-    "id": "Lempar, sulut, dan jangan berdiri searah angin dari idemu sendiri."
-   },
-   "stackSize": 8,
-   "icon": "LootIcons_31"
-  },
-  {
-   "id": "whetstone",
-   "kind": "Consumable",
-   "rarity": "Common",
-   "value": 18,
-   "name": {
-    "en": "Whetstone",
-    "id": "Batu Asah"
-   },
-   "desc": {
-    "en": "Ten minutes of work for an hour of not dying. Fair trade.",
-    "id": "Sepuluh menit kerja untuk sejam tidak mati. Pertukaran yang adil."
-   },
-   "stackSize": 10,
-   "icon": "LootIcons_40"
-  },
-  {
-   "id": "mat_rope",
-   "kind": "Material",
-   "rarity": "Common",
-   "value": 9,
-   "name": {
-    "en": "Tarred Rope",
-    "id": "Tali Ter"
-   },
-   "desc": {
-    "en": "Holds roofs down, holds prisoners still, holds a bridge together for one more crossing.",
-    "id": "Menahan atap, mengikat tawanan, dan menyatukan jembatan untuk satu penyeberangan lagi."
-   },
-   "stackSize": 99,
-   "icon": "LootIcons_1"
-  },
-  {
-   "id": "mat_nails",
-   "kind": "Material",
-   "rarity": "Common",
-   "value": 11,
-   "name": {
-    "en": "Iron Nails",
-    "id": "Paku Besi"
-   },
-   "desc": {
-    "en": "Hand-forged, uneven, and worth more than the plank they hold.",
-    "id": "Ditempa tangan, tidak seragam, dan lebih berharga daripada papan yang dipakukan."
-   },
-   "stackSize": 99,
-   "icon": "LootIcons_8"
-  },
-  {
-   "id": "mat_pitch",
-   "kind": "Material",
-   "rarity": "Fine",
-   "value": 22,
-   "name": {
-    "en": "Pine Pitch",
-    "id": "Getah Pinus"
-   },
-   "desc": {
-    "en": "Waterproofs a roof, seals a wound badly, and burns like a promise.",
-    "id": "Menahan bocor di atap, menutup luka dengan buruk, dan terbakar seperti sebuah janji."
-   },
-   "stackSize": 60,
-   "icon": "LootIcons_34"
-  },
-  {
-   "id": "mat_hide",
-   "kind": "Material",
-   "rarity": "Common",
-   "value": 16,
-   "name": {
-    "en": "Cured Hide",
-    "id": "Kulit Samak"
-   },
-   "desc": {
-    "en": "Deer, mostly. The valley's deer have been nervous for forty years.",
-    "id": "Kebanyakan dari rusa. Rusa di lembah ini sudah gelisah selama empat puluh tahun."
-   },
-   "stackSize": 60,
-   "icon": "LootIcons_20"
-  },
-  {
-   "id": "mat_saltbrick",
-   "kind": "Material",
-   "rarity": "Fine",
-   "value": 30,
-   "name": {
-    "en": "Salt Brick",
-    "id": "Bata Garam"
-   },
-   "desc": {
-    "en": "League currency in all but name. Preserves meat, pays bribes, melts in rain.",
-    "id": "Mata uang Serikat dalam segala hal kecuali namanya. Mengawetkan daging, membayar suap, larut kena hujan."
-   },
-   "stackSize": 40,
-   "icon": "LootIcons_49"
-  },
-  {
-   "id": "tool_shovel",
-   "kind": "Trinket",
-   "rarity": "Common",
-   "value": 55,
-   "name": {
-    "en": "Iron Shovel",
-    "id": "Sekop Besi"
-   },
-   "desc": {
-    "en": "Brann's spare. Carrying it marks you as someone who intends to bury people properly.",
-    "id": "Cadangan milik Brann. Membawanya menandakan kau berniat mengubur orang dengan layak."
-   },
-   "slot": "Trinket",
-   "damage": 3,
-   "health": 6,
-   "icon": "LootIcons_100"
-  },
-  {
-   "id": "tool_lantern",
-   "kind": "Trinket",
-   "rarity": "Fine",
-   "value": 120,
-   "name": {
-    "en": "Warden's Lantern",
-    "id": "Lentera Warden"
-   },
-   "desc": {
-    "en": "Shuttered on three sides. You see the road; the road does not see you.",
-    "id": "Tertutup di tiga sisi. Kau melihat jalan, dan jalan tidak melihatmu."
-   },
-   "slot": "Trinket",
-   "moveSpeed": 0.04,
-   "health": 8,
-   "icon": "LootIcons_0"
-  },
-  {
-   "id": "quest_burn_ledger",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "name": {
-    "en": "Burning Crew Ledger",
-    "id": "Buku Catatan Regu Pembakar"
-   },
-   "desc": {
-    "en": "Every village cleared, with a column for souls accounted. The last column is always full and always wrong.",
-    "id": "Setiap desa yang dibersihkan, dengan kolom jiwa tercatat. Kolom terakhir selalu penuh dan selalu salah."
-   },
-   "setsFlag": "quest.burn_ledger",
-   "icon": "LootIcons_28"
-  },
-  {
-   "id": "quest_moot_writ",
-   "kind": "Quest",
-   "rarity": "Oathbound",
-   "value": 0,
-   "name": {
-    "en": "Writ of the Moot",
-    "id": "Surat Sidang Mahkota"
-   },
-   "desc": {
-    "en": "Signed, sealed, and worth a war. Holding it makes you the most invited and most hunted person in Valcaris.",
-    "id": "Ditandatangani, disegel, dan bernilai satu perang. Memegangnya membuatmu orang paling diundang sekaligus paling diburu di Valcaris."
-   },
-   "setsFlag": "quest.moot_writ",
-   "icon": "LootIcons_66"
-  },
-  {
-   "id": "relic_root_crown_shard",
-   "kind": "Relic",
-   "rarity": "Oathbound",
-   "value": 0,
-   "name": {
-    "en": "Shard of the Root Crown",
-    "id": "Serpihan Mahkota Akar"
-   },
-   "desc": {
-    "en": "A splinter of the crown that broke over the queen. It is still growing, very slowly, in the dark of your pack.",
-    "id": "Serpihan mahkota yang retak di kepala Ratu. Ia masih tumbuh, sangat perlahan, di dalam gelap tasmu."
-   },
-   "slot": "Trinket",
-   "damage": 10,
-   "health": 30,
-   "setsFlag": "relic.crown_shard",
-   "icon": "LootIcons_12"
-  },
-  {
-   "id": "quest_marshal_writ",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.marshal_writ",
-   "name": {
-    "en": "Writ of Compliance",
-    "id": "Surat Kepatuhan"
-   },
-   "desc": {
-    "en": "Stamped twice and signed once. It says Rennfall cooperates, which is a shield until it is a receipt.",
-    "id": "Dicap dua kali, ditandatangani sekali. Isinya: Rennfall bekerja sama — sebuah perisai, sampai ia jadi tanda terima."
-   },
-   "icon": "LootIcons_66"
-  },
-  {
-   "id": "trinket_road_charm",
-   "kind": "Trinket",
-   "rarity": "Common",
-   "value": 55,
-   "slot": "Trinket",
-   "health": 8,
-   "armor": 1,
-   "name": {
-    "en": "Road Charm",
-    "id": "Jimat Jalan"
-   },
-   "desc": {
-    "en": "Two coins wired together, carried four days out of Greymarch by someone who arrived and someone who did not.",
-    "id": "Dua keping koin diikat kawat, dibawa empat hari dari Greymarch oleh satu orang yang sampai dan satu yang tidak."
-   },
-   "icon": "LootIcons_32"
-  },
-  {
-   "id": "food_salt_meat",
-   "kind": "Consumable",
-   "rarity": "Common",
-   "value": 18,
-   "stackSize": 10,
-   "healAmount": 60,
-   "name": {
-    "en": "Salt Meat",
-    "id": "Daging Asin"
-   },
-   "desc": {
-    "en": "League-cured and League-priced. Chews like rope, keeps a watchman upright until dawn.",
-    "id": "Diawetkan Serikat dan dihargai Serikat. Alot seperti tali, tapi menjaga penjaga tetap tegak sampai fajar."
-   },
-   "icon": "LootIcons_24"
-  },
-  {
-   "id": "mat_cloth",
-   "kind": "Material",
-   "rarity": "Common",
-   "value": 11,
-   "stackSize": 99,
-   "name": {
-    "en": "Oiled Cloth",
-    "id": "Kain Berminyak"
-   },
-   "desc": {
-    "en": "Sheds rain off a roof or off a wound. The settlement never has enough of either use.",
-    "id": "Menahan hujan di atap atau di luka. Pemukiman tak pernah punya cukup untuk keduanya."
-   },
-   "icon": "LootIcons_60"
-  },
-  {
-   "id": "ring_copper",
-   "kind": "Trinket",
-   "slot": "Ring",
-   "rarity": "Common",
-   "value": 60,
-   "icon": "gear_ring_copper",
-   "name": {
-    "en": "Copper Band",
-    "id": "Cincin Tembaga"
-   },
-   "desc": {
-    "en": "A farmer's ring, worn smooth. It has seen more harvests than fights.",
-    "id": "Cincin petani, aus dan licin. Lebih banyak melihat panen daripada perkelahian."
-   },
-   "damage": 1
-  },
-  {
-   "id": "ring_iron",
-   "kind": "Trinket",
-   "slot": "Ring",
-   "rarity": "Fine",
-   "value": 150,
-   "icon": "gear_ring_iron",
-   "name": {
-    "en": "Warden's Signet",
-    "id": "Cincin Segel Warden"
-   },
-   "desc": {
-    "en": "The square stone was cut to press a seal into wax. It presses just as well into a jaw.",
-    "id": "Batu perseginya dipotong untuk mencap lilin. Sama baiknya untuk mencap rahang."
-   },
-   "damage": 2,
-   "armor": 1
-  },
-  {
-   "id": "ring_gold",
-   "kind": "Trinket",
-   "slot": "Ring",
-   "rarity": "Rare",
-   "value": 420,
-   "icon": "gear_ring_gold",
-   "name": {
-    "en": "Emberheart Ring",
-    "id": "Cincin Jantung Bara"
-   },
-   "desc": {
-    "en": "The stone is warm to the touch, even in the snow.",
-    "id": "Batunya hangat saat disentuh, bahkan di tengah salju."
-   },
-   "damage": 4,
-   "health": 10
-  },
-  {
-   "id": "amulet_bone",
-   "kind": "Trinket",
-   "slot": "Neck",
-   "rarity": "Common",
-   "value": 45,
-   "icon": "gear_amulet_bone",
-   "name": {
-    "en": "Tooth on a Cord",
-    "id": "Taring di Tali"
-   },
-   "desc": {
-    "en": "Somebody's lucky tooth. Luckier for them that it is not still in their mouth.",
-    "id": "Taring keberuntungan seseorang. Untung baginya taring itu tak lagi di mulutnya."
-   },
-   "health": 8
-  },
-  {
-   "id": "amulet_silver",
-   "kind": "Trinket",
-   "slot": "Neck",
-   "rarity": "Fine",
-   "value": 170,
-   "icon": "gear_amulet_silver",
-   "name": {
-    "en": "Riverstone Pendant",
-    "id": "Liontin Batu Sungai"
-   },
-   "desc": {
-    "en": "Blue as meltwater. It steadies the breath in a long fight.",
-    "id": "Biru seperti air salju. Menenangkan napas dalam pertarungan panjang."
-   },
-   "health": 14,
-   "armor": 1
-  },
-  {
-   "id": "amulet_gold",
-   "kind": "Trinket",
-   "slot": "Neck",
-   "rarity": "Rare",
-   "value": 460,
-   "icon": "gear_amulet_gold",
-   "name": {
-    "en": "Sunfire Amulet",
-    "id": "Kalung Api Surya"
-   },
-   "desc": {
-    "en": "Made for a lord who never came back for it.",
-    "id": "Dibuat untuk seorang bangsawan yang tak pernah kembali mengambilnya."
-   },
-   "health": 20,
-   "damage": 2
-  },
-  {
-   "id": "gloves_leather",
-   "kind": "Armor",
-   "slot": "Hands",
-   "rarity": "Common",
-   "value": 40,
-   "icon": "gear_gloves_leather",
-   "name": {
-    "en": "Work Gloves",
-    "id": "Sarung Tangan Kerja"
-   },
-   "desc": {
-    "en": "Stiff with old sap. They grip an axe handle like they were made for it.",
-    "id": "Kaku oleh getah lama. Menggenggam gagang kapak seolah dibuat untuk itu."
-   },
-   "armor": 1,
-   "damage": 1
-  },
-  {
-   "id": "gloves_iron",
-   "kind": "Armor",
-   "slot": "Hands",
-   "rarity": "Fine",
-   "value": 140,
-   "icon": "gear_gloves_iron",
-   "name": {
-    "en": "Iron-backed Gauntlets",
-    "id": "Sarung Tangan Berpunggung Besi"
-   },
-   "desc": {
-    "en": "Plates over the knuckles, leather in the palm. The dead do not like being punched with them.",
-    "id": "Pelat di buku jari, kulit di telapak. Mayat berjalan tidak suka dipukul dengan ini."
-   },
-   "armor": 3,
-   "damage": 1
-  },
-  {
-   "id": "gloves_gold",
-   "kind": "Armor",
-   "slot": "Hands",
-   "rarity": "Rare",
-   "value": 380,
-   "icon": "gear_gloves_gold",
-   "name": {
-    "en": "Captain's Gauntlets",
-    "id": "Sarung Tangan Kapten"
-   },
-   "desc": {
-    "en": "Gold on the cuffs so the men could see which hand gave the order.",
-    "id": "Emas di pergelangan agar pasukan bisa melihat tangan mana yang memberi perintah."
-   },
-   "armor": 5,
-   "damage": 2
-  },
-  {
-   "id": "boots_leather",
-   "kind": "Armor",
-   "slot": "Feet",
-   "rarity": "Common",
-   "value": 40,
-   "icon": "gear_boots_leather",
-   "name": {
-    "en": "Road Boots",
-    "id": "Sepatu Jalan"
-   },
-   "desc": {
-    "en": "Resoled twice. Still let in the rain on the left.",
-    "id": "Sudah dua kali ganti sol. Yang kiri masih bocor kalau hujan."
-   },
-   "armor": 1,
-   "moveSpeed": 0.03
-  },
-  {
-   "id": "boots_iron",
-   "kind": "Armor",
-   "slot": "Feet",
-   "rarity": "Fine",
-   "value": 140,
-   "icon": "gear_boots_iron",
-   "name": {
-    "en": "Plated Boots",
-    "id": "Sepatu Berpelat"
-   },
-   "desc": {
-    "en": "Heavier than they look, lighter than they sound.",
-    "id": "Lebih berat dari kelihatannya, lebih ringan dari bunyinya."
-   },
-   "armor": 3
-  },
-  {
-   "id": "boots_gold",
-   "kind": "Armor",
-   "slot": "Feet",
-   "rarity": "Rare",
-   "value": 380,
-   "icon": "gear_boots_gold",
-   "name": {
-    "en": "Knight's Sabatons",
-    "id": "Sepatu Zirah Ksatria"
-   },
-   "desc": {
-    "en": "Every step rings like a small bell. Stealth is for other people.",
-    "id": "Tiap langkah berdenting seperti lonceng kecil. Mengendap-endap urusan orang lain."
-   },
-   "armor": 5,
-   "health": 10
-  },
-  {
-   "id": "legs_leather",
-   "kind": "Armor",
-   "slot": "Legs",
-   "rarity": "Common",
-   "value": 45,
-   "icon": "LootIcons_93",
-   "name": {
-    "en": "Leather Breeches",
-    "id": "Celana Kulit"
-   },
-   "desc": {
-    "en": "Patched at the knee. Every warden kneels more than they admit.",
-    "id": "Ditambal di lutut. Setiap warden lebih sering berlutut daripada yang mereka akui."
-   },
-   "armor": 2
-  },
-  {
-   "id": "legs_iron",
-   "kind": "Armor",
-   "slot": "Legs",
-   "rarity": "Fine",
-   "value": 160,
-   "icon": "LootIcons_79",
-   "name": {
-    "en": "Mail Leggings",
-    "id": "Celana Rantai"
-   },
-   "desc": {
-    "en": "Cold in the morning, warm by noon, heavy by evening.",
-    "id": "Dingin di pagi hari, hangat di siang hari, berat di sore hari."
-   },
-   "armor": 4,
-   "health": 5
-  },
-  {
-   "id": "legs_gold",
-   "kind": "Armor",
-   "slot": "Legs",
-   "rarity": "Rare",
-   "value": 420,
-   "icon": "LootIcons_85",
-   "name": {
-    "en": "Gilded Greaves",
-    "id": "Pelindung Kaki Bersepuh"
-   },
-   "desc": {
-    "en": "Parade armour that turned out to be real armour.",
-    "id": "Zirah upacara yang ternyata zirah sungguhan."
-   },
-   "armor": 7,
-   "health": 10
-  },
-  {
-   "id": "quest_wick_lamp",
-   "kind": "Quest",
-   "rarity": "Common",
-   "value": 0,
-   "icon": "LootIcons_0",
-   "name": {
-    "en": "Wick's Lamp",
-    "id": "Lampu Wick"
-   },
-   "desc": {
-    "en": "Dented, the glass cracked, the wick still in it. He will want it back anyway.",
-    "id": "Penyok, kacanya retak, sumbunya masih di dalam. Ia tetap akan menginginkannya kembali."
-   }
-  },
-  {
-   "id": "quest_oona_letter",
-   "kind": "Quest",
-   "rarity": "Common",
-   "value": 0,
-   "icon": "LootIcons_28",
-   "name": {
-    "en": "Oona's Letter",
-    "id": "Surat Oona"
-   },
-   "desc": {
-    "en": "Sealed with candle wax and addressed, in careful capitals, to Brann Hollowell.",
-    "id": "Disegel dengan lilin dan dialamatkan, dengan huruf kapital yang hati-hati, kepada Brann Hollowell."
-   }
-  },
-  {
-   "id": "quest_roane_tally",
-   "kind": "Quest",
-   "rarity": "Common",
-   "value": 0,
-   "setsFlag": "quest.roane_tally",
-   "name": {
-    "en": "Roane's Tally-Book",
-    "id": "Buku Hitungan Roane"
-   },
-   "desc": {
-    "en": "A clerk's tally-book, its spine cracked from being thrown. The pages still add up to every bar of iron the keep ever held.",
-    "id": "Buku hitungan juru tulis, punggungnya retak karena dilempar. Halaman-halamannya masih menjumlahkan setiap batang besi yang pernah disimpan benteng."
-   },
-   "icon": "LootIcons_30"
-  },
-  {
-   "id": "quest_pay_roll",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.pay_roll",
-   "name": {
-    "en": "The Deserters' Pay-Roll",
-    "id": "Daftar Gaji Pembelot"
-   },
-   "desc": {
-    "en": "A roll of pay-chits marked in a hand that is not Ash Line issue, each stamped with the same left-handed sign.",
-    "id": "Segulung bon gaji bertuliskan tangan yang bukan terbitan Barisan Abu, masing-masing berstempel tanda tangan kiri yang sama."
-   },
-   "icon": "LootIcons_31"
-  },
-  {
-   "id": "quest_salt_tally",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.salt_tally",
-   "name": {
-    "en": "Dropped Tally-Stick",
-    "id": "Tongkat Hitung yang Terjatuh"
-   },
-   "desc": {
-    "en": "A split stick notched by two knives — the porter's count and the pan-keeper's. Where it lies is where a load of crust stopped being counted.",
-    "id": "Tongkat belah berparut dua pisau — hitungan porter dan hitungan penjaga petak. Di mana ia tergeletak, di situlah satu muatan kerak berhenti dihitung."
-   },
-   "icon": "LootIcons_30"
-  },
-  {
-   "id": "quest_store_key",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.store_key",
-   "name": {
-    "en": "The Store Key",
-    "id": "Kunci Gudang"
-   },
-   "desc": {
-    "en": "Iron, long-shafted, the only key that opens the covered salt-store. Wit-warden Ostler was meant to carry it to the capital and never arrived.",
-    "id": "Besi bergagang panjang, satu-satunya kunci pembuka gudang garam bertutup. Penjaga kunci Ostler seharusnya membawanya ke ibu kota dan tak pernah sampai."
-   },
-   "icon": "LootIcons_31"
-  },
-  {
-   "id": "quest_salt_spill",
-   "kind": "Quest",
-   "rarity": "Common",
-   "value": 0,
-   "setsFlag": "quest.salt_spill",
-   "name": {
-    "en": "Spilled Salt, Gathered",
-    "id": "Tumpahan Garam yang Dipungut"
-   },
-   "desc": {
-    "en": "Salt the scale never counted, gathered handful by handful off the crust. The League's rule says it belongs to no one; the gleaners' rule says it belongs to the hungry.",
-    "id": "Garam yang tak pernah dihitung timbangan, dipungut segenggam demi segenggam dari kerak. Aturan Liga bilang ini bukan milik siapa-siapa; aturan para pemungut bilang ini milik yang lapar."
-   },
-   "icon": "LootIcons_29"
-  },
-  {
-   "id": "quest_cord_tally",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.cord_tally",
-   "name": {
-    "en": "Dropped Cord-Tally",
-    "id": "Tongkat Hitung Kayu yang Terjatuh"
-   },
-   "desc": {
-    "en": "A split stick notched by the foreman's knife — one cord of burnwood, owed and counted. Until it is back on the tally post the stackyard reads short.",
-    "id": "Tongkat belah berparut pisau mandor — satu tumpuk kayu bakar, terutang dan terhitung. Selama belum kembali ke tiang hitung, halaman kayu terbaca kurang."
-   },
-   "icon": "LootIcons_30"
-  },
-  {
-   "id": "quest_keeper_rod",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.keeper_rod",
-   "name": {
-    "en": "The Keeper's Measuring Rod",
-    "id": "Tongkat Ukur Penjaga Tungku"
-   },
-   "desc": {
-    "en": "A scorched ash-rod, ringed where a clamp should stand and notched where the earth should lie over it. Without it a kiln-keeper burns by guess.",
-    "id": "Tongkat kayu hangus, dilingkari setinggi klamp seharusnya dan diparut sedalam tanah harus menutupinya. Tanpanya penjaga tungku membakar dengan tebakan."
-   },
-   "icon": "LootIcons_31"
-  },
-  {
-   "id": "quest_char_coal",
-   "kind": "Quest",
-   "rarity": "Common",
-   "value": 0,
-   "setsFlag": "quest.char_coal",
-   "name": {
-    "en": "Heaped Clean Coal",
-    "id": "Timbunan Arang Bersih"
-   },
-   "desc": {
-    "en": "Coal that rang like a pot when it broke — the good kind, worth the picking before rain turns it back to mud.",
-    "id": "Arang yang berbunyi seperti periuk saat pecah — jenis yang bagus, layak dipungut sebelum hujan mengubahnya kembali jadi lumpur."
-   },
-   "icon": "LootIcons_24"
-  },
-  {
-   "id": "quest_mill_tally",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.mill_tally",
-   "name": {
-    "en": "The Mill's Tally-Stick",
-    "id": "Tongkat Hitung Penggilingan"
-   },
-   "desc": {
-    "en": "A split hazel stick notched twice — Bryd's knife and the carter's. Every notch is a stook of grain the League's book still believes in.",
-    "id": "Tongkat hazel belah berparut dua pisau — pisau Bryd dan pisau kusir. Setiap parut adalah seberkas gandum yang masih dipercaya buku Liga."
-   },
-   "icon": "LootIcons_30"
-  },
-  {
-   "id": "quest_mill_sack",
-   "kind": "Quest",
-   "rarity": "Common",
-   "value": 0,
-   "setsFlag": "quest.mill_sack",
-   "name": {
-    "en": "Spilled Meal Sack",
-    "id": "Karung Tepung Tumpah"
-   },
-   "desc": {
-    "en": "A slashed sack of Windrest flour, split open where the cart rope was cut. Heavy with grass seeds now, but it was the League's count when it fell.",
-    "id": "Karung tepung Windrest yang disobek, pecah di tempat tali kereta dipotong. Kini berat oleh biji rumput, tapi saat jatuh ia masih hitungan Liga."
-   },
-   "icon": "LootIcons_27"
-  },
-  {
-   "id": "quest_pit_tally",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.pit_tally",
-   "name": {
-    "en": "Dropped Tally-Stick",
-    "id": "Tongkat Hitung yang Terjatuh"
-   },
-   "desc": {
-    "en": "A chalk-stained stick split for the count — cut face, cart, and kiln each holding a third of the truth. Where it lies is where a load of lime stopped being anybody's.",
-    "id": "Tongkat berparut ternoda kapur — muka potong, pedati, dan tungku masing-masing memegang sepertiga kebenaran. Di mana ia tergeletak, di situlah satu muatan kapur berhenti jadi milik siapa pun."
-   },
-   "icon": "LootIcons_30"
-  },
-  {
-   "id": "quest_pit_seal",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.pit_seal",
-   "name": {
-    "en": "The Pit's Seal-Stamp",
-    "id": "Stempel Segel Lubang"
-   },
-   "desc": {
-    "en": "Brass-headed, chalk-flecked — the stamp that made a cut block League property and a cart-load legal. The last clerk left it on the hoist and never came back for it.",
-    "id": "Berkepala kuningan, berbintik kapur — stempel yang membuat blok potong jadi milik Liga dan muatan pedati jadi sah. Juru hitung terakhir meninggalkannya di kerek dan tak pernah kembali."
-   },
-   "icon": "LootIcons_31"
-  },
-  {
-   "id": "quest_pit_lime",
-   "kind": "Quest",
-   "rarity": "Common",
-   "value": 0,
-   "setsFlag": "quest.pit_lime",
-   "name": {
-    "en": "Split Lime Bag",
-    "id": "Karung Kapur yang Terbelah"
-   },
-   "desc": {
-    "en": "A burst sack of burn-lime, gathered off the pit floor before the dew takes it. Worth little to a thief and everything to a kiln that has gone cold.",
-    "id": "Karung kapur bakar yang pecah, dipungut dari lantai lubang sebelum embun mengambilnya. Tak berarti bagi maling, tapi segalanya bagi tungku yang sudah padam."
-   },
-   "icon": "LootIcons_29"
-  },
-  {
-   "id": "quest_stamp_slip",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.stamp_slip",
-   "name": {
-    "en": "True Writ-Slip",
-    "id": "Slip Surat Sejati"
-   },
-   "desc": {
-    "en": "A slip in Novak's own cramped hand — the count the coiners paid to keep unwritten, folded small enough to vanish into a seam.",
-    "id": "Selembar tulisan tangan Novak yang rapat — hitungan yang dibayar para pencetak agar tak pernah ditulis, dilipat cukup kecil untuk hilang dalam lipatan."
-   },
-   "icon": "LootIcons_30"
-  },
-  {
-   "id": "quest_stamp_die",
-   "kind": "Quest",
-   "rarity": "Rare",
-   "value": 0,
-   "setsFlag": "quest.stamp_die",
-   "name": {
-    "en": "The Master Die",
-    "id": "Die Induk"
-   },
-   "desc": {
-    "en": "A steel stamp-block still dark with ink — the face that strikes every false seal the valley has swallowed. Under the rim, a die-sinker's habit mark no court would mistake.",
-    "id": "Blok stempel baja yang masih gelap oleh tinta — muka yang memukul tiap segel palsu yang telah ditelan lembah. Di bawah tepiannya, tanda kebiasaan pemahat die yang tak akan disalahkan pengadilan mana pun."
-   },
-   "icon": "LootIcons_31"
-  },
-  {
-   "id": "quest_stamp_plate",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.stamp_plate",
-   "name": {
-    "en": "Cracked Die-Plate",
-    "id": "Pelat Die Retak"
-   },
-   "desc": {
-    "en": "A test strike that split under the hammer and was thrown to the spoil — but the crack holds the same hand that cut the master die. Evidence that leaks like light.",
-    "id": "Pukulan uji yang pecah di bawah palu dan dibuang ke timbunan — tapi retaknya memegang tangan yang sama yang memahat die induk. Bukti yang bocor seperti cahaya."
-   },
-   "icon": "LootIcons_29"
-  },
-  {
-   "id": "quest_stamp_blank",
-   "kind": "Quest",
-   "rarity": "Fine",
-   "value": 0,
-   "setsFlag": "quest.stamp_blank",
-   "name": {
-    "en": "Silver Blank",
-    "id": "Lempengan Perak"
-   },
-   "desc": {
-    "en": "A bright disc of unstruck silver, dropped where a barrow tipped. Worth a month's wage before it ever becomes a lie.",
-    "id": "Cakram perak belum terpukul yang cerah, jatuh saat gerobak terguling. Bernilai upah sebulan bahkan sebelum menjadi dusta."
-   },
-   "icon": "LootIcons_29"
-  }
- ]
+  "items": [
+    {
+      "id": "sword_guard_issue",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Common",
+      "value": 40,
+      "damage": 12,
+      "attackSpeed": 1.0,
+      "name": {
+        "en": "Crown Guard Sword",
+        "id": "Pedang Pengawal Mahkota"
+      },
+      "desc": {
+        "en": "Standard issue, notched from a night you do not talk about. They let you keep it. That was the mercy.",
+        "id": "Pedang dinas biasa, sumbing sejak malam yang tak pernah kau ceritakan. Mereka membiarkanmu menyimpannya. Itulah belas kasihnya."
+      },
+      "icon": "LootIcons_101"
+    },
+    {
+      "id": "sword_gravedigger",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Fine",
+      "value": 120,
+      "damage": 16,
+      "attackSpeed": 0.95,
+      "name": {
+        "en": "Gravedigger's Falchion",
+        "id": "Golok Penggali Kubur"
+      },
+      "desc": {
+        "en": "Brann kept it sharp for forty years and never once used it on the living.",
+        "id": "Brann mengasahnya selama empat puluh tahun dan tak sekali pun memakainya pada yang hidup."
+      },
+      "icon": "LootIcons_80"
+    },
+    {
+      "id": "axe_woodcutter",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Common",
+      "value": 55,
+      "damage": 18,
+      "attackSpeed": 0.75,
+      "name": {
+        "en": "Woodcutter's Axe",
+        "id": "Kapak Penebang"
+      },
+      "desc": {
+        "en": "Heavy, slow, honest. Splits pine and bone with equal patience.",
+        "id": "Berat, lambat, jujur. Membelah pinus dan tulang dengan kesabaran yang sama."
+      },
+      "icon": "LootIcons_100"
+    },
+    {
+      "id": "spear_warden",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Fine",
+      "value": 150,
+      "damage": 15,
+      "attackSpeed": 1.1,
+      "name": {
+        "en": "Warden's Spear",
+        "id": "Tombak Warden"
+      },
+      "desc": {
+        "en": "Reach matters when the dead come in numbers. The old wardens knew it.",
+        "id": "Jangkauan itu penting saat orang mati datang berbondong. Para warden lama tahu itu."
+      },
+      "icon": "LootIcons_3"
+    },
+    {
+      "id": "bow_poacher",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Common",
+      "value": 70,
+      "damage": 10,
+      "attackSpeed": 1.25,
+      "name": {
+        "en": "Poacher's Bow",
+        "id": "Busur Pemburu Gelap"
+      },
+      "desc": {
+        "en": "Tobias carved the nocks himself. Illegal on three counts, useful on all of them.",
+        "id": "Tobias mengukir sendiri takik talinya. Melanggar tiga aturan, berguna di ketiganya."
+      },
+      "icon": "LootIcons_44"
+    },
+    {
+      "id": "sword_emberbrand",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Rare",
+      "value": 420,
+      "damage": 24,
+      "attackSpeed": 1.0,
+      "name": {
+        "en": "Emberbrand",
+        "id": "Bara Baja"
+      },
+      "desc": {
+        "en": "Forged in an oathfire. Warm in the hand even in the dead cold of the vale.",
+        "id": "Ditempa dalam api sumpah. Tetap hangat di tangan meski lembah membeku."
+      },
+      "icon": "LootIcons_86"
+    },
+    {
+      "id": "armor_padded",
+      "kind": "Armor",
+      "slot": "Body",
+      "rarity": "Common",
+      "value": 35,
+      "armor": 4,
+      "health": 10,
+      "name": {
+        "en": "Padded Coat",
+        "id": "Mantel Berlapis"
+      },
+      "desc": {
+        "en": "Refugee stitching over a soldier's cut. Warm, which counts for more out here.",
+        "id": "Jahitan pengungsi di atas potongan prajurit. Hangat, dan di sini itu lebih berharga."
+      },
+      "icon": "LootIcons_91"
+    },
+    {
+      "id": "armor_guard_mail",
+      "kind": "Armor",
+      "slot": "Body",
+      "rarity": "Fine",
+      "value": 180,
+      "armor": 9,
+      "health": 20,
+      "moveSpeed": -0.03,
+      "name": {
+        "en": "Crown Guard Mail",
+        "id": "Rantai Pengawal Mahkota"
+      },
+      "desc": {
+        "en": "The lion was scratched off the breast. Kael did that himself, on the road.",
+        "id": "Lambang singa di dadanya digores hilang. Kael sendiri yang melakukannya, di jalan."
+      },
+      "icon": "LootIcons_77"
+    },
+    {
+      "id": "armor_warden_plate",
+      "kind": "Armor",
+      "slot": "Body",
+      "rarity": "Rare",
+      "value": 500,
+      "armor": 16,
+      "health": 35,
+      "moveSpeed": -0.06,
+      "name": {
+        "en": "Warden's Plate",
+        "id": "Zirah Warden"
+      },
+      "desc": {
+        "en": "Taken from the drowned waystation. Still smells faintly of wet ash.",
+        "id": "Diambil dari pos tenggelam. Masih berbau samar abu basah."
+      },
+      "icon": "LootIcons_104"
+    },
+    {
+      "id": "helm_hood",
+      "kind": "Armor",
+      "slot": "Head",
+      "rarity": "Common",
+      "value": 25,
+      "armor": 2,
+      "name": {
+        "en": "Oiled Hood",
+        "id": "Tudung Berminyak"
+      },
+      "desc": {
+        "en": "Keeps the rain out. Does nothing about what walks in it.",
+        "id": "Menahan hujan. Tak berguna melawan yang berjalan di dalamnya."
+      },
+      "icon": "LootIcons_60"
+    },
+    {
+      "id": "helm_sallet",
+      "kind": "Armor",
+      "slot": "Head",
+      "rarity": "Fine",
+      "value": 160,
+      "armor": 7,
+      "name": {
+        "en": "Dented Sallet",
+        "id": "Helm Penyok"
+      },
+      "desc": {
+        "en": "The dent is from a mace at the palace. The owner survived. Barely.",
+        "id": "Penyoknya bekas gada di istana. Pemiliknya selamat. Nyaris."
+      },
+      "icon": "LootIcons_78"
+    },
+    {
+      "id": "shield_oak",
+      "kind": "Armor",
+      "slot": "OffHand",
+      "rarity": "Common",
+      "value": 45,
+      "armor": 6,
+      "moveSpeed": -0.02,
+      "name": {
+        "en": "Oak Roundshield",
+        "id": "Perisai Kayu Ek"
+      },
+      "desc": {
+        "en": "Village make. The boss is a plough disc hammered flat.",
+        "id": "Buatan desa. Bagian tengahnya piringan bajak yang ditempa rata."
+      },
+      "icon": "LootIcons_89"
+    },
+    {
+      "id": "shield_lion",
+      "kind": "Armor",
+      "slot": "OffHand",
+      "rarity": "Rare",
+      "value": 380,
+      "armor": 12,
+      "health": 15,
+      "moveSpeed": -0.04,
+      "name": {
+        "en": "Scaled Lion Shield",
+        "id": "Perisai Singa Bersisik"
+      },
+      "desc": {
+        "en": "Ser Galen's family arms. Carrying it in Rennfall is a political statement.",
+        "id": "Lambang keluarga Ser Galen. Membawanya di Rennfall adalah pernyataan politik."
+      },
+      "icon": "LootIcons_82"
+    },
+    {
+      "id": "trinket_ashcharm",
+      "kind": "Trinket",
+      "slot": "Trinket",
+      "rarity": "Fine",
+      "value": 130,
+      "health": 25,
+      "name": {
+        "en": "Ash Charm",
+        "id": "Jimat Abu"
+      },
+      "desc": {
+        "en": "A pinch of a burned village in a glass thimble. The Marshals sell them. Maren cannot look at it.",
+        "id": "Sejumput desa yang terbakar dalam bidal kaca. Barisan Abu menjualnya. Maren tak sanggup memandangnya."
+      },
+      "icon": "LootIcons_32"
+    },
+    {
+      "id": "trinket_root_ring",
+      "kind": "Trinket",
+      "slot": "Ring",
+      "rarity": "Rare",
+      "value": 340,
+      "moveSpeed": 0.08,
+      "damage": 3,
+      "name": {
+        "en": "Root Ring",
+        "id": "Cincin Akar"
+      },
+      "desc": {
+        "en": "Grown, not forged. It tightens slightly whenever you stand on turned earth.",
+        "id": "Tumbuh, bukan ditempa. Ia sedikit menyempit tiap kali kau berdiri di atas tanah yang baru digali."
+      },
+      "icon": "LootIcons_45"
+    },
+    {
+      "id": "trinket_queens_seal",
+      "kind": "Relic",
+      "slot": "Trinket",
+      "rarity": "Oathbound",
+      "value": 0,
+      "health": 20,
+      "damage": 5,
+      "setsFlag": "relic.queens_seal",
+      "name": {
+        "en": "The Queen's Broken Seal",
+        "id": "Segel Ratu yang Retak"
+      },
+      "desc": {
+        "en": "Wax from the testament that exiled you. Still faintly warm, which should be impossible.",
+        "id": "Lilin dari wasiat yang mengasingkanmu. Masih terasa hangat, padahal itu mustahil."
+      },
+      "icon": "LootIcons_19"
+    },
+    {
+      "id": "potion_small",
+      "kind": "Consumable",
+      "rarity": "Common",
+      "stackSize": 12,
+      "value": 20,
+      "healAmount": 40,
+      "name": {
+        "en": "Bitterroot Draught",
+        "id": "Ramuan Akar Pahit"
+      },
+      "desc": {
+        "en": "Tastes like a wet cellar. Closes wounds anyway.",
+        "id": "Rasanya seperti gudang lembap. Tetap saja menutup luka."
+      },
+      "icon": "LootIcons_4"
+    },
+    {
+      "id": "potion_large",
+      "kind": "Consumable",
+      "rarity": "Fine",
+      "stackSize": 8,
+      "value": 60,
+      "healAmount": 110,
+      "name": {
+        "en": "Surgeon's Flask",
+        "id": "Botol Tabib"
+      },
+      "desc": {
+        "en": "Brewed for soldiers who must keep standing. Three of these and you will feel nothing at all.",
+        "id": "Diracik untuk prajurit yang harus tetap berdiri. Tiga botol dan kau takkan merasakan apa pun."
+      },
+      "icon": "LootIcons_4"
+    },
+    {
+      "id": "potion_mana",
+      "kind": "Consumable",
+      "rarity": "Fine",
+      "stackSize": 8,
+      "value": 55,
+      "manaAmount": 60,
+      "name": {
+        "en": "Emberwine",
+        "id": "Anggur Bara"
+      },
+      "desc": {
+        "en": "Iskra distills it from hearth ash. It burns all the way down and the burn is the point.",
+        "id": "Iskra menyulingnya dari abu perapian. Panas sampai ke perut, dan justru itu gunanya."
+      },
+      "icon": "LootIcons_12"
+    },
+    {
+      "id": "food_bread",
+      "kind": "Consumable",
+      "rarity": "Common",
+      "stackSize": 20,
+      "value": 6,
+      "healAmount": 15,
+      "name": {
+        "en": "Hard Ration Bread",
+        "id": "Roti Ransum Keras"
+      },
+      "desc": {
+        "en": "Two days old at best. In Rennfall, that makes it fresh.",
+        "id": "Paling baru dua hari lalu. Di Rennfall, itu terhitung masih segar."
+      },
+      "icon": "LootIcons_24"
+    },
+    {
+      "id": "torch",
+      "kind": "Consumable",
+      "rarity": "Common",
+      "stackSize": 10,
+      "value": 8,
+      "name": {
+        "en": "Pitch Torch",
+        "id": "Obor Ter"
+      },
+      "desc": {
+        "en": "Fire keeps the cold out, the dark back, and the dead honest.",
+        "id": "Api menahan dingin, mengusir gelap, dan membuat orang mati tahu diri."
+      },
+      "icon": "LootIcons_25"
+    },
+    {
+      "id": "mat_timber",
+      "kind": "Material",
+      "rarity": "Common",
+      "stackSize": 99,
+      "value": 4,
+      "name": {
+        "en": "Seasoned Timber",
+        "id": "Kayu Kering"
+      },
+      "desc": {
+        "en": "Cut from the black pines. Every wall in the village starts here.",
+        "id": "Ditebang dari pinus hitam. Setiap dinding desa bermula dari sini."
+      },
+      "icon": "LootIcons_30"
+    },
+    {
+      "id": "mat_stone",
+      "kind": "Material",
+      "rarity": "Common",
+      "stackSize": 99,
+      "value": 5,
+      "name": {
+        "en": "Quarried Stone",
+        "id": "Batu Galian"
+      },
+      "desc": {
+        "en": "Hearths, foundations, and grave markers. Mostly grave markers, lately.",
+        "id": "Untuk perapian, pondasi, dan nisan. Belakangan ini kebanyakan nisan."
+      },
+      "icon": "LootIcons_16"
+    },
+    {
+      "id": "mat_iron",
+      "kind": "Material",
+      "rarity": "Fine",
+      "stackSize": 99,
+      "value": 14,
+      "name": {
+        "en": "Rennfall Iron",
+        "id": "Besi Rennfall"
+      },
+      "desc": {
+        "en": "Dark, dense, and the reason Duke Harrow keeps sending 'bandits'.",
+        "id": "Gelap, padat, dan alasan Adipati Harrow terus mengirim 'bandit'."
+      },
+      "icon": "LootIcons_10"
+    },
+    {
+      "id": "mat_bone_dust",
+      "kind": "Material",
+      "rarity": "Fine",
+      "stackSize": 99,
+      "value": 18,
+      "name": {
+        "en": "Bone Dust",
+        "id": "Serbuk Tulang"
+      },
+      "desc": {
+        "en": "Ground from the restless dead. The Marshals calls owning it a crime. Iskra calls it Tuesday.",
+        "id": "Hasil gilingan mayat gelisah. Barisan Abu menyebut memilikinya pelanggar hukum. Bagi Iskra itu hal biasa."
+      },
+      "icon": "LootIcons_61"
+    },
+    {
+      "id": "mat_grave_wax",
+      "kind": "Material",
+      "rarity": "Rare",
+      "stackSize": 50,
+      "value": 40,
+      "name": {
+        "en": "Grave Wax",
+        "id": "Lilin Kubur"
+      },
+      "desc": {
+        "en": "Scraped from coffins that were never opened. Seals oaths and wounds alike.",
+        "id": "Dikerik dari peti yang tak pernah dibuka. Menyegel sumpah sekaligus luka."
+      },
+      "icon": "LootIcons_74"
+    },
+    {
+      "id": "quest_testament",
+      "kind": "Quest",
+      "rarity": "Oathbound",
+      "value": 0,
+      "setsFlag": "quest.has_testament",
+      "name": {
+        "en": "The Queen's Testament",
+        "id": "Surat Wasiat Ratu"
+      },
+      "desc": {
+        "en": "Grants the Vale of Rennfall to Kael Voss. The fourth clause is written in a different hand.",
+        "id": "Menyerahkan Lembah Rennfall kepada Kael Voss. Klausul keempatnya ditulis dengan tulisan tangan yang berbeda."
+      },
+      "icon": "LootIcons_28"
+    },
+    {
+      "id": "quest_crane_journal",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.crane_journal",
+      "name": {
+        "en": "Warden Crane's Journal",
+        "id": "Catatan Warden Crane"
+      },
+      "desc": {
+        "en": "Forty years of burials, listed by name. The last entry is not a name. It is an apology.",
+        "id": "Empat puluh tahun penguburan, tercatat per nama. Entri terakhirnya bukan nama, melainkan permintaan maaf."
+      },
+      "icon": "LootIcons_28"
+    },
+    {
+      "id": "quest_harrow_ledger",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.harrow_ledger",
+      "name": {
+        "en": "Greymarch Supply Ledger",
+        "id": "Buku Perbekalan Greymarch"
+      },
+      "desc": {
+        "en": "Boots, arrows and salt pork, issued to men who are officially bandits.",
+        "id": "Sepatu, anak panah, dan daging asin, dikeluarkan untuk orang-orang yang resminya bandit."
+      },
+      "icon": "LootIcons_28"
+    },
+    {
+      "id": "quest_keep_manifest",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.keep_manifest",
+      "name": {
+        "en": "The Keep's Manifest",
+        "id": "Manifest Benteng"
+      },
+      "desc": {
+        "en": "Every diverted wagon received at the iron keep, stamped with a harbormaster's seal and a paymaster's left-handed mark.",
+        "id": "Setiap pedati yang disimpangkan dan diterima di benteng besi, bersegel syahbandar dan bertanda tangan kiri bendahara."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_order_orders",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.maren_orders",
+      "name": {
+        "en": "Sealed Writ of the Ash Marshals",
+        "id": "Surat Perintah Tersegel Barisan Abu"
+      },
+      "desc": {
+        "en": "'Should the Hearth Right prove valid, the valley is to be cleared by fire. No exceptions are granted.'",
+        "id": "'Bila Hak Perapian terbukti sah, lembah harus diresmikan dengan api. Tidak ada pengecualian.'"
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "relic_hearth_coal",
+      "kind": "Relic",
+      "rarity": "Oathbound",
+      "value": 0,
+      "setsFlag": "relic.first_coal",
+      "name": {
+        "en": "First Coal",
+        "id": "Bara Pertama"
+      },
+      "desc": {
+        "en": "The ember that started the first oathfire in Rennfall. It has never gone out. It has only waited.",
+        "id": "Bara yang menyalakan api sumpah pertama di Rennfall. Ia tak pernah padam, hanya menunggu."
+      },
+      "icon": "LootIcons_11"
+    },
+    {
+      "id": "sword_hearth",
+      "kind": "Weapon",
+      "rarity": "Fine",
+      "value": 190,
+      "name": {
+        "en": "Hearthsteel Blade",
+        "id": "Bilah Baja Perapian"
+      },
+      "desc": {
+        "en": "Quenched in oathfire instead of water. The edge holds a little warmth, and the dead flinch from it.",
+        "id": "Dipadamkan dalam api sumpah, bukan air. Matanya menyimpan sedikit hangat, dan orang mati menghindarinya."
+      },
+      "slot": "MainHand",
+      "damage": 19,
+      "attackSpeed": 1.0,
+      "icon": "LootIcons_80"
+    },
+    {
+      "id": "sword_warden_oath",
+      "kind": "Weapon",
+      "rarity": "Rare",
+      "value": 520,
+      "name": {
+        "en": "Warden's Oath",
+        "id": "Sumpah Warden"
+      },
+      "desc": {
+        "en": "Crane's own sword, left in the cellar with the point driven into the floor. He never came back for it.",
+        "id": "Pedang milik Crane sendiri, ditinggalkan di ruang bawah dengan ujung tertancap di lantai. Ia tak pernah kembali mengambilnya."
+      },
+      "slot": "MainHand",
+      "damage": 27,
+      "attackSpeed": 1.05,
+      "health": 10,
+      "icon": "LootIcons_86"
+    },
+    {
+      "id": "axe_grave",
+      "kind": "Weapon",
+      "rarity": "Fine",
+      "value": 165,
+      "name": {
+        "en": "Gravecutter",
+        "id": "Pembelah Kubur"
+      },
+      "desc": {
+        "en": "Meant for roots, not bone. It stopped caring about the difference two winters ago.",
+        "id": "Dibuat untuk akar, bukan tulang. Dua musim dingin lalu ia berhenti peduli bedanya."
+      },
+      "slot": "MainHand",
+      "damage": 22,
+      "attackSpeed": 0.8,
+      "icon": "LootIcons_81"
+    },
+    {
+      "id": "axe_harrow",
+      "kind": "Weapon",
+      "rarity": "Rare",
+      "value": 460,
+      "name": {
+        "en": "Greymarch Warcleaver",
+        "id": "Pembelah Perang Greymarch"
+      },
+      "desc": {
+        "en": "Ducal issue. Heavy enough that the Duke's men swing it with both hands and their whole grudge.",
+        "id": "Perlengkapan kadipaten. Cukup berat sampai anak buah Adipati mengayunkannya dengan dua tangan dan seluruh dendamnya."
+      },
+      "slot": "MainHand",
+      "damage": 31,
+      "attackSpeed": 0.7,
+      "moveSpeed": -0.04,
+      "icon": "LootIcons_87"
+    },
+    {
+      "id": "spear_ash",
+      "kind": "Weapon",
+      "rarity": "Fine",
+      "value": 210,
+      "name": {
+        "en": "Ashwood Pike",
+        "id": "Tombak Kayu Abu"
+      },
+      "desc": {
+        "en": "Long enough to keep a burning thing at arm's length, which is all anyone asks of a pike.",
+        "id": "Cukup panjang untuk menahan sesuatu yang terbakar tetap sejauh lengan, dan hanya itu yang diminta dari sebuah tombak."
+      },
+      "slot": "MainHand",
+      "damage": 18,
+      "attackSpeed": 1.15,
+      "icon": "LootIcons_3"
+    },
+    {
+      "id": "bow_hunter",
+      "kind": "Weapon",
+      "rarity": "Fine",
+      "value": 230,
+      "name": {
+        "en": "Longbow of the Vale",
+        "id": "Busur Panjang Lembah"
+      },
+      "desc": {
+        "en": "Drawn properly it puts a shaft through a skull at eighty paces. Drawn badly it breaks your thumb.",
+        "id": "Ditarik benar, ia menembus tengkorak dari delapan puluh langkah. Ditarik salah, ibu jarimu patah."
+      },
+      "slot": "MainHand",
+      "damage": 16,
+      "attackSpeed": 1.3,
+      "icon": "LootIcons_44"
+    },
+    {
+      "id": "bow_black",
+      "kind": "Weapon",
+      "rarity": "Rare",
+      "value": 495,
+      "name": {
+        "en": "Blackfletch",
+        "id": "Bulu Hitam"
+      },
+      "desc": {
+        "en": "Tobias made it from a yew that grew out of a mass grave. He will tell you that story only once.",
+        "id": "Tobias membuatnya dari pohon yew yang tumbuh dari kuburan massal. Cerita itu hanya akan ia ceritakan sekali."
+      },
+      "slot": "MainHand",
+      "damage": 23,
+      "attackSpeed": 1.35,
+      "moveSpeed": 0.03,
+      "icon": "LootIcons_44"
+    },
+    {
+      "id": "staff_apothecary",
+      "kind": "Weapon",
+      "rarity": "Fine",
+      "value": 240,
+      "name": {
+        "en": "Apothecary's Staff",
+        "id": "Tongkat Tabib"
+      },
+      "desc": {
+        "en": "Hollow, stoppered, and full of things that should not share a shelf. Iskra insists it is perfectly safe.",
+        "id": "Berongga, bersumbat, dan penuh benda yang seharusnya tak disimpan berdekatan. Iskra bersikeras itu aman."
+      },
+      "slot": "MainHand",
+      "damage": 14,
+      "attackSpeed": 1.1,
+      "health": 15,
+      "icon": "LootIcons_3"
+    },
+    {
+      "id": "dagger_quiet",
+      "kind": "Weapon",
+      "rarity": "Fine",
+      "value": 140,
+      "name": {
+        "en": "Quiet Work",
+        "id": "Kerja Sunyi"
+      },
+      "desc": {
+        "en": "A merchant's knife, balanced for throwing and for deniability.",
+        "id": "Pisau pedagang, seimbang untuk dilempar sekaligus untuk disangkal."
+      },
+      "slot": "OffHand",
+      "damage": 9,
+      "attackSpeed": 1.5,
+      "icon": "LootIcons_94"
+    },
+    {
+      "id": "armor_refugee",
+      "kind": "Armor",
+      "rarity": "Common",
+      "value": 48,
+      "name": {
+        "en": "Patched Wool",
+        "id": "Wol Bertambal"
+      },
+      "desc": {
+        "en": "Someone's winter coat, cut down twice and handed on twice more.",
+        "id": "Mantel musim dingin milik seseorang, dipotong dua kali dan diwariskan dua kali lagi."
+      },
+      "slot": "Body",
+      "armor": 5,
+      "health": 14,
+      "icon": "LootIcons_91"
+    },
+    {
+      "id": "armor_warden_coat",
+      "kind": "Armor",
+      "rarity": "Fine",
+      "value": 240,
+      "name": {
+        "en": "Warden's Long Coat",
+        "id": "Mantel Panjang Warden"
+      },
+      "desc": {
+        "en": "Waxed against rain and grave-damp, with deep pockets for what wardens are not supposed to carry.",
+        "id": "Dilapisi lilin penahan hujan dan lembap kubur, dengan saku dalam untuk benda yang seharusnya tak dibawa warden."
+      },
+      "slot": "Body",
+      "armor": 11,
+      "health": 26,
+      "icon": "LootIcons_77"
+    },
+    {
+      "id": "armor_ash_harness",
+      "kind": "Armor",
+      "rarity": "Rare",
+      "value": 540,
+      "name": {
+        "en": "Ash Marshal Harness",
+        "id": "Harnes Marsekal Abu"
+      },
+      "desc": {
+        "en": "Issued to the crews who walk into burning villages. It smells of smoke and will not stop.",
+        "id": "Perlengkapan regu yang masuk ke desa terbakar. Baunya asap, dan tak pernah hilang."
+      },
+      "slot": "Body",
+      "armor": 17,
+      "health": 30,
+      "moveSpeed": -0.05,
+      "icon": "LootIcons_104"
+    },
+    {
+      "id": "armor_bone_lattice",
+      "kind": "Armor",
+      "rarity": "Oathbound",
+      "value": 900,
+      "name": {
+        "en": "Bone Lattice",
+        "id": "Jalinan Tulang"
+      },
+      "desc": {
+        "en": "Iskra's work: splints of femur bound in grave wax. The dead hesitate before striking their own.",
+        "id": "Buatan Iskra: bilah tulang paha yang diikat lilin kubur. Orang mati ragu memukul sesama mereka sendiri."
+      },
+      "slot": "Body",
+      "armor": 20,
+      "health": 40,
+      "moveSpeed": -0.02,
+      "icon": "LootIcons_83"
+    },
+    {
+      "id": "helm_warden",
+      "kind": "Armor",
+      "rarity": "Fine",
+      "value": 175,
+      "name": {
+        "en": "Warden's Wide Hat",
+        "id": "Topi Lebar Warden"
+      },
+      "desc": {
+        "en": "Keeps rain off the neck and lets everyone see your face. Brann says the second part matters more.",
+        "id": "Menahan hujan dari tengkuk dan membuat wajahmu terlihat. Kata Brann, bagian kedua lebih penting."
+      },
+      "slot": "Head",
+      "armor": 6,
+      "health": 8,
+      "icon": "LootIcons_92"
+    },
+    {
+      "id": "helm_marshal",
+      "kind": "Armor",
+      "rarity": "Rare",
+      "value": 380,
+      "name": {
+        "en": "Soot Hood",
+        "id": "Tudung Jelaga"
+      },
+      "desc": {
+        "en": "Filtered cloth and smoked glass. You can breathe in a burning street, and be told apart from the people in it.",
+        "id": "Kain penyaring dan kaca berasap. Kau bisa bernapas di jalan yang terbakar, dan bisa dibedakan dari orang-orang di dalamnya."
+      },
+      "slot": "Head",
+      "armor": 11,
+      "icon": "LootIcons_60"
+    },
+    {
+      "id": "shield_warden",
+      "kind": "Armor",
+      "rarity": "Fine",
+      "value": 210,
+      "name": {
+        "en": "Hearth Round",
+        "id": "Perisai Bundar Perapian"
+      },
+      "desc": {
+        "en": "The hearth mark is painted, not forged. It still makes refugees stand a little straighter.",
+        "id": "Lambang perapiannya dicat, bukan ditempa. Tetap saja membuat para pengungsi berdiri lebih tegak."
+      },
+      "slot": "OffHand",
+      "armor": 9,
+      "health": 10,
+      "moveSpeed": -0.02,
+      "icon": "LootIcons_88"
+    },
+    {
+      "id": "shield_tower",
+      "kind": "Armor",
+      "rarity": "Rare",
+      "value": 430,
+      "name": {
+        "en": "Vigil Tower Shield",
+        "id": "Perisai Menara Jaga"
+      },
+      "desc": {
+        "en": "Big enough to sleep behind, which is exactly what the night watch does with it.",
+        "id": "Cukup besar untuk tidur di baliknya, dan memang begitulah penjaga malam memakainya."
+      },
+      "slot": "OffHand",
+      "armor": 15,
+      "health": 18,
+      "moveSpeed": -0.07,
+      "icon": "LootIcons_82"
+    },
+    {
+      "id": "trinket_tally",
+      "kind": "Trinket",
+      "rarity": "Common",
+      "value": 70,
+      "name": {
+        "en": "Gravedigger's Tally",
+        "id": "Hitungan Penggali Kubur"
+      },
+      "desc": {
+        "en": "A notched stick. Sixty years of names, and Brann can still recite any notch you point at.",
+        "id": "Sebilah kayu bertakik. Enam puluh tahun nama, dan Brann masih bisa menyebut takik mana pun yang kau tunjuk."
+      },
+      "slot": "Trinket",
+      "health": 12,
+      "icon": "LootIcons_44"
+    },
+    {
+      "id": "trinket_salt_seal",
+      "kind": "Trinket",
+      "rarity": "Fine",
+      "value": 220,
+      "name": {
+        "en": "Salt League Seal",
+        "id": "Segel Serikat Garam"
+      },
+      "desc": {
+        "en": "Opens gates, closes mouths, and costs more than either.",
+        "id": "Membuka gerbang, menutup mulut, dan harganya lebih mahal dari keduanya."
+      },
+      "slot": "Trinket",
+      "damage": 2,
+      "moveSpeed": 0.05,
+      "icon": "LootIcons_19"
+    },
+    {
+      "id": "trinket_lion_pin",
+      "kind": "Trinket",
+      "rarity": "Fine",
+      "value": 260,
+      "name": {
+        "en": "Scaled Lion Pin",
+        "id": "Pin Singa Bersisik"
+      },
+      "desc": {
+        "en": "Wearing the Protector's crest in Rennfall is either loyalty or bait. Nobody has decided which.",
+        "id": "Memakai lambang Protektor di Rennfall bisa berarti kesetiaan atau umpan. Belum ada yang memutuskan."
+      },
+      "slot": "Trinket",
+      "armor": 5,
+      "health": 15,
+      "icon": "LootIcons_41"
+    },
+    {
+      "id": "trinket_ember_knot",
+      "kind": "Trinket",
+      "rarity": "Rare",
+      "value": 430,
+      "name": {
+        "en": "Ember Knot",
+        "id": "Simpul Bara"
+      },
+      "desc": {
+        "en": "A cord soaked in hearth ash, tied with a knot nobody living remembers how to undo.",
+        "id": "Tali yang direndam abu perapian, diikat dengan simpul yang tak seorang pun ingat cara membukanya."
+      },
+      "slot": "Trinket",
+      "damage": 6,
+      "health": 18,
+      "icon": "LootIcons_4"
+    },
+    {
+      "id": "trinket_crane_seal",
+      "kind": "Trinket",
+      "rarity": "Oathbound",
+      "value": 0,
+      "name": {
+        "en": "Crane's Warden Seal",
+        "id": "Segel Warden Crane"
+      },
+      "desc": {
+        "en": "The old warden's seal of office. The wax under it is forty years old and still soft.",
+        "id": "Segel jabatan warden lama. Lilin di bawahnya berusia empat puluh tahun dan masih lunak."
+      },
+      "slot": "Trinket",
+      "damage": 8,
+      "health": 25,
+      "setsFlag": "relic.crane_seal",
+      "icon": "LootIcons_19"
+    },
+    {
+      "id": "potion_stoneskin",
+      "kind": "Consumable",
+      "rarity": "Rare",
+      "value": 95,
+      "name": {
+        "en": "Stoneskin Draught",
+        "id": "Ramuan Kulit Batu"
+      },
+      "desc": {
+        "en": "Tastes of wet slate. For an hour, a blade feels like a shove.",
+        "id": "Rasanya seperti batu tulis basah. Selama sejam, tebasan hanya terasa seperti dorongan."
+      },
+      "stackSize": 6,
+      "healAmount": 25,
+      "icon": "LootIcons_19"
+    },
+    {
+      "id": "potion_nightsight",
+      "kind": "Consumable",
+      "rarity": "Fine",
+      "value": 48,
+      "name": {
+        "en": "Nightsight Tincture",
+        "id": "Tetes Mata Malam"
+      },
+      "desc": {
+        "en": "The dark goes grey and the cold goes sharp. Do not use it twice in one night.",
+        "id": "Gelap berubah kelabu dan dingin terasa menusuk. Jangan pakai dua kali dalam semalam."
+      },
+      "stackSize": 8,
+      "manaAmount": 35,
+      "icon": "LootIcons_19"
+    },
+    {
+      "id": "food_stew",
+      "kind": "Consumable",
+      "rarity": "Common",
+      "value": 14,
+      "name": {
+        "en": "Hearth Stew",
+        "id": "Sup Perapian"
+      },
+      "desc": {
+        "en": "Root vegetables, salt pork, and whatever the traps caught. Eaten standing, always.",
+        "id": "Umbi, daging asin, dan apa pun hasil jerat. Selalu dimakan sambil berdiri."
+      },
+      "stackSize": 10,
+      "healAmount": 45,
+      "icon": "LootIcons_33"
+    },
+    {
+      "id": "bandage",
+      "kind": "Consumable",
+      "rarity": "Common",
+      "value": 12,
+      "name": {
+        "en": "Boiled Linen",
+        "id": "Kain Linen Rebus"
+      },
+      "desc": {
+        "en": "Boiled, dried, rolled. The only medicine in the valley that never runs out.",
+        "id": "Direbus, dikeringkan, digulung. Satu-satunya obat di lembah yang tak pernah habis."
+      },
+      "stackSize": 15,
+      "healAmount": 28,
+      "icon": "LootIcons_60"
+    },
+    {
+      "id": "oil_flask",
+      "kind": "Consumable",
+      "rarity": "Fine",
+      "value": 40,
+      "name": {
+        "en": "Pitch Flask",
+        "id": "Botol Ter"
+      },
+      "desc": {
+        "en": "Throw it, light it, and do not stand downwind of your own idea.",
+        "id": "Lempar, sulut, dan jangan berdiri searah angin dari idemu sendiri."
+      },
+      "stackSize": 8,
+      "icon": "LootIcons_31"
+    },
+    {
+      "id": "whetstone",
+      "kind": "Consumable",
+      "rarity": "Common",
+      "value": 18,
+      "name": {
+        "en": "Whetstone",
+        "id": "Batu Asah"
+      },
+      "desc": {
+        "en": "Ten minutes of work for an hour of not dying. Fair trade.",
+        "id": "Sepuluh menit kerja untuk sejam tidak mati. Pertukaran yang adil."
+      },
+      "stackSize": 10,
+      "icon": "LootIcons_40"
+    },
+    {
+      "id": "mat_rope",
+      "kind": "Material",
+      "rarity": "Common",
+      "value": 9,
+      "name": {
+        "en": "Tarred Rope",
+        "id": "Tali Ter"
+      },
+      "desc": {
+        "en": "Holds roofs down, holds prisoners still, holds a bridge together for one more crossing.",
+        "id": "Menahan atap, mengikat tawanan, dan menyatukan jembatan untuk satu penyeberangan lagi."
+      },
+      "stackSize": 99,
+      "icon": "LootIcons_1"
+    },
+    {
+      "id": "mat_nails",
+      "kind": "Material",
+      "rarity": "Common",
+      "value": 11,
+      "name": {
+        "en": "Iron Nails",
+        "id": "Paku Besi"
+      },
+      "desc": {
+        "en": "Hand-forged, uneven, and worth more than the plank they hold.",
+        "id": "Ditempa tangan, tidak seragam, dan lebih berharga daripada papan yang dipakukan."
+      },
+      "stackSize": 99,
+      "icon": "LootIcons_8"
+    },
+    {
+      "id": "mat_pitch",
+      "kind": "Material",
+      "rarity": "Fine",
+      "value": 22,
+      "name": {
+        "en": "Pine Pitch",
+        "id": "Getah Pinus"
+      },
+      "desc": {
+        "en": "Waterproofs a roof, seals a wound badly, and burns like a promise.",
+        "id": "Menahan bocor di atap, menutup luka dengan buruk, dan terbakar seperti sebuah janji."
+      },
+      "stackSize": 60,
+      "icon": "LootIcons_34"
+    },
+    {
+      "id": "mat_hide",
+      "kind": "Material",
+      "rarity": "Common",
+      "value": 16,
+      "name": {
+        "en": "Cured Hide",
+        "id": "Kulit Samak"
+      },
+      "desc": {
+        "en": "Deer, mostly. The valley's deer have been nervous for forty years.",
+        "id": "Kebanyakan dari rusa. Rusa di lembah ini sudah gelisah selama empat puluh tahun."
+      },
+      "stackSize": 60,
+      "icon": "LootIcons_20"
+    },
+    {
+      "id": "mat_saltbrick",
+      "kind": "Material",
+      "rarity": "Fine",
+      "value": 30,
+      "name": {
+        "en": "Salt Brick",
+        "id": "Bata Garam"
+      },
+      "desc": {
+        "en": "League currency in all but name. Preserves meat, pays bribes, melts in rain.",
+        "id": "Mata uang Serikat dalam segala hal kecuali namanya. Mengawetkan daging, membayar suap, larut kena hujan."
+      },
+      "stackSize": 40,
+      "icon": "LootIcons_49"
+    },
+    {
+      "id": "tool_shovel",
+      "kind": "Trinket",
+      "rarity": "Common",
+      "value": 55,
+      "name": {
+        "en": "Iron Shovel",
+        "id": "Sekop Besi"
+      },
+      "desc": {
+        "en": "Brann's spare. Carrying it marks you as someone who intends to bury people properly.",
+        "id": "Cadangan milik Brann. Membawanya menandakan kau berniat mengubur orang dengan layak."
+      },
+      "slot": "Trinket",
+      "damage": 3,
+      "health": 6,
+      "icon": "LootIcons_100"
+    },
+    {
+      "id": "tool_lantern",
+      "kind": "Trinket",
+      "rarity": "Fine",
+      "value": 120,
+      "name": {
+        "en": "Warden's Lantern",
+        "id": "Lentera Warden"
+      },
+      "desc": {
+        "en": "Shuttered on three sides. You see the road; the road does not see you.",
+        "id": "Tertutup di tiga sisi. Kau melihat jalan, dan jalan tidak melihatmu."
+      },
+      "slot": "Trinket",
+      "moveSpeed": 0.04,
+      "health": 8,
+      "icon": "LootIcons_0"
+    },
+    {
+      "id": "quest_burn_ledger",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "name": {
+        "en": "Burning Crew Ledger",
+        "id": "Buku Catatan Regu Pembakar"
+      },
+      "desc": {
+        "en": "Every village cleared, with a column for souls accounted. The last column is always full and always wrong.",
+        "id": "Setiap desa yang dibersihkan, dengan kolom jiwa tercatat. Kolom terakhir selalu penuh dan selalu salah."
+      },
+      "setsFlag": "quest.burn_ledger",
+      "icon": "LootIcons_28"
+    },
+    {
+      "id": "quest_moot_writ",
+      "kind": "Quest",
+      "rarity": "Oathbound",
+      "value": 0,
+      "name": {
+        "en": "Writ of the Moot",
+        "id": "Surat Sidang Mahkota"
+      },
+      "desc": {
+        "en": "Signed, sealed, and worth a war. Holding it makes you the most invited and most hunted person in Valcaris.",
+        "id": "Ditandatangani, disegel, dan bernilai satu perang. Memegangnya membuatmu orang paling diundang sekaligus paling diburu di Valcaris."
+      },
+      "setsFlag": "quest.moot_writ",
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "relic_root_crown_shard",
+      "kind": "Relic",
+      "rarity": "Oathbound",
+      "value": 0,
+      "name": {
+        "en": "Shard of the Root Crown",
+        "id": "Serpihan Mahkota Akar"
+      },
+      "desc": {
+        "en": "A splinter of the crown that broke over the queen. It is still growing, very slowly, in the dark of your pack.",
+        "id": "Serpihan mahkota yang retak di kepala Ratu. Ia masih tumbuh, sangat perlahan, di dalam gelap tasmu."
+      },
+      "slot": "Trinket",
+      "damage": 10,
+      "health": 30,
+      "setsFlag": "relic.crown_shard",
+      "icon": "LootIcons_12"
+    },
+    {
+      "id": "quest_marshal_writ",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.marshal_writ",
+      "name": {
+        "en": "Writ of Compliance",
+        "id": "Surat Kepatuhan"
+      },
+      "desc": {
+        "en": "Stamped twice and signed once. It says Rennfall cooperates, which is a shield until it is a receipt.",
+        "id": "Dicap dua kali, ditandatangani sekali. Isinya: Rennfall bekerja sama — sebuah perisai, sampai ia jadi tanda terima."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "trinket_road_charm",
+      "kind": "Trinket",
+      "rarity": "Common",
+      "value": 55,
+      "slot": "Trinket",
+      "health": 8,
+      "armor": 1,
+      "name": {
+        "en": "Road Charm",
+        "id": "Jimat Jalan"
+      },
+      "desc": {
+        "en": "Two coins wired together, carried four days out of Greymarch by someone who arrived and someone who did not.",
+        "id": "Dua keping koin diikat kawat, dibawa empat hari dari Greymarch oleh satu orang yang sampai dan satu yang tidak."
+      },
+      "icon": "LootIcons_32"
+    },
+    {
+      "id": "food_salt_meat",
+      "kind": "Consumable",
+      "rarity": "Common",
+      "value": 18,
+      "stackSize": 10,
+      "healAmount": 60,
+      "name": {
+        "en": "Salt Meat",
+        "id": "Daging Asin"
+      },
+      "desc": {
+        "en": "League-cured and League-priced. Chews like rope, keeps a watchman upright until dawn.",
+        "id": "Diawetkan Serikat dan dihargai Serikat. Alot seperti tali, tapi menjaga penjaga tetap tegak sampai fajar."
+      },
+      "icon": "LootIcons_24"
+    },
+    {
+      "id": "mat_cloth",
+      "kind": "Material",
+      "rarity": "Common",
+      "value": 11,
+      "stackSize": 99,
+      "name": {
+        "en": "Oiled Cloth",
+        "id": "Kain Berminyak"
+      },
+      "desc": {
+        "en": "Sheds rain off a roof or off a wound. The settlement never has enough of either use.",
+        "id": "Menahan hujan di atap atau di luka. Pemukiman tak pernah punya cukup untuk keduanya."
+      },
+      "icon": "LootIcons_60"
+    },
+    {
+      "id": "ring_copper",
+      "kind": "Trinket",
+      "slot": "Ring",
+      "rarity": "Common",
+      "value": 60,
+      "icon": "gear_ring_copper",
+      "name": {
+        "en": "Copper Band",
+        "id": "Cincin Tembaga"
+      },
+      "desc": {
+        "en": "A farmer's ring, worn smooth. It has seen more harvests than fights.",
+        "id": "Cincin petani, aus dan licin. Lebih banyak melihat panen daripada perkelahian."
+      },
+      "damage": 1
+    },
+    {
+      "id": "ring_iron",
+      "kind": "Trinket",
+      "slot": "Ring",
+      "rarity": "Fine",
+      "value": 150,
+      "icon": "gear_ring_iron",
+      "name": {
+        "en": "Warden's Signet",
+        "id": "Cincin Segel Warden"
+      },
+      "desc": {
+        "en": "The square stone was cut to press a seal into wax. It presses just as well into a jaw.",
+        "id": "Batu perseginya dipotong untuk mencap lilin. Sama baiknya untuk mencap rahang."
+      },
+      "damage": 2,
+      "armor": 1
+    },
+    {
+      "id": "ring_gold",
+      "kind": "Trinket",
+      "slot": "Ring",
+      "rarity": "Rare",
+      "value": 420,
+      "icon": "gear_ring_gold",
+      "name": {
+        "en": "Emberheart Ring",
+        "id": "Cincin Jantung Bara"
+      },
+      "desc": {
+        "en": "The stone is warm to the touch, even in the snow.",
+        "id": "Batunya hangat saat disentuh, bahkan di tengah salju."
+      },
+      "damage": 4,
+      "health": 10
+    },
+    {
+      "id": "amulet_bone",
+      "kind": "Trinket",
+      "slot": "Neck",
+      "rarity": "Common",
+      "value": 45,
+      "icon": "gear_amulet_bone",
+      "name": {
+        "en": "Tooth on a Cord",
+        "id": "Taring di Tali"
+      },
+      "desc": {
+        "en": "Somebody's lucky tooth. Luckier for them that it is not still in their mouth.",
+        "id": "Taring keberuntungan seseorang. Untung baginya taring itu tak lagi di mulutnya."
+      },
+      "health": 8
+    },
+    {
+      "id": "amulet_silver",
+      "kind": "Trinket",
+      "slot": "Neck",
+      "rarity": "Fine",
+      "value": 170,
+      "icon": "gear_amulet_silver",
+      "name": {
+        "en": "Riverstone Pendant",
+        "id": "Liontin Batu Sungai"
+      },
+      "desc": {
+        "en": "Blue as meltwater. It steadies the breath in a long fight.",
+        "id": "Biru seperti air salju. Menenangkan napas dalam pertarungan panjang."
+      },
+      "health": 14,
+      "armor": 1
+    },
+    {
+      "id": "amulet_gold",
+      "kind": "Trinket",
+      "slot": "Neck",
+      "rarity": "Rare",
+      "value": 460,
+      "icon": "gear_amulet_gold",
+      "name": {
+        "en": "Sunfire Amulet",
+        "id": "Kalung Api Surya"
+      },
+      "desc": {
+        "en": "Made for a lord who never came back for it.",
+        "id": "Dibuat untuk seorang bangsawan yang tak pernah kembali mengambilnya."
+      },
+      "health": 20,
+      "damage": 2
+    },
+    {
+      "id": "gloves_leather",
+      "kind": "Armor",
+      "slot": "Hands",
+      "rarity": "Common",
+      "value": 40,
+      "icon": "gear_gloves_leather",
+      "name": {
+        "en": "Work Gloves",
+        "id": "Sarung Tangan Kerja"
+      },
+      "desc": {
+        "en": "Stiff with old sap. They grip an axe handle like they were made for it.",
+        "id": "Kaku oleh getah lama. Menggenggam gagang kapak seolah dibuat untuk itu."
+      },
+      "armor": 1,
+      "damage": 1
+    },
+    {
+      "id": "gloves_iron",
+      "kind": "Armor",
+      "slot": "Hands",
+      "rarity": "Fine",
+      "value": 140,
+      "icon": "gear_gloves_iron",
+      "name": {
+        "en": "Iron-backed Gauntlets",
+        "id": "Sarung Tangan Berpunggung Besi"
+      },
+      "desc": {
+        "en": "Plates over the knuckles, leather in the palm. The dead do not like being punched with them.",
+        "id": "Pelat di buku jari, kulit di telapak. Mayat berjalan tidak suka dipukul dengan ini."
+      },
+      "armor": 3,
+      "damage": 1
+    },
+    {
+      "id": "gloves_gold",
+      "kind": "Armor",
+      "slot": "Hands",
+      "rarity": "Rare",
+      "value": 380,
+      "icon": "gear_gloves_gold",
+      "name": {
+        "en": "Captain's Gauntlets",
+        "id": "Sarung Tangan Kapten"
+      },
+      "desc": {
+        "en": "Gold on the cuffs so the men could see which hand gave the order.",
+        "id": "Emas di pergelangan agar pasukan bisa melihat tangan mana yang memberi perintah."
+      },
+      "armor": 5,
+      "damage": 2
+    },
+    {
+      "id": "boots_leather",
+      "kind": "Armor",
+      "slot": "Feet",
+      "rarity": "Common",
+      "value": 40,
+      "icon": "gear_boots_leather",
+      "name": {
+        "en": "Road Boots",
+        "id": "Sepatu Jalan"
+      },
+      "desc": {
+        "en": "Resoled twice. Still let in the rain on the left.",
+        "id": "Sudah dua kali ganti sol. Yang kiri masih bocor kalau hujan."
+      },
+      "armor": 1,
+      "moveSpeed": 0.03
+    },
+    {
+      "id": "boots_iron",
+      "kind": "Armor",
+      "slot": "Feet",
+      "rarity": "Fine",
+      "value": 140,
+      "icon": "gear_boots_iron",
+      "name": {
+        "en": "Plated Boots",
+        "id": "Sepatu Berpelat"
+      },
+      "desc": {
+        "en": "Heavier than they look, lighter than they sound.",
+        "id": "Lebih berat dari kelihatannya, lebih ringan dari bunyinya."
+      },
+      "armor": 3
+    },
+    {
+      "id": "boots_gold",
+      "kind": "Armor",
+      "slot": "Feet",
+      "rarity": "Rare",
+      "value": 380,
+      "icon": "gear_boots_gold",
+      "name": {
+        "en": "Knight's Sabatons",
+        "id": "Sepatu Zirah Ksatria"
+      },
+      "desc": {
+        "en": "Every step rings like a small bell. Stealth is for other people.",
+        "id": "Tiap langkah berdenting seperti lonceng kecil. Mengendap-endap urusan orang lain."
+      },
+      "armor": 5,
+      "health": 10
+    },
+    {
+      "id": "legs_leather",
+      "kind": "Armor",
+      "slot": "Legs",
+      "rarity": "Common",
+      "value": 45,
+      "icon": "LootIcons_93",
+      "name": {
+        "en": "Leather Breeches",
+        "id": "Celana Kulit"
+      },
+      "desc": {
+        "en": "Patched at the knee. Every warden kneels more than they admit.",
+        "id": "Ditambal di lutut. Setiap warden lebih sering berlutut daripada yang mereka akui."
+      },
+      "armor": 2
+    },
+    {
+      "id": "legs_iron",
+      "kind": "Armor",
+      "slot": "Legs",
+      "rarity": "Fine",
+      "value": 160,
+      "icon": "LootIcons_79",
+      "name": {
+        "en": "Mail Leggings",
+        "id": "Celana Rantai"
+      },
+      "desc": {
+        "en": "Cold in the morning, warm by noon, heavy by evening.",
+        "id": "Dingin di pagi hari, hangat di siang hari, berat di sore hari."
+      },
+      "armor": 4,
+      "health": 5
+    },
+    {
+      "id": "legs_gold",
+      "kind": "Armor",
+      "slot": "Legs",
+      "rarity": "Rare",
+      "value": 420,
+      "icon": "LootIcons_85",
+      "name": {
+        "en": "Gilded Greaves",
+        "id": "Pelindung Kaki Bersepuh"
+      },
+      "desc": {
+        "en": "Parade armour that turned out to be real armour.",
+        "id": "Zirah upacara yang ternyata zirah sungguhan."
+      },
+      "armor": 7,
+      "health": 10
+    },
+    {
+      "id": "quest_wick_lamp",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "icon": "LootIcons_66",
+      "name": {
+        "en": "Wick's Lamp",
+        "id": "Lampu Wick"
+      },
+      "desc": {
+        "en": "Dented, the glass cracked, the wick still in it. He will want it back anyway.",
+        "id": "Penyok, kacanya retak, sumbunya masih di dalam. Ia tetap akan menginginkannya kembali."
+      }
+    },
+    {
+      "id": "quest_oona_letter",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "icon": "LootIcons_66",
+      "name": {
+        "en": "Oona's Letter",
+        "id": "Surat Oona"
+      },
+      "desc": {
+        "en": "Sealed with candle wax and addressed, in careful capitals, to Brann Hollowell.",
+        "id": "Disegel dengan lilin dan dialamatkan, dengan huruf kapital yang hati-hati, kepada Brann Hollowell."
+      }
+    },
+    {
+      "id": "quest_roane_tally",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.roane_tally",
+      "name": {
+        "en": "Roane's Tally-Book",
+        "id": "Buku Hitungan Roane"
+      },
+      "desc": {
+        "en": "A clerk's tally-book, its spine cracked from being thrown. The pages still add up to every bar of iron the keep ever held.",
+        "id": "Buku hitungan juru tulis, punggungnya retak karena dilempar. Halaman-halamannya masih menjumlahkan setiap batang besi yang pernah disimpan benteng."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_pay_roll",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.pay_roll",
+      "name": {
+        "en": "The Deserters' Pay-Roll",
+        "id": "Daftar Gaji Pembelot"
+      },
+      "desc": {
+        "en": "A roll of pay-chits marked in a hand that is not Ash Line issue, each stamped with the same left-handed sign.",
+        "id": "Segulung bon gaji bertuliskan tangan yang bukan terbitan Barisan Abu, masing-masing berstempel tanda tangan kiri yang sama."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_salt_tally",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.salt_tally",
+      "name": {
+        "en": "Dropped Tally-Stick",
+        "id": "Tongkat Hitung yang Terjatuh"
+      },
+      "desc": {
+        "en": "A split stick notched by two knives — the porter's count and the pan-keeper's. Where it lies is where a load of crust stopped being counted.",
+        "id": "Tongkat belah berparut dua pisau — hitungan porter dan hitungan penjaga petak. Di mana ia tergeletak, di situlah satu muatan kerak berhenti dihitung."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_store_key",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.store_key",
+      "name": {
+        "en": "The Store Key",
+        "id": "Kunci Gudang"
+      },
+      "desc": {
+        "en": "Iron, long-shafted, the only key that opens the covered salt-store. Wit-warden Ostler was meant to carry it to the capital and never arrived.",
+        "id": "Besi bergagang panjang, satu-satunya kunci pembuka gudang garam bertutup. Penjaga kunci Ostler seharusnya membawanya ke ibu kota dan tak pernah sampai."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_salt_spill",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.salt_spill",
+      "name": {
+        "en": "Spilled Salt, Gathered",
+        "id": "Tumpahan Garam yang Dipungut"
+      },
+      "desc": {
+        "en": "Salt the scale never counted, gathered handful by handful off the crust. The League's rule says it belongs to no one; the gleaners' rule says it belongs to the hungry.",
+        "id": "Garam yang tak pernah dihitung timbangan, dipungut segenggam demi segenggam dari kerak. Aturan Liga bilang ini bukan milik siapa-siapa; aturan para pemungut bilang ini milik yang lapar."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_cord_tally",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.cord_tally",
+      "name": {
+        "en": "Dropped Cord-Tally",
+        "id": "Tongkat Hitung Kayu yang Terjatuh"
+      },
+      "desc": {
+        "en": "A split stick notched by the foreman's knife — one cord of burnwood, owed and counted. Until it is back on the tally post the stackyard reads short.",
+        "id": "Tongkat belah berparut pisau mandor — satu tumpuk kayu bakar, terutang dan terhitung. Selama belum kembali ke tiang hitung, halaman kayu terbaca kurang."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_keeper_rod",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.keeper_rod",
+      "name": {
+        "en": "The Keeper's Measuring Rod",
+        "id": "Tongkat Ukur Penjaga Tungku"
+      },
+      "desc": {
+        "en": "A scorched ash-rod, ringed where a clamp should stand and notched where the earth should lie over it. Without it a kiln-keeper burns by guess.",
+        "id": "Tongkat kayu hangus, dilingkari setinggi klamp seharusnya dan diparut sedalam tanah harus menutupinya. Tanpanya penjaga tungku membakar dengan tebakan."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_char_coal",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.char_coal",
+      "name": {
+        "en": "Heaped Clean Coal",
+        "id": "Timbunan Arang Bersih"
+      },
+      "desc": {
+        "en": "Coal that rang like a pot when it broke — the good kind, worth the picking before rain turns it back to mud.",
+        "id": "Arang yang berbunyi seperti periuk saat pecah — jenis yang bagus, layak dipungut sebelum hujan mengubahnya kembali jadi lumpur."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_mill_tally",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.mill_tally",
+      "name": {
+        "en": "The Mill's Tally-Stick",
+        "id": "Tongkat Hitung Penggilingan"
+      },
+      "desc": {
+        "en": "A split hazel stick notched twice — Bryd's knife and the carter's. Every notch is a stook of grain the League's book still believes in.",
+        "id": "Tongkat hazel belah berparut dua pisau — pisau Bryd dan pisau kusir. Setiap parut adalah seberkas gandum yang masih dipercaya buku Liga."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_mill_sack",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.mill_sack",
+      "name": {
+        "en": "Spilled Meal Sack",
+        "id": "Karung Tepung Tumpah"
+      },
+      "desc": {
+        "en": "A slashed sack of Windrest flour, split open where the cart rope was cut. Heavy with grass seeds now, but it was the League's count when it fell.",
+        "id": "Karung tepung Windrest yang disobek, pecah di tempat tali kereta dipotong. Kini berat oleh biji rumput, tapi saat jatuh ia masih hitungan Liga."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_pit_tally",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.pit_tally",
+      "name": {
+        "en": "Dropped Tally-Stick",
+        "id": "Tongkat Hitung yang Terjatuh"
+      },
+      "desc": {
+        "en": "A chalk-stained stick split for the count — cut face, cart, and kiln each holding a third of the truth. Where it lies is where a load of lime stopped being anybody's.",
+        "id": "Tongkat berparut ternoda kapur — muka potong, pedati, dan tungku masing-masing memegang sepertiga kebenaran. Di mana ia tergeletak, di situlah satu muatan kapur berhenti jadi milik siapa pun."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_pit_seal",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.pit_seal",
+      "name": {
+        "en": "The Pit's Seal-Stamp",
+        "id": "Stempel Segel Lubang"
+      },
+      "desc": {
+        "en": "Brass-headed, chalk-flecked — the stamp that made a cut block League property and a cart-load legal. The last clerk left it on the hoist and never came back for it.",
+        "id": "Berkepala kuningan, berbintik kapur — stempel yang membuat blok potong jadi milik Liga dan muatan pedati jadi sah. Juru hitung terakhir meninggalkannya di kerek dan tak pernah kembali."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_pit_lime",
+      "kind": "Quest",
+      "rarity": "Common",
+      "value": 0,
+      "setsFlag": "quest.pit_lime",
+      "name": {
+        "en": "Split Lime Bag",
+        "id": "Karung Kapur yang Terbelah"
+      },
+      "desc": {
+        "en": "A burst sack of burn-lime, gathered off the pit floor before the dew takes it. Worth little to a thief and everything to a kiln that has gone cold.",
+        "id": "Karung kapur bakar yang pecah, dipungut dari lantai lubang sebelum embun mengambilnya. Tak berarti bagi maling, tapi segalanya bagi tungku yang sudah padam."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_stamp_slip",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.stamp_slip",
+      "name": {
+        "en": "True Writ-Slip",
+        "id": "Slip Surat Sejati"
+      },
+      "desc": {
+        "en": "A slip in Novak's own cramped hand — the count the coiners paid to keep unwritten, folded small enough to vanish into a seam.",
+        "id": "Selembar tulisan tangan Novak yang rapat — hitungan yang dibayar para pencetak agar tak pernah ditulis, dilipat cukup kecil untuk hilang dalam lipatan."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_stamp_die",
+      "kind": "Quest",
+      "rarity": "Rare",
+      "value": 0,
+      "setsFlag": "quest.stamp_die",
+      "name": {
+        "en": "The Master Die",
+        "id": "Die Induk"
+      },
+      "desc": {
+        "en": "A steel stamp-block still dark with ink — the face that strikes every false seal the valley has swallowed. Under the rim, a die-sinker's habit mark no court would mistake.",
+        "id": "Blok stempel baja yang masih gelap oleh tinta — muka yang memukul tiap segel palsu yang telah ditelan lembah. Di bawah tepiannya, tanda kebiasaan pemahat die yang tak akan disalahkan pengadilan mana pun."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_stamp_plate",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.stamp_plate",
+      "name": {
+        "en": "Cracked Die-Plate",
+        "id": "Pelat Die Retak"
+      },
+      "desc": {
+        "en": "A test strike that split under the hammer and was thrown to the spoil — but the crack holds the same hand that cut the master die. Evidence that leaks like light.",
+        "id": "Pukulan uji yang pecah di bawah palu dan dibuang ke timbunan — tapi retaknya memegang tangan yang sama yang memahat die induk. Bukti yang bocor seperti cahaya."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "quest_stamp_blank",
+      "kind": "Quest",
+      "rarity": "Fine",
+      "value": 0,
+      "setsFlag": "quest.stamp_blank",
+      "name": {
+        "en": "Silver Blank",
+        "id": "Lempengan Perak"
+      },
+      "desc": {
+        "en": "A bright disc of unstruck silver, dropped where a barrow tipped. Worth a month's wage before it ever becomes a lie.",
+        "id": "Cakram perak belum terpukul yang cerah, jatuh saat gerobak terguling. Bernilai upah sebulan bahkan sebelum menjadi dusta."
+      },
+      "icon": "LootIcons_66"
+    },
+    {
+      "id": "mace_tollkeeper",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Fine",
+      "value": 210,
+      "icon": "LootIcons_81",
+      "name": {
+        "en": "Tollkeeper's Mace",
+        "id": "Gada Penjaga Tol"
+      },
+      "desc": {
+        "en": "Iron-headed and ledger-long — the mace the toll house issued before the tolls stopped being honest. It settles arguments the way ledgers never could.",
+        "id": "Berkepala besi, sepanjang buku besar — gada yang diterbitkan rumah tol sebelum tol berhenti jujur. Ia menyelesaikan pertengkaran yang tak pernah bisa dilakukan buku besar."
+      },
+      "damage": 20,
+      "attackSpeed": 0.9
+    },
+    {
+      "id": "sword_marshlight",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Rare",
+      "value": 480,
+      "icon": "LootIcons_86",
+      "name": {
+        "en": "Marshlight Blade",
+        "id": "Pedang Cahaya Rawa"
+      },
+      "desc": {
+        "en": "A pale blade that caught the fen's lamp-glow and kept it. Struck at a keep's vault, still cold.",
+        "id": "Pedang pucat yang menangkap cahaya lampu rawa dan menyimpannya. Terpukul di ruang bawah tanah sebuah benteng, masih dingin."
+      },
+      "damage": 26,
+      "health": 8,
+      "attackSpeed": 1.0
+    },
+    {
+      "id": "spear_glaive_ash",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Rare",
+      "value": 500,
+      "icon": "LootIcons_3",
+      "name": {
+        "en": "Ash Glaive",
+        "id": "Tombak Abu"
+      },
+      "desc": {
+        "en": "A polearm the Marshals broke from an officer's halberd and re-hafted in ash wood. Reach is a kind of mercy.",
+        "id": "Tombak panjang yang dipatahkan Barisan dari halberd seorang perwira dan dipasang ulang pada kayu abu. Jangkauan adalah sejenis belas kasih."
+      },
+      "damage": 25,
+      "attackSpeed": 1.1
+    },
+    {
+      "id": "bow_yew",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Fine",
+      "value": 240,
+      "icon": "LootIcons_44",
+      "name": {
+        "en": "Yew Flatbow",
+        "id": "Busur Kayu Yew"
+      },
+      "desc": {
+        "en": "Plain self-bow of yew heartwood — drawn flat, shot flat, aimed for the hollow of a throat.",
+        "id": "Busur sederhana dari kayu inti yew — ditarik datar, melesak datar, diarahkan ke lekuk tenggorokan."
+      },
+      "damage": 17,
+      "attackSpeed": 1.25
+    },
+    {
+      "id": "staff_cinder",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Fine",
+      "value": 260,
+      "icon": "LootIcons_3",
+      "name": {
+        "en": "Cinder Staff",
+        "id": "Tongkat Bara"
+      },
+      "desc": {
+        "en": "A charcoal-burner's quarterstaff, its ends hardened in the very clamps it guarded. Still smells of the pit.",
+        "id": "Tongkat panjang pembakar arang, kedua ujungnya dikeraskan di klamp yang dijaganya. Masih berbau lubang bakar."
+      },
+      "damage": 15,
+      "health": 12,
+      "attackSpeed": 1.15
+    },
+    {
+      "id": "dagger_flicker",
+      "kind": "Weapon",
+      "slot": "OffHand",
+      "rarity": "Rare",
+      "value": 360,
+      "icon": "LootIcons_94",
+      "name": {
+        "en": "The Flicker",
+        "id": "Sang Kerlipan"
+      },
+      "desc": {
+        "en": "A stamped-offhand blade from the die yard — struck, not forged, and sharper for it. The coiners' idea of small change.",
+        "id": "Pedang tangan-kiri hasil pukulan dari halaman die — dicap, bukan ditempa, dan justru lebih tajam karenanya. Recehan menurut para pencetak."
+      },
+      "damage": 13,
+      "attackSpeed": 1.6
+    },
+    {
+      "id": "sword_crowned",
+      "kind": "Weapon",
+      "slot": "MainHand",
+      "rarity": "Oathbound",
+      "value": 900,
+      "icon": "LootIcons_86",
+      "name": {
+        "en": "Crownwarden",
+        "id": "Penjaga Mahkota"
+      },
+      "desc": {
+        "en": "A sword meant for a queen's last captain, sealed in a dead keep's vault when the road south stopped mattering. The edge never got its war.",
+        "id": "Pedang yang ditujukan untuk kapten terakhir seorang ratu, disegel di ruang bawah tanah benteng mati saat jalan ke selatan berhenti berarti. Mata pedangnya tak pernah mendapatkan perangnya."
+      },
+      "damage": 34,
+      "health": 15,
+      "attackSpeed": 1.0
+    },
+    {
+      "id": "armor_league_mail",
+      "kind": "Armor",
+      "slot": "Body",
+      "rarity": "Fine",
+      "value": 300,
+      "icon": "LootIcons_77",
+      "name": {
+        "en": "League Half-Mail",
+        "id": "Zirah Setengah Liga"
+      },
+      "desc": {
+        "en": "A weigh-yard officer's mail — the scales stamped on each link so no one forgets what it protects.",
+        "id": "Zirah perwira rumah timbang — timbangan dicap pada tiap mata rantai agar tak ada yang lupa apa yang dilindunginya."
+      },
+      "armor": 11,
+      "health": 24
+    },
+    {
+      "id": "armor_forgemaster",
+      "kind": "Armor",
+      "slot": "Body",
+      "rarity": "Rare",
+      "value": 560,
+      "icon": "LootIcons_104",
+      "name": {
+        "en": "Forgemaster's Apron",
+        "id": "Celemek Ahli Tempa"
+      },
+      "desc": {
+        "en": "Half armour, half apron — leather a thumb thick, scorched at the hem. You are slower. Nothing else that hits you notices.",
+        "id": "Setengah zirah, setengah celemek — kulit setebal ibu jari, hangus di ujungnya. Kau jadi lebih lambat. Tak ada hal lain yang memukulmu yang sadar akan itu."
+      },
+      "armor": 15,
+      "health": 45,
+      "moveSpeed": -0.05
+    },
+    {
+      "id": "helm_kettle",
+      "kind": "Armor",
+      "slot": "Head",
+      "rarity": "Common",
+      "value": 30,
+      "icon": "LootIcons_92",
+      "name": {
+        "en": "Kettle Helm",
+        "id": "Helm Ketel"
+      },
+      "desc": {
+        "en": "A brimmed iron hat honest as a soup pot. Keeps the rain off; keeps a little of the sword off too.",
+        "id": "Topi besi bertepi sejujur panci sup. Menahan hujan; menahan sedikit pedang juga."
+      },
+      "armor": 3
+    },
+    {
+      "id": "helm_barbute",
+      "kind": "Armor",
+      "slot": "Head",
+      "rarity": "Rare",
+      "value": 400,
+      "icon": "LootIcons_98",
+      "name": {
+        "en": "Barbute of the Stand",
+        "id": "Barbute Sang Pembela"
+      },
+      "desc": {
+        "en": "A T-faced helm found in a pan-house where no soldier should have stood so long. Its last wearer held. The helm remembers.",
+        "id": "Helm bermuka-T yang ditemukan di rumah petak tempat tak seharusnya seorang prajurit berdiri selama itu. Pemakai terakhirnya bertahan. Helmnya ingat."
+      },
+      "armor": 12,
+      "health": 10
+    },
+    {
+      "id": "shield_kite",
+      "kind": "Armor",
+      "slot": "OffHand",
+      "rarity": "Fine",
+      "value": 240,
+      "icon": "LootIcons_88",
+      "name": {
+        "en": "Kite Shield",
+        "id": "Perisai Layangan"
+      },
+      "desc": {
+        "en": "Long board, blunted nose — a shield for someone who intends to walk home through the mob, not stand to it.",
+        "id": "Papan panjang berujung tumpul — perisai untuk orang yang bermaksud berjalan pulang menembus kerumunan, bukan menahannya."
+      },
+      "armor": 10,
+      "health": 8
+    },
+    {
+      "id": "shield_oathwall",
+      "kind": "Armor",
+      "slot": "OffHand",
+      "rarity": "Oathbound",
+      "value": 950,
+      "icon": "LootIcons_90",
+      "name": {
+        "en": "The Oathwall",
+        "id": "Tembok Sumpah"
+      },
+      "desc": {
+        "en": "A tower shield banded in hearth-iron — built for the last door of a keep that was never attacked. It waits to keep an oath it was never asked for.",
+        "id": "Perisai menara berpita besi perapian — dibangun untuk pintu terakhir sebuah benteng yang tak pernah diserang. Ia menunggu untuk menepati sumpah yang tak pernah dimintakan padanya."
+      },
+      "armor": 18,
+      "health": 25
+    },
+    {
+      "id": "ring_serpent",
+      "kind": "Trinket",
+      "slot": "Ring",
+      "rarity": "Rare",
+      "value": 440,
+      "icon": "gear_ring_gold",
+      "name": {
+        "en": "Serpent Coil",
+        "id": "Lilitan Ular"
+      },
+      "desc": {
+        "en": "A ring of river-serpent wire, cold as moving water. The strike comes faster once it knows your hand.",
+        "id": "Cincin dari kawat ular sungai, sedingin air yang bergerak. Pukulan datang lebih cepat begitu ia mengenal tanganmu."
+      },
+      "damage": 4,
+      "health": 5,
+      "attackSpeed": 0.05
+    },
+    {
+      "id": "trinket_marshal_star",
+      "kind": "Trinket",
+      "slot": "Trinket",
+      "rarity": "Rare",
+      "value": 480,
+      "icon": "LootIcons_41",
+      "name": {
+        "en": "Marshal's Star",
+        "id": "Bintang Marshal"
+      },
+      "desc": {
+        "en": "A tarnished star of rank dropped by a courier who never delivered it. Brass, mostly. The authority is borrowed but sharp.",
+        "id": "Bintang pangkat kusam yang jatuh dari kurir yang tak pernah mengantarkannya. Kuningan, sebagian besarnya. Kewenangannya pinjaman tapi tajam."
+      },
+      "damage": 2,
+      "armor": 2,
+      "health": 10
+    },
+    {
+      "id": "trinket_dice_loaded",
+      "kind": "Trinket",
+      "slot": "Trinket",
+      "rarity": "Common",
+      "value": 65,
+      "icon": "LootIcons_32",
+      "name": {
+        "en": "Loaded Dice",
+        "id": "Dadu Bermuatan"
+      },
+      "desc": {
+        "en": "Two bone dice that land on your side of the argument, in a coin purse you did not earn. Someone in Greymarch misses these.",
+        "id": "Dua dadu tulang yang selalu mendarat di sisimu dalam pertengkaran, dalam kantong koin yang tak kau peroleh. Seseorang di Greymarch merindukan benda ini."
+      },
+      "damage": 1
+    },
+    {
+      "id": "amulet_kings_shilling",
+      "kind": "Trinket",
+      "slot": "Neck",
+      "rarity": "Fine",
+      "value": 190,
+      "icon": "gear_amulet_silver",
+      "name": {
+        "en": "The King's Shilling",
+        "id": "Shilling Sang Raja"
+      },
+      "desc": {
+        "en": "The enlistment coin of a dead kingdom, drilled and hung on cord. Wear it and a dead payroll remembers you kindly.",
+        "id": "Koin wajib militer sebuah kerajaan mati, dilubangi dan digantung pada tali. Pakailah dan daftar gaji mati akan mengingatmu dengan baik."
+      },
+      "damage": 1,
+      "health": 12
+    }
+  ]
 }

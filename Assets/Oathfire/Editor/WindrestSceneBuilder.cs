@@ -159,6 +159,14 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("Spilled meal sack", map.At(spots[i]) + new Vector3(0.3f, -0.15f, 0f),
                     $"mill_sack_{i - 2}", sackTiles[i - 3], "quest_mill_sack",
                     $"mill.sack_{i - 2}", "quest.sq_wind_sacks.taken");
+            // The miller's winter ring, and a raider's bow stashed by the field.
+            if (at.villagers != null && at.villagers.Length > 2)
+                MapScene.BuildSearchSpot("The miller's ring", map.At(at.villagers[2]) + new Vector3(0.75f, -0.35f, 0f),
+                    "cache_mill_ring", "Chest A1_E", "ring_serpent", "cache.mill.ring", "");
+            if (at.arrivals != null && at.arrivals.Length > 2)
+                MapScene.BuildSearchSpot("The raider's stash", map.At(at.arrivals[2]) + new Vector3(0.7f, 0.3f, 0f),
+                    "cache_mill_bow", "Chest A1_E", "bow_black", "cache.mill.bow", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
     }
 }

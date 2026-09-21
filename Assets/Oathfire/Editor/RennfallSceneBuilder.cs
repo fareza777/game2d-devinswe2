@@ -112,10 +112,17 @@ namespace Oathfire.EditorTools
             // marks the toll lane on the map. (Prepended last so it fires before the chalk writ.)
             MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "saltpans_writ", "act2.manifest_delivered",
                 "act2.saltpans_rumoured");
+            // The master die out of the coiners' yard is hers to read — and to answer for.
+            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "stamp_die", "act2.die_taken",
+                "act2.die_delivered", "quest_stamp_die");
             // Once the village has survived a night, Winna's flour barrel runs low: the mill's
             // cart hasn't come down the north lane, and her asking puts the knoll on the map.
             MapScene.PrependConversation(GameObject.Find("Old Winna"), "windrest_writ", "act1.night1_survived",
                 "act1.windrest_rumoured");
+            // A spare shield left in the lane by the wardens who never came back for it.
+            if (at.arrivals != null && at.arrivals.Length > 0)
+                MapScene.BuildSearchSpot("The wardens' spare", map.At(at.arrivals[0]) + new Vector3(0.8f, -0.4f, 0f),
+                    "cache_rennfall", "Chest A1_E", "shield_warden", "cache.rennfall", "");
         }
 
         static void SetUpVillagers(MapScene.MapFile map, MapScene.MapAnchors at)

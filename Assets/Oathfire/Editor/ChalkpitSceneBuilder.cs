@@ -171,6 +171,14 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("Split lime bag", map.At(spots[i]) + new Vector3(0.3f, -0.15f, 0f),
                     $"pit_lime_{i - 3}", bagTiles[i - 4], "quest_pit_lime",
                     $"pit.lime_{i - 3}", "quest.sq_pit_lime.taken");
+            // A dead kingdom's shilling and the shield that never made the trip north.
+            if (at.villagers != null && at.villagers.Length > 3)
+                MapScene.BuildSearchSpot("The payroll cache", map.At(at.villagers[3]) + new Vector3(0.75f, 0.3f, 0f),
+                    "cache_pit_shilling", "Chest A1_E", "amulet_kings_shilling", "cache.pit.shilling", "");
+            if (spots.Length > 7)
+                MapScene.BuildSearchSpot("The drover's shield", map.At(spots[7]) + new Vector3(0.7f, -0.45f, 0f),
+                    "cache_pit_shield", "Chest A1_E", "shield_lion", "cache.pit.shield", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
     }
 }

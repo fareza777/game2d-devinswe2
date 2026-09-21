@@ -334,6 +334,7 @@ UI_STRINGS = {
     "event.stamp.die": ("The die's keepers object.", "Para penjaga die berkeberatan."),
     "event.stamp.plate": ("Someone kept watch over the scrap.", "Ada yang berjaga atas rongsokan itu."),
     "toast.stampClear": ("The stamping floor stands clear", "Lantai percetakan sudah bersih"),
+    "event.cacheGuard": ("It was not left unwatched.", "Ternyata ada yang menjaganya."),
     "hud.level": ("LV {0}", "LV {0}"),
     "hud.xpGain": ("+{0} XP", "+{0} XP"),
     "hud.levelUp": ("LEVEL {0}", "LEVEL {0}"),

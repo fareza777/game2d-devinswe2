@@ -1885,6 +1885,10 @@
       "value": "Seorang juru tulis berabu Barisan menurunkan kotak lak berisi catatan di tepi desa."
     },
     {
+      "key": "event.cacheGuard",
+      "value": "Ternyata ada yang menjaganya."
+    },
+    {
       "key": "event.char.pits",
       "value": "Pemencol kayu membuka klamp-klamp."
     },
@@ -2265,6 +2269,14 @@
       "value": "Kalung Api Surya"
     },
     {
+      "key": "item.amulet_kings_shilling.desc",
+      "value": "Koin wajib militer sebuah kerajaan mati, dilubangi dan digantung pada tali. Pakailah dan daftar gaji mati akan mengingatmu dengan baik."
+    },
+    {
+      "key": "item.amulet_kings_shilling.name",
+      "value": "Shilling Sang Raja"
+    },
+    {
       "key": "item.amulet_silver.desc",
       "value": "Biru seperti air salju. Menenangkan napas dalam pertarungan panjang."
     },
@@ -2289,12 +2301,28 @@
       "value": "Jalinan Tulang"
     },
     {
+      "key": "item.armor_forgemaster.desc",
+      "value": "Setengah zirah, setengah celemek — kulit setebal ibu jari, hangus di ujungnya. Kau jadi lebih lambat. Tak ada hal lain yang memukulmu yang sadar akan itu."
+    },
+    {
+      "key": "item.armor_forgemaster.name",
+      "value": "Celemek Ahli Tempa"
+    },
+    {
       "key": "item.armor_guard_mail.desc",
       "value": "Lambang singa di dadanya digores hilang. Kael sendiri yang melakukannya, di jalan."
     },
     {
       "key": "item.armor_guard_mail.name",
       "value": "Rantai Pengawal Mahkota"
+    },
+    {
+      "key": "item.armor_league_mail.desc",
+      "value": "Zirah perwira rumah timbang — timbangan dicap pada tiap mata rantai agar tak ada yang lupa apa yang dilindunginya."
+    },
+    {
+      "key": "item.armor_league_mail.name",
+      "value": "Zirah Setengah Liga"
     },
     {
       "key": "item.armor_padded.desc",
@@ -2409,6 +2437,22 @@
       "value": "Busur Pemburu Gelap"
     },
     {
+      "key": "item.bow_yew.desc",
+      "value": "Busur sederhana dari kayu inti yew — ditarik datar, melesak datar, diarahkan ke lekuk tenggorokan."
+    },
+    {
+      "key": "item.bow_yew.name",
+      "value": "Busur Kayu Yew"
+    },
+    {
+      "key": "item.dagger_flicker.desc",
+      "value": "Pedang tangan-kiri hasil pukulan dari halaman die — dicap, bukan ditempa, dan justru lebih tajam karenanya. Recehan menurut para pencetak."
+    },
+    {
+      "key": "item.dagger_flicker.name",
+      "value": "Sang Kerlipan"
+    },
+    {
       "key": "item.dagger_quiet.desc",
       "value": "Pisau pedagang, seimbang untuk dilempar sekaligus untuk disangkal."
     },
@@ -2465,12 +2509,28 @@
       "value": "Sarung Tangan Kerja"
     },
     {
+      "key": "item.helm_barbute.desc",
+      "value": "Helm bermuka-T yang ditemukan di rumah petak tempat tak seharusnya seorang prajurit berdiri selama itu. Pemakai terakhirnya bertahan. Helmnya ingat."
+    },
+    {
+      "key": "item.helm_barbute.name",
+      "value": "Barbute Sang Pembela"
+    },
+    {
       "key": "item.helm_hood.desc",
       "value": "Menahan hujan. Tak berguna melawan yang berjalan di dalamnya."
     },
     {
       "key": "item.helm_hood.name",
       "value": "Tudung Berminyak"
+    },
+    {
+      "key": "item.helm_kettle.desc",
+      "value": "Topi besi bertepi sejujur panci sup. Menahan hujan; menahan sedikit pedang juga."
+    },
+    {
+      "key": "item.helm_kettle.name",
+      "value": "Helm Ketel"
     },
     {
       "key": "item.helm_marshal.desc",
@@ -2519,6 +2579,14 @@
     {
       "key": "item.legs_leather.name",
       "value": "Celana Kulit"
+    },
+    {
+      "key": "item.mace_tollkeeper.desc",
+      "value": "Berkepala besi, sepanjang buku besar — gada yang diterbitkan rumah tol sebelum tol berhenti jujur. Ia menyelesaikan pertengkaran yang tak pernah bisa dilakukan buku besar."
+    },
+    {
+      "key": "item.mace_tollkeeper.name",
+      "value": "Gada Penjaga Tol"
     },
     {
       "key": "item.mat_bone_dust.desc",
@@ -2913,6 +2981,22 @@
       "value": "Cincin Segel Warden"
     },
     {
+      "key": "item.ring_serpent.desc",
+      "value": "Cincin dari kawat ular sungai, sedingin air yang bergerak. Pukulan datang lebih cepat begitu ia mengenal tanganmu."
+    },
+    {
+      "key": "item.ring_serpent.name",
+      "value": "Lilitan Ular"
+    },
+    {
+      "key": "item.shield_kite.desc",
+      "value": "Papan panjang berujung tumpul — perisai untuk orang yang bermaksud berjalan pulang menembus kerumunan, bukan menahannya."
+    },
+    {
+      "key": "item.shield_kite.name",
+      "value": "Perisai Layangan"
+    },
+    {
       "key": "item.shield_lion.desc",
       "value": "Lambang keluarga Ser Galen. Membawanya di Rennfall adalah pernyataan politik."
     },
@@ -2927,6 +3011,14 @@
     {
       "key": "item.shield_oak.name",
       "value": "Perisai Kayu Ek"
+    },
+    {
+      "key": "item.shield_oathwall.desc",
+      "value": "Perisai menara berpita besi perapian — dibangun untuk pintu terakhir sebuah benteng yang tak pernah diserang. Ia menunggu untuk menepati sumpah yang tak pernah dimintakan padanya."
+    },
+    {
+      "key": "item.shield_oathwall.name",
+      "value": "Tembok Sumpah"
     },
     {
       "key": "item.shield_tower.desc",
@@ -2953,6 +3045,14 @@
       "value": "Tombak Kayu Abu"
     },
     {
+      "key": "item.spear_glaive_ash.desc",
+      "value": "Tombak panjang yang dipatahkan Barisan dari halberd seorang perwira dan dipasang ulang pada kayu abu. Jangkauan adalah sejenis belas kasih."
+    },
+    {
+      "key": "item.spear_glaive_ash.name",
+      "value": "Tombak Abu"
+    },
+    {
       "key": "item.spear_warden.desc",
       "value": "Jangkauan itu penting saat orang mati datang berbondong. Para warden lama tahu itu."
     },
@@ -2967,6 +3067,22 @@
     {
       "key": "item.staff_apothecary.name",
       "value": "Tongkat Tabib"
+    },
+    {
+      "key": "item.staff_cinder.desc",
+      "value": "Tongkat panjang pembakar arang, kedua ujungnya dikeraskan di klamp yang dijaganya. Masih berbau lubang bakar."
+    },
+    {
+      "key": "item.staff_cinder.name",
+      "value": "Tongkat Bara"
+    },
+    {
+      "key": "item.sword_crowned.desc",
+      "value": "Pedang yang ditujukan untuk kapten terakhir seorang ratu, disegel di ruang bawah tanah benteng mati saat jalan ke selatan berhenti berarti. Mata pedangnya tak pernah mendapatkan perangnya."
+    },
+    {
+      "key": "item.sword_crowned.name",
+      "value": "Penjaga Mahkota"
     },
     {
       "key": "item.sword_emberbrand.desc",
@@ -2999,6 +3115,14 @@
     {
       "key": "item.sword_hearth.name",
       "value": "Bilah Baja Perapian"
+    },
+    {
+      "key": "item.sword_marshlight.desc",
+      "value": "Pedang pucat yang menangkap cahaya lampu rawa dan menyimpannya. Terpukul di ruang bawah tanah sebuah benteng, masih dingin."
+    },
+    {
+      "key": "item.sword_marshlight.name",
+      "value": "Pedang Cahaya Rawa"
     },
     {
       "key": "item.sword_warden_oath.desc",
@@ -3049,6 +3173,14 @@
       "value": "Segel Warden Crane"
     },
     {
+      "key": "item.trinket_dice_loaded.desc",
+      "value": "Dua dadu tulang yang selalu mendarat di sisimu dalam pertengkaran, dalam kantong koin yang tak kau peroleh. Seseorang di Greymarch merindukan benda ini."
+    },
+    {
+      "key": "item.trinket_dice_loaded.name",
+      "value": "Dadu Bermuatan"
+    },
+    {
       "key": "item.trinket_ember_knot.desc",
       "value": "Tali yang direndam abu perapian, diikat dengan simpul yang tak seorang pun ingat cara membukanya."
     },
@@ -3063,6 +3195,14 @@
     {
       "key": "item.trinket_lion_pin.name",
       "value": "Pin Singa Bersisik"
+    },
+    {
+      "key": "item.trinket_marshal_star.desc",
+      "value": "Bintang pangkat kusam yang jatuh dari kurir yang tak pernah mengantarkannya. Kuningan, sebagian besarnya. Kewenangannya pinjaman tapi tajam."
+    },
+    {
+      "key": "item.trinket_marshal_star.name",
+      "value": "Bintang Marshal"
     },
     {
       "key": "item.trinket_queens_seal.desc",
