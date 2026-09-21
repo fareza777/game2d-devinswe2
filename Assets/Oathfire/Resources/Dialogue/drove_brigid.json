@@ -1,0 +1,19 @@
+{
+  "id": "drove_brigid",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "b1",
+      "speaker": "brigid",
+      "textKey": "dlg.drove_brigid.b1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

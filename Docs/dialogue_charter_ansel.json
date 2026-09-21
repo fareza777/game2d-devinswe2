@@ -1,0 +1,33 @@
+{
+ "id": "charter_ansel",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "a1",
+   "speaker": "ansel",
+   "text": {
+    "en": "You carry a dead yard's die into a live building, warden. The Marshal's man told me you might. Give it here — the cut will say what the price of silence bought.",
+    "id": "Kau membawa die sebuah halaman mati ke dalam gedung yang hidup, warden. Orang Marshal bilang kau mungkin datang. Serahkan — potongannya akan berkata berapa harga diam itu dibeli."
+   }
+  },
+  {
+   "id": "a2",
+   "speaker": "ansel",
+   "text": {
+    "en": "I sink dies for this house — I know that hand. The rim-mark is Halvard's: the League's die-cutter, gone from the rolls six years, and paid these years in coin that never touched a ledger. He was the left hand. The right wrote the payroll.",
+    "id": "Aku memahat die untuk gedung ini — aku kenal tangan itu. Tanda tepiannya milik Halvard: pemahat die Liga, hilang dari daftar enam tahun, dan selama ini dibayar dengan koin yang tak pernah menyentuh buku. Dia tangan kirinya. Tangan kanan yang menulis daftar gaji."
+   }
+  },
+  {
+   "id": "a3",
+   "speaker": "ansel",
+   "text": {
+    "en": "The washed coin goes one place before it's clean: the old Tollbank on the north road — a dead fort the crew keeps lit. My charter-mark opens the spur; the tollman's gate reads it better than any summons. Take it. And warden — Halvard knew the sound of the stamp because he was the stamp.",
+    "id": "Koin cucian hanya ke satu tempat sebelum bersih: Benteng Tol tua di jalan utara — benteng mati yang dijaga tetap menyala. Tanda piagamku membuka simpangannya; gerbang petugas tol lebih mudah membacanya daripada surat panggilan. Bawa ini. Dan warden — Halvard kenal bunyi cap karena dialah capnya."
+   },
+   "setFlags": [
+    "act3.tollbank_marked"
+   ]
+  }
+ ]
+}

@@ -30,6 +30,8 @@ BUILDER_FOR_SCENE = {
     "Windrest": "WindrestSceneBuilder.cs",
     "Chalkpit": "ChalkpitSceneBuilder.cs",
     "Stampworks": "StampworksSceneBuilder.cs",
+    "Tollbank": "TollbankSceneBuilder.cs",
+    "DroversRest": "DroversSceneBuilder.cs",
 }
 
 

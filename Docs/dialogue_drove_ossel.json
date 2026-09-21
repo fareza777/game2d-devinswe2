@@ -1,0 +1,22 @@
+{
+ "id": "drove_ossel",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "o1",
+   "speaker": "ossel",
+   "text": {
+    "en": "Warden. You'll forgive the look of the place — the corral's a mouth and something's been feeding through it three nights. Pack animals first, then the tack, then whatever isn't nailed. If you've got steel, the jackals are yours.",
+    "id": "Warden. Maafkan keadaan tempat ini — kandang itu sebuah mulut dan ada yang menggerogotinya tiga malam. Hewan beban dulu, lalu pelananya, lalu apa pun yang tak dipaku. Kalau kau punya baja, serigala itu milikmu."
+   }
+  },
+  {
+   "id": "o2",
+   "speaker": "ossel",
+   "text": {
+    "en": "Four by the rail's count — they've learned the corral opens where the boy forgot the gate. Clear them and the Rest stays on the road. Lose them and we fold before the freeze.",
+    "id": "Empat menurut hitungan pagar — mereka belajar kandang terbuka di tempat si bocah lupa mengunci gerbang. Bersihkan dan Tempat Istirahat ini tetap di jalan. Biarkan dan kami bubar sebelum beku."
+   }
+  }
+ ]
+}

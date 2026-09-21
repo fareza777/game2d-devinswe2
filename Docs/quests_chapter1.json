@@ -2611,6 +2611,441 @@
     "faction": "league",
     "reputation": 6
    }
+  },
+  {
+   "id": "q_tollbank",
+   "act": "act3",
+   "mainQuest": true,
+   "title": {
+    "en": "The Left Hand of the League",
+    "id": "Tangan Kiri Liga"
+   },
+   "summary": {
+    "en": "The master die was cut inside Greymarch's own charter house — sold to the deserters by someone the pay-roll was written to protect. A charter warden there is waiting to hear it. His mark opens the old toll fort on the north road, where the washed coin goes to become honest money — and where the man who signed it waits.",
+    "id": "Die induk itu dipahat di dalam gedung piagam Greymarch sendiri — dijual kepada para pembelot oleh seseorang yang ditulis daftar gaji untuk dilindungi. Seorang warden piagam di sana sedang menunggu untuk mendengarnya. Tandanya membuka benteng tol tua di jalan utara, tempat koin cucian menjadi uang jujur — dan tempat orang yang menandatanganinya menunggu."
+   },
+   "unlockFlag": "act2.die_delivered",
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "act3.tollbank_marked",
+       "kind": "Flag"
+      }
+     ],
+     "setsFlag": "act3.stamps_s1",
+     "text": {
+      "en": "Find Charter Warden Ansel in Greymarch",
+      "id": "Temukan Warden Piagam Ansel di Greymarch"
+     }
+    },
+    {
+     "id": "s2",
+     "objectives": [
+      {
+       "key": "kills.toll",
+       "kind": "Counter",
+       "amount": 6
+      }
+     ],
+     "setsFlag": "act3.toll_s2",
+     "text": {
+      "en": "Break the washing crew's watches at the Tollbank",
+      "id": "Tumbangkan jagaan pasukan cuci di Benteng Tol"
+     }
+    },
+    {
+     "id": "s3",
+     "objectives": [
+      {
+       "key": "act3.halvard_down",
+       "kind": "Flag"
+      }
+     ],
+     "setsFlag": "act3.toll_s3",
+     "text": {
+      "en": "Answer Halvard the Cutter on the tollhouse step",
+      "id": "Jawab Halvard si Pemahat di tangga rumah tol"
+     }
+    },
+    {
+     "id": "s4",
+     "objectives": [
+      {
+       "key": "quest_true_ledger",
+       "kind": "Item",
+       "amount": 1
+      }
+     ],
+     "setsFlag": "act3.toll_s4",
+     "text": {
+      "en": "Take the true ledger from under the counter",
+      "id": "Ambil buku besar sejati dari bawah meja"
+     }
+    },
+    {
+     "id": "s5",
+     "objectives": [
+      {
+       "key": "act3.ledger_closed",
+       "kind": "Flag"
+      }
+     ],
+     "setsFlag": "act3.tollbank_done",
+     "text": {
+      "en": "Put the ledger in Inspector Maren's hand",
+      "id": "Letakkan buku besar itu di tangan Inspektur Maren"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 90,
+    "experience": 850,
+    "faction": "ash",
+    "items": [
+     "armor_oathplate"
+    ],
+    "reputation": 20
+   }
+  },
+  {
+   "id": "sq_toll_tallies",
+   "giver": "speaker.joss",
+   "giverScene": "Tollbank",
+   "act": "act3",
+   "mainQuest": false,
+   "unlockFlag": "toll.court_cleared",
+   "title": {
+    "en": "The Unpaid Tally",
+    "id": "Hitungan yang Tak Terbayar"
+   },
+   "summary": {
+    "en": "Old Joss kept his tally-sticks even caged — every count the crew was paid in, cut into wood they couldn't read. Three sticks are still out on the court. Bring them and the dead tollmen get their count named.",
+    "id": "Joss tua tetap menyimpan tongkat hitungnya bahkan saat dikandang — setiap hitungan yang dibayarkan pada pasukan cuci, terpahat di kayu yang tak bisa mereka baca. Tiga tongkat masih tergeletak di halaman. Bawakan, dan para petugas tol yang tewas akan mendapat hitungan mereka dinamai."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "quest_toll_tally",
+       "kind": "Item",
+       "amount": 3
+      }
+     ],
+     "setsFlag": "sq.toll_tallies.done",
+     "text": {
+      "en": "Gather the three tally-sticks on the court",
+      "id": "Pungut tiga tongkat hitung di halaman"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 35,
+    "experience": 260,
+    "faction": "league",
+    "items": [
+     "ring_verdant"
+    ],
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_toll_strongboxes",
+   "giver": "speaker.effa",
+   "giverScene": "Tollbank",
+   "act": "act3",
+   "mainQuest": false,
+   "unlockFlag": "toll.court_cleared",
+   "title": {
+    "en": "Boxes That Were Never Empty",
+    "id": "Brankas yang Tak Pernah Kosong"
+   },
+   "summary": {
+    "en": "Clerk Effa watched the crew chain the toll's strongboxes to the deck and crack them like eggs. Four boxes still sit where they were emptied — the League wants them back unbroken, as proof of what was done with them.",
+    "id": "Juru tulis Effa menyaksikan pasukan cuci merantai brankas-brankas tol ke geladak dan memecahkannya seperti telur. Empat brankas masih terduduk di tempatnya dikosongkan — Liga menginginkannya kembali utuh, sebagai bukti apa yang dilakukan pada isinya."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "quest_strongbox",
+       "kind": "Item",
+       "amount": 4
+      }
+     ],
+     "setsFlag": "sq.toll_strongboxes.done",
+     "text": {
+      "en": "Recover the four emptied strongboxes",
+      "id": "Temukan empat brankas yang dikosongkan"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 40,
+    "experience": 300,
+    "faction": "league",
+    "items": [
+     "trinket_waystone"
+    ],
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_toll_banner",
+   "giver": "speaker.pike",
+   "giverScene": "Tollbank",
+   "act": "act3",
+   "mainQuest": false,
+   "unlockFlag": "toll.court_cleared",
+   "title": {
+    "en": "The Banner Comes Down",
+    "id": "Panji yang Turun"
+   },
+   "summary": {
+    "en": "The fort's salt banner still hangs over the cage pen where Pike watched the crew work. Take it down — it's watched too, because the banner is the last thing the crew still flies over coin they own.",
+    "id": "Panji garam benteng masih tergantung di atas kandang tempat Pike menyaksikan pasukan cuci bekerja. Turunkan — panji itu juga dijaga, karena itulah satu-satunya yang masih mereka kibarkan di atas koin yang mereka miliki."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "quest_toll_banner",
+       "kind": "Item",
+       "amount": 1
+      }
+     ],
+     "setsFlag": "sq.toll_banner.done",
+     "text": {
+      "en": "Take the toll banner down from the pen",
+      "id": "Turunkan panji tol dari kandang"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 30,
+    "experience": 280,
+    "faction": "league",
+    "items": [
+     "helm_visor"
+    ],
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_toll_pages",
+   "giver": "speaker.annet",
+   "giverScene": "Tollbank",
+   "act": "act3",
+   "mainQuest": false,
+   "unlockFlag": "toll.court_cleared",
+   "title": {
+    "en": "The Pages That Got Out",
+    "id": "Halaman yang Keluar"
+   },
+   "summary": {
+    "en": "Annet fed the cage fire with her own book, page by page, to keep the truth from ending up as ash — three leaves got out the wind's way and lie in the court still. Find them; she'll know the words by heart anyway.",
+    "id": "Annet memberi makan api kandang dengan bukunya sendiri, halaman demi halaman, agar kebenaran tak berakhir jadi abu — tiga lembar lolos lewat angin dan masih tergeletak di halaman. Temukan; ia tetap hafal kata-katanya."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "quest_ledger_page",
+       "kind": "Item",
+       "amount": 3
+      }
+     ],
+     "setsFlag": "sq.toll_pages.done",
+     "text": {
+      "en": "Find the three ledger leaves in the court",
+      "id": "Temukan tiga lembar buku besar di halaman"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 35,
+    "experience": 280,
+    "faction": "league",
+    "items": [
+     "armor_ranger"
+    ],
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_drove_jackals",
+   "giver": "speaker.ossel",
+   "giverScene": "DroversRest",
+   "act": "act2",
+   "mainQuest": false,
+   "unlockFlag": "act2.drovers_rumoured",
+   "title": {
+    "en": "Jackals at the Rail",
+    "id": "Serigala di Pagar"
+   },
+   "summary": {
+    "en": "A pack has been working the corral mouth every night since the frost — Ossel's lost two mounts to them already. Clear the corral mouth and the Rest stays open this side of winter.",
+    "id": "Sekelompok serigala menggerogoti mulut kandang tiap malam sejak embun beku — Ossel sudah kehilangan dua tunggangan. Bersihkan mulut kandang itu dan Tempat Istirahat ini tetap buka sepanjang musim dingin."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "kills.drove",
+       "kind": "Counter",
+       "amount": 4
+      }
+     ],
+     "setsFlag": "sq.drove_jackals.done",
+     "text": {
+      "en": "Clear the jackals working the corral mouth",
+      "id": "Bersihkan serigala yang menggerogoti mulut kandang"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 35,
+    "experience": 260,
+    "faction": "league",
+    "items": [
+     "trinket_horn"
+    ],
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_drove_tack",
+   "giver": "speaker.pate",
+   "giverScene": "DroversRest",
+   "act": "act2",
+   "mainQuest": false,
+   "unlockFlag": "act2.drovers_rumoured",
+   "title": {
+    "en": "The Tack That Ran",
+    "id": "Pelana yang Kabur"
+   },
+   "summary": {
+    "en": "Pate was trusted with the bridles and dropped three of them when the jackals came — one by the wagons, one on the lane, one near the tents. The head drover whips a boy for less. Find them before Ossel counts.",
+    "id": "Pate dipercaya menjaga kekang dan menjatuhkan tiga saat serigala datang — satu dekat wagon, satu di lajur, satu di dekat tenda. Kepala penggembala mencambuk bocah untuk lebih sedikit dari itu. Temukan sebelum Ossel menghitung."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "quest_tack",
+       "kind": "Item",
+       "amount": 3
+      }
+     ],
+     "setsFlag": "sq.drove_tack.done",
+     "text": {
+      "en": "Find the three dropped tack pieces",
+      "id": "Temukan tiga potong pelana yang jatuh"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 30,
+    "experience": 240,
+    "faction": "league",
+    "items": [
+     "bow_drover"
+    ],
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_drove_supper",
+   "giver": "speaker.brigid",
+   "giverScene": "DroversRest",
+   "act": "act2",
+   "mainQuest": false,
+   "unlockFlag": "act2.drovers_rumoured",
+   "title": {
+    "en": "One Hot Supper",
+    "id": "Satu Santap Panas"
+   },
+   "summary": {
+    "en": "Brigid cooks for fourteen on what was meant for six — the camp's supper fixings scattered when the last wagon bolted in. Gather what's still good: roots by the lane, onions near the fire, cheese and dried meat wherever they rolled.",
+    "id": "Brigid memasak untuk empat belas orang dari jatah enam — bahan santap kamp berserakan saat wagon terakhir kabur masuk. Pungut yang masih bagus: umbi di lajur, bawang dekat api, keju dan daging awet di mana pun menggelinding."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "quest_supper",
+       "kind": "Item",
+       "amount": 4
+      }
+     ],
+     "setsFlag": "sq.drove_supper.done",
+     "text": {
+      "en": "Gather four supper fixings for the fire",
+      "id": "Pungut empat bahan santap untuk api"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 25,
+    "experience": 220,
+    "faction": "league",
+    "items": [
+     "food_cheese",
+     "food_cheese",
+     "food_stew"
+    ],
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_drove_pins",
+   "giver": "speaker.nell",
+   "giverScene": "DroversRest",
+   "act": "act2",
+   "mainQuest": false,
+   "unlockFlag": "act2.drovers_rumoured",
+   "title": {
+    "en": "Three Pins Short",
+    "id": "Kurang Tiga Paku"
+   },
+   "summary": {
+    "en": "Nell's wagon came in a pin short and stayed together out of habit — three pins lie somewhere between the lane and the corral. Find them and she'll owe the road a favour she means to pay.",
+    "id": "Wagon Nell datang kekurangan satu paku dan bertahan utuh karena kebiasaan — tiga paku tergeletak di antara lajur dan kandang. Temukan dan ia akan berhutang pada jalan, hutang yang berniat ia bayar."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "objectives": [
+      {
+       "key": "quest_wagon_pin",
+       "kind": "Item",
+       "amount": 3
+      }
+     ],
+     "setsFlag": "sq.drove_pins.done",
+     "text": {
+      "en": "Find the three missing wagon pins",
+      "id": "Temukan tiga paku wagon yang hilang"
+     }
+    }
+   ],
+   "reward": {
+    "coin": 30,
+    "experience": 250,
+    "faction": "league",
+    "items": [
+     "relic_road_stone"
+    ],
+    "reputation": 8
+   }
   }
  ]
 }

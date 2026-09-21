@@ -1,0 +1,32 @@
+{
+  "id": "toll_annet",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "a1",
+      "speaker": "annet",
+      "textKey": "dlg.toll_annet.a1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "a2",
+      "speaker": "annet",
+      "textKey": "dlg.toll_annet.a2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "toll_effa",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "e1",
+      "speaker": "effa",
+      "textKey": "dlg.toll_effa.e1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "e2",
+      "speaker": "effa",
+      "textKey": "dlg.toll_effa.e2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

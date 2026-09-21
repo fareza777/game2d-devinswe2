@@ -1,0 +1,14 @@
+{
+ "id": "drove_nell",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "n1",
+   "speaker": "nell",
+   "text": {
+    "en": "My wagon came in a pin short and held together out of spite. Three pins in the grass between the lane and the corral — find them and the next wagon that leaves owes you. Road pays, warden. Ask anyone.",
+    "id": "Wagonku datang kurang satu paku dan bertahan utuh karena keberuntungan. Tiga paku di rumput antara lajur dan kandang — temukan dan wagon berikutnya berhutang padamu. Jalan selalu membayar, warden. Tanya siapa saja."
+   }
+  }
+ ]
+}

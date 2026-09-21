@@ -1,0 +1,32 @@
+{
+  "id": "toll_joss",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "j1",
+      "speaker": "joss",
+      "textKey": "dlg.toll_joss.j1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "j2",
+      "speaker": "joss",
+      "textKey": "dlg.toll_joss.j2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -430,6 +430,226 @@
    "from": "Windrest",
    "to": "Stampworks",
    "via": "Chalkpit"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Rennfall",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Rennfall",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Greymarch",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Greymarch",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Hollow",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Hollow",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Keep",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Keep",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Saltpans",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Saltpans",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Burnpits",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Burnpits",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Windrest",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Windrest",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Chalkpit",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Chalkpit",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "Tollbank",
+   "to": "Stampworks",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Tollbank",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Tollbank",
+   "to": "DroversRest",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Tollbank",
+   "via": "Tollbank"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Rennfall",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Rennfall",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "TradeRoad",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Greymarch",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Greymarch",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Hollow",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Hollow",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Keep",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Keep",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Saltpans",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Saltpans",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Burnpits",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Burnpits",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Windrest",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Windrest",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Chalkpit",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Chalkpit",
+   "to": "DroversRest",
+   "via": "DroversRest"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Stampworks",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Stampworks",
+   "to": "DroversRest",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "DroversRest",
+   "to": "Tollbank",
+   "via": "TradeRoad"
+  },
+  {
+   "from": "Tollbank",
+   "to": "DroversRest",
+   "via": "DroversRest"
   }
  ],
  "guides": [
@@ -848,6 +1068,84 @@
    "target": "spot",
    "id": "stamp_blank_1",
    "scene": "Stampworks"
+  },
+  {
+   "key": "act3.tollbank_marked",
+   "target": "npc",
+   "id": "speaker.ansel",
+   "scene": "Greymarch"
+  },
+  {
+   "key": "kills.toll",
+   "target": "spot",
+   "id": "toll_yard",
+   "scene": "Tollbank"
+  },
+  {
+   "key": "act3.halvard_down",
+   "target": "spot",
+   "id": "toll_boss",
+   "scene": "Tollbank"
+  },
+  {
+   "key": "quest_true_ledger",
+   "target": "spot",
+   "id": "toll_ledger",
+   "scene": "Tollbank"
+  },
+  {
+   "key": "act3.ledger_closed",
+   "target": "npc",
+   "id": "speaker.maren",
+   "scene": "Rennfall"
+  },
+  {
+   "key": "quest_toll_tally",
+   "target": "spot",
+   "id": "toll_tally_1",
+   "scene": "Tollbank"
+  },
+  {
+   "key": "quest_ledger_page",
+   "target": "spot",
+   "id": "toll_page_1",
+   "scene": "Tollbank"
+  },
+  {
+   "key": "quest_tack",
+   "target": "spot",
+   "id": "drove_tack_1",
+   "scene": "DroversRest"
+  },
+  {
+   "key": "quest_wagon_pin",
+   "target": "spot",
+   "id": "drove_pin_1",
+   "scene": "DroversRest"
+  },
+  {
+   "key": "quest_toll_banner",
+   "target": "spot",
+   "id": "toll_banner",
+   "scene": "Tollbank"
+  },
+  {
+   "key": "quest_strongbox",
+   "target": "spot",
+   "id": "toll_strongbox_1",
+   "scene": "Tollbank"
+  },
+  {
+   "key": "quest_supper",
+   "target": "spot",
+   "id": "drove_supper_1",
+   "scene": "DroversRest"
+  },
+  {
+   "key": "kills.drove",
+   "target": "spot",
+   "id": "drove_corral",
+   "scene": "DroversRest"
   }
  ]
 }

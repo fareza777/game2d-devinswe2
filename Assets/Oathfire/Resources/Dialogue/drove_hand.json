@@ -1,0 +1,19 @@
+{
+  "id": "drove_hand",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "drover",
+      "textKey": "dlg.drove_hand.d1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

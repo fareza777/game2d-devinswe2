@@ -1,0 +1,33 @@
+{
+ "id": "maren_ledger",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "m1",
+   "speaker": "maren",
+   "text": {
+    "en": "The fort's books. Open it on the lamp — I want to see what a sold seal looks like when it's written down honest.",
+    "id": "Buku benteng itu. Buka di bawah lampu — aku ingin melihat rupa segel yang dijual saat ditulis dengan jujur."
+   }
+  },
+  {
+   "id": "m2",
+   "speaker": "maren",
+   "text": {
+    "en": "...Every slip. Every hand. The charter house will burn its own name before this stands — and the Marshal will hold the torch herself. The valley's seal is its own again, warden. Whatever else Halvard was, the coin he struck ends with you.",
+    "id": "...Tiap slip. Tiap tangan. Gedung piagam akan membakar namanya sendiri sebelum ini berdiri — dan Marshal sendiri yang memegang obornya. Segel lembah ini miliknya sendiri lagi, warden. Apa pun Halvard dulu, koin yang ia cap berakhir padamu."
+   }
+  },
+  {
+   "id": "m3",
+   "speaker": "maren",
+   "text": {
+    "en": "The last plate the Line struck — the Oathplate — sat in the toll fort's stores until the crew fenced it out. I had it brought here when it surfaced. Take it. The crown's gone, but the oath it was sworn to keeps a wearer standing.",
+    "id": "Zirah terakhir yang dicetak Barisan — Oathplate — tersimpan di gudang benteng tol sampai pasukan cuci menjualnya. Kubawa ke sini saat muncul. Ambillah. Mahkota sudah tiada, tapi sumpah yang disumpahkan padanya membuat pemakainya tetap berdiri."
+   },
+   "setFlags": [
+    "act3.ledger_closed"
+   ]
+  }
+ ]
+}

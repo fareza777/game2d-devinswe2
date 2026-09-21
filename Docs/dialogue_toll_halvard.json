@@ -1,0 +1,77 @@
+{
+ "id": "toll_halvard",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "h1",
+   "speaker": "halvard",
+   "text": {
+    "en": "A warden in the court. I wondered which of us the coin would send for — me for the books, or you for the die. Sit on the counter, friend. The last toll was already paid; it just hasn't been counted.",
+    "id": "Seorang warden di halaman. Aku bertanya-tanya siapa yang akan dikirim koin untuk siapa — aku untuk bukunya, atau kau untuk die-nya. Duduklah di meja, kawan. Tol terakhir sudah dibayar; hanya belum dihitung."
+   }
+  },
+  {
+   "id": "h2",
+   "speaker": "halvard",
+   "text": {
+    "en": "They sold a valley its own seal and I cut the hands that took it — every seal on every false slip in this fort came off my die, and not one of them says my name. That's what a cutter is for. You want the true ledger? It's under the counter. Over me.",
+    "id": "Mereka menjual lembah ini segelnya sendiri dan akulah yang memahat tangan-tangan yang mengambilnya — tiap segel di tiap slip palsu di benteng ini keluar dari die-ku, dan tak satu pun menyebut namaku. Itulah gunanya pemahat. Kau mau buku besar sejati? Di bawah meja itu. Lewati aku."
+   }
+  },
+  {
+   "id": "h3",
+   "speaker": "halvard",
+   "text": {
+    "en": "Come then, warden of a dead crown. Show me what the old oath weighs.",
+    "id": "Mari, warden dari mahkota mati. Tunjukkan berapa berat sumpah lama itu."
+   },
+   "choices": [
+    {
+     "text": {
+      "en": "For the men you caged, then.",
+      "id": "Untuk orang-orang yang kau kandangkan."
+     },
+     "next": "h4a"
+    },
+    {
+     "text": {
+      "en": "The League pays for the head; I'll take the ledger too.",
+      "id": "Liga membayar untuk kepalamu; buku besarnya juga kuambil."
+     },
+     "next": "h4b"
+    },
+    {
+     "text": {
+      "en": "Put the cutter's tools down and answer for it.",
+      "id": "Letakkan perkakas pemahat itu dan pertanggungjawabkan."
+     },
+     "next": "h4c"
+    }
+   ]
+  },
+  {
+   "id": "h4a",
+   "speaker": "halvard",
+   "text": {
+    "en": "Caged? I fed them. Ask the crates.",
+    "id": "Kandang? Aku yang memberi mereka makan. Tanya peti-petinya."
+   }
+  },
+  {
+   "id": "h4b",
+   "speaker": "halvard",
+   "text": {
+    "en": "Then we'll settle it the way accounts settle: in hard numbers.",
+    "id": "Kalau begitu selesaikan seperti pembukuan diselesaikan: dengan angka keras."
+   }
+  },
+  {
+   "id": "h4c",
+   "speaker": "halvard",
+   "text": {
+    "en": "Answer? I've been the answer for six years. You're late.",
+    "id": "Bertanggung jawab? Akulah jawabannya selama enam tahun. Kau terlambat."
+   }
+  }
+ ]
+}

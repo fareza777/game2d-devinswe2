@@ -1,0 +1,22 @@
+{
+ "id": "toll_effa",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "e1",
+   "speaker": "effa",
+   "text": {
+    "en": "I kept the crew's daybook — they couldn't read it, so they chained it to the deck like the rest of us. The strongboxes, though, they could read: coin in, coin out, four of them cracked like eggs and left on the deck as proof nobody dared stop them.",
+    "id": "Aku menjaga pembukuan harian pasukan cuci — mereka tak bisa membacanya, jadi dirantai ke geladak seperti kami lainnya. Brankas-brankasnya bisa mereka baca: koin masuk, koin keluar, empat dipecah seperti telur dan ditinggalkan di geladak sebagai bukti tak ada yang berani menghentikan."
+   }
+  },
+  {
+   "id": "e2",
+   "speaker": "effa",
+   "text": {
+    "en": "Bring them back unbroken if you can — empty. The League counts what was done by what was left. Four boxes is four weeks of toll they never sent down the road.",
+    "id": "Bawa kembali utuh kalau bisa — kosong pun tak apa. Liga menghitung apa yang terjadi dari apa yang tersisa. Empat brankas adalah empat pekan tol yang tak pernah turun ke jalan."
+   }
+  }
+ ]
+}

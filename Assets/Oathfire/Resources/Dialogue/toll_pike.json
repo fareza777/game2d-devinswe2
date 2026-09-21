@@ -1,0 +1,19 @@
+{
+  "id": "toll_pike",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "pike",
+      "textKey": "dlg.toll_pike.p1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

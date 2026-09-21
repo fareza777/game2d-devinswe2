@@ -1,0 +1,19 @@
+{
+  "id": "drove_pate",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "pate",
+      "textKey": "dlg.drove_pate.p1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

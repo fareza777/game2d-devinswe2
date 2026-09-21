@@ -1,0 +1,121 @@
+{
+  "id": "toll_halvard",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "h1",
+      "speaker": "halvard",
+      "textKey": "dlg.toll_halvard.h1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h2",
+      "speaker": "halvard",
+      "textKey": "dlg.toll_halvard.h2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h3",
+      "speaker": "halvard",
+      "textKey": "dlg.toll_halvard.h3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.toll_halvard.h3.c1",
+          "next": "h4a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.toll_halvard.h3.c2",
+          "next": "h4b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.toll_halvard.h3.c3",
+          "next": "h4c",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "h4a",
+      "speaker": "halvard",
+      "textKey": "dlg.toll_halvard.h4a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h4b",
+      "speaker": "halvard",
+      "textKey": "dlg.toll_halvard.h4b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h4c",
+      "speaker": "halvard",
+      "textKey": "dlg.toll_halvard.h4c",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -95,6 +95,13 @@ namespace Oathfire.EditorTools
             if (at.maren != null)
                 MapScene.BuildTalker("Mira Holt", "speaker.mira", map.At(at.maren), "NPC1", new Color(0.93f, 0.9f, 0.8f), 0.94f,
                     new[] { ("city_mira", "", "") }, requiresFlag: "act2.prisoner_freed");
+
+            // Charter Warden Ansel only surfaces once the master die is in Maren's hands — he reads
+            // the die's cut, names the cutter, and marks the dead toll fort on the Warden's map.
+            if (at.hearth != null)
+                MapScene.BuildTalker("Charter Warden Ansel", "speaker.ansel", map.At(at.hearth) + new Vector3(1.8f, 0.9f, 0f),
+                    "NPC2", new Color(0.68f, 0.72f, 0.78f), 1f,
+                    new[] { ("charter_ansel", "", "act3.tollbank_marked") }, requiresFlag: "act2.die_delivered");
         }
 
         static void BuildCitizen(string name, string speakerKey, Vector3 position, (string script, string requires, string consumed)[] talk)

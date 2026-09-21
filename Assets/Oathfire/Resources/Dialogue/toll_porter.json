@@ -1,0 +1,19 @@
+{
+  "id": "toll_porter",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "toll_porter",
+      "textKey": "dlg.toll_porter.p1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

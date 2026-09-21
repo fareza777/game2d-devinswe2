@@ -1,0 +1,14 @@
+{
+ "id": "drove_brigid",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "b1",
+   "speaker": "brigid",
+   "text": {
+    "en": "You're the fire-keeper the tents talk about, then. Good — come warmer. I cook for fourteen on a fire meant for six, and the last wagon scattered my supper fixings from the lane to the tents. Whatever's still good out there, the pot wants it.",
+    "id": "Kaulah penjaga api yang dibicarakan tenda-tenda, ya. Bagus — mendekatlah. Aku memasak untuk empat belas di api untuk enam, dan wagon terakhir menyerakkan bahan santapku dari lajur sampai tenda. Apa pun yang masih bagus di luar sana, panci menginginkannya."
+   }
+  }
+ ]
+}

@@ -47,6 +47,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Oathfire/Scenes/Stampworks.unity
     guid: 861a3665cf0efa5f4ad69594bb138015
+  - enabled: 1
+    path: Assets/Oathfire/Scenes/Tollbank.unity
+    guid: 1a3a403552896d823994e348bbe46b4e
+  - enabled: 1
+    path: Assets/Oathfire/Scenes/DroversRest.unity
+    guid: c527ff726a50a4560bb1a138b2f773de
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,14 @@
+{
+ "id": "drove_fen",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "f1",
+   "speaker": "fen",
+   "text": {
+    "en": "Sixty years on the road and the Rest is the only camp that smells the same. Fire, oats, harness grease. Sit if you've got the knees — the road's not going anywhere, whatever the toll says.",
+    "id": "Enam puluh tahun di jalan dan hanya kamp ini yang baunya sama. Api, gandum, gemuk pelana. Duduklah kalau lututmu kuat — jalan tak akan ke mana-mana, apa pun kata tol."
+   }
+  }
+ ]
+}

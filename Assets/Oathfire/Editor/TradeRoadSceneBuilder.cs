@@ -176,6 +176,32 @@ namespace Oathfire.EditorTools
                 MapScene.Gate(chalkSpur, "act2.chalkpit_rumoured");
             }
 
+            // The old toll road north: it is a turning only once the charter warden has read the die
+            // and named the ruined toll fort where the false coin is being washed.
+            if (at.trail5 != null)
+            {
+                var tollSpur = new GameObject("Toll spur");
+                tollSpur.transform.position = map.At(at.trail5);
+                GameObject tollExit = MapScene.BuildExit(map.At(at.trail5), "Tollbank", "prompt.travel.tollbank", "act3.found_tollbank");
+                tollExit.transform.SetParent(tollSpur.transform, true);
+                MapScene.BuildProp("Toll post", "Misc B52_E", map.At(at.trail5) + new Vector3(-0.45f, 0.3f, 0f), tollExit.transform,
+                    solid: false, strikeable: false);
+                MapScene.Gate(tollSpur, "act3.tollbank_marked");
+            }
+
+            // The drovers' turning: Tess's wagons come down out of the rest camp east of the road.
+            // Her asking after them — once the spilled salt is gathered — marks it on the map.
+            if (at.trail6 != null)
+            {
+                var droverSpur = new GameObject("Drovers' turning");
+                droverSpur.transform.position = map.At(at.trail6);
+                GameObject restExit = MapScene.BuildExit(map.At(at.trail6), "DroversRest", "prompt.travel.drovers", "act2.found_drovers");
+                restExit.transform.SetParent(droverSpur.transform, true);
+                MapScene.BuildProp("Drover's post", "Misc B53_E", map.At(at.trail6) + new Vector3(-0.55f, 0.25f, 0f), restExit.transform,
+                    solid: false, strikeable: false);
+                MapScene.Gate(droverSpur, "act2.drovers_rumoured");
+            }
+
             if (at.search != null)
                 MapScene.BuildSearchSpot("Wick's lamp", map.At(at.search), "search_lamp", "Misc A2_E", "quest_wick_lamp",
                     "sq.lamp.found", "quest.sq_wicks_lamp.taken");

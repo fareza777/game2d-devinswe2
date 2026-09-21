@@ -141,6 +141,32 @@ PORTRAITS = {
              "bright darting eyes, a strap-worn shoulder, the grin of someone paid in leftovers",
     "yard_hand": "A yard porter in his thirties, heavy-jawed guarded face, arms like cable, "
                  "a tally cord at the belt, eyes that weigh every sack and every stranger",
+    "ansel": "A charter warden of the salt League in his fifties, precise clean-shaven face, "
+             "silver-threaded hair combed flat, a die-sinker's loupe on a cord at his collar",
+    "halvard": "A die-cutter in his late forties, long cold face, deep lines scored by lamplight, "
+               "a narrow scarred mouth, ink-and-silver stained fingertips, eyes like assay weights",
+    "annet": "A toll-widow in her sixties, gaunt proud face under a plain headcloth, "
+             "deep bracket lines round her mouth, eyes that have finished weeping",
+    "joss": "An old tollman in his seventies, seamed leathery face, white stubble, "
+            "a tally-stick held like a habit, patient broken-dignity eyes",
+    "pike": "A runner boy of about thirteen, pinched hungry face, quick bright eyes, "
+            "hair cropped short against lice, the set jaw of a boy who kept his nerve",
+    "effa": "A League daybook clerk in her thirties, tight anxious face, hair pinned severe, "
+            "smudged spectacles of horn, ink on her knuckles",
+    "toll_porter": "A toll porter in his forties, broad patient face, flat cap, "
+                   "rope-burn scars on the neck, shoulders built for the bar",
+    "ossel": "A head drover in his fifties, great weather-battered face, grey walrus moustache, "
+             "a whip coiled at the shoulder, calm eyes that have counted every mile",
+    "brigid": "A camp cook woman in her forties, round flushed cheerful face, kerchief pushed back, "
+              "flour on her chin, steam-warmed smile",
+    "pate": "A harness-boy of about twelve, narrow scared-bright face, hair under a leather cap, "
+            "a bridle strap over one shoulder too big for him",
+    "fen": "An ancient drover in his seventies, collapsed kind face, few teeth, "
+           "long white chin-beard, eyes half shut against remembered weather",
+    "nell": "A wagon whip in her thirties, hard lean sun-dark face, cropped dark hair, "
+            "a scar along the jaw, eyes that measure distance like rope",
+    "drover": "A young drover in his twenties, open sun-browned face, curls under a floppy hat, "
+              "an easy grin, grass seed still in his collar",
 }
 
 

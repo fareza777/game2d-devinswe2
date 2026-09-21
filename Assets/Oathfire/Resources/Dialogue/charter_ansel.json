@@ -1,0 +1,47 @@
+{
+  "id": "charter_ansel",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "a1",
+      "speaker": "ansel",
+      "textKey": "dlg.charter_ansel.a1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "a2",
+      "speaker": "ansel",
+      "textKey": "dlg.charter_ansel.a2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "a3",
+      "speaker": "ansel",
+      "textKey": "dlg.charter_ansel.a3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act3.tollbank_marked"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

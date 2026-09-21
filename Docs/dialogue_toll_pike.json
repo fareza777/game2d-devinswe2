@@ -1,0 +1,14 @@
+{
+ "id": "toll_pike",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "p1",
+   "speaker": "pike",
+   "text": {
+    "en": "I ran the lane for the crew — notes to the dais, tea to the bench. They paid me in salt crust and called me lucky. The fort's banner still flies over the pen where they kept us. Take it down, warden. Watch the corner — they fly it over things they don't want seen.",
+    "id": "Aku kurir di lajur untuk pasukan cuci — catatan ke anjungan, teh ke meja. Mereka membayarku dengan kerak garam dan menyebutku beruntung. Panji benteng masih berkibar di atas kandang tempat kami ditahan. Turunkan, warden. Awasi sudutnya — mereka mengibarkannya di atas hal yang tak ingin dilihat."
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "id": "drove_pate",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "p1",
+   "speaker": "pate",
+   "text": {
+    "en": "Warden — the tack. I was meant to hold the bridles when the jackals came and I didn't, and three of them went in the grass between the wagons and the tents. Ossel counts the kit at first frost. If he's counting short, it's my back.",
+    "id": "Warden — pelananya. Aku seharusnya memegang kekang saat serigala datang dan aku tidak, dan tiga di antaranya jatuh di rumput antara wagon dan tenda. Ossel menghitung perlengkapan saat embun beku pertama. Kalau hitungannya kurang, punggungku kena."
+   }
+  }
+ ]
+}

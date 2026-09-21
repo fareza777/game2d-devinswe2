@@ -1,0 +1,34 @@
+{
+  "id": "saltpans_tess_rest",
+  "startNode": "t1",
+  "nodes": [
+    {
+      "id": "t1",
+      "speaker": "tess",
+      "textKey": "dlg.saltpans_tess_rest.t1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "t2",
+      "speaker": "tess",
+      "textKey": "dlg.saltpans_tess_rest.t2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.drovers_rumoured"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

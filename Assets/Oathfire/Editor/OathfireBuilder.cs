@@ -122,6 +122,8 @@ namespace Oathfire.EditorTools
             WindrestSceneBuilder.Build();
             ChalkpitSceneBuilder.Build();
             StampworksSceneBuilder.Build();
+            TollbankSceneBuilder.Build();
+            DroversSceneBuilder.Build();
         }
 
         /// <summary>

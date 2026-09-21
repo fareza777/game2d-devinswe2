@@ -1,0 +1,14 @@
+{
+ "id": "toll_porter",
+ "startNode": "a1",
+ "nodes": [
+  {
+   "id": "p1",
+   "speaker": "toll_porter",
+   "text": {
+    "en": "The crew paid in crusts and counted us like coin — glad enough to see the back of them. The deck's cold now the counter's empty. We'll hold the yard till the real tollmen come back.",
+    "id": "Pasukan cuci membayar dengan kerak dan menghitung kami seperti koin — lega melihat punggung mereka. Geladaknya dingin sekarang mejanya kosong. Kami menjaga halaman ini sampai petugas tol sungguhan kembali."
+   }
+  }
+ ]
+}

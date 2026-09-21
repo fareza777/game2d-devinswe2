@@ -1316,6 +1316,196 @@
       "damage": 1,
       "health": 12,
       "stackSize": 1
+    },
+    {
+      "id": "armor_oathplate",
+      "kind": 3,
+      "slot": 3,
+      "rarity": 3,
+      "value": 1100,
+      "icon": "LootIcons_83",
+      "armor": 22,
+      "health": 50,
+      "stackSize": 1
+    },
+    {
+      "id": "helm_visor",
+      "kind": 3,
+      "slot": 4,
+      "rarity": 2,
+      "value": 430,
+      "icon": "LootIcons_98",
+      "armor": 14,
+      "health": 6,
+      "stackSize": 1
+    },
+    {
+      "id": "armor_ranger",
+      "kind": 3,
+      "slot": 3,
+      "rarity": 1,
+      "value": 290,
+      "icon": "LootIcons_77",
+      "armor": 10,
+      "health": 18,
+      "moveSpeed": 0.03,
+      "stackSize": 1
+    },
+    {
+      "id": "ring_verdant",
+      "kind": 4,
+      "slot": 10,
+      "rarity": 1,
+      "value": 175,
+      "icon": "gear_ring_copper",
+      "armor": 1,
+      "health": 10,
+      "stackSize": 1
+    },
+    {
+      "id": "trinket_horn",
+      "kind": 4,
+      "slot": 5,
+      "rarity": 2,
+      "value": 460,
+      "icon": "LootIcons_4",
+      "damage": 2,
+      "health": 15,
+      "stackSize": 1
+    },
+    {
+      "id": "trinket_waystone",
+      "kind": 4,
+      "slot": 5,
+      "rarity": 2,
+      "value": 500,
+      "icon": "LootIcons_19",
+      "armor": 2,
+      "health": 12,
+      "stackSize": 1
+    },
+    {
+      "id": "bow_drover",
+      "kind": 2,
+      "slot": 1,
+      "rarity": 1,
+      "value": 220,
+      "icon": "LootIcons_44",
+      "damage": 16,
+      "attackSpeed": 1.2,
+      "stackSize": 1
+    },
+    {
+      "id": "relic_road_stone",
+      "kind": 6,
+      "slot": 5,
+      "rarity": 3,
+      "value": 0,
+      "icon": "LootIcons_12",
+      "health": 20,
+      "stackSize": 1
+    },
+    {
+      "id": "potion_swiftness",
+      "kind": 1,
+      "slot": 0,
+      "rarity": 1,
+      "value": 70,
+      "icon": "LootIcons_19",
+      "healAmount": 10,
+      "manaAmount": 10,
+      "stackSize": 1
+    },
+    {
+      "id": "mat_silver",
+      "kind": 0,
+      "slot": 0,
+      "rarity": 2,
+      "value": 120,
+      "icon": "LootIcons_49",
+      "stackSize": 1
+    },
+    {
+      "id": "food_cheese",
+      "kind": 1,
+      "slot": 0,
+      "rarity": 0,
+      "value": 22,
+      "icon": "LootIcons_24",
+      "healAmount": 15,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_true_ledger",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_toll_tally",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_strongbox",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_toll_banner",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_ledger_page",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_tack",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_supper",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_wagon_pin",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
     }
   ]
 }

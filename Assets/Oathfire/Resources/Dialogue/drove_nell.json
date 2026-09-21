@@ -1,0 +1,19 @@
+{
+  "id": "drove_nell",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "nell",
+      "textKey": "dlg.drove_nell.n1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

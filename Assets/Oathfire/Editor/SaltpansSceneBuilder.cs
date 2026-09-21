@@ -90,8 +90,14 @@ namespace Oathfire.EditorTools
                 MapScene.BuildTalker("Old Mirren", "speaker.mirren", map.At(spots[2]), "NPC1",
                     new Color(0.86f, 0.8f, 0.72f), 0.94f, new[] { ("saltpans_mirren", "", "") });
             if (spots.Length > 3)
+            {
                 MapScene.BuildTalker("Tess of the Tents", "speaker.tess", map.At(spots[3]), "NPC1",
                     new Color(0.72f, 0.72f, 0.68f), 0.95f, new[] { ("saltpans_tess", "", "") });
+                // Fed on what the pans spilled, Tess pays it back with a place: the drovers' camp
+                // east of the toll road that still buys honest salt.
+                MapScene.PrependConversation(GameObject.Find("Tess of the Tents"), "saltpans_tess_rest",
+                    "sq.salt_spill.done", "act2.drovers_rumoured");
+            }
             if (spots.Length > 4)
                 MapScene.BuildTalker("Watch-lene", "speaker.lene", map.At(spots[4]), "NPC2",
                     new Color(0.62f, 0.66f, 0.72f), 1f, new[] { ("saltpans_lene", "", "") });

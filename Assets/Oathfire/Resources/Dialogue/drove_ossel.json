@@ -1,0 +1,32 @@
+{
+  "id": "drove_ossel",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "o1",
+      "speaker": "ossel",
+      "textKey": "dlg.drove_ossel.o1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "o2",
+      "speaker": "ossel",
+      "textKey": "dlg.drove_ossel.o2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

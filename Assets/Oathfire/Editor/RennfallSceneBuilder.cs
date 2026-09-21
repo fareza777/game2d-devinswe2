@@ -115,6 +115,9 @@ namespace Oathfire.EditorTools
             // The master die out of the coiners' yard is hers to read — and to answer for.
             MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "stamp_die", "act2.die_taken",
                 "act2.die_delivered", "quest_stamp_die");
+            // The true ledger out of the Tollbank is hers to open on the lamp — and to answer for.
+            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "maren_ledger", "act3.ledger_taken",
+                "act3.ledger_closed", "quest_true_ledger");
             // Once the village has survived a night, Winna's flour barrel runs low: the mill's
             // cart hasn't come down the north lane, and her asking puts the knoll on the map.
             MapScene.PrependConversation(GameObject.Find("Old Winna"), "windrest_writ", "act1.night1_survived",

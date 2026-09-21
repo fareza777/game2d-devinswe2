@@ -37,6 +37,10 @@
       "value": "Castellan Durn"
     },
     {
+      "key": "boss.halvard",
+      "value": "Halvard si Pemahat"
+    },
+    {
       "key": "boss.rook",
       "value": "Rook Varr"
     },
@@ -581,6 +585,18 @@
       "value": "Jaga tepiannya — muka galian tak memaafkan langkah ceroboh. Dan warden: kalau ada di bawah sana yang mengaku memegang cap Liga, mereka berdusta. Liga masih menyimpan segelnya. Siapa pun yang memotong kapur di bawahnya memotong untuk orang lain."
     },
     {
+      "key": "dlg.charter_ansel.a1",
+      "value": "Kau membawa die sebuah halaman mati ke dalam gedung yang hidup, warden. Orang Marshal bilang kau mungkin datang. Serahkan — potongannya akan berkata berapa harga diam itu dibeli."
+    },
+    {
+      "key": "dlg.charter_ansel.a2",
+      "value": "Aku memahat die untuk gedung ini — aku kenal tangan itu. Tanda tepiannya milik Halvard: pemahat die Liga, hilang dari daftar enam tahun, dan selama ini dibayar dengan koin yang tak pernah menyentuh buku. Dia tangan kirinya. Tangan kanan yang menulis daftar gaji."
+    },
+    {
+      "key": "dlg.charter_ansel.a3",
+      "value": "Koin cucian hanya ke satu tempat sebelum bersih: Benteng Tol tua di jalan utara — benteng mati yang dijaga tetap menyala. Tanda piagamku membuka simpangannya; gerbang petugas tol lebih mudah membacanya daripada surat panggilan. Bawa ini. Dan warden — Halvard kenal bunyi cap karena dialah capnya."
+    },
+    {
       "key": "dlg.city_asta.n1",
       "value": "Anakku dulu menarik pedati garam ke Rennfall, sebelum lembah itu gelap. Empat puluh tahun aku menunggu pedati di jalan itu."
     },
@@ -675,6 +691,34 @@
     {
       "key": "dlg.city_pell.n2",
       "value": "Apa itu pemegang perapian pertama? Entahlah. Aku dibayar untuk meneriakkannya, bukan untuk memahaminya."
+    },
+    {
+      "key": "dlg.drove_brigid.b1",
+      "value": "Kaulah penjaga api yang dibicarakan tenda-tenda, ya. Bagus — mendekatlah. Aku memasak untuk empat belas di api untuk enam, dan wagon terakhir menyerakkan bahan santapku dari lajur sampai tenda. Apa pun yang masih bagus di luar sana, panci menginginkannya."
+    },
+    {
+      "key": "dlg.drove_fen.f1",
+      "value": "Enam puluh tahun di jalan dan hanya kamp ini yang baunya sama. Api, gandum, gemuk pelana. Duduklah kalau lututmu kuat — jalan tak akan ke mana-mana, apa pun kata tol."
+    },
+    {
+      "key": "dlg.drove_hand.d1",
+      "value": "Tempat Istirahat tak pernah tutup untuk siapa pun — hujan, embun beku, pasukan cuci. Api warden disambut sama seperti wagon."
+    },
+    {
+      "key": "dlg.drove_nell.n1",
+      "value": "Wagonku datang kurang satu paku dan bertahan utuh karena keberuntungan. Tiga paku di rumput antara lajur dan kandang — temukan dan wagon berikutnya berhutang padamu. Jalan selalu membayar, warden. Tanya siapa saja."
+    },
+    {
+      "key": "dlg.drove_ossel.o1",
+      "value": "Warden. Maafkan keadaan tempat ini — kandang itu sebuah mulut dan ada yang menggerogotinya tiga malam. Hewan beban dulu, lalu pelananya, lalu apa pun yang tak dipaku. Kalau kau punya baja, serigala itu milikmu."
+    },
+    {
+      "key": "dlg.drove_ossel.o2",
+      "value": "Empat menurut hitungan pagar — mereka belajar kandang terbuka di tempat si bocah lupa mengunci gerbang. Bersihkan dan Tempat Istirahat ini tetap di jalan. Biarkan dan kami bubar sebelum beku."
+    },
+    {
+      "key": "dlg.drove_pate.p1",
+      "value": "Warden — pelananya. Aku seharusnya memegang kekang saat serigala datang dan aku tidak, dan tiga di antaranya jatuh di rumput antara wagon dan tenda. Ossel menghitung perlengkapan saat embun beku pertama. Kalau hitungannya kurang, punggungku kena."
     },
     {
       "key": "dlg.event_ash_ledger.rider_1",
@@ -1329,6 +1373,18 @@
       "value": "Dan Marshal Agung bersidang di Greymarch tiga hari lagi. Laporanku butuh segelmu, langsung. Ambil jalan timur keluar lembah dan tetaplah di jalan berbatu. Ada perempuan Liga Garam di sana, Vesna Kell, yang menanyakan dirimu. Temui dia lebih dulu. Dia membayar utangnya dengan kabar."
     },
     {
+      "key": "dlg.maren_ledger.m1",
+      "value": "Buku benteng itu. Buka di bawah lampu — aku ingin melihat rupa segel yang dijual saat ditulis dengan jujur."
+    },
+    {
+      "key": "dlg.maren_ledger.m2",
+      "value": "...Tiap slip. Tiap tangan. Gedung piagam akan membakar namanya sendiri sebelum ini berdiri — dan Marshal sendiri yang memegang obornya. Segel lembah ini miliknya sendiri lagi, warden. Apa pun Halvard dulu, koin yang ia cap berakhir padamu."
+    },
+    {
+      "key": "dlg.maren_ledger.m3",
+      "value": "Zirah terakhir yang dicetak Barisan — Oathplate — tersimpan di gudang benteng tol sampai pasukan cuci menjualnya. Kubawa ke sini saat muncul. Ambillah. Mahkota sudah tiada, tapi sumpah yang disumpahkan padanya membuat pemakainya tetap berdiri."
+    },
+    {
       "key": "dlg.merchant_sabel.leave",
       "value": "Kalau begitu saya di sini sampai jalan ditutup. Sesudah itu, tanya Warden ke mana saya pergi."
     },
@@ -1489,6 +1545,14 @@
       "value": "Kalau begitu makanlah kenyang malam ini, dan ingat kami di dekat api tenda. Aturan tak mengisi perut — sudah kuperiksa."
     },
     {
+      "key": "dlg.saltpans_tess_rest.t1",
+      "value": "Kau membawa pulang apa yang ditumpahkan petak, warden — tenda-tenda makan seminggu darinya. Satu kabar balasan, gratis. Di timur jalan tol ada kamp penggembala yang masih dipakai wagon — Tempat Istirahat. Mereka menerima penjaga api yang berjalan, dan akan membeli garam dengan jujur."
+    },
+    {
+      "key": "dlg.saltpans_tess_rest.t2",
+      "value": "Perhatikan bekas roda wagon tempat lajur bercabang — rumput tak berdusta. Dan warden: apa pun yang dilakukan pasukan cuci pada tol di utara, Tempat Istirahat mendengarnya duluan. Tanya kepala penggembala."
+    },
+    {
       "key": "dlg.saltpans_writ.w1",
       "value": "Manifest itu menamai lebih dari sekadar hantu-hantu benteng. Di antara pedati simpangan Durn ada satu yang tak pernah sampai — kereta garam Liga Garam, dicegat satu liga sebelum Benteng Besi."
     },
@@ -1635,6 +1699,74 @@
     {
       "key": "dlg.stamp_wicke.w3b",
       "value": "Karena anak yang mengangkut lempengan bisa makan. Dan karena tak ada yang bertanya pada pelari apa yang didengar para pelari — padahal semuanya, dan tak satu pun untuk kusimpan."
+    },
+    {
+      "key": "dlg.toll_annet.a1",
+      "value": "Empat belas dari kami dikandangkan di bawah panji sendiri, dihitung dengan lilin. Aku juga menyimpan hitungan — di buku kandang, di garam yang kusembunyikan. Saat halaman terakhir masuk api, angin membawa tiga. Kalau masih di halaman, nilainya lebih dari buku yang terbakar."
+    },
+    {
+      "key": "dlg.toll_annet.a2",
+      "value": "Aku sudah jadi janda benteng ini jauh sebelum pasukan cuci menjadikannya nyata — suamiku menghitung untuk Liga tiga puluh tahun, dan pasukan itu membayar pensiunnya dengan rantai. Bawa halaman-halaman itu dan akan kubacakan untuk siapa pun yang tersisa."
+    },
+    {
+      "key": "dlg.toll_effa.e1",
+      "value": "Aku menjaga pembukuan harian pasukan cuci — mereka tak bisa membacanya, jadi dirantai ke geladak seperti kami lainnya. Brankas-brankasnya bisa mereka baca: koin masuk, koin keluar, empat dipecah seperti telur dan ditinggalkan di geladak sebagai bukti tak ada yang berani menghentikan."
+    },
+    {
+      "key": "dlg.toll_effa.e2",
+      "value": "Bawa kembali utuh kalau bisa — kosong pun tak apa. Liga menghitung apa yang terjadi dari apa yang tersisa. Empat brankas adalah empat pekan tol yang tak pernah turun ke jalan."
+    },
+    {
+      "key": "dlg.toll_halvard.h1",
+      "value": "Seorang warden di halaman. Aku bertanya-tanya siapa yang akan dikirim koin untuk siapa — aku untuk bukunya, atau kau untuk die-nya. Duduklah di meja, kawan. Tol terakhir sudah dibayar; hanya belum dihitung."
+    },
+    {
+      "key": "dlg.toll_halvard.h2",
+      "value": "Mereka menjual lembah ini segelnya sendiri dan akulah yang memahat tangan-tangan yang mengambilnya — tiap segel di tiap slip palsu di benteng ini keluar dari die-ku, dan tak satu pun menyebut namaku. Itulah gunanya pemahat. Kau mau buku besar sejati? Di bawah meja itu. Lewati aku."
+    },
+    {
+      "key": "dlg.toll_halvard.h3",
+      "value": "Mari, warden dari mahkota mati. Tunjukkan berapa berat sumpah lama itu."
+    },
+    {
+      "key": "dlg.toll_halvard.h3.c1",
+      "value": "Untuk orang-orang yang kau kandangkan."
+    },
+    {
+      "key": "dlg.toll_halvard.h3.c2",
+      "value": "Liga membayar untuk kepalamu; buku besarnya juga kuambil."
+    },
+    {
+      "key": "dlg.toll_halvard.h3.c3",
+      "value": "Letakkan perkakas pemahat itu dan pertanggungjawabkan."
+    },
+    {
+      "key": "dlg.toll_halvard.h4a",
+      "value": "Kandang? Aku yang memberi mereka makan. Tanya peti-petinya."
+    },
+    {
+      "key": "dlg.toll_halvard.h4b",
+      "value": "Kalau begitu selesaikan seperti pembukuan diselesaikan: dengan angka keras."
+    },
+    {
+      "key": "dlg.toll_halvard.h4c",
+      "value": "Bertanggung jawab? Akulah jawabannya selama enam tahun. Kau terlambat."
+    },
+    {
+      "key": "dlg.toll_joss.j1",
+      "value": "Aku menghitung tol dengan kayu — tiap pedati satu toreh, tiap toreh satu shilling. Pasukan cuci membayar kami dengan tongkat yang tak bisa mereka baca, lalu membakar kayunya agar tak ada yang bisa. Tiga tongkat masih di halaman — hitunganku. Bawakan, dan orang mati itu dinamai."
+    },
+    {
+      "key": "dlg.toll_joss.j2",
+      "value": "Tol itu adil kalau jujur, warden. Jalan harus makan. Tapi tol yang memakan jalan — itu hanya serigala yang punya meja hitung."
+    },
+    {
+      "key": "dlg.toll_pike.p1",
+      "value": "Aku kurir di lajur untuk pasukan cuci — catatan ke anjungan, teh ke meja. Mereka membayarku dengan kerak garam dan menyebutku beruntung. Panji benteng masih berkibar di atas kandang tempat kami ditahan. Turunkan, warden. Awasi sudutnya — mereka mengibarkannya di atas hal yang tak ingin dilihat."
+    },
+    {
+      "key": "dlg.toll_porter.p1",
+      "value": "Pasukan cuci membayar dengan kerak dan menghitung kami seperti koin — lega melihat punggung mereka. Geladaknya dingin sekarang mejanya kosong. Kami menjaga halaman ini sampai petugas tol sungguhan kembali."
     },
     {
       "key": "dlg.vesna_ledger.v1",
@@ -1897,6 +2029,10 @@
       "value": "'Peminjam' tongkat ukur berkeberatan."
     },
     {
+      "key": "event.drove.corral",
+      "value": "Kawanan itu ada di mulut kandang."
+    },
+    {
       "key": "event.goSpeak",
       "value": "Temui dan ajak bicara"
     },
@@ -1991,6 +2127,22 @@
     {
       "key": "event.surveyors.banner",
       "value": "Dua orang dengan rantai ukur sedang menyusuri batas tanah Anda."
+    },
+    {
+      "key": "event.toll.banner",
+      "value": "Mereka berjaga di bawah panji sendiri."
+    },
+    {
+      "key": "event.toll.breach",
+      "value": "Pasukan cuci merapat di celah bobol."
+    },
+    {
+      "key": "event.toll.court",
+      "value": "Jagaan halaman menguasai pelataran."
+    },
+    {
+      "key": "event.toll.ledger",
+      "value": "Penjaga terakhir berdiri di atas buku."
     },
     {
       "key": "event.wild.banner",
@@ -2325,12 +2477,28 @@
       "value": "Zirah Setengah Liga"
     },
     {
+      "key": "item.armor_oathplate.desc",
+      "value": "Zirah yang disumpahkan pada mahkota yang sudah tidak ada — terbitan terakhir Barisan, diolesi di benteng tol mati. Siapa pun yang memakainya mengulangi janji lama itu."
+    },
+    {
+      "key": "item.armor_oathplate.name",
+      "value": "Zirah Sumpah"
+    },
+    {
       "key": "item.armor_padded.desc",
       "value": "Jahitan pengungsi di atas potongan prajurit. Hangat, dan di sini itu lebih berharga."
     },
     {
       "key": "item.armor_padded.name",
       "value": "Mantel Berlapis"
+    },
+    {
+      "key": "item.armor_ranger.desc",
+      "value": "Kulit tunggangan berwarna, dipotong cukup pas untuk bergerak — untuk penjaga yang berniat berjalan lebih cepat dari masalah, bukan menahannya."
+    },
+    {
+      "key": "item.armor_ranger.name",
+      "value": "Kulit Peronda"
     },
     {
       "key": "item.armor_refugee.desc",
@@ -2421,6 +2589,14 @@
       "value": "Bulu Hitam"
     },
     {
+      "key": "item.bow_drover.desc",
+      "value": "Busur pendek bertanduk yang dibuat untuk menembak dari bangku wagon — sejelek tiang pagar, sejujur orang yang memasangnya."
+    },
+    {
+      "key": "item.bow_drover.name",
+      "value": "Busur Penggembala"
+    },
+    {
       "key": "item.bow_hunter.desc",
       "value": "Ditarik benar, ia menembus tengkorak dari delapan puluh langkah. Ditarik salah, ibu jarimu patah."
     },
@@ -2467,6 +2643,14 @@
     {
       "key": "item.food_bread.name",
       "value": "Roti Ransum Keras"
+    },
+    {
+      "key": "item.food_cheese.desc",
+      "value": "Roda kuning keras yang tahan tiga musim — makanan jalanan yang rasanya seperti tempat aman."
+    },
+    {
+      "key": "item.food_cheese.name",
+      "value": "Keju Penggembala"
     },
     {
       "key": "item.food_salt_meat.desc",
@@ -2547,6 +2731,14 @@
     {
       "key": "item.helm_sallet.name",
       "value": "Helm Penyok"
+    },
+    {
+      "key": "item.helm_visor.desc",
+      "value": "Sallet yang tudungnya masih pada engselnya — helm penjaga tol, penyok di tempat tol terakhir yang sungguhan dipertengkarkan."
+    },
+    {
+      "key": "item.helm_visor.name",
+      "value": "Sallet Bertudung"
     },
     {
       "key": "item.helm_warden.desc",
@@ -2661,6 +2853,14 @@
       "value": "Bata Garam"
     },
     {
+      "key": "item.mat_silver.desc",
+      "value": "Sepotong perak cerah yang terlalu bersih — cucian tak meninggalkan riwayat di atasnya. Bernilai satu percetakan bagi yang tak bertanya."
+    },
+    {
+      "key": "item.mat_silver.name",
+      "value": "Perak Cuci"
+    },
+    {
       "key": "item.mat_stone.desc",
       "value": "Untuk perapian, pondasi, dan nisan. Belakangan ini kebanyakan nisan."
     },
@@ -2725,6 +2925,14 @@
       "value": "Ramuan Kulit Batu"
     },
     {
+      "key": "item.potion_swiftness.desc",
+      "value": "Pahit, panas, samar kehijauan — obat penggembala untuk segala yang mengejar. Panas saat ditelan, lalu jalan jadi lebih pendek."
+    },
+    {
+      "key": "item.potion_swiftness.name",
+      "value": "Tonik Kaki Cepat"
+    },
+    {
       "key": "item.quest_burn_ledger.desc",
       "value": "Setiap desa yang dibersihkan, dengan kolom jiwa tercatat. Kolom terakhir selalu penuh dan selalu salah."
     },
@@ -2779,6 +2987,14 @@
     {
       "key": "item.quest_keeper_rod.name",
       "value": "Tongkat Ukur Penjaga Tungku"
+    },
+    {
+      "key": "item.quest_ledger_page.desc",
+      "value": "Halaman Buku Robek"
+    },
+    {
+      "key": "item.quest_ledger_page.name",
+      "value": "Halaman Buku Robek"
     },
     {
       "key": "item.quest_marshal_writ.desc",
@@ -2925,12 +3141,68 @@
       "value": "Kunci Gudang"
     },
     {
+      "key": "item.quest_strongbox.desc",
+      "value": "Brankas Tol"
+    },
+    {
+      "key": "item.quest_strongbox.name",
+      "value": "Brankas Tol"
+    },
+    {
+      "key": "item.quest_supper.desc",
+      "value": "Bahan Santap Malam"
+    },
+    {
+      "key": "item.quest_supper.name",
+      "value": "Bahan Santap Malam"
+    },
+    {
+      "key": "item.quest_tack.desc",
+      "value": "Pelana Jatuh"
+    },
+    {
+      "key": "item.quest_tack.name",
+      "value": "Pelana Jatuh"
+    },
+    {
       "key": "item.quest_testament.desc",
       "value": "Menyerahkan Lembah Rennfall kepada Kael Voss. Klausul keempatnya ditulis dengan tulisan tangan yang berbeda."
     },
     {
       "key": "item.quest_testament.name",
       "value": "Surat Wasiat Ratu"
+    },
+    {
+      "key": "item.quest_toll_banner.desc",
+      "value": "Panji Tol"
+    },
+    {
+      "key": "item.quest_toll_banner.name",
+      "value": "Panji Tol"
+    },
+    {
+      "key": "item.quest_toll_tally.desc",
+      "value": "Tongkat Hitung Tol"
+    },
+    {
+      "key": "item.quest_toll_tally.name",
+      "value": "Tongkat Hitung Tol"
+    },
+    {
+      "key": "item.quest_true_ledger.desc",
+      "value": "Buku Besar Sejati"
+    },
+    {
+      "key": "item.quest_true_ledger.name",
+      "value": "Buku Besar Sejati"
+    },
+    {
+      "key": "item.quest_wagon_pin.desc",
+      "value": "Paku Wagon"
+    },
+    {
+      "key": "item.quest_wagon_pin.name",
+      "value": "Paku Wagon"
     },
     {
       "key": "item.quest_wick_lamp.desc",
@@ -2947,6 +3219,14 @@
     {
       "key": "item.relic_hearth_coal.name",
       "value": "Bara Pertama"
+    },
+    {
+      "key": "item.relic_road_stone.desc",
+      "value": "Salah satu batu penunjuk yang dipotong survei pertama — balok pucat yang bertahan lebih lama dari jalan yang ditandainya. Memegangnya adalah bertahan."
+    },
+    {
+      "key": "item.relic_road_stone.name",
+      "value": "Batu Jalanan"
     },
     {
       "key": "item.relic_root_crown_shard.desc",
@@ -2987,6 +3267,14 @@
     {
       "key": "item.ring_serpent.name",
       "value": "Lilitan Ular"
+    },
+    {
+      "key": "item.ring_verdant.desc",
+      "value": "Cincin perunggu menghijau dari jari rumah tol — patina empat puluh tahun koin orang lain."
+    },
+    {
+      "key": "item.ring_verdant.name",
+      "value": "Cincin Perunggu"
     },
     {
       "key": "item.shield_kite.desc",
@@ -3189,6 +3477,14 @@
       "value": "Simpul Bara"
     },
     {
+      "key": "item.trinket_horn.desc",
+      "value": "Tanduk penanda yang dibawa mandor wagon terakhir yang jujur di jalan utara. Masih berbau cuaca baik."
+    },
+    {
+      "key": "item.trinket_horn.name",
+      "value": "Tanduk Sang Penggembala"
+    },
+    {
       "key": "item.trinket_lion_pin.desc",
       "value": "Memakai lambang Protektor di Rennfall bisa berarti kesetiaan atau umpan. Belum ada yang memutuskan."
     },
@@ -3243,6 +3539,14 @@
     {
       "key": "item.trinket_tally.name",
       "value": "Hitungan Penggali Kubur"
+    },
+    {
+      "key": "item.trinket_waystone.desc",
+      "value": "Keping batu mil yang aus halus dalam brankas selama tiga puluh tahun — berat, bersiku, pasti. Membuat pemakainya tetap berdiri."
+    },
+    {
+      "key": "item.trinket_waystone.name",
+      "value": "Batu Jalan"
     },
     {
       "key": "item.whetstone.desc",
@@ -3613,6 +3917,14 @@
       "value": "Kembali menyusuri simpangan ke jalan dagang"
     },
     {
+      "key": "prompt.travel.drovers",
+      "value": "Ikuti bekas roda wagon ke Tempat Istirahat"
+    },
+    {
+      "key": "prompt.travel.droversOut",
+      "value": "Kembali menyusuri bekas roda ke jalan dagang"
+    },
+    {
       "key": "prompt.travel.greymarch",
       "value": "Lanjut ke Greymarch"
     },
@@ -3655,6 +3967,14 @@
     {
       "key": "prompt.travel.stampworksOut",
       "value": "Kembali menyusuri simpangan ke lubang"
+    },
+    {
+      "key": "prompt.travel.tollbank",
+      "value": "Naiki simpangan utara ke Benteng Tol"
+    },
+    {
+      "key": "prompt.travel.tollbankOut",
+      "value": "Kembali menyusuri simpangan ke jalan dagang"
     },
     {
       "key": "prompt.travel.valley",
@@ -3877,6 +4197,34 @@
       "value": "Dipanggil ke Greymarch"
     },
     {
+      "key": "quest.q_tollbank.s1",
+      "value": "Temukan Warden Piagam Ansel di Greymarch"
+    },
+    {
+      "key": "quest.q_tollbank.s2",
+      "value": "Tumbangkan jagaan pasukan cuci di Benteng Tol"
+    },
+    {
+      "key": "quest.q_tollbank.s3",
+      "value": "Jawab Halvard si Pemahat di tangga rumah tol"
+    },
+    {
+      "key": "quest.q_tollbank.s4",
+      "value": "Ambil buku besar sejati dari bawah meja"
+    },
+    {
+      "key": "quest.q_tollbank.s5",
+      "value": "Letakkan buku besar itu di tangan Inspektur Maren"
+    },
+    {
+      "key": "quest.q_tollbank.summary",
+      "value": "Die induk itu dipahat di dalam gedung piagam Greymarch sendiri — dijual kepada para pembelot oleh seseorang yang ditulis daftar gaji untuk dilindungi. Seorang warden piagam di sana sedang menunggu untuk mendengarnya. Tandanya membuka benteng tol tua di jalan utara, tempat koin cucian menjadi uang jujur — dan tempat orang yang menandatanganinya menunggu."
+    },
+    {
+      "key": "quest.q_tollbank.title",
+      "value": "Tangan Kiri Liga"
+    },
+    {
       "key": "quest.returnTo",
       "value": "Kembali ke {0}"
     },
@@ -3955,6 +4303,54 @@
     {
       "key": "quest.sq_dace_patrol.title",
       "value": "Hitungan Seorang Kopral"
+    },
+    {
+      "key": "quest.sq_drove_jackals.s1",
+      "value": "Bersihkan serigala yang menggerogoti mulut kandang"
+    },
+    {
+      "key": "quest.sq_drove_jackals.summary",
+      "value": "Sekelompok serigala menggerogoti mulut kandang tiap malam sejak embun beku — Ossel sudah kehilangan dua tunggangan. Bersihkan mulut kandang itu dan Tempat Istirahat ini tetap buka sepanjang musim dingin."
+    },
+    {
+      "key": "quest.sq_drove_jackals.title",
+      "value": "Serigala di Pagar"
+    },
+    {
+      "key": "quest.sq_drove_pins.s1",
+      "value": "Temukan tiga paku wagon yang hilang"
+    },
+    {
+      "key": "quest.sq_drove_pins.summary",
+      "value": "Wagon Nell datang kekurangan satu paku dan bertahan utuh karena kebiasaan — tiga paku tergeletak di antara lajur dan kandang. Temukan dan ia akan berhutang pada jalan, hutang yang berniat ia bayar."
+    },
+    {
+      "key": "quest.sq_drove_pins.title",
+      "value": "Kurang Tiga Paku"
+    },
+    {
+      "key": "quest.sq_drove_supper.s1",
+      "value": "Pungut empat bahan santap untuk api"
+    },
+    {
+      "key": "quest.sq_drove_supper.summary",
+      "value": "Brigid memasak untuk empat belas orang dari jatah enam — bahan santap kamp berserakan saat wagon terakhir kabur masuk. Pungut yang masih bagus: umbi di lajur, bawang dekat api, keju dan daging awet di mana pun menggelinding."
+    },
+    {
+      "key": "quest.sq_drove_supper.title",
+      "value": "Satu Santap Panas"
+    },
+    {
+      "key": "quest.sq_drove_tack.s1",
+      "value": "Temukan tiga potong pelana yang jatuh"
+    },
+    {
+      "key": "quest.sq_drove_tack.summary",
+      "value": "Pate dipercaya menjaga kekang dan menjatuhkan tiga saat serigala datang — satu dekat wagon, satu di lajur, satu di dekat tenda. Kepala penggembala mencambuk bocah untuk lebih sedikit dari itu. Temukan sebelum Ossel menghitung."
+    },
+    {
+      "key": "quest.sq_drove_tack.title",
+      "value": "Pelana yang Kabur"
     },
     {
       "key": "quest.sq_flawless_vigil.s1",
@@ -4313,6 +4709,54 @@
       "value": "Buku Hitungan Juru Tulis"
     },
     {
+      "key": "quest.sq_toll_banner.s1",
+      "value": "Turunkan panji tol dari kandang"
+    },
+    {
+      "key": "quest.sq_toll_banner.summary",
+      "value": "Panji garam benteng masih tergantung di atas kandang tempat Pike menyaksikan pasukan cuci bekerja. Turunkan — panji itu juga dijaga, karena itulah satu-satunya yang masih mereka kibarkan di atas koin yang mereka miliki."
+    },
+    {
+      "key": "quest.sq_toll_banner.title",
+      "value": "Panji yang Turun"
+    },
+    {
+      "key": "quest.sq_toll_pages.s1",
+      "value": "Temukan tiga lembar buku besar di halaman"
+    },
+    {
+      "key": "quest.sq_toll_pages.summary",
+      "value": "Annet memberi makan api kandang dengan bukunya sendiri, halaman demi halaman, agar kebenaran tak berakhir jadi abu — tiga lembar lolos lewat angin dan masih tergeletak di halaman. Temukan; ia tetap hafal kata-katanya."
+    },
+    {
+      "key": "quest.sq_toll_pages.title",
+      "value": "Halaman yang Keluar"
+    },
+    {
+      "key": "quest.sq_toll_strongboxes.s1",
+      "value": "Temukan empat brankas yang dikosongkan"
+    },
+    {
+      "key": "quest.sq_toll_strongboxes.summary",
+      "value": "Juru tulis Effa menyaksikan pasukan cuci merantai brankas-brankas tol ke geladak dan memecahkannya seperti telur. Empat brankas masih terduduk di tempatnya dikosongkan — Liga menginginkannya kembali utuh, sebagai bukti apa yang dilakukan pada isinya."
+    },
+    {
+      "key": "quest.sq_toll_strongboxes.title",
+      "value": "Brankas yang Tak Pernah Kosong"
+    },
+    {
+      "key": "quest.sq_toll_tallies.s1",
+      "value": "Pungut tiga tongkat hitung di halaman"
+    },
+    {
+      "key": "quest.sq_toll_tallies.summary",
+      "value": "Joss tua tetap menyimpan tongkat hitungnya bahkan saat dikandang — setiap hitungan yang dibayarkan pada pasukan cuci, terpahat di kayu yang tak bisa mereka baca. Tiga tongkat masih tergeletak di halaman. Bawakan, dan para petugas tol yang tewas akan mendapat hitungan mereka dinamai."
+    },
+    {
+      "key": "quest.sq_toll_tallies.title",
+      "value": "Hitungan yang Tak Terbayar"
+    },
+    {
       "key": "quest.sq_unmarked_boots.s1",
       "value": "Temukan bukti siapa yang membayar para perampok"
     },
@@ -4557,6 +5001,14 @@
       "value": "Terbuka di level {0}"
     },
     {
+      "key": "speaker.annet",
+      "value": "Janda Annet"
+    },
+    {
+      "key": "speaker.ansel",
+      "value": "Warden Piagam Ansel"
+    },
+    {
       "key": "speaker.asta",
       "value": "Janda Asta"
     },
@@ -4575,6 +5027,10 @@
     {
       "key": "speaker.brann",
       "value": "Brann Hollowell"
+    },
+    {
+      "key": "speaker.brigid",
+      "value": "Brigid si Juru Masak"
     },
     {
       "key": "speaker.bryd",
@@ -4609,8 +5065,20 @@
       "value": "Dess si Porter"
     },
     {
+      "key": "speaker.drover",
+      "value": "Penggembala"
+    },
+    {
       "key": "speaker.durn",
       "value": "Castellan Durn"
+    },
+    {
+      "key": "speaker.effa",
+      "value": "Juru Tulis Effa"
+    },
+    {
+      "key": "speaker.fen",
+      "value": "Fen Tua"
     },
     {
       "key": "speaker.ferra",
@@ -4623,6 +5091,10 @@
     {
       "key": "speaker.gethin",
       "value": "Gethin si Penggali"
+    },
+    {
+      "key": "speaker.halvard",
+      "value": "Halvard si Pemahat"
     },
     {
       "key": "speaker.hask",
@@ -4647,6 +5119,10 @@
     {
       "key": "speaker.jory",
       "value": "Penyetel Die Jory"
+    },
+    {
+      "key": "speaker.joss",
+      "value": "Petugas Tol Joss"
     },
     {
       "key": "speaker.kael",
@@ -4677,6 +5153,10 @@
       "value": "Mirren si Tua"
     },
     {
+      "key": "speaker.nell",
+      "value": "Nell si Tukang Cemeti"
+    },
+    {
       "key": "speaker.novak",
       "value": "Juru Tulis Novak"
     },
@@ -4693,12 +5173,24 @@
       "value": "Oona si Kuli"
     },
     {
+      "key": "speaker.ossel",
+      "value": "Ossel Kepala Penggembala"
+    },
+    {
+      "key": "speaker.pate",
+      "value": "Pate Anak Pelana"
+    },
+    {
       "key": "speaker.pell",
       "value": "Pell si Juru Teriak"
     },
     {
       "key": "speaker.penn",
       "value": "Penn si Bocah Jelaga"
+    },
+    {
+      "key": "speaker.pike",
+      "value": "Bocah Pike"
     },
     {
       "key": "speaker.pyke",
@@ -4751,6 +5243,10 @@
     {
       "key": "speaker.tobias",
       "value": "Tobias Reed"
+    },
+    {
+      "key": "speaker.toll_porter",
+      "value": "Kuli Tol"
     },
     {
       "key": "speaker.vall",
@@ -4833,6 +5329,10 @@
       "value": "Fajar. Lembah kembali sunyi."
     },
     {
+      "key": "toast.droveCorral",
+      "value": "Mulut kandang sudah aman"
+    },
+    {
       "key": "toast.durnDown",
       "value": "Castellan Durn telah tumbang"
     },
@@ -4855,6 +5355,10 @@
     {
       "key": "toast.graveStir",
       "value": "Kuburan-kuburan bergerak."
+    },
+    {
+      "key": "toast.halvardDown",
+      "value": "Halvard si Pemahat telah tumbang"
     },
     {
       "key": "toast.hearthNeeds",
@@ -4935,6 +5439,14 @@
     {
       "key": "toast.stampClear",
       "value": "Lantai percetakan sudah bersih"
+    },
+    {
+      "key": "toast.tollBreach",
+      "value": "Celah bobol sudah direbut"
+    },
+    {
+      "key": "toast.tollCourt",
+      "value": "Halaman sudah bersih"
     },
     {
       "key": "toast.used",

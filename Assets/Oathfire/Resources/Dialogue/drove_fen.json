@@ -1,0 +1,19 @@
+{
+  "id": "drove_fen",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "f1",
+      "speaker": "fen",
+      "textKey": "dlg.drove_fen.f1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

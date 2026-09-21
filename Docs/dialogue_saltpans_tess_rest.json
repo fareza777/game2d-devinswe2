@@ -1,0 +1,25 @@
+{
+ "id": "saltpans_tess_rest",
+ "startNode": "t1",
+ "nodes": [
+  {
+   "id": "t1",
+   "speaker": "tess",
+   "text": {
+    "en": "You brought back what the pans spilled, warden — the tents ate a week on it. A word back, then, for free. East of the toll road there's a drovers' camp the wagons still use — the Rest. They'll take in a walking fire-keeper, and they'd buy salt honest.",
+    "id": "Kau membawa pulang apa yang ditumpahkan petak, warden — tenda-tenda makan seminggu darinya. Satu kabar balasan, gratis. Di timur jalan tol ada kamp penggembala yang masih dipakai wagon — Tempat Istirahat. Mereka menerima penjaga api yang berjalan, dan akan membeli garam dengan jujur."
+   }
+  },
+  {
+   "id": "t2",
+   "speaker": "tess",
+   "text": {
+    "en": "Watch for the wagon ruts where the lane forks off — the grass don't lie. And warden: whatever the crew did to the toll up north, the Rest heard it first. Ask the head drover.",
+    "id": "Perhatikan bekas roda wagon tempat lajur bercabang — rumput tak berdusta. Dan warden: apa pun yang dilakukan pasukan cuci pada tol di utara, Tempat Istirahat mendengarnya duluan. Tanya kepala penggembala."
+   },
+   "setFlags": [
+    "act2.drovers_rumoured"
+   ]
+  }
+ ]
+}

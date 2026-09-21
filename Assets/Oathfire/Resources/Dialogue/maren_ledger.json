@@ -1,0 +1,47 @@
+{
+  "id": "maren_ledger",
+  "startNode": "a1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "maren",
+      "textKey": "dlg.maren_ledger.m1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "m2",
+      "speaker": "maren",
+      "textKey": "dlg.maren_ledger.m2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "m3",
+      "speaker": "maren",
+      "textKey": "dlg.maren_ledger.m3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act3.ledger_closed"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

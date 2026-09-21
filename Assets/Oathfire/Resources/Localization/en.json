@@ -37,6 +37,10 @@
       "value": "Castellan Durn"
     },
     {
+      "key": "boss.halvard",
+      "value": "Halvard the Cutter"
+    },
+    {
       "key": "boss.rook",
       "value": "Rook Varr"
     },
@@ -581,6 +585,18 @@
       "value": "Mind the rim — a worked face does not forgive a careless step. And warden: if someone down there claims the League's stamp, they are lying. The League still has its seal. Whoever cut chalk under it is cutting for someone else."
     },
     {
+      "key": "dlg.charter_ansel.a1",
+      "value": "You carry a dead yard's die into a live building, warden. The Marshal's man told me you might. Give it here — the cut will say what the price of silence bought."
+    },
+    {
+      "key": "dlg.charter_ansel.a2",
+      "value": "I sink dies for this house — I know that hand. The rim-mark is Halvard's: the League's die-cutter, gone from the rolls six years, and paid these years in coin that never touched a ledger. He was the left hand. The right wrote the payroll."
+    },
+    {
+      "key": "dlg.charter_ansel.a3",
+      "value": "The washed coin goes one place before it's clean: the old Tollbank on the north road — a dead fort the crew keeps lit. My charter-mark opens the spur; the tollman's gate reads it better than any summons. Take it. And warden — Halvard knew the sound of the stamp because he was the stamp."
+    },
+    {
       "key": "dlg.city_asta.n1",
       "value": "My son drove the salt carts to Rennfall, before the valley went dark. Forty years I have watched that road for a wagon."
     },
@@ -675,6 +691,34 @@
     {
       "key": "dlg.city_pell.n2",
       "value": "What is a holder of a first hearth? No idea. They pay me to shout it, not to understand it."
+    },
+    {
+      "key": "dlg.drove_brigid.b1",
+      "value": "You're the fire-keeper the tents talk about, then. Good — come warmer. I cook for fourteen on a fire meant for six, and the last wagon scattered my supper fixings from the lane to the tents. Whatever's still good out there, the pot wants it."
+    },
+    {
+      "key": "dlg.drove_fen.f1",
+      "value": "Sixty years on the road and the Rest is the only camp that smells the same. Fire, oats, harness grease. Sit if you've got the knees — the road's not going anywhere, whatever the toll says."
+    },
+    {
+      "key": "dlg.drove_hand.d1",
+      "value": "The Rest don't close for anyone — rain, frost, the crew. Warden's light's welcome here same as the wagons."
+    },
+    {
+      "key": "dlg.drove_nell.n1",
+      "value": "My wagon came in a pin short and held together out of spite. Three pins in the grass between the lane and the corral — find them and the next wagon that leaves owes you. Road pays, warden. Ask anyone."
+    },
+    {
+      "key": "dlg.drove_ossel.o1",
+      "value": "Warden. You'll forgive the look of the place — the corral's a mouth and something's been feeding through it three nights. Pack animals first, then the tack, then whatever isn't nailed. If you've got steel, the jackals are yours."
+    },
+    {
+      "key": "dlg.drove_ossel.o2",
+      "value": "Four by the rail's count — they've learned the corral opens where the boy forgot the gate. Clear them and the Rest stays on the road. Lose them and we fold before the freeze."
+    },
+    {
+      "key": "dlg.drove_pate.p1",
+      "value": "Warden — the tack. I was meant to hold the bridles when the jackals came and I didn't, and three of them went in the grass between the wagons and the tents. Ossel counts the kit at first frost. If he's counting short, it's my back."
     },
     {
       "key": "dlg.event_ash_ledger.rider_1",
@@ -1329,6 +1373,18 @@
       "value": "And the High Marshal sits in Greymarch in three days. My report needs your seal on it, in person. Take the east road out of the valley and keep to the cobbles. There is a Salt League woman there, Vesna Kell, who has been asking about you. See her first. She pays her debts in news."
     },
     {
+      "key": "dlg.maren_ledger.m1",
+      "value": "The fort's books. Open it on the lamp — I want to see what a sold seal looks like when it's written down honest."
+    },
+    {
+      "key": "dlg.maren_ledger.m2",
+      "value": "...Every slip. Every hand. The charter house will burn its own name before this stands — and the Marshal will hold the torch herself. The valley's seal is its own again, warden. Whatever else Halvard was, the coin he struck ends with you."
+    },
+    {
+      "key": "dlg.maren_ledger.m3",
+      "value": "The last plate the Line struck — the Oathplate — sat in the toll fort's stores until the crew fenced it out. I had it brought here when it surfaced. Take it. The crown's gone, but the oath it was sworn to keeps a wearer standing."
+    },
+    {
       "key": "dlg.merchant_sabel.leave",
       "value": "Then I will be here until the road closes. After that, ask the Warden where I went."
     },
@@ -1489,6 +1545,14 @@
       "value": "Then eat well tonight, and think of us by the tent fire. Rules fill no stomach — I checked."
     },
     {
+      "key": "dlg.saltpans_tess_rest.t1",
+      "value": "You brought back what the pans spilled, warden — the tents ate a week on it. A word back, then, for free. East of the toll road there's a drovers' camp the wagons still use — the Rest. They'll take in a walking fire-keeper, and they'd buy salt honest."
+    },
+    {
+      "key": "dlg.saltpans_tess_rest.t2",
+      "value": "Watch for the wagon ruts where the lane forks off — the grass don't lie. And warden: whatever the crew did to the toll up north, the Rest heard it first. Ask the head drover."
+    },
+    {
       "key": "dlg.saltpans_writ.w1",
       "value": "The manifest named more than the keep's ghosts. Among Durn's diverted wagons is one that never reached him — a Salt League salt train, waylaid a league short of the Iron Keep."
     },
@@ -1635,6 +1699,74 @@
     {
       "key": "dlg.stamp_wicke.w3b",
       "value": "Because a boy who carries blanks eats. And because nobody asks a runner what the runners hear — which is everything, and none of it mine to keep."
+    },
+    {
+      "key": "dlg.toll_annet.a1",
+      "value": "Fourteen of us they caged under their own banner, and counted us by candle. I kept the count too — in the cage book, in the salt I hid. When the last page went to the fire, the wind took three. If they're still in the court they're worth more than the books that burned."
+    },
+    {
+      "key": "dlg.toll_annet.a2",
+      "value": "I was the toll's widow long before the crew made it true — my husband counted for the League thirty years, and the crew paid his pension in chains. Bring the pages and I'll read them for whoever's left to read."
+    },
+    {
+      "key": "dlg.toll_effa.e1",
+      "value": "I kept the crew's daybook — they couldn't read it, so they chained it to the deck like the rest of us. The strongboxes, though, they could read: coin in, coin out, four of them cracked like eggs and left on the deck as proof nobody dared stop them."
+    },
+    {
+      "key": "dlg.toll_effa.e2",
+      "value": "Bring them back unbroken if you can — empty. The League counts what was done by what was left. Four boxes is four weeks of toll they never sent down the road."
+    },
+    {
+      "key": "dlg.toll_halvard.h1",
+      "value": "A warden in the court. I wondered which of us the coin would send for — me for the books, or you for the die. Sit on the counter, friend. The last toll was already paid; it just hasn't been counted."
+    },
+    {
+      "key": "dlg.toll_halvard.h2",
+      "value": "They sold a valley its own seal and I cut the hands that took it — every seal on every false slip in this fort came off my die, and not one of them says my name. That's what a cutter is for. You want the true ledger? It's under the counter. Over me."
+    },
+    {
+      "key": "dlg.toll_halvard.h3",
+      "value": "Come then, warden of a dead crown. Show me what the old oath weighs."
+    },
+    {
+      "key": "dlg.toll_halvard.h3.c1",
+      "value": "For the men you caged, then."
+    },
+    {
+      "key": "dlg.toll_halvard.h3.c2",
+      "value": "The League pays for the head; I'll take the ledger too."
+    },
+    {
+      "key": "dlg.toll_halvard.h3.c3",
+      "value": "Put the cutter's tools down and answer for it."
+    },
+    {
+      "key": "dlg.toll_halvard.h4a",
+      "value": "Caged? I fed them. Ask the crates."
+    },
+    {
+      "key": "dlg.toll_halvard.h4b",
+      "value": "Then we'll settle it the way accounts settle: in hard numbers."
+    },
+    {
+      "key": "dlg.toll_halvard.h4c",
+      "value": "Answer? I've been the answer for six years. You're late."
+    },
+    {
+      "key": "dlg.toll_joss.j1",
+      "value": "I counted tolls by wood — every cart a cut, every cut a shilling. The crew paid us in sticks we couldn't read, then burned the wood so no one could. Three tallies still lie in the court — my count. Bring them and the dead men get named."
+    },
+    {
+      "key": "dlg.toll_joss.j2",
+      "value": "Toll's a fair thing when it's honest, warden. A road has to eat. But a toll that eats the road — that's just a wolf with a counter."
+    },
+    {
+      "key": "dlg.toll_pike.p1",
+      "value": "I ran the lane for the crew — notes to the dais, tea to the bench. They paid me in salt crust and called me lucky. The fort's banner still flies over the pen where they kept us. Take it down, warden. Watch the corner — they fly it over things they don't want seen."
+    },
+    {
+      "key": "dlg.toll_porter.p1",
+      "value": "The crew paid in crusts and counted us like coin — glad enough to see the back of them. The deck's cold now the counter's empty. We'll hold the yard till the real tollmen come back."
     },
     {
       "key": "dlg.vesna_ledger.v1",
@@ -1897,6 +2029,10 @@
       "value": "The rod's 'borrowers' object."
     },
     {
+      "key": "event.drove.corral",
+      "value": "The pack is at the corral mouth."
+    },
+    {
       "key": "event.goSpeak",
       "value": "Go and speak to them"
     },
@@ -1991,6 +2127,22 @@
     {
       "key": "event.surveyors.banner",
       "value": "Two men with measuring chains are walking your boundary."
+    },
+    {
+      "key": "event.toll.banner",
+      "value": "They kept watch under their own banner."
+    },
+    {
+      "key": "event.toll.breach",
+      "value": "The washing crew closes at the breach."
+    },
+    {
+      "key": "event.toll.court",
+      "value": "The court watch takes the yard."
+    },
+    {
+      "key": "event.toll.ledger",
+      "value": "The last watch stands over the books."
     },
     {
       "key": "event.wild.banner",
@@ -2325,12 +2477,28 @@
       "value": "League Half-Mail"
     },
     {
+      "key": "item.armor_oathplate.desc",
+      "value": "Plate sworn to a crown that no longer exists — the Line's last issue, kept oiled in a dead toll fort. Whoever wears it is making the old promise again."
+    },
+    {
+      "key": "item.armor_oathplate.name",
+      "value": "The Oathplate"
+    },
+    {
       "key": "item.armor_padded.desc",
       "value": "Refugee stitching over a soldier's cut. Warm, which counts for more out here."
     },
     {
       "key": "item.armor_padded.name",
       "value": "Padded Coat"
+    },
+    {
+      "key": "item.armor_ranger.desc",
+      "value": "Dyed riding leathers cut close enough to move in — for the warden who means to outwalk trouble, not outlast it."
+    },
+    {
+      "key": "item.armor_ranger.name",
+      "value": "Ranger's Leathers"
     },
     {
       "key": "item.armor_refugee.desc",
@@ -2421,6 +2589,14 @@
       "value": "Blackfletch"
     },
     {
+      "key": "item.bow_drover.desc",
+      "value": "A short horn bow made for shooting from a wagon bench — ugly as a fence post, honest as the man who strung it."
+    },
+    {
+      "key": "item.bow_drover.name",
+      "value": "The Drover's Bow"
+    },
+    {
       "key": "item.bow_hunter.desc",
       "value": "Drawn properly it puts a shaft through a skull at eighty paces. Drawn badly it breaks your thumb."
     },
@@ -2467,6 +2643,14 @@
     {
       "key": "item.food_bread.name",
       "value": "Hard Ration Bread"
+    },
+    {
+      "key": "item.food_cheese.desc",
+      "value": "A hard yellow wheel that keeps through three seasons — road food that tastes like somewhere safe."
+    },
+    {
+      "key": "item.food_cheese.name",
+      "value": "Drover's Cheese"
     },
     {
       "key": "item.food_salt_meat.desc",
@@ -2547,6 +2731,14 @@
     {
       "key": "item.helm_sallet.name",
       "value": "Dented Sallet"
+    },
+    {
+      "key": "item.helm_visor.desc",
+      "value": "A sallet with its visor still on its hinges — the tollman's guard-helm, dented where the last real toll was argued over."
+    },
+    {
+      "key": "item.helm_visor.name",
+      "value": "Visored Sallet"
     },
     {
       "key": "item.helm_warden.desc",
@@ -2661,6 +2853,14 @@
       "value": "Salt Brick"
     },
     {
+      "key": "item.mat_silver.desc",
+      "value": "A bar of bright, too-clean silver — the wash left no history on it. Worth a mint to anyone who asks no questions."
+    },
+    {
+      "key": "item.mat_silver.name",
+      "value": "Washed Silver"
+    },
+    {
       "key": "item.mat_stone.desc",
       "value": "Hearths, foundations, and grave markers. Mostly grave markers, lately."
     },
@@ -2725,6 +2925,14 @@
       "value": "Stoneskin Draught"
     },
     {
+      "key": "item.potion_swiftness.desc",
+      "value": "Bitter, hot, faintly green — a drover's remedy for everything that chases. Burns going down, then the road gets shorter."
+    },
+    {
+      "key": "item.potion_swiftness.name",
+      "value": "Quickfoot Tonic"
+    },
+    {
       "key": "item.quest_burn_ledger.desc",
       "value": "Every village cleared, with a column for souls accounted. The last column is always full and always wrong."
     },
@@ -2779,6 +2987,14 @@
     {
       "key": "item.quest_keeper_rod.name",
       "value": "The Keeper's Measuring Rod"
+    },
+    {
+      "key": "item.quest_ledger_page.desc",
+      "value": "Torn Ledger Page"
+    },
+    {
+      "key": "item.quest_ledger_page.name",
+      "value": "Torn Ledger Page"
     },
     {
       "key": "item.quest_marshal_writ.desc",
@@ -2925,12 +3141,68 @@
       "value": "The Store Key"
     },
     {
+      "key": "item.quest_strongbox.desc",
+      "value": "Toll Strongbox"
+    },
+    {
+      "key": "item.quest_strongbox.name",
+      "value": "Toll Strongbox"
+    },
+    {
+      "key": "item.quest_supper.desc",
+      "value": "Supper Fixing"
+    },
+    {
+      "key": "item.quest_supper.name",
+      "value": "Supper Fixing"
+    },
+    {
+      "key": "item.quest_tack.desc",
+      "value": "Dropped Tack"
+    },
+    {
+      "key": "item.quest_tack.name",
+      "value": "Dropped Tack"
+    },
+    {
       "key": "item.quest_testament.desc",
       "value": "Grants the Vale of Rennfall to Kael Voss. The fourth clause is written in a different hand."
     },
     {
       "key": "item.quest_testament.name",
       "value": "The Queen's Testament"
+    },
+    {
+      "key": "item.quest_toll_banner.desc",
+      "value": "The Toll Banner"
+    },
+    {
+      "key": "item.quest_toll_banner.name",
+      "value": "The Toll Banner"
+    },
+    {
+      "key": "item.quest_toll_tally.desc",
+      "value": "Toll Tally-stick"
+    },
+    {
+      "key": "item.quest_toll_tally.name",
+      "value": "Toll Tally-stick"
+    },
+    {
+      "key": "item.quest_true_ledger.desc",
+      "value": "The True Ledger"
+    },
+    {
+      "key": "item.quest_true_ledger.name",
+      "value": "The True Ledger"
+    },
+    {
+      "key": "item.quest_wagon_pin.desc",
+      "value": "Wagon Pin"
+    },
+    {
+      "key": "item.quest_wagon_pin.name",
+      "value": "Wagon Pin"
     },
     {
       "key": "item.quest_wick_lamp.desc",
@@ -2947,6 +3219,14 @@
     {
       "key": "item.relic_hearth_coal.name",
       "value": "First Coal"
+    },
+    {
+      "key": "item.relic_road_stone.desc",
+      "value": "One of the way-stones the first survey cut — a pale block that has outlasted the road it marked. Holding it is holding still."
+    },
+    {
+      "key": "item.relic_road_stone.name",
+      "value": "The Road Stone"
     },
     {
       "key": "item.relic_root_crown_shard.desc",
@@ -2987,6 +3267,14 @@
     {
       "key": "item.ring_serpent.name",
       "value": "Serpent Coil"
+    },
+    {
+      "key": "item.ring_verdant.desc",
+      "value": "A greened bronze ring off a tollhouse finger — the patina of forty years of other people's coin."
+    },
+    {
+      "key": "item.ring_verdant.name",
+      "value": "Verdigris Ring"
     },
     {
       "key": "item.shield_kite.desc",
@@ -3189,6 +3477,14 @@
       "value": "Ember Knot"
     },
     {
+      "key": "item.trinket_horn.desc",
+      "value": "A sounding-horn carried by the last honest wagon-master of the north road. It still smells of good weather."
+    },
+    {
+      "key": "item.trinket_horn.name",
+      "value": "The Drover's Horn"
+    },
+    {
       "key": "item.trinket_lion_pin.desc",
       "value": "Wearing the Protector's crest in Rennfall is either loyalty or bait. Nobody has decided which."
     },
@@ -3243,6 +3539,14 @@
     {
       "key": "item.trinket_tally.name",
       "value": "Gravedigger's Tally"
+    },
+    {
+      "key": "item.trinket_waystone.desc",
+      "value": "A mile-stone chip worn smooth in a strongbox for thirty years — heavy, square, certain. Keeps a person standing."
+    },
+    {
+      "key": "item.trinket_waystone.name",
+      "value": "The Waystone"
     },
     {
       "key": "item.whetstone.desc",
@@ -3613,6 +3917,14 @@
       "value": "Walk the spur back to the trade road"
     },
     {
+      "key": "prompt.travel.drovers",
+      "value": "Follow the wagon ruts to the Rest"
+    },
+    {
+      "key": "prompt.travel.droversOut",
+      "value": "Walk the ruts back to the trade road"
+    },
+    {
       "key": "prompt.travel.greymarch",
       "value": "Go on to Greymarch"
     },
@@ -3655,6 +3967,14 @@
     {
       "key": "prompt.travel.stampworksOut",
       "value": "Walk the spur back down to the pit"
+    },
+    {
+      "key": "prompt.travel.tollbank",
+      "value": "Take the spur north to the Tollbank"
+    },
+    {
+      "key": "prompt.travel.tollbankOut",
+      "value": "Walk the spur back to the trade road"
     },
     {
       "key": "prompt.travel.valley",
@@ -3877,6 +4197,34 @@
       "value": "Summoned to Greymarch"
     },
     {
+      "key": "quest.q_tollbank.s1",
+      "value": "Find Charter Warden Ansel in Greymarch"
+    },
+    {
+      "key": "quest.q_tollbank.s2",
+      "value": "Break the washing crew's watches at the Tollbank"
+    },
+    {
+      "key": "quest.q_tollbank.s3",
+      "value": "Answer Halvard the Cutter on the tollhouse step"
+    },
+    {
+      "key": "quest.q_tollbank.s4",
+      "value": "Take the true ledger from under the counter"
+    },
+    {
+      "key": "quest.q_tollbank.s5",
+      "value": "Put the ledger in Inspector Maren's hand"
+    },
+    {
+      "key": "quest.q_tollbank.summary",
+      "value": "The master die was cut inside Greymarch's own charter house — sold to the deserters by someone the pay-roll was written to protect. A charter warden there is waiting to hear it. His mark opens the old toll fort on the north road, where the washed coin goes to become honest money — and where the man who signed it waits."
+    },
+    {
+      "key": "quest.q_tollbank.title",
+      "value": "The Left Hand of the League"
+    },
+    {
       "key": "quest.returnTo",
       "value": "Return to {0}"
     },
@@ -3955,6 +4303,54 @@
     {
       "key": "quest.sq_dace_patrol.title",
       "value": "A Corporal's Arithmetic"
+    },
+    {
+      "key": "quest.sq_drove_jackals.s1",
+      "value": "Clear the jackals working the corral mouth"
+    },
+    {
+      "key": "quest.sq_drove_jackals.summary",
+      "value": "A pack has been working the corral mouth every night since the frost — Ossel's lost two mounts to them already. Clear the corral mouth and the Rest stays open this side of winter."
+    },
+    {
+      "key": "quest.sq_drove_jackals.title",
+      "value": "Jackals at the Rail"
+    },
+    {
+      "key": "quest.sq_drove_pins.s1",
+      "value": "Find the three missing wagon pins"
+    },
+    {
+      "key": "quest.sq_drove_pins.summary",
+      "value": "Nell's wagon came in a pin short and stayed together out of habit — three pins lie somewhere between the lane and the corral. Find them and she'll owe the road a favour she means to pay."
+    },
+    {
+      "key": "quest.sq_drove_pins.title",
+      "value": "Three Pins Short"
+    },
+    {
+      "key": "quest.sq_drove_supper.s1",
+      "value": "Gather four supper fixings for the fire"
+    },
+    {
+      "key": "quest.sq_drove_supper.summary",
+      "value": "Brigid cooks for fourteen on what was meant for six — the camp's supper fixings scattered when the last wagon bolted in. Gather what's still good: roots by the lane, onions near the fire, cheese and dried meat wherever they rolled."
+    },
+    {
+      "key": "quest.sq_drove_supper.title",
+      "value": "One Hot Supper"
+    },
+    {
+      "key": "quest.sq_drove_tack.s1",
+      "value": "Find the three dropped tack pieces"
+    },
+    {
+      "key": "quest.sq_drove_tack.summary",
+      "value": "Pate was trusted with the bridles and dropped three of them when the jackals came — one by the wagons, one on the lane, one near the tents. The head drover whips a boy for less. Find them before Ossel counts."
+    },
+    {
+      "key": "quest.sq_drove_tack.title",
+      "value": "The Tack That Ran"
     },
     {
       "key": "quest.sq_flawless_vigil.s1",
@@ -4313,6 +4709,54 @@
       "value": "The Clerk's Tally"
     },
     {
+      "key": "quest.sq_toll_banner.s1",
+      "value": "Take the toll banner down from the pen"
+    },
+    {
+      "key": "quest.sq_toll_banner.summary",
+      "value": "The fort's salt banner still hangs over the cage pen where Pike watched the crew work. Take it down — it's watched too, because the banner is the last thing the crew still flies over coin they own."
+    },
+    {
+      "key": "quest.sq_toll_banner.title",
+      "value": "The Banner Comes Down"
+    },
+    {
+      "key": "quest.sq_toll_pages.s1",
+      "value": "Find the three ledger leaves in the court"
+    },
+    {
+      "key": "quest.sq_toll_pages.summary",
+      "value": "Annet fed the cage fire with her own book, page by page, to keep the truth from ending up as ash — three leaves got out the wind's way and lie in the court still. Find them; she'll know the words by heart anyway."
+    },
+    {
+      "key": "quest.sq_toll_pages.title",
+      "value": "The Pages That Got Out"
+    },
+    {
+      "key": "quest.sq_toll_strongboxes.s1",
+      "value": "Recover the four emptied strongboxes"
+    },
+    {
+      "key": "quest.sq_toll_strongboxes.summary",
+      "value": "Clerk Effa watched the crew chain the toll's strongboxes to the deck and crack them like eggs. Four boxes still sit where they were emptied — the League wants them back unbroken, as proof of what was done with them."
+    },
+    {
+      "key": "quest.sq_toll_strongboxes.title",
+      "value": "Boxes That Were Never Empty"
+    },
+    {
+      "key": "quest.sq_toll_tallies.s1",
+      "value": "Gather the three tally-sticks on the court"
+    },
+    {
+      "key": "quest.sq_toll_tallies.summary",
+      "value": "Old Joss kept his tally-sticks even caged — every count the crew was paid in, cut into wood they couldn't read. Three sticks are still out on the court. Bring them and the dead tollmen get their count named."
+    },
+    {
+      "key": "quest.sq_toll_tallies.title",
+      "value": "The Unpaid Tally"
+    },
+    {
       "key": "quest.sq_unmarked_boots.s1",
       "value": "Find proof of who pays the raiders"
     },
@@ -4557,6 +5001,14 @@
       "value": "Opens at level {0}"
     },
     {
+      "key": "speaker.annet",
+      "value": "Widow Annet"
+    },
+    {
+      "key": "speaker.ansel",
+      "value": "Charter Warden Ansel"
+    },
+    {
       "key": "speaker.asta",
       "value": "Widow Asta"
     },
@@ -4575,6 +5027,10 @@
     {
       "key": "speaker.brann",
       "value": "Brann Hollowell"
+    },
+    {
+      "key": "speaker.brigid",
+      "value": "Cook Brigid"
     },
     {
       "key": "speaker.bryd",
@@ -4609,8 +5065,20 @@
       "value": "Dess the Porter"
     },
     {
+      "key": "speaker.drover",
+      "value": "A Drover"
+    },
+    {
       "key": "speaker.durn",
       "value": "Castellan Durn"
+    },
+    {
+      "key": "speaker.effa",
+      "value": "Clerk Effa"
+    },
+    {
+      "key": "speaker.fen",
+      "value": "Old Fen"
     },
     {
       "key": "speaker.ferra",
@@ -4623,6 +5091,10 @@
     {
       "key": "speaker.gethin",
       "value": "Gethin the Digger"
+    },
+    {
+      "key": "speaker.halvard",
+      "value": "Halvard the Cutter"
     },
     {
       "key": "speaker.hask",
@@ -4647,6 +5119,10 @@
     {
       "key": "speaker.jory",
       "value": "Die-setter Jory"
+    },
+    {
+      "key": "speaker.joss",
+      "value": "Tollman Joss"
     },
     {
       "key": "speaker.kael",
@@ -4677,6 +5153,10 @@
       "value": "Old Mirren"
     },
     {
+      "key": "speaker.nell",
+      "value": "Whip Nell"
+    },
+    {
       "key": "speaker.novak",
       "value": "Clerk Novak"
     },
@@ -4693,12 +5173,24 @@
       "value": "Oona the Porter"
     },
     {
+      "key": "speaker.ossel",
+      "value": "Ossel the Head Drover"
+    },
+    {
+      "key": "speaker.pate",
+      "value": "Harness-boy Pate"
+    },
+    {
       "key": "speaker.pell",
       "value": "Pell the Crier"
     },
     {
       "key": "speaker.penn",
       "value": "Soot-boy Penn"
+    },
+    {
+      "key": "speaker.pike",
+      "value": "Boy Pike"
     },
     {
       "key": "speaker.pyke",
@@ -4751,6 +5243,10 @@
     {
       "key": "speaker.tobias",
       "value": "Tobias Reed"
+    },
+    {
+      "key": "speaker.toll_porter",
+      "value": "A Toll Porter"
     },
     {
       "key": "speaker.vall",
@@ -4833,6 +5329,10 @@
       "value": "Dawn. The valley is quiet again."
     },
     {
+      "key": "toast.droveCorral",
+      "value": "The corral mouth is clear"
+    },
+    {
       "key": "toast.durnDown",
       "value": "Castellan Durn has fallen"
     },
@@ -4855,6 +5355,10 @@
     {
       "key": "toast.graveStir",
       "value": "The graves stir."
+    },
+    {
+      "key": "toast.halvardDown",
+      "value": "Halvard the Cutter has fallen"
     },
     {
       "key": "toast.hearthNeeds",
@@ -4935,6 +5439,14 @@
     {
       "key": "toast.stampClear",
       "value": "The stamping floor stands clear"
+    },
+    {
+      "key": "toast.tollBreach",
+      "value": "The breach is taken"
+    },
+    {
+      "key": "toast.tollCourt",
+      "value": "The court stands clear"
     },
     {
       "key": "toast.used",
