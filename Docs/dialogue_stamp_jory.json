@@ -1,0 +1,55 @@
+{
+ "id": "stamp_jory",
+ "startNode": "j1",
+ "nodes": [
+  {
+   "id": "j1",
+   "speaker": "jory",
+   "text": {
+    "en": "Don't stand on the dais edge — the boards sing and the watch hears songs. Jory. I set dies, or I did: seat the face, square the rim, strike once to prove the cut. The die up there is the only honest thing I ever made that lied for a living.",
+    "id": "Jangan berdiri di tepi anjungan — papan-papannya bernyanyi dan penjaga mendengar nyanyian. Jory. Aku menyetel die, dulunya: pasang mukanya, sikukan tepiannya, pukul sekali untuk membuktikan potongannya. Die di atas sana adalah satu-satunya benda jujur yang pernah kubuat yang mencari nafkah dengan berdusta."
+   },
+   "next": "j2"
+  },
+  {
+   "id": "j2",
+   "speaker": "jory",
+   "text": {
+    "en": "I didn't cut it — I only set it. The face came already carved, still smelling of the burnisher. But there's a second plate, the cracked one — a test strike that split and was thrown to the press line like rubbish. Whoever cut the die cut that too. The crack carries the same hand.",
+    "id": "Bukan aku yang memahatnya — aku hanya menyetelnya. Mukanya datang sudah terukir, masih berbau penggosok. Tapi ada pelat kedua, yang retak — pukulan uji yang pecah dan dibuang ke barisan pres seperti sampah. Siapa pun yang memahat die itu memahat yang ini juga. Retaknya membawa tangan yang sama."
+   },
+   "choices": [
+    {
+     "text": {
+      "en": "The crack is a fingerprint. Where did it land?",
+      "id": "Retak itu adalah sidik jari. Di mana ia mendarat?"
+     },
+     "next": "j3a"
+    },
+    {
+     "text": {
+      "en": "And you stayed to keep setting it?",
+      "id": "Dan kau tetap menyetelnya?"
+     },
+     "next": "j3b"
+    }
+   ]
+  },
+  {
+   "id": "j3a",
+   "speaker": "jory",
+   "text": {
+    "en": "West end of the press line, under the first bench — they built the presses over the spoil. Bring it to me and I'll swear to the cut under the Inspector's lamp. A die-sinker signs his work whether he means to or not.",
+    "id": "Ujung barat barisan pres, di bawah meja pertama — mereka membangun pres di atas timbunan. Bawakan padaku dan akan kusumpahkan potongannya di bawah lampu Inspektur. Seorang pemahat die menandatangani karyanya mau atau tidak."
+   }
+  },
+  {
+   "id": "j3b",
+   "speaker": "jory",
+   "text": {
+    "en": "Coin settles a conscience faster than it settles a debt. I take their silver and I sleep badly — same trade the whole valley's been making since the keep went dark.",
+    "id": "Koin menenangkan hati nurani lebih cepat daripada melunasi utang. Kuambil perak mereka dan kutidur dengan buruk — perdagangan yang sama yang dijalani seluruh lembah sejak benteng itu gelap."
+   }
+  }
+ ]
+}

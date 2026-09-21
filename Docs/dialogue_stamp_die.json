@@ -1,0 +1,43 @@
+{
+ "id": "stamp_die",
+ "startNode": "d1",
+ "nodes": [
+  {
+   "id": "d1",
+   "speaker": "maren",
+   "text": {
+    "en": "A die. Not the stamp — the die. The stamp marks paper; this marks the stamps themselves. Show me.",
+    "id": "Sebuah die. Bukan stempel — die-nya. Stempel menandai kertas; ini menandai stempelnya sendiri. Perlihatkan."
+   },
+   "next": "d2",
+   "takeItems": ["quest_stamp_die"]
+  },
+  {
+   "id": "d2",
+   "speaker": "",
+   "text": {
+    "en": "Maren turns the die in lamplight until the cut face catches the flame. Her jaw sets. She has seen this hand before — not on contraband, but in the League's own charter hall.",
+    "id": "Maren memutar die itu di bawah cahaya lampu sampai muka potongnya menangkap api. Rahangnya menegang. Ia pernah melihat tangan ini sebelumnya — bukan pada barang selundupan, tapi di aula piagam Liga sendiri."
+   },
+   "next": "d3"
+  },
+  {
+   "id": "d3",
+   "speaker": "maren",
+   "text": {
+    "en": "This was cut by a League die-sinker — the mark under the rim is his habit, not his signature. Someone inside Greymarch's charter house sold the valley's own seal to the deserters who burned it. The pay-roll's trail ends in the city, warden. In a guild hall, not a ditch.",
+    "id": "Ini dipahat oleh pemahat die Liga — tanda di bawah tepiannya adalah kebiasaannya, bukan tanda tangannya. Seseorang di dalam gedung piagam Greymarch menjual segel lembah ini kepada para pembelot yang membakarnya. Jejak daftar gaji itu berakhir di kota, warden. Di aula gilda, bukan di selokan."
+   },
+   "next": "d4"
+  },
+  {
+   "id": "d4",
+   "speaker": "maren",
+   "text": {
+    "en": "I go to Greymarch with this tonight — quietly, and to the Marshal's ear only. When the name surfaces I will send for you. Keep the valley's fire lit; the next page of this is written in the city.",
+    "id": "Aku membawa ini ke Greymarch malam ini — diam-diam, dan hanya ke telinga Marshal. Saat namanya muncul, akan kupanggil kau. Jaga api lembah tetap menyala; halaman berikutnya dari cerita ini ditulis di kota."
+   },
+   "setFlags": ["act2.die_delivered"]
+  }
+ ]
+}

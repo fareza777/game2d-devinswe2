@@ -2401,6 +2401,216 @@
     "faction": "league",
     "reputation": 6
    }
+  },
+  {
+   "id": "q_stamps",
+   "act": "act2",
+   "mainQuest": true,
+   "unlockFlag": "pit.floor_cleared",
+   "title": {
+    "en": "The Die in the Dark",
+    "id": "Die di Dalam Gelap"
+   },
+   "summary": {
+    "en": "The pay-roll's trail climbs past the chalk pit to a walled night-yard where the keep's diverted coin is struck into fresh seals. Clear the coiners' watch, take the master die, and put it in Inspector Maren's hand — the die's cut will name who sold the valley its own seal.",
+    "id": "Jejak daftar gaji menaiki lubang kapur menuju halaman malam bertembok tempat koin benteng yang disimpangkan dipukul jadi segel baru. Tumbangkan penjaga para pencetak, ambil die induknya, dan letakkan di tangan Inspektur Maren — potongannya akan menamai siapa yang menjual segel lembah ini."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "text": {
+      "en": "Take the spur above the pit's deep end",
+      "id": "Naiki simpangan di atas ujung dalam lubang"
+     },
+     "objectives": [
+      {
+       "kind": "Flag",
+       "key": "act2.found_stampworks"
+      }
+     ],
+     "setsFlag": "act2.stamps_s1"
+    },
+    {
+     "id": "s2",
+     "text": {
+      "en": "Break the coiners' watch",
+      "id": "Tumbangkan penjaga para pencetak"
+     },
+     "objectives": [
+      {
+       "kind": "Counter",
+       "key": "kills.stamp",
+       "amount": 5
+      }
+     ],
+     "setsFlag": "act2.stamps_s2"
+    },
+    {
+     "id": "s3",
+     "text": {
+      "en": "Take the master die from the counting dais",
+      "id": "Ambil die induk dari anjungan hitung"
+     },
+     "objectives": [
+      {
+       "kind": "Item",
+       "key": "quest_stamp_die",
+       "amount": 1
+      }
+     ],
+     "setsFlag": "act2.stamps_s3"
+    },
+    {
+     "id": "s4",
+     "text": {
+      "en": "Bring the die to Inspector Maren in Rennfall",
+      "id": "Bawa die itu kepada Inspektur Maren di Rennfall"
+     },
+     "objectives": [
+      {
+       "kind": "Flag",
+       "key": "act2.die_delivered"
+      }
+     ],
+     "setsFlag": "act2.stamps_done"
+    }
+   ],
+   "reward": {
+    "experience": 600,
+    "coin": 60,
+    "items": [
+     "sword_emberbrand"
+    ],
+    "faction": "ash",
+    "reputation": 10
+   }
+  },
+  {
+   "id": "sq_stamp_slips",
+   "act": "act2",
+   "mainQuest": false,
+   "unlockFlag": "pit.floor_cleared",
+   "giver": "speaker.novak",
+   "giverScene": "Stampworks",
+   "title": {
+    "en": "The True Count",
+    "id": "Hitungan Sejati"
+   },
+   "summary": {
+    "en": "Novak, the League clerk the coiners keep penned, has been writing two books: the false slips they watch him make and the true ones he drops on the benches. Three true slips still lie in the press line, naming every hand the yard was paid to hide.",
+    "id": "Novak, juru tulis Liga yang dikandangkan para pencetak, menulis dua pembukuan: slip palsu yang mereka awasi dan slip sejati yang ia jatuhkan di meja-meja. Tiga slip sejati masih tergeletak di barisan pres, menamai tiap tangan yang dibayar halaman ini untuk disembunyikan."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "text": {
+      "en": "Recover Novak's three true slips from the press benches",
+      "id": "Temukan kembali tiga slip sejati Novak di meja-meja pres"
+     },
+     "objectives": [
+      {
+       "kind": "Item",
+       "key": "quest_stamp_slip",
+       "amount": 3
+      }
+     ],
+     "setsFlag": "sq.stamp_slips.done"
+    }
+   ],
+   "reward": {
+    "experience": 280,
+    "coin": 45,
+    "items": [
+     "trinket_crane_seal"
+    ],
+    "faction": "league",
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_stamp_plates",
+   "act": "act2",
+   "mainQuest": false,
+   "unlockFlag": "pit.floor_cleared",
+   "giver": "speaker.jory",
+   "giverScene": "Stampworks",
+   "title": {
+    "en": "The Cracked Plate",
+    "id": "Pelat yang Retak"
+   },
+   "summary": {
+    "en": "Under the press line lies the test strike that split — a cracked die-plate cut by the same hand as the master die. Die-setter Jory wants it found; a die-sinker's crack is a signature that even a careful hand can't hide.",
+    "id": "Di bawah barisan pres tergeletak pukulan uji yang pecah — pelat die retak yang dipahat tangan yang sama dengan die induk. Penyetel die Jory ingin ia ditemukan; retakan seorang pemahat die adalah tanda tangan yang tak bisa disembunyikan tangan secermat apa pun."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "text": {
+      "en": "Find the cracked die-plate under the press line",
+      "id": "Temukan pelat die retak di bawah barisan pres"
+     },
+     "objectives": [
+      {
+       "kind": "Item",
+       "key": "quest_stamp_plate",
+       "amount": 1
+      }
+     ],
+     "setsFlag": "sq.stamp_plates.done"
+    }
+   ],
+   "reward": {
+    "experience": 260,
+    "coin": 50,
+    "items": [
+     "staff_apothecary"
+    ],
+    "faction": "league",
+    "reputation": 8
+   }
+  },
+  {
+   "id": "sq_stamp_blanks",
+   "act": "act2",
+   "mainQuest": false,
+   "unlockFlag": "pit.floor_cleared",
+   "giver": "speaker.wicke",
+   "giverScene": "Stampworks",
+   "title": {
+    "en": "Dead Silver",
+    "id": "Perak Mati"
+   },
+   "summary": {
+    "en": "A tipped barrow spilled four silver coin-blanks along the yard's west spoil run, and the watch made runner Wicke leave them. He wants dead silver lifted out of the dirt before it walks off on its own — as everything in the yard eventually does.",
+    "id": "Gerobak yang terguling menumpahkan empat lempengan koin perak di lajur timbunan barat halaman, dan penjaga menyuruh pelari Wicke meninggalkannya. Ia ingin perak mati itu diangkat dari tanah sebelum berjalan pergi sendiri — seperti segala hal di halaman ini."
+   },
+   "stages": [
+    {
+     "id": "s1",
+     "text": {
+      "en": "Gather the four spilled silver blanks from the spoil run",
+      "id": "Pungut empat lempengan perak yang tumpah di lajur timbunan"
+     },
+     "objectives": [
+      {
+       "kind": "Item",
+       "key": "quest_stamp_blank",
+       "amount": 4
+      }
+     ],
+     "setsFlag": "sq.stamp_blanks.done"
+    }
+   ],
+   "reward": {
+    "experience": 240,
+    "coin": 70,
+    "items": [
+     "potion_small",
+     "potion_small"
+    ],
+    "faction": "league",
+    "reputation": 6
+   }
   }
  ]
 }

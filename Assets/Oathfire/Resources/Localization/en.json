@@ -1505,6 +1505,138 @@
       "value": "Tell Factor Hask the Inspector sends her count — and remind him the valley reads a crust better than the League reads a ledger."
     },
     {
+      "key": "dlg.stamp_die.d1",
+      "value": "A die. Not the stamp — the die. The stamp marks paper; this marks the stamps themselves. Show me."
+    },
+    {
+      "key": "dlg.stamp_die.d2",
+      "value": "Maren turns the die in lamplight until the cut face catches the flame. Her jaw sets. She has seen this hand before — not on contraband, but in the League's own charter hall."
+    },
+    {
+      "key": "dlg.stamp_die.d3",
+      "value": "This was cut by a League die-sinker — the mark under the rim is his habit, not his signature. Someone inside Greymarch's charter house sold the valley's own seal to the deserters who burned it. The pay-roll's trail ends in the city, warden. In a guild hall, not a ditch."
+    },
+    {
+      "key": "dlg.stamp_die.d4",
+      "value": "I go to Greymarch with this tonight — quietly, and to the Marshal's ear only. When the name surfaces I will send for you. Keep the valley's fire lit; the next page of this is written in the city."
+    },
+    {
+      "key": "dlg.stamp_hand.h1",
+      "value": "Sacks don't weigh themselves. I lift, I weigh, I mark the tally and I don't ask whose seal is on the slip — asking is how a porter ends up in the spoil."
+    },
+    {
+      "key": "dlg.stamp_hand.h1.c1",
+      "value": "What does the yard ship, when it's honest?"
+    },
+    {
+      "key": "dlg.stamp_hand.h1.c2",
+      "value": "Keep your back to the wall. The watch won't stand forever."
+    },
+    {
+      "key": "dlg.stamp_hand.h2a",
+      "value": "Honest? Nothing leaves here honest. Sealed chalk goes out as first-grade lime, struck blanks go out as League pay, and the slips say whatever the die was told to say. The only true thing in the yard is the weight of what's carried."
+    },
+    {
+      "key": "dlg.stamp_hand.h2b",
+      "value": "Then I'll keep my sack-count ready. When the yard changes hands it still needs hands — ones that remember what the old ones weighed."
+    },
+    {
+      "key": "dlg.stamp_jory.j1",
+      "value": "Don't stand on the dais edge — the boards sing and the watch hears songs. Jory. I set dies, or I did: seat the face, square the rim, strike once to prove the cut. The die up there is the only honest thing I ever made that lied for a living."
+    },
+    {
+      "key": "dlg.stamp_jory.j2",
+      "value": "I didn't cut it — I only set it. The face came already carved, still smelling of the burnisher. But there's a second plate, the cracked one — a test strike that split and was thrown to the press line like rubbish. Whoever cut the die cut that too. The crack carries the same hand."
+    },
+    {
+      "key": "dlg.stamp_jory.j2.c1",
+      "value": "The crack is a fingerprint. Where did it land?"
+    },
+    {
+      "key": "dlg.stamp_jory.j2.c2",
+      "value": "And you stayed to keep setting it?"
+    },
+    {
+      "key": "dlg.stamp_jory.j3a",
+      "value": "West end of the press line, under the first bench — they built the presses over the spoil. Bring it to me and I'll swear to the cut under the Inspector's lamp. A die-sinker signs his work whether he means to or not."
+    },
+    {
+      "key": "dlg.stamp_jory.j3b",
+      "value": "Coin settles a conscience faster than it settles a debt. I take their silver and I sleep badly — same trade the whole valley's been making since the keep went dark."
+    },
+    {
+      "key": "dlg.stamp_novak.n1",
+      "value": "Keep your voice down — the watch counts breaths, not words, but it counts them well. I'm Novak. Weigh-house clerk, League charter, third grade. They took me off the toll road three weeks past because the books here need a hand that writes true while the numbers lie."
+    },
+    {
+      "key": "dlg.stamp_novak.n2",
+      "value": "I write their slips under watch — false grades, invented carts, a seal I didn't cut. But I keep the true count too, on slips of my own: what went in, whose name was on it, what the die pressed. Three of them are lying on the benches out there where I dropped them on purpose."
+    },
+    {
+      "key": "dlg.stamp_novak.n2.c1",
+      "value": "Give me the count and I'll carry it out under the watch's nose."
+    },
+    {
+      "key": "dlg.stamp_novak.n2.c2",
+      "value": "Why didn't you run?"
+    },
+    {
+      "key": "dlg.stamp_novak.n3a",
+      "value": "Three slips: one on each press bench, close to the die's shadow. If the Inspector reads them, every name the yard was paid to hide is on the table. And warden — when the watch falls, take the pens' gate with you. I'm done being furniture."
+    },
+    {
+      "key": "dlg.stamp_novak.n3b",
+      "value": "Run where? The yard sits a climb above a pit of men who'd sell me back for a week's bread. And someone must keep the true count — a false book can't hang a man, but a true one can hang the right man."
+    },
+    {
+      "key": "dlg.stamp_vall.v1",
+      "value": "Mind the pots — second one spits. I'm Vall. I cook for the yard because a yard that eats stays bought, and because the stew keeps me from asking whose hands stir the press."
+    },
+    {
+      "key": "dlg.stamp_vall.v2",
+      "value": "They pay in coin that smells of the crucible — too fresh, still warm from the die. I take it, because honest coin buys the same onions. But I mark what I hear, and the pit below is just a sieve. The yard is the funnel: everything the valley loses passes through it once."
+    },
+    {
+      "key": "dlg.stamp_vall.v2.c1",
+      "value": "What do the die-setters talk about when the pot's loud?"
+    },
+    {
+      "key": "dlg.stamp_vall.v2.c2",
+      "value": "Stay near the pots and out of the yard. I'll be done soon."
+    },
+    {
+      "key": "dlg.stamp_vall.v3a",
+      "value": "The die, always the die — who cut it, who guards it, who'd pay a year's wage to hold it a night. Jory set it last. Ask Jory, if you can find him sober, which is never."
+    },
+    {
+      "key": "dlg.stamp_vall.v3b",
+      "value": "Done is a kind word for it. When the yard goes quiet, the pens open and the clerks walk home — if they remember the way. There's salt stew in it for you if they do."
+    },
+    {
+      "key": "dlg.stamp_wicke.w1",
+      "value": "You're not one of the watch. They walk heavier. I'm Wicke — I carry blanks from the crucible to the press, four a trip, like bread to an oven that only bakes lies."
+    },
+    {
+      "key": "dlg.stamp_wicke.w2",
+      "value": "Last night a barrow tipped on the spoil run and the watch made me leave what spilled — said dead silver walks off on its own. Four blanks are still lying out there in the grit, west of the wall. That's a month's pay dropped in the dirt, and I want it where a month's pay belongs."
+    },
+    {
+      "key": "dlg.stamp_wicke.w2.c1",
+      "value": "Point me at the spill and they're yours."
+    },
+    {
+      "key": "dlg.stamp_wicke.w2.c2",
+      "value": "Why carry for them at all?"
+    },
+    {
+      "key": "dlg.stamp_wicke.w3a",
+      "value": "The spoil run, west run of the yard — follow the rubble piles. Four blanks, heavy as sin. When the watch goes down I'm walking the spur the way it came: down."
+    },
+    {
+      "key": "dlg.stamp_wicke.w3b",
+      "value": "Because a boy who carries blanks eats. And because nobody asks a runner what the runners hear — which is everything, and none of it mine to keep."
+    },
+    {
       "key": "dlg.vesna_ledger.v1",
       "value": "You brought back my carter, and the man who took her is in the ground. The League owes you. That is a sentence I say perhaps once a year."
     },
@@ -1839,6 +1971,18 @@
     {
       "key": "event.shepherd_speaks.banner",
       "value": "It came closer this time. It is standing inside the light."
+    },
+    {
+      "key": "event.stamp.die",
+      "value": "The die's keepers object."
+    },
+    {
+      "key": "event.stamp.plate",
+      "value": "Someone kept watch over the scrap."
+    },
+    {
+      "key": "event.stamp.yard",
+      "value": "The coiners' watch closes in."
     },
     {
       "key": "event.surveyors.banner",
@@ -2673,6 +2817,38 @@
       "value": "Dropped Tally-Stick"
     },
     {
+      "key": "item.quest_stamp_blank.desc",
+      "value": "A bright disc of unstruck silver, dropped where a barrow tipped. Worth a month's wage before it ever becomes a lie."
+    },
+    {
+      "key": "item.quest_stamp_blank.name",
+      "value": "Silver Blank"
+    },
+    {
+      "key": "item.quest_stamp_die.desc",
+      "value": "A steel stamp-block still dark with ink — the face that strikes every false seal the valley has swallowed. Under the rim, a die-sinker's habit mark no court would mistake."
+    },
+    {
+      "key": "item.quest_stamp_die.name",
+      "value": "The Master Die"
+    },
+    {
+      "key": "item.quest_stamp_plate.desc",
+      "value": "A test strike that split under the hammer and was thrown to the spoil — but the crack holds the same hand that cut the master die. Evidence that leaks like light."
+    },
+    {
+      "key": "item.quest_stamp_plate.name",
+      "value": "Cracked Die-Plate"
+    },
+    {
+      "key": "item.quest_stamp_slip.desc",
+      "value": "A slip in Novak's own cramped hand — the count the coiners paid to keep unwritten, folded small enough to vanish into a seam."
+    },
+    {
+      "key": "item.quest_stamp_slip.name",
+      "value": "True Writ-Slip"
+    },
+    {
       "key": "item.quest_store_key.desc",
       "value": "Iron, long-shafted, the only key that opens the covered salt-store. Wit-warden Ostler was meant to carry it to the capital and never arrived."
     },
@@ -3189,6 +3365,10 @@
       "value": "The Saltpans"
     },
     {
+      "key": "place.Stampworks",
+      "value": "The Stampworks"
+    },
+    {
       "key": "place.TradeRoad",
       "value": "The Valley Road"
     },
@@ -3327,6 +3507,14 @@
     {
       "key": "prompt.travel.saltpansOut",
       "value": "Walk back down the track to the trade road"
+    },
+    {
+      "key": "prompt.travel.stampworks",
+      "value": "Take the spur up to the coiners' yard"
+    },
+    {
+      "key": "prompt.travel.stampworksOut",
+      "value": "Walk the spur back down to the pit"
     },
     {
       "key": "prompt.travel.valley",
@@ -3503,6 +3691,30 @@
     {
       "key": "quest.q_shelter.title",
       "value": "Roofs Before Walls"
+    },
+    {
+      "key": "quest.q_stamps.s1",
+      "value": "Take the spur above the pit's deep end"
+    },
+    {
+      "key": "quest.q_stamps.s2",
+      "value": "Break the coiners' watch"
+    },
+    {
+      "key": "quest.q_stamps.s3",
+      "value": "Take the master die from the counting dais"
+    },
+    {
+      "key": "quest.q_stamps.s4",
+      "value": "Bring the die to Inspector Maren in Rennfall"
+    },
+    {
+      "key": "quest.q_stamps.summary",
+      "value": "The pay-roll's trail climbs past the chalk pit to a walled night-yard where the keep's diverted coin is struck into fresh seals. Clear the coiners' watch, take the master die, and put it in Inspector Maren's hand — the die's cut will name who sold the valley its own seal."
+    },
+    {
+      "key": "quest.q_stamps.title",
+      "value": "The Die in the Dark"
     },
     {
       "key": "quest.q_summons.s1",
@@ -3855,6 +4067,42 @@
     {
       "key": "quest.sq_shepherds_distance.title",
       "value": "The Distance He Keeps"
+    },
+    {
+      "key": "quest.sq_stamp_blanks.s1",
+      "value": "Gather the four spilled silver blanks from the spoil run"
+    },
+    {
+      "key": "quest.sq_stamp_blanks.summary",
+      "value": "A tipped barrow spilled four silver coin-blanks along the yard's west spoil run, and the watch made runner Wicke leave them. He wants dead silver lifted out of the dirt before it walks off on its own — as everything in the yard eventually does."
+    },
+    {
+      "key": "quest.sq_stamp_blanks.title",
+      "value": "Dead Silver"
+    },
+    {
+      "key": "quest.sq_stamp_plates.s1",
+      "value": "Find the cracked die-plate under the press line"
+    },
+    {
+      "key": "quest.sq_stamp_plates.summary",
+      "value": "Under the press line lies the test strike that split — a cracked die-plate cut by the same hand as the master die. Die-setter Jory wants it found; a die-sinker's crack is a signature that even a careful hand can't hide."
+    },
+    {
+      "key": "quest.sq_stamp_plates.title",
+      "value": "The Cracked Plate"
+    },
+    {
+      "key": "quest.sq_stamp_slips.s1",
+      "value": "Recover Novak's three true slips from the press benches"
+    },
+    {
+      "key": "quest.sq_stamp_slips.summary",
+      "value": "Novak, the League clerk the coiners keep penned, has been writing two books: the false slips they watch him make and the true ones he drops on the benches. Three true slips still lie in the press line, naming every hand the yard was paid to hide."
+    },
+    {
+      "key": "quest.sq_stamp_slips.title",
+      "value": "The True Count"
     },
     {
       "key": "quest.sq_stew.s1",
@@ -4257,6 +4505,10 @@
       "value": "Queen Isolde"
     },
     {
+      "key": "speaker.jory",
+      "value": "Die-setter Jory"
+    },
+    {
       "key": "speaker.kael",
       "value": "Kael Voss"
     },
@@ -4283,6 +4535,10 @@
     {
       "key": "speaker.mirren",
       "value": "Old Mirren"
+    },
+    {
+      "key": "speaker.novak",
+      "value": "Clerk Novak"
     },
     {
       "key": "speaker.odle",
@@ -4357,6 +4613,10 @@
       "value": "Tobias Reed"
     },
     {
+      "key": "speaker.vall",
+      "value": "Cook Vall"
+    },
+    {
       "key": "speaker.vesna",
       "value": "Vesna Kell"
     },
@@ -4365,12 +4625,20 @@
       "value": "Wick"
     },
     {
+      "key": "speaker.wicke",
+      "value": "Runner Wicke"
+    },
+    {
       "key": "speaker.winna",
       "value": "Old Winna"
     },
     {
       "key": "speaker.wren",
       "value": "Kiln-keeper Wren"
+    },
+    {
+      "key": "speaker.yard_hand",
+      "value": "Yard hand"
     },
     {
       "key": "stat.armour",
@@ -4523,6 +4791,10 @@
     {
       "key": "toast.saltPans",
       "value": "The pans stand clear"
+    },
+    {
+      "key": "toast.stampClear",
+      "value": "The stamping floor stands clear"
     },
     {
       "key": "toast.used",

@@ -1,0 +1,83 @@
+{
+  "id": "stamp_jory",
+  "startNode": "j1",
+  "nodes": [
+    {
+      "id": "j1",
+      "speaker": "jory",
+      "textKey": "dlg.stamp_jory.j1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "j2",
+      "choices": []
+    },
+    {
+      "id": "j2",
+      "speaker": "jory",
+      "textKey": "dlg.stamp_jory.j2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.stamp_jory.j2.c1",
+          "next": "j3a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.stamp_jory.j2.c2",
+          "next": "j3b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "j3a",
+      "speaker": "jory",
+      "textKey": "dlg.stamp_jory.j3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "j3b",
+      "speaker": "jory",
+      "textKey": "dlg.stamp_jory.j3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

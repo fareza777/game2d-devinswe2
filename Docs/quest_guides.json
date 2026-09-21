@@ -340,6 +340,96 @@
    "from": "Chalkpit",
    "to": "Windrest",
    "via": "TradeRoad"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Chalkpit",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Chalkpit",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Rennfall",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Rennfall",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "TradeRoad",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "TradeRoad",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Greymarch",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Greymarch",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Hollow",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Hollow",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Keep",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Keep",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Saltpans",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Saltpans",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Burnpits",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Burnpits",
+   "to": "Stampworks",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Stampworks",
+   "to": "Windrest",
+   "via": "Chalkpit"
+  },
+  {
+   "from": "Windrest",
+   "to": "Stampworks",
+   "via": "Chalkpit"
   }
  ],
  "guides": [
@@ -728,6 +818,36 @@
    "target": "spot",
    "id": "pit_lime_1",
    "scene": "Chalkpit"
+  },
+  {
+   "key": "kills.stamp",
+   "target": "spot",
+   "id": "stamp_yard",
+   "scene": "Stampworks"
+  },
+  {
+   "key": "quest_stamp_slip",
+   "target": "spot",
+   "id": "stamp_slip_1",
+   "scene": "Stampworks"
+  },
+  {
+   "key": "quest_stamp_die",
+   "target": "spot",
+   "id": "stamp_die",
+   "scene": "Stampworks"
+  },
+  {
+   "key": "quest_stamp_plate",
+   "target": "spot",
+   "id": "stamp_plate",
+   "scene": "Stampworks"
+  },
+  {
+   "key": "quest_stamp_blank",
+   "target": "spot",
+   "id": "stamp_blank_1",
+   "scene": "Stampworks"
   }
  ]
 }

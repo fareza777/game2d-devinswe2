@@ -1,0 +1,83 @@
+{
+  "id": "stamp_novak",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "novak",
+      "textKey": "dlg.stamp_novak.n1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "n2",
+      "choices": []
+    },
+    {
+      "id": "n2",
+      "speaker": "novak",
+      "textKey": "dlg.stamp_novak.n2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.stamp_novak.n2.c1",
+          "next": "n3a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.stamp_novak.n2.c2",
+          "next": "n3b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "n3a",
+      "speaker": "novak",
+      "textKey": "dlg.stamp_novak.n3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "n3b",
+      "speaker": "novak",
+      "textKey": "dlg.stamp_novak.n3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

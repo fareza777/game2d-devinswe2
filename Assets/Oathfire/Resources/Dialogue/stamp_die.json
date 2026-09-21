@@ -1,0 +1,62 @@
+{
+  "id": "stamp_die",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "maren",
+      "textKey": "dlg.stamp_die.d1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [
+        "quest_stamp_die"
+      ],
+      "giveCoin": 0,
+      "next": "d2",
+      "choices": []
+    },
+    {
+      "id": "d2",
+      "speaker": "",
+      "textKey": "dlg.stamp_die.d2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "d3",
+      "choices": []
+    },
+    {
+      "id": "d3",
+      "speaker": "maren",
+      "textKey": "dlg.stamp_die.d3",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "d4",
+      "choices": []
+    },
+    {
+      "id": "d4",
+      "speaker": "maren",
+      "textKey": "dlg.stamp_die.d4",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [
+        "act2.die_delivered"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

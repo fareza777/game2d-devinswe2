@@ -44,6 +44,19 @@ namespace Oathfire.EditorTools
             BuildSearchSpots(map, at);
             MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.chalkpitOut", "");
 
+            // The deep-end spur: the way the jacks' spoil climbs to the coiners' yard. It only
+            // reads as a way up once the floor is theirs no longer.
+            if (at.trail != null)
+            {
+                var stampSpur = new GameObject("Stamp spur");
+                stampSpur.transform.position = map.At(at.trail);
+                GameObject yardExit = MapScene.BuildExit(map.At(at.trail), "Stampworks", "prompt.travel.stampworks", "act2.found_stampworks");
+                yardExit.transform.SetParent(stampSpur.transform, true);
+                MapScene.BuildProp("Die-setter's mark", "Misc B53_E", map.At(at.trail) + new Vector3(-0.45f, -0.2f, 0f), yardExit.transform,
+                    solid: false, strikeable: false);
+                MapScene.Gate(stampSpur, "pit.floor_cleared");
+            }
+
             MapScene.SetUpUi(includeContractBoard: false);
             new GameObject("PlayerState", typeof(PlayerState));
             new GameObject("EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule));

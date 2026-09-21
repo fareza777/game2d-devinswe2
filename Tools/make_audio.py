@@ -63,6 +63,7 @@ AMBIENCE = {
     "char_camp": (22.0, "a charcoal burners' camp in a wood clearing: slow fire crackle under an earthed mound, an axe splitting a log far off, wind in a treeline, crows, no music"),
     "windmill_hill": (22.0, "a windy open hill with a wooden windmill: steady gusts over grass, slow creaking timber vanes turning, ropes and a wooden frame straining, a far-off cart wheel, skylarks, no music"),
     "chalk_pit": (22.0, "an abandoned open chalk pit: hollow wind moving across a stone cut, a rope creaking on a wooden hoist, a single pick chipping far off, dust settling, a crow, no music"),
+    "stamp_yard": (22.0, "a hidden coiners' yard at night: a forge fire breathing low, a hammer striking a stamp die once then settling, a cart wheel turning over grit, whispered counting, a torch guttering, no music"),
 }
 
 # The codex look has a sound: small ensembles of old instruments, nothing synthetic, melancholy before heroic.
@@ -78,6 +79,7 @@ MUSIC = {
     "burnpits_smoke": (60, f"smoky sparse theme for a charcoal camp in a burned clearing, low dark drone, muffled frame drum, a dry sawing fiddle that never resolves, 70 bpm, {STYLE}"),
     "windrest_mill": (60, f"airy open-hill theme for a working windmill above green fields, a slow circling fiddle figure like turning vanes, bright wooden flute, light finger cymbal ticks, breath and sky, 78 bpm, {STYLE}"),
     "chalkpit_cut": (60, f"empty hollow theme for an abandoned quarry of white chalk, sparse plucked dulcimer echoes, a low lonely drone, wind whistling off a stone face, something abandoned rather than ruined, 68 bpm, {STYLE}"),
+    "stampworks_theme": (60, f"tense counting-house theme for a secret mint yard that works by torchlight, muted struck-metal percussion like a die being tapped, a slow uneasy viol line, a ticking wooden tally rhythm, held breath and ledgers, 72 bpm, {STYLE}"),
 }
 
 

@@ -1842,6 +1842,167 @@
         "faction": "league",
         "reputation": 6
       }
+    },
+    {
+      "id": "q_stamps",
+      "act": "act2",
+      "mainQuest": true,
+      "unlockFlag": "pit.floor_cleared",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.found_stampworks",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.stamps_s1"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.stamp",
+              "amount": 5,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.stamps_s2"
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_stamp_die",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.stamps_s3"
+        },
+        {
+          "id": "s4",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act2.die_delivered",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act2.stamps_done"
+        }
+      ],
+      "reward": {
+        "experience": 600,
+        "coin": 60,
+        "items": [
+          "sword_emberbrand"
+        ],
+        "faction": "ash",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_stamp_slips",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "pit.floor_cleared",
+      "giver": "speaker.novak",
+      "giverScene": "Stampworks",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_stamp_slip",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.stamp_slips.done"
+        }
+      ],
+      "reward": {
+        "experience": 280,
+        "coin": 45,
+        "items": [
+          "trinket_crane_seal"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_stamp_plates",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "pit.floor_cleared",
+      "giver": "speaker.jory",
+      "giverScene": "Stampworks",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_stamp_plate",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.stamp_plates.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 50,
+        "items": [
+          "staff_apothecary"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_stamp_blanks",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "pit.floor_cleared",
+      "giver": "speaker.wicke",
+      "giverScene": "Stampworks",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_stamp_blank",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.stamp_blanks.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 70,
+        "items": [
+          "potion_small",
+          "potion_small"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
     }
   ]
 }

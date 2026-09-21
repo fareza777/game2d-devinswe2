@@ -152,6 +152,8 @@ def anchors(pit: Pit) -> dict:
         "player": point(near((14, 18))),
         "roadOut": point(near((14, 21))),
         "hearth": point(near((25, 14))),
+        # trail: the deep-end spur that climbs past the derrick to the coiners' yard.
+        "trail": point(near((27, 1))),
         # villagers: foreman Brack at the camp, tally-clerk Ines on the rim, Old Simm by the cart,
         # drudge Ket down in the cut, yard-warden Rill at the platform's foot.
         "villagers": [point(near((24, 13))), point(near((12, 14))), point(near((26, 16))),

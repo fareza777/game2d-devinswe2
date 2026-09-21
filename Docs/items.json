@@ -1789,6 +1789,70 @@
     "id": "Karung kapur bakar yang pecah, dipungut dari lantai lubang sebelum embun mengambilnya. Tak berarti bagi maling, tapi segalanya bagi tungku yang sudah padam."
    },
    "icon": "LootIcons_29"
+  },
+  {
+   "id": "quest_stamp_slip",
+   "kind": "Quest",
+   "rarity": "Fine",
+   "value": 0,
+   "setsFlag": "quest.stamp_slip",
+   "name": {
+    "en": "True Writ-Slip",
+    "id": "Slip Surat Sejati"
+   },
+   "desc": {
+    "en": "A slip in Novak's own cramped hand — the count the coiners paid to keep unwritten, folded small enough to vanish into a seam.",
+    "id": "Selembar tulisan tangan Novak yang rapat — hitungan yang dibayar para pencetak agar tak pernah ditulis, dilipat cukup kecil untuk hilang dalam lipatan."
+   },
+   "icon": "LootIcons_30"
+  },
+  {
+   "id": "quest_stamp_die",
+   "kind": "Quest",
+   "rarity": "Rare",
+   "value": 0,
+   "setsFlag": "quest.stamp_die",
+   "name": {
+    "en": "The Master Die",
+    "id": "Die Induk"
+   },
+   "desc": {
+    "en": "A steel stamp-block still dark with ink — the face that strikes every false seal the valley has swallowed. Under the rim, a die-sinker's habit mark no court would mistake.",
+    "id": "Blok stempel baja yang masih gelap oleh tinta — muka yang memukul tiap segel palsu yang telah ditelan lembah. Di bawah tepiannya, tanda kebiasaan pemahat die yang tak akan disalahkan pengadilan mana pun."
+   },
+   "icon": "LootIcons_31"
+  },
+  {
+   "id": "quest_stamp_plate",
+   "kind": "Quest",
+   "rarity": "Fine",
+   "value": 0,
+   "setsFlag": "quest.stamp_plate",
+   "name": {
+    "en": "Cracked Die-Plate",
+    "id": "Pelat Die Retak"
+   },
+   "desc": {
+    "en": "A test strike that split under the hammer and was thrown to the spoil — but the crack holds the same hand that cut the master die. Evidence that leaks like light.",
+    "id": "Pukulan uji yang pecah di bawah palu dan dibuang ke timbunan — tapi retaknya memegang tangan yang sama yang memahat die induk. Bukti yang bocor seperti cahaya."
+   },
+   "icon": "LootIcons_29"
+  },
+  {
+   "id": "quest_stamp_blank",
+   "kind": "Quest",
+   "rarity": "Fine",
+   "value": 0,
+   "setsFlag": "quest.stamp_blank",
+   "name": {
+    "en": "Silver Blank",
+    "id": "Lempengan Perak"
+   },
+   "desc": {
+    "en": "A bright disc of unstruck silver, dropped where a barrow tipped. Worth a month's wage before it ever becomes a lie.",
+    "id": "Cakram perak belum terpukul yang cerah, jatuh saat gerobak terguling. Bernilai upah sebulan bahkan sebelum menjadi dusta."
+   },
+   "icon": "LootIcons_29"
   }
  ]
 }

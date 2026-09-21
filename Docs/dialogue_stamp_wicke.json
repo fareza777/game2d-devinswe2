@@ -1,0 +1,55 @@
+{
+ "id": "stamp_wicke",
+ "startNode": "w1",
+ "nodes": [
+  {
+   "id": "w1",
+   "speaker": "wicke",
+   "text": {
+    "en": "You're not one of the watch. They walk heavier. I'm Wicke — I carry blanks from the crucible to the press, four a trip, like bread to an oven that only bakes lies.",
+    "id": "Kau bukan anggota penjaga. Mereka berjalan lebih berat. Aku Wicke — aku mengangkut lempengan kosong dari cawan lebur ke pres, empat sekali jalan, seperti roti ke oven yang hanya memanggang dusta."
+   },
+   "next": "w2"
+  },
+  {
+   "id": "w2",
+   "speaker": "wicke",
+   "text": {
+    "en": "Last night a barrow tipped on the spoil run and the watch made me leave what spilled — said dead silver walks off on its own. Four blanks are still lying out there in the grit, west of the wall. That's a month's pay dropped in the dirt, and I want it where a month's pay belongs.",
+    "id": "Semalam sebuah gerobak terguling di lajur timbunan dan penjaga menyuruhku meninggalkan yang tumpah — katanya perak mati berjalan pergi sendiri. Empat lempengan masih tergeletak di kerikil di sana, barat tembok. Itu upah sebulan jatuh ke tanah, dan aku ingin ia berada di tempat upah sebulan seharusnya."
+   },
+   "choices": [
+    {
+     "text": {
+      "en": "Point me at the spill and they're yours.",
+      "id": "Tunjukkan tumpahannya dan lempengan itu jadi milikmu."
+     },
+     "next": "w3a"
+    },
+    {
+     "text": {
+      "en": "Why carry for them at all?",
+      "id": "Kenapa kau mau mengangkut untuk mereka?"
+     },
+     "next": "w3b"
+    }
+   ]
+  },
+  {
+   "id": "w3a",
+   "speaker": "wicke",
+   "text": {
+    "en": "The spoil run, west run of the yard — follow the rubble piles. Four blanks, heavy as sin. When the watch goes down I'm walking the spur the way it came: down.",
+    "id": "Lajur timbunan, lajur barat halaman — ikuti tumpukan puingnya. Empat lempengan, berat seperti dosa. Saat penjaga tumbang aku akan menuruni simpangan searah datangnya: ke bawah."
+   }
+  },
+  {
+   "id": "w3b",
+   "speaker": "wicke",
+   "text": {
+    "en": "Because a boy who carries blanks eats. And because nobody asks a runner what the runners hear — which is everything, and none of it mine to keep.",
+    "id": "Karena anak yang mengangkut lempengan bisa makan. Dan karena tak ada yang bertanya pada pelari apa yang didengar para pelari — padahal semuanya, dan tak satu pun untuk kusimpan."
+   }
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "stamp_hand",
+ "startNode": "h1",
+ "nodes": [
+  {
+   "id": "h1",
+   "speaker": "yard_hand",
+   "text": {
+    "en": "Sacks don't weigh themselves. I lift, I weigh, I mark the tally and I don't ask whose seal is on the slip — asking is how a porter ends up in the spoil.",
+    "id": "Karung tak menimbang dirinya sendiri. Aku mengangkat, aku menimbang, aku menandai hitungan dan tak bertanya segel siapa di slip itu — bertanya adalah cara seorang kuli berakhir di timbunan."
+   },
+   "choices": [
+    {
+     "text": {
+      "en": "What does the yard ship, when it's honest?",
+      "id": "Apa yang dikirim halaman ini, saat ia jujur?"
+     },
+     "next": "h2a"
+    },
+    {
+     "text": {
+      "en": "Keep your back to the wall. The watch won't stand forever.",
+      "id": "Sandarkan punggungmu ke tembok. Penjaganya tak akan berdiri selamanya."
+     },
+     "next": "h2b"
+    }
+   ]
+  },
+  {
+   "id": "h2a",
+   "speaker": "yard_hand",
+   "text": {
+    "en": "Honest? Nothing leaves here honest. Sealed chalk goes out as first-grade lime, struck blanks go out as League pay, and the slips say whatever the die was told to say. The only true thing in the yard is the weight of what's carried.",
+    "id": "Jujur? Tak ada yang keluar dari sini dengan jujur. Kapur bersegel pergi sebagai kapur kelas satu, lempengan yang dipukul pergi sebagai gaji Liga, dan slip-nya mengatakan apa pun yang diperintahkan die. Satu-satunya hal benar di halaman ini adalah berat yang diangkut."
+   }
+  },
+  {
+   "id": "h2b",
+   "speaker": "yard_hand",
+   "text": {
+    "en": "Then I'll keep my sack-count ready. When the yard changes hands it still needs hands — ones that remember what the old ones weighed.",
+    "id": "Kalau begitu hitungan karungku kusiapkan. Saat halaman ini berganti tangan ia tetap butuh tangan — yang ingat apa yang ditimbang tangan-tangan lama."
+   }
+  }
+ ]
+}

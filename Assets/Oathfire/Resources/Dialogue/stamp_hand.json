@@ -1,0 +1,70 @@
+{
+  "id": "stamp_hand",
+  "startNode": "h1",
+  "nodes": [
+    {
+      "id": "h1",
+      "speaker": "yard_hand",
+      "textKey": "dlg.stamp_hand.h1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.stamp_hand.h1.c1",
+          "next": "h2a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.stamp_hand.h1.c2",
+          "next": "h2b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "h2a",
+      "speaker": "yard_hand",
+      "textKey": "dlg.stamp_hand.h2a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h2b",
+      "speaker": "yard_hand",
+      "textKey": "dlg.stamp_hand.h2b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

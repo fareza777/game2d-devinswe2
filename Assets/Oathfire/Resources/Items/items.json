@@ -1085,6 +1085,46 @@
       "icon": "LootIcons_29",
       "slot": 0,
       "stackSize": 1
+    },
+    {
+      "id": "quest_stamp_slip",
+      "kind": 5,
+      "rarity": 1,
+      "value": 0,
+      "setsFlag": "quest.stamp_slip",
+      "icon": "LootIcons_30",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_stamp_die",
+      "kind": 5,
+      "rarity": 2,
+      "value": 0,
+      "setsFlag": "quest.stamp_die",
+      "icon": "LootIcons_31",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_stamp_plate",
+      "kind": 5,
+      "rarity": 1,
+      "value": 0,
+      "setsFlag": "quest.stamp_plate",
+      "icon": "LootIcons_29",
+      "slot": 0,
+      "stackSize": 1
+    },
+    {
+      "id": "quest_stamp_blank",
+      "kind": 5,
+      "rarity": 1,
+      "value": 0,
+      "setsFlag": "quest.stamp_blank",
+      "icon": "LootIcons_29",
+      "slot": 0,
+      "stackSize": 1
     }
   ]
 }

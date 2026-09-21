@@ -1,0 +1,55 @@
+{
+ "id": "stamp_vall",
+ "startNode": "v1",
+ "nodes": [
+  {
+   "id": "v1",
+   "speaker": "vall",
+   "text": {
+    "en": "Mind the pots — second one spits. I'm Vall. I cook for the yard because a yard that eats stays bought, and because the stew keeps me from asking whose hands stir the press.",
+    "id": "Hati-hati dengan kuali — yang kedua suka menyembur. Aku Vall. Aku memasak untuk halaman ini karena halaman yang makan tetap terbeli, dan karena semur menjauhkanku dari bertanya tangan siapa yang memutar pres."
+   },
+   "next": "v2"
+  },
+  {
+   "id": "v2",
+   "speaker": "vall",
+   "text": {
+    "en": "They pay in coin that smells of the crucible — too fresh, still warm from the die. I take it, because honest coin buys the same onions. But I mark what I hear, and the pit below is just a sieve. The yard is the funnel: everything the valley loses passes through it once.",
+    "id": "Mereka membayar dengan koin yang berbau cawan lebur — terlalu segar, masih hangat dari die. Kuambil saja, karena koin jujur pun membeli bawang yang sama. Tapi aku menandai apa yang kudengar, dan lubang di bawah hanyalah saringan. Halaman inilah corongnya: semua yang hilang dari lembah lewat di sini sekali."
+   },
+   "choices": [
+    {
+     "text": {
+      "en": "What do the die-setters talk about when the pot's loud?",
+      "id": "Apa yang dibicarakan para penyetel die saat kuali ramai?"
+     },
+     "next": "v3a"
+    },
+    {
+     "text": {
+      "en": "Stay near the pots and out of the yard. I'll be done soon.",
+      "id": "Tetap dekat kuali dan jauhi halaman. Aku segera selesai."
+     },
+     "next": "v3b"
+    }
+   ]
+  },
+  {
+   "id": "v3a",
+   "speaker": "vall",
+   "text": {
+    "en": "The die, always the die — who cut it, who guards it, who'd pay a year's wage to hold it a night. Jory set it last. Ask Jory, if you can find him sober, which is never.",
+    "id": "Die itu, selalu die — siapa yang memahatnya, siapa yang menjaganya, siapa yang mau bayar upah setahun untuk memegangnya semalam. Jory yang terakhir menyetelnya. Tanya Jory, kalau kau bisa menemukannya sadar — yang mana tidak pernah."
+   }
+  },
+  {
+   "id": "v3b",
+   "speaker": "vall",
+   "text": {
+    "en": "Done is a kind word for it. When the yard goes quiet, the pens open and the clerks walk home — if they remember the way. There's salt stew in it for you if they do.",
+    "id": "Selesai adalah kata yang lembut untuknya. Saat halaman ini senyap, kandang-kandang terbuka dan para juru tulis pulang — kalau mereka masih ingat jalannya. Ada semur garam untukmu kalau mereka berhasil."
+   }
+  }
+ ]
+}

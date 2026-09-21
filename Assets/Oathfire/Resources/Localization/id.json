@@ -1505,6 +1505,138 @@
       "value": "Katakan pada Faktor Hask bahwa Inspektur mengirim hitungannya — dan ingatkan dia bahwa lembah ini membaca kerak lebih baik daripada Liga membaca buku."
     },
     {
+      "key": "dlg.stamp_die.d1",
+      "value": "Sebuah die. Bukan stempel — die-nya. Stempel menandai kertas; ini menandai stempelnya sendiri. Perlihatkan."
+    },
+    {
+      "key": "dlg.stamp_die.d2",
+      "value": "Maren memutar die itu di bawah cahaya lampu sampai muka potongnya menangkap api. Rahangnya menegang. Ia pernah melihat tangan ini sebelumnya — bukan pada barang selundupan, tapi di aula piagam Liga sendiri."
+    },
+    {
+      "key": "dlg.stamp_die.d3",
+      "value": "Ini dipahat oleh pemahat die Liga — tanda di bawah tepiannya adalah kebiasaannya, bukan tanda tangannya. Seseorang di dalam gedung piagam Greymarch menjual segel lembah ini kepada para pembelot yang membakarnya. Jejak daftar gaji itu berakhir di kota, warden. Di aula gilda, bukan di selokan."
+    },
+    {
+      "key": "dlg.stamp_die.d4",
+      "value": "Aku membawa ini ke Greymarch malam ini — diam-diam, dan hanya ke telinga Marshal. Saat namanya muncul, akan kupanggil kau. Jaga api lembah tetap menyala; halaman berikutnya dari cerita ini ditulis di kota."
+    },
+    {
+      "key": "dlg.stamp_hand.h1",
+      "value": "Karung tak menimbang dirinya sendiri. Aku mengangkat, aku menimbang, aku menandai hitungan dan tak bertanya segel siapa di slip itu — bertanya adalah cara seorang kuli berakhir di timbunan."
+    },
+    {
+      "key": "dlg.stamp_hand.h1.c1",
+      "value": "Apa yang dikirim halaman ini, saat ia jujur?"
+    },
+    {
+      "key": "dlg.stamp_hand.h1.c2",
+      "value": "Sandarkan punggungmu ke tembok. Penjaganya tak akan berdiri selamanya."
+    },
+    {
+      "key": "dlg.stamp_hand.h2a",
+      "value": "Jujur? Tak ada yang keluar dari sini dengan jujur. Kapur bersegel pergi sebagai kapur kelas satu, lempengan yang dipukul pergi sebagai gaji Liga, dan slip-nya mengatakan apa pun yang diperintahkan die. Satu-satunya hal benar di halaman ini adalah berat yang diangkut."
+    },
+    {
+      "key": "dlg.stamp_hand.h2b",
+      "value": "Kalau begitu hitungan karungku kusiapkan. Saat halaman ini berganti tangan ia tetap butuh tangan — yang ingat apa yang ditimbang tangan-tangan lama."
+    },
+    {
+      "key": "dlg.stamp_jory.j1",
+      "value": "Jangan berdiri di tepi anjungan — papan-papannya bernyanyi dan penjaga mendengar nyanyian. Jory. Aku menyetel die, dulunya: pasang mukanya, sikukan tepiannya, pukul sekali untuk membuktikan potongannya. Die di atas sana adalah satu-satunya benda jujur yang pernah kubuat yang mencari nafkah dengan berdusta."
+    },
+    {
+      "key": "dlg.stamp_jory.j2",
+      "value": "Bukan aku yang memahatnya — aku hanya menyetelnya. Mukanya datang sudah terukir, masih berbau penggosok. Tapi ada pelat kedua, yang retak — pukulan uji yang pecah dan dibuang ke barisan pres seperti sampah. Siapa pun yang memahat die itu memahat yang ini juga. Retaknya membawa tangan yang sama."
+    },
+    {
+      "key": "dlg.stamp_jory.j2.c1",
+      "value": "Retak itu adalah sidik jari. Di mana ia mendarat?"
+    },
+    {
+      "key": "dlg.stamp_jory.j2.c2",
+      "value": "Dan kau tetap menyetelnya?"
+    },
+    {
+      "key": "dlg.stamp_jory.j3a",
+      "value": "Ujung barat barisan pres, di bawah meja pertama — mereka membangun pres di atas timbunan. Bawakan padaku dan akan kusumpahkan potongannya di bawah lampu Inspektur. Seorang pemahat die menandatangani karyanya mau atau tidak."
+    },
+    {
+      "key": "dlg.stamp_jory.j3b",
+      "value": "Koin menenangkan hati nurani lebih cepat daripada melunasi utang. Kuambil perak mereka dan kutidur dengan buruk — perdagangan yang sama yang dijalani seluruh lembah sejak benteng itu gelap."
+    },
+    {
+      "key": "dlg.stamp_novak.n1",
+      "value": "Rendahkan suaramu — para penjaga menghitung napas, bukan kata, tapi mereka menghitungnya dengan baik. Aku Novak. Juru tulis rumah timbang, piagam Liga, kelas tiga. Mereka menjemputku dari jalan tol tiga minggu lalu karena pembukuan di sini butuh tangan yang menulis benar saat angkanya berdusta."
+    },
+    {
+      "key": "dlg.stamp_novak.n2",
+      "value": "Aku menulis slip mereka di bawah pengawasan — kelas palsu, pedati rekayasa, segel yang bukan aku potong. Tapi aku juga menulis hitungan sejati, di slip-slip milikku sendiri: apa yang masuk, nama siapa tertera, apa yang ditekan die itu. Tiga di antaranya tergeletak di meja-meja di luar sana — sengaja kujatuhkan."
+    },
+    {
+      "key": "dlg.stamp_novak.n2.c1",
+      "value": "Berikan hitungannya dan akan kubawa keluar di depan hidung penjaga."
+    },
+    {
+      "key": "dlg.stamp_novak.n2.c2",
+      "value": "Kenapa kau tak kabur?"
+    },
+    {
+      "key": "dlg.stamp_novak.n3a",
+      "value": "Tiga slip: satu di tiap meja pres, dekat bayangan die. Kalau Inspektur membacanya, tiap nama yang dibayar halaman ini untuk disembunyikan akan terbuka. Dan warden — saat para penjaga tumbang, buka juga gerbang kandang ini. Aku sudah selesai jadi perabot."
+    },
+    {
+      "key": "dlg.stamp_novak.n3b",
+      "value": "Kabur ke mana? Halaman ini menggantung di atas lubang penuh orang yang akan menjualku kembali demi roti seminggu. Dan harus ada yang menjaga hitungan sejati — buku palsu tak bisa menggantung orang, tapi buku benar bisa menggantung orang yang tepat."
+    },
+    {
+      "key": "dlg.stamp_vall.v1",
+      "value": "Hati-hati dengan kuali — yang kedua suka menyembur. Aku Vall. Aku memasak untuk halaman ini karena halaman yang makan tetap terbeli, dan karena semur menjauhkanku dari bertanya tangan siapa yang memutar pres."
+    },
+    {
+      "key": "dlg.stamp_vall.v2",
+      "value": "Mereka membayar dengan koin yang berbau cawan lebur — terlalu segar, masih hangat dari die. Kuambil saja, karena koin jujur pun membeli bawang yang sama. Tapi aku menandai apa yang kudengar, dan lubang di bawah hanyalah saringan. Halaman inilah corongnya: semua yang hilang dari lembah lewat di sini sekali."
+    },
+    {
+      "key": "dlg.stamp_vall.v2.c1",
+      "value": "Apa yang dibicarakan para penyetel die saat kuali ramai?"
+    },
+    {
+      "key": "dlg.stamp_vall.v2.c2",
+      "value": "Tetap dekat kuali dan jauhi halaman. Aku segera selesai."
+    },
+    {
+      "key": "dlg.stamp_vall.v3a",
+      "value": "Die itu, selalu die — siapa yang memahatnya, siapa yang menjaganya, siapa yang mau bayar upah setahun untuk memegangnya semalam. Jory yang terakhir menyetelnya. Tanya Jory, kalau kau bisa menemukannya sadar — yang mana tidak pernah."
+    },
+    {
+      "key": "dlg.stamp_vall.v3b",
+      "value": "Selesai adalah kata yang lembut untuknya. Saat halaman ini senyap, kandang-kandang terbuka dan para juru tulis pulang — kalau mereka masih ingat jalannya. Ada semur garam untukmu kalau mereka berhasil."
+    },
+    {
+      "key": "dlg.stamp_wicke.w1",
+      "value": "Kau bukan anggota penjaga. Mereka berjalan lebih berat. Aku Wicke — aku mengangkut lempengan kosong dari cawan lebur ke pres, empat sekali jalan, seperti roti ke oven yang hanya memanggang dusta."
+    },
+    {
+      "key": "dlg.stamp_wicke.w2",
+      "value": "Semalam sebuah gerobak terguling di lajur timbunan dan penjaga menyuruhku meninggalkan yang tumpah — katanya perak mati berjalan pergi sendiri. Empat lempengan masih tergeletak di kerikil di sana, barat tembok. Itu upah sebulan jatuh ke tanah, dan aku ingin ia berada di tempat upah sebulan seharusnya."
+    },
+    {
+      "key": "dlg.stamp_wicke.w2.c1",
+      "value": "Tunjukkan tumpahannya dan lempengan itu jadi milikmu."
+    },
+    {
+      "key": "dlg.stamp_wicke.w2.c2",
+      "value": "Kenapa kau mau mengangkut untuk mereka?"
+    },
+    {
+      "key": "dlg.stamp_wicke.w3a",
+      "value": "Lajur timbunan, lajur barat halaman — ikuti tumpukan puingnya. Empat lempengan, berat seperti dosa. Saat penjaga tumbang aku akan menuruni simpangan searah datangnya: ke bawah."
+    },
+    {
+      "key": "dlg.stamp_wicke.w3b",
+      "value": "Karena anak yang mengangkut lempengan bisa makan. Dan karena tak ada yang bertanya pada pelari apa yang didengar para pelari — padahal semuanya, dan tak satu pun untuk kusimpan."
+    },
+    {
       "key": "dlg.vesna_ledger.v1",
       "value": "Anda membawa kembali kusir saya, dan orang yang menculiknya sudah terkubur. Serikat berutang pada Anda. Kalimat itu mungkin saya ucapkan setahun sekali."
     },
@@ -1839,6 +1971,18 @@
     {
       "key": "event.shepherd_speaks.banner",
       "value": "Kali ini ia mendekat. Ia berdiri di dalam cahaya."
+    },
+    {
+      "key": "event.stamp.die",
+      "value": "Para penjaga die berkeberatan."
+    },
+    {
+      "key": "event.stamp.plate",
+      "value": "Ada yang berjaga atas rongsokan itu."
+    },
+    {
+      "key": "event.stamp.yard",
+      "value": "Penjaga para pencetak merapat."
     },
     {
       "key": "event.surveyors.banner",
@@ -2673,6 +2817,38 @@
       "value": "Tongkat Hitung yang Terjatuh"
     },
     {
+      "key": "item.quest_stamp_blank.desc",
+      "value": "Cakram perak belum terpukul yang cerah, jatuh saat gerobak terguling. Bernilai upah sebulan bahkan sebelum menjadi dusta."
+    },
+    {
+      "key": "item.quest_stamp_blank.name",
+      "value": "Lempengan Perak"
+    },
+    {
+      "key": "item.quest_stamp_die.desc",
+      "value": "Blok stempel baja yang masih gelap oleh tinta — muka yang memukul tiap segel palsu yang telah ditelan lembah. Di bawah tepiannya, tanda kebiasaan pemahat die yang tak akan disalahkan pengadilan mana pun."
+    },
+    {
+      "key": "item.quest_stamp_die.name",
+      "value": "Die Induk"
+    },
+    {
+      "key": "item.quest_stamp_plate.desc",
+      "value": "Pukulan uji yang pecah di bawah palu dan dibuang ke timbunan — tapi retaknya memegang tangan yang sama yang memahat die induk. Bukti yang bocor seperti cahaya."
+    },
+    {
+      "key": "item.quest_stamp_plate.name",
+      "value": "Pelat Die Retak"
+    },
+    {
+      "key": "item.quest_stamp_slip.desc",
+      "value": "Selembar tulisan tangan Novak yang rapat — hitungan yang dibayar para pencetak agar tak pernah ditulis, dilipat cukup kecil untuk hilang dalam lipatan."
+    },
+    {
+      "key": "item.quest_stamp_slip.name",
+      "value": "Slip Surat Sejati"
+    },
+    {
       "key": "item.quest_store_key.desc",
       "value": "Besi bergagang panjang, satu-satunya kunci pembuka gudang garam bertutup. Penjaga kunci Ostler seharusnya membawanya ke ibu kota dan tak pernah sampai."
     },
@@ -3189,6 +3365,10 @@
       "value": "Petak Garam"
     },
     {
+      "key": "place.Stampworks",
+      "value": "Percetakan Segel"
+    },
+    {
       "key": "place.TradeRoad",
       "value": "Jalan Lembah"
     },
@@ -3327,6 +3507,14 @@
     {
       "key": "prompt.travel.saltpansOut",
       "value": "Kembali menyusuri jejak ke jalan dagang"
+    },
+    {
+      "key": "prompt.travel.stampworks",
+      "value": "Naiki simpangan ke halaman para pencetak"
+    },
+    {
+      "key": "prompt.travel.stampworksOut",
+      "value": "Kembali menyusuri simpangan ke lubang"
     },
     {
       "key": "prompt.travel.valley",
@@ -3503,6 +3691,30 @@
     {
       "key": "quest.q_shelter.title",
       "value": "Atap Sebelum Dinding"
+    },
+    {
+      "key": "quest.q_stamps.s1",
+      "value": "Naiki simpangan di atas ujung dalam lubang"
+    },
+    {
+      "key": "quest.q_stamps.s2",
+      "value": "Tumbangkan penjaga para pencetak"
+    },
+    {
+      "key": "quest.q_stamps.s3",
+      "value": "Ambil die induk dari anjungan hitung"
+    },
+    {
+      "key": "quest.q_stamps.s4",
+      "value": "Bawa die itu kepada Inspektur Maren di Rennfall"
+    },
+    {
+      "key": "quest.q_stamps.summary",
+      "value": "Jejak daftar gaji menaiki lubang kapur menuju halaman malam bertembok tempat koin benteng yang disimpangkan dipukul jadi segel baru. Tumbangkan penjaga para pencetak, ambil die induknya, dan letakkan di tangan Inspektur Maren — potongannya akan menamai siapa yang menjual segel lembah ini."
+    },
+    {
+      "key": "quest.q_stamps.title",
+      "value": "Die di Dalam Gelap"
     },
     {
       "key": "quest.q_summons.s1",
@@ -3855,6 +4067,42 @@
     {
       "key": "quest.sq_shepherds_distance.title",
       "value": "Jarak yang Ia Jaga"
+    },
+    {
+      "key": "quest.sq_stamp_blanks.s1",
+      "value": "Pungut empat lempengan perak yang tumpah di lajur timbunan"
+    },
+    {
+      "key": "quest.sq_stamp_blanks.summary",
+      "value": "Gerobak yang terguling menumpahkan empat lempengan koin perak di lajur timbunan barat halaman, dan penjaga menyuruh pelari Wicke meninggalkannya. Ia ingin perak mati itu diangkat dari tanah sebelum berjalan pergi sendiri — seperti segala hal di halaman ini."
+    },
+    {
+      "key": "quest.sq_stamp_blanks.title",
+      "value": "Perak Mati"
+    },
+    {
+      "key": "quest.sq_stamp_plates.s1",
+      "value": "Temukan pelat die retak di bawah barisan pres"
+    },
+    {
+      "key": "quest.sq_stamp_plates.summary",
+      "value": "Di bawah barisan pres tergeletak pukulan uji yang pecah — pelat die retak yang dipahat tangan yang sama dengan die induk. Penyetel die Jory ingin ia ditemukan; retakan seorang pemahat die adalah tanda tangan yang tak bisa disembunyikan tangan secermat apa pun."
+    },
+    {
+      "key": "quest.sq_stamp_plates.title",
+      "value": "Pelat yang Retak"
+    },
+    {
+      "key": "quest.sq_stamp_slips.s1",
+      "value": "Temukan kembali tiga slip sejati Novak di meja-meja pres"
+    },
+    {
+      "key": "quest.sq_stamp_slips.summary",
+      "value": "Novak, juru tulis Liga yang dikandangkan para pencetak, menulis dua pembukuan: slip palsu yang mereka awasi dan slip sejati yang ia jatuhkan di meja-meja. Tiga slip sejati masih tergeletak di barisan pres, menamai tiap tangan yang dibayar halaman ini untuk disembunyikan."
+    },
+    {
+      "key": "quest.sq_stamp_slips.title",
+      "value": "Hitungan Sejati"
     },
     {
       "key": "quest.sq_stew.s1",
@@ -4257,6 +4505,10 @@
       "value": "Ratu Isolde"
     },
     {
+      "key": "speaker.jory",
+      "value": "Penyetel Die Jory"
+    },
+    {
       "key": "speaker.kael",
       "value": "Kael Voss"
     },
@@ -4283,6 +4535,10 @@
     {
       "key": "speaker.mirren",
       "value": "Mirren si Tua"
+    },
+    {
+      "key": "speaker.novak",
+      "value": "Juru Tulis Novak"
     },
     {
       "key": "speaker.odle",
@@ -4357,6 +4613,10 @@
       "value": "Tobias Reed"
     },
     {
+      "key": "speaker.vall",
+      "value": "Juru Masak Vall"
+    },
+    {
       "key": "speaker.vesna",
       "value": "Vesna Kell"
     },
@@ -4365,12 +4625,20 @@
       "value": "Wick"
     },
     {
+      "key": "speaker.wicke",
+      "value": "Pelari Wicke"
+    },
+    {
       "key": "speaker.winna",
       "value": "Winna Tua"
     },
     {
       "key": "speaker.wren",
       "value": "Wren Penjaga Tungku"
+    },
+    {
+      "key": "speaker.yard_hand",
+      "value": "Kuli halaman"
     },
     {
       "key": "stat.armour",
@@ -4523,6 +4791,10 @@
     {
       "key": "toast.saltPans",
       "value": "Petak-petak sudah bersih"
+    },
+    {
+      "key": "toast.stampClear",
+      "value": "Lantai percetakan sudah bersih"
     },
     {
       "key": "toast.used",

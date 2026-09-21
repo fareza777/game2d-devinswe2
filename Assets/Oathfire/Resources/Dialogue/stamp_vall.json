@@ -1,0 +1,83 @@
+{
+  "id": "stamp_vall",
+  "startNode": "v1",
+  "nodes": [
+    {
+      "id": "v1",
+      "speaker": "vall",
+      "textKey": "dlg.stamp_vall.v1",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "v2",
+      "choices": []
+    },
+    {
+      "id": "v2",
+      "speaker": "vall",
+      "textKey": "dlg.stamp_vall.v2",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.stamp_vall.v2.c1",
+          "next": "v3a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.stamp_vall.v2.c2",
+          "next": "v3b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "v3a",
+      "speaker": "vall",
+      "textKey": "dlg.stamp_vall.v3a",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "v3b",
+      "speaker": "vall",
+      "textKey": "dlg.stamp_vall.v3b",
+      "voiceClip": "",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

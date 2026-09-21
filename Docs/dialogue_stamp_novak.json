@@ -1,0 +1,55 @@
+{
+ "id": "stamp_novak",
+ "startNode": "n1",
+ "nodes": [
+  {
+   "id": "n1",
+   "speaker": "novak",
+   "text": {
+    "en": "Keep your voice down — the watch counts breaths, not words, but it counts them well. I'm Novak. Weigh-house clerk, League charter, third grade. They took me off the toll road three weeks past because the books here need a hand that writes true while the numbers lie.",
+    "id": "Rendahkan suaramu — para penjaga menghitung napas, bukan kata, tapi mereka menghitungnya dengan baik. Aku Novak. Juru tulis rumah timbang, piagam Liga, kelas tiga. Mereka menjemputku dari jalan tol tiga minggu lalu karena pembukuan di sini butuh tangan yang menulis benar saat angkanya berdusta."
+   },
+   "next": "n2"
+  },
+  {
+   "id": "n2",
+   "speaker": "novak",
+   "text": {
+    "en": "I write their slips under watch — false grades, invented carts, a seal I didn't cut. But I keep the true count too, on slips of my own: what went in, whose name was on it, what the die pressed. Three of them are lying on the benches out there where I dropped them on purpose.",
+    "id": "Aku menulis slip mereka di bawah pengawasan — kelas palsu, pedati rekayasa, segel yang bukan aku potong. Tapi aku juga menulis hitungan sejati, di slip-slip milikku sendiri: apa yang masuk, nama siapa tertera, apa yang ditekan die itu. Tiga di antaranya tergeletak di meja-meja di luar sana — sengaja kujatuhkan."
+   },
+   "choices": [
+    {
+     "text": {
+      "en": "Give me the count and I'll carry it out under the watch's nose.",
+      "id": "Berikan hitungannya dan akan kubawa keluar di depan hidung penjaga."
+     },
+     "next": "n3a"
+    },
+    {
+     "text": {
+      "en": "Why didn't you run?",
+      "id": "Kenapa kau tak kabur?"
+     },
+     "next": "n3b"
+    }
+   ]
+  },
+  {
+   "id": "n3a",
+   "speaker": "novak",
+   "text": {
+    "en": "Three slips: one on each press bench, close to the die's shadow. If the Inspector reads them, every name the yard was paid to hide is on the table. And warden — when the watch falls, take the pens' gate with you. I'm done being furniture.",
+    "id": "Tiga slip: satu di tiap meja pres, dekat bayangan die. Kalau Inspektur membacanya, tiap nama yang dibayar halaman ini untuk disembunyikan akan terbuka. Dan warden — saat para penjaga tumbang, buka juga gerbang kandang ini. Aku sudah selesai jadi perabot."
+   }
+  },
+  {
+   "id": "n3b",
+   "speaker": "novak",
+   "text": {
+    "en": "Run where? The yard sits a climb above a pit of men who'd sell me back for a week's bread. And someone must keep the true count — a false book can't hang a man, but a true one can hang the right man.",
+    "id": "Kabur ke mana? Halaman ini menggantung di atas lubang penuh orang yang akan menjualku kembali demi roti seminggu. Dan harus ada yang menjaga hitungan sejati — buku palsu tak bisa menggantung orang, tapi buku benar bisa menggantung orang yang tepat."
+   }
+  }
+ ]
+}

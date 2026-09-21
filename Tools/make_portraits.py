@@ -130,6 +130,17 @@ PORTRAITS = {
              "small sharp eyes under a white kerchief, cheeks like dried apples, a shrewd knowing mouth",
     "wren": "A kiln-keeper man in his forties, gaunt sooty face, lashes singed short, "
             "a leather hood pushed back from close-cropped hair, eyes reddened by years of smoke",
+    "novak": "A League weigh-house clerk in his thirties, narrow anxious face, ink-stained lips, "
+             "a clerk's collar two sizes worn, watchful eyes that count even while speaking, "
+             "a wax-smudge on one temple",
+    "vall": "A camp cook woman in her fifties, broad stew-stained face, sleeves rolled to the elbow, "
+            "grey hair pinned with a ladle hook, good-humoured eyes that have stopped being surprised",
+    "jory": "A die-setter in his forties, tired careful face, burnisher's squint, fingers stained "
+            "with lampblack, an unfinished beard, the stillness of a man who works one strike at a time",
+    "wicke": "A runner boy of about fourteen, thin quick face, hair gone dark with forge soot, "
+             "bright darting eyes, a strap-worn shoulder, the grin of someone paid in leftovers",
+    "yard_hand": "A yard porter in his thirties, heavy-jawed guarded face, arms like cable, "
+                 "a tally cord at the belt, eyes that weigh every sack and every stranger",
 }
 
 

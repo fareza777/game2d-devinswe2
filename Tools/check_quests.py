@@ -29,6 +29,7 @@ BUILDER_FOR_SCENE = {
     "Burnpits": "BurnpitsSceneBuilder.cs",
     "Windrest": "WindrestSceneBuilder.cs",
     "Chalkpit": "ChalkpitSceneBuilder.cs",
+    "Stampworks": "StampworksSceneBuilder.cs",
 }
 
 

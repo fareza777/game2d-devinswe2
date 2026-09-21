@@ -31,6 +31,7 @@ namespace Oathfire.Audio
             { "Burnpits", ("burnpits_smoke", "char_camp") },
             { "Windrest", ("windrest_mill", "windmill_hill") },
             { "Chalkpit", ("chalkpit_cut", "chalk_pit") },
+            { "Stampworks", ("stampworks_theme", "stamp_yard") },
         };
 
         readonly HashSet<EnemyHealth2D> heardEnemies = new HashSet<EnemyHealth2D>();
