@@ -27,3 +27,4 @@ Tools/cache/
 .vscode/
 __pycache__/
 *.pyc
+Assets/Resources/PerformanceTestRun*.json*
