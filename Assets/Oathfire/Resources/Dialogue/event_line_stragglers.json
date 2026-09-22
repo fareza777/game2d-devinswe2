@@ -6,7 +6,7 @@
       "id": "s1",
       "speaker": "straggler",
       "textKey": "dlg.event_line_stragglers.s1",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_line_stragglers_s1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "s2",
       "speaker": "straggler",
       "textKey": "dlg.event_line_stragglers.s2",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_line_stragglers_s2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -69,7 +69,7 @@
       "id": "s3a",
       "speaker": "straggler",
       "textKey": "dlg.event_line_stragglers.s3a",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_line_stragglers_s3a",
       "mood": "",
       "setFlags": [
         "event.line_stragglers.done"
@@ -84,7 +84,7 @@
       "id": "s3b",
       "speaker": "straggler",
       "textKey": "dlg.event_line_stragglers.s3b",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_line_stragglers_s3b",
       "mood": "",
       "setFlags": [
         "act2.paymaster_hinted",
@@ -100,7 +100,7 @@
       "id": "s3c",
       "speaker": "straggler",
       "textKey": "dlg.event_line_stragglers.s3c",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_line_stragglers_s3c",
       "mood": "",
       "setFlags": [
         "act2.wagons_hinted",

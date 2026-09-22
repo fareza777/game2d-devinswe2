@@ -179,6 +179,10 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("The drover's shield", map.At(spots[7]) + new Vector3(0.7f, -0.45f, 0f),
                     "cache_pit_shield", "Chest A1_E", "shield_lion", "cache.pit.shield", "",
                     TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
+            if (at.stone != null && at.stone.Length > 1)
+                MapScene.BuildSearchSpot("The foreman's barbute", map.At(at.stone[1]) + new Vector3(0.7f, 0.4f, 0f),
+                    "cache_pit_helm", "Chest A1_E", "helm_barbute", "cache.pit.helm", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
     }
 }

@@ -6,7 +6,7 @@
       "id": "b1",
       "speaker": "boru",
       "textKey": "dlg.saltpans_boru.b1",
-      "voiceClip": "",
+      "voiceClip": "dlg_saltpans_boru_b1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

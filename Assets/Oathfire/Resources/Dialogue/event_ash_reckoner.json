@@ -6,7 +6,7 @@
       "id": "r1",
       "speaker": "reckoner",
       "textKey": "dlg.event_ash_reckoner.r1",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_ash_reckoner_r1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "r2",
       "speaker": "reckoner",
       "textKey": "dlg.event_ash_reckoner.r2",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_ash_reckoner_r2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -69,7 +69,7 @@
       "id": "r3a",
       "speaker": "reckoner",
       "textKey": "dlg.event_ash_reckoner.r3a",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_ash_reckoner_r3a",
       "mood": "",
       "setFlags": [
         "event.ash_reckoner.done"
@@ -84,7 +84,7 @@
       "id": "r3b",
       "speaker": "reckoner",
       "textKey": "dlg.event_ash_reckoner.r3b",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_ash_reckoner_r3b",
       "mood": "",
       "setFlags": [
         "event.ash_reckoner.done"
@@ -99,7 +99,7 @@
       "id": "r3c",
       "speaker": "reckoner",
       "textKey": "dlg.event_ash_reckoner.r3c",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_ash_reckoner_r3c",
       "mood": "",
       "setFlags": [
         "event.ash_reckoner.done"

@@ -588,18 +588,6 @@ namespace Oathfire.EditorTools
                 serialized.FindProperty("guardianBannerKey").stringValue = guardianBannerKey;
             }
             serialized.ApplyModifiedPropertiesWithoutUndo();
-
-            // A slow glow over it, the same mark a visitor wears, so it can be found across the map.
-            var glow = new GameObject("Glow", typeof(SpriteRenderer), typeof(World.EventMarker));
-            glow.transform.SetParent(spot.transform, false);
-            var marker = new SerializedObject(glow.GetComponent<World.EventMarker>());
-            marker.ApplyModifiedPropertiesWithoutUndo();
-            var glowRenderer = glow.GetComponent<SpriteRenderer>();
-            glowRenderer.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Oathfire/Art/FX/glow.png");
-            glowRenderer.color = new Color(1f, 0.8f, 0.4f, 0.7f);
-            glowRenderer.sortingOrder = World.ActorSorting.ActorOrder + 1;
-            glow.transform.localScale = Vector3.one * 0.6f;
-
             return Gate(spot, requiresFlag, foundFlag);
         }
 

@@ -6,7 +6,7 @@
       "id": "brann_1",
       "speaker": "brann",
       "textKey": "dlg.hearth_lit.brann_1",
-      "voiceClip": "",
+      "voiceClip": "dlg_hearth_lit_brann_1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "brann_2",
       "speaker": "brann",
       "textKey": "dlg.hearth_lit.brann_2",
-      "voiceClip": "",
+      "voiceClip": "dlg_hearth_lit_brann_2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -69,7 +69,7 @@
       "id": "brann_expand",
       "speaker": "brann",
       "textKey": "dlg.hearth_lit.brann_expand",
-      "voiceClip": "",
+      "voiceClip": "dlg_hearth_lit_brann_expand",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -82,7 +82,7 @@
       "id": "brann_dead",
       "speaker": "brann",
       "textKey": "dlg.hearth_lit.brann_dead",
-      "voiceClip": "",
+      "voiceClip": "dlg_hearth_lit_brann_dead",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -95,7 +95,7 @@
       "id": "brann_rules",
       "speaker": "brann",
       "textKey": "dlg.hearth_lit.brann_rules",
-      "voiceClip": "",
+      "voiceClip": "dlg_hearth_lit_brann_rules",
       "mood": "",
       "setFlags": [
         "act1.knows_journal"
@@ -110,7 +110,7 @@
       "id": "brann_end",
       "speaker": "brann",
       "textKey": "dlg.hearth_lit.brann_end",
-      "voiceClip": "",
+      "voiceClip": "dlg_hearth_lit_brann_end",
       "mood": "",
       "setFlags": [
         "act1.night1_ready"

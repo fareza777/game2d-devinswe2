@@ -6,7 +6,7 @@
       "id": "d1",
       "speaker": "odle",
       "textKey": "dlg.windrest_odle.d1",
-      "voiceClip": "",
+      "voiceClip": "dlg_windrest_odle_d1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

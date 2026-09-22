@@ -6,7 +6,7 @@
       "id": "c1",
       "speaker": "courier",
       "textKey": "dlg.event_manifest_buyer.c1",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_manifest_buyer_c1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "c2",
       "speaker": "courier",
       "textKey": "dlg.event_manifest_buyer.c2",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_manifest_buyer_c2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -69,7 +69,7 @@
       "id": "c3a",
       "speaker": "courier",
       "textKey": "dlg.event_manifest_buyer.c3a",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_manifest_buyer_c3a",
       "mood": "",
       "setFlags": [
         "event.manifest_buyer.done"
@@ -84,7 +84,7 @@
       "id": "c3b",
       "speaker": "courier",
       "textKey": "dlg.event_manifest_buyer.c3b",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_manifest_buyer_c3b",
       "mood": "",
       "setFlags": [
         "event.manifest_buyer.done"
@@ -99,7 +99,7 @@
       "id": "c3c",
       "speaker": "courier",
       "textKey": "dlg.event_manifest_buyer.c3c",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_manifest_buyer_c3c",
       "mood": "",
       "setFlags": [
         "event.manifest_buyer.done",

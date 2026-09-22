@@ -6,7 +6,7 @@
       "id": "galen_1",
       "speaker": "galen",
       "textKey": "dlg.galen_loyalty.galen_1",
-      "voiceClip": "",
+      "voiceClip": "dlg_galen_loyalty_galen_1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "galen_2",
       "speaker": "galen",
       "textKey": "dlg.galen_loyalty.galen_2",
-      "voiceClip": "",
+      "voiceClip": "dlg_galen_loyalty_galen_2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -69,7 +69,7 @@
       "id": "galen_answer",
       "speaker": "galen",
       "textKey": "dlg.galen_loyalty.galen_answer",
-      "voiceClip": "",
+      "voiceClip": "dlg_galen_loyalty_galen_answer",
       "mood": "",
       "setFlags": [
         "act3.galen_honest"
@@ -84,7 +84,7 @@
       "id": "galen_scheme",
       "speaker": "galen",
       "textKey": "dlg.galen_loyalty.galen_scheme",
-      "voiceClip": "",
+      "voiceClip": "dlg_galen_loyalty_galen_scheme",
       "mood": "",
       "setFlags": [
         "act3.galen_ally"
@@ -99,7 +99,7 @@
       "id": "galen_dismissed",
       "speaker": "galen",
       "textKey": "dlg.galen_loyalty.galen_dismissed",
-      "voiceClip": "",
+      "voiceClip": "dlg_galen_loyalty_galen_dismissed",
       "mood": "",
       "setFlags": [
         "act3.galen_gone"
@@ -114,7 +114,7 @@
       "id": "galen_end",
       "speaker": "galen",
       "textKey": "dlg.galen_loyalty.galen_end",
-      "voiceClip": "",
+      "voiceClip": "dlg_galen_loyalty_galen_end",
       "mood": "",
       "setFlags": [
         "act3.feast_warned"

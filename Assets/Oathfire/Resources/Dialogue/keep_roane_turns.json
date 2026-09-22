@@ -6,7 +6,7 @@
       "id": "t1",
       "speaker": "roane",
       "textKey": "dlg.keep_roane_turns.t1",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_roane_turns_t1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "t2",
       "speaker": "roane",
       "textKey": "dlg.keep_roane_turns.t2",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_roane_turns_t2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -57,7 +57,7 @@
       "id": "t3a",
       "speaker": "roane",
       "textKey": "dlg.keep_roane_turns.t3a",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_roane_turns_t3a",
       "mood": "",
       "setFlags": [
         "act2.roane_answered"
@@ -72,7 +72,7 @@
       "id": "t3b",
       "speaker": "roane",
       "textKey": "dlg.keep_roane_turns.t3b",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_roane_turns_t3b",
       "mood": "",
       "setFlags": [
         "act2.roane_answered"

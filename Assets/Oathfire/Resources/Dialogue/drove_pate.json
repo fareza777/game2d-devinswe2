@@ -6,7 +6,7 @@
       "id": "p1",
       "speaker": "pate",
       "textKey": "dlg.drove_pate.p1",
-      "voiceClip": "",
+      "voiceClip": "dlg_drove_pate_p1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

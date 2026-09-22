@@ -6,7 +6,7 @@
       "id": "p1",
       "speaker": "pike",
       "textKey": "dlg.toll_pike.p1",
-      "voiceClip": "",
+      "voiceClip": "dlg_toll_pike_p1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

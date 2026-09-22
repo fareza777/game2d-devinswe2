@@ -199,7 +199,7 @@ namespace Oathfire.EditorTools
             // The glaive a Marshal broke and re-hafted lies where the last raid spilled it.
             if (at.arrivals != null && at.arrivals.Length > 1)
                 MapScene.BuildSearchSpot("The re-hafted glaive", map.At(at.arrivals[1]) + new Vector3(0.85f, -0.45f, 0f),
-                    "cache_hollow_glaive", "Chest A1_E", "spear_glaive_ash", "cache.hollow.glaive", "",
+                    "cache_hollow_glaive", "Chest A1_E", "spear_ash", "cache.hollow.glaive", "",
                     TradeRoadSceneBuilder.EnemyPrefabs(), 3, "event.cacheGuard");
         }
     }

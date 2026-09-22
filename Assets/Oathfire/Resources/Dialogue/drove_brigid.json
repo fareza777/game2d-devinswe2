@@ -6,7 +6,7 @@
       "id": "b1",
       "speaker": "brigid",
       "textKey": "dlg.drove_brigid.b1",
-      "voiceClip": "",
+      "voiceClip": "dlg_drove_brigid_b1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

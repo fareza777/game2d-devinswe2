@@ -209,7 +209,7 @@ namespace Oathfire.EditorTools
             // A courier's star spilled beside the toll road — whoever buried it left watchers.
             if (at.brann != null)
                 MapScene.BuildSearchSpot("The courier's cache", map.At(at.brann) + new Vector3(0.85f, -0.4f, 0f),
-                    "cache_road_star", "Chest A1_E", "trinket_marshal_star", "cache.road.star", "",
+                    "cache_road_star", "Chest A1_E", "trinket_road_charm", "cache.road.star", "",
                     EnemyPrefabs(), 2, "event.cacheGuard");
 
             // Wayside salvage: the carts that did not make it are worth searching.

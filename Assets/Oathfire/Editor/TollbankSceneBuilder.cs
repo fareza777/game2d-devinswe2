@@ -232,6 +232,15 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("The true ledger", map.At(at.arrivals[2]) + new Vector3(0.9f, -0.5f, 0f),
                     "toll_ledger", "Misc B8_E", "quest_true_ledger", "act3.ledger_taken", "act3.halvard_down",
                     TradeRoadSceneBuilder.EnemyPrefabs(), 3, "event.toll.ledger");
+            // What the washer-captains skimmed off the tolls: the marshal's star and the black bow.
+            if (at.arrivals != null && at.arrivals.Length > 0)
+                MapScene.BuildSearchSpot("The marshal's star", map.At(at.arrivals[0]) + new Vector3(0.8f, -0.4f, 0f),
+                    "cache_toll_star", "Chest A1_E", "trinket_marshal_star", "cache.toll.star", "act3.halvard_down",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
+            if (at.villagers != null && at.villagers.Length > 0)
+                MapScene.BuildSearchSpot("The black bow", map.At(at.villagers[0]) + new Vector3(0.75f, 0.35f, 0f),
+                    "cache_toll_bow", "Chest A1_E", "bow_black", "cache.toll.bow", "act3.halvard_down",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
     }
 }

@@ -6,7 +6,7 @@
       "id": "f1",
       "speaker": "fen",
       "textKey": "dlg.drove_fen.f1",
-      "voiceClip": "",
+      "voiceClip": "dlg_drove_fen_f1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

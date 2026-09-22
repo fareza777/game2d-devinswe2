@@ -6,7 +6,7 @@
       "id": "a1",
       "speaker": "mira",
       "textKey": "dlg.hollow_mira_after.a1",
-      "voiceClip": "",
+      "voiceClip": "dlg_hollow_mira_after_a1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

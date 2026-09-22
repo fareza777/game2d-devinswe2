@@ -6,7 +6,7 @@
       "id": "vesna_1",
       "speaker": "vesna",
       "textKey": "dlg.vesna_offer.vesna_1",
-      "voiceClip": "",
+      "voiceClip": "dlg_vesna_offer_vesna_1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "vesna_2",
       "speaker": "vesna",
       "textKey": "dlg.vesna_offer.vesna_2",
-      "voiceClip": "",
+      "voiceClip": "dlg_vesna_offer_vesna_2",
       "mood": "",
       "setFlags": [
         "act2.knows_hearth_right"
@@ -34,7 +34,7 @@
       "id": "vesna_3",
       "speaker": "vesna",
       "textKey": "dlg.vesna_offer.vesna_3",
-      "voiceClip": "",
+      "voiceClip": "dlg_vesna_offer_vesna_3",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -84,7 +84,7 @@
       "id": "vesna_contract",
       "speaker": "vesna",
       "textKey": "dlg.vesna_offer.vesna_contract",
-      "voiceClip": "",
+      "voiceClip": "dlg_vesna_offer_vesna_contract",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -97,7 +97,7 @@
       "id": "vesna_refused",
       "speaker": "vesna",
       "textKey": "dlg.vesna_offer.vesna_refused",
-      "voiceClip": "",
+      "voiceClip": "dlg_vesna_offer_vesna_refused",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -110,7 +110,7 @@
       "id": "vesna_told",
       "speaker": "vesna",
       "textKey": "dlg.vesna_offer.vesna_told",
-      "voiceClip": "",
+      "voiceClip": "dlg_vesna_offer_vesna_told",
       "mood": "",
       "setFlags": [
         "act2.harrow_knows"
@@ -125,7 +125,7 @@
       "id": "vesna_end",
       "speaker": "vesna",
       "textKey": "dlg.vesna_offer.vesna_end",
-      "voiceClip": "",
+      "voiceClip": "dlg_vesna_offer_vesna_end",
       "mood": "",
       "setFlags": [
         "act2.bandits_hinted"

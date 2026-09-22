@@ -6,7 +6,7 @@
       "id": "p1",
       "speaker": "hesketh",
       "textKey": "dlg.villager_hesketh_pot.p1",
-      "voiceClip": "",
+      "voiceClip": "dlg_villager_hesketh_pot_p1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "p2",
       "speaker": "hesketh",
       "textKey": "dlg.villager_hesketh_pot.p2",
-      "voiceClip": "",
+      "voiceClip": "dlg_villager_hesketh_pot_p2",
       "mood": "",
       "setFlags": [
         "sq.stew.pot"

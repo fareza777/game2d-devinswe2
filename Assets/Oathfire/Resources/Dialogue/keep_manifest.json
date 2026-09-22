@@ -6,7 +6,7 @@
       "id": "m1",
       "speaker": "maren",
       "textKey": "dlg.keep_manifest.m1",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_manifest_m1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -21,7 +21,7 @@
       "id": "m2",
       "speaker": "",
       "textKey": "dlg.keep_manifest.m2",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_manifest_m2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -34,7 +34,7 @@
       "id": "m3",
       "speaker": "maren",
       "textKey": "dlg.keep_manifest.m3",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_manifest_m3",
       "mood": "",
       "setFlags": [
         "act2.manifest_delivered"

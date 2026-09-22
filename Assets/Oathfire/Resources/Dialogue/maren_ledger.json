@@ -6,7 +6,7 @@
       "id": "m1",
       "speaker": "maren",
       "textKey": "dlg.maren_ledger.m1",
-      "voiceClip": "",
+      "voiceClip": "dlg_maren_ledger_m1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "m2",
       "speaker": "maren",
       "textKey": "dlg.maren_ledger.m2",
-      "voiceClip": "",
+      "voiceClip": "dlg_maren_ledger_m2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -32,7 +32,7 @@
       "id": "m3",
       "speaker": "maren",
       "textKey": "dlg.maren_ledger.m3",
-      "voiceClip": "",
+      "voiceClip": "dlg_maren_ledger_m3",
       "mood": "",
       "setFlags": [
         "act3.ledger_closed"

@@ -221,6 +221,12 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("The oath-wall", map.At(at.arrivals[0]) + new Vector3(0.85f, 0.35f, 0f),
                     "cache_keep_shield", "Chest A1_E", "shield_oathwall", "cache.keep.shield", "act2.durn_defeated",
                     TradeRoadSceneBuilder.EnemyPrefabs(), 3, "event.keep.vault");
+                MapScene.BuildSearchSpot("The marshal's glaive", map.At(at.arrivals[1]) + new Vector3(0.75f, -0.35f, 0f),
+                    "cache_keep_glaive", "Chest A1_E", "spear_glaive_ash", "cache.keep.glaive", "act2.durn_defeated",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.keep.vault");
+                MapScene.BuildSearchSpot("The marshal's helm", map.At(at.arrivals[2]) + new Vector3(-0.8f, 0.35f, 0f),
+                    "cache_keep_helm", "Chest A1_E", "helm_marshal", "cache.keep.helm", "act2.durn_defeated",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.keep.vault");
             }
             if (at.timber != null && at.timber.Length > 0)
                 MapScene.BuildSearchSpot("The warden's plate", map.At(at.timber[0]) + new Vector3(0.8f, -0.4f, 0f),

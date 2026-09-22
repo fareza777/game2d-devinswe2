@@ -6,7 +6,7 @@
       "id": "w1",
       "speaker": "maren",
       "textKey": "dlg.chalkpit_writ.w1",
-      "voiceClip": "",
+      "voiceClip": "dlg_chalkpit_writ_w1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "w2",
       "speaker": "maren",
       "textKey": "dlg.chalkpit_writ.w2",
-      "voiceClip": "",
+      "voiceClip": "dlg_chalkpit_writ_w2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -45,7 +45,7 @@
       "id": "w3",
       "speaker": "maren",
       "textKey": "dlg.chalkpit_writ.w3",
-      "voiceClip": "",
+      "voiceClip": "dlg_chalkpit_writ_w3",
       "mood": "",
       "setFlags": [
         "act2.chalkpit_rumoured"

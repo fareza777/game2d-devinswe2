@@ -6,7 +6,7 @@
       "id": "brann_1",
       "speaker": "brann",
       "textKey": "dlg.after_first_night.brann_1",
-      "voiceClip": "",
+      "voiceClip": "dlg_after_first_night_brann_1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "brann_choice",
       "speaker": "brann",
       "textKey": "dlg.after_first_night.brann_choice",
-      "voiceClip": "",
+      "voiceClip": "dlg_after_first_night_brann_choice",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -69,7 +69,7 @@
       "id": "brann_bury",
       "speaker": "brann",
       "textKey": "dlg.after_first_night.brann_bury",
-      "voiceClip": "",
+      "voiceClip": "dlg_after_first_night_brann_bury",
       "mood": "",
       "setFlags": [
         "act1.rite_performed"
@@ -84,7 +84,7 @@
       "id": "brann_burn",
       "speaker": "brann",
       "textKey": "dlg.after_first_night.brann_burn",
-      "voiceClip": "",
+      "voiceClip": "dlg_after_first_night_brann_burn",
       "mood": "",
       "setFlags": [
         "act1.rite_performed"
@@ -99,7 +99,7 @@
       "id": "brann_split",
       "speaker": "brann",
       "textKey": "dlg.after_first_night.brann_split",
-      "voiceClip": "",
+      "voiceClip": "dlg_after_first_night_brann_split",
       "mood": "",
       "setFlags": [
         "act1.rite_performed"
@@ -114,7 +114,7 @@
       "id": "brann_end",
       "speaker": "brann",
       "textKey": "dlg.after_first_night.brann_end",
-      "voiceClip": "",
+      "voiceClip": "dlg_after_first_night_brann_end",
       "mood": "",
       "setFlags": [
         "act1.maren_incoming"

@@ -6,7 +6,7 @@
       "id": "o1",
       "speaker": "oona",
       "textKey": "dlg.city_oona_letter.o1",
-      "voiceClip": "",
+      "voiceClip": "dlg_city_oona_letter_o1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "o2",
       "speaker": "oona",
       "textKey": "dlg.city_oona_letter.o2",
-      "voiceClip": "",
+      "voiceClip": "dlg_city_oona_letter_o2",
       "mood": "",
       "setFlags": [
         "sq.letter.given"

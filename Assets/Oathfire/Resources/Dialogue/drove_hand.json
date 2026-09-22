@@ -6,7 +6,7 @@
       "id": "d1",
       "speaker": "drover",
       "textKey": "dlg.drove_hand.d1",
-      "voiceClip": "",
+      "voiceClip": "dlg_drove_hand_d1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

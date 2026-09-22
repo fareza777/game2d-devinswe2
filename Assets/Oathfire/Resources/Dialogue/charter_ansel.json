@@ -6,7 +6,7 @@
       "id": "a1",
       "speaker": "ansel",
       "textKey": "dlg.charter_ansel.a1",
-      "voiceClip": "",
+      "voiceClip": "dlg_charter_ansel_a1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "a2",
       "speaker": "ansel",
       "textKey": "dlg.charter_ansel.a2",
-      "voiceClip": "",
+      "voiceClip": "dlg_charter_ansel_a2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -32,7 +32,7 @@
       "id": "a3",
       "speaker": "ansel",
       "textKey": "dlg.charter_ansel.a3",
-      "voiceClip": "",
+      "voiceClip": "dlg_charter_ansel_a3",
       "mood": "",
       "setFlags": [
         "act3.tollbank_marked"

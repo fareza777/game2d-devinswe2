@@ -6,7 +6,7 @@
       "id": "t1",
       "speaker": "tess",
       "textKey": "dlg.saltpans_tess_rest.t1",
-      "voiceClip": "",
+      "voiceClip": "dlg_saltpans_tess_rest_t1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "t2",
       "speaker": "tess",
       "textKey": "dlg.saltpans_tess_rest.t2",
-      "voiceClip": "",
+      "voiceClip": "dlg_saltpans_tess_rest_t2",
       "mood": "",
       "setFlags": [
         "act2.drovers_rumoured"

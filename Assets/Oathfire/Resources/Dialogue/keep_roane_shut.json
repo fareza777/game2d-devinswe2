@@ -6,7 +6,7 @@
       "id": "r1",
       "speaker": "roane",
       "textKey": "dlg.keep_roane_shut.r1",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_roane_shut_r1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "r2",
       "speaker": "roane",
       "textKey": "dlg.keep_roane_shut.r2",
-      "voiceClip": "",
+      "voiceClip": "dlg_keep_roane_shut_r2",
       "mood": "",
       "setFlags": [
         "act2.manifest_hinted"

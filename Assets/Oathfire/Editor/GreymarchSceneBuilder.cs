@@ -167,7 +167,7 @@ namespace Oathfire.EditorTools
         {
             if (at.villagers != null && at.villagers.Length > 5)
                 MapScene.BuildSearchSpot("The marshal's chest", map.At(at.villagers[5]) + new Vector3(0.8f, -0.4f, 0f),
-                    "cache_city_helm", "Chest A1_E", "helm_marshal", "cache.city.helm", "");
+                    "cache_city_helm", "Chest A1_E", "helm_kettle", "cache.city.helm", "");
         }
 
         static void SetUpRoadHome(Vector3 position)

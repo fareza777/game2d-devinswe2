@@ -6,7 +6,7 @@
       "id": "n1",
       "speaker": "winna",
       "textKey": "dlg.windrest_writ.n1",
-      "voiceClip": "",
+      "voiceClip": "dlg_windrest_writ_n1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "n2",
       "speaker": "winna",
       "textKey": "dlg.windrest_writ.n2",
-      "voiceClip": "",
+      "voiceClip": "dlg_windrest_writ_n2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -32,7 +32,7 @@
       "id": "n3",
       "speaker": "winna",
       "textKey": "dlg.windrest_writ.n3",
-      "voiceClip": "",
+      "voiceClip": "dlg_windrest_writ_n3",
       "mood": "",
       "setFlags": [
         "act1.windrest_rumoured"

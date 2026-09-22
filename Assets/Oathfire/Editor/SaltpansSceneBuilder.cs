@@ -194,7 +194,7 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("The quartermaster's spear", map.At(at.arrivals[0]) + new Vector3(0.8f, -0.3f, 0f),
                     "cache_salt_spear", "Chest A1_E", "spear_warden", "cache.salt.spear", "");
                 MapScene.BuildSearchSpot("The defender's cache", map.At(at.arrivals[2]) + new Vector3(0.8f, 0.3f, 0f),
-                    "cache_salt_helm", "Chest A1_E", "helm_barbute", "cache.salt.helm", "",
+                    "cache_salt_helm", "Chest A1_E", "helm_sallet", "cache.salt.helm", "",
                     TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
             }
         }

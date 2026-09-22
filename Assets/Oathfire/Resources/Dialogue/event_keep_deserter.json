@@ -6,7 +6,7 @@
       "id": "d1",
       "speaker": "roane",
       "textKey": "dlg.event_keep_deserter.d1",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_keep_deserter_d1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "d2",
       "speaker": "roane",
       "textKey": "dlg.event_keep_deserter.d2",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_keep_deserter_d2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -57,7 +57,7 @@
       "id": "d3a",
       "speaker": "roane",
       "textKey": "dlg.event_keep_deserter.d3a",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_keep_deserter_d3a",
       "mood": "",
       "setFlags": [
         "event.keep_deserter.done"
@@ -76,7 +76,7 @@
       "id": "d3b",
       "speaker": "roane",
       "textKey": "dlg.event_keep_deserter.d3b",
-      "voiceClip": "",
+      "voiceClip": "dlg_event_keep_deserter_d3b",
       "mood": "",
       "setFlags": [
         "event.keep_deserter.done",

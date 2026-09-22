@@ -6,7 +6,7 @@
       "id": "bw1",
       "speaker": "hask",
       "textKey": "dlg.burnpits_writ.bw1",
-      "voiceClip": "",
+      "voiceClip": "dlg_burnpits_writ_bw1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -19,7 +19,7 @@
       "id": "bw2",
       "speaker": "hask",
       "textKey": "dlg.burnpits_writ.bw2",
-      "voiceClip": "",
+      "voiceClip": "dlg_burnpits_writ_bw2",
       "mood": "",
       "setFlags": [],
       "giveItems": [],
@@ -32,7 +32,7 @@
       "id": "bw3",
       "speaker": "hask",
       "textKey": "dlg.burnpits_writ.bw3",
-      "voiceClip": "",
+      "voiceClip": "dlg_burnpits_writ_bw3",
       "mood": "",
       "setFlags": [
         "act2.burnpits_rumoured"

@@ -125,7 +125,7 @@ namespace Oathfire.EditorTools
             // A spare shield left in the lane by the wardens who never came back for it.
             if (at.arrivals != null && at.arrivals.Length > 0)
                 MapScene.BuildSearchSpot("The wardens' spare", map.At(at.arrivals[0]) + new Vector3(0.8f, -0.4f, 0f),
-                    "cache_rennfall", "Chest A1_E", "shield_warden", "cache.rennfall", "");
+                    "cache_rennfall", "Chest A1_E", "shield_oak", "cache.rennfall", "");
         }
 
         static void SetUpVillagers(MapScene.MapFile map, MapScene.MapAnchors at)

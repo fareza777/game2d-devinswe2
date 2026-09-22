@@ -6,7 +6,7 @@
       "id": "n1",
       "speaker": "nell",
       "textKey": "dlg.drove_nell.n1",
-      "voiceClip": "",
+      "voiceClip": "dlg_drove_nell_n1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

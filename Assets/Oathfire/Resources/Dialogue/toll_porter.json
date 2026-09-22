@@ -6,7 +6,7 @@
       "id": "p1",
       "speaker": "toll_porter",
       "textKey": "dlg.toll_porter.p1",
-      "voiceClip": "",
+      "voiceClip": "dlg_toll_porter_p1",
       "mood": "",
       "setFlags": [],
       "giveItems": [],

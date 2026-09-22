@@ -171,6 +171,14 @@ namespace Oathfire.EditorTools
                 MapScene.BuildSearchSpot("The lattice cache", map.At(at.stone[1]) + new Vector3(0.7f, -0.3f, 0f),
                     "cache_stamp_lattice", "Chest A1_E", "armor_bone_lattice", "cache.stamp.lattice", "",
                     TradeRoadSceneBuilder.EnemyPrefabs(), 3, "event.cacheGuard");
+            if (at.villagers != null && at.villagers.Length > 2)
+                MapScene.BuildSearchSpot("The coiners' harness", map.At(at.villagers[2]) + new Vector3(0.75f, -0.4f, 0f),
+                    "cache_stamp_harness", "Chest A1_E", "armor_ash_harness", "cache.stamp.harness", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
+            if (at.timber != null && at.timber.Length > 1)
+                MapScene.BuildSearchSpot("The serpent ring", map.At(at.timber[1]) + new Vector3(0.7f, 0.35f, 0f),
+                    "cache_stamp_ring", "Chest A1_E", "ring_serpent", "cache.stamp.ring", "",
+                    TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
     }
 }

@@ -173,7 +173,7 @@ namespace Oathfire.EditorTools
                     "cache_char_staff", "Chest A1_E", "staff_cinder", "cache.char.staff", "");
             if (at.stone != null && at.stone.Length > 1)
                 MapScene.BuildSearchSpot("The ash-hardened cache", map.At(at.stone[1]) + new Vector3(0.7f, 0.3f, 0f),
-                    "cache_char_harness", "Chest A1_E", "armor_ash_harness", "cache.char.harness", "",
+                    "cache_char_harness", "Chest A1_E", "armor_league_mail", "cache.char.harness", "",
                     TradeRoadSceneBuilder.EnemyPrefabs(), 2, "event.cacheGuard");
         }
     }
