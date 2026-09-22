@@ -1,0 +1,135 @@
+{
+  "id": "ending_cinematic",
+  "artStyle": "Linocut illustration for a dark fantasy book. Limited palette. Masterful printmaking, carved gouge strokes, visible wood grain texture, heavy negative space. Vertical composition. No text, no letters, no border, no frame.",
+  "voices": {
+    "brann": "Old gravedigger narrator, late sixties, rural northern accent, gravelly and warm, dry humour hiding grief, speaks slowly like telling a story by the fire."
+  },
+  "panels": [
+    {
+      "id": "e1_scales",
+      "prompt": "A pair of old brass weighing scales on a stone counting table, tipped to one side by a single stamped silver coin, a broken wax seal lying beside it, carved ledger books stacked behind. Close composition, the scales filling the frame. Solemn, final.",
+      "palette": "codex",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "They'll tell it wrong in the charter house. They always do — the ones who never left their chairs. So I'll tell it the way the valley tells it, and you can hold whichever weighs more.",
+          "id": "Mereka akan menuturkannya dengan salah di gedung piagam. Selalu begitu — orang yang tak pernah bangkit dari kursinya. Jadi akan kuceritakan seperti lembah menuturkannya, dan boleh kaupilih mana yang lebih berat.",
+          "direction": "slow, dry",
+          "voiceClip": "e1_scales_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "It ends, as all our troubles did, with a counting. Seven seals on a woman's table, and every lie the wash ever weighed collapsing under them like rotten floorboards.",
+          "id": "Semuanya berakhir, seperti semua perkara kita, dengan sebuah hitungan. Tujuh segel di atas meja seorang perempuan, dan tiap dusta yang pernah ditimbang pasukan cuci ambruk di bawahnya seperti lantai lapuk.",
+          "direction": "measured",
+          "voiceClip": "e1_scales_2_brann"
+        }
+      ]
+    },
+    {
+      "id": "e2_the_keep",
+      "prompt": "A great dark mint-fortress on a crag at dusk, twin curtain walls with square towers, its tall gate standing open and empty, a long stone stair descending toward the viewer. Crows circling the towers. Monumental, emptied of menace.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "The Tallykeep stood empty before the sun went down on it — the Coinmaster weighed, and found wanting, on his own scales. Forty-one years of honest counting, spent on a lie in one winter.",
+          "id": "Benteng Hitung sudah kosong sebelum matahari tenggelam — Master Koin ditimbang, dan didapati kurang, di timbangannya sendiri. Empat puluh satu tahun menghitung jujur, habis untuk satu dusta dalam semusim dingin.",
+          "direction": "heavy, regretful",
+          "voiceClip": "e2_the_keep_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "They say he went down still arguing weights. That's a mint man for you — even dying was an account he meant to settle fair.",
+          "id": "Kabarnya ia jatuh sambil masih memperdebatkan timbangan. Memang begitulah orang percetakan — bahkan kematian adalah pembukuan yang ingin ia lunasi dengan adil.",
+          "direction": "dry humour under grief",
+          "voiceClip": "e2_the_keep_2_brann"
+        }
+      ]
+    },
+    {
+      "id": "e3_road_back",
+      "prompt": "A long road at dusk winding between dark fields toward a small village whose windows glow faintly, a lone cloaked figure walking it with a sword over the shoulder, seen from behind. Vast sky, first stars.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "And the warden walked the road back the same way the warden always walks — alone, and a little slower than the road deserves. Nobody cheers the end of a washing, you see. Coin doesn't cheer. It just spends honest again.",
+          "id": "Dan warden itu menempuh jalan pulang seperti warden selalu menempuhnya — sendirian, dan sedikit lebih lambat dari sepantasnya. Tak ada yang bersorak atas berakhirnya cucian, begitulah. Koin tak bersorak. Ia hanya kembali dibelanjakan dengan jujur.",
+          "direction": "knowing",
+          "voiceClip": "e3_road_back_1_brann"
+        }
+      ]
+    },
+    {
+      "id": "e4_hearth",
+      "prompt": "A village market square at night seen from a rooftop edge, a great stone hearth blazing in the center with people gathered close, wattle houses ringed around, banners strung between posts, warm light spilling on mud. The only warmth in a dark valley.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "But in Rennfall the hearth still burns, and it burns brighter than it did, because everyone now knows what it costs to keep lit. I tend it still. I dig the graves too — but fewer of them, this year.",
+          "id": "Tapi di Rennfall api unggun masih menyala, dan menyala lebih terang dari dulu, karena kini semua tahu harganya untuk tetap menyala. Aku masih merawatnya. Menggali kubur juga — tapi lebih sedikit, tahun ini.",
+          "direction": "warm, almost smiling",
+          "voiceClip": "e4_hearth_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "Winna still feeds the whole square. Maren still counts what other people owe. The dead stay dead, the living stay stubborn. A village, warden. It outlives kings because it doesn't ask their leave.",
+          "id": "Winna masih memberi makan seluruh alun-alun. Maren masih menghitung utang orang lain. Yang mati tetap mati, yang hidup tetap keras kepala. Sebuah desa, warden. Ia hidup lebih lama dari raja karena tak pernah minta izin.",
+          "direction": "settled, fond",
+          "voiceClip": "e4_hearth_2_brann"
+        }
+      ]
+    },
+    {
+      "id": "e5_names",
+      "prompt": "An old grave-carved man's hands open on a small wooden tally book full of carved notch marks, candlelight from the left, a bottle and a second cup nearby. Intimate, hushed, a reckoning being made quietly.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "I keep a book of who counted. Not the coin kind of counting — the other kind. The ones who stood on walls when walls needed standing. There are more names in it this year than last, and I write them all the same size.",
+          "id": "Aku menyimpan buku tentang siapa yang berarti. Bukan hitungan koin — hitungan yang lain. Mereka yang berdiri di tembok saat tembok perlu dijaga. Tahun ini namanya lebih banyak dari tahun lalu, dan kutulis semua dengan ukuran yang sama.",
+          "direction": "quiet, private",
+          "voiceClip": "e5_names_1_brann"
+        }
+      ]
+    },
+    {
+      "id": "e6_crown_flame",
+      "prompt": "A cracked stone crown lying on bare earth, beside it a single small flame rising straight and steady, its light touching the crown's edges. Dark ground, dark sky. The crown dead, the flame alive.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "The crown is still broken. Nobody's come to fix it, and I don't know that anyone should. But the oath it was sworn over — that turned out to be made of sterner stuff than the crown ever was.",
+          "id": "Mahkota itu masih retak. Tak ada yang datang memperbaikinya, dan entah memang harus ada. Tapi sumpah yang diucapkan di atasnya — ternyata terbuat dari bahan yang lebih keras daripada mahkotanya.",
+          "direction": "slow, wondering",
+          "voiceClip": "e6_crown_flame_1_brann"
+        }
+      ]
+    },
+    {
+      "id": "e7_dawn",
+      "prompt": "Dawn breaking over a long valley ridge, pale grey light on mist layers between dark pine slopes, a tiny mint-fortress silhouette on the far crag and a village's smoke rising below. A new day, earned and ordinary.",
+      "palette": "night",
+      "lines": [
+        {
+          "speaker": "brann",
+          "en": "So ends the first part. The valley's coin is its own again, the mint counts honest, and the wash's ledgers are ash in the same hearth that keeps us warm. But a warden's road doesn't end at the last toll — it just goes quiet for a while.",
+          "id": "Berakhirlah bagian pertama. Koin lembah ini miliknya sendiri lagi, percetakan menghitung jujur, dan buku besar cucian jadi abu di api unggun yang menghangatkan kita. Tapi jalan seorang warden tak berakhir di tol terakhir — ia hanya menenang sebentar.",
+          "direction": "closing, then the thread",
+          "voiceClip": "e7_dawn_1_brann"
+        },
+        {
+          "speaker": "brann",
+          "en": "Rest, warden. Eat what Winna cooks. When the road wakes again, it will want walking — and it always wants walking in the direction nobody else will go.",
+          "id": "Istirahatlah, warden. Makan apa yang dimasak Winna. Saat jalan itu bangkit lagi, ia akan minta dilalui — dan ia selalu minta dilalui ke arah yang tak mau diambil orang lain.",
+          "direction": "gentle send-off",
+          "voiceClip": "e7_dawn_2_brann"
+        }
+      ]
+    }
+  ]
+}

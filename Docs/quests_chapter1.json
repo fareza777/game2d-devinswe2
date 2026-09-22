@@ -1,3051 +1,3317 @@
 {
- "quests": [
-  {
-   "id": "q_prologue",
-   "act": "prologue",
-   "mainQuest": true,
-   "title": {
-    "en": "The Night the Crown Cracked",
-    "id": "Malam Mahkota Retak"
-   },
-   "summary": {
-    "en": "Guard the queen through the renewal rite, and answer for what happens next.",
-    "id": "Jaga sang Ratu selama ritus pembaruan, lalu pertanggungjawabkan apa yang terjadi setelahnya."
-   },
-   "stages": [
+  "quests": [
     {
-     "id": "s1",
-     "text": {
-      "en": "Reach the queen in the record house",
-      "id": "Capai Ratu di ruang makam"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "prologue.reached_queen"
-      }
-     ],
-     "setsFlag": "prologue.stage1"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "Answer the court at your trial",
-      "id": "Jawab pengadilan atas tuduhanmu"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "prologue.trial_answered"
-      }
-     ],
-     "setsFlag": "prologue.stage2"
-    },
-    {
-     "id": "s3",
-     "text": {
-      "en": "Accept the testament and travel to Rennfall",
-      "id": "Terima wasiat dan berangkat ke Rennfall"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_testament",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "prologue.done"
-    }
-   ],
-   "reward": {
-    "experience": 150,
-    "coin": 20,
-    "items": [
-     "sword_guard_issue",
-     "armor_padded",
-     "potion_small"
-    ]
-   }
-  },
-  {
-   "id": "q_first_fire",
-   "act": "act1",
-   "unlockFlag": "prologue.done",
-   "title": {
-    "en": "The First Fire",
-    "id": "Api Pertama"
-   },
-   "summary": {
-    "en": "Rennfall has been dark for forty years. Light the oathfire before the sun goes down.",
-    "id": "Rennfall gelap selama empat puluh tahun. Nyalakan api sumpah sebelum matahari turun."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Meet Brann Hollowell in the village square",
-      "id": "Temui Brann Hollowell di alun-alun desa"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "prologue.met_brann"
-      }
-     ],
-     "setsFlag": "act1.met_brann"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "Chop 8 timber and quarry 5 stone (strike, or tap USE)",
-      "id": "Tebang 8 kayu dan gali 5 batu (tebas, atau ketuk PAKAI)"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "mat_timber",
-       "amount": 8
+      "id": "q_prologue",
+      "act": "prologue",
+      "mainQuest": true,
+      "title": {
+        "en": "The Night the Crown Cracked",
+        "id": "Malam Mahkota Retak"
       },
-      {
-       "kind": "Item",
-       "key": "mat_stone",
-       "amount": 5
-      }
-     ],
-     "setsFlag": "act1.hearth_materials"
-    },
-    {
-     "id": "s3",
-     "text": {
-      "en": "Light the oathfire in the square",
-      "id": "Nyalakan api sumpah di alun-alun"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act1.oathfire_lit"
-      }
-     ],
-     "setsFlag": "act1.first_fire_done"
-    }
-   ],
-   "reward": {
-    "experience": 220,
-    "coin": 15,
-    "items": [
-     "relic_hearth_coal",
-     "torch"
-    ]
-   }
-  },
-  {
-   "id": "q_first_night",
-   "act": "act1",
-   "unlockFlag": "act1.first_fire_done",
-   "title": {
-    "en": "The First Night",
-    "id": "Malam Pertama"
-   },
-   "summary": {
-    "en": "The dead come for any new fire in the vale. Hear Brann out, then call the night and hold the light until dawn.",
-    "id": "Orang mati mendatangi setiap api baru di lembah. Dengarkan Brann, lalu panggil malam dan jaga cahaya sampai fajar."
-   },
-   "stages": [
-    {
-     "id": "s0",
-     "text": {
-      "en": "Talk to Brann by the new fire",
-      "id": "Bicara dengan Brann di dekat api yang baru"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act1.night1_ready"
-      }
-     ],
-     "setsFlag": "act1.night1_warned"
-    },
-    {
-     "id": "s1",
-     "text": {
-      "en": "Tend the oathfire to call the night, then defeat 8 of the dead",
-      "id": "Rawat api sumpah untuk memanggil malam, lalu kalahkan 8 mayat hidup"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.night1",
-       "amount": 8
-      }
-     ],
-     "setsFlag": "act1.night1_survived"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "At dawn, tell Brann what to do with the fallen",
-      "id": "Saat fajar, katakan pada Brann apa yang dilakukan pada yang gugur"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act1.rite_performed"
-      }
-     ],
-     "setsFlag": "act1.first_night_done"
-    }
-   ],
-   "reward": {
-    "experience": 260,
-    "coin": 25,
-    "items": [
-     "sword_gravedigger",
-     "potion_small",
-     "potion_small"
-    ]
-   }
-  },
-  {
-   "id": "q_shelter",
-   "act": "act1",
-   "unlockFlag": "act1.first_fire_done",
-   "mainQuest": false,
-   "title": {
-    "en": "Roofs Before Walls",
-    "id": "Atap Sebelum Dinding"
-   },
-   "summary": {
-    "en": "Refugees are sleeping in the mud. Raise shelters inside the hearth's light.",
-    "id": "Para pengungsi tidur di lumpur. Bangun tempat berlindung di dalam cahaya perapian."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Raise three shelters inside the hearth light",
-      "id": "Dirikan tiga tempat berteduh di dalam cahaya api"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "built.shelter",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "act1.shelter_done"
-    }
-   ],
-   "reward": {
-    "experience": 180,
-    "coin": 10,
-    "items": [
-     "bow_poacher",
-     "gloves_leather"
-    ]
-   },
-   "giver": "speaker.brann",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "q_records_house",
-   "act": "act1",
-   "unlockFlag": "act1.night1_survived",
-   "title": {
-    "en": "The Names Beneath the Record House",
-    "id": "Nama-Nama di Bawah Rumah Catatan"
-   },
-   "summary": {
-    "en": "Gethin swears the ruined record house still holds Warden Crane's journal, and that the dead down there do not like visitors.",
-    "id": "Gethin bersumpah rumah catatan yang runtuh masih menyimpan jurnal Warden Crane, dan orang mati di bawah sana tak suka tamu."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Search the ruined record house for Crane's journal",
-      "id": "Geledah rumah catatan yang runtuh untuk mencari jurnal Crane"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_crane_journal",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "act1.records_house_done"
-    }
-   ],
-   "reward": {
-    "experience": 300,
-    "coin": 25,
-    "items": [
-     "trinket_root_ring",
-     "mat_grave_wax"
-    ]
-   },
-   "mainQuest": false,
-   "giver": "speaker.gethin",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "q_inspector",
-   "act": "act1",
-   "unlockFlag": "act1.first_night_done",
-   "title": {
-    "en": "The Marshal's Kindness",
-    "id": "Kebaikan Seorang Inspektur"
-   },
-   "summary": {
-    "en": "Inspector Maren arrives to guide the settlement. Her guidance comes with a ledger and a sealed order.",
-    "id": "Inspektur Maren datang untuk membimbing pemukiman. Bimbingannya datang bersama buku catatan dan perintah tersegel."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Receive Inspector Maren in the village",
-      "id": "Sambut Inspektur Maren di desa"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act1.maren_arrived"
-      }
-     ],
-     "setsFlag": "act1.maren_met"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "Answer the Ash Marshals' order",
-      "id": "Jawab perintah Barisan Abu"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act1.order_answer_given"
-      }
-     ],
-     "setsFlag": "act1.inspector_done"
-    }
-   ],
-   "reward": {
-    "experience": 240,
-    "coin": 0,
-    "items": [
-     "trinket_ashcharm"
-    ],
-    "faction": "ash",
-    "reputation": 10
-   }
-  },
-  {
-   "id": "q_summons",
-   "act": "act1",
-   "unlockFlag": "act1.inspector_done",
-   "title": {
-    "en": "Summoned to Greymarch",
-    "id": "Dipanggil ke Greymarch"
-   },
-   "summary": {
-    "en": "The High Marshal convenes in Greymarch, and Maren's report needs the Warden's seal. Vesna Kell of the Salt League has been asking after you.",
-    "id": "Marshal Agung bersidang di Greymarch, dan laporan Maren butuh segel Warden. Vesna Kell dari Liga Garam menanyakan dirimu."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Take the east road out of Rennfall",
-      "id": "Ambil jalan timur keluar dari Rennfall"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.left_the_valley"
-      }
-     ],
-     "setsFlag": "act2.summons_left"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "Follow the trade road to the gates of Greymarch",
-      "id": "Susuri jalan dagang sampai gerbang Greymarch"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.reached_greymarch"
-      }
-     ],
-     "setsFlag": "act2.summons_arrived"
-    },
-    {
-     "id": "s3",
-     "text": {
-      "en": "Find Vesna Kell of the Salt League in Greymarch",
-      "id": "Temukan Vesna Kell dari Liga Garam di Greymarch"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.bandits_hinted"
-      }
-     ],
-     "setsFlag": "act2.summons_done"
-    }
-   ],
-   "reward": {
-    "experience": 300,
-    "coin": 25,
-    "items": [
-     "potion_small",
-     "potion_small"
-    ]
-   }
-  },
-  {
-   "id": "q_hollow",
-   "act": "act2",
-   "mainQuest": true,
-   "unlockFlag": "act2.summons_done",
-   "title": {
-    "en": "Blackthorn Hollow",
-    "id": "Ceruk Duri Hitam"
-   },
-   "summary": {
-    "en": "Someone is taking wagons off the valley road, drivers and all. Find where they go, and who buys what is taken.",
-    "id": "Seseorang merampas pedati di jalan lembah, beserta kusirnya. Temukan ke mana mereka dibawa, dan siapa yang membeli rampasannya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Ask Corporal Dace in Greymarch about the raids",
-      "id": "Tanyakan soal perampokan kepada Kopral Dace di Greymarch"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.dace_briefed"
-      }
-     ],
-     "setsFlag": "act2.hollow_s1"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "Find the scraped post on the trade road and go down into the Hollow",
-      "id": "Temukan tiang tanpa tanda di jalan dagang dan turun ke Ceruk"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.found_hollow"
-      }
-     ],
-     "setsFlag": "act2.hollow_s2"
-    },
-    {
-     "id": "s3",
-     "text": {
-      "en": "Break the raiders' camp",
-      "id": "Hancurkan kamp para perampok"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.hollow",
-       "amount": 7
-      }
-     ],
-     "setsFlag": "act2.hollow_s3"
-    },
-    {
-     "id": "s4",
-     "text": {
-      "en": "Bring down Rook Varr in the ruin",
-      "id": "Tumbangkan Rook Varr di reruntuhan"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.rook_defeated"
-      }
-     ],
-     "setsFlag": "act2.hollow_s4"
-    },
-    {
-     "id": "s5",
-     "text": {
-      "en": "Cut the prisoner free",
-      "id": "Bebaskan sang tawanan"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.prisoner_freed"
-      }
-     ],
-     "setsFlag": "act2.hollow_s5"
-    },
-    {
-     "id": "s6",
-     "text": {
-      "en": "Take Rook's ledger to Vesna Kell in Greymarch",
-      "id": "Bawa buku catatan Rook kepada Vesna Kell di Greymarch"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.ledger_delivered"
-      }
-     ],
-     "setsFlag": "act2.hollow_done"
-    }
-   ],
-   "reward": {
-    "experience": 520,
-    "coin": 70,
-    "items": [
-     "sword_hearth",
-     "legs_gold"
-    ],
-    "faction": "hearth",
-    "reputation": 10
-   }
-  },
-  {
-   "id": "q_keep",
-   "act": "act2",
-   "mainQuest": true,
-   "unlockFlag": "act2.keep_rumoured",
-   "title": {
-    "en": "The Iron Keep",
-    "id": "Benteng Besi"
-   },
-   "summary": {
-    "en": "The ledger's last page points north: a dead Crown keep that still takes deliveries, under guard. Whatever Harrow is building, it is being built there.",
-    "id": "Halaman terakhir buku menunjuk ke utara: benteng Mahkota yang mati namun masih menerima kiriman, dengan pengawalan. Apa pun yang dibangun Harrow, ia membangunnya di sana."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Take the overgrown keep road off the trade road",
-      "id": "Tempuh jalan benteng yang ditumbuhi dari jalan dagang"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.found_keep"
-      }
-     ],
-     "setsFlag": "act2.keep_s1"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "Break the deserters holding the keep",
-      "id": "Hancurkan para desertir yang memegang benteng"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.keep",
-       "amount": 6
-      }
-     ],
-     "setsFlag": "act2.keep_s2"
-    },
-    {
-     "id": "s3",
-     "text": {
-      "en": "Face Castellan Durn on the dais of the great hall",
-      "id": "Hadapi Castellan Durn di anjungan aula agung"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.durn_defeated"
-      }
-     ],
-     "setsFlag": "act2.keep_s3"
-    },
-    {
-     "id": "s4",
-     "text": {
-      "en": "Find the quartermaster's manifest in the vault",
-      "id": "Temukan manifest bendahara di ruang bawah tanah"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_keep_manifest",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "act2.keep_s4"
-    },
-    {
-     "id": "s5",
-     "text": {
-      "en": "Bring the manifest to Inspector Maren in Rennfall",
-      "id": "Bawa manifest itu kepada Inspektur Maren di Rennfall"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.manifest_delivered"
-      }
-     ],
-     "setsFlag": "act2.keep_done"
-    }
-   ],
-   "reward": {
-    "experience": 650,
-    "coin": 55,
-    "items": [
-     "axe_harrow",
-     "potion_small"
-    ],
-    "faction": "ash",
-    "reputation": 10
-   }
-  },
-  {
-   "id": "sq_tally",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.first_fire_done",
-   "title": {
-    "en": "Sixty Years of Names",
-    "id": "Enam Puluh Tahun Nama"
-   },
-   "summary": {
-    "en": "Brann has kept a tally stick for every burial in Rennfall. He wants the last twelve names carved before he forgets them.",
-    "id": "Brann menyimpan kayu hitungan untuk setiap penguburan di Rennfall. Ia ingin dua belas nama terakhir diukir sebelum ia melupakannya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Put down twelve of the risen so Brann can name them",
-      "id": "Tumbangkan dua belas mayat bangkit agar Brann bisa menamai mereka"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.skeleton",
-       "amount": 12
-      }
-     ],
-     "setsFlag": "sq.tally.done"
-    }
-   ],
-   "reward": {
-    "experience": 220,
-    "coin": 20,
-    "items": [
-     "tool_shovel",
-     "ring_copper"
-    ],
-    "faction": "hearth",
-    "reputation": 8
-   },
-   "giver": "speaker.gethin",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_stew",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.first_fire_done",
-   "title": {
-    "en": "Something Hot",
-    "id": "Sesuatu yang Hangat"
-   },
-   "summary": {
-    "en": "Old Winna feeds the night watch, but her pot cracked. Hesketh the cooper has a big one, and the stew needs meat and bread.",
-    "id": "Winna Tua memberi makan penjaga malam, tapi pancinya retak. Hesketh si tukang tong punya panci besar, dan rebusannya butuh daging dan roti."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Borrow Hesketh's big pot",
-      "id": "Pinjam panci besar Hesketh"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "sq.stew.pot"
-      }
-     ],
-     "setsFlag": "sq.stew.s1"
-    },
-    {
-     "id": "s2",
-     "text": {
-      "en": "Bring Winna two measures of salt meat and two loaves",
-      "id": "Bawakan Winna dua bagian daging garam dan dua roti"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "food_salt_meat",
-       "amount": 2
+      "summary": {
+        "en": "Guard the queen through the renewal rite, and answer for what happens next.",
+        "id": "Jaga sang Ratu selama ritus pembaruan, lalu pertanggungjawabkan apa yang terjadi setelahnya."
       },
-      {
-       "kind": "Item",
-       "key": "food_bread",
-       "amount": 2
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Reach the queen in the record house",
+            "id": "Capai Ratu di ruang makam"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "prologue.reached_queen"
+            }
+          ],
+          "setsFlag": "prologue.stage1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Answer the court at your trial",
+            "id": "Jawab pengadilan atas tuduhanmu"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "prologue.trial_answered"
+            }
+          ],
+          "setsFlag": "prologue.stage2"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Accept the testament and travel to Rennfall",
+            "id": "Terima wasiat dan berangkat ke Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_testament",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "prologue.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 20,
+        "items": [
+          "sword_guard_issue",
+          "armor_padded",
+          "potion_small"
+        ]
       }
-     ],
-     "setsFlag": "sq.stew.done"
-    }
-   ],
-   "reward": {
-    "experience": 120,
-    "coin": 15,
-    "faction": "hearth",
-    "reputation": 6,
-    "items": [
-     "amulet_bone"
-    ]
-   },
-   "giver": "speaker.winna",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_roofline",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.first_fire_done",
-   "title": {
-    "en": "Before the Rain",
-    "id": "Sebelum Hujan"
-   },
-   "summary": {
-    "en": "The sky has that grey weight to it. Every roof raised before the storm is a family that does not sleep in mud.",
-    "id": "Langit terasa kelabu dan berat. Setiap atap yang berdiri sebelum badai berarti satu keluarga yang tak tidur di lumpur."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Raise four buildings inside the hearth light",
-      "id": "Bangun empat bangunan di dalam cahaya perapian"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "built.shelter",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.roofline.built"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Bring Hesketh two pitch and three rope",
-      "id": "Bawakan Hesketh dua ter dan tiga tali"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "mat_pitch",
-       "amount": 2
+      "id": "q_first_fire",
+      "act": "act1",
+      "unlockFlag": "prologue.done",
+      "title": {
+        "en": "The First Fire",
+        "id": "Api Pertama"
       },
-      {
-       "kind": "Item",
-       "key": "mat_rope",
-       "amount": 3
+      "summary": {
+        "en": "Rennfall has been dark for forty years. Light the oathfire before the sun goes down.",
+        "id": "Rennfall gelap selama empat puluh tahun. Nyalakan api sumpah sebelum matahari turun."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Meet Brann Hollowell in the village square",
+            "id": "Temui Brann Hollowell di alun-alun desa"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "prologue.met_brann"
+            }
+          ],
+          "setsFlag": "act1.met_brann"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Chop 8 timber and quarry 5 stone (strike, or tap USE)",
+            "id": "Tebang 8 kayu dan gali 5 batu (tebas, atau ketuk PAKAI)"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "mat_timber",
+              "amount": 8
+            },
+            {
+              "kind": "Item",
+              "key": "mat_stone",
+              "amount": 5
+            }
+          ],
+          "setsFlag": "act1.hearth_materials"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Light the oathfire in the square",
+            "id": "Nyalakan api sumpah di alun-alun"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act1.oathfire_lit"
+            }
+          ],
+          "setsFlag": "act1.first_fire_done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 15,
+        "items": [
+          "relic_hearth_coal",
+          "torch"
+        ]
       }
-     ],
-     "setsFlag": "sq.roofline.done"
-    }
-   ],
-   "reward": {
-    "experience": 260,
-    "coin": 30,
-    "items": [
-     "armor_refugee"
-    ],
-    "faction": "hearth",
-    "reputation": 10
-   },
-   "giver": "speaker.hesketh",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_whisperers",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.maren_arrived",
-   "title": {
-    "en": "The Ones That Chant",
-    "id": "Yang Merapal"
-   },
-   "summary": {
-    "en": "Inspector Maren wants the chanting dead counted and burned. Iskra wants one kept whole. You cannot do both.",
-    "id": "Inspektur Maren ingin mayat perapal dihitung dan dibakar. Iskra ingin satu disisakan utuh. Kau tak bisa melakukan keduanya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Put down six of the chanting dead",
-      "id": "Tumbangkan enam mayat perapal"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.mage",
-       "amount": 6
-      }
-     ],
-     "setsFlag": "sq.whisperers.done"
-    }
-   ],
-   "reward": {
-    "experience": 340,
-    "coin": 40,
-    "items": [
-     "mat_bone_dust",
-     "ring_iron"
-    ]
-   },
-   "giver": "speaker.iskra",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_unmarked_boots",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act2.bandits_hinted",
-   "title": {
-    "en": "Unmarked Boots",
-    "id": "Sepatu Tanpa Lambang"
-   },
-   "summary": {
-    "en": "The bandits on the trade road wear boots stamped by a Greymarch cobbler. Vesna will pay for proof, and Harrow will pay more for silence.",
-    "id": "Bandit di jalan dagang memakai sepatu bercap tukang sepatu Greymarch. Vesna membayar untuk bukti, dan Harrow membayar lebih untuk diam."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find proof of who pays the raiders",
-      "id": "Temukan bukti siapa yang membayar para perampok"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_harrow_ledger",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.boots.ledger"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Show the ledger to Ser Galen, and let a Crown officer see it",
-      "id": "Tunjukkan buku catatan itu kepada Ser Galen, biar perwira Mahkota melihatnya"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.galen_saw_ledger"
+      "id": "q_first_night",
+      "act": "act1",
+      "unlockFlag": "act1.first_fire_done",
+      "title": {
+        "en": "The First Night",
+        "id": "Malam Pertama"
+      },
+      "summary": {
+        "en": "The dead come for any new fire in the vale. Hear Brann out, then call the night and hold the light until dawn.",
+        "id": "Orang mati mendatangi setiap api baru di lembah. Dengarkan Brann, lalu panggil malam dan jaga cahaya sampai fajar."
+      },
+      "stages": [
+        {
+          "id": "s0",
+          "text": {
+            "en": "Talk to Brann by the new fire",
+            "id": "Bicara dengan Brann di dekat api yang baru"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act1.night1_ready"
+            }
+          ],
+          "setsFlag": "act1.night1_warned"
+        },
+        {
+          "id": "s1",
+          "text": {
+            "en": "Tend the oathfire to call the night, then defeat 8 of the dead",
+            "id": "Rawat api sumpah untuk memanggil malam, lalu kalahkan 8 mayat hidup"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.night1",
+              "amount": 8
+            }
+          ],
+          "setsFlag": "act1.night1_survived"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "At dawn, tell Brann what to do with the fallen",
+            "id": "Saat fajar, katakan pada Brann apa yang dilakukan pada yang gugur"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act1.rite_performed"
+            }
+          ],
+          "setsFlag": "act1.first_night_done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 25,
+        "items": [
+          "sword_gravedigger",
+          "potion_small",
+          "potion_small"
+        ]
       }
-     ],
-     "setsFlag": "sq.boots.done"
-    }
-   ],
-   "reward": {
-    "experience": 400,
-    "coin": 80,
-    "items": [
-     "trinket_salt_seal"
-    ]
-   },
-   "giver": "speaker.vesna",
-   "giverScene": "Greymarch"
-  },
-  {
-   "id": "sq_iron_seam",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.first_night_done",
-   "title": {
-    "en": "The Seam Nobody Works",
-    "id": "Urat Besi yang Tak Digarap"
-   },
-   "summary": {
-    "en": "There is good iron under the north slope, and a reason the old villagers stopped digging it. Find out which is worth more.",
-    "id": "Ada besi bagus di lereng utara, dan ada alasan warga lama berhenti menggalinya. Cari tahu mana yang lebih berharga."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Bring Sabel six measures of iron",
-      "id": "Bawakan Sabel enam bagian besi"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "mat_iron",
-       "amount": 6
-      }
-     ],
-     "setsFlag": "sq.seam.mined"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Clear whatever the digging woke",
-      "id": "Bersihkan apa pun yang terbangun oleh galian"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.knight",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.seam.done"
-    }
-   ],
-   "reward": {
-    "experience": 380,
-    "coin": 65,
-    "items": [
-     "axe_grave",
-     "legs_iron"
-    ],
-    "faction": "salt",
-    "reputation": 8
-   },
-   "giver": "speaker.sabel",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_flawless_vigil",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.night1_cleared",
-   "title": {
-    "en": "A Night Without a Wound",
-    "id": "Semalam Tanpa Luka"
-   },
-   "summary": {
-    "en": "Brann claims two wardens ever held a night untouched. He is not saying it to flatter you.",
-    "id": "Brann bilang hanya dua warden yang pernah bertahan semalam tanpa tergores. Ia tidak sedang memujimu."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Hold a night without taking a single wound",
-      "id": "Bertahan semalam tanpa terluka sekali pun"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "night.flawless",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.vigil.done"
-    }
-   ],
-   "reward": {
-    "experience": 450,
-    "coin": 70,
-    "items": [
-     "trinket_ember_knot",
-     "gloves_gold"
-    ],
-    "faction": "hearth",
-    "reputation": 12
-   },
-   "giver": "speaker.brann",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_reputation_board",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.first_night_done",
-   "title": {
-    "en": "The Warden's Word",
-    "id": "Ucapan Sang Warden"
-   },
-   "summary": {
-    "en": "A settlement is judged by whether its posted work gets done. Clear the board and word travels further than any banner.",
-    "id": "Sebuah pemukiman dinilai dari apakah pekerjaan yang ditempel benar-benar selesai. Bersihkan papan, dan kabarnya menyebar lebih jauh daripada panji mana pun."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Complete five posted contracts",
-      "id": "Selesaikan lima kontrak yang ditempel"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "contracts.completed",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.board.five"
+      "id": "q_shelter",
+      "act": "act1",
+      "unlockFlag": "act1.first_fire_done",
+      "mainQuest": false,
+      "title": {
+        "en": "Roofs Before Walls",
+        "id": "Atap Sebelum Dinding"
+      },
+      "summary": {
+        "en": "Refugees are sleeping in the mud. Raise shelters inside the hearth's light.",
+        "id": "Para pengungsi tidur di lumpur. Bangun tempat berlindung di dalam cahaya perapian."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Raise three shelters inside the hearth light",
+            "id": "Dirikan tiga tempat berteduh di dalam cahaya api"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "built.shelter",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "act1.shelter_done"
+        }
+      ],
+      "reward": {
+        "experience": 180,
+        "coin": 10,
+        "items": [
+          "bow_poacher",
+          "gloves_leather"
+        ]
+      },
+      "giver": "speaker.brann",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Survive three nights as Warden of Rennfall",
-      "id": "Bertahan tiga malam sebagai Warden Rennfall"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "nights.survived",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.board.done"
-    }
-   ],
-   "reward": {
-    "experience": 520,
-    "coin": 100,
-    "items": [
-     "armor_warden_coat",
-     "helm_warden",
-     "boots_gold"
-    ],
-    "faction": "hearth",
-    "reputation": 15
-   },
-   "giver": "speaker.maren",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_surveyors_eye",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act2.surveyors_coming",
-   "title": {
-    "en": "What the Surveyors Will See",
-    "id": "Apa yang Akan Dilihat Juru Ukur"
-   },
-   "summary": {
-    "en": "The ledger went east, so men with chains and charts will come west. Let them find a settlement that looks too useful to break up.",
-    "id": "Daftar itu pergi ke timur, jadi orang-orang dengan rantai ukur dan peta akan datang ke barat. Biar mereka menemukan pemukiman yang terlihat terlalu berguna untuk dibubarkan."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Raise six roofs inside the hearth light",
-      "id": "Dirikan enam atap di dalam cahaya perapian"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "built.shelter",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.surveyors.built"
+      "id": "q_records_house",
+      "act": "act1",
+      "unlockFlag": "act1.night1_survived",
+      "title": {
+        "en": "The Names Beneath the Record House",
+        "id": "Nama-Nama di Bawah Rumah Catatan"
+      },
+      "summary": {
+        "en": "Gethin swears the ruined record house still holds Warden Crane's journal, and that the dead down there do not like visitors.",
+        "id": "Gethin bersumpah rumah catatan yang runtuh masih menyimpan jurnal Warden Crane, dan orang mati di bawah sana tak suka tamu."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Search the ruined record house for Crane's journal",
+            "id": "Geledah rumah catatan yang runtuh untuk mencari jurnal Crane"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_crane_journal",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "act1.records_house_done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 25,
+        "items": [
+          "trinket_root_ring",
+          "mat_grave_wax"
+        ]
+      },
+      "mainQuest": false,
+      "giver": "speaker.gethin",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Clear four posted contracts so the board reads busy",
-      "id": "Selesaikan empat kontrak agar papan terlihat sibuk"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "contracts.completed",
-       "amount": 2
+      "id": "q_inspector",
+      "act": "act1",
+      "unlockFlag": "act1.first_night_done",
+      "title": {
+        "en": "The Marshal's Kindness",
+        "id": "Kebaikan Seorang Inspektur"
+      },
+      "summary": {
+        "en": "Inspector Maren arrives to guide the settlement. Her guidance comes with a ledger and a sealed order.",
+        "id": "Inspektur Maren datang untuk membimbing pemukiman. Bimbingannya datang bersama buku catatan dan perintah tersegel."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Receive Inspector Maren in the village",
+            "id": "Sambut Inspektur Maren di desa"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act1.maren_arrived"
+            }
+          ],
+          "setsFlag": "act1.maren_met"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Answer the Ash Marshals' order",
+            "id": "Jawab perintah Barisan Abu"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act1.order_answer_given"
+            }
+          ],
+          "setsFlag": "act1.inspector_done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 0,
+        "items": [
+          "trinket_ashcharm"
+        ],
+        "faction": "ash",
+        "reputation": 10
       }
-     ],
-     "setsFlag": "sq.surveyors.done"
-    }
-   ],
-   "reward": {
-    "experience": 480,
-    "coin": 90,
-    "items": [
-     "armor_guard_mail"
-    ],
-    "faction": "crown",
-    "reputation": 12
-   },
-   "giver": "speaker.maren",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_what_nessa_carried",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.refugee_sheltered",
-   "title": {
-    "en": "What Nessa Carried",
-    "id": "Apa yang Dibawa Nessa"
-   },
-   "summary": {
-    "en": "She arrived with a wound, two coins on a wire, and the names of everyone who did not. Outfit the next ones before they get here.",
-    "id": "Ia datang dengan luka, dua koin berkawat, dan nama semua orang yang tak sampai. Siapkan perlengkapan untuk yang berikutnya sebelum mereka tiba."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Stock oiled cloth for bandages and roofing",
-      "id": "Sediakan kain berminyak untuk perban dan atap"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "mat_cloth",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.nessa.cloth"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Put salt meat in the stores for the road-worn",
-      "id": "Isi gudang dengan daging asin untuk mereka yang lelah di jalan"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "food_salt_meat",
-       "amount": 2
+      "id": "q_summons",
+      "act": "act1",
+      "unlockFlag": "act1.inspector_done",
+      "title": {
+        "en": "Summoned to Greymarch",
+        "id": "Dipanggil ke Greymarch"
+      },
+      "summary": {
+        "en": "The High Marshal convenes in Greymarch, and Maren's report needs the Warden's seal. Vesna Kell of the Salt League has been asking after you.",
+        "id": "Marshal Agung bersidang di Greymarch, dan laporan Maren butuh segel Warden. Vesna Kell dari Liga Garam menanyakan dirimu."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take the east road out of Rennfall",
+            "id": "Ambil jalan timur keluar dari Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.left_the_valley"
+            }
+          ],
+          "setsFlag": "act2.summons_left"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Follow the trade road to the gates of Greymarch",
+            "id": "Susuri jalan dagang sampai gerbang Greymarch"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.reached_greymarch"
+            }
+          ],
+          "setsFlag": "act2.summons_arrived"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Find Vesna Kell of the Salt League in Greymarch",
+            "id": "Temukan Vesna Kell dari Liga Garam di Greymarch"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.bandits_hinted"
+            }
+          ],
+          "setsFlag": "act2.summons_done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 25,
+        "items": [
+          "potion_small",
+          "potion_small"
+        ]
       }
-     ],
-     "setsFlag": "sq.nessa.done"
-    }
-   ],
-   "reward": {
-    "experience": 300,
-    "coin": 50,
-    "items": [
-     "trinket_road_charm"
-    ],
-    "faction": "hearth",
-    "reputation": 14
-   },
-   "giver": "speaker.wick",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_shepherds_distance",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "event.shepherd_sighting.done",
-   "title": {
-    "en": "The Distance He Keeps",
-    "id": "Jarak yang Ia Jaga"
-   },
-   "summary": {
-    "en": "It stood at the treeline and did not come in. Whatever decides that is worth making nervous.",
-    "id": "Ia berdiri di tepi hutan dan tak melangkah masuk. Apa pun yang memutuskan itu pantas dibuat gelisah."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Put down three of the ones that lead",
-      "id": "Tumbangkan tiga yang memimpin mereka"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.elite",
-       "amount": 2
-      }
-     ],
-     "setsFlag": "sq.shepherd.elites"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Hold the valley two nights more",
-      "id": "Pertahankan lembah dua malam lagi"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "nights.survived",
-       "amount": 3
+      "id": "q_hollow",
+      "act": "act2",
+      "mainQuest": true,
+      "unlockFlag": "act2.summons_done",
+      "title": {
+        "en": "Blackthorn Hollow",
+        "id": "Ceruk Duri Hitam"
+      },
+      "summary": {
+        "en": "Someone is taking wagons off the valley road, drivers and all. Find where they go, and who buys what is taken.",
+        "id": "Seseorang merampas pedati di jalan lembah, beserta kusirnya. Temukan ke mana mereka dibawa, dan siapa yang membeli rampasannya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Ask Corporal Dace in Greymarch about the raids",
+            "id": "Tanyakan soal perampokan kepada Kopral Dace di Greymarch"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.dace_briefed"
+            }
+          ],
+          "setsFlag": "act2.hollow_s1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Find the scraped post on the trade road and go down into the Hollow",
+            "id": "Temukan tiang tanpa tanda di jalan dagang dan turun ke Ceruk"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.found_hollow"
+            }
+          ],
+          "setsFlag": "act2.hollow_s2"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Break the raiders' camp",
+            "id": "Hancurkan kamp para perampok"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.hollow",
+              "amount": 7
+            }
+          ],
+          "setsFlag": "act2.hollow_s3"
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Bring down Rook Varr in the ruin",
+            "id": "Tumbangkan Rook Varr di reruntuhan"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.rook_defeated"
+            }
+          ],
+          "setsFlag": "act2.hollow_s4"
+        },
+        {
+          "id": "s5",
+          "text": {
+            "en": "Cut the prisoner free",
+            "id": "Bebaskan sang tawanan"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.prisoner_freed"
+            }
+          ],
+          "setsFlag": "act2.hollow_s5"
+        },
+        {
+          "id": "s6",
+          "text": {
+            "en": "Take Rook's ledger to Vesna Kell in Greymarch",
+            "id": "Bawa buku catatan Rook kepada Vesna Kell di Greymarch"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.ledger_delivered"
+            }
+          ],
+          "setsFlag": "act2.hollow_done"
+        }
+      ],
+      "reward": {
+        "experience": 520,
+        "coin": 70,
+        "items": [
+          "sword_hearth",
+          "legs_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 10
       }
-     ],
-     "setsFlag": "sq.shepherd.done"
-    }
-   ],
-   "reward": {
-    "experience": 600,
-    "coin": 110,
-    "items": [
-     "trinket_ashcharm",
-     "amulet_gold"
-    ],
-    "faction": "hearth",
-    "reputation": 10
-   },
-   "giver": "speaker.iskra",
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_criers_news",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.reached_greymarch",
-   "giver": "speaker.pell",
-   "title": {
-    "en": "Something Worth Shouting",
-    "id": "Kabar yang Layak Diteriakkan"
-   },
-   "summary": {
-    "en": "Pell shouts the city's news twice a day and has nothing but grain prices. Give him road men in the dirt to shout about.",
-    "id": "Pell meneriakkan kabar kota dua kali sehari dan tak punya apa-apa selain harga gandum. Beri dia kabar perampok jalan yang tumbang."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Put down six of the road's men",
-      "id": "Tumbangkan enam perampok jalan"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.bandit",
-       "amount": 6
-      }
-     ],
-     "setsFlag": "sq.criers.done"
-    }
-   ],
-   "reward": {
-    "experience": 180,
-    "coin": 25,
-    "items": [
-     "gloves_iron"
-    ],
-    "faction": "hearth",
-    "reputation": 5
-   },
-   "giverScene": "Greymarch"
-  },
-  {
-   "id": "sq_porters_load",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.reached_greymarch",
-   "giver": "speaker.oona",
-   "title": {
-    "en": "What the Porters Eat",
-    "id": "Bekal Para Kuli"
-   },
-   "summary": {
-    "en": "The gate porters work the day on nothing. Oona will buy salt meat off you at a fair price and feed the line herself.",
-    "id": "Para kuli gerbang bekerja seharian tanpa bekal. Oona mau membeli daging garam darimu dengan harga pantas dan membagikannya sendiri."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Bring Oona four measures of salt meat",
-      "id": "Bawakan Oona empat bagian daging garam"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "food_salt_meat",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.porters.done"
-    }
-   ],
-   "reward": {
-    "experience": 150,
-    "coin": 40,
-    "items": [
-     "bandage",
-     "bandage",
-     "boots_iron"
-    ],
-    "faction": "salt",
-    "reputation": 5
-   },
-   "giverScene": "Greymarch"
-  },
-  {
-   "id": "sq_widows_vigil",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.reached_greymarch",
-   "giver": "speaker.asta",
-   "title": {
-    "en": "Lamps for the Long Street",
-    "id": "Lampu untuk Jalan Panjang"
-   },
-   "summary": {
-    "en": "Asta keeps a light burning for a son who is not coming back. She will not ask the city for pitch, so she asks you.",
-    "id": "Asta menjaga satu lampu tetap menyala untuk anak yang tak akan pulang. Ia tak mau meminta ter kepada kota, jadi ia meminta padamu."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Bring Asta three pitch torches",
-      "id": "Bawakan Asta tiga obor ter"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "torch",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.widow.pitch"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Stand a night in the valley for her",
-      "id": "Jaga satu malam di lembah untuknya"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "nights.survived",
-       "amount": 2
+      "id": "q_keep",
+      "act": "act2",
+      "mainQuest": true,
+      "unlockFlag": "act2.keep_rumoured",
+      "title": {
+        "en": "The Iron Keep",
+        "id": "Benteng Besi"
+      },
+      "summary": {
+        "en": "The ledger's last page points north: a dead Crown keep that still takes deliveries, under guard. Whatever Harrow is building, it is being built there.",
+        "id": "Halaman terakhir buku menunjuk ke utara: benteng Mahkota yang mati namun masih menerima kiriman, dengan pengawalan. Apa pun yang dibangun Harrow, ia membangunnya di sana."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take the overgrown keep road off the trade road",
+            "id": "Tempuh jalan benteng yang ditumbuhi dari jalan dagang"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.found_keep"
+            }
+          ],
+          "setsFlag": "act2.keep_s1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Break the deserters holding the keep",
+            "id": "Hancurkan para desertir yang memegang benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.keep",
+              "amount": 6
+            }
+          ],
+          "setsFlag": "act2.keep_s2"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Face Castellan Durn on the dais of the great hall",
+            "id": "Hadapi Castellan Durn di anjungan aula agung"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.durn_defeated"
+            }
+          ],
+          "setsFlag": "act2.keep_s3"
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Find the quartermaster's manifest in the vault",
+            "id": "Temukan manifest bendahara di ruang bawah tanah"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_keep_manifest",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "act2.keep_s4"
+        },
+        {
+          "id": "s5",
+          "text": {
+            "en": "Bring the manifest to Inspector Maren in Rennfall",
+            "id": "Bawa manifest itu kepada Inspektur Maren di Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.manifest_delivered"
+            }
+          ],
+          "setsFlag": "act2.keep_done"
+        }
+      ],
+      "reward": {
+        "experience": 650,
+        "coin": 55,
+        "items": [
+          "axe_harrow",
+          "potion_small"
+        ],
+        "faction": "ash",
+        "reputation": 10
       }
-     ],
-     "setsFlag": "sq.widow.done"
-    }
-   ],
-   "reward": {
-    "experience": 260,
-    "coin": 30,
-    "items": [
-     "trinket_road_charm",
-     "amulet_silver"
-    ],
-    "faction": "hearth",
-    "reputation": 8
-   },
-   "giverScene": "Greymarch"
-  },
-  {
-   "id": "sq_miras_wagon",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.prisoner_freed",
-   "giver": "speaker.mira",
-   "title": {
-    "en": "Wagon Forty-One",
-    "id": "Pedati Empat Puluh Satu"
-   },
-   "summary": {
-    "en": "Mira wants to drive again, and a carter without iron fittings has a cart that comes apart on the first hill.",
-    "id": "Mira ingin kembali menjadi kusir, dan kusir tanpa besi pengikat punya pedati yang copot di tanjakan pertama."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Bring Mira five measures of iron",
-      "id": "Bawakan Mira lima bagian besi"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "mat_iron",
-       "amount": 5
-      }
-     ],
-     "setsFlag": "sq.mira.iron"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "See the valley road quiet again",
-      "id": "Pastikan jalan lembah kembali sunyi"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.road_ambush_cleared"
-      }
-     ],
-     "setsFlag": "sq.mira.done"
-    }
-   ],
-   "reward": {
-    "experience": 300,
-    "coin": 65,
-    "items": [
-     "trinket_salt_seal",
-     "ring_gold"
-    ],
-    "faction": "salt",
-    "reputation": 10
-   },
-   "giverScene": "Greymarch"
-  },
-  {
-   "id": "sq_dace_patrol",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.dace_briefed",
-   "giver": "speaker.dace",
-   "title": {
-    "en": "A Corporal's Arithmetic",
-    "id": "Hitungan Seorang Kopral"
-   },
-   "summary": {
-    "en": "Dace cannot send a patrol he has not been given. What he can do is write down what the Warden did, and let his captain read it.",
-    "id": "Dace tak bisa mengirim patroli yang tak pernah diberikan padanya. Yang bisa ia lakukan adalah mencatat apa yang dilakukan sang Warden, lalu membiarkan kaptennya membaca."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Break the camp in the Hollow",
-      "id": "Hancurkan kamp di Ceruk"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.hollow_camp_cleared"
-      }
-     ],
-     "setsFlag": "sq.dace.camp"
+      "id": "sq_tally",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_fire_done",
+      "title": {
+        "en": "Sixty Years of Names",
+        "id": "Enam Puluh Tahun Nama"
+      },
+      "summary": {
+        "en": "Brann has kept a tally stick for every burial in Rennfall. He wants the last twelve names carved before he forgets them.",
+        "id": "Brann menyimpan kayu hitungan untuk setiap penguburan di Rennfall. Ia ingin dua belas nama terakhir diukir sebelum ia melupakannya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Put down twelve of the risen so Brann can name them",
+            "id": "Tumbangkan dua belas mayat bangkit agar Brann bisa menamai mereka"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.skeleton",
+              "amount": 12
+            }
+          ],
+          "setsFlag": "sq.tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 20,
+        "items": [
+          "tool_shovel",
+          "ring_copper"
+        ],
+        "faction": "hearth",
+        "reputation": 8
+      },
+      "giver": "speaker.gethin",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Bring word that their captain is down",
-      "id": "Bawa kabar bahwa kapten mereka tumbang"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.rook_defeated"
-      }
-     ],
-     "setsFlag": "sq.dace.done"
-    }
-   ],
-   "reward": {
-    "experience": 280,
-    "coin": 55,
-    "items": [
-     "helm_sallet"
-    ],
-    "faction": "crown",
-    "reputation": 10
-   },
-   "giverScene": "Greymarch"
-  },
-  {
-   "id": "sq_wicks_lamp",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.first_night_done",
-   "giver": "speaker.wick",
-   "title": {
-    "en": "The Lamp Boy's Lamp",
-    "id": "Lampu Si Pembawa Lampu"
-   },
-   "summary": {
-    "en": "Wick dropped his lamp running from the first night. He thinks it is out past the farm on the trade road, and he is not going back for it.",
-    "id": "Wick menjatuhkan lampunya saat lari dari malam pertama. Ia kira lampu itu tertinggal di dekat ladang di jalan dagang, dan ia tak mau kembali mengambilnya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find Wick's lamp on the trade road",
-      "id": "Temukan lampu Wick di jalan dagang"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_wick_lamp",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.lamp.done"
-    }
-   ],
-   "reward": {
-    "experience": 140,
-    "coin": 15,
-    "items": [
-     "bandage",
-     "bandage"
-    ],
-    "faction": "hearth",
-    "reputation": 4
-   },
-   "giverScene": "Rennfall"
-  },
-  {
-   "id": "sq_oonas_letter",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.reached_greymarch",
-   "giver": "speaker.oona",
-   "title": {
-    "en": "A Letter for the Valley",
-    "id": "Surat untuk Lembah"
-   },
-   "summary": {
-    "en": "Oona's brother marched with Brann's company twenty years ago. She has written to ask if he is alive, and the post does not go to Rennfall.",
-    "id": "Adik Oona ikut kompi Brann dua puluh tahun lalu. Ia menulis surat untuk menanyakan apakah adiknya masih hidup, dan kurir pos tak pernah ke Rennfall."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Take the letter from Oona",
-      "id": "Ambil surat dari Oona"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "sq.letter.given"
-      }
-     ],
-     "setsFlag": "sq.letter.s1"
+      "id": "sq_stew",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_fire_done",
+      "title": {
+        "en": "Something Hot",
+        "id": "Sesuatu yang Hangat"
+      },
+      "summary": {
+        "en": "Old Winna feeds the night watch, but her pot cracked. Hesketh the cooper has a big one, and the stew needs meat and bread.",
+        "id": "Winna Tua memberi makan penjaga malam, tapi pancinya retak. Hesketh si tukang tong punya panci besar, dan rebusannya butuh daging dan roti."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Borrow Hesketh's big pot",
+            "id": "Pinjam panci besar Hesketh"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "sq.stew.pot"
+            }
+          ],
+          "setsFlag": "sq.stew.s1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Bring Winna two measures of salt meat and two loaves",
+            "id": "Bawakan Winna dua bagian daging garam dan dua roti"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "food_salt_meat",
+              "amount": 2
+            },
+            {
+              "kind": "Item",
+              "key": "food_bread",
+              "amount": 2
+            }
+          ],
+          "setsFlag": "sq.stew.done"
+        }
+      ],
+      "reward": {
+        "experience": 120,
+        "coin": 15,
+        "faction": "hearth",
+        "reputation": 6,
+        "items": [
+          "amulet_bone"
+        ]
+      },
+      "giver": "speaker.winna",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Carry the letter to Brann in Rennfall",
-      "id": "Antar surat itu kepada Brann di Rennfall"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "sq.letter.delivered"
-      }
-     ],
-     "setsFlag": "sq.letter.done"
-    }
-   ],
-   "reward": {
-    "experience": 220,
-    "coin": 30,
-    "items": [
-     "amulet_silver"
-    ],
-    "faction": "hearth",
-    "reputation": 6
-   },
-   "giverScene": "Greymarch"
-  },
-  {
-   "id": "sq_iron_tithe",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.keep_rumoured",
-   "giver": "speaker.sabel",
-   "giverScene": "Greymarch",
-   "title": {
-    "en": "Iron That Was Paid For",
-    "id": "Besi yang Sudah Dibayar"
-   },
-   "summary": {
-    "en": "Sabel's forge runs on honest iron. The keep's vault still holds bar stock bought with Greymarch silver; bring her four bars and she will call it reclaimed, not stolen.",
-    "id": "Tempaan Sabel hidup dari besi jujur. Gudang benteng masih menyimpan batangan yang dibeli dengan perak Greymarch; bawakan empat batang dan ia akan menyebutnya ditebus, bukan dicuri."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Take four bars of iron from the keep's stores",
-      "id": "Ambil empat batang besi dari gudang benteng"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "mat_iron",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.iron_tithe.done"
-    }
-   ],
-   "reward": {
-    "experience": 240,
-    "coin": 40,
-    "items": [
-     "ring_iron"
-    ],
-    "faction": "salt",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "sq_salt_share",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.keep_rumoured",
-   "giver": "speaker.iskra",
-   "giverScene": "Rennfall",
-   "title": {
-    "en": "Salt That Isn't Theirs",
-    "id": "Garam yang Bukan Milik Mereka"
-   },
-   "summary": {
-    "en": "Iskra heard the deserters' stores still hold Crown salt meat. A village eats what a fort no longer needs: three cuts, and no questions about where they hung.",
-    "id": "Iskra mendengar gudang para pembelot masih menyimpan daging garam milik Mahkota. Desa memakan apa yang tak lagi dibutuhkan benteng: tiga potong, dan tak ada yang bertanya dari mana daging itu digantung."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Bring Iskra three cuts of salt meat from the keep",
-      "id": "Bawakan Iskra tiga potong daging garam dari benteng"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "food_salt_meat",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.salt.done"
-    }
-   ],
-   "reward": {
-    "experience": 150,
-    "coin": 18,
-    "items": [
-     "amulet_bone"
-    ],
-    "faction": "hearth",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "sq_back_count",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.keep_rumoured",
-   "giver": "speaker.dace",
-   "giverScene": "Greymarch",
-   "title": {
-    "en": "Counting Deserters",
-    "id": "Menghitung Pembelot"
-   },
-   "summary": {
-    "en": "Dace cannot ask the Line to march on its own deserters. But a Warden's tally is read in the record house: put down eight of the keep's garrison and he will write the number where it has to be seen.",
-    "id": "Dace tak bisa meminta Barisan menyerbu pembelotnya sendiri. Tapi hitungan seorang Warden dibaca di ruang arsip: tumbangkan delapan garnisun benteng dan ia akan menulis angkanya di tempat yang harus dibaca."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Put down eight deserters of the keep's garrison",
-      "id": "Tumbangkan delapan pembelot garnisun benteng"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.deserter",
-       "amount": 8
-      }
-     ],
-     "setsFlag": "sq.backs.done"
-    }
-   ],
-   "reward": {
-    "experience": 300,
-    "coin": 45,
-    "items": [
-     "bow_hunter"
-    ],
-    "faction": "ash",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_tallybook",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.roane_spared",
-   "giver": "speaker.roane",
-   "giverScene": "Keep",
-   "title": {
-    "en": "The Clerk's Tally",
-    "id": "Buku Hitungan Juru Tulis"
-   },
-   "summary": {
-    "en": "Roane kept the keep's tally-book against the day someone asked to see honest numbers. He dropped it in the corridor when the clerks scattered; bring it back and he will read you what the deserters never wanted written.",
-    "id": "Roane menyimpan buku hitungan benteng untuk hari ketika seseorang meminta angka yang jujur. Ia menjatuhkannya di koridor saat para juru tulis cerai-berai; kembalikan dan ia akan membacakan apa yang tak pernah ingin ditulis para pembelot."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find Roane's tally-book in the keep's corridor",
-      "id": "Temukan buku hitungan Roane di koridor benteng"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_roane_tally",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.tallybook.done"
-    }
-   ],
-   "reward": {
-    "experience": 200,
-    "coin": 30,
-    "items": [
-     "trinket_root_ring"
-    ],
-    "faction": "hearth",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "sq_pay_roll",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.manifest_delivered",
-   "giver": "speaker.maren",
-   "giverScene": "Rennfall",
-   "title": {
-    "en": "Who Paid the Deserters",
-    "id": "Siapa yang Membayar Pembelot"
-   },
-   "summary": {
-    "en": "The manifest says someone paid Durn's garrison in coin that is not Ash Line issue. The deserters' pay-roll is still in the vestibule stores; Maren needs it to name the hand behind it.",
-    "id": "Manifest menyebut seseorang membayar garnisun Durn dengan koin yang bukan terbitan Barisan Abu. Daftar gaji para pembelot masih ada di gudang vestibul; Maren membutuhkannya untuk menamai tangan di baliknya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Bring the deserters' pay-roll from the keep's vestibule stores to Maren",
-      "id": "Bawa daftar gaji para pembelot dari gudang vestibul benteng kepada Maren"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_pay_roll",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.payroll.done"
-    }
-   ],
-   "reward": {
-    "experience": 260,
-    "coin": 50,
-    "items": [
-     "amulet_silver"
-    ],
-    "faction": "ash",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_salt_floor",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.saltpans_rumoured",
-   "giver": "speaker.hask",
-   "giverScene": "Saltpans",
-   "title": {
-    "en": "The Pans Must Stand Clear",
-    "id": "Petak-petak Harus Bersih"
-   },
-   "summary": {
-    "en": "Salt-thieves squat the pans at night, carrying off crust by the armload. Factor Hask wants them off the works before the League counts its losses in his name.",
-    "id": "Pencuri garam menduduki petak-petak di malam hari, mengangkut kerak sekalenggong. Faktor Hask ingin mereka pergi dari tambak sebelum Liga mencatat kerugian atas namanya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Drive the salt-thieves out of the pans",
-      "id": "Usir para pencuri garam dari petak-petak"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.salt",
-       "amount": 5
-      }
-     ],
-     "setsFlag": "sq.salt_floor.done"
-    }
-   ],
-   "reward": {
-    "experience": 300,
-    "coin": 60,
-    "items": [
-     "trinket_lion_pin"
-    ],
-    "faction": "league",
-    "reputation": 10
-   }
-  },
-  {
-   "id": "sq_salt_tallies",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.saltpans_rumoured",
-   "giver": "speaker.collum",
-   "giverScene": "Saltpans",
-   "title": {
-    "en": "Every Notch a Sack",
-    "id": "Setiap Parut Satu Karung"
-   },
-   "summary": {
-    "en": "Three tally-sticks went missing with the night crews, and without them the books cannot say whose salt the thieves took. Pan-keeper Collum needs them found — by the pans, under the heap rows, wherever a count was broken.",
-    "id": "Tiga tongkat hitung hilang bersama kru malam, dan tanpanya pembukuan tak bisa memastikan garam siapa yang dicuri para pencuri. Penjaga-petak Collum ingin mereka ditemukan — di sisi petak, di bawah deretan timbunan, di mana pun hitungan dipatahkan."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find the three dropped tally-sticks around the pans",
-      "id": "Temukan tiga tongkat hitung yang terjatuh di sekitar petak"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_salt_tally",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.tally.done"
-    }
-   ],
-   "reward": {
-    "experience": 220,
-    "coin": 40,
-    "items": [
-     "trinket_tally"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_store_key",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.saltpans_rumoured",
-   "giver": "speaker.lene",
-   "giverScene": "Saltpans",
-   "title": {
-    "en": "The Key-Warden's Errand",
-    "id": "Tugas Penjaga Kunci"
-   },
-   "summary": {
-    "en": "Wit-warden Ostler was carrying the store key to the capital when the salt-thieves took him by the boiling row. They left him alive and kept the key. Watch-lene wants it back before the League learns it was ever missing.",
-    "id": "Penjaga kunci Ostler membawa kunci gudang ke ibu kota saat para pencuri menangkapnya di dekat barisan pemasak. Mereka membiarkannya hidup dan menyimpan kuncinya. Lene sang pengawas ingin kunci itu kembali sebelum Liga tahu ia pernah hilang."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Recover the store key by the boiling row",
-      "id": "Ambil kembali kunci gudang di dekat barisan pemasak"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_store_key",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.store_key.done"
-    }
-   ],
-   "reward": {
-    "experience": 240,
-    "coin": 45,
-    "items": [
-     "dagger_quiet"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_salt_spill",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.saltpans_rumoured",
-   "giver": "speaker.tess",
-   "giverScene": "Saltpans",
-   "title": {
-    "en": "What the Scales Never Counted",
-    "id": "Yang Tak Pernah Dihitung Timbangan"
-   },
-   "summary": {
-    "en": "The League's rule is simple: once a pan is raked, what spills belongs to no one — and no one may take it. Tess knows where salt spills among the pans the gleaners may not enter. Gather it and carry it back out to the tents.",
-    "id": "Aturan Liga sederhana: begitu petak digaru, yang tumpah bukan milik siapa-siapa — dan tak boleh diambil siapa-siapa. Tess tahu di mana garam tumpah di antara petak yang tak boleh dimasuki pemungut. Pungut dan bawa keluar ke tenda-tenda."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Gather four spilled heaps of salt around the pans",
-      "id": "Pungut empat timbunan garam tumpah di sekitar petak"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_salt_spill",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.spillage.done"
-    }
-   ],
-   "reward": {
-    "experience": 200,
-    "coin": 30,
-    "items": [
-     "food_stew",
-     "food_stew"
-    ],
-    "faction": "league",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "sq_char_pits",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.burnpits_rumoured",
-   "giver": "speaker.wren",
-   "giverScene": "Burnpits",
-   "title": {
-    "en": "Smoke Needs Quieter Ground",
-    "id": "Asap Butuh Tanah yang Lebih Tenang"
-   },
-   "summary": {
-    "en": "Wood-poachers come out of the treeline at dusk to strip the clamps before they finish. Kiln-keeper Wren burns a week of work in one night if they are left to it: drive them off the burn ground.",
-    "id": "Pemencol kayu keluar dari tepi hutan saat senja untuk membuka klamp sebelum matang. Penjaga tungku Wren membakar kerja seminggu dalam satu malam kalau mereka dibiarkan: usir mereka dari tanah pembakaran."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Drive the wood-poachers off the burn ground",
-      "id": "Usir para pemencol kayu dari tanah pembakaran"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.char",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.pits.done"
-    }
-   ],
-   "reward": {
-    "experience": 280,
-    "coin": 50,
-    "items": [
-     "axe_woodcutter"
-    ],
-    "faction": "league",
-    "reputation": 9
-   }
-  },
-  {
-   "id": "sq_cord_tallies",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.burnpits_rumoured",
-   "giver": "speaker.pyke",
-   "giverScene": "Burnpits",
-   "title": {
-    "en": "Three Cords Uncounted",
-    "id": "Tiga Tumpuk Tak Terhitung"
-   },
-   "summary": {
-    "en": "Tally-foreman Pyke counts every cord that leaves on the wagon — and three cord-tallies walked off with the poachers. Until they are found, the League will count the whole stackyard short.",
-    "id": "Mandor hitung Pyke menghitung tiap tumpuk yang naik ke gerobak — dan tiga tongkat hitung ikut hilang bersama para pemencol. Selama belum ketemu, Liga akan menganggap seluruh halaman kayu kurang."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find the three dropped cord-tallies in the stackyard",
-      "id": "Temukan tiga tongkat hitung yang terjatuh di halaman kayu"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_cord_tally",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.cord.done"
-    }
-   ],
-   "reward": {
-    "experience": 200,
-    "coin": 35,
-    "items": [
-     "tool_lantern"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_keeper_rod",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.burnpits_rumoured",
-   "giver": "speaker.ferra",
-   "giverScene": "Burnpits",
-   "title": {
-    "en": "The Rod That Measures the Burn",
-    "id": "Tongkat yang Mengukur Bakaran"
-   },
-   "summary": {
-    "en": "A burn is judged by the rod: how deep the earth, how tall the clamp. Poachers took Wren's measuring rod as a walking stick, and rack-warden Ferra watched them lean on it by the burn ground. Take it back.",
-    "id": "Bakaran dinilai dengan tongkat ukur: sedalam apa tanahnya, setinggi apa klampnya. Para pemencol membawa tongkat ukur Wren sebagai tongkat jalan, dan Ferra si penjaga rak melihat mereka menyandarkannya di tanah pembakaran. Ambil kembali."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Recover the measuring rod at the burn ground",
-      "id": "Ambil kembali tongkat ukur di tanah pembakaran"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_keeper_rod",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.rod.done"
-    }
-   ],
-   "reward": {
-    "experience": 220,
-    "coin": 40,
-    "items": [
-     "boots_leather"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_char_coal",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.burnpits_rumoured",
-   "giver": "speaker.penn",
-   "giverScene": "Burnpits",
-   "title": {
-    "en": "Good Coal in the Dirt",
-    "id": "Arang Bagus di dalam Debu"
-   },
-   "summary": {
-    "en": "When the poachers bolted they dropped their sacks — good coal trampled into the burn ground. Soot-boy Penn knows every place a sack burst. Gather four heaps of clean coal before the next rain takes them.",
-    "id": "Saat para pemencol kabur mereka menjatuhkan karungnya — arang bagus terinjak ke tanah pembakaran. Penn si bocah jelaga tahu tiap tempat karung itu pecah. Pungut empat timbunan arang bersih sebelum hujan berikutnya membawanya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Gather four heaps of dropped coal around the burn ground",
-      "id": "Pungut empat timbunan arang terjatuh di sekitar tanah pembakaran"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_char_coal",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.coal.done"
-    }
-   ],
-   "reward": {
-    "experience": 190,
-    "coin": 28,
-    "items": [
-     "legs_leather"
-    ],
-    "faction": "league",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "sq_wind_raiders",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.windrest_rumoured",
-   "giver": "speaker.corl",
-   "giverScene": "Windrest",
-   "title": {
-    "en": "A Field Under Occupation",
-    "id": "Ladang yang Diduduki"
-   },
-   "summary": {
-    "en": "Grain-raiders squat the Windrest's stook rows at dusk and carry the sheaves off by the armload. Miller Corl's vanes turn over a field no one can work — drive four off and the hill remembers its master.",
-    "id": "Perampok gandum menduduki barisan berkas Windrest saat senja dan mengangkut gandumnya sekalenggong. Kincir Miller Corl berputar di atas ladang yang tak bisa digarap — usir empat dan bukit itu ingat tuannya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Drive the grain-raiders out of the Windrest's field",
-      "id": "Usir para perampok gandum dari ladang Windrest"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.mill",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.wind.done"
-    }
-   ],
-   "reward": {
-    "experience": 180,
-    "coin": 40,
-    "items": [
-     "shield_oak"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_wind_tallies",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.windrest_rumoured",
-   "giver": "speaker.bryd",
-   "giverScene": "Windrest",
-   "title": {
-    "en": "What the Sticks Remember",
-    "id": "Apa yang Diingat Tongkat"
-   },
-   "summary": {
-    "en": "Three tally-sticks were dropped among the stook rows when the raiders came through. Bryd's count hangs on them — a fresh stick holds no memory of the load it counted. Find the old ones.",
-    "id": "Tiga tongkat hitung terjatuh di antara barisan berkas saat para perampok lewat. Hitungan Bryd bergantung padanya — tongkat baru tak menyimpan ingatan muatannya. Temukan yang lama."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find the three tally-sticks dropped in the field",
-      "id": "Temukan tiga tongkat hitung yang terjatuh di ladang"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_mill_tally",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.wind_tally.done"
-    }
-   ],
-   "reward": {
-    "experience": 150,
-    "coin": 30,
-    "items": [
-     "whetstone"
-    ],
-    "faction": "league",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "sq_wind_sacks",
-   "act": "act1",
-   "mainQuest": false,
-   "unlockFlag": "act1.windrest_rumoured",
-   "giver": "speaker.tam",
-   "giverScene": "Windrest",
-   "title": {
-    "en": "White Against the Grass",
-    "id": "Putih di Atas Rumput"
-   },
-   "summary": {
-    "en": "The raiders cut the cart rope and let the flour fall — four sacks of meal spilled down the lane. Tam carries the blame for every one. Pick them up where they split.",
-    "id": "Para perampok memotong tali kereta dan membiarkan tepungnya jatuh — empat karung tumpah menuruni lorong. Tam menanggung kesalahan tiap karungnya. Pungut di tempat mereka pecah."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Gather the four spilled meal sacks along the lane",
-      "id": "Pungut empat karung tepung tumpah di sepanjang lorong"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_mill_sack",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.wind_sacks.done"
-    }
-   ],
-   "reward": {
-    "experience": 150,
-    "coin": 30,
-    "items": [
-     "oil_flask"
-    ],
-    "faction": "league",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "sq_pit_jacks",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.chalkpit_rumoured",
-   "giver": "speaker.brack",
-   "giverScene": "Chalkpit",
-   "title": {
-    "en": "The Cut Belongs to the Picks",
-    "id": "Lubang Ini Milik para Pemahat"
-   },
-   "summary": {
-    "en": "Pit-jacks — deserters who found chalk dust easier than crust — squat the cut and strip the slab tables bare. Foreman Brack wants the floor walked clean before the League sends a crew that cannot dig.",
-    "id": "Para pit-jack — pembelot yang merasa debu kapur lebih mudah daripada kerak — menduduki lubang dan menguras meja-meja lempeng. Mandor Brack ingin lantainya bersih sebelum Liga mengirim kru yang tak bisa menggali."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Drive the pit-jacks out of the chalk cut",
-      "id": "Usir para pit-jack dari lubang kapur"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.pit",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.pit_jacks.done"
-    }
-   ],
-   "reward": {
-    "experience": 300,
-    "coin": 55,
-    "items": [
-     "trinket_lion_pin"
-    ],
-    "faction": "league",
-    "reputation": 10
-   }
-  },
-  {
-   "id": "sq_pit_tallies",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.chalkpit_rumoured",
-   "giver": "speaker.ines",
-   "giverScene": "Chalkpit",
-   "title": {
-    "en": "Three Sticks, One Truth",
-    "id": "Tiga Tongkat, Satu Kebenaran"
-   },
-   "summary": {
-    "en": "The night the crew walked off, three tally-sticks were dropped in the cut — and without them the books cannot say whose lime the jacks are selling. Tally-clerk Ines needs them found.",
-    "id": "Di malam kru itu pergi, tiga tongkat hitung terjatuh di lubang — dan tanpanya pembukuan tak bisa memastikan kapur siapa yang dijual para jack. Juru hitung Ines ingin mereka ditemukan."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find the three dropped tally-sticks in the pit",
-      "id": "Temukan tiga tongkat hitung yang terjatuh di lubang"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_pit_tally",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.pit_tallies.done"
-    }
-   ],
-   "reward": {
-    "experience": 220,
-    "coin": 40,
-    "items": [
-     "trinket_tally"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_pit_seal",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.chalkpit_rumoured",
-   "giver": "speaker.simm",
-   "giverScene": "Chalkpit",
-   "title": {
-    "en": "The Stamp That Weighs",
-    "id": "Stempel yang Menimbang"
-   },
-   "summary": {
-    "en": "The pit's seal-stamp — the brass head that made a block League property — still sits on the derrick platform where the last clerk dropped it. The jacks know what it is worth. Seal-warden Simm wants it down before they learn.",
-    "id": "Stempel segel lubang — kepala kuningan yang membuat blok jadi milik Liga — masih tergeletak di anjungan kerek tempat juru hitung terakhir menjatuhkannya. Para jack tahu harganya. Penjaga segel Simm ingin stempel itu turun sebelum mereka paham."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Take the seal-stamp off the derrick platform — it will not be unguarded",
-      "id": "Ambil stempel segel dari anjungan kerek — tempat itu tak akan kosong"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_pit_seal",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.pit_seal.done"
-    }
-   ],
-   "reward": {
-    "experience": 240,
-    "coin": 60,
-    "items": [
-     "spear_ash"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_pit_lime",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.chalkpit_rumoured",
-   "giver": "speaker.rill",
-   "giverScene": "Chalkpit",
-   "title": {
-    "en": "Cold Kilns, White Bags",
-    "id": "Tungku Dingin, Karung Putih"
-   },
-   "summary": {
-    "en": "The League's lime bags split where the crew dropped them — good burn-lime going to dew on the pit floor. Cutter Rill still has a kiln to feed; he wants the spill gathered before the weather does.",
-    "id": "Karung-karung kapur Liga pecah di tempat kru menjatuhkannya — kapur bakar bagus jadi santapan embun di lantai lubang. Pemahat Rill masih punya tungku yang harus diberi makan; ia ingin tumpahan itu dipungut sebelum cuaca melakukannya."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Gather the four split lime bags off the pit floor",
-      "id": "Pungut empat karung kapur yang terbelah di lantai lubang"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_pit_lime",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.pit_lime.done"
-    }
-   ],
-   "reward": {
-    "experience": 200,
-    "coin": 30,
-    "items": [
-     "food_stew",
-     "food_stew"
-    ],
-    "faction": "league",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "q_stamps",
-   "act": "act2",
-   "mainQuest": true,
-   "unlockFlag": "pit.floor_cleared",
-   "title": {
-    "en": "The Die in the Dark",
-    "id": "Die di Dalam Gelap"
-   },
-   "summary": {
-    "en": "The pay-roll's trail climbs past the chalk pit to a walled night-yard where the keep's diverted coin is struck into fresh seals. Clear the coiners' watch, take the master die, and put it in Inspector Maren's hand — the die's cut will name who sold the valley its own seal.",
-    "id": "Jejak daftar gaji menaiki lubang kapur menuju halaman malam bertembok tempat koin benteng yang disimpangkan dipukul jadi segel baru. Tumbangkan penjaga para pencetak, ambil die induknya, dan letakkan di tangan Inspektur Maren — potongannya akan menamai siapa yang menjual segel lembah ini."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Take the spur above the pit's deep end",
-      "id": "Naiki simpangan di atas ujung dalam lubang"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.found_stampworks"
-      }
-     ],
-     "setsFlag": "act2.stamps_s1"
+      "id": "sq_roofline",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_fire_done",
+      "title": {
+        "en": "Before the Rain",
+        "id": "Sebelum Hujan"
+      },
+      "summary": {
+        "en": "The sky has that grey weight to it. Every roof raised before the storm is a family that does not sleep in mud.",
+        "id": "Langit terasa kelabu dan berat. Setiap atap yang berdiri sebelum badai berarti satu keluarga yang tak tidur di lumpur."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Raise four buildings inside the hearth light",
+            "id": "Bangun empat bangunan di dalam cahaya perapian"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "built.shelter",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.roofline.built"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Bring Hesketh two pitch and three rope",
+            "id": "Bawakan Hesketh dua ter dan tiga tali"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "mat_pitch",
+              "amount": 2
+            },
+            {
+              "kind": "Item",
+              "key": "mat_rope",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.roofline.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 30,
+        "items": [
+          "armor_refugee"
+        ],
+        "faction": "hearth",
+        "reputation": 10
+      },
+      "giver": "speaker.hesketh",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s2",
-     "text": {
-      "en": "Break the coiners' watch",
-      "id": "Tumbangkan penjaga para pencetak"
-     },
-     "objectives": [
-      {
-       "kind": "Counter",
-       "key": "kills.stamp",
-       "amount": 5
-      }
-     ],
-     "setsFlag": "act2.stamps_s2"
+      "id": "sq_whisperers",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.maren_arrived",
+      "title": {
+        "en": "The Ones That Chant",
+        "id": "Yang Merapal"
+      },
+      "summary": {
+        "en": "Inspector Maren wants the chanting dead counted and burned. Iskra wants one kept whole. You cannot do both.",
+        "id": "Inspektur Maren ingin mayat perapal dihitung dan dibakar. Iskra ingin satu disisakan utuh. Kau tak bisa melakukan keduanya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Put down six of the chanting dead",
+            "id": "Tumbangkan enam mayat perapal"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.mage",
+              "amount": 6
+            }
+          ],
+          "setsFlag": "sq.whisperers.done"
+        }
+      ],
+      "reward": {
+        "experience": 340,
+        "coin": 40,
+        "items": [
+          "mat_bone_dust",
+          "ring_iron"
+        ]
+      },
+      "giver": "speaker.iskra",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s3",
-     "text": {
-      "en": "Take the master die from the counting dais",
-      "id": "Ambil die induk dari anjungan hitung"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_stamp_die",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "act2.stamps_s3"
+      "id": "sq_unmarked_boots",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act2.bandits_hinted",
+      "title": {
+        "en": "Unmarked Boots",
+        "id": "Sepatu Tanpa Lambang"
+      },
+      "summary": {
+        "en": "The bandits on the trade road wear boots stamped by a Greymarch cobbler. Vesna will pay for proof, and Harrow will pay more for silence.",
+        "id": "Bandit di jalan dagang memakai sepatu bercap tukang sepatu Greymarch. Vesna membayar untuk bukti, dan Harrow membayar lebih untuk diam."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find proof of who pays the raiders",
+            "id": "Temukan bukti siapa yang membayar para perampok"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_harrow_ledger",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.boots.ledger"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Show the ledger to Ser Galen, and let a Crown officer see it",
+            "id": "Tunjukkan buku catatan itu kepada Ser Galen, biar perwira Mahkota melihatnya"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.galen_saw_ledger"
+            }
+          ],
+          "setsFlag": "sq.boots.done"
+        }
+      ],
+      "reward": {
+        "experience": 400,
+        "coin": 80,
+        "items": [
+          "trinket_salt_seal"
+        ]
+      },
+      "giver": "speaker.vesna",
+      "giverScene": "Greymarch"
     },
     {
-     "id": "s4",
-     "text": {
-      "en": "Bring the die to Inspector Maren in Rennfall",
-      "id": "Bawa die itu kepada Inspektur Maren di Rennfall"
-     },
-     "objectives": [
-      {
-       "kind": "Flag",
-       "key": "act2.die_delivered"
-      }
-     ],
-     "setsFlag": "act2.stamps_done"
-    }
-   ],
-   "reward": {
-    "experience": 600,
-    "coin": 60,
-    "items": [
-     "sword_emberbrand"
-    ],
-    "faction": "ash",
-    "reputation": 10
-   }
-  },
-  {
-   "id": "sq_stamp_slips",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "pit.floor_cleared",
-   "giver": "speaker.novak",
-   "giverScene": "Stampworks",
-   "title": {
-    "en": "The True Count",
-    "id": "Hitungan Sejati"
-   },
-   "summary": {
-    "en": "Novak, the League clerk the coiners keep penned, has been writing two books: the false slips they watch him make and the true ones he drops on the benches. Three true slips still lie in the press line, naming every hand the yard was paid to hide.",
-    "id": "Novak, juru tulis Liga yang dikandangkan para pencetak, menulis dua pembukuan: slip palsu yang mereka awasi dan slip sejati yang ia jatuhkan di meja-meja. Tiga slip sejati masih tergeletak di barisan pres, menamai tiap tangan yang dibayar halaman ini untuk disembunyikan."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Recover Novak's three true slips from the press benches",
-      "id": "Temukan kembali tiga slip sejati Novak di meja-meja pres"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_stamp_slip",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.stamp_slips.done"
-    }
-   ],
-   "reward": {
-    "experience": 280,
-    "coin": 45,
-    "items": [
-     "trinket_crane_seal"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_stamp_plates",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "pit.floor_cleared",
-   "giver": "speaker.jory",
-   "giverScene": "Stampworks",
-   "title": {
-    "en": "The Cracked Plate",
-    "id": "Pelat yang Retak"
-   },
-   "summary": {
-    "en": "Under the press line lies the test strike that split — a cracked die-plate cut by the same hand as the master die. Die-setter Jory wants it found; a die-sinker's crack is a signature that even a careful hand can't hide.",
-    "id": "Di bawah barisan pres tergeletak pukulan uji yang pecah — pelat die retak yang dipahat tangan yang sama dengan die induk. Penyetel die Jory ingin ia ditemukan; retakan seorang pemahat die adalah tanda tangan yang tak bisa disembunyikan tangan secermat apa pun."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Find the cracked die-plate under the press line",
-      "id": "Temukan pelat die retak di bawah barisan pres"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_stamp_plate",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.stamp_plates.done"
-    }
-   ],
-   "reward": {
-    "experience": 260,
-    "coin": 50,
-    "items": [
-     "staff_apothecary"
-    ],
-    "faction": "league",
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_stamp_blanks",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "pit.floor_cleared",
-   "giver": "speaker.wicke",
-   "giverScene": "Stampworks",
-   "title": {
-    "en": "Dead Silver",
-    "id": "Perak Mati"
-   },
-   "summary": {
-    "en": "A tipped barrow spilled four silver coin-blanks along the yard's west spoil run, and the watch made runner Wicke leave them. He wants dead silver lifted out of the dirt before it walks off on its own — as everything in the yard eventually does.",
-    "id": "Gerobak yang terguling menumpahkan empat lempengan koin perak di lajur timbunan barat halaman, dan penjaga menyuruh pelari Wicke meninggalkannya. Ia ingin perak mati itu diangkat dari tanah sebelum berjalan pergi sendiri — seperti segala hal di halaman ini."
-   },
-   "stages": [
-    {
-     "id": "s1",
-     "text": {
-      "en": "Gather the four spilled silver blanks from the spoil run",
-      "id": "Pungut empat lempengan perak yang tumpah di lajur timbunan"
-     },
-     "objectives": [
-      {
-       "kind": "Item",
-       "key": "quest_stamp_blank",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.stamp_blanks.done"
-    }
-   ],
-   "reward": {
-    "experience": 240,
-    "coin": 70,
-    "items": [
-     "potion_small",
-     "potion_small"
-    ],
-    "faction": "league",
-    "reputation": 6
-   }
-  },
-  {
-   "id": "q_tollbank",
-   "act": "act3",
-   "mainQuest": true,
-   "title": {
-    "en": "The Left Hand of the League",
-    "id": "Tangan Kiri Liga"
-   },
-   "summary": {
-    "en": "The master die was cut inside Greymarch's own charter house — sold to the deserters by someone the pay-roll was written to protect. A charter warden there is waiting to hear it. His mark opens the old toll fort on the north road, where the washed coin goes to become honest money — and where the man who signed it waits.",
-    "id": "Die induk itu dipahat di dalam gedung piagam Greymarch sendiri — dijual kepada para pembelot oleh seseorang yang ditulis daftar gaji untuk dilindungi. Seorang warden piagam di sana sedang menunggu untuk mendengarnya. Tandanya membuka benteng tol tua di jalan utara, tempat koin cucian menjadi uang jujur — dan tempat orang yang menandatanganinya menunggu."
-   },
-   "unlockFlag": "act2.die_delivered",
-   "stages": [
-    {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "act3.tollbank_marked",
-       "kind": "Flag"
-      }
-     ],
-     "setsFlag": "act3.stamps_s1",
-     "text": {
-      "en": "Find Charter Warden Ansel in Greymarch",
-      "id": "Temukan Warden Piagam Ansel di Greymarch"
-     }
+      "id": "sq_iron_seam",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_night_done",
+      "title": {
+        "en": "The Seam Nobody Works",
+        "id": "Urat Besi yang Tak Digarap"
+      },
+      "summary": {
+        "en": "There is good iron under the north slope, and a reason the old villagers stopped digging it. Find out which is worth more.",
+        "id": "Ada besi bagus di lereng utara, dan ada alasan warga lama berhenti menggalinya. Cari tahu mana yang lebih berharga."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring Sabel six measures of iron",
+            "id": "Bawakan Sabel enam bagian besi"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "mat_iron",
+              "amount": 6
+            }
+          ],
+          "setsFlag": "sq.seam.mined"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Clear whatever the digging woke",
+            "id": "Bersihkan apa pun yang terbangun oleh galian"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.knight",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.seam.done"
+        }
+      ],
+      "reward": {
+        "experience": 380,
+        "coin": 65,
+        "items": [
+          "axe_grave",
+          "legs_iron"
+        ],
+        "faction": "salt",
+        "reputation": 8
+      },
+      "giver": "speaker.sabel",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s2",
-     "objectives": [
-      {
-       "key": "kills.toll",
-       "kind": "Counter",
-       "amount": 6
-      }
-     ],
-     "setsFlag": "act3.toll_s2",
-     "text": {
-      "en": "Break the washing crew's watches at the Tollbank",
-      "id": "Tumbangkan jagaan pasukan cuci di Benteng Tol"
-     }
+      "id": "sq_flawless_vigil",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.night1_cleared",
+      "title": {
+        "en": "A Night Without a Wound",
+        "id": "Semalam Tanpa Luka"
+      },
+      "summary": {
+        "en": "Brann claims two wardens ever held a night untouched. He is not saying it to flatter you.",
+        "id": "Brann bilang hanya dua warden yang pernah bertahan semalam tanpa tergores. Ia tidak sedang memujimu."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Hold a night without taking a single wound",
+            "id": "Bertahan semalam tanpa terluka sekali pun"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "night.flawless",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.vigil.done"
+        }
+      ],
+      "reward": {
+        "experience": 450,
+        "coin": 70,
+        "items": [
+          "trinket_ember_knot",
+          "gloves_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 12
+      },
+      "giver": "speaker.brann",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s3",
-     "objectives": [
-      {
-       "key": "act3.halvard_down",
-       "kind": "Flag"
-      }
-     ],
-     "setsFlag": "act3.toll_s3",
-     "text": {
-      "en": "Answer Halvard the Cutter on the tollhouse step",
-      "id": "Jawab Halvard si Pemahat di tangga rumah tol"
-     }
+      "id": "sq_reputation_board",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_night_done",
+      "title": {
+        "en": "The Warden's Word",
+        "id": "Ucapan Sang Warden"
+      },
+      "summary": {
+        "en": "A settlement is judged by whether its posted work gets done. Clear the board and word travels further than any banner.",
+        "id": "Sebuah pemukiman dinilai dari apakah pekerjaan yang ditempel benar-benar selesai. Bersihkan papan, dan kabarnya menyebar lebih jauh daripada panji mana pun."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Complete five posted contracts",
+            "id": "Selesaikan lima kontrak yang ditempel"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "contracts.completed",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.board.five"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Survive three nights as Warden of Rennfall",
+            "id": "Bertahan tiga malam sebagai Warden Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "nights.survived",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.board.done"
+        }
+      ],
+      "reward": {
+        "experience": 520,
+        "coin": 100,
+        "items": [
+          "armor_warden_coat",
+          "helm_warden",
+          "boots_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 15
+      },
+      "giver": "speaker.maren",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s4",
-     "objectives": [
-      {
-       "key": "quest_true_ledger",
-       "kind": "Item",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "act3.toll_s4",
-     "text": {
-      "en": "Take the true ledger from under the counter",
-      "id": "Ambil buku besar sejati dari bawah meja"
-     }
+      "id": "sq_surveyors_eye",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act2.surveyors_coming",
+      "title": {
+        "en": "What the Surveyors Will See",
+        "id": "Apa yang Akan Dilihat Juru Ukur"
+      },
+      "summary": {
+        "en": "The ledger went east, so men with chains and charts will come west. Let them find a settlement that looks too useful to break up.",
+        "id": "Daftar itu pergi ke timur, jadi orang-orang dengan rantai ukur dan peta akan datang ke barat. Biar mereka menemukan pemukiman yang terlihat terlalu berguna untuk dibubarkan."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Raise six roofs inside the hearth light",
+            "id": "Dirikan enam atap di dalam cahaya perapian"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "built.shelter",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.surveyors.built"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Clear four posted contracts so the board reads busy",
+            "id": "Selesaikan empat kontrak agar papan terlihat sibuk"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "contracts.completed",
+              "amount": 2
+            }
+          ],
+          "setsFlag": "sq.surveyors.done"
+        }
+      ],
+      "reward": {
+        "experience": 480,
+        "coin": 90,
+        "items": [
+          "armor_guard_mail"
+        ],
+        "faction": "crown",
+        "reputation": 12
+      },
+      "giver": "speaker.maren",
+      "giverScene": "Rennfall"
     },
     {
-     "id": "s5",
-     "objectives": [
-      {
-       "key": "act3.ledger_closed",
-       "kind": "Flag"
-      }
-     ],
-     "setsFlag": "act3.tollbank_done",
-     "text": {
-      "en": "Put the ledger in Inspector Maren's hand",
-      "id": "Letakkan buku besar itu di tangan Inspektur Maren"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 90,
-    "experience": 850,
-    "faction": "ash",
-    "items": [
-     "armor_oathplate"
-    ],
-    "reputation": 20
-   }
-  },
-  {
-   "id": "sq_toll_tallies",
-   "giver": "speaker.joss",
-   "giverScene": "Tollbank",
-   "act": "act3",
-   "mainQuest": false,
-   "unlockFlag": "toll.court_cleared",
-   "title": {
-    "en": "The Unpaid Tally",
-    "id": "Hitungan yang Tak Terbayar"
-   },
-   "summary": {
-    "en": "Old Joss kept his tally-sticks even caged — every count the crew was paid in, cut into wood they couldn't read. Three sticks are still out on the court. Bring them and the dead tollmen get their count named.",
-    "id": "Joss tua tetap menyimpan tongkat hitungnya bahkan saat dikandang — setiap hitungan yang dibayarkan pada pasukan cuci, terpahat di kayu yang tak bisa mereka baca. Tiga tongkat masih tergeletak di halaman. Bawakan, dan para petugas tol yang tewas akan mendapat hitungan mereka dinamai."
-   },
-   "stages": [
+      "id": "sq_what_nessa_carried",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.refugee_sheltered",
+      "title": {
+        "en": "What Nessa Carried",
+        "id": "Apa yang Dibawa Nessa"
+      },
+      "summary": {
+        "en": "She arrived with a wound, two coins on a wire, and the names of everyone who did not. Outfit the next ones before they get here.",
+        "id": "Ia datang dengan luka, dua koin berkawat, dan nama semua orang yang tak sampai. Siapkan perlengkapan untuk yang berikutnya sebelum mereka tiba."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Stock oiled cloth for bandages and roofing",
+            "id": "Sediakan kain berminyak untuk perban dan atap"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "mat_cloth",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.nessa.cloth"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Put salt meat in the stores for the road-worn",
+            "id": "Isi gudang dengan daging asin untuk mereka yang lelah di jalan"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "food_salt_meat",
+              "amount": 2
+            }
+          ],
+          "setsFlag": "sq.nessa.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 50,
+        "items": [
+          "trinket_road_charm"
+        ],
+        "faction": "hearth",
+        "reputation": 14
+      },
+      "giver": "speaker.wick",
+      "giverScene": "Rennfall"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "quest_toll_tally",
-       "kind": "Item",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.toll_tallies.done",
-     "text": {
-      "en": "Gather the three tally-sticks on the court",
-      "id": "Pungut tiga tongkat hitung di halaman"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 35,
-    "experience": 260,
-    "faction": "league",
-    "items": [
-     "ring_verdant"
-    ],
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_toll_strongboxes",
-   "giver": "speaker.effa",
-   "giverScene": "Tollbank",
-   "act": "act3",
-   "mainQuest": false,
-   "unlockFlag": "toll.court_cleared",
-   "title": {
-    "en": "Boxes That Were Never Empty",
-    "id": "Brankas yang Tak Pernah Kosong"
-   },
-   "summary": {
-    "en": "Clerk Effa watched the crew chain the toll's strongboxes to the deck and crack them like eggs. Four boxes still sit where they were emptied — the League wants them back unbroken, as proof of what was done with them.",
-    "id": "Juru tulis Effa menyaksikan pasukan cuci merantai brankas-brankas tol ke geladak dan memecahkannya seperti telur. Empat brankas masih terduduk di tempatnya dikosongkan — Liga menginginkannya kembali utuh, sebagai bukti apa yang dilakukan pada isinya."
-   },
-   "stages": [
+      "id": "sq_shepherds_distance",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "event.shepherd_sighting.done",
+      "title": {
+        "en": "The Distance He Keeps",
+        "id": "Jarak yang Ia Jaga"
+      },
+      "summary": {
+        "en": "It stood at the treeline and did not come in. Whatever decides that is worth making nervous.",
+        "id": "Ia berdiri di tepi hutan dan tak melangkah masuk. Apa pun yang memutuskan itu pantas dibuat gelisah."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Put down three of the ones that lead",
+            "id": "Tumbangkan tiga yang memimpin mereka"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.elite",
+              "amount": 2
+            }
+          ],
+          "setsFlag": "sq.shepherd.elites"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Hold the valley two nights more",
+            "id": "Pertahankan lembah dua malam lagi"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "nights.survived",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.shepherd.done"
+        }
+      ],
+      "reward": {
+        "experience": 600,
+        "coin": 110,
+        "items": [
+          "trinket_ashcharm",
+          "amulet_gold"
+        ],
+        "faction": "hearth",
+        "reputation": 10
+      },
+      "giver": "speaker.iskra",
+      "giverScene": "Rennfall"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "quest_strongbox",
-       "kind": "Item",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.toll_strongboxes.done",
-     "text": {
-      "en": "Recover the four emptied strongboxes",
-      "id": "Temukan empat brankas yang dikosongkan"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 40,
-    "experience": 300,
-    "faction": "league",
-    "items": [
-     "trinket_waystone"
-    ],
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_toll_banner",
-   "giver": "speaker.pike",
-   "giverScene": "Tollbank",
-   "act": "act3",
-   "mainQuest": false,
-   "unlockFlag": "toll.court_cleared",
-   "title": {
-    "en": "The Banner Comes Down",
-    "id": "Panji yang Turun"
-   },
-   "summary": {
-    "en": "The fort's salt banner still hangs over the cage pen where Pike watched the crew work. Take it down — it's watched too, because the banner is the last thing the crew still flies over coin they own.",
-    "id": "Panji garam benteng masih tergantung di atas kandang tempat Pike menyaksikan pasukan cuci bekerja. Turunkan — panji itu juga dijaga, karena itulah satu-satunya yang masih mereka kibarkan di atas koin yang mereka miliki."
-   },
-   "stages": [
+      "id": "sq_criers_news",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.pell",
+      "title": {
+        "en": "Something Worth Shouting",
+        "id": "Kabar yang Layak Diteriakkan"
+      },
+      "summary": {
+        "en": "Pell shouts the city's news twice a day and has nothing but grain prices. Give him road men in the dirt to shout about.",
+        "id": "Pell meneriakkan kabar kota dua kali sehari dan tak punya apa-apa selain harga gandum. Beri dia kabar perampok jalan yang tumbang."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Put down six of the road's men",
+            "id": "Tumbangkan enam perampok jalan"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.bandit",
+              "amount": 6
+            }
+          ],
+          "setsFlag": "sq.criers.done"
+        }
+      ],
+      "reward": {
+        "experience": 180,
+        "coin": 25,
+        "items": [
+          "gloves_iron"
+        ],
+        "faction": "hearth",
+        "reputation": 5
+      },
+      "giverScene": "Greymarch"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "quest_toll_banner",
-       "kind": "Item",
-       "amount": 1
-      }
-     ],
-     "setsFlag": "sq.toll_banner.done",
-     "text": {
-      "en": "Take the toll banner down from the pen",
-      "id": "Turunkan panji tol dari kandang"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 30,
-    "experience": 280,
-    "faction": "league",
-    "items": [
-     "helm_visor"
-    ],
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_toll_pages",
-   "giver": "speaker.annet",
-   "giverScene": "Tollbank",
-   "act": "act3",
-   "mainQuest": false,
-   "unlockFlag": "toll.court_cleared",
-   "title": {
-    "en": "The Pages That Got Out",
-    "id": "Halaman yang Keluar"
-   },
-   "summary": {
-    "en": "Annet fed the cage fire with her own book, page by page, to keep the truth from ending up as ash — three leaves got out the wind's way and lie in the court still. Find them; she'll know the words by heart anyway.",
-    "id": "Annet memberi makan api kandang dengan bukunya sendiri, halaman demi halaman, agar kebenaran tak berakhir jadi abu — tiga lembar lolos lewat angin dan masih tergeletak di halaman. Temukan; ia tetap hafal kata-katanya."
-   },
-   "stages": [
+      "id": "sq_porters_load",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.oona",
+      "title": {
+        "en": "What the Porters Eat",
+        "id": "Bekal Para Kuli"
+      },
+      "summary": {
+        "en": "The gate porters work the day on nothing. Oona will buy salt meat off you at a fair price and feed the line herself.",
+        "id": "Para kuli gerbang bekerja seharian tanpa bekal. Oona mau membeli daging garam darimu dengan harga pantas dan membagikannya sendiri."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring Oona four measures of salt meat",
+            "id": "Bawakan Oona empat bagian daging garam"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "food_salt_meat",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.porters.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 40,
+        "items": [
+          "bandage",
+          "bandage",
+          "boots_iron"
+        ],
+        "faction": "salt",
+        "reputation": 5
+      },
+      "giverScene": "Greymarch"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "quest_ledger_page",
-       "kind": "Item",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.toll_pages.done",
-     "text": {
-      "en": "Find the three ledger leaves in the court",
-      "id": "Temukan tiga lembar buku besar di halaman"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 35,
-    "experience": 280,
-    "faction": "league",
-    "items": [
-     "armor_ranger"
-    ],
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_drove_jackals",
-   "giver": "speaker.ossel",
-   "giverScene": "DroversRest",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.drovers_rumoured",
-   "title": {
-    "en": "Jackals at the Rail",
-    "id": "Serigala di Pagar"
-   },
-   "summary": {
-    "en": "A pack has been working the corral mouth every night since the frost — Ossel's lost two mounts to them already. Clear the corral mouth and the Rest stays open this side of winter.",
-    "id": "Sekelompok serigala menggerogoti mulut kandang tiap malam sejak embun beku — Ossel sudah kehilangan dua tunggangan. Bersihkan mulut kandang itu dan Tempat Istirahat ini tetap buka sepanjang musim dingin."
-   },
-   "stages": [
+      "id": "sq_widows_vigil",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.asta",
+      "title": {
+        "en": "Lamps for the Long Street",
+        "id": "Lampu untuk Jalan Panjang"
+      },
+      "summary": {
+        "en": "Asta keeps a light burning for a son who is not coming back. She will not ask the city for pitch, so she asks you.",
+        "id": "Asta menjaga satu lampu tetap menyala untuk anak yang tak akan pulang. Ia tak mau meminta ter kepada kota, jadi ia meminta padamu."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring Asta three pitch torches",
+            "id": "Bawakan Asta tiga obor ter"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "torch",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.widow.pitch"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Stand a night in the valley for her",
+            "id": "Jaga satu malam di lembah untuknya"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "nights.survived",
+              "amount": 2
+            }
+          ],
+          "setsFlag": "sq.widow.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 30,
+        "items": [
+          "trinket_road_charm",
+          "amulet_silver"
+        ],
+        "faction": "hearth",
+        "reputation": 8
+      },
+      "giverScene": "Greymarch"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "kills.drove",
-       "kind": "Counter",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.drove_jackals.done",
-     "text": {
-      "en": "Clear the jackals working the corral mouth",
-      "id": "Bersihkan serigala yang menggerogoti mulut kandang"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 35,
-    "experience": 260,
-    "faction": "league",
-    "items": [
-     "trinket_horn"
-    ],
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_drove_tack",
-   "giver": "speaker.pate",
-   "giverScene": "DroversRest",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.drovers_rumoured",
-   "title": {
-    "en": "The Tack That Ran",
-    "id": "Pelana yang Kabur"
-   },
-   "summary": {
-    "en": "Pate was trusted with the bridles and dropped three of them when the jackals came — one by the wagons, one on the lane, one near the tents. The head drover whips a boy for less. Find them before Ossel counts.",
-    "id": "Pate dipercaya menjaga kekang dan menjatuhkan tiga saat serigala datang — satu dekat wagon, satu di lajur, satu di dekat tenda. Kepala penggembala mencambuk bocah untuk lebih sedikit dari itu. Temukan sebelum Ossel menghitung."
-   },
-   "stages": [
+      "id": "sq_miras_wagon",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.prisoner_freed",
+      "giver": "speaker.mira",
+      "title": {
+        "en": "Wagon Forty-One",
+        "id": "Pedati Empat Puluh Satu"
+      },
+      "summary": {
+        "en": "Mira wants to drive again, and a carter without iron fittings has a cart that comes apart on the first hill.",
+        "id": "Mira ingin kembali menjadi kusir, dan kusir tanpa besi pengikat punya pedati yang copot di tanjakan pertama."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring Mira five measures of iron",
+            "id": "Bawakan Mira lima bagian besi"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "mat_iron",
+              "amount": 5
+            }
+          ],
+          "setsFlag": "sq.mira.iron"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "See the valley road quiet again",
+            "id": "Pastikan jalan lembah kembali sunyi"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.road_ambush_cleared"
+            }
+          ],
+          "setsFlag": "sq.mira.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 65,
+        "items": [
+          "trinket_salt_seal",
+          "ring_gold"
+        ],
+        "faction": "salt",
+        "reputation": 10
+      },
+      "giverScene": "Greymarch"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "quest_tack",
-       "kind": "Item",
-       "amount": 3
-      }
-     ],
-     "setsFlag": "sq.drove_tack.done",
-     "text": {
-      "en": "Find the three dropped tack pieces",
-      "id": "Temukan tiga potong pelana yang jatuh"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 30,
-    "experience": 240,
-    "faction": "league",
-    "items": [
-     "bow_drover"
-    ],
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_drove_supper",
-   "giver": "speaker.brigid",
-   "giverScene": "DroversRest",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.drovers_rumoured",
-   "title": {
-    "en": "One Hot Supper",
-    "id": "Satu Santap Panas"
-   },
-   "summary": {
-    "en": "Brigid cooks for fourteen on what was meant for six — the camp's supper fixings scattered when the last wagon bolted in. Gather what's still good: roots by the lane, onions near the fire, cheese and dried meat wherever they rolled.",
-    "id": "Brigid memasak untuk empat belas orang dari jatah enam — bahan santap kamp berserakan saat wagon terakhir kabur masuk. Pungut yang masih bagus: umbi di lajur, bawang dekat api, keju dan daging awet di mana pun menggelinding."
-   },
-   "stages": [
+      "id": "sq_dace_patrol",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.dace_briefed",
+      "giver": "speaker.dace",
+      "title": {
+        "en": "A Corporal's Arithmetic",
+        "id": "Hitungan Seorang Kopral"
+      },
+      "summary": {
+        "en": "Dace cannot send a patrol he has not been given. What he can do is write down what the Warden did, and let his captain read it.",
+        "id": "Dace tak bisa mengirim patroli yang tak pernah diberikan padanya. Yang bisa ia lakukan adalah mencatat apa yang dilakukan sang Warden, lalu membiarkan kaptennya membaca."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Break the camp in the Hollow",
+            "id": "Hancurkan kamp di Ceruk"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.hollow_camp_cleared"
+            }
+          ],
+          "setsFlag": "sq.dace.camp"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Bring word that their captain is down",
+            "id": "Bawa kabar bahwa kapten mereka tumbang"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.rook_defeated"
+            }
+          ],
+          "setsFlag": "sq.dace.done"
+        }
+      ],
+      "reward": {
+        "experience": 280,
+        "coin": 55,
+        "items": [
+          "helm_sallet"
+        ],
+        "faction": "crown",
+        "reputation": 10
+      },
+      "giverScene": "Greymarch"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "quest_supper",
-       "kind": "Item",
-       "amount": 4
-      }
-     ],
-     "setsFlag": "sq.drove_supper.done",
-     "text": {
-      "en": "Gather four supper fixings for the fire",
-      "id": "Pungut empat bahan santap untuk api"
-     }
-    }
-   ],
-   "reward": {
-    "coin": 25,
-    "experience": 220,
-    "faction": "league",
-    "items": [
-     "food_cheese",
-     "food_cheese",
-     "food_stew"
-    ],
-    "reputation": 8
-   }
-  },
-  {
-   "id": "sq_drove_pins",
-   "giver": "speaker.nell",
-   "giverScene": "DroversRest",
-   "act": "act2",
-   "mainQuest": false,
-   "unlockFlag": "act2.drovers_rumoured",
-   "title": {
-    "en": "Three Pins Short",
-    "id": "Kurang Tiga Paku"
-   },
-   "summary": {
-    "en": "Nell's wagon came in a pin short and stayed together out of habit — three pins lie somewhere between the lane and the corral. Find them and she'll owe the road a favour she means to pay.",
-    "id": "Wagon Nell datang kekurangan satu paku dan bertahan utuh karena kebiasaan — tiga paku tergeletak di antara lajur dan kandang. Temukan dan ia akan berhutang pada jalan, hutang yang berniat ia bayar."
-   },
-   "stages": [
+      "id": "sq_wicks_lamp",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.first_night_done",
+      "giver": "speaker.wick",
+      "title": {
+        "en": "The Lamp Boy's Lamp",
+        "id": "Lampu Si Pembawa Lampu"
+      },
+      "summary": {
+        "en": "Wick dropped his lamp running from the first night. He thinks it is out past the farm on the trade road, and he is not going back for it.",
+        "id": "Wick menjatuhkan lampunya saat lari dari malam pertama. Ia kira lampu itu tertinggal di dekat ladang di jalan dagang, dan ia tak mau kembali mengambilnya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find Wick's lamp on the trade road",
+            "id": "Temukan lampu Wick di jalan dagang"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_wick_lamp",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.lamp.done"
+        }
+      ],
+      "reward": {
+        "experience": 140,
+        "coin": 15,
+        "items": [
+          "bandage",
+          "bandage"
+        ],
+        "faction": "hearth",
+        "reputation": 4
+      },
+      "giverScene": "Rennfall"
+    },
     {
-     "id": "s1",
-     "objectives": [
-      {
-       "key": "quest_wagon_pin",
-       "kind": "Item",
-       "amount": 3
+      "id": "sq_oonas_letter",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.reached_greymarch",
+      "giver": "speaker.oona",
+      "title": {
+        "en": "A Letter for the Valley",
+        "id": "Surat untuk Lembah"
+      },
+      "summary": {
+        "en": "Oona's brother marched with Brann's company twenty years ago. She has written to ask if he is alive, and the post does not go to Rennfall.",
+        "id": "Adik Oona ikut kompi Brann dua puluh tahun lalu. Ia menulis surat untuk menanyakan apakah adiknya masih hidup, dan kurir pos tak pernah ke Rennfall."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take the letter from Oona",
+            "id": "Ambil surat dari Oona"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "sq.letter.given"
+            }
+          ],
+          "setsFlag": "sq.letter.s1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Carry the letter to Brann in Rennfall",
+            "id": "Antar surat itu kepada Brann di Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "sq.letter.delivered"
+            }
+          ],
+          "setsFlag": "sq.letter.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 30,
+        "items": [
+          "amulet_silver"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      },
+      "giverScene": "Greymarch"
+    },
+    {
+      "id": "sq_iron_tithe",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.sabel",
+      "giverScene": "Greymarch",
+      "title": {
+        "en": "Iron That Was Paid For",
+        "id": "Besi yang Sudah Dibayar"
+      },
+      "summary": {
+        "en": "Sabel's forge runs on honest iron. The keep's vault still holds bar stock bought with Greymarch silver; bring her four bars and she will call it reclaimed, not stolen.",
+        "id": "Tempaan Sabel hidup dari besi jujur. Gudang benteng masih menyimpan batangan yang dibeli dengan perak Greymarch; bawakan empat batang dan ia akan menyebutnya ditebus, bukan dicuri."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take four bars of iron from the keep's stores",
+            "id": "Ambil empat batang besi dari gudang benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "mat_iron",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.iron_tithe.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 40,
+        "items": [
+          "ring_iron"
+        ],
+        "faction": "salt",
+        "reputation": 6
       }
-     ],
-     "setsFlag": "sq.drove_pins.done",
-     "text": {
-      "en": "Find the three missing wagon pins",
-      "id": "Temukan tiga paku wagon yang hilang"
-     }
+    },
+    {
+      "id": "sq_salt_share",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.iskra",
+      "giverScene": "Rennfall",
+      "title": {
+        "en": "Salt That Isn't Theirs",
+        "id": "Garam yang Bukan Milik Mereka"
+      },
+      "summary": {
+        "en": "Iskra heard the deserters' stores still hold Crown salt meat. A village eats what a fort no longer needs: three cuts, and no questions about where they hung.",
+        "id": "Iskra mendengar gudang para pembelot masih menyimpan daging garam milik Mahkota. Desa memakan apa yang tak lagi dibutuhkan benteng: tiga potong, dan tak ada yang bertanya dari mana daging itu digantung."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring Iskra three cuts of salt meat from the keep",
+            "id": "Bawakan Iskra tiga potong daging garam dari benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "food_salt_meat",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.salt.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 18,
+        "items": [
+          "amulet_bone"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_back_count",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.keep_rumoured",
+      "giver": "speaker.dace",
+      "giverScene": "Greymarch",
+      "title": {
+        "en": "Counting Deserters",
+        "id": "Menghitung Pembelot"
+      },
+      "summary": {
+        "en": "Dace cannot ask the Line to march on its own deserters. But a Warden's tally is read in the record house: put down eight of the keep's garrison and he will write the number where it has to be seen.",
+        "id": "Dace tak bisa meminta Barisan menyerbu pembelotnya sendiri. Tapi hitungan seorang Warden dibaca di ruang arsip: tumbangkan delapan garnisun benteng dan ia akan menulis angkanya di tempat yang harus dibaca."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Put down eight deserters of the keep's garrison",
+            "id": "Tumbangkan delapan pembelot garnisun benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.deserter",
+              "amount": 8
+            }
+          ],
+          "setsFlag": "sq.backs.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 45,
+        "items": [
+          "bow_hunter"
+        ],
+        "faction": "ash",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tallybook",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.roane_spared",
+      "giver": "speaker.roane",
+      "giverScene": "Keep",
+      "title": {
+        "en": "The Clerk's Tally",
+        "id": "Buku Hitungan Juru Tulis"
+      },
+      "summary": {
+        "en": "Roane kept the keep's tally-book against the day someone asked to see honest numbers. He dropped it in the corridor when the clerks scattered; bring it back and he will read you what the deserters never wanted written.",
+        "id": "Roane menyimpan buku hitungan benteng untuk hari ketika seseorang meminta angka yang jujur. Ia menjatuhkannya di koridor saat para juru tulis cerai-berai; kembalikan dan ia akan membacakan apa yang tak pernah ingin ditulis para pembelot."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find Roane's tally-book in the keep's corridor",
+            "id": "Temukan buku hitungan Roane di koridor benteng"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_roane_tally",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.tallybook.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "trinket_root_ring"
+        ],
+        "faction": "hearth",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_pay_roll",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.manifest_delivered",
+      "giver": "speaker.maren",
+      "giverScene": "Rennfall",
+      "title": {
+        "en": "Who Paid the Deserters",
+        "id": "Siapa yang Membayar Pembelot"
+      },
+      "summary": {
+        "en": "The manifest says someone paid Durn's garrison in coin that is not Ash Line issue. The deserters' pay-roll is still in the vestibule stores; Maren needs it to name the hand behind it.",
+        "id": "Manifest menyebut seseorang membayar garnisun Durn dengan koin yang bukan terbitan Barisan Abu. Daftar gaji para pembelot masih ada di gudang vestibul; Maren membutuhkannya untuk menamai tangan di baliknya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Bring the deserters' pay-roll from the keep's vestibule stores to Maren",
+            "id": "Bawa daftar gaji para pembelot dari gudang vestibul benteng kepada Maren"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_pay_roll",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.payroll.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 50,
+        "items": [
+          "amulet_silver"
+        ],
+        "faction": "ash",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_salt_floor",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.hask",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "The Pans Must Stand Clear",
+        "id": "Petak-petak Harus Bersih"
+      },
+      "summary": {
+        "en": "Salt-thieves squat the pans at night, carrying off crust by the armload. Factor Hask wants them off the works before the League counts its losses in his name.",
+        "id": "Pencuri garam menduduki petak-petak di malam hari, mengangkut kerak sekalenggong. Faktor Hask ingin mereka pergi dari tambak sebelum Liga mencatat kerugian atas namanya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Drive the salt-thieves out of the pans",
+            "id": "Usir para pencuri garam dari petak-petak"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.salt",
+              "amount": 5
+            }
+          ],
+          "setsFlag": "sq.salt_floor.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 60,
+        "items": [
+          "trinket_lion_pin"
+        ],
+        "faction": "league",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_salt_tallies",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.collum",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "Every Notch a Sack",
+        "id": "Setiap Parut Satu Karung"
+      },
+      "summary": {
+        "en": "Three tally-sticks went missing with the night crews, and without them the books cannot say whose salt the thieves took. Pan-keeper Collum needs them found — by the pans, under the heap rows, wherever a count was broken.",
+        "id": "Tiga tongkat hitung hilang bersama kru malam, dan tanpanya pembukuan tak bisa memastikan garam siapa yang dicuri para pencuri. Penjaga-petak Collum ingin mereka ditemukan — di sisi petak, di bawah deretan timbunan, di mana pun hitungan dipatahkan."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the three dropped tally-sticks around the pans",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di sekitar petak"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_salt_tally",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "trinket_tally"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_store_key",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.lene",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "The Key-Warden's Errand",
+        "id": "Tugas Penjaga Kunci"
+      },
+      "summary": {
+        "en": "Wit-warden Ostler was carrying the store key to the capital when the salt-thieves took him by the boiling row. They left him alive and kept the key. Watch-lene wants it back before the League learns it was ever missing.",
+        "id": "Penjaga kunci Ostler membawa kunci gudang ke ibu kota saat para pencuri menangkapnya di dekat barisan pemasak. Mereka membiarkannya hidup dan menyimpan kuncinya. Lene sang pengawas ingin kunci itu kembali sebelum Liga tahu ia pernah hilang."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Recover the store key by the boiling row",
+            "id": "Ambil kembali kunci gudang di dekat barisan pemasak"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_store_key",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.store_key.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 45,
+        "items": [
+          "dagger_quiet"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_salt_spill",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.saltpans_rumoured",
+      "giver": "speaker.tess",
+      "giverScene": "Saltpans",
+      "title": {
+        "en": "What the Scales Never Counted",
+        "id": "Yang Tak Pernah Dihitung Timbangan"
+      },
+      "summary": {
+        "en": "The League's rule is simple: once a pan is raked, what spills belongs to no one — and no one may take it. Tess knows where salt spills among the pans the gleaners may not enter. Gather it and carry it back out to the tents.",
+        "id": "Aturan Liga sederhana: begitu petak digaru, yang tumpah bukan milik siapa-siapa — dan tak boleh diambil siapa-siapa. Tess tahu di mana garam tumpah di antara petak yang tak boleh dimasuki pemungut. Pungut dan bawa keluar ke tenda-tenda."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather four spilled heaps of salt around the pans",
+            "id": "Pungut empat timbunan garam tumpah di sekitar petak"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_salt_spill",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.spillage.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "food_stew",
+          "food_stew"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_char_pits",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.wren",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "Smoke Needs Quieter Ground",
+        "id": "Asap Butuh Tanah yang Lebih Tenang"
+      },
+      "summary": {
+        "en": "Wood-poachers come out of the treeline at dusk to strip the clamps before they finish. Kiln-keeper Wren burns a week of work in one night if they are left to it: drive them off the burn ground.",
+        "id": "Pemencol kayu keluar dari tepi hutan saat senja untuk membuka klamp sebelum matang. Penjaga tungku Wren membakar kerja seminggu dalam satu malam kalau mereka dibiarkan: usir mereka dari tanah pembakaran."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Drive the wood-poachers off the burn ground",
+            "id": "Usir para pemencol kayu dari tanah pembakaran"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.char",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.pits.done"
+        }
+      ],
+      "reward": {
+        "experience": 280,
+        "coin": 50,
+        "items": [
+          "axe_woodcutter"
+        ],
+        "faction": "league",
+        "reputation": 9
+      }
+    },
+    {
+      "id": "sq_cord_tallies",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.pyke",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "Three Cords Uncounted",
+        "id": "Tiga Tumpuk Tak Terhitung"
+      },
+      "summary": {
+        "en": "Tally-foreman Pyke counts every cord that leaves on the wagon — and three cord-tallies walked off with the poachers. Until they are found, the League will count the whole stackyard short.",
+        "id": "Mandor hitung Pyke menghitung tiap tumpuk yang naik ke gerobak — dan tiga tongkat hitung ikut hilang bersama para pemencol. Selama belum ketemu, Liga akan menganggap seluruh halaman kayu kurang."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the three dropped cord-tallies in the stackyard",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di halaman kayu"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_cord_tally",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.cord.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 35,
+        "items": [
+          "tool_lantern"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_keeper_rod",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.ferra",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "The Rod That Measures the Burn",
+        "id": "Tongkat yang Mengukur Bakaran"
+      },
+      "summary": {
+        "en": "A burn is judged by the rod: how deep the earth, how tall the clamp. Poachers took Wren's measuring rod as a walking stick, and rack-warden Ferra watched them lean on it by the burn ground. Take it back.",
+        "id": "Bakaran dinilai dengan tongkat ukur: sedalam apa tanahnya, setinggi apa klampnya. Para pemencol membawa tongkat ukur Wren sebagai tongkat jalan, dan Ferra si penjaga rak melihat mereka menyandarkannya di tanah pembakaran. Ambil kembali."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Recover the measuring rod at the burn ground",
+            "id": "Ambil kembali tongkat ukur di tanah pembakaran"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_keeper_rod",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.rod.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "boots_leather"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_char_coal",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.burnpits_rumoured",
+      "giver": "speaker.penn",
+      "giverScene": "Burnpits",
+      "title": {
+        "en": "Good Coal in the Dirt",
+        "id": "Arang Bagus di dalam Debu"
+      },
+      "summary": {
+        "en": "When the poachers bolted they dropped their sacks — good coal trampled into the burn ground. Soot-boy Penn knows every place a sack burst. Gather four heaps of clean coal before the next rain takes them.",
+        "id": "Saat para pemencol kabur mereka menjatuhkan karungnya — arang bagus terinjak ke tanah pembakaran. Penn si bocah jelaga tahu tiap tempat karung itu pecah. Pungut empat timbunan arang bersih sebelum hujan berikutnya membawanya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather four heaps of dropped coal around the burn ground",
+            "id": "Pungut empat timbunan arang terjatuh di sekitar tanah pembakaran"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_char_coal",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.coal.done"
+        }
+      ],
+      "reward": {
+        "experience": 190,
+        "coin": 28,
+        "items": [
+          "legs_leather"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_wind_raiders",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.windrest_rumoured",
+      "giver": "speaker.corl",
+      "giverScene": "Windrest",
+      "title": {
+        "en": "A Field Under Occupation",
+        "id": "Ladang yang Diduduki"
+      },
+      "summary": {
+        "en": "Grain-raiders squat the Windrest's stook rows at dusk and carry the sheaves off by the armload. Miller Corl's vanes turn over a field no one can work — drive four off and the hill remembers its master.",
+        "id": "Perampok gandum menduduki barisan berkas Windrest saat senja dan mengangkut gandumnya sekalenggong. Kincir Miller Corl berputar di atas ladang yang tak bisa digarap — usir empat dan bukit itu ingat tuannya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Drive the grain-raiders out of the Windrest's field",
+            "id": "Usir para perampok gandum dari ladang Windrest"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.mill",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.wind.done"
+        }
+      ],
+      "reward": {
+        "experience": 180,
+        "coin": 40,
+        "items": [
+          "shield_oak"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_wind_tallies",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.windrest_rumoured",
+      "giver": "speaker.bryd",
+      "giverScene": "Windrest",
+      "title": {
+        "en": "What the Sticks Remember",
+        "id": "Apa yang Diingat Tongkat"
+      },
+      "summary": {
+        "en": "Three tally-sticks were dropped among the stook rows when the raiders came through. Bryd's count hangs on them — a fresh stick holds no memory of the load it counted. Find the old ones.",
+        "id": "Tiga tongkat hitung terjatuh di antara barisan berkas saat para perampok lewat. Hitungan Bryd bergantung padanya — tongkat baru tak menyimpan ingatan muatannya. Temukan yang lama."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the three tally-sticks dropped in the field",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di ladang"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_mill_tally",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.wind_tally.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 30,
+        "items": [
+          "whetstone"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_wind_sacks",
+      "act": "act1",
+      "mainQuest": false,
+      "unlockFlag": "act1.windrest_rumoured",
+      "giver": "speaker.tam",
+      "giverScene": "Windrest",
+      "title": {
+        "en": "White Against the Grass",
+        "id": "Putih di Atas Rumput"
+      },
+      "summary": {
+        "en": "The raiders cut the cart rope and let the flour fall — four sacks of meal spilled down the lane. Tam carries the blame for every one. Pick them up where they split.",
+        "id": "Para perampok memotong tali kereta dan membiarkan tepungnya jatuh — empat karung tumpah menuruni lorong. Tam menanggung kesalahan tiap karungnya. Pungut di tempat mereka pecah."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather the four spilled meal sacks along the lane",
+            "id": "Pungut empat karung tepung tumpah di sepanjang lorong"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_mill_sack",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.wind_sacks.done"
+        }
+      ],
+      "reward": {
+        "experience": 150,
+        "coin": 30,
+        "items": [
+          "oil_flask"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "sq_pit_jacks",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.chalkpit_rumoured",
+      "giver": "speaker.brack",
+      "giverScene": "Chalkpit",
+      "title": {
+        "en": "The Cut Belongs to the Picks",
+        "id": "Lubang Ini Milik para Pemahat"
+      },
+      "summary": {
+        "en": "Pit-jacks — deserters who found chalk dust easier than crust — squat the cut and strip the slab tables bare. Foreman Brack wants the floor walked clean before the League sends a crew that cannot dig.",
+        "id": "Para pit-jack — pembelot yang merasa debu kapur lebih mudah daripada kerak — menduduki lubang dan menguras meja-meja lempeng. Mandor Brack ingin lantainya bersih sebelum Liga mengirim kru yang tak bisa menggali."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Drive the pit-jacks out of the chalk cut",
+            "id": "Usir para pit-jack dari lubang kapur"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.pit",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.pit_jacks.done"
+        }
+      ],
+      "reward": {
+        "experience": 300,
+        "coin": 55,
+        "items": [
+          "trinket_lion_pin"
+        ],
+        "faction": "league",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_pit_tallies",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.chalkpit_rumoured",
+      "giver": "speaker.ines",
+      "giverScene": "Chalkpit",
+      "title": {
+        "en": "Three Sticks, One Truth",
+        "id": "Tiga Tongkat, Satu Kebenaran"
+      },
+      "summary": {
+        "en": "The night the crew walked off, three tally-sticks were dropped in the cut — and without them the books cannot say whose lime the jacks are selling. Tally-clerk Ines needs them found.",
+        "id": "Di malam kru itu pergi, tiga tongkat hitung terjatuh di lubang — dan tanpanya pembukuan tak bisa memastikan kapur siapa yang dijual para jack. Juru hitung Ines ingin mereka ditemukan."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the three dropped tally-sticks in the pit",
+            "id": "Temukan tiga tongkat hitung yang terjatuh di lubang"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_pit_tally",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.pit_tallies.done"
+        }
+      ],
+      "reward": {
+        "experience": 220,
+        "coin": 40,
+        "items": [
+          "trinket_tally"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_pit_seal",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.chalkpit_rumoured",
+      "giver": "speaker.simm",
+      "giverScene": "Chalkpit",
+      "title": {
+        "en": "The Stamp That Weighs",
+        "id": "Stempel yang Menimbang"
+      },
+      "summary": {
+        "en": "The pit's seal-stamp — the brass head that made a block League property — still sits on the derrick platform where the last clerk dropped it. The jacks know what it is worth. Seal-warden Simm wants it down before they learn.",
+        "id": "Stempel segel lubang — kepala kuningan yang membuat blok jadi milik Liga — masih tergeletak di anjungan kerek tempat juru hitung terakhir menjatuhkannya. Para jack tahu harganya. Penjaga segel Simm ingin stempel itu turun sebelum mereka paham."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take the seal-stamp off the derrick platform — it will not be unguarded",
+            "id": "Ambil stempel segel dari anjungan kerek — tempat itu tak akan kosong"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_pit_seal",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.pit_seal.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 60,
+        "items": [
+          "spear_ash"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_pit_lime",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.chalkpit_rumoured",
+      "giver": "speaker.rill",
+      "giverScene": "Chalkpit",
+      "title": {
+        "en": "Cold Kilns, White Bags",
+        "id": "Tungku Dingin, Karung Putih"
+      },
+      "summary": {
+        "en": "The League's lime bags split where the crew dropped them — good burn-lime going to dew on the pit floor. Cutter Rill still has a kiln to feed; he wants the spill gathered before the weather does.",
+        "id": "Karung-karung kapur Liga pecah di tempat kru menjatuhkannya — kapur bakar bagus jadi santapan embun di lantai lubang. Pemahat Rill masih punya tungku yang harus diberi makan; ia ingin tumpahan itu dipungut sebelum cuaca melakukannya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather the four split lime bags off the pit floor",
+            "id": "Pungut empat karung kapur yang terbelah di lantai lubang"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_pit_lime",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.pit_lime.done"
+        }
+      ],
+      "reward": {
+        "experience": 200,
+        "coin": 30,
+        "items": [
+          "food_stew",
+          "food_stew"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "q_stamps",
+      "act": "act2",
+      "mainQuest": true,
+      "unlockFlag": "pit.floor_cleared",
+      "title": {
+        "en": "The Die in the Dark",
+        "id": "Die di Dalam Gelap"
+      },
+      "summary": {
+        "en": "The pay-roll's trail climbs past the chalk pit to a walled night-yard where the keep's diverted coin is struck into fresh seals. Clear the coiners' watch, take the master die, and put it in Inspector Maren's hand — the die's cut will name who sold the valley its own seal.",
+        "id": "Jejak daftar gaji menaiki lubang kapur menuju halaman malam bertembok tempat koin benteng yang disimpangkan dipukul jadi segel baru. Tumbangkan penjaga para pencetak, ambil die induknya, dan letakkan di tangan Inspektur Maren — potongannya akan menamai siapa yang menjual segel lembah ini."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Take the spur above the pit's deep end",
+            "id": "Naiki simpangan di atas ujung dalam lubang"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.found_stampworks"
+            }
+          ],
+          "setsFlag": "act2.stamps_s1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Break the coiners' watch",
+            "id": "Tumbangkan penjaga para pencetak"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.stamp",
+              "amount": 5
+            }
+          ],
+          "setsFlag": "act2.stamps_s2"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Take the master die from the counting dais",
+            "id": "Ambil die induk dari anjungan hitung"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_stamp_die",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "act2.stamps_s3"
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Bring the die to Inspector Maren in Rennfall",
+            "id": "Bawa die itu kepada Inspektur Maren di Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act2.die_delivered"
+            }
+          ],
+          "setsFlag": "act2.stamps_done"
+        }
+      ],
+      "reward": {
+        "experience": 600,
+        "coin": 60,
+        "items": [
+          "sword_emberbrand"
+        ],
+        "faction": "ash",
+        "reputation": 10
+      }
+    },
+    {
+      "id": "sq_stamp_slips",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "pit.floor_cleared",
+      "giver": "speaker.novak",
+      "giverScene": "Stampworks",
+      "title": {
+        "en": "The True Count",
+        "id": "Hitungan Sejati"
+      },
+      "summary": {
+        "en": "Novak, the League clerk the coiners keep penned, has been writing two books: the false slips they watch him make and the true ones he drops on the benches. Three true slips still lie in the press line, naming every hand the yard was paid to hide.",
+        "id": "Novak, juru tulis Liga yang dikandangkan para pencetak, menulis dua pembukuan: slip palsu yang mereka awasi dan slip sejati yang ia jatuhkan di meja-meja. Tiga slip sejati masih tergeletak di barisan pres, menamai tiap tangan yang dibayar halaman ini untuk disembunyikan."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Recover Novak's three true slips from the press benches",
+            "id": "Temukan kembali tiga slip sejati Novak di meja-meja pres"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_stamp_slip",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.stamp_slips.done"
+        }
+      ],
+      "reward": {
+        "experience": 280,
+        "coin": 45,
+        "items": [
+          "trinket_crane_seal"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_stamp_plates",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "pit.floor_cleared",
+      "giver": "speaker.jory",
+      "giverScene": "Stampworks",
+      "title": {
+        "en": "The Cracked Plate",
+        "id": "Pelat yang Retak"
+      },
+      "summary": {
+        "en": "Under the press line lies the test strike that split — a cracked die-plate cut by the same hand as the master die. Die-setter Jory wants it found; a die-sinker's crack is a signature that even a careful hand can't hide.",
+        "id": "Di bawah barisan pres tergeletak pukulan uji yang pecah — pelat die retak yang dipahat tangan yang sama dengan die induk. Penyetel die Jory ingin ia ditemukan; retakan seorang pemahat die adalah tanda tangan yang tak bisa disembunyikan tangan secermat apa pun."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Find the cracked die-plate under the press line",
+            "id": "Temukan pelat die retak di bawah barisan pres"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_stamp_plate",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.stamp_plates.done"
+        }
+      ],
+      "reward": {
+        "experience": 260,
+        "coin": 50,
+        "items": [
+          "staff_apothecary"
+        ],
+        "faction": "league",
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_stamp_blanks",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "pit.floor_cleared",
+      "giver": "speaker.wicke",
+      "giverScene": "Stampworks",
+      "title": {
+        "en": "Dead Silver",
+        "id": "Perak Mati"
+      },
+      "summary": {
+        "en": "A tipped barrow spilled four silver coin-blanks along the yard's west spoil run, and the watch made runner Wicke leave them. He wants dead silver lifted out of the dirt before it walks off on its own — as everything in the yard eventually does.",
+        "id": "Gerobak yang terguling menumpahkan empat lempengan koin perak di lajur timbunan barat halaman, dan penjaga menyuruh pelari Wicke meninggalkannya. Ia ingin perak mati itu diangkat dari tanah sebelum berjalan pergi sendiri — seperti segala hal di halaman ini."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Gather the four spilled silver blanks from the spoil run",
+            "id": "Pungut empat lempengan perak yang tumpah di lajur timbunan"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_stamp_blank",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.stamp_blanks.done"
+        }
+      ],
+      "reward": {
+        "experience": 240,
+        "coin": 70,
+        "items": [
+          "potion_small",
+          "potion_small"
+        ],
+        "faction": "league",
+        "reputation": 6
+      }
+    },
+    {
+      "id": "q_tollbank",
+      "act": "act3",
+      "mainQuest": true,
+      "title": {
+        "en": "The Left Hand of the League",
+        "id": "Tangan Kiri Liga"
+      },
+      "summary": {
+        "en": "The master die was cut inside Greymarch's own charter house — sold to the deserters by someone the pay-roll was written to protect. A charter warden there is waiting to hear it. His mark opens the old toll fort on the north road, where the washed coin goes to become honest money — and where the man who signed it waits.",
+        "id": "Die induk itu dipahat di dalam gedung piagam Greymarch sendiri — dijual kepada para pembelot oleh seseorang yang ditulis daftar gaji untuk dilindungi. Seorang warden piagam di sana sedang menunggu untuk mendengarnya. Tandanya membuka benteng tol tua di jalan utara, tempat koin cucian menjadi uang jujur — dan tempat orang yang menandatanganinya menunggu."
+      },
+      "unlockFlag": "act2.die_delivered",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "act3.tollbank_marked",
+              "kind": "Flag"
+            }
+          ],
+          "setsFlag": "act3.stamps_s1",
+          "text": {
+            "en": "Find Charter Warden Ansel in Greymarch",
+            "id": "Temukan Warden Piagam Ansel di Greymarch"
+          }
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "key": "kills.toll",
+              "kind": "Counter",
+              "amount": 6
+            }
+          ],
+          "setsFlag": "act3.toll_s2",
+          "text": {
+            "en": "Break the washing crew's watches at the Tollbank",
+            "id": "Tumbangkan jagaan pasukan cuci di Benteng Tol"
+          }
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "key": "act3.halvard_down",
+              "kind": "Flag"
+            }
+          ],
+          "setsFlag": "act3.toll_s3",
+          "text": {
+            "en": "Answer Halvard the Cutter on the tollhouse step",
+            "id": "Jawab Halvard si Pemahat di tangga rumah tol"
+          }
+        },
+        {
+          "id": "s4",
+          "objectives": [
+            {
+              "key": "quest_true_ledger",
+              "kind": "Item",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "act3.toll_s4",
+          "text": {
+            "en": "Take the true ledger from under the counter",
+            "id": "Ambil buku besar sejati dari bawah meja"
+          }
+        },
+        {
+          "id": "s5",
+          "objectives": [
+            {
+              "key": "act3.ledger_closed",
+              "kind": "Flag"
+            }
+          ],
+          "setsFlag": "act3.tollbank_done",
+          "text": {
+            "en": "Put the ledger in Inspector Maren's hand",
+            "id": "Letakkan buku besar itu di tangan Inspektur Maren"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 90,
+        "experience": 850,
+        "faction": "ash",
+        "items": [
+          "armor_oathplate"
+        ],
+        "reputation": 20
+      }
+    },
+    {
+      "id": "sq_toll_tallies",
+      "giver": "speaker.joss",
+      "giverScene": "Tollbank",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "toll.court_cleared",
+      "title": {
+        "en": "The Unpaid Tally",
+        "id": "Hitungan yang Tak Terbayar"
+      },
+      "summary": {
+        "en": "Old Joss kept his tally-sticks even caged — every count the crew was paid in, cut into wood they couldn't read. Three sticks are still out on the court. Bring them and the dead tollmen get their count named.",
+        "id": "Joss tua tetap menyimpan tongkat hitungnya bahkan saat dikandang — setiap hitungan yang dibayarkan pada pasukan cuci, terpahat di kayu yang tak bisa mereka baca. Tiga tongkat masih tergeletak di halaman. Bawakan, dan para petugas tol yang tewas akan mendapat hitungan mereka dinamai."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_toll_tally",
+              "kind": "Item",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.toll_tallies.done",
+          "text": {
+            "en": "Gather the three tally-sticks on the court",
+            "id": "Pungut tiga tongkat hitung di halaman"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 35,
+        "experience": 260,
+        "faction": "league",
+        "items": [
+          "ring_verdant"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_toll_strongboxes",
+      "giver": "speaker.effa",
+      "giverScene": "Tollbank",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "toll.court_cleared",
+      "title": {
+        "en": "Boxes That Were Never Empty",
+        "id": "Brankas yang Tak Pernah Kosong"
+      },
+      "summary": {
+        "en": "Clerk Effa watched the crew chain the toll's strongboxes to the deck and crack them like eggs. Four boxes still sit where they were emptied — the League wants them back unbroken, as proof of what was done with them.",
+        "id": "Juru tulis Effa menyaksikan pasukan cuci merantai brankas-brankas tol ke geladak dan memecahkannya seperti telur. Empat brankas masih terduduk di tempatnya dikosongkan — Liga menginginkannya kembali utuh, sebagai bukti apa yang dilakukan pada isinya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_strongbox",
+              "kind": "Item",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.toll_strongboxes.done",
+          "text": {
+            "en": "Recover the four emptied strongboxes",
+            "id": "Temukan empat brankas yang dikosongkan"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 40,
+        "experience": 300,
+        "faction": "league",
+        "items": [
+          "trinket_waystone"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_toll_banner",
+      "giver": "speaker.pike",
+      "giverScene": "Tollbank",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "toll.court_cleared",
+      "title": {
+        "en": "The Banner Comes Down",
+        "id": "Panji yang Turun"
+      },
+      "summary": {
+        "en": "The fort's salt banner still hangs over the cage pen where Pike watched the crew work. Take it down — it's watched too, because the banner is the last thing the crew still flies over coin they own.",
+        "id": "Panji garam benteng masih tergantung di atas kandang tempat Pike menyaksikan pasukan cuci bekerja. Turunkan — panji itu juga dijaga, karena itulah satu-satunya yang masih mereka kibarkan di atas koin yang mereka miliki."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_toll_banner",
+              "kind": "Item",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.toll_banner.done",
+          "text": {
+            "en": "Take the toll banner down from the pen",
+            "id": "Turunkan panji tol dari kandang"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 30,
+        "experience": 280,
+        "faction": "league",
+        "items": [
+          "helm_visor"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_toll_pages",
+      "giver": "speaker.annet",
+      "giverScene": "Tollbank",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "toll.court_cleared",
+      "title": {
+        "en": "The Pages That Got Out",
+        "id": "Halaman yang Keluar"
+      },
+      "summary": {
+        "en": "Annet fed the cage fire with her own book, page by page, to keep the truth from ending up as ash — three leaves got out the wind's way and lie in the court still. Find them; she'll know the words by heart anyway.",
+        "id": "Annet memberi makan api kandang dengan bukunya sendiri, halaman demi halaman, agar kebenaran tak berakhir jadi abu — tiga lembar lolos lewat angin dan masih tergeletak di halaman. Temukan; ia tetap hafal kata-katanya."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_ledger_page",
+              "kind": "Item",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.toll_pages.done",
+          "text": {
+            "en": "Find the three ledger leaves in the court",
+            "id": "Temukan tiga lembar buku besar di halaman"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 35,
+        "experience": 280,
+        "faction": "league",
+        "items": [
+          "armor_ranger"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_drove_jackals",
+      "giver": "speaker.ossel",
+      "giverScene": "DroversRest",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.drovers_rumoured",
+      "title": {
+        "en": "Jackals at the Rail",
+        "id": "Serigala di Pagar"
+      },
+      "summary": {
+        "en": "A pack has been working the corral mouth every night since the frost — Ossel's lost two mounts to them already. Clear the corral mouth and the Rest stays open this side of winter.",
+        "id": "Sekelompok serigala menggerogoti mulut kandang tiap malam sejak embun beku — Ossel sudah kehilangan dua tunggangan. Bersihkan mulut kandang itu dan Tempat Istirahat ini tetap buka sepanjang musim dingin."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "kills.drove",
+              "kind": "Counter",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.drove_jackals.done",
+          "text": {
+            "en": "Clear the jackals working the corral mouth",
+            "id": "Bersihkan serigala yang menggerogoti mulut kandang"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 35,
+        "experience": 260,
+        "faction": "league",
+        "items": [
+          "trinket_horn"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_drove_tack",
+      "giver": "speaker.pate",
+      "giverScene": "DroversRest",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.drovers_rumoured",
+      "title": {
+        "en": "The Tack That Ran",
+        "id": "Pelana yang Kabur"
+      },
+      "summary": {
+        "en": "Pate was trusted with the bridles and dropped three of them when the jackals came — one by the wagons, one on the lane, one near the tents. The head drover whips a boy for less. Find them before Ossel counts.",
+        "id": "Pate dipercaya menjaga kekang dan menjatuhkan tiga saat serigala datang — satu dekat wagon, satu di lajur, satu di dekat tenda. Kepala penggembala mencambuk bocah untuk lebih sedikit dari itu. Temukan sebelum Ossel menghitung."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_tack",
+              "kind": "Item",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.drove_tack.done",
+          "text": {
+            "en": "Find the three dropped tack pieces",
+            "id": "Temukan tiga potong pelana yang jatuh"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 30,
+        "experience": 240,
+        "faction": "league",
+        "items": [
+          "bow_drover"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_drove_supper",
+      "giver": "speaker.brigid",
+      "giverScene": "DroversRest",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.drovers_rumoured",
+      "title": {
+        "en": "One Hot Supper",
+        "id": "Satu Santap Panas"
+      },
+      "summary": {
+        "en": "Brigid cooks for fourteen on what was meant for six — the camp's supper fixings scattered when the last wagon bolted in. Gather what's still good: roots by the lane, onions near the fire, cheese and dried meat wherever they rolled.",
+        "id": "Brigid memasak untuk empat belas orang dari jatah enam — bahan santap kamp berserakan saat wagon terakhir kabur masuk. Pungut yang masih bagus: umbi di lajur, bawang dekat api, keju dan daging awet di mana pun menggelinding."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_supper",
+              "kind": "Item",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.drove_supper.done",
+          "text": {
+            "en": "Gather four supper fixings for the fire",
+            "id": "Pungut empat bahan santap untuk api"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 25,
+        "experience": 220,
+        "faction": "league",
+        "items": [
+          "food_cheese",
+          "food_cheese",
+          "food_stew"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_drove_pins",
+      "giver": "speaker.nell",
+      "giverScene": "DroversRest",
+      "act": "act2",
+      "mainQuest": false,
+      "unlockFlag": "act2.drovers_rumoured",
+      "title": {
+        "en": "Three Pins Short",
+        "id": "Kurang Tiga Paku"
+      },
+      "summary": {
+        "en": "Nell's wagon came in a pin short and stayed together out of habit — three pins lie somewhere between the lane and the corral. Find them and she'll owe the road a favour she means to pay.",
+        "id": "Wagon Nell datang kekurangan satu paku dan bertahan utuh karena kebiasaan — tiga paku tergeletak di antara lajur dan kandang. Temukan dan ia akan berhutang pada jalan, hutang yang berniat ia bayar."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_wagon_pin",
+              "kind": "Item",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.drove_pins.done",
+          "text": {
+            "en": "Find the three missing wagon pins",
+            "id": "Temukan tiga paku wagon yang hilang"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 30,
+        "experience": 250,
+        "faction": "league",
+        "items": [
+          "relic_road_stone"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "q_tallykeep",
+      "act": "act3",
+      "mainQuest": true,
+      "unlockFlag": "act3.ledger_closed",
+      "title": {
+        "en": "The Mint the Walls Were Built For",
+        "id": "Percetakan yang Dilindungi Tembok"
+      },
+      "summary": {
+        "en": "The true ledger's last page names it: the Tallykeep, the mint-fortress the toll road was built to guard, where the valley's seal is struck honest no more. Maren marks the breach road north. Break the mint's watches, face Coinmaster Hane on the press dais, and take the true seals — the wash ends there.",
+        "id": "Halaman terakhir buku besar sejati menamainya: Benteng Hitung, benteng percetakan yang dijaga jalan tol, tempat segel lembah tak lagi dicetak jujur. Maren menandai jalan celah ke utara. Tumbangkan jagaan percetakan, hadapi Master Koin Hane di anjungan pres, dan ambil segel sejati — cucian berakhir di sana."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "text": {
+            "en": "Ask Maren what the last page names",
+            "id": "Tanya Maren apa yang dinamai halaman terakhir"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act3.tallykeep_marked"
+            }
+          ],
+          "setsFlag": "act3.tally_s1"
+        },
+        {
+          "id": "s2",
+          "text": {
+            "en": "Break the mint's watches on the Tallykeep",
+            "id": "Tumbangkan jagaan percetakan di Benteng Hitung"
+          },
+          "objectives": [
+            {
+              "kind": "Counter",
+              "key": "kills.tally",
+              "amount": 8
+            }
+          ],
+          "setsFlag": "act3.tally_s2"
+        },
+        {
+          "id": "s3",
+          "text": {
+            "en": "Answer Coinmaster Hane on the press dais",
+            "id": "Jawab Master Koin Hane di anjungan pres"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act3.hane_down"
+            }
+          ],
+          "setsFlag": "act3.tally_s3"
+        },
+        {
+          "id": "s4",
+          "text": {
+            "en": "Take the true seals from the vault dais",
+            "id": "Ambil segel sejati dari anjungan ruang bawah"
+          },
+          "objectives": [
+            {
+              "kind": "Item",
+              "key": "quest_true_seals",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "act3.tally_s4"
+        },
+        {
+          "id": "s5",
+          "text": {
+            "en": "Bring the seals to Inspector Maren in Rennfall",
+            "id": "Bawa segel itu kepada Inspektur Maren di Rennfall"
+          },
+          "objectives": [
+            {
+              "kind": "Flag",
+              "key": "act3.seals_delivered"
+            }
+          ],
+          "setsFlag": "act3.tallykeep_done"
+        }
+      ],
+      "reward": {
+        "experience": 1500,
+        "coin": 160,
+        "items": [],
+        "faction": "ash",
+        "reputation": 25
+      }
+    },
+    {
+      "id": "sq_tally_tallies",
+      "giver": "speaker.soll",
+      "giverScene": "Tallykeep",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "title": {
+        "en": "The Keeper's Count",
+        "id": "Hitungan Penjaga"
+      },
+      "summary": {
+        "en": "Keeper Soll hid the real tally when the wash began — three sticks on the counting desks still tell it, and the die-rack beside them still holds a die the crew paid for. Bring them and the mint's real ledger outlives the fire.",
+        "id": "Penjaga Soll menyembunyikan hitungan asli saat cucian dimulai — tiga tongkat di meja hitung masih menyimpannya, dan rak die di sisinya masih menyimpan die yang dibayar pasukan. Bawakan, dan pembukuan sejati percetakan ini hidup lebih lama dari api."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_mint_tally",
+              "kind": "Item",
+              "amount": 3
+            },
+            {
+              "key": "quest_die_rack",
+              "kind": "Item",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.tally_tallies.done",
+          "text": {
+            "en": "Gather the three mint tallies and a die from the rack",
+            "id": "Pungut tiga tongkat hitung percetakan dan sebuah die dari rak"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 40,
+        "experience": 300,
+        "faction": "league",
+        "items": [
+          "trinket_coin_scales"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tally_sealboxes",
+      "giver": "speaker.nance",
+      "giverScene": "Tallykeep",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "title": {
+        "en": "Boxes of the Honest Seal",
+        "id": "Peti-peti Segel Jujur"
+      },
+      "summary": {
+        "en": "Clerk Nance sealed the last honest coin in boxes before the dies went false — four seal-boxes are still scattered where the crew never reached.",
+        "id": "Juru Tulis Nance menyegel koin jujur terakhir dalam peti sebelum die-nya dipalsukan — empat peti segel masih tersebar di tempat yang tak dicapai pasukan."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_sealbox",
+              "kind": "Item",
+              "amount": 4
+            }
+          ],
+          "setsFlag": "sq.tally_sealboxes.done",
+          "text": {
+            "en": "Recover four seal-boxes from the bailey and the court",
+            "id": "Temukan empat peti segel di halaman dan pelataran"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 45,
+        "experience": 320,
+        "faction": "league",
+        "items": [
+          "helm_mintguard"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tally_pages",
+      "giver": "speaker.dory",
+      "giverScene": "Tallykeep",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "title": {
+        "en": "What the Furnace Missed",
+        "id": "Yang Terlewat Tungku"
+      },
+      "summary": {
+        "en": "Presshand Dory fed the yard furnace every night — three assay pages it never quite burned are still blowing around the court.",
+        "id": "Tangan Pres Dory memberi makan tungku halaman tiap malam — tiga halaman uji yang tak pernah terbakar masih berterbangan di pelataran."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_mint_page",
+              "kind": "Item",
+              "amount": 3
+            }
+          ],
+          "setsFlag": "sq.tally_pages.done",
+          "text": {
+            "en": "Gather the three assay pages on the mint court",
+            "id": "Pungut tiga halaman uji di pelataran percetakan"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 38,
+        "experience": 290,
+        "faction": "league",
+        "items": [
+          "ring_assay"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tally_bell",
+      "giver": "speaker.kit",
+      "giverScene": "Tallykeep",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "title": {
+        "en": "The Bell That Counted",
+        "id": "Lonceng yang Menghitung"
+      },
+      "summary": {
+        "en": "Boy Kit rang the gate bell for every count since he was seven — the washers took it down so nobody would hear the tallies change. It still hangs in the gatehouse, and it's guarded.",
+        "id": "Kit kecil membunyikan lonceng gerbang untuk tiap hitungan sejak umur tujuh — pasukan cuci menurunkannya supaya tak ada yang mendengar hitungan berubah. Ia masih tergantung di menara gerbang, dan dijaga."
+      },
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "key": "quest_gate_bell",
+              "kind": "Item",
+              "amount": 1
+            }
+          ],
+          "setsFlag": "sq.tally_bell.done",
+          "text": {
+            "en": "Take the tally bell back from the gatehouse",
+            "id": "Ambil kembali lonceng hitung dari menara gerbang"
+          }
+        }
+      ],
+      "reward": {
+        "coin": 42,
+        "experience": 310,
+        "faction": "league",
+        "items": [],
+        "reputation": 10
+      }
     }
-   ],
-   "reward": {
-    "coin": 30,
-    "experience": 250,
-    "faction": "league",
-    "items": [
-     "relic_road_stone"
-    ],
-    "reputation": 8
-   }
-  }
- ]
+  ]
 }

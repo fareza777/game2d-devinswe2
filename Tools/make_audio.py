@@ -66,6 +66,7 @@ AMBIENCE = {
     "stamp_yard": (22.0, "a hidden coiners' yard at night: a forge fire breathing low, a hammer striking a stamp die once then settling, a cart wheel turning over grit, whispered counting, a torch guttering, no music"),
     "toll_fort": (22.0, "a dead toll fort's gravel court: hollow wind through a breached rampart, a caged chain shifting, a wooden counter creaking, crows on a banner pole, a far-off coin dropped on stone, no music"),
     "drover_camp": (22.0, "a drovers' wayside camp on open meadow: a fire crackling, harness bells and leather shifting, low cattle sounds near a rail fence, wind over long grass, a tent flap snapping, no music"),
+    "mint_keep": (22.0, "a grand mint-fortress court: hollow wind in a high stone hall, a slow press-arm settling, coins shifting in a crate, a furnace breathing behind walls, crows on curtain towers, no music"),
 }
 
 # The codex look has a sound: small ensembles of old instruments, nothing synthetic, melancholy before heroic.
@@ -84,6 +85,7 @@ MUSIC = {
     "stampworks_theme": (60, f"tense counting-house theme for a secret mint yard that works by torchlight, muted struck-metal percussion like a die being tapped, a slow uneasy viol line, a ticking wooden tally rhythm, held breath and ledgers, 72 bpm, {STYLE}"),
     "tollbank_theme": (60, f"hard menacing theme for a ruined toll fort held by a washing crew, low struck anvil notes like counted coin, a heavy dragging bass line, a shrill gate-creak whistle, money and menace, 74 bpm, {STYLE}"),
     "drovers_theme": (60, f"warm weary drovers' camp theme on open meadow, relaxed fingerpicked guitar and fiddle over a soft rope-drum shuffle, a harmonica line like campfire smoke, road-worn and kind, 82 bpm, {STYLE}"),
+    "tallykeep_theme": (60, f"monumental dread theme for a mint-fortress the size of a town's ambition, slow struck bell-metal and deep cellos, a heavy press-beat like coin being struck underground, a cold high viol line over counting voices, epic and grave, 70 bpm, {STYLE}"),
 }
 
 

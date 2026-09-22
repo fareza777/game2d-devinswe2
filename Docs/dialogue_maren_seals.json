@@ -1,0 +1,56 @@
+{
+  "id": "maren_seals",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "maren",
+      "text": {
+        "en": "Set them on the table. Slow. ...Seven seals, struck honest, still warm with the mint's own iron. Warden — do you know what you carried out of that keep? Proof that the valley's word still weighs what it says it weighs.",
+        "id": "Taruh di meja. Perlahan. ...Tujuh segel, dicetak jujur, masih hangat oleh besi percetakannya sendiri. Warden — kau tahu apa yang kau bawa keluar dari benteng itu? Bukti bahwa kata lembah ini masih seberat yang ia katakan."
+      },
+      "next": "m2"
+    },
+    {
+      "id": "m2",
+      "speaker": "maren",
+      "text": {
+        "en": "The wash dies with these. Every false slip, every weighed lie — the charter house will read them against the true seals and burn the difference. The League's hands are cut. Its coin is ours again. What you did at that mint cannot be bought back, and the men who sold it know it.",
+        "id": "Cucian ini mati bersama segel-segel ini. Tiap slip palsu, tiap dusta yang ditimbang — gedung piagam akan membacanya melawan segel sejati dan membakar selisihnya. Tangan Liga sudah terpenggal. Koinnya milik kita lagi. Apa yang kau lakukan di percetakan itu tak bisa dibeli kembali, dan orang-orang yang menjualnya tahu itu."
+      },
+      "next": "m3"
+    },
+    {
+      "id": "m3",
+      "speaker": "maren",
+      "text": {
+        "en": "Rest now. When the ash settles, the valley will want its story told — and stories, like coin, are only worth the hand that struck them. Yours struck true.",
+        "id": "Istirahatlah. Saat abu mengendap, lembah ini akan ingin kisahnya dituturkan — dan kisah, seperti koin, hanya seharga tangan yang mencetaknya. Tanganmu mencetak dengan benar."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "(Hear how the valley remembers it)",
+            "id": "(Dengar bagaimana lembah mengenangnya)"
+          },
+          "next": "m4",
+          "action": "cinematic:ending"
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "speaker": "maren",
+      "text": {
+        "en": "Then sit by the fire, warden. This part isn't for the ledger.",
+        "id": "Kalau begitu duduklah di dekat api, warden. Bagian ini bukan untuk buku besar."
+      },
+      "takeItems": [
+        "quest_true_seals"
+      ],
+      "setFlags": [
+        "act3.seals_delivered"
+      ]
+    }
+  ]
+}

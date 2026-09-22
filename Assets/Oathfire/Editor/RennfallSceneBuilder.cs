@@ -118,6 +118,14 @@ namespace Oathfire.EditorTools
             // The true ledger out of the Tollbank is hers to open on the lamp — and to answer for.
             MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "maren_ledger", "act3.ledger_taken",
                 "act3.ledger_closed", "quest_true_ledger");
+            // And its last page is a signature — "for the Keep that counts." She marks the breach road
+            // north of the Tollbank onto the map: the mint-fortress the toll road was built to guard.
+            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "maren_tallykeep", "act3.ledger_closed",
+                "act3.tallykeep_marked");
+            // The chapter's close: the true seals, weighed on her table, end the wash. The last choice
+            // carries the story into the ending cinematic.
+            MapScene.PrependConversation(GameObject.Find("Inspector Maren"), "maren_seals", "act3.seals_taken",
+                "act3.seals_delivered", "quest_true_seals");
             // Once the village has survived a night, Winna's flour barrel runs low: the mill's
             // cart hasn't come down the north lane, and her asking puts the knoll on the map.
             MapScene.PrependConversation(GameObject.Find("Old Winna"), "windrest_writ", "act1.night1_survived",

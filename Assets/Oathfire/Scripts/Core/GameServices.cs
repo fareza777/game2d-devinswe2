@@ -15,6 +15,7 @@ namespace Oathfire.Core
         public static Save.SaveService Save { get; private set; }
         public static SceneFlow Flow { get; private set; }
         public static Settings Settings { get; private set; }
+        public static Ads.AdsService Ads { get; private set; }
 
         public static void EnsureCreated()
         {
@@ -36,6 +37,9 @@ namespace Oathfire.Core
 
             Save = new Save.SaveService();
             Flow = root.AddComponent<SceneFlow>();
+
+            Ads = root.AddComponent<Ads.AdsService>();
+            Ads.Initialize();
         }
     }
 }

@@ -52,6 +52,16 @@ namespace Oathfire.EditorTools
             BuildSurvivors(map, at);
             BuildSearchSpots(map, at);
             MapScene.BuildExit(map.At(at.roadOut), "TradeRoad", "prompt.travel.tollbankOut", "");
+            // The breach road north: only once Maren has read the ledger's last page and named
+            // the mint the walls were built to hide.
+            if (at.roadOutN != null)
+            {
+                var mintRoad = new GameObject("Mint road");
+                mintRoad.transform.position = map.At(at.roadOutN);
+                GameObject mintExit = MapScene.BuildExit(map.At(at.roadOutN), "Tallykeep", "prompt.travel.tallykeep", "act3.found_tallykeep");
+                mintExit.transform.SetParent(mintRoad.transform, true);
+                MapScene.Gate(mintRoad, "act3.tallykeep_open");
+            }
 
             MapScene.SetUpUi(includeContractBoard: false);
             new GameObject("PlayerState", typeof(PlayerState));

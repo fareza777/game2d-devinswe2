@@ -2332,6 +2332,211 @@
         ],
         "reputation": 8
       }
+    },
+    {
+      "id": "q_tallykeep",
+      "act": "act3",
+      "mainQuest": true,
+      "unlockFlag": "act3.ledger_closed",
+      "giver": "",
+      "giverScene": "",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act3.tallykeep_marked",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act3.tally_s1"
+        },
+        {
+          "id": "s2",
+          "objectives": [
+            {
+              "kind": 1,
+              "key": "kills.tally",
+              "amount": 8,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act3.tally_s2"
+        },
+        {
+          "id": "s3",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act3.hane_down",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act3.tally_s3"
+        },
+        {
+          "id": "s4",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_true_seals",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act3.tally_s4"
+        },
+        {
+          "id": "s5",
+          "objectives": [
+            {
+              "kind": 0,
+              "key": "act3.seals_delivered",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "act3.tallykeep_done"
+        }
+      ],
+      "reward": {
+        "experience": 1500,
+        "coin": 160,
+        "items": [],
+        "faction": "ash",
+        "reputation": 25
+      }
+    },
+    {
+      "id": "sq_tally_tallies",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "giver": "speaker.soll",
+      "giverScene": "Tallykeep",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_mint_tally",
+              "amount": 3,
+              "optional": false
+            },
+            {
+              "kind": 2,
+              "key": "quest_die_rack",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.tally_tallies.done"
+        }
+      ],
+      "reward": {
+        "coin": 40,
+        "experience": 300,
+        "faction": "league",
+        "items": [
+          "trinket_coin_scales"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tally_sealboxes",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "giver": "speaker.nance",
+      "giverScene": "Tallykeep",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_sealbox",
+              "amount": 4,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.tally_sealboxes.done"
+        }
+      ],
+      "reward": {
+        "coin": 45,
+        "experience": 320,
+        "faction": "league",
+        "items": [
+          "helm_mintguard"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tally_pages",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "giver": "speaker.dory",
+      "giverScene": "Tallykeep",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_mint_page",
+              "amount": 3,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.tally_pages.done"
+        }
+      ],
+      "reward": {
+        "coin": 38,
+        "experience": 290,
+        "faction": "league",
+        "items": [
+          "ring_assay"
+        ],
+        "reputation": 8
+      }
+    },
+    {
+      "id": "sq_tally_bell",
+      "act": "act3",
+      "mainQuest": false,
+      "unlockFlag": "act3.hane_down",
+      "giver": "speaker.kit",
+      "giverScene": "Tallykeep",
+      "stages": [
+        {
+          "id": "s1",
+          "objectives": [
+            {
+              "kind": 2,
+              "key": "quest_gate_bell",
+              "amount": 1,
+              "optional": false
+            }
+          ],
+          "setsFlag": "sq.tally_bell.done"
+        }
+      ],
+      "reward": {
+        "coin": 42,
+        "experience": 310,
+        "faction": "league",
+        "items": [],
+        "reputation": 10
+      }
     }
   ]
 }

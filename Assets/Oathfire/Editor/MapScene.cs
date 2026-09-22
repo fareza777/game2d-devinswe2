@@ -45,7 +45,7 @@ namespace Oathfire.EditorTools
         [System.Serializable]
         public class MapAnchors
         {
-            public CellRef hearth, player, board, brann, maren, roadOut, trail, trail2, trail3, trail4, trail5, trail6, search;
+            public CellRef hearth, player, board, brann, maren, roadOut, roadOutN, trail, trail2, trail3, trail4, trail5, trail6, search;
             public CellRef[] plots, timber, stone, arrivals, villagers;
         }
 
@@ -421,6 +421,7 @@ namespace Oathfire.EditorTools
 
             new GameObject("QuestCompass", typeof(QuestCompass));
             new GameObject("KillRewards", typeof(Progress.KillRewards));
+            new GameObject("EndingDirector", typeof(World.EndingDirector));
 
             var hitGo = new GameObject("HitFeedback", typeof(HitFeedback));
             var hit = new SerializedObject(hitGo.GetComponent<HitFeedback>());

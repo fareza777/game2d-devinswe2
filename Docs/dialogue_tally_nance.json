@@ -1,0 +1,23 @@
+{
+  "id": "tally_nance",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "nance",
+      "text": {
+        "en": "You walked through the wash's court and lived — then the Coinmaster's truly done. Nance. I sealed the coin in this mint for nineteen years, and the last honest strike went into boxes before the dies turned false.",
+        "id": "Kau berjalan menembus pelataran pasukan cuci dan hidup — berarti Master Koin benar-benar sudah tumbang. Nance. Aku menyegel koin di percetakan ini sembilan belas tahun, dan cetakan jujur terakhir masuk ke peti-peti sebelum die-nya berubah palsu."
+      },
+      "next": "n2"
+    },
+    {
+      "id": "n2",
+      "speaker": "nance",
+      "text": {
+        "en": "Four seal-boxes — proof the mint once minted true — are still scattered where the crew never bothered to look: the bailey's tents, the court's edge. Bring them and I'll have something honest to line the new ledger with.",
+        "id": "Empat peti segel — bukti percetakan ini pernah mencetak benar — masih tersebar di tempat yang tak pernah diperiksa pasukan: tenda-tenda halaman, tepi pelataran. Bawakan dan akan ada sesuatu yang jujur untuk melapisi buku besar baru."
+      }
+    }
+  ]
+}

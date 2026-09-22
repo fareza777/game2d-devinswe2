@@ -1,0 +1,185 @@
+{
+  "id": "ending",
+  "musicClip": "opening_theme",
+  "nextScene": "Title",
+  "panels": [
+    {
+      "id": "e1_scales",
+      "image": "e1_scales",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e1_scales.1",
+          "voiceClip": "e1_scales_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e1_scales.2",
+          "voiceClip": "e1_scales_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "e2_the_keep",
+      "image": "e2_the_keep",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e2_the_keep.1",
+          "voiceClip": "e2_the_keep_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e2_the_keep.2",
+          "voiceClip": "e2_the_keep_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "e3_road_back",
+      "image": "e3_road_back",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e3_road_back.1",
+          "voiceClip": "e3_road_back_1_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "e4_hearth",
+      "image": "e4_hearth",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e4_hearth.1",
+          "voiceClip": "e4_hearth_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e4_hearth.2",
+          "voiceClip": "e4_hearth_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.5,
+          "y": 0.42,
+          "radius": 0.5,
+          "intensity": 1.0
+        }
+      ],
+      "watchers": [],
+      "emberParticles": true
+    },
+    {
+      "id": "e5_names",
+      "image": "e5_names",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e5_names.1",
+          "voiceClip": "e5_names_1_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.28,
+          "y": 0.4,
+          "radius": 0.22,
+          "intensity": 0.7
+        }
+      ],
+      "watchers": [],
+      "emberParticles": false
+    },
+    {
+      "id": "e6_crown_flame",
+      "image": "e6_crown_flame",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e6_crown_flame.1",
+          "voiceClip": "e6_crown_flame_1_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [
+        {
+          "x": 0.52,
+          "y": 0.45,
+          "radius": 0.16,
+          "intensity": 0.85
+        }
+      ],
+      "watchers": [],
+      "emberParticles": true
+    },
+    {
+      "id": "e7_dawn",
+      "image": "e7_dawn",
+      "lines": [
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e7_dawn.1",
+          "voiceClip": "e7_dawn_1_brann",
+          "hold": 0.7
+        },
+        {
+          "speaker": "brann",
+          "textKey": "cine.ending.e7_dawn.2",
+          "voiceClip": "e7_dawn_2_brann",
+          "hold": 0.7
+        }
+      ],
+      "zoomFrom": 1.04,
+      "zoomTo": 1.13,
+      "panFromY": 0.0,
+      "panToY": 0.03,
+      "glows": [],
+      "watchers": [],
+      "emberParticles": false
+    }
+  ]
+}

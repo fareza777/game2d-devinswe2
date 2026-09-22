@@ -14,8 +14,12 @@ from pathlib import Path
 from recraft_generate import CODEX_PALETTE, generate
 
 PROJECT = Path(__file__).resolve().parent.parent
-SCRIPT = PROJECT / "Docs" / "opening_cinematic.json"
-OUT_DIR = PROJECT / "Assets" / "Oathfire" / "Art" / "Cinematic" / "Opening"
+_script_arg = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--script" and i + 1 < len(sys.argv)),
+                   "Docs/opening_cinematic.json")
+_out_arg = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--out" and i + 1 < len(sys.argv)),
+                "Assets/Oathfire/Art/Cinematic/Opening")
+SCRIPT = PROJECT / _script_arg
+OUT_DIR = PROJECT / _out_arg
 PANEL_SIZE = "1024x1820"
 
 # Ink black, bone paper, moss, deep dusk teal: no warm colour for the model to spread around.
@@ -34,7 +38,9 @@ def job(panel: dict, style: str) -> str:
 
 def main() -> None:
     data = json.loads(SCRIPT.read_text(encoding="utf-8"))
-    only = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
+    only = [arg for i, arg in enumerate(sys.argv[1:])
+            if not arg.startswith("--")
+            and not (i > 0 and sys.argv[i] in ("--script", "--out"))]
     panels = [p for p in data["panels"] if not only or p["id"] in only]
     with ThreadPoolExecutor(max_workers=4) as pool:
         for result in pool.map(lambda p: job(p, data["artStyle"]), panels):

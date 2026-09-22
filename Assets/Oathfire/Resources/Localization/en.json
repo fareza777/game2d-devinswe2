@@ -41,8 +41,56 @@
       "value": "Halvard the Cutter"
     },
     {
+      "key": "boss.hane",
+      "value": "Coinmaster Hane"
+    },
+    {
       "key": "boss.rook",
       "value": "Rook Varr"
+    },
+    {
+      "key": "cine.ending.e1_scales.1",
+      "value": "They'll tell it wrong in the charter house. They always do — the ones who never left their chairs. So I'll tell it the way the valley tells it, and you can hold whichever weighs more."
+    },
+    {
+      "key": "cine.ending.e1_scales.2",
+      "value": "It ends, as all our troubles did, with a counting. Seven seals on a woman's table, and every lie the wash ever weighed collapsing under them like rotten floorboards."
+    },
+    {
+      "key": "cine.ending.e2_the_keep.1",
+      "value": "The Tallykeep stood empty before the sun went down on it — the Coinmaster weighed, and found wanting, on his own scales. Forty-one years of honest counting, spent on a lie in one winter."
+    },
+    {
+      "key": "cine.ending.e2_the_keep.2",
+      "value": "They say he went down still arguing weights. That's a mint man for you — even dying was an account he meant to settle fair."
+    },
+    {
+      "key": "cine.ending.e3_road_back.1",
+      "value": "And the warden walked the road back the same way the warden always walks — alone, and a little slower than the road deserves. Nobody cheers the end of a washing, you see. Coin doesn't cheer. It just spends honest again."
+    },
+    {
+      "key": "cine.ending.e4_hearth.1",
+      "value": "But in Rennfall the hearth still burns, and it burns brighter than it did, because everyone now knows what it costs to keep lit. I tend it still. I dig the graves too — but fewer of them, this year."
+    },
+    {
+      "key": "cine.ending.e4_hearth.2",
+      "value": "Winna still feeds the whole square. Maren still counts what other people owe. The dead stay dead, the living stay stubborn. A village, warden. It outlives kings because it doesn't ask their leave."
+    },
+    {
+      "key": "cine.ending.e5_names.1",
+      "value": "I keep a book of who counted. Not the coin kind of counting — the other kind. The ones who stood on walls when walls needed standing. There are more names in it this year than last, and I write them all the same size."
+    },
+    {
+      "key": "cine.ending.e6_crown_flame.1",
+      "value": "The crown is still broken. Nobody's come to fix it, and I don't know that anyone should. But the oath it was sworn over — that turned out to be made of sterner stuff than the crown ever was."
+    },
+    {
+      "key": "cine.ending.e7_dawn.1",
+      "value": "So ends the first part. The valley's coin is its own again, the mint counts honest, and the wash's ledgers are ash in the same hearth that keeps us warm. But a warden's road doesn't end at the last toll — it just goes quiet for a while."
+    },
+    {
+      "key": "cine.ending.e7_dawn.2",
+      "value": "Rest, warden. Eat what Winna cooks. When the road wakes again, it will want walking — and it always wants walking in the direction nobody else will go."
     },
     {
       "key": "cine.opening.p1_valley.1",
@@ -263,6 +311,22 @@
     {
       "key": "contract.vigil_unhurt.title",
       "value": "Not a Scratch"
+    },
+    {
+      "key": "defeat.benefactor",
+      "value": "The Benefactor Watches"
+    },
+    {
+      "key": "defeat.offer",
+      "value": "A short tale for a kept purse — or wake and lose {0} coin"
+    },
+    {
+      "key": "defeat.wake",
+      "value": "Wake and pay"
+    },
+    {
+      "key": "defeat.watch",
+      "value": "Watch the tale"
     },
     {
       "key": "dlg.after_first_night.brann_1",
@@ -1385,6 +1449,38 @@
       "value": "The last plate the Line struck — the Oathplate — sat in the toll fort's stores until the crew fenced it out. I had it brought here when it surfaced. Take it. The crown's gone, but the oath it was sworn to keeps a wearer standing."
     },
     {
+      "key": "dlg.maren_seals.m1",
+      "value": "Set them on the table. Slow. ...Seven seals, struck honest, still warm with the mint's own iron. Warden — do you know what you carried out of that keep? Proof that the valley's word still weighs what it says it weighs."
+    },
+    {
+      "key": "dlg.maren_seals.m2",
+      "value": "The wash dies with these. Every false slip, every weighed lie — the charter house will read them against the true seals and burn the difference. The League's hands are cut. Its coin is ours again. What you did at that mint cannot be bought back, and the men who sold it know it."
+    },
+    {
+      "key": "dlg.maren_seals.m3",
+      "value": "Rest now. When the ash settles, the valley will want its story told — and stories, like coin, are only worth the hand that struck them. Yours struck true."
+    },
+    {
+      "key": "dlg.maren_seals.m3.c1",
+      "value": "(Hear how the valley remembers it)"
+    },
+    {
+      "key": "dlg.maren_seals.m4",
+      "value": "Then sit by the fire, warden. This part isn't for the ledger."
+    },
+    {
+      "key": "dlg.maren_tallykeep.m1",
+      "value": "The ledger's last page isn't an account — it's a signature. One line, struck fresh while the crew still thought they'd die honest: 'for the Keep that counts.' Warden, the toll fort was never the prize. It was the lock on the road that goes north."
+    },
+    {
+      "key": "dlg.maren_tallykeep.m2",
+      "value": "The Tallykeep. The League's mint-fortress — where every seal that ever meant anything in this valley was struck, counted, and weighed honest. Halvard cut hands for false slips. Whoever holds the Keep isn't passing bad coin. They're minting it."
+    },
+    {
+      "key": "dlg.maren_tallykeep.m3",
+      "value": "The breach in the toll fort's north wall opens the old mint road — six winters abandoned, marked now on your map. What waits at the end of it kept books longer than kings. Go carefully, warden. Mints do not fall; they are weighed."
+    },
+    {
       "key": "dlg.merchant_sabel.leave",
       "value": "Then I will be here until the road closes. After that, ask the Warden where I went."
     },
@@ -1699,6 +1795,78 @@
     {
       "key": "dlg.stamp_wicke.w3b",
       "value": "Because a boy who carries blanks eats. And because nobody asks a runner what the runners hear — which is everything, and none of it mine to keep."
+    },
+    {
+      "key": "dlg.tally_dory.d1",
+      "value": "Mind the furnace, it still draws. Dory — I ran the press arms for twelve years and the yard furnace every night after the dies went false. Fed it what they told me to feed it."
+    },
+    {
+      "key": "dlg.tally_dory.d2",
+      "value": "But paper fights back — three assay pages it never quite burned still blow around the court when the wind comes down off the walls. They're the last pages that read true. Fetch them before the rain takes what the fire wouldn't."
+    },
+    {
+      "key": "dlg.tally_hane.h1",
+      "value": "Stop there, warden. You stand on the floor where the valley's measure was struck — tread it like it matters, because it did. I am the mint's weigher. Forty-one years I said what a coin was worth, and every hand in the valley took my word over a king's."
+    },
+    {
+      "key": "dlg.tally_hane.h2",
+      "value": "When the crown fell, the League wrote this valley off at a stroke — 'unprofitable to hold.' I kept the mint honest another six winters while the counters in Greymarch forgot our name. So when the wash came with coin for the dies, I weighed it. They weigh the same as honest coin, warden. That is the whole argument."
+    },
+    {
+      "key": "dlg.tally_hane.h3",
+      "value": "You've cut my watches, climbed my stair, and still the scales read the same: a dead crown's keeper against the only honest weight left in the valley. Come, then. Let the press decide which of us is the false coin."
+    },
+    {
+      "key": "dlg.tally_hane.h3.c1",
+      "value": "You weighed the valley's suffering and sold the dies anyway."
+    },
+    {
+      "key": "dlg.tally_hane.h3.c2",
+      "value": "The dies. Hand them over, and the Keep answers for itself."
+    },
+    {
+      "key": "dlg.tally_hane.h3.c3",
+      "value": "The crown's dead, Hane. The oath it fed isn't. Stand down."
+    },
+    {
+      "key": "dlg.tally_hane.h4a",
+      "value": "Suffering doesn't weigh, boy. That's the cruelty of it. Only coin does — and coin was the only mercy still moving."
+    },
+    {
+      "key": "dlg.tally_hane.h4b",
+      "value": "The dies are the Keep, warden. You might as well ask a river to hand over its water."
+    },
+    {
+      "key": "dlg.tally_hane.h4c",
+      "value": "An oath that outlives its crown is just a debt nobody collects. I've settled mine — in full, in coin. Settle yours."
+    },
+    {
+      "key": "dlg.tally_kit.k1",
+      "value": "You're the one who did the Coinmaster! Everyone heard the press stop — it's been running wrong for two years, and then it just... stopped. I'm Kit. I rang the gate bell for the counts since I was seven."
+    },
+    {
+      "key": "dlg.tally_kit.k2",
+      "value": "The washers took the bell down — said nobody needed to hear the tallies change anymore. It's still hanging in the gatehouse, off its rope, and the men who took it don't sleep far. Bring it back? It isn't the Tallykeep until the count can be heard again."
+    },
+    {
+      "key": "dlg.tally_nance.n1",
+      "value": "You walked through the wash's court and lived — then the Coinmaster's truly done. Nance. I sealed the coin in this mint for nineteen years, and the last honest strike went into boxes before the dies turned false."
+    },
+    {
+      "key": "dlg.tally_nance.n2",
+      "value": "Four seal-boxes — proof the mint once minted true — are still scattered where the crew never bothered to look: the bailey's tents, the court's edge. Bring them and I'll have something honest to line the new ledger with."
+    },
+    {
+      "key": "dlg.tally_porter.p1",
+      "value": "Weighed loads in the bailey twenty years, warden. The crew paid in clipped coin and counted us like freight. Whatever the Coinmaster owed, it's off our backs now."
+    },
+    {
+      "key": "dlg.tally_soll.s1",
+      "value": "Eyes down by the desks, warden — they strip anyone they think can still count. I'm Soll. Kept this mint's tally forty years: every ounce in, every ounce out, cut in wood so no hand could falsify it."
+    },
+    {
+      "key": "dlg.tally_soll.s2",
+      "value": "When the wash bought the dies, the clerks burned the paper books — but the true count I hid in plain sight, on the counting desks, cut into sticks like they always were. Three of them still stand. Bring them to me and the mint's real ledger outlives the fire."
     },
     {
       "key": "dlg.toll_annet.a1",
@@ -2127,6 +2295,30 @@
     {
       "key": "event.surveyors.banner",
       "value": "Two men with measuring chains are walking your boundary."
+    },
+    {
+      "key": "event.tally.bailey",
+      "value": "The bailey watch closes around the camp."
+    },
+    {
+      "key": "event.tally.bell",
+      "value": "The bell's takers don't sleep far."
+    },
+    {
+      "key": "event.tally.court",
+      "value": "The court watch stands over the dies."
+    },
+    {
+      "key": "event.tally.dierack",
+      "value": "The die-rack's keepers still draw pay."
+    },
+    {
+      "key": "event.tally.gate",
+      "value": "The mint's gate watch holds the causeway."
+    },
+    {
+      "key": "event.tally.seals",
+      "value": "The last watch stands over the true seals."
     },
     {
       "key": "event.toll.banner",
@@ -2725,6 +2917,14 @@
       "value": "Soot Hood"
     },
     {
+      "key": "item.helm_mintguard.desc",
+      "value": "The kettle helm of the men who watched the dies — striped, dented, and still loyal to a colour nobody wears anymore."
+    },
+    {
+      "key": "item.helm_mintguard.name",
+      "value": "Mintguard Helm"
+    },
+    {
       "key": "item.helm_sallet.desc",
       "value": "The dent is from a mace at the palace. The owner survived. Barely."
     },
@@ -2965,6 +3165,22 @@
       "value": "Warden Crane's Journal"
     },
     {
+      "key": "item.quest_die_rack.desc",
+      "value": "A die from the rack"
+    },
+    {
+      "key": "item.quest_die_rack.name",
+      "value": "A die from the rack"
+    },
+    {
+      "key": "item.quest_gate_bell.desc",
+      "value": "The gate's tally bell"
+    },
+    {
+      "key": "item.quest_gate_bell.name",
+      "value": "The gate's tally bell"
+    },
+    {
       "key": "item.quest_harrow_ledger.desc",
       "value": "Boots, arrows and salt pork, issued to men who are officially bandits."
     },
@@ -3019,6 +3235,22 @@
     {
       "key": "item.quest_mill_tally.name",
       "value": "The Mill's Tally-Stick"
+    },
+    {
+      "key": "item.quest_mint_page.desc",
+      "value": "An assay page"
+    },
+    {
+      "key": "item.quest_mint_page.name",
+      "value": "An assay page"
+    },
+    {
+      "key": "item.quest_mint_tally.desc",
+      "value": "A mint tally-stick"
+    },
+    {
+      "key": "item.quest_mint_tally.name",
+      "value": "A mint tally-stick"
     },
     {
       "key": "item.quest_moot_writ.desc",
@@ -3099,6 +3331,14 @@
     {
       "key": "item.quest_salt_tally.name",
       "value": "Dropped Tally-Stick"
+    },
+    {
+      "key": "item.quest_sealbox.desc",
+      "value": "A seal-box"
+    },
+    {
+      "key": "item.quest_sealbox.name",
+      "value": "A seal-box"
     },
     {
       "key": "item.quest_stamp_blank.desc",
@@ -3197,6 +3437,14 @@
       "value": "The True Ledger"
     },
     {
+      "key": "item.quest_true_seals.desc",
+      "value": "The True Seals"
+    },
+    {
+      "key": "item.quest_true_seals.name",
+      "value": "The True Seals"
+    },
+    {
       "key": "item.quest_wagon_pin.desc",
       "value": "Wagon Pin"
     },
@@ -3235,6 +3483,14 @@
     {
       "key": "item.relic_root_crown_shard.name",
       "value": "Shard of the Root Crown"
+    },
+    {
+      "key": "item.ring_assay.desc",
+      "value": "Cut true on every finger it touched — the mint's old measure, and the proof a weight could lie honestly."
+    },
+    {
+      "key": "item.ring_assay.name",
+      "value": "The Assayer's Ring"
     },
     {
       "key": "item.ring_copper.desc",
@@ -3413,6 +3669,14 @@
       "value": "Marshlight Blade"
     },
     {
+      "key": "item.sword_sealbreaker.desc",
+      "value": "The mint's own last minting — a greatsword struck for the warden who was meant to come, quenched in assay brine and never issued. The blade that ends the wash."
+    },
+    {
+      "key": "item.sword_sealbreaker.name",
+      "value": "Sealbreaker"
+    },
+    {
       "key": "item.sword_warden_oath.desc",
       "value": "Crane's own sword, left in the cellar with the point driven into the floor. He never came back for it."
     },
@@ -3451,6 +3715,14 @@
     {
       "key": "item.trinket_ashcharm.name",
       "value": "Ash Charm"
+    },
+    {
+      "key": "item.trinket_coin_scales.desc",
+      "value": "A tallyman's folding scales — small enough to hide, honest enough to matter."
+    },
+    {
+      "key": "item.trinket_coin_scales.name",
+      "value": "Pocket Scales"
     },
     {
       "key": "item.trinket_crane_seal.desc",
@@ -3631,6 +3903,10 @@
     {
       "key": "menu.back",
       "value": "Back"
+    },
+    {
+      "key": "menu.benefactor",
+      "value": "The Benefactor"
     },
     {
       "key": "menu.continue",
@@ -3969,6 +4245,14 @@
       "value": "Walk the spur back down to the pit"
     },
     {
+      "key": "prompt.travel.tallykeep",
+      "value": "Take the breach road to the Tallykeep"
+    },
+    {
+      "key": "prompt.travel.tallykeepOut",
+      "value": "Walk the mint road back to the Tollbank"
+    },
+    {
       "key": "prompt.travel.tollbank",
       "value": "Take the spur north to the Tollbank"
     },
@@ -4195,6 +4479,34 @@
     {
       "key": "quest.q_summons.title",
       "value": "Summoned to Greymarch"
+    },
+    {
+      "key": "quest.q_tallykeep.s1",
+      "value": "Ask Maren what the last page names"
+    },
+    {
+      "key": "quest.q_tallykeep.s2",
+      "value": "Break the mint's watches on the Tallykeep"
+    },
+    {
+      "key": "quest.q_tallykeep.s3",
+      "value": "Answer Coinmaster Hane on the press dais"
+    },
+    {
+      "key": "quest.q_tallykeep.s4",
+      "value": "Take the true seals from the vault dais"
+    },
+    {
+      "key": "quest.q_tallykeep.s5",
+      "value": "Bring the seals to Inspector Maren in Rennfall"
+    },
+    {
+      "key": "quest.q_tallykeep.summary",
+      "value": "The true ledger's last page names it: the Tallykeep, the mint-fortress the toll road was built to guard, where the valley's seal is struck honest no more. Maren marks the breach road north. Break the mint's watches, face Coinmaster Hane on the press dais, and take the true seals — the wash ends there."
+    },
+    {
+      "key": "quest.q_tallykeep.title",
+      "value": "The Mint the Walls Were Built For"
     },
     {
       "key": "quest.q_tollbank.s1",
@@ -4697,6 +5009,54 @@
       "value": "Sixty Years of Names"
     },
     {
+      "key": "quest.sq_tally_bell.s1",
+      "value": "Take the tally bell back from the gatehouse"
+    },
+    {
+      "key": "quest.sq_tally_bell.summary",
+      "value": "Boy Kit rang the gate bell for every count since he was seven — the washers took it down so nobody would hear the tallies change. It still hangs in the gatehouse, and it's guarded."
+    },
+    {
+      "key": "quest.sq_tally_bell.title",
+      "value": "The Bell That Counted"
+    },
+    {
+      "key": "quest.sq_tally_pages.s1",
+      "value": "Gather the three assay pages on the mint court"
+    },
+    {
+      "key": "quest.sq_tally_pages.summary",
+      "value": "Presshand Dory fed the yard furnace every night — three assay pages it never quite burned are still blowing around the court."
+    },
+    {
+      "key": "quest.sq_tally_pages.title",
+      "value": "What the Furnace Missed"
+    },
+    {
+      "key": "quest.sq_tally_sealboxes.s1",
+      "value": "Recover four seal-boxes from the bailey and the court"
+    },
+    {
+      "key": "quest.sq_tally_sealboxes.summary",
+      "value": "Clerk Nance sealed the last honest coin in boxes before the dies went false — four seal-boxes are still scattered where the crew never reached."
+    },
+    {
+      "key": "quest.sq_tally_sealboxes.title",
+      "value": "Boxes of the Honest Seal"
+    },
+    {
+      "key": "quest.sq_tally_tallies.s1",
+      "value": "Gather the three mint tallies and a die from the rack"
+    },
+    {
+      "key": "quest.sq_tally_tallies.summary",
+      "value": "Keeper Soll hid the real tally when the wash began — three sticks on the counting desks still tell it, and the die-rack beside them still holds a die the crew paid for. Bring them and the mint's real ledger outlives the fire."
+    },
+    {
+      "key": "quest.sq_tally_tallies.title",
+      "value": "The Keeper's Count"
+    },
+    {
       "key": "quest.sq_tallybook.s1",
       "value": "Find Roane's tally-book in the keep's corridor"
     },
@@ -5065,6 +5425,10 @@
       "value": "Dess the Porter"
     },
     {
+      "key": "speaker.dory",
+      "value": "Presshand Dory"
+    },
+    {
       "key": "speaker.drover",
       "value": "A Drover"
     },
@@ -5095,6 +5459,10 @@
     {
       "key": "speaker.halvard",
       "value": "Halvard the Cutter"
+    },
+    {
+      "key": "speaker.hane",
+      "value": "Coinmaster Hane"
     },
     {
       "key": "speaker.hask",
@@ -5137,6 +5505,10 @@
       "value": "Ket of the Floor"
     },
     {
+      "key": "speaker.kit",
+      "value": "Boy Kit"
+    },
+    {
       "key": "speaker.lene",
       "value": "Gate-warden Lene"
     },
@@ -5151,6 +5523,10 @@
     {
       "key": "speaker.mirren",
       "value": "Old Mirren"
+    },
+    {
+      "key": "speaker.nance",
+      "value": "Clerk Nance"
     },
     {
       "key": "speaker.nell",
@@ -5225,12 +5601,20 @@
       "value": "Seal-warden Simm"
     },
     {
+      "key": "speaker.soll",
+      "value": "Keeper Soll"
+    },
+    {
       "key": "speaker.straggler",
       "value": "Line Straggler"
     },
     {
       "key": "speaker.surveyor",
       "value": "Surveyor Kestrel"
+    },
+    {
+      "key": "speaker.tally_porter",
+      "value": "A mint porter"
     },
     {
       "key": "speaker.tam",
@@ -5305,6 +5689,18 @@
       "value": "The dead do not sleep in untended ground"
     },
     {
+      "key": "toast.benefactor",
+      "value": "The Benefactor's purse holds {0} coin for you"
+    },
+    {
+      "key": "toast.benefactorFailed",
+      "value": "No tale could be shown"
+    },
+    {
+      "key": "toast.benefactorLater",
+      "value": "No benefactor is watching yet"
+    },
+    {
       "key": "toast.bossDown",
       "value": "Their captain has fallen"
     },
@@ -5359,6 +5755,10 @@
     {
       "key": "toast.halvardDown",
       "value": "Halvard the Cutter has fallen"
+    },
+    {
+      "key": "toast.haneDown",
+      "value": "Coinmaster Hane has fallen"
     },
     {
       "key": "toast.hearthNeeds",
@@ -5439,6 +5839,18 @@
     {
       "key": "toast.stampClear",
       "value": "The stamping floor stands clear"
+    },
+    {
+      "key": "toast.tallyBailey",
+      "value": "The bailey stands clear"
+    },
+    {
+      "key": "toast.tallyCourt",
+      "value": "The mint court is clear"
+    },
+    {
+      "key": "toast.tallyGate",
+      "value": "The causeway is taken"
     },
     {
       "key": "toast.tollBreach",

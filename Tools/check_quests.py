@@ -32,6 +32,7 @@ BUILDER_FOR_SCENE = {
     "Stampworks": "StampworksSceneBuilder.cs",
     "Tollbank": "TollbankSceneBuilder.cs",
     "DroversRest": "DroversSceneBuilder.cs",
+    "Tallykeep": "TallykeepSceneBuilder.cs",
 }
 
 

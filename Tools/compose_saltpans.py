@@ -11,7 +11,7 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT / "Tools"))
 from tileset_preview import render  # noqa: E402
-from terrain import drop_unknown_tiles, check_tiles, reachable  # noqa: E402
+from terrain import drop_unknown_tiles, check_tiles, reachable, fence_void  # noqa: E402
 
 SIZE_X, SIZE_Y = 34, 26
 DIRT = "Ground A1_E"
@@ -167,6 +167,9 @@ def main() -> None:
     for cell in camp.blocked:
         camp.put("Colliders", cell, "Shadow5_E")
 
+    fenced = fence_void(camp.layers, set(camp.layers.get("Ground", {})) - camp.blocked)
+    print(f"  fenced {fenced} void edges")
+
     payload = {
         "region": [0, SIZE_X, 0, SIZE_Y],
         "plaza": [16, 14],
@@ -183,7 +186,7 @@ def main() -> None:
           f"{len(payload['walkable'])} walkable cells")
 
     pieces = [{"x": c["x"], "y": c["y"], "tile": c["tile"], "order": layer["order"]}
-              for layer in payload["layers"] if layer["name"] != "Colliders" for c in layer["cells"]]
+              for layer in payload["layers"] if not layer["name"].startswith("Colliders") for c in layer["cells"]]
     scratch = Path(sys.argv[1]) if len(sys.argv) > 1 else PROJECT / "Builds"
     render(pieces, scale=0.8).save(scratch / "saltpans_composed.png")
     print("preview written")

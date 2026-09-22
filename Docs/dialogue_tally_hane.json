@@ -1,0 +1,79 @@
+{
+  "id": "tally_hane",
+  "startNode": "h1",
+  "nodes": [
+    {
+      "id": "h1",
+      "speaker": "hane",
+      "text": {
+        "en": "Stop there, warden. You stand on the floor where the valley's measure was struck — tread it like it matters, because it did. I am the mint's weigher. Forty-one years I said what a coin was worth, and every hand in the valley took my word over a king's.",
+        "id": "Berhenti di situ, warden. Kau berdiri di lantai tempat ukuran lembah ini dicetak — injaklah seperti ia berarti, karena memang begitu. Akulah penimbang percetakan. Empat puluh satu tahun aku menentukan nilai sebuah koin, dan tiap tangan di lembah mempercayai kataku melebihi kata raja."
+      },
+      "next": "h2"
+    },
+    {
+      "id": "h2",
+      "speaker": "hane",
+      "text": {
+        "en": "When the crown fell, the League wrote this valley off at a stroke — 'unprofitable to hold.' I kept the mint honest another six winters while the counters in Greymarch forgot our name. So when the wash came with coin for the dies, I weighed it. They weigh the same as honest coin, warden. That is the whole argument.",
+        "id": "Saat mahkota jatuh, Liga mencoret lembah ini dengan satu goresan — 'tidak menguntungkan untuk dijaga.' Aku menjaga percetakan ini jujur enam musim dingin lagi selagi para penghitung di Greymarch melupakan nama kami. Maka saat pasukan cuci datang dengan koin untuk die-die itu, kutimbang. Beratnya sama dengan koin jujur, warden. Itulah seluruh perkaranya."
+      },
+      "next": "h3"
+    },
+    {
+      "id": "h3",
+      "speaker": "hane",
+      "text": {
+        "en": "You've cut my watches, climbed my stair, and still the scales read the same: a dead crown's keeper against the only honest weight left in the valley. Come, then. Let the press decide which of us is the false coin.",
+        "id": "Kau telah menumbangkan jagaanku, menaiki tanggaku, dan timbangan tetap membaca hal yang sama: penjaga mahkota mati melawan satu-satunya timbangan jujur yang tersisa di lembah. Mari. Biarlah pres yang memutuskan siapa di antara kita koin palsunya."
+      },
+      "choices": [
+        {
+          "text": {
+            "en": "You weighed the valley's suffering and sold the dies anyway.",
+            "id": "Kau menimbang penderitaan lembah dan tetap menjual die-nya."
+          },
+          "next": "h4a"
+        },
+        {
+          "text": {
+            "en": "The dies. Hand them over, and the Keep answers for itself.",
+            "id": "Die-nya. Serahkan, dan Benteng ini menjawab untuk dirinya sendiri."
+          },
+          "next": "h4b"
+        },
+        {
+          "text": {
+            "en": "The crown's dead, Hane. The oath it fed isn't. Stand down.",
+            "id": "Mahkota sudah mati, Hane. Sumpah yang memberinya makan tidak. Mundurlah."
+          },
+          "next": "h4c"
+        }
+      ]
+    },
+    {
+      "id": "h4a",
+      "speaker": "hane",
+      "text": {
+        "en": "Suffering doesn't weigh, boy. That's the cruelty of it. Only coin does — and coin was the only mercy still moving.",
+        "id": "Penderitaan tak bisa ditimbang, nak. Itulah kekejamannya. Hanya koin yang bisa — dan koin satu-satunya belas kasih yang masih bergerak."
+      }
+    },
+    {
+      "id": "h4b",
+      "speaker": "hane",
+      "text": {
+        "en": "The dies are the Keep, warden. You might as well ask a river to hand over its water.",
+        "id": "Die-die itu adalah Benteng ini sendiri, warden. Sama saja meminta sungai menyerahkan airnya."
+      }
+    },
+    {
+      "id": "h4c",
+      "speaker": "hane",
+      "text": {
+        "en": "An oath that outlives its crown is just a debt nobody collects. I've settled mine — in full, in coin. Settle yours.",
+        "id": "Sumpah yang hidup lebih lama dari mahkotanya hanyalah utang yang tak ditagih. Milikku sudah kulunasi — penuh, dengan koin. Lunasi milikmu."
+      }
+    }
+  ]
+}

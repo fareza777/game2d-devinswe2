@@ -1,0 +1,23 @@
+{
+  "id": "tally_soll",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "soll",
+      "text": {
+        "en": "Eyes down by the desks, warden — they strip anyone they think can still count. I'm Soll. Kept this mint's tally forty years: every ounce in, every ounce out, cut in wood so no hand could falsify it.",
+        "id": "Mata tetap ke meja, warden — mereka menelanjangi siapa pun yang disangka masih bisa menghitung. Aku Soll. Menjaga hitungan percetakan ini empat puluh tahun: tiap ons masuk, tiap ons keluar, terpahat di kayu agar tak ada tangan yang bisa memalsukannya."
+      },
+      "next": "s2"
+    },
+    {
+      "id": "s2",
+      "speaker": "soll",
+      "text": {
+        "en": "When the wash bought the dies, the clerks burned the paper books — but the true count I hid in plain sight, on the counting desks, cut into sticks like they always were. Three of them still stand. Bring them to me and the mint's real ledger outlives the fire.",
+        "id": "Saat pasukan cuci membeli die, para juru tulis membakar buku — tapi hitungan sejati kusembunyikan di tempat terbuka, di meja hitung, terpahat di tongkat seperti biasa. Tiga masih berdiri. Bawakan padaku dan pembukuan sejati percetakan ini hidup lebih lama dari api."
+      }
+    }
+  ]
+}

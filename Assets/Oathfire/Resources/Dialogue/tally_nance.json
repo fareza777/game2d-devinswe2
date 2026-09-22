@@ -1,0 +1,32 @@
+{
+  "id": "tally_nance",
+  "startNode": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "speaker": "nance",
+      "textKey": "dlg.tally_nance.n1",
+      "voiceClip": "dlg_tally_nance_n1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "n2",
+      "choices": []
+    },
+    {
+      "id": "n2",
+      "speaker": "nance",
+      "textKey": "dlg.tally_nance.n2",
+      "voiceClip": "dlg_tally_nance_n2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 Voices come from the designs in cache/voices/previews.json. Which candidate is used per character is set in
 cache/voices/chosen.json ({"brann": 1, ...}); until the human picks, candidate 1 is used as a placeholder.
 
-Usage: python make_voice_over.py [--force]
+Usage: python make_voice_over.py [--force] [--script Docs/opening_cinematic.json]
 """
 import json
 import sys
@@ -14,7 +14,9 @@ from oathfire_tools.env import require
 
 TOOLS = Path(__file__).resolve().parent
 PROJECT = TOOLS.parent
-SCRIPT = PROJECT / "Docs" / "opening_cinematic.json"
+_script_arg = next((sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--script" and i + 1 < len(sys.argv)),
+                   "Docs/opening_cinematic.json")
+SCRIPT = PROJECT / _script_arg
 VOICE_CACHE = TOOLS / "cache" / "voices"
 OUT_DIR = PROJECT / "Assets" / "Oathfire" / "Resources" / "Voice"
 MODEL = "eleven_multilingual_v2"

@@ -34,7 +34,7 @@ BRIEFS = {
               "to four valleys this month. Warm underneath, but he keeps it behind the procedure.",
     "maren": "An inspector in her forties. Cool, precise, unhurried, used to being obeyed and used to being "
              "disliked for it. A civil servant's voice, not a soldier's, with a hairline crack of doubt in it.",
-    "sabel": "A travelling packman in his fifties. Quick, cheerful, transactional, a trader's patter worn "
+    "sabel": "A smith woman in her forties, heavy forearms and a trader's patter worn "
              "smooth by a thousand repetitions. Friendly without being warm.",
     "refugee": "A woman in her late twenties who has walked four days without sleeping. Exhausted, frightened, "
                "holding herself together by talking steadily. Not hysterical — carefully, dangerously calm.",
@@ -96,8 +96,8 @@ BRIEFS = {
             "the dead pit's bookkeeping like a litany. Mild, murmured, a little lost.",
     "ines": "A tally-clerk, forties, still posting a count nobody reads. Fussy, precise, quietly defiant — "
             "routine is the last thing between her and the empty pit.",
-    "ket": "A squatter living in the pit floor. Sixties, rough, warm once the kettle's on. Speaks like a man "
-           "who chose his walls and doesn't care that they're chalk.",
+    "ket": "A squatter living in the pit floor. Sixties, rough, warm once the kettle's on. Speaks like a woman "
+           "who chose her walls and doesn't care that they're chalk.",
     "rill": "A face-cutter, fifties, the only one who stayed. Hard, even, patient — the voice of a man who "
             "knows a half-cut face will fall on somebody, and counts who.",
     "simm": "The seal-warden, forties, whose whole office is a brass stamp. Pompous in an official way and "
@@ -143,7 +143,7 @@ BRIEFS = {
     "corl": "The Windrest's miller, fifties. Loud enough to be heard over the vanes, comfortable in the "
             "noise. Grounded, plain, faintly proud — the mill turns and so does he.",
     "bryd": "The mill's tally-keeper, forties, notching every stook twice. Exact, quiet, methodical — the "
-            "voice of a man whose arithmetic is the hill's memory.",
+            "voice of a woman whose arithmetic is the hill's memory.",
     "odo": "The League's weigh-count at the canopy, fifties. Procedural, unmoved, sits where the sacks sit. "
            "The voice of a man who chose his post and defends it without raising his voice.",
     "odle": "The mill's carter, forties, walking the lane so the ruts remember wheels. Rough, easy, "
@@ -162,6 +162,19 @@ BRIEFS = {
             "the count is the law and he is the count.",
     "wren": "The Burnpits' kiln-keeper, thirties, standing upwind of everything. Terse, hard, fair — a "
             "woman who'd rather hold the burn than fight poachers, and resents choosing.",
+    "hane": "The mint's weigher, sixties. A man who said what a coin was worth for forty-one years and "
+            "believed the weighing. Precise, heavy, philosophical in the way of someone who has already "
+            "settled his account and is only explaining the arithmetic now.",
+    "soll": "The Tallykeep's tally-keeper, sixties, forty years of ounces cut into wood. Old, careful, "
+            "guarded — a man hiding the true count inside a voice that pretends it's only wood.",
+    "nance": "A seal-clerk of the mint, fifties. Nineteen years sealing honest coin. Precise, brisk, "
+             "relieved in a held-back way — the voice of a woman whose last honest work finally mattered.",
+    "dory": "A press-hand, fifties, ran the mint's press arms and then its furnace. Blunt, tired, practical "
+            "— a workman who fed the fire what he was told and kept the count of it.",
+    "kit": "A boy of the mint, fourteen, who rang the gate bell for the counts since he was seven. Bright, "
+           "quick, earnest — young enough to think a bell is worth the risk, right about it too.",
+    "tally_porter": "A mint porter, fifties, twenty years weighing loads in the bailey. Blunt, low, "
+                    "relieved — the voice of a man the wash counted like freight.",
 }
 
 
@@ -187,10 +200,10 @@ STOCK = {
     "boru": "iP95p4xoKVk53GoZ742B",        # Chris - down-to-earth
     "collum": "JBFqnCBsd6RMkjVDRZzb",      # George - warm storyteller
     "lene": "XrExE9yKIg1WjnnlVkGX",        # Matilda - professional
-    "mirren": "bfGb7JTLUnZebZRiFYyq",      # Adam - deep, engaging
-    "tess": "SAz9YHcvj6GT2YYXdXww",        # River - relaxed, neutral
+    "mirren": "ThT5KcBeYPX3keUQqHPh",      # Dorothy - old storyteller
+    "tess": "hpp4J3VqNfWAUOO0d1Us",        # Bella - bright, warm
     "corl": "JBFqnCBsd6RMkjVDRZzb",        # George - warm storyteller
-    "bryd": "W0T33KO9BEThHKbmurx1",        # Magic Jack - narrator
+    "bryd": "Xb7hH8MSUJpSbSDYk0k2",        # Alice - clear educator
     "odo": "CwhRBWXzGAHq8TQ4Fs17",         # Roger - laid-back
     "odle": "iP95p4xoKVk53GoZ742B",        # Chris - down-to-earth
     "tam": "TX3LPaxmHKxFdv7VOQHJ",         # Liam - energetic
@@ -205,13 +218,19 @@ STOCK = {
     "ossel": "bIHbv24MWmeRgasZH58o",       # Will - relaxed optimist
     "pate": "dRqoXefWJMo2lbk72Ucp",        # Jake - young, british
     "yard_hand": "N2lVS1w4EtoT3dr4eOWO",   # Callum - husky
-    "vall": "FGY2WhTYpPnrIDTdsKH5",        # Laura - sassy
+    "vall": "pFZP5JQG7iQjIQuC4Bku",        # Lily - velvety actress
     "jory": "bIHbv24MWmeRgasZH58o",        # Will - relaxed optimist
     "novak": "dRqoXefWJMo2lbk72Ucp",       # Jake - young, british
     "wicke": "TX3LPaxmHKxFdv7VOQHJ",       # Liam - energetic
-    "sabel": "CwhRBWXzGAHq8TQ4Fs17",       # Roger - laid-back
+    "sabel": "XrExE9yKIg1WjnnlVkGX",       # Matilda - professional
     "surveyor": "onwK4e9ZLuTAKqWW03F9",    # Daniel - steady broadcaster
     "roane": "bIHbv24MWmeRgasZH58o",       # Will - relaxed optimist
+    "hane": "pqHfZKP75CvOlQylNhV4",        # Bill - wise, mature
+    "soll": "JBFqnCBsd6RMkjVDRZzb",        # George - warm storyteller
+    "nance": "pFZP5JQG7iQjIQuC4Bku",       # Lily - velvety actress
+    "dory": "iP95p4xoKVk53GoZ742B",        # Chris - down-to-earth
+    "kit": "dRqoXefWJMo2lbk72Ucp",         # Jake - young, british
+    "tally_porter": "nPczCjzI2devNBz1zQrb",# Brian - deep, resonant
 }
 
 

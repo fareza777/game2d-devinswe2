@@ -17,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from tileset_preview import render  # noqa: E402
 from doors import doors_for, hidden_by_roof, open_interiors, roof_cells  # noqa: E402
 from walkability import clear_phantom_colliders  # noqa: E402
-from terrain import check_tiles, drop_unknown_tiles, reachable  # noqa: E402
+from terrain import check_tiles, drop_unknown_tiles, reachable, fence_void  # noqa: E402
 
 PROJECT = Path(__file__).resolve().parent.parent
 STAMPS = json.loads((PROJECT / "Docs" / "tileset_stamps.json").read_text(encoding="utf-8"))["stamps"]
@@ -390,6 +390,9 @@ def main() -> None:
     for cell in town.blocked:
         town.put("Colliders", cell, "Shadow5_E")
 
+    fenced = fence_void(town.layers, walkable)
+    print(f"  fenced {fenced} void edges")
+
     payload = {
         "region": [0, SIZE, 0, SIZE],
         "plaza": [CENTRE - SQUARE, CENTRE - SQUARE],
@@ -406,7 +409,7 @@ def main() -> None:
           f"{len(buildings)} buildings, {len(houses)} enterable houses, {len(walkable)} walkable cells")
 
     pieces = [{"x": c["x"], "y": c["y"], "tile": c["tile"], "order": layer["order"]}
-              for layer in payload["layers"] if layer["name"] != "Colliders" for c in layer["cells"]]
+              for layer in payload["layers"] if not layer["name"].startswith("Colliders") for c in layer["cells"]]
     scratch = Path(sys.argv[1]) if len(sys.argv) > 1 else PROJECT / "Builds"
     render(pieces, scale=0.5).save(scratch / "rennfall_composed.png")
     print("preview written")

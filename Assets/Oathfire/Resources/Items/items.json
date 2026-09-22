@@ -1506,6 +1506,106 @@
       "value": 0,
       "icon": "LootIcons_66",
       "stackSize": 1
+    },
+    {
+      "id": "quest_true_seals",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_67",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_mint_tally",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_sealbox",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_67",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_mint_page",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_die_rack",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_67",
+      "stackSize": 1
+    },
+    {
+      "id": "quest_gate_bell",
+      "kind": 5,
+      "slot": 0,
+      "rarity": 0,
+      "value": 0,
+      "icon": "LootIcons_66",
+      "stackSize": 1
+    },
+    {
+      "id": "sword_sealbreaker",
+      "kind": 2,
+      "slot": 1,
+      "rarity": 3,
+      "value": 1400,
+      "icon": "LootIcons_87",
+      "damage": 42,
+      "health": 20,
+      "attackSpeed": 0.9,
+      "stackSize": 1
+    },
+    {
+      "id": "ring_assay",
+      "kind": 4,
+      "slot": 10,
+      "rarity": 2,
+      "value": 320,
+      "icon": "gear_ring_copper",
+      "armor": 2,
+      "health": 18,
+      "damage": 4,
+      "stackSize": 1
+    },
+    {
+      "id": "helm_mintguard",
+      "kind": 3,
+      "slot": 4,
+      "rarity": 2,
+      "value": 340,
+      "icon": "gear_helm_steel",
+      "armor": 6,
+      "health": 26,
+      "stackSize": 1
+    },
+    {
+      "id": "trinket_coin_scales",
+      "kind": 4,
+      "slot": 5,
+      "rarity": 1,
+      "value": 140,
+      "icon": "gear_trinket_bone",
+      "damage": 3,
+      "health": 12,
+      "stackSize": 1
     }
   ]
 }

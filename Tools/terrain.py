@@ -193,3 +193,22 @@ def check_tiles(layers: dict[str, dict[tuple[int, int], str]]) -> list[str]:
             elif not (TILES / f"{tile}.asset").exists() and not (ANIMATED / f"{tile}.asset").exists():
                 missing[tile] = 1
     return [f"{tile} x{count}" for tile, count in sorted(missing.items())]
+
+
+def fence_void(layers: dict[str, dict[tuple[int, int], str]], walkable: set[tuple[int, int]]) -> int:
+    """Puts an invisible edge collider on every completely empty cell that touches walkable ground.
+
+    Without it a hero who reaches an unwalled edge steps onto the void and the screen goes black.
+    Anything with content — ground, walls, props, deco — counts as occupied; only true emptiness is fenced.
+    """
+    occupied = {cell for cells in layers.values() for cell in cells}
+    fence: dict[tuple[int, int], str] = {}
+    for x, y in walkable:
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                cell = (x + dx, y + dy)
+                if cell not in occupied and cell not in fence:
+                    fence[cell] = "Shadow5_E"
+    if fence:
+        layers.setdefault("Colliders(edge)", {}).update(fence)
+    return len(fence)

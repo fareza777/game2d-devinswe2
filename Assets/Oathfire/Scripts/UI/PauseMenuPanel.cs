@@ -14,6 +14,8 @@ namespace Oathfire.UI
     /// </summary>
     public class PauseMenuPanel : MonoBehaviour
     {
+        const int BenefactorCoins = 25;
+
         static readonly Color Ink = new Color(0.06f, 0.07f, 0.06f, 0.97f);
         static readonly Color Bone = new Color(0.87f, 0.84f, 0.76f);
         static readonly Color BoneDim = new Color(0.6f, 0.6f, 0.52f);
@@ -111,7 +113,33 @@ namespace Oathfire.UI
             string scene = SceneManager.GetActiveScene().name;
             Core.GameServices.Save.Autosave("pause.title", scene);
             SetOpen(false);
+            Core.GameServices.Ads?.ShowInterstitialIfReady();
             Core.GameServices.Flow.LoadScene(Core.GameBootstrap.TitleScene);
+        }
+
+        /// <summary>A benefactor's purse: the only coins the road gives for nothing but patience.</summary>
+        void AskBenefactor()
+        {
+            Ads.AdsService ads = Core.GameServices.Ads;
+            if (ads == null || !ads.GiftReady)
+            {
+                Toast.Show("toast.benefactorLater");
+                return;
+            }
+            ads.ShowRewarded(ok =>
+            {
+                if (!ok)
+                {
+                    Toast.Show("toast.benefactorFailed");
+                    return;
+                }
+                ads.NoteGiftTaken();
+                Progress.PlayerState state = Progress.PlayerState.Instance;
+                if (state != null)
+                    state.Inventory.coin += BenefactorCoins;
+                Core.GameServices.Audio.PlaySfx("coin", 0.8f, 0f);
+                Toast.ShowText(Core.GameServices.Localization.Format("toast.benefactor", BenefactorCoins));
+            });
         }
 
         static void QuitGame()
@@ -170,6 +198,7 @@ namespace Oathfire.UI
 
             AddButton(mainView, "menu.resume", () => SetOpen(false));
             AddButton(mainView, "menu.save", ShowSlots);
+            AddButton(mainView, "menu.benefactor", AskBenefactor);
             AddButton(mainView, "menu.toTitle", ExitToTitle);
             AddButton(mainView, "menu.quit", QuitGame);
 

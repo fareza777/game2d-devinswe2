@@ -1,0 +1,32 @@
+{
+  "id": "tally_soll",
+  "startNode": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "speaker": "soll",
+      "textKey": "dlg.tally_soll.s1",
+      "voiceClip": "dlg_tally_soll_s1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "s2",
+      "choices": []
+    },
+    {
+      "id": "s2",
+      "speaker": "soll",
+      "textKey": "dlg.tally_soll.s2",
+      "voiceClip": "dlg_tally_soll_s2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

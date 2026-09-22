@@ -1,0 +1,23 @@
+{
+  "id": "tally_kit",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "kit",
+      "text": {
+        "en": "You're the one who did the Coinmaster! Everyone heard the press stop — it's been running wrong for two years, and then it just... stopped. I'm Kit. I rang the gate bell for the counts since I was seven.",
+        "id": "Kaulah yang menumbangkan Master Koin! Semua orang dengar pres berhenti — dua tahun ia berdetak salah, lalu tiba-tiba... berhenti. Aku Kit. Kubunyikan lonceng gerbang untuk tiap hitungan sejak umur tujuh."
+      },
+      "next": "k2"
+    },
+    {
+      "id": "k2",
+      "speaker": "kit",
+      "text": {
+        "en": "The washers took the bell down — said nobody needed to hear the tallies change anymore. It's still hanging in the gatehouse, off its rope, and the men who took it don't sleep far. Bring it back? It isn't the Tallykeep until the count can be heard again.",
+        "id": "Pasukan cuci menurunkan lonceng itu — katanya tak ada yang perlu mendengar hitungan berubah lagi. Ia masih tergantung di menara gerbang, lepas dari talinya, dan orang-orang yang menurunkannya tidur tak jauh. Bawa kembali? Ini bukan Benteng Hitung sampai hitungan bisa terdengar lagi."
+      }
+    }
+  ]
+}

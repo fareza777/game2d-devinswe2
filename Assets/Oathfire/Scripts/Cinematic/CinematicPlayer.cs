@@ -65,7 +65,11 @@ namespace Oathfire.Cinematic
             }
 
             Core.GameServices.Audio.StopVoice();
-            yield return Core.GameServices.Flow.LoadSceneRoutine(string.IsNullOrEmpty(data.nextScene) ? Core.GameBootstrap.TitleScene : data.nextScene);
+            string next = string.IsNullOrEmpty(data.nextScene) ? Core.GameBootstrap.TitleScene : data.nextScene;
+            // A story that ends hands back to the title: the one natural interstitial slot.
+            if (next == Core.GameBootstrap.TitleScene)
+                Core.GameServices.Ads?.ShowInterstitialIfReady();
+            yield return Core.GameServices.Flow.LoadSceneRoutine(next);
         }
 
         IEnumerator PlayPanelRoutine(CinematicPanel panel)

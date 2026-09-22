@@ -18,6 +18,7 @@ PROJECT = TOOLS.parent
 DOCS = PROJECT / "Docs"
 RESOURCES = PROJECT / "Assets" / "Oathfire" / "Resources"
 ART = PROJECT / "Assets" / "Oathfire" / "Art" / "Cinematic" / "Opening"
+ART_ENDING = PROJECT / "Assets" / "Oathfire" / "Art" / "Cinematic" / "Ending"
 SKELETON_SHEET = PROJECT / "Assets" / "SmallScaleInt" / "Fantasy kingdom Tileset" / "Characters" / "Enemy 1" / "Idle.png"
 
 UI_STRINGS = {
@@ -25,6 +26,14 @@ UI_STRINGS = {
     "menu.newGame": ("New Game", "Permainan Baru"),
     "menu.options": ("Options", "Pengaturan"),
     "menu.quit": ("Quit", "Keluar"),
+    "menu.benefactor": ("The Benefactor", "Sang Dermawan"),
+    "defeat.benefactor": ("The Benefactor Watches", "Sang Dermawan Mengawasi"),
+    "defeat.offer": ("A short tale for a kept purse — or wake and lose {0} coin", "Sebuah kisah singkat untuk kantong yang utuh — atau bangun dan kehilangan {0} koin"),
+    "defeat.watch": ("Watch the tale", "Tonton kisahnya"),
+    "defeat.wake": ("Wake and pay", "Bangun dan bayar"),
+    "toast.benefactor": ("The Benefactor's purse holds {0} coin for you", "Kantong Sang Dermawan berisi {0} koin untukmu"),
+    "toast.benefactorLater": ("No benefactor is watching yet", "Belum ada dermawan yang mengawasi"),
+    "toast.benefactorFailed": ("No tale could be shown", "Tak ada kisah yang bisa ditayangkan"),
     "options.title": ("Options", "Pengaturan"),
     "options.language": ("Language", "Bahasa"),
     "options.music": ("Music", "Musik"),
@@ -361,6 +370,25 @@ UI_STRINGS = {
     "toast.tollCourt": ("The court stands clear", "Halaman sudah bersih"),
     "toast.halvardDown": ("Halvard the Cutter has fallen", "Halvard si Pemahat telah tumbang"),
     "toast.droveCorral": ("The corral mouth is clear", "Mulut kandang sudah aman"),
+    "speaker.hane": ("Coinmaster Hane", "Master Koin Hane"),
+    "boss.hane": ("Coinmaster Hane", "Master Koin Hane"),
+    "speaker.soll": ("Keeper Soll", "Penjaga Soll"),
+    "speaker.nance": ("Clerk Nance", "Juru Tulis Nance"),
+    "speaker.dory": ("Presshand Dory", "Tangan Pres Dory"),
+    "speaker.kit": ("Boy Kit", "Kit si Bocah"),
+    "speaker.tally_porter": ("A mint porter", "Kuli percetakan"),
+    "prompt.travel.tallykeep": ("Take the breach road to the Tallykeep", "Naiki jalan celah ke Benteng Hitung"),
+    "prompt.travel.tallykeepOut": ("Walk the mint road back to the Tollbank", "Kembali menyusuri jalan percetakan ke Benteng Tol"),
+    "event.tally.gate": ("The mint's gate watch holds the causeway.", "Jagaan gerbang percetakan menjaga lajur."),
+    "event.tally.bailey": ("The bailey watch closes around the camp.", "Jagaan halaman merapat ke kemah."),
+    "event.tally.court": ("The court watch stands over the dies.", "Jagaan pelataran berdiri di atas die."),
+    "event.tally.seals": ("The last watch stands over the true seals.", "Penjaga terakhir berdiri di atas segel sejati."),
+    "event.tally.dierack": ("The die-rack's keepers still draw pay.", "Penjaga rak die masih menarik gaji."),
+    "event.tally.bell": ("The bell's takers don't sleep far.", "Para penurun lonceng tidur tak jauh."),
+    "toast.tallyGate": ("The causeway is taken", "Lajur sudah direbut"),
+    "toast.tallyBailey": ("The bailey stands clear", "Halaman sudah bersih"),
+    "toast.tallyCourt": ("The mint court is clear", "Pelataran percetakan sudah bersih"),
+    "toast.haneDown": ("Coinmaster Hane has fallen", "Master Koin Hane telah tumbang"),
     "hud.level": ("LV {0}", "LV {0}"),
     "hud.xpGain": ("+{0} XP", "+{0} XP"),
     "hud.levelUp": ("LEVEL {0}", "LEVEL {0}"),
@@ -389,19 +417,27 @@ PANEL_FX = {
     },
 }
 
+# The ending's embers and glows — hearth and last candlelight, matching the opening's language.
+ENDING_PANEL_FX = {
+    "e4_hearth": {"glows": [{"x": 0.5, "y": 0.42, "radius": 0.5, "intensity": 1.0}], "emberParticles": True},
+    "e5_names": {"glows": [{"x": 0.28, "y": 0.40, "radius": 0.22, "intensity": 0.7}]},
+    "e6_crown_flame": {"glows": [{"x": 0.52, "y": 0.45, "radius": 0.16, "intensity": 0.85}], "emberParticles": True},
+}
+
 
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def build_cinematic(data: dict) -> dict[str, tuple[str, str]]:
+def build_cinematic(data: dict, cine_id: str, art_dir: Path, next_scene: str,
+                    music_clip: str, fx_map: dict) -> dict[str, tuple[str, str]]:
     strings: dict[str, tuple[str, str]] = {}
     panels = []
     for panel in data["panels"]:
         lines = []
         for index, line in enumerate(panel["lines"], start=1):
-            key = f"cine.opening.{panel['id']}.{index}"
+            key = f"cine.{cine_id}.{panel['id']}.{index}"
             strings[key] = (line["en"], line["id"])
             lines.append({
                 "speaker": line["speaker"],
@@ -409,7 +445,7 @@ def build_cinematic(data: dict) -> dict[str, tuple[str, str]]:
                 "voiceClip": line.get("voiceClip", f"{panel['id']}_{index}_{line['speaker']}"),
                 "hold": 0.7,
             })
-        fx = PANEL_FX.get(panel["id"], {})
+        fx = fx_map.get(panel["id"], {})
         panels.append({
             "id": panel["id"],
             "image": panel["id"],
@@ -423,7 +459,7 @@ def build_cinematic(data: dict) -> dict[str, tuple[str, str]]:
             "emberParticles": fx.get("emberParticles", False),
         })
 
-        source = ART / f"{panel['id']}.png"
+        source = art_dir / f"{panel['id']}.png"
         if source.exists():
             target = RESOURCES / "Cinematic" / f"{panel['id']}.png"
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -436,10 +472,10 @@ def build_cinematic(data: dict) -> dict[str, tuple[str, str]]:
                 panel_image = panel_image.resize(trimmed, Image.LANCZOS)
             panel_image.save(target)
 
-    write_json(RESOURCES / "Cinematic" / "opening.json", {
-        "id": "opening",
-        "musicClip": "opening_theme",
-        "nextScene": "Prologue",
+    write_json(RESOURCES / "Cinematic" / f"{cine_id}.json", {
+        "id": cine_id,
+        "musicClip": music_clip,
+        "nextScene": next_scene,
         "panels": panels,
     })
     return strings
@@ -743,7 +779,9 @@ def build_watcher_silhouette(target: Path) -> None:
 
 def main() -> None:
     data = json.loads((DOCS / "opening_cinematic.json").read_text(encoding="utf-8"))
-    strings = build_cinematic(data)
+    strings = build_cinematic(data, "opening", ART, "Prologue", "opening_theme", PANEL_FX)
+    ending = json.loads((DOCS / "ending_cinematic.json").read_text(encoding="utf-8"))
+    strings.update(build_cinematic(ending, "ending", ART_ENDING, "Title", "opening_theme", ENDING_PANEL_FX))
     strings.update(build_dialogues())
     strings.update(build_items())
     strings.update(build_quests())

@@ -17,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from tileset_preview import render  # noqa: E402
 from doors import doors_for, hidden_by_roof, open_interiors, roof_cells  # noqa: E402
 from walkability import clear_phantom_colliders  # noqa: E402
-from terrain import check_tiles, clear_lane, drop_unknown_tiles, open_route, reachable  # noqa: E402
+from terrain import check_tiles, clear_lane, drop_unknown_tiles, open_route, reachable, fence_void  # noqa: E402
 
 PROJECT = Path(__file__).resolve().parent.parent
 STAMPS = json.loads((PROJECT / "Docs" / "tileset_stamps.json").read_text(encoding="utf-8"))["stamps"]
@@ -252,6 +252,9 @@ def main() -> None:
     for cell in city.blocked:
         if 0 <= cell[0] < size[0] and 0 <= cell[1] < size[1]:
             city.put("Colliders", cell, "Shadow5_E")
+
+    fenced = fence_void(city.layers, walkable)
+    print(f"  fenced {fenced} void edges")
 
     payload = {
         "region": [0, size[0], 0, size[1]],

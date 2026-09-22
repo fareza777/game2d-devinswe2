@@ -1,0 +1,14 @@
+{
+  "id": "tally_porter",
+  "startNode": "p1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "tally_porter",
+      "text": {
+        "en": "Weighed loads in the bailey twenty years, warden. The crew paid in clipped coin and counted us like freight. Whatever the Coinmaster owed, it's off our backs now.",
+        "id": "Menimbang muatan di halaman dua puluh tahun, warden. Pasukan itu membayar dengan koin terpotong dan menghitung kami seperti barang. Apa pun utang Master Koin, ia sudah lepas dari punggung kami."
+      }
+    }
+  ]
+}

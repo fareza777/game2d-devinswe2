@@ -1,0 +1,48 @@
+{
+  "id": "maren_tallykeep",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "maren",
+      "textKey": "dlg.maren_tallykeep.m1",
+      "voiceClip": "dlg_maren_tallykeep_m1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m2",
+      "choices": []
+    },
+    {
+      "id": "m2",
+      "speaker": "maren",
+      "textKey": "dlg.maren_tallykeep.m2",
+      "voiceClip": "dlg_maren_tallykeep_m2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m3",
+      "choices": []
+    },
+    {
+      "id": "m3",
+      "speaker": "maren",
+      "textKey": "dlg.maren_tallykeep.m3",
+      "voiceClip": "dlg_maren_tallykeep_m3",
+      "mood": "",
+      "setFlags": [
+        "act3.tallykeep_marked",
+        "act3.tallykeep_open"
+      ],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

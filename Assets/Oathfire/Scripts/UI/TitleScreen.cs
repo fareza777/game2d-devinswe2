@@ -42,6 +42,12 @@ namespace Oathfire.UI
         {
             if (menuMusic)
                 Core.GameServices.Audio.PlayMusic(menuMusic);
+            Core.GameServices.Ads?.EnsureBanner();
+        }
+
+        void OnDestroy()
+        {
+            Core.GameServices.Ads?.HideBanner();
         }
 
         void Update()

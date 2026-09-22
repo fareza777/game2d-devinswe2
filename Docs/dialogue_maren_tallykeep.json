@@ -1,0 +1,36 @@
+{
+  "id": "maren_tallykeep",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "maren",
+      "text": {
+        "en": "The ledger's last page isn't an account — it's a signature. One line, struck fresh while the crew still thought they'd die honest: 'for the Keep that counts.' Warden, the toll fort was never the prize. It was the lock on the road that goes north.",
+        "id": "Halaman terakhir buku besar ini bukan pembukuan — ini tanda tangan. Satu baris, dicap baru selagi pasukan masih menyangka mereka akan mati jujur: 'untuk Benteng yang menghitung.' Warden, benteng tol itu bukan rampasannya. Ia hanya gembok di jalan yang menuju utara."
+      },
+      "next": "m2"
+    },
+    {
+      "id": "m2",
+      "speaker": "maren",
+      "text": {
+        "en": "The Tallykeep. The League's mint-fortress — where every seal that ever meant anything in this valley was struck, counted, and weighed honest. Halvard cut hands for false slips. Whoever holds the Keep isn't passing bad coin. They're minting it.",
+        "id": "Benteng Hitung. Benteng-percetakan Liga — tempat tiap segel yang berarti di lembah ini dicetak, dihitung, dan ditimbang jujur. Halvard memahat tangan untuk slip palsu. Siapa pun yang memegang Benteng itu tidak sedang mengedarkan koin palsu. Mereka mencetaknya."
+      },
+      "next": "m3"
+    },
+    {
+      "id": "m3",
+      "speaker": "maren",
+      "text": {
+        "en": "The breach in the toll fort's north wall opens the old mint road — six winters abandoned, marked now on your map. What waits at the end of it kept books longer than kings. Go carefully, warden. Mints do not fall; they are weighed.",
+        "id": "Celah di tembok utara benteng tol membuka jalan percetakan tua — ditinggalkan enam musim dingin, kini tertanda di petamu. Apa yang menunggu di ujungnya menyimpan buku lebih lama daripada raja. Melangkahlah hati-hati, warden. Percetakan tidak pernah jatuh; ia ditimbang."
+      },
+      "setFlags": [
+        "act3.tallykeep_marked",
+        "act3.tallykeep_open"
+      ]
+    }
+  ]
+}

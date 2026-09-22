@@ -167,6 +167,18 @@ PORTRAITS = {
             "a scar along the jaw, eyes that measure distance like rope",
     "drover": "A young drover in his twenties, open sun-browned face, curls under a floppy hat, "
               "an easy grin, grass seed still in his collar",
+    "hane": "A mint-master in his late sixties, narrow proud face, close-clipped silver beard, "
+            "round brass-framed spectacles, a fine ink-stained collarless robe, eyes like scale-pans",
+    "soll": "A tally-keeper in his sixties, thin guarded face, wispy grey hair under a clerk's coif, "
+            "fingers stained by forty years of knife-marks on wood, careful counting eyes",
+    "nance": "A seal-clerk woman in her fifties, tight precise face, hair pinned back with a bone pin, "
+             "a faint ridge of wax-red across her knuckles, the relieved-tired eyes of the last honest clerk",
+    "dory": "A press-hand in his fifties, broad soot-marked face, singed forearms bare, "
+            "a neckerchief dark with furnace sweat, blunt patient eyes",
+    "kit": "A mint boy of about fourteen, round bright face, unruly dark hair, a brass bell-clapper "
+           "dangling from his belt as a keepsake, eager quick eyes",
+    "tally_porter": "A mint porter in his fifties, square weathered face, salt-grey stubble, "
+                    "shoulder-bows from carrying seal-crates, a resigned flat-mouthed look",
 }
 
 

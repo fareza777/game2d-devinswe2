@@ -654,6 +654,126 @@
       "from": "Saltpans",
       "to": "Chalkpit",
       "via": "TradeRoad"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Rennfall",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "TradeRoad",
+      "via": "Tollbank"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Greymarch",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Hollow",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Hollow",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Keep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Keep",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Saltpans",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Burnpits",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Windrest",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Windrest",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Chalkpit",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Stampworks",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "DroversRest",
+      "via": "Tollbank"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Tollbank",
+      "via": "Tallykeep"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Tallykeep",
+      "via": "Tollbank"
     }
   ],
   "guides": [
@@ -1162,6 +1282,66 @@
       "target": "npc",
       "id": "speaker.maren",
       "scene": "Rennfall"
+    },
+    {
+      "key": "act3.tallykeep_marked",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.tally",
+      "target": "spot",
+      "id": "tally_keep",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "act3.hane_down",
+      "target": "spot",
+      "id": "tally_boss",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_true_seals",
+      "target": "spot",
+      "id": "tally_seals",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "act3.seals_delivered",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "quest_mint_tally",
+      "target": "spot",
+      "id": "tally_tally_1",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_sealbox",
+      "target": "spot",
+      "id": "tally_sealbox_1",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_mint_page",
+      "target": "spot",
+      "id": "tally_page_1",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_die_rack",
+      "target": "spot",
+      "id": "tally_dierack",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_gate_bell",
+      "target": "spot",
+      "id": "tally_bell",
+      "scene": "Tallykeep"
     }
   ]
 }

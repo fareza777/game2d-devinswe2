@@ -1,0 +1,19 @@
+{
+  "id": "tally_porter",
+  "startNode": "p1",
+  "nodes": [
+    {
+      "id": "p1",
+      "speaker": "tally_porter",
+      "textKey": "dlg.tally_porter.p1",
+      "voiceClip": "dlg_tally_porter_p1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

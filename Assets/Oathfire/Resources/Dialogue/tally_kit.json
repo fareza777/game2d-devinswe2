@@ -1,0 +1,32 @@
+{
+  "id": "tally_kit",
+  "startNode": "k1",
+  "nodes": [
+    {
+      "id": "k1",
+      "speaker": "kit",
+      "textKey": "dlg.tally_kit.k1",
+      "voiceClip": "dlg_tally_kit_k1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "k2",
+      "choices": []
+    },
+    {
+      "id": "k2",
+      "speaker": "kit",
+      "textKey": "dlg.tally_kit.k2",
+      "voiceClip": "dlg_tally_kit_k2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

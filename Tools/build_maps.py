@@ -525,7 +525,7 @@ def build(name: str, spec: dict, scratch: Path) -> None:
     if spec.get("style") == "keep":
         # The vault's doorway is a Wall D11 arch: it renders a doorframe but has no collider under it.
         walkable.add((13, 44))
-    if spec.get("style") in ("hollow", "keep"):
+    if spec.get("style") in ("hollow", "keep", "road"):
         fenced = fence_edges(layers, walkable)
         print(f"[{name}] fenced {fenced} open edges so nobody walks off into the void")
     towards = built_centre(layers) if spec.get("style") == "settlement" else None

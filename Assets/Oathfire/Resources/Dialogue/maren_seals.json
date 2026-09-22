@@ -1,0 +1,75 @@
+{
+  "id": "maren_seals",
+  "startNode": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "speaker": "maren",
+      "textKey": "dlg.maren_seals.m1",
+      "voiceClip": "dlg_maren_seals_m1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m2",
+      "choices": []
+    },
+    {
+      "id": "m2",
+      "speaker": "maren",
+      "textKey": "dlg.maren_seals.m2",
+      "voiceClip": "dlg_maren_seals_m2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "m3",
+      "choices": []
+    },
+    {
+      "id": "m3",
+      "speaker": "maren",
+      "textKey": "dlg.maren_seals.m3",
+      "voiceClip": "dlg_maren_seals_m3",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.maren_seals.m3.c1",
+          "next": "m4",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": "cinematic:ending"
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "speaker": "maren",
+      "textKey": "dlg.maren_seals.m4",
+      "voiceClip": "dlg_maren_seals_m4",
+      "mood": "",
+      "setFlags": [
+        "act3.seals_delivered"
+      ],
+      "giveItems": [],
+      "takeItems": [
+        "quest_true_seals"
+      ],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

@@ -1,1168 +1,1348 @@
 {
- "_comment": "Where the quest arrow points for each objective key. target: npc (id = speaker key), hearth, board, gather (id = item id), build, exit (id = scene). scene: where that target lives; from another scene the arrow points at the road that leads there. Kill counters also point at the nearest live enemy whenever one is close. Objectives with no fixed place (an event visitor's gift, a choice) are left out on purpose: no arrow is better than a wrong one.",
- "routes": [
-  {
-   "from": "Rennfall",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Greymarch",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Rennfall",
-   "via": "Rennfall"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Greymarch",
-   "via": "Greymarch"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Rennfall",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Hollow",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Hollow",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Hollow",
-   "via": "Hollow"
-  },
-  {
-   "from": "Hollow",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Hollow",
-   "to": "Rennfall",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Hollow",
-   "to": "Greymarch",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Keep",
-   "via": "Keep"
-  },
-  {
-   "from": "Keep",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Keep",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Keep",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Keep",
-   "to": "Rennfall",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Keep",
-   "to": "Greymarch",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Saltpans",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Saltpans",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Saltpans",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Saltpans",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Hollow",
-   "to": "Saltpans",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Keep",
-   "to": "Saltpans",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Rennfall",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Greymarch",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Hollow",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Keep",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Burnpits",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Burnpits",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Burnpits",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Hollow",
-   "to": "Burnpits",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Keep",
-   "to": "Burnpits",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Burnpits",
-   "via": "Burnpits"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Saltpans",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Burnpits",
-   "to": "TradeRoad",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Rennfall",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Greymarch",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Hollow",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Keep",
-   "via": "Saltpans"
-  },
-  {
-   "from": "Windrest",
-   "to": "Rennfall",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Windrest",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Windrest",
-   "to": "TradeRoad",
-   "via": "Rennfall"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Windrest",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Windrest",
-   "to": "Greymarch",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Windrest",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Windrest",
-   "to": "Hollow",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Hollow",
-   "to": "Windrest",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Windrest",
-   "to": "Keep",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Keep",
-   "to": "Windrest",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Windrest",
-   "to": "Saltpans",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Windrest",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Windrest",
-   "to": "Burnpits",
-   "via": "Rennfall"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Windrest",
-   "via": "Rennfall"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Hollow",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Keep",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Windrest",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Rennfall",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Greymarch",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Hollow",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Keep",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Burnpits",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Windrest",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Rennfall",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "TradeRoad",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Greymarch",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Hollow",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Hollow",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Keep",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Keep",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Saltpans",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Burnpits",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Windrest",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Windrest",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Rennfall",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Greymarch",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Hollow",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Hollow",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Keep",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Keep",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Saltpans",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Burnpits",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Burnpits",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Windrest",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Windrest",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "Tollbank",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "Tollbank",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Tollbank",
-   "to": "DroversRest",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Tollbank",
-   "via": "Tollbank"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Rennfall",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Rennfall",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "TradeRoad",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "TradeRoad",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Greymarch",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Greymarch",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Hollow",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Hollow",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Keep",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Keep",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Saltpans",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Saltpans",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Burnpits",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Burnpits",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Windrest",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Windrest",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Chalkpit",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Stampworks",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "Stampworks",
-   "to": "DroversRest",
-   "via": "Chalkpit"
-  },
-  {
-   "from": "DroversRest",
-   "to": "Tollbank",
-   "via": "TradeRoad"
-  },
-  {
-   "from": "Tollbank",
-   "to": "DroversRest",
-   "via": "DroversRest"
-  },
-  {
-   "from": "Saltpans",
-   "to": "Chalkpit",
-   "via": "TradeRoad"
-  }
- ],
- "guides": [
-  {
-   "key": "prologue.met_brann",
-   "target": "npc",
-   "id": "speaker.brann",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "mat_timber",
-   "target": "gather",
-   "id": "mat_timber",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "mat_stone",
-   "target": "gather",
-   "id": "mat_stone",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act1.oathfire_lit",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "kills.night1",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act1.rite_performed",
-   "target": "npc",
-   "id": "speaker.brann",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "built.shelter",
-   "target": "build",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act1.maren_arrived",
-   "target": "npc",
-   "id": "speaker.maren",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "kills.mage",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "kills.knight",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "kills.elite",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "night.flawless",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "nights.survived",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "contracts.completed",
-   "target": "board",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "mat_pitch",
-   "target": "npc",
-   "id": "speaker.sabel",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "mat_rope",
-   "target": "npc",
-   "id": "speaker.sabel",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "mat_cloth",
-   "target": "npc",
-   "id": "speaker.sabel",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act1.night1_ready",
-   "target": "npc",
-   "id": "speaker.brann",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act2.left_the_valley",
-   "target": "exit",
-   "id": "TradeRoad",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act2.reached_greymarch",
-   "target": "exit",
-   "id": "Greymarch",
-   "scene": "TradeRoad"
-  },
-  {
-   "key": "act2.bandits_hinted",
-   "target": "npc",
-   "id": "speaker.vesna",
-   "scene": "Greymarch"
-  },
-  {
-   "key": "act1.order_answer_given",
-   "target": "npc",
-   "id": "speaker.maren",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act2.dace_briefed",
-   "target": "npc",
-   "id": "speaker.dace",
-   "scene": "Greymarch"
-  },
-  {
-   "key": "act2.found_hollow",
-   "target": "exit",
-   "id": "Hollow",
-   "scene": "TradeRoad"
-  },
-  {
-   "key": "kills.hollow",
-   "target": "spot",
-   "id": "hollow_fight",
-   "scene": "Hollow"
-  },
-  {
-   "key": "act2.rook_defeated",
-   "target": "spot",
-   "id": "hollow_boss",
-   "scene": "Hollow"
-  },
-  {
-   "key": "act2.prisoner_freed",
-   "target": "npc",
-   "id": "speaker.mira",
-   "scene": "Hollow"
-  },
-  {
-   "key": "quest_harrow_ledger",
-   "target": "npc",
-   "id": "speaker.mira",
-   "scene": "Hollow"
-  },
-  {
-   "key": "act2.ledger_delivered",
-   "target": "npc",
-   "id": "speaker.vesna",
-   "scene": "Greymarch"
-  },
-  {
-   "key": "kills.bandit",
-   "target": "exit",
-   "id": "Hollow",
-   "scene": "TradeRoad"
-  },
-  {
-   "key": "act2.hollow_camp_cleared",
-   "target": "spot",
-   "id": "hollow_fight",
-   "scene": "Hollow"
-  },
-  {
-   "key": "quest_crane_journal",
-   "target": "spot",
-   "id": "search_records",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "quest_wick_lamp",
-   "target": "spot",
-   "id": "search_lamp",
-   "scene": "TradeRoad"
-  },
-  {
-   "key": "sq.stew.pot",
-   "target": "npc",
-   "id": "speaker.hesketh",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "food_bread",
-   "target": "npc",
-   "id": "speaker.sabel",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act2.galen_saw_ledger",
-   "target": "npc",
-   "id": "speaker.galen",
-   "scene": "Greymarch"
-  },
-  {
-   "key": "sq.letter.given",
-   "target": "npc",
-   "id": "speaker.oona",
-   "scene": "Greymarch"
-  },
-  {
-   "key": "sq.letter.delivered",
-   "target": "npc",
-   "id": "speaker.brann",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "kills.skeleton",
-   "target": "hearth",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "torch",
-   "target": "npc",
-   "id": "speaker.sabel",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "mat_iron",
-   "target": "npc",
-   "id": "speaker.sabel",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "food_salt_meat",
-   "target": "npc",
-   "id": "speaker.sabel",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "act2.road_ambush_cleared",
-   "target": "spot",
-   "id": "road_ambush",
-   "scene": "TradeRoad"
-  },
-  {
-   "key": "act2.found_keep",
-   "target": "exit",
-   "id": "Keep",
-   "scene": "TradeRoad"
-  },
-  {
-   "key": "kills.keep",
-   "target": "spot",
-   "id": "keep_fight",
-   "scene": "Keep"
-  },
-  {
-   "key": "act2.durn_defeated",
-   "target": "spot",
-   "id": "keep_boss",
-   "scene": "Keep"
-  },
-  {
-   "key": "quest_keep_manifest",
-   "target": "spot",
-   "id": "keep_manifest",
-   "scene": "Keep"
-  },
-  {
-   "key": "act2.manifest_delivered",
-   "target": "npc",
-   "id": "speaker.maren",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "kills.deserter",
-   "target": "spot",
-   "id": "keep_fight",
-   "scene": "Keep"
-  },
-  {
-   "key": "quest_roane_tally",
-   "target": "spot",
-   "id": "keep_tally",
-   "scene": "Keep"
-  },
-  {
-   "key": "quest_pay_roll",
-   "target": "spot",
-   "id": "keep_pay",
-   "scene": "Keep"
-  },
-  {
-   "key": "kills.salt",
-   "target": "spot",
-   "id": "salt_fight",
-   "scene": "Saltpans"
-  },
-  {
-   "key": "quest_salt_tally",
-   "target": "spot",
-   "id": "salt_tally_1",
-   "scene": "Saltpans"
-  },
-  {
-   "key": "quest_store_key",
-   "target": "spot",
-   "id": "salt_store_key",
-   "scene": "Saltpans"
-  },
-  {
-   "key": "quest_salt_spill",
-   "target": "spot",
-   "id": "salt_spill_1",
-   "scene": "Saltpans"
-  },
-  {
-   "key": "kills.char",
-   "target": "spot",
-   "id": "char_fight",
-   "scene": "Burnpits"
-  },
-  {
-   "key": "quest_cord_tally",
-   "target": "spot",
-   "id": "char_tally_1",
-   "scene": "Burnpits"
-  },
-  {
-   "key": "quest_keeper_rod",
-   "target": "spot",
-   "id": "char_rod",
-   "scene": "Burnpits"
-  },
-  {
-   "key": "quest_char_coal",
-   "target": "spot",
-   "id": "char_coal_1",
-   "scene": "Burnpits"
-  },
-  {
-   "key": "kills.mill",
-   "target": "spot",
-   "id": "mill_fight",
-   "scene": "Windrest"
-  },
-  {
-   "key": "quest_mill_tally",
-   "target": "spot",
-   "id": "mill_tally_1",
-   "scene": "Windrest"
-  },
-  {
-   "key": "quest_mill_sack",
-   "target": "spot",
-   "id": "mill_sack_1",
-   "scene": "Windrest"
-  },
-  {
-   "key": "kills.pit",
-   "target": "spot",
-   "id": "pit_fight",
-   "scene": "Chalkpit"
-  },
-  {
-   "key": "quest_pit_tally",
-   "target": "spot",
-   "id": "pit_tally_1",
-   "scene": "Chalkpit"
-  },
-  {
-   "key": "quest_pit_seal",
-   "target": "spot",
-   "id": "pit_seal_stamp",
-   "scene": "Chalkpit"
-  },
-  {
-   "key": "quest_pit_lime",
-   "target": "spot",
-   "id": "pit_lime_1",
-   "scene": "Chalkpit"
-  },
-  {
-   "key": "kills.stamp",
-   "target": "spot",
-   "id": "stamp_yard",
-   "scene": "Stampworks"
-  },
-  {
-   "key": "quest_stamp_slip",
-   "target": "spot",
-   "id": "stamp_slip_1",
-   "scene": "Stampworks"
-  },
-  {
-   "key": "quest_stamp_die",
-   "target": "spot",
-   "id": "stamp_die",
-   "scene": "Stampworks"
-  },
-  {
-   "key": "quest_stamp_plate",
-   "target": "spot",
-   "id": "stamp_plate",
-   "scene": "Stampworks"
-  },
-  {
-   "key": "quest_stamp_blank",
-   "target": "spot",
-   "id": "stamp_blank_1",
-   "scene": "Stampworks"
-  },
-  {
-   "key": "act3.tollbank_marked",
-   "target": "npc",
-   "id": "speaker.ansel",
-   "scene": "Greymarch"
-  },
-  {
-   "key": "kills.toll",
-   "target": "spot",
-   "id": "toll_yard",
-   "scene": "Tollbank"
-  },
-  {
-   "key": "act3.halvard_down",
-   "target": "spot",
-   "id": "toll_boss",
-   "scene": "Tollbank"
-  },
-  {
-   "key": "quest_true_ledger",
-   "target": "spot",
-   "id": "toll_ledger",
-   "scene": "Tollbank"
-  },
-  {
-   "key": "act3.ledger_closed",
-   "target": "npc",
-   "id": "speaker.maren",
-   "scene": "Rennfall"
-  },
-  {
-   "key": "quest_toll_tally",
-   "target": "spot",
-   "id": "toll_tally_1",
-   "scene": "Tollbank"
-  },
-  {
-   "key": "quest_ledger_page",
-   "target": "spot",
-   "id": "toll_page_1",
-   "scene": "Tollbank"
-  },
-  {
-   "key": "quest_tack",
-   "target": "spot",
-   "id": "drove_tack_1",
-   "scene": "DroversRest"
-  },
-  {
-   "key": "quest_wagon_pin",
-   "target": "spot",
-   "id": "drove_pin_1",
-   "scene": "DroversRest"
-  },
-  {
-   "key": "quest_toll_banner",
-   "target": "spot",
-   "id": "toll_banner",
-   "scene": "Tollbank"
-  },
-  {
-   "key": "quest_strongbox",
-   "target": "spot",
-   "id": "toll_strongbox_1",
-   "scene": "Tollbank"
-  },
-  {
-   "key": "quest_supper",
-   "target": "spot",
-   "id": "drove_supper_1",
-   "scene": "DroversRest"
-  },
-  {
-   "key": "kills.drove",
-   "target": "spot",
-   "id": "drove_corral",
-   "scene": "DroversRest"
-  },
-  {
-   "key": "act2.found_stampworks",
-   "target": "exit",
-   "id": "Stampworks",
-   "scene": "Chalkpit"
-  },
-  {
-   "key": "act2.die_delivered",
-   "target": "npc",
-   "id": "speaker.maren",
-   "scene": "Rennfall"
-  }
- ]
+  "_comment": "Where the quest arrow points for each objective key. target: npc (id = speaker key), hearth, board, gather (id = item id), build, exit (id = scene). scene: where that target lives; from another scene the arrow points at the road that leads there. Kill counters also point at the nearest live enemy whenever one is close. Objectives with no fixed place (an event visitor's gift, a choice) are left out on purpose: no arrow is better than a wrong one.",
+  "routes": [
+    {
+      "from": "Rennfall",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Rennfall",
+      "via": "Rennfall"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Greymarch",
+      "via": "Greymarch"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Hollow",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Hollow",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Hollow",
+      "via": "Hollow"
+    },
+    {
+      "from": "Hollow",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Hollow",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Hollow",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Keep",
+      "via": "Keep"
+    },
+    {
+      "from": "Keep",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Saltpans",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Saltpans",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Saltpans",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Saltpans",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Hollow",
+      "to": "Saltpans",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Saltpans",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Hollow",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Burnpits",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Hollow",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Burnpits",
+      "via": "Burnpits"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Saltpans",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "TradeRoad",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Rennfall",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Greymarch",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Hollow",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Keep",
+      "via": "Saltpans"
+    },
+    {
+      "from": "Windrest",
+      "to": "Rennfall",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "TradeRoad",
+      "via": "Rennfall"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Greymarch",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Hollow",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Hollow",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Keep",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Keep",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Saltpans",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Windrest",
+      "to": "Burnpits",
+      "via": "Rennfall"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Windrest",
+      "via": "Rennfall"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Hollow",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Windrest",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Hollow",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Windrest",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Rennfall",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "TradeRoad",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Greymarch",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Hollow",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Hollow",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Keep",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Keep",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Saltpans",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Burnpits",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Windrest",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Windrest",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Hollow",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Hollow",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Saltpans",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Windrest",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Windrest",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Tollbank",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Tollbank",
+      "to": "DroversRest",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Tollbank",
+      "via": "Tollbank"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Rennfall",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Rennfall",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "TradeRoad",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Greymarch",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Greymarch",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Hollow",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Hollow",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Keep",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Keep",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Saltpans",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Saltpans",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Burnpits",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Burnpits",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Windrest",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Windrest",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Stampworks",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "Stampworks",
+      "to": "DroversRest",
+      "via": "Chalkpit"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Tollbank",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Tollbank",
+      "to": "DroversRest",
+      "via": "DroversRest"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Chalkpit",
+      "via": "TradeRoad"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Rennfall",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Rennfall",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "TradeRoad",
+      "via": "Tollbank"
+    },
+    {
+      "from": "TradeRoad",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Greymarch",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Greymarch",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Hollow",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Hollow",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Keep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Keep",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Saltpans",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Saltpans",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Burnpits",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Burnpits",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Windrest",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Windrest",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Chalkpit",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Chalkpit",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Stampworks",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Stampworks",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "DroversRest",
+      "via": "Tollbank"
+    },
+    {
+      "from": "DroversRest",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    },
+    {
+      "from": "Tallykeep",
+      "to": "Tollbank",
+      "via": "Tallykeep"
+    },
+    {
+      "from": "Tollbank",
+      "to": "Tallykeep",
+      "via": "Tollbank"
+    }
+  ],
+  "guides": [
+    {
+      "key": "prologue.met_brann",
+      "target": "npc",
+      "id": "speaker.brann",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "mat_timber",
+      "target": "gather",
+      "id": "mat_timber",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "mat_stone",
+      "target": "gather",
+      "id": "mat_stone",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act1.oathfire_lit",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.night1",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act1.rite_performed",
+      "target": "npc",
+      "id": "speaker.brann",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "built.shelter",
+      "target": "build",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act1.maren_arrived",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.mage",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.knight",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.elite",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "night.flawless",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "nights.survived",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "contracts.completed",
+      "target": "board",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "mat_pitch",
+      "target": "npc",
+      "id": "speaker.sabel",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "mat_rope",
+      "target": "npc",
+      "id": "speaker.sabel",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "mat_cloth",
+      "target": "npc",
+      "id": "speaker.sabel",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act1.night1_ready",
+      "target": "npc",
+      "id": "speaker.brann",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act2.left_the_valley",
+      "target": "exit",
+      "id": "TradeRoad",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act2.reached_greymarch",
+      "target": "exit",
+      "id": "Greymarch",
+      "scene": "TradeRoad"
+    },
+    {
+      "key": "act2.bandits_hinted",
+      "target": "npc",
+      "id": "speaker.vesna",
+      "scene": "Greymarch"
+    },
+    {
+      "key": "act1.order_answer_given",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act2.dace_briefed",
+      "target": "npc",
+      "id": "speaker.dace",
+      "scene": "Greymarch"
+    },
+    {
+      "key": "act2.found_hollow",
+      "target": "exit",
+      "id": "Hollow",
+      "scene": "TradeRoad"
+    },
+    {
+      "key": "kills.hollow",
+      "target": "spot",
+      "id": "hollow_fight",
+      "scene": "Hollow"
+    },
+    {
+      "key": "act2.rook_defeated",
+      "target": "spot",
+      "id": "hollow_boss",
+      "scene": "Hollow"
+    },
+    {
+      "key": "act2.prisoner_freed",
+      "target": "npc",
+      "id": "speaker.mira",
+      "scene": "Hollow"
+    },
+    {
+      "key": "quest_harrow_ledger",
+      "target": "npc",
+      "id": "speaker.mira",
+      "scene": "Hollow"
+    },
+    {
+      "key": "act2.ledger_delivered",
+      "target": "npc",
+      "id": "speaker.vesna",
+      "scene": "Greymarch"
+    },
+    {
+      "key": "kills.bandit",
+      "target": "exit",
+      "id": "Hollow",
+      "scene": "TradeRoad"
+    },
+    {
+      "key": "act2.hollow_camp_cleared",
+      "target": "spot",
+      "id": "hollow_fight",
+      "scene": "Hollow"
+    },
+    {
+      "key": "quest_crane_journal",
+      "target": "spot",
+      "id": "search_records",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "quest_wick_lamp",
+      "target": "spot",
+      "id": "search_lamp",
+      "scene": "TradeRoad"
+    },
+    {
+      "key": "sq.stew.pot",
+      "target": "npc",
+      "id": "speaker.hesketh",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "food_bread",
+      "target": "npc",
+      "id": "speaker.sabel",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act2.galen_saw_ledger",
+      "target": "npc",
+      "id": "speaker.galen",
+      "scene": "Greymarch"
+    },
+    {
+      "key": "sq.letter.given",
+      "target": "npc",
+      "id": "speaker.oona",
+      "scene": "Greymarch"
+    },
+    {
+      "key": "sq.letter.delivered",
+      "target": "npc",
+      "id": "speaker.brann",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.skeleton",
+      "target": "hearth",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "torch",
+      "target": "npc",
+      "id": "speaker.sabel",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "mat_iron",
+      "target": "npc",
+      "id": "speaker.sabel",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "food_salt_meat",
+      "target": "npc",
+      "id": "speaker.sabel",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act2.road_ambush_cleared",
+      "target": "spot",
+      "id": "road_ambush",
+      "scene": "TradeRoad"
+    },
+    {
+      "key": "act2.found_keep",
+      "target": "exit",
+      "id": "Keep",
+      "scene": "TradeRoad"
+    },
+    {
+      "key": "kills.keep",
+      "target": "spot",
+      "id": "keep_fight",
+      "scene": "Keep"
+    },
+    {
+      "key": "act2.durn_defeated",
+      "target": "spot",
+      "id": "keep_boss",
+      "scene": "Keep"
+    },
+    {
+      "key": "quest_keep_manifest",
+      "target": "spot",
+      "id": "keep_manifest",
+      "scene": "Keep"
+    },
+    {
+      "key": "act2.manifest_delivered",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.deserter",
+      "target": "spot",
+      "id": "keep_fight",
+      "scene": "Keep"
+    },
+    {
+      "key": "quest_roane_tally",
+      "target": "spot",
+      "id": "keep_tally",
+      "scene": "Keep"
+    },
+    {
+      "key": "quest_pay_roll",
+      "target": "spot",
+      "id": "keep_pay",
+      "scene": "Keep"
+    },
+    {
+      "key": "kills.salt",
+      "target": "spot",
+      "id": "salt_fight",
+      "scene": "Saltpans"
+    },
+    {
+      "key": "quest_salt_tally",
+      "target": "spot",
+      "id": "salt_tally_1",
+      "scene": "Saltpans"
+    },
+    {
+      "key": "quest_store_key",
+      "target": "spot",
+      "id": "salt_store_key",
+      "scene": "Saltpans"
+    },
+    {
+      "key": "quest_salt_spill",
+      "target": "spot",
+      "id": "salt_spill_1",
+      "scene": "Saltpans"
+    },
+    {
+      "key": "kills.char",
+      "target": "spot",
+      "id": "char_fight",
+      "scene": "Burnpits"
+    },
+    {
+      "key": "quest_cord_tally",
+      "target": "spot",
+      "id": "char_tally_1",
+      "scene": "Burnpits"
+    },
+    {
+      "key": "quest_keeper_rod",
+      "target": "spot",
+      "id": "char_rod",
+      "scene": "Burnpits"
+    },
+    {
+      "key": "quest_char_coal",
+      "target": "spot",
+      "id": "char_coal_1",
+      "scene": "Burnpits"
+    },
+    {
+      "key": "kills.mill",
+      "target": "spot",
+      "id": "mill_fight",
+      "scene": "Windrest"
+    },
+    {
+      "key": "quest_mill_tally",
+      "target": "spot",
+      "id": "mill_tally_1",
+      "scene": "Windrest"
+    },
+    {
+      "key": "quest_mill_sack",
+      "target": "spot",
+      "id": "mill_sack_1",
+      "scene": "Windrest"
+    },
+    {
+      "key": "kills.pit",
+      "target": "spot",
+      "id": "pit_fight",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "quest_pit_tally",
+      "target": "spot",
+      "id": "pit_tally_1",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "quest_pit_seal",
+      "target": "spot",
+      "id": "pit_seal_stamp",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "quest_pit_lime",
+      "target": "spot",
+      "id": "pit_lime_1",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "kills.stamp",
+      "target": "spot",
+      "id": "stamp_yard",
+      "scene": "Stampworks"
+    },
+    {
+      "key": "quest_stamp_slip",
+      "target": "spot",
+      "id": "stamp_slip_1",
+      "scene": "Stampworks"
+    },
+    {
+      "key": "quest_stamp_die",
+      "target": "spot",
+      "id": "stamp_die",
+      "scene": "Stampworks"
+    },
+    {
+      "key": "quest_stamp_plate",
+      "target": "spot",
+      "id": "stamp_plate",
+      "scene": "Stampworks"
+    },
+    {
+      "key": "quest_stamp_blank",
+      "target": "spot",
+      "id": "stamp_blank_1",
+      "scene": "Stampworks"
+    },
+    {
+      "key": "act3.tollbank_marked",
+      "target": "npc",
+      "id": "speaker.ansel",
+      "scene": "Greymarch"
+    },
+    {
+      "key": "kills.toll",
+      "target": "spot",
+      "id": "toll_yard",
+      "scene": "Tollbank"
+    },
+    {
+      "key": "act3.halvard_down",
+      "target": "spot",
+      "id": "toll_boss",
+      "scene": "Tollbank"
+    },
+    {
+      "key": "quest_true_ledger",
+      "target": "spot",
+      "id": "toll_ledger",
+      "scene": "Tollbank"
+    },
+    {
+      "key": "act3.ledger_closed",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "quest_toll_tally",
+      "target": "spot",
+      "id": "toll_tally_1",
+      "scene": "Tollbank"
+    },
+    {
+      "key": "quest_ledger_page",
+      "target": "spot",
+      "id": "toll_page_1",
+      "scene": "Tollbank"
+    },
+    {
+      "key": "quest_tack",
+      "target": "spot",
+      "id": "drove_tack_1",
+      "scene": "DroversRest"
+    },
+    {
+      "key": "quest_wagon_pin",
+      "target": "spot",
+      "id": "drove_pin_1",
+      "scene": "DroversRest"
+    },
+    {
+      "key": "quest_toll_banner",
+      "target": "spot",
+      "id": "toll_banner",
+      "scene": "Tollbank"
+    },
+    {
+      "key": "quest_strongbox",
+      "target": "spot",
+      "id": "toll_strongbox_1",
+      "scene": "Tollbank"
+    },
+    {
+      "key": "quest_supper",
+      "target": "spot",
+      "id": "drove_supper_1",
+      "scene": "DroversRest"
+    },
+    {
+      "key": "kills.drove",
+      "target": "spot",
+      "id": "drove_corral",
+      "scene": "DroversRest"
+    },
+    {
+      "key": "act2.found_stampworks",
+      "target": "exit",
+      "id": "Stampworks",
+      "scene": "Chalkpit"
+    },
+    {
+      "key": "act2.die_delivered",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "act3.tallykeep_marked",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "kills.tally",
+      "target": "spot",
+      "id": "tally_keep",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "act3.hane_down",
+      "target": "spot",
+      "id": "tally_boss",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_true_seals",
+      "target": "spot",
+      "id": "tally_seals",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "act3.seals_delivered",
+      "target": "npc",
+      "id": "speaker.maren",
+      "scene": "Rennfall"
+    },
+    {
+      "key": "quest_mint_tally",
+      "target": "spot",
+      "id": "tally_tally_1",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_sealbox",
+      "target": "spot",
+      "id": "tally_sealbox_1",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_mint_page",
+      "target": "spot",
+      "id": "tally_page_1",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_die_rack",
+      "target": "spot",
+      "id": "tally_dierack",
+      "scene": "Tallykeep"
+    },
+    {
+      "key": "quest_gate_bell",
+      "target": "spot",
+      "id": "tally_bell",
+      "scene": "Tallykeep"
+    }
+  ]
 }

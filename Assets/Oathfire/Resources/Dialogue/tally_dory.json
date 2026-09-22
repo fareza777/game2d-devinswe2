@@ -1,0 +1,32 @@
+{
+  "id": "tally_dory",
+  "startNode": "d1",
+  "nodes": [
+    {
+      "id": "d1",
+      "speaker": "dory",
+      "textKey": "dlg.tally_dory.d1",
+      "voiceClip": "dlg_tally_dory_d1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "d2",
+      "choices": []
+    },
+    {
+      "id": "d2",
+      "speaker": "dory",
+      "textKey": "dlg.tally_dory.d2",
+      "voiceClip": "dlg_tally_dory_d2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

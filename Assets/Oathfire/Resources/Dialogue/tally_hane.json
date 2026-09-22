@@ -1,0 +1,121 @@
+{
+  "id": "tally_hane",
+  "startNode": "h1",
+  "nodes": [
+    {
+      "id": "h1",
+      "speaker": "hane",
+      "textKey": "dlg.tally_hane.h1",
+      "voiceClip": "dlg_tally_hane_h1",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "h2",
+      "choices": []
+    },
+    {
+      "id": "h2",
+      "speaker": "hane",
+      "textKey": "dlg.tally_hane.h2",
+      "voiceClip": "dlg_tally_hane_h2",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "h3",
+      "choices": []
+    },
+    {
+      "id": "h3",
+      "speaker": "hane",
+      "textKey": "dlg.tally_hane.h3",
+      "voiceClip": "dlg_tally_hane_h3",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": [
+        {
+          "textKey": "dlg.tally_hane.h3.c1",
+          "next": "h4a",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.tally_hane.h3.c2",
+          "next": "h4b",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        },
+        {
+          "textKey": "dlg.tally_hane.h3.c3",
+          "next": "h4c",
+          "tone": "",
+          "requiresFlag": "",
+          "hiddenIfFlag": "",
+          "setFlag": "",
+          "faction": "",
+          "reputation": 0,
+          "costCoin": 0,
+          "action": ""
+        }
+      ]
+    },
+    {
+      "id": "h4a",
+      "speaker": "hane",
+      "textKey": "dlg.tally_hane.h4a",
+      "voiceClip": "dlg_tally_hane_h4a",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h4b",
+      "speaker": "hane",
+      "textKey": "dlg.tally_hane.h4b",
+      "voiceClip": "dlg_tally_hane_h4b",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    },
+    {
+      "id": "h4c",
+      "speaker": "hane",
+      "textKey": "dlg.tally_hane.h4c",
+      "voiceClip": "dlg_tally_hane_h4c",
+      "mood": "",
+      "setFlags": [],
+      "giveItems": [],
+      "takeItems": [],
+      "giveCoin": 0,
+      "next": "",
+      "choices": []
+    }
+  ]
+}

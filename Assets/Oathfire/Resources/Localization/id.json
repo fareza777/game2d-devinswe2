@@ -41,8 +41,56 @@
       "value": "Halvard si Pemahat"
     },
     {
+      "key": "boss.hane",
+      "value": "Master Koin Hane"
+    },
+    {
       "key": "boss.rook",
       "value": "Rook Varr"
+    },
+    {
+      "key": "cine.ending.e1_scales.1",
+      "value": "Mereka akan menuturkannya dengan salah di gedung piagam. Selalu begitu — orang yang tak pernah bangkit dari kursinya. Jadi akan kuceritakan seperti lembah menuturkannya, dan boleh kaupilih mana yang lebih berat."
+    },
+    {
+      "key": "cine.ending.e1_scales.2",
+      "value": "Semuanya berakhir, seperti semua perkara kita, dengan sebuah hitungan. Tujuh segel di atas meja seorang perempuan, dan tiap dusta yang pernah ditimbang pasukan cuci ambruk di bawahnya seperti lantai lapuk."
+    },
+    {
+      "key": "cine.ending.e2_the_keep.1",
+      "value": "Benteng Hitung sudah kosong sebelum matahari tenggelam — Master Koin ditimbang, dan didapati kurang, di timbangannya sendiri. Empat puluh satu tahun menghitung jujur, habis untuk satu dusta dalam semusim dingin."
+    },
+    {
+      "key": "cine.ending.e2_the_keep.2",
+      "value": "Kabarnya ia jatuh sambil masih memperdebatkan timbangan. Memang begitulah orang percetakan — bahkan kematian adalah pembukuan yang ingin ia lunasi dengan adil."
+    },
+    {
+      "key": "cine.ending.e3_road_back.1",
+      "value": "Dan warden itu menempuh jalan pulang seperti warden selalu menempuhnya — sendirian, dan sedikit lebih lambat dari sepantasnya. Tak ada yang bersorak atas berakhirnya cucian, begitulah. Koin tak bersorak. Ia hanya kembali dibelanjakan dengan jujur."
+    },
+    {
+      "key": "cine.ending.e4_hearth.1",
+      "value": "Tapi di Rennfall api unggun masih menyala, dan menyala lebih terang dari dulu, karena kini semua tahu harganya untuk tetap menyala. Aku masih merawatnya. Menggali kubur juga — tapi lebih sedikit, tahun ini."
+    },
+    {
+      "key": "cine.ending.e4_hearth.2",
+      "value": "Winna masih memberi makan seluruh alun-alun. Maren masih menghitung utang orang lain. Yang mati tetap mati, yang hidup tetap keras kepala. Sebuah desa, warden. Ia hidup lebih lama dari raja karena tak pernah minta izin."
+    },
+    {
+      "key": "cine.ending.e5_names.1",
+      "value": "Aku menyimpan buku tentang siapa yang berarti. Bukan hitungan koin — hitungan yang lain. Mereka yang berdiri di tembok saat tembok perlu dijaga. Tahun ini namanya lebih banyak dari tahun lalu, dan kutulis semua dengan ukuran yang sama."
+    },
+    {
+      "key": "cine.ending.e6_crown_flame.1",
+      "value": "Mahkota itu masih retak. Tak ada yang datang memperbaikinya, dan entah memang harus ada. Tapi sumpah yang diucapkan di atasnya — ternyata terbuat dari bahan yang lebih keras daripada mahkotanya."
+    },
+    {
+      "key": "cine.ending.e7_dawn.1",
+      "value": "Berakhirlah bagian pertama. Koin lembah ini miliknya sendiri lagi, percetakan menghitung jujur, dan buku besar cucian jadi abu di api unggun yang menghangatkan kita. Tapi jalan seorang warden tak berakhir di tol terakhir — ia hanya menenang sebentar."
+    },
+    {
+      "key": "cine.ending.e7_dawn.2",
+      "value": "Istirahatlah, warden. Makan apa yang dimasak Winna. Saat jalan itu bangkit lagi, ia akan minta dilalui — dan ia selalu minta dilalui ke arah yang tak mau diambil orang lain."
     },
     {
       "key": "cine.opening.p1_valley.1",
@@ -263,6 +311,22 @@
     {
       "key": "contract.vigil_unhurt.title",
       "value": "Tanpa Lecet"
+    },
+    {
+      "key": "defeat.benefactor",
+      "value": "Sang Dermawan Mengawasi"
+    },
+    {
+      "key": "defeat.offer",
+      "value": "Sebuah kisah singkat untuk kantong yang utuh — atau bangun dan kehilangan {0} koin"
+    },
+    {
+      "key": "defeat.wake",
+      "value": "Bangun dan bayar"
+    },
+    {
+      "key": "defeat.watch",
+      "value": "Tonton kisahnya"
     },
     {
       "key": "dlg.after_first_night.brann_1",
@@ -1385,6 +1449,38 @@
       "value": "Zirah terakhir yang dicetak Barisan — Oathplate — tersimpan di gudang benteng tol sampai pasukan cuci menjualnya. Kubawa ke sini saat muncul. Ambillah. Mahkota sudah tiada, tapi sumpah yang disumpahkan padanya membuat pemakainya tetap berdiri."
     },
     {
+      "key": "dlg.maren_seals.m1",
+      "value": "Taruh di meja. Perlahan. ...Tujuh segel, dicetak jujur, masih hangat oleh besi percetakannya sendiri. Warden — kau tahu apa yang kau bawa keluar dari benteng itu? Bukti bahwa kata lembah ini masih seberat yang ia katakan."
+    },
+    {
+      "key": "dlg.maren_seals.m2",
+      "value": "Cucian ini mati bersama segel-segel ini. Tiap slip palsu, tiap dusta yang ditimbang — gedung piagam akan membacanya melawan segel sejati dan membakar selisihnya. Tangan Liga sudah terpenggal. Koinnya milik kita lagi. Apa yang kau lakukan di percetakan itu tak bisa dibeli kembali, dan orang-orang yang menjualnya tahu itu."
+    },
+    {
+      "key": "dlg.maren_seals.m3",
+      "value": "Istirahatlah. Saat abu mengendap, lembah ini akan ingin kisahnya dituturkan — dan kisah, seperti koin, hanya seharga tangan yang mencetaknya. Tanganmu mencetak dengan benar."
+    },
+    {
+      "key": "dlg.maren_seals.m3.c1",
+      "value": "(Dengar bagaimana lembah mengenangnya)"
+    },
+    {
+      "key": "dlg.maren_seals.m4",
+      "value": "Kalau begitu duduklah di dekat api, warden. Bagian ini bukan untuk buku besar."
+    },
+    {
+      "key": "dlg.maren_tallykeep.m1",
+      "value": "Halaman terakhir buku besar ini bukan pembukuan — ini tanda tangan. Satu baris, dicap baru selagi pasukan masih menyangka mereka akan mati jujur: 'untuk Benteng yang menghitung.' Warden, benteng tol itu bukan rampasannya. Ia hanya gembok di jalan yang menuju utara."
+    },
+    {
+      "key": "dlg.maren_tallykeep.m2",
+      "value": "Benteng Hitung. Benteng-percetakan Liga — tempat tiap segel yang berarti di lembah ini dicetak, dihitung, dan ditimbang jujur. Halvard memahat tangan untuk slip palsu. Siapa pun yang memegang Benteng itu tidak sedang mengedarkan koin palsu. Mereka mencetaknya."
+    },
+    {
+      "key": "dlg.maren_tallykeep.m3",
+      "value": "Celah di tembok utara benteng tol membuka jalan percetakan tua — ditinggalkan enam musim dingin, kini tertanda di petamu. Apa yang menunggu di ujungnya menyimpan buku lebih lama daripada raja. Melangkahlah hati-hati, warden. Percetakan tidak pernah jatuh; ia ditimbang."
+    },
+    {
       "key": "dlg.merchant_sabel.leave",
       "value": "Kalau begitu saya di sini sampai jalan ditutup. Sesudah itu, tanya Warden ke mana saya pergi."
     },
@@ -1699,6 +1795,78 @@
     {
       "key": "dlg.stamp_wicke.w3b",
       "value": "Karena anak yang mengangkut lempengan bisa makan. Dan karena tak ada yang bertanya pada pelari apa yang didengar para pelari — padahal semuanya, dan tak satu pun untuk kusimpan."
+    },
+    {
+      "key": "dlg.tally_dory.d1",
+      "value": "Hati-hati dengan tungku, masih menyala. Dory — aku menjalankan lengan pres dua belas tahun dan tungku halaman tiap malam setelah die-die itu dipalsukan. Memberinya makan apa yang disuruh."
+    },
+    {
+      "key": "dlg.tally_dory.d2",
+      "value": "Tapi kertas melawan — tiga halaman uji yang tak pernah terbakar sempurna masih beterbangan di pelataran saat angin turun dari tembok. Itu halaman terakhir yang terbaca benar. Ambillah sebelum hujan mengambil apa yang tak mau diambil api."
+    },
+    {
+      "key": "dlg.tally_hane.h1",
+      "value": "Berhenti di situ, warden. Kau berdiri di lantai tempat ukuran lembah ini dicetak — injaklah seperti ia berarti, karena memang begitu. Akulah penimbang percetakan. Empat puluh satu tahun aku menentukan nilai sebuah koin, dan tiap tangan di lembah mempercayai kataku melebihi kata raja."
+    },
+    {
+      "key": "dlg.tally_hane.h2",
+      "value": "Saat mahkota jatuh, Liga mencoret lembah ini dengan satu goresan — 'tidak menguntungkan untuk dijaga.' Aku menjaga percetakan ini jujur enam musim dingin lagi selagi para penghitung di Greymarch melupakan nama kami. Maka saat pasukan cuci datang dengan koin untuk die-die itu, kutimbang. Beratnya sama dengan koin jujur, warden. Itulah seluruh perkaranya."
+    },
+    {
+      "key": "dlg.tally_hane.h3",
+      "value": "Kau telah menumbangkan jagaanku, menaiki tanggaku, dan timbangan tetap membaca hal yang sama: penjaga mahkota mati melawan satu-satunya timbangan jujur yang tersisa di lembah. Mari. Biarlah pres yang memutuskan siapa di antara kita koin palsunya."
+    },
+    {
+      "key": "dlg.tally_hane.h3.c1",
+      "value": "Kau menimbang penderitaan lembah dan tetap menjual die-nya."
+    },
+    {
+      "key": "dlg.tally_hane.h3.c2",
+      "value": "Die-nya. Serahkan, dan Benteng ini menjawab untuk dirinya sendiri."
+    },
+    {
+      "key": "dlg.tally_hane.h3.c3",
+      "value": "Mahkota sudah mati, Hane. Sumpah yang memberinya makan tidak. Mundurlah."
+    },
+    {
+      "key": "dlg.tally_hane.h4a",
+      "value": "Penderitaan tak bisa ditimbang, nak. Itulah kekejamannya. Hanya koin yang bisa — dan koin satu-satunya belas kasih yang masih bergerak."
+    },
+    {
+      "key": "dlg.tally_hane.h4b",
+      "value": "Die-die itu adalah Benteng ini sendiri, warden. Sama saja meminta sungai menyerahkan airnya."
+    },
+    {
+      "key": "dlg.tally_hane.h4c",
+      "value": "Sumpah yang hidup lebih lama dari mahkotanya hanyalah utang yang tak ditagih. Milikku sudah kulunasi — penuh, dengan koin. Lunasi milikmu."
+    },
+    {
+      "key": "dlg.tally_kit.k1",
+      "value": "Kaulah yang menumbangkan Master Koin! Semua orang dengar pres berhenti — dua tahun ia berdetak salah, lalu tiba-tiba... berhenti. Aku Kit. Kubunyikan lonceng gerbang untuk tiap hitungan sejak umur tujuh."
+    },
+    {
+      "key": "dlg.tally_kit.k2",
+      "value": "Pasukan cuci menurunkan lonceng itu — katanya tak ada yang perlu mendengar hitungan berubah lagi. Ia masih tergantung di menara gerbang, lepas dari talinya, dan orang-orang yang menurunkannya tidur tak jauh. Bawa kembali? Ini bukan Benteng Hitung sampai hitungan bisa terdengar lagi."
+    },
+    {
+      "key": "dlg.tally_nance.n1",
+      "value": "Kau berjalan menembus pelataran pasukan cuci dan hidup — berarti Master Koin benar-benar sudah tumbang. Nance. Aku menyegel koin di percetakan ini sembilan belas tahun, dan cetakan jujur terakhir masuk ke peti-peti sebelum die-nya berubah palsu."
+    },
+    {
+      "key": "dlg.tally_nance.n2",
+      "value": "Empat peti segel — bukti percetakan ini pernah mencetak benar — masih tersebar di tempat yang tak pernah diperiksa pasukan: tenda-tenda halaman, tepi pelataran. Bawakan dan akan ada sesuatu yang jujur untuk melapisi buku besar baru."
+    },
+    {
+      "key": "dlg.tally_porter.p1",
+      "value": "Menimbang muatan di halaman dua puluh tahun, warden. Pasukan itu membayar dengan koin terpotong dan menghitung kami seperti barang. Apa pun utang Master Koin, ia sudah lepas dari punggung kami."
+    },
+    {
+      "key": "dlg.tally_soll.s1",
+      "value": "Mata tetap ke meja, warden — mereka menelanjangi siapa pun yang disangka masih bisa menghitung. Aku Soll. Menjaga hitungan percetakan ini empat puluh tahun: tiap ons masuk, tiap ons keluar, terpahat di kayu agar tak ada tangan yang bisa memalsukannya."
+    },
+    {
+      "key": "dlg.tally_soll.s2",
+      "value": "Saat pasukan cuci membeli die, para juru tulis membakar buku — tapi hitungan sejati kusembunyikan di tempat terbuka, di meja hitung, terpahat di tongkat seperti biasa. Tiga masih berdiri. Bawakan padaku dan pembukuan sejati percetakan ini hidup lebih lama dari api."
     },
     {
       "key": "dlg.toll_annet.a1",
@@ -2127,6 +2295,30 @@
     {
       "key": "event.surveyors.banner",
       "value": "Dua orang dengan rantai ukur sedang menyusuri batas tanah Anda."
+    },
+    {
+      "key": "event.tally.bailey",
+      "value": "Jagaan halaman merapat ke kemah."
+    },
+    {
+      "key": "event.tally.bell",
+      "value": "Para penurun lonceng tidur tak jauh."
+    },
+    {
+      "key": "event.tally.court",
+      "value": "Jagaan pelataran berdiri di atas die."
+    },
+    {
+      "key": "event.tally.dierack",
+      "value": "Penjaga rak die masih menarik gaji."
+    },
+    {
+      "key": "event.tally.gate",
+      "value": "Jagaan gerbang percetakan menjaga lajur."
+    },
+    {
+      "key": "event.tally.seals",
+      "value": "Penjaga terakhir berdiri di atas segel sejati."
     },
     {
       "key": "event.toll.banner",
@@ -2725,6 +2917,14 @@
       "value": "Tudung Jelaga"
     },
     {
+      "key": "item.helm_mintguard.desc",
+      "value": "Helm ketel para penjaga die — bergaris, penyok, dan masih setia pada warna yang sudah tak dipakai siapa pun."
+    },
+    {
+      "key": "item.helm_mintguard.name",
+      "value": "Helm Penjaga Percetakan"
+    },
+    {
       "key": "item.helm_sallet.desc",
       "value": "Penyoknya bekas gada di istana. Pemiliknya selamat. Nyaris."
     },
@@ -2965,6 +3165,22 @@
       "value": "Catatan Warden Crane"
     },
     {
+      "key": "item.quest_die_rack.desc",
+      "value": "Die dari rak"
+    },
+    {
+      "key": "item.quest_die_rack.name",
+      "value": "Die dari rak"
+    },
+    {
+      "key": "item.quest_gate_bell.desc",
+      "value": "Lonceng hitung gerbang"
+    },
+    {
+      "key": "item.quest_gate_bell.name",
+      "value": "Lonceng hitung gerbang"
+    },
+    {
       "key": "item.quest_harrow_ledger.desc",
       "value": "Sepatu, anak panah, dan daging asin, dikeluarkan untuk orang-orang yang resminya bandit."
     },
@@ -3019,6 +3235,22 @@
     {
       "key": "item.quest_mill_tally.name",
       "value": "Tongkat Hitung Penggilingan"
+    },
+    {
+      "key": "item.quest_mint_page.desc",
+      "value": "Halaman uji"
+    },
+    {
+      "key": "item.quest_mint_page.name",
+      "value": "Halaman uji"
+    },
+    {
+      "key": "item.quest_mint_tally.desc",
+      "value": "Tongkat hitung percetakan"
+    },
+    {
+      "key": "item.quest_mint_tally.name",
+      "value": "Tongkat hitung percetakan"
     },
     {
       "key": "item.quest_moot_writ.desc",
@@ -3099,6 +3331,14 @@
     {
       "key": "item.quest_salt_tally.name",
       "value": "Tongkat Hitung yang Terjatuh"
+    },
+    {
+      "key": "item.quest_sealbox.desc",
+      "value": "Peti segel"
+    },
+    {
+      "key": "item.quest_sealbox.name",
+      "value": "Peti segel"
     },
     {
       "key": "item.quest_stamp_blank.desc",
@@ -3197,6 +3437,14 @@
       "value": "Buku Besar Sejati"
     },
     {
+      "key": "item.quest_true_seals.desc",
+      "value": "Segel Sejati"
+    },
+    {
+      "key": "item.quest_true_seals.name",
+      "value": "Segel Sejati"
+    },
+    {
       "key": "item.quest_wagon_pin.desc",
       "value": "Paku Wagon"
     },
@@ -3235,6 +3483,14 @@
     {
       "key": "item.relic_root_crown_shard.name",
       "value": "Serpihan Mahkota Akar"
+    },
+    {
+      "key": "item.ring_assay.desc",
+      "value": "Terpotong benar di tiap jari yang menyentuhnya — ukuran lama percetakan, dan bukti timbangan bisa jujur."
+    },
+    {
+      "key": "item.ring_assay.name",
+      "value": "Cincin Penguji"
     },
     {
       "key": "item.ring_copper.desc",
@@ -3413,6 +3669,14 @@
       "value": "Pedang Cahaya Rawa"
     },
     {
+      "key": "item.sword_sealbreaker.desc",
+      "value": "Cetakan terakhir percetakan itu sendiri — pedang besar yang ditempa untuk warden yang seharusnya datang, dikuenching dalam air garam uji dan tak pernah dibagikan. Pedang yang mengakhiri cucian."
+    },
+    {
+      "key": "item.sword_sealbreaker.name",
+      "value": "Pemecah Segel"
+    },
+    {
       "key": "item.sword_warden_oath.desc",
       "value": "Pedang milik Crane sendiri, ditinggalkan di ruang bawah dengan ujung tertancap di lantai. Ia tak pernah kembali mengambilnya."
     },
@@ -3451,6 +3715,14 @@
     {
       "key": "item.trinket_ashcharm.name",
       "value": "Jimat Abu"
+    },
+    {
+      "key": "item.trinket_coin_scales.desc",
+      "value": "Timbangan lipat penghitung — cukup kecil untuk disembunyikan, cukup jujur untuk berarti."
+    },
+    {
+      "key": "item.trinket_coin_scales.name",
+      "value": "Timbangan Saku"
     },
     {
       "key": "item.trinket_crane_seal.desc",
@@ -3631,6 +3903,10 @@
     {
       "key": "menu.back",
       "value": "Kembali"
+    },
+    {
+      "key": "menu.benefactor",
+      "value": "Sang Dermawan"
     },
     {
       "key": "menu.continue",
@@ -3969,6 +4245,14 @@
       "value": "Kembali menyusuri simpangan ke lubang"
     },
     {
+      "key": "prompt.travel.tallykeep",
+      "value": "Naiki jalan celah ke Benteng Hitung"
+    },
+    {
+      "key": "prompt.travel.tallykeepOut",
+      "value": "Kembali menyusuri jalan percetakan ke Benteng Tol"
+    },
+    {
       "key": "prompt.travel.tollbank",
       "value": "Naiki simpangan utara ke Benteng Tol"
     },
@@ -4195,6 +4479,34 @@
     {
       "key": "quest.q_summons.title",
       "value": "Dipanggil ke Greymarch"
+    },
+    {
+      "key": "quest.q_tallykeep.s1",
+      "value": "Tanya Maren apa yang dinamai halaman terakhir"
+    },
+    {
+      "key": "quest.q_tallykeep.s2",
+      "value": "Tumbangkan jagaan percetakan di Benteng Hitung"
+    },
+    {
+      "key": "quest.q_tallykeep.s3",
+      "value": "Jawab Master Koin Hane di anjungan pres"
+    },
+    {
+      "key": "quest.q_tallykeep.s4",
+      "value": "Ambil segel sejati dari anjungan ruang bawah"
+    },
+    {
+      "key": "quest.q_tallykeep.s5",
+      "value": "Bawa segel itu kepada Inspektur Maren di Rennfall"
+    },
+    {
+      "key": "quest.q_tallykeep.summary",
+      "value": "Halaman terakhir buku besar sejati menamainya: Benteng Hitung, benteng percetakan yang dijaga jalan tol, tempat segel lembah tak lagi dicetak jujur. Maren menandai jalan celah ke utara. Tumbangkan jagaan percetakan, hadapi Master Koin Hane di anjungan pres, dan ambil segel sejati — cucian berakhir di sana."
+    },
+    {
+      "key": "quest.q_tallykeep.title",
+      "value": "Percetakan yang Dilindungi Tembok"
     },
     {
       "key": "quest.q_tollbank.s1",
@@ -4697,6 +5009,54 @@
       "value": "Enam Puluh Tahun Nama"
     },
     {
+      "key": "quest.sq_tally_bell.s1",
+      "value": "Ambil kembali lonceng hitung dari menara gerbang"
+    },
+    {
+      "key": "quest.sq_tally_bell.summary",
+      "value": "Kit kecil membunyikan lonceng gerbang untuk tiap hitungan sejak umur tujuh — pasukan cuci menurunkannya supaya tak ada yang mendengar hitungan berubah. Ia masih tergantung di menara gerbang, dan dijaga."
+    },
+    {
+      "key": "quest.sq_tally_bell.title",
+      "value": "Lonceng yang Menghitung"
+    },
+    {
+      "key": "quest.sq_tally_pages.s1",
+      "value": "Pungut tiga halaman uji di pelataran percetakan"
+    },
+    {
+      "key": "quest.sq_tally_pages.summary",
+      "value": "Tangan Pres Dory memberi makan tungku halaman tiap malam — tiga halaman uji yang tak pernah terbakar masih berterbangan di pelataran."
+    },
+    {
+      "key": "quest.sq_tally_pages.title",
+      "value": "Yang Terlewat Tungku"
+    },
+    {
+      "key": "quest.sq_tally_sealboxes.s1",
+      "value": "Temukan empat peti segel di halaman dan pelataran"
+    },
+    {
+      "key": "quest.sq_tally_sealboxes.summary",
+      "value": "Juru Tulis Nance menyegel koin jujur terakhir dalam peti sebelum die-nya dipalsukan — empat peti segel masih tersebar di tempat yang tak dicapai pasukan."
+    },
+    {
+      "key": "quest.sq_tally_sealboxes.title",
+      "value": "Peti-peti Segel Jujur"
+    },
+    {
+      "key": "quest.sq_tally_tallies.s1",
+      "value": "Pungut tiga tongkat hitung percetakan dan sebuah die dari rak"
+    },
+    {
+      "key": "quest.sq_tally_tallies.summary",
+      "value": "Penjaga Soll menyembunyikan hitungan asli saat cucian dimulai — tiga tongkat di meja hitung masih menyimpannya, dan rak die di sisinya masih menyimpan die yang dibayar pasukan. Bawakan, dan pembukuan sejati percetakan ini hidup lebih lama dari api."
+    },
+    {
+      "key": "quest.sq_tally_tallies.title",
+      "value": "Hitungan Penjaga"
+    },
+    {
       "key": "quest.sq_tallybook.s1",
       "value": "Temukan buku hitungan Roane di koridor benteng"
     },
@@ -5065,6 +5425,10 @@
       "value": "Dess si Porter"
     },
     {
+      "key": "speaker.dory",
+      "value": "Tangan Pres Dory"
+    },
+    {
       "key": "speaker.drover",
       "value": "Penggembala"
     },
@@ -5095,6 +5459,10 @@
     {
       "key": "speaker.halvard",
       "value": "Halvard si Pemahat"
+    },
+    {
+      "key": "speaker.hane",
+      "value": "Master Koin Hane"
     },
     {
       "key": "speaker.hask",
@@ -5137,6 +5505,10 @@
       "value": "Ket dari Lantai Lubang"
     },
     {
+      "key": "speaker.kit",
+      "value": "Kit si Bocah"
+    },
+    {
       "key": "speaker.lene",
       "value": "Lene Penjaga Gerbang"
     },
@@ -5151,6 +5523,10 @@
     {
       "key": "speaker.mirren",
       "value": "Mirren si Tua"
+    },
+    {
+      "key": "speaker.nance",
+      "value": "Juru Tulis Nance"
     },
     {
       "key": "speaker.nell",
@@ -5225,12 +5601,20 @@
       "value": "Penjaga Segel Simm"
     },
     {
+      "key": "speaker.soll",
+      "value": "Penjaga Soll"
+    },
+    {
       "key": "speaker.straggler",
       "value": "Sisa Barisan"
     },
     {
       "key": "speaker.surveyor",
       "value": "Juru Ukur Kestrel"
+    },
+    {
+      "key": "speaker.tally_porter",
+      "value": "Kuli percetakan"
     },
     {
       "key": "speaker.tam",
@@ -5305,6 +5689,18 @@
       "value": "Orang mati tak tidur di tanah yang terlantar"
     },
     {
+      "key": "toast.benefactor",
+      "value": "Kantong Sang Dermawan berisi {0} koin untukmu"
+    },
+    {
+      "key": "toast.benefactorFailed",
+      "value": "Tak ada kisah yang bisa ditayangkan"
+    },
+    {
+      "key": "toast.benefactorLater",
+      "value": "Belum ada dermawan yang mengawasi"
+    },
+    {
       "key": "toast.bossDown",
       "value": "Pemimpin mereka telah tumbang"
     },
@@ -5359,6 +5755,10 @@
     {
       "key": "toast.halvardDown",
       "value": "Halvard si Pemahat telah tumbang"
+    },
+    {
+      "key": "toast.haneDown",
+      "value": "Master Koin Hane telah tumbang"
     },
     {
       "key": "toast.hearthNeeds",
@@ -5439,6 +5839,18 @@
     {
       "key": "toast.stampClear",
       "value": "Lantai percetakan sudah bersih"
+    },
+    {
+      "key": "toast.tallyBailey",
+      "value": "Halaman sudah bersih"
+    },
+    {
+      "key": "toast.tallyCourt",
+      "value": "Pelataran percetakan sudah bersih"
+    },
+    {
+      "key": "toast.tallyGate",
+      "value": "Lajur sudah direbut"
     },
     {
       "key": "toast.tollBreach",

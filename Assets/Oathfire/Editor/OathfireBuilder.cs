@@ -35,10 +35,11 @@ namespace Oathfire.EditorTools
             BuildTitleScene();
             BuildOpeningScene();
             BuildPrologueScene();
+            BuildEndingScene();
 
             // The core scenes lead the list; the maps their own builders registered stay after them. Replacing the
             // whole list here used to drop Rennfall, the trade road and Greymarch from every build that followed.
-            EditorBuildSettingsScene[] core = new[] { "Boot", "Title", "Opening", "Prologue" }
+            EditorBuildSettingsScene[] core = new[] { "Boot", "Title", "Opening", "Prologue", "Ending" }
                 .Select(name => new EditorBuildSettingsScene($"{SceneFolder}/{name}.unity", true))
                 .ToArray();
             EditorBuildSettings.scenes = core
@@ -145,6 +146,7 @@ namespace Oathfire.EditorTools
             StampworksSceneBuilder.Build();
             TollbankSceneBuilder.Build();
             DroversSceneBuilder.Build();
+            TallykeepSceneBuilder.Build();
         }
 
         /// <summary>
@@ -238,6 +240,20 @@ namespace Oathfire.EditorTools
             player.FindProperty("emberSprite").objectReferenceValue = LoadSprite($"{FxFolder}/ember.png");
             player.ApplyModifiedPropertiesWithoutUndo();
             SaveScene(scene, "Opening");
+        }
+
+        /// <summary>The chapter's close: the same panel engine as the opening, reading the ending script.</summary>
+        static void BuildEndingScene()
+        {
+            Scene scene = NewScene("Ending");
+            var playerGo = new GameObject("CinematicPlayer", typeof(CinematicPlayer));
+            var player = new SerializedObject(playerGo.GetComponent<CinematicPlayer>());
+            player.FindProperty("cinematicId").stringValue = "ending";
+            player.FindProperty("glowSprite").objectReferenceValue = LoadSprite($"{FxFolder}/glow.png");
+            player.FindProperty("watcherSprite").objectReferenceValue = LoadSprite($"{FxFolder}/watcher.png");
+            player.FindProperty("emberSprite").objectReferenceValue = LoadSprite($"{FxFolder}/ember.png");
+            player.ApplyModifiedPropertiesWithoutUndo();
+            SaveScene(scene, "Ending");
         }
 
         /// <summary>Placeholder chapter scene: proves dialogue, save and flow work end to end until Milestone 2.</summary>
