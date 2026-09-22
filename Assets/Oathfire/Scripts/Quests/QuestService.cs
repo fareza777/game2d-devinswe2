@@ -131,6 +131,9 @@ namespace Oathfire.Quests
                 save.trackedQuest = string.Empty;
             QuestCompleted?.Invoke(quest);
             Evaluate();
+            // A closed chapter earns a breath; side work never earns a billboard.
+            if (quest.mainQuest)
+                Core.GameServices.Ads?.ShowInterstitialIfReady();
             return true;
         }
 

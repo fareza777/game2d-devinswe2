@@ -33,7 +33,9 @@ namespace Oathfire.Ads
 
         /// <summary>Benefactor's gift cool-off in minutes; also caps interstitials per session.</summary>
         const float GiftCooldownMinutes = 10f;
-        const int MaxInterstitialsPerSession = 2;
+        const int MaxInterstitialsPerSession = 4;
+        const float InterstitialCooldownMinutes = 10f;
+        const int MenuOpensPerAd = 4;
 
 #if UNITY_ANDROID && !UNITY_EDITOR
         BannerView banner;
@@ -42,7 +44,9 @@ namespace Oathfire.Ads
 #endif
         bool initializing;
         float lastGiftTime = float.MinValue;
+        float lastInterstitialTime = float.MinValue;
         int interstitialsShown;
+        int menuOpens;
 
         public void Initialize()
         {
@@ -81,11 +85,13 @@ namespace Oathfire.Ads
 #endif
         }
 
-        /// <summary>Show the interstitial at a session boundary, capped per session and only when one is ready.</summary>
+        /// <summary>Show the interstitial at a session boundary. All callers share one global cooldown and a
+        /// session cap, so stacking call sites can never make ads feel frequent.</summary>
         public void ShowInterstitialIfReady()
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
-            if (interstitial == null || interstitialsShown >= MaxInterstitialsPerSession)
+            if (interstitial == null || interstitialsShown >= MaxInterstitialsPerSession
+                || Time.unscaledTime - lastInterstitialTime < InterstitialCooldownMinutes * 60f)
             {
                 LoadInterstitial();
                 return;
@@ -93,10 +99,22 @@ namespace Oathfire.Ads
             InterstitialAd ad = interstitial;
             interstitial = null;
             interstitialsShown++;
+            lastInterstitialTime = Time.unscaledTime;
             ad.OnAdFullScreenContentClosed += LoadInterstitial;
             ad.OnAdFullScreenContentFailed += _ => LoadInterstitial();
             ad.Show();
 #endif
+        }
+
+        /// <summary>Equipment and journal pages call this on close; only every Nth open can show an ad,
+        /// and the global cooldown still applies — the book never becomes a billboard.</summary>
+        public void NoteMenuClosed()
+        {
+            menuOpens++;
+            if (menuOpens < MenuOpensPerAd)
+                return;
+            menuOpens = 0;
+            ShowInterstitialIfReady();
         }
 
         /// <summary>Rewarded opt-in. Fails closed (false) when no ad is loaded rather than blocking play.</summary>

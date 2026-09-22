@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+      "key": "about.body",
+      "value": "Kisah warden terakhir dan lembah yang menolak padam.\n\nDitulis dengan tinta dan abu · Babak I: Vigil Bara\n\nDibuat dengan Unity. Suara oleh ElevenLabs. Seni dan musik bergaya cukil kayu kodeks."
+    },
+    {
+      "key": "about.rate",
+      "value": "Beri nilai di Play Store"
+    },
+    {
+      "key": "about.share",
+      "value": "Bagikan kisahnya"
+    },
+    {
+      "key": "about.shareText",
+      "value": "Oathfire — kisah cukil kayu sang warden terakhir. https://play.google.com/store/apps/details?id={0}"
+    },
+    {
+      "key": "about.title",
+      "value": "Oathfire"
+    },
+    {
       "key": "board.accept",
       "value": "AMBIL"
     },
@@ -3895,6 +3915,10 @@
     {
       "key": "kind.Weapon",
       "value": "Senjata"
+    },
+    {
+      "key": "menu.about",
+      "value": "Tentang"
     },
     {
       "key": "menu.autosave",

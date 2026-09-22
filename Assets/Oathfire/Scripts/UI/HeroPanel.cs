@@ -72,6 +72,8 @@ namespace Oathfire.UI
             if (hud && hud.TryGetComponent(out Canvas hudCanvas))
                 hudCanvas.enabled = !showing;
 
+            if (!showing)
+                Core.GameServices.Ads?.NoteMenuClosed();
             if (showing)
                 ShowPage(journal: true);
         }

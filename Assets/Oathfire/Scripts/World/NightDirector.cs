@@ -133,6 +133,8 @@ namespace Oathfire.World
                 save?.AddCounter("night.flawless", 1);   // the board pays for an untouched vigil
             Quests.QuestRuntime.SetFlag(nightCompleteFlag);
             Core.GameServices.Save.Autosave(nightCompleteFlag, UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            // Dawn is the valley's deepest breath: the one ad slot that lands while the player exhales.
+            Core.GameServices.Ads?.ShowInterstitialIfReady();
         }
 
         void SpawnWave(int count, bool includeElite)

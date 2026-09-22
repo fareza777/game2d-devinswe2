@@ -29,6 +29,7 @@ namespace Oathfire.UI
         RectTransform optionsSheet;
         RectTransform continueSheet;
         RectTransform continueRows;
+        RectTransform aboutSheet;
         Image fireGlow;
         readonly List<Button> buttons = new List<Button>();
 
@@ -272,10 +273,12 @@ namespace Oathfire.UI
                 AddButton("menu.continue", Continue);
             AddButton("menu.newGame", NewGame);
             AddButton("menu.options", () => ToggleOptions(true));
+            AddButton("menu.about", () => aboutSheet.gameObject.SetActive(true));
             AddButton("menu.quit", Quit);
 
             BuildContinueSheet();
             BuildOptions();
+            BuildAbout();
         }
 
         void AddButton(string key, Action action)
@@ -317,6 +320,94 @@ namespace Oathfire.UI
             texture.Apply();
             fadeSprite = Sprite.Create(texture, new Rect(0, 0, 1, 64), new Vector2(0.5f, 0.5f));
             return fadeSprite;
+        }
+
+        /// <summary>Opens the Play Store page for rating; falls back to the browser listing off-device.</summary>
+        static void RateOnStore()
+        {
+            string id = Application.identifier;
+#if UNITY_ANDROID && !UNITY_EDITOR
+            Application.OpenURL($"market://details?id={id}");
+#else
+            Application.OpenURL($"https://play.google.com/store/apps/details?id={id}");
+#endif
+        }
+
+        /// <summary>Raises the Android share sheet with the store link. Other platforms open the page instead.</summary>
+        void ShareTheTale()
+        {
+            string text = Core.GameServices.Localization.Format("about.shareText", Application.identifier);
+#if UNITY_ANDROID && !UNITY_EDITOR
+            try
+            {
+                using var intent = new AndroidJavaObject("android.content.Intent");
+                intent.Call<AndroidJavaObject>("setAction", "android.intent.action.SEND");
+                intent.Call<AndroidJavaObject>("putExtra", "android.intent.extra.TEXT", text);
+                intent.Call<AndroidJavaObject>("setType", "text/plain");
+                using var chooser = intent.CallStatic<AndroidJavaObject>("createChooser", intent, text);
+                using var unity = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+                using var activity = unity.GetStatic<AndroidJavaObject>("currentActivity");
+                activity.Call("startActivity", chooser);
+            }
+            catch (Exception)
+            {
+                Application.OpenURL($"https://play.google.com/store/apps/details?id={Application.identifier}");
+            }
+#else
+            Application.OpenURL($"https://play.google.com/store/apps/details?id={Application.identifier}");
+#endif
+        }
+
+        void BuildAbout()
+        {
+            aboutSheet = NewRect("About", transform);
+            Stretch(aboutSheet);
+            var dim = NewImage("Dim", aboutSheet, null, new Color(0.02f, 0.02f, 0.02f, 0.93f));
+            Stretch(dim.rectTransform);
+            dim.raycastTarget = true;
+            dim.gameObject.AddComponent<Button>().onClick.AddListener(() => aboutSheet.gameObject.SetActive(false));
+
+            var sheet = NewImage("Sheet", aboutSheet, null, new Color(0.09f, 0.1f, 0.08f, 0.98f));
+            sheet.rectTransform.anchorMin = new Vector2(0.07f, 0.14f);
+            sheet.rectTransform.anchorMax = new Vector2(0.93f, 0.86f);
+            sheet.rectTransform.offsetMin = sheet.rectTransform.offsetMax = Vector2.zero;
+            sheet.raycastTarget = true;
+
+            var heading = NewLocalizedText("Heading", sheet.rectTransform, 56, Ember, "about.title");
+            heading.AsHeading(8f);
+            heading.rectTransform.anchorMin = new Vector2(0f, 0.88f);
+            heading.rectTransform.anchorMax = new Vector2(1f, 0.99f);
+            heading.rectTransform.offsetMin = heading.rectTransform.offsetMax = Vector2.zero;
+
+            var body = NewLocalizedText("Body", sheet.rectTransform, 34, Bone, "about.body");
+            body.alignment = TextAlignmentOptions.Top;
+            body.lineSpacing = 14f;
+            body.enableWordWrapping = true;
+            body.rectTransform.anchorMin = new Vector2(0.08f, 0.34f);
+            body.rectTransform.anchorMax = new Vector2(0.92f, 0.86f);
+            body.rectTransform.offsetMin = body.rectTransform.offsetMax = Vector2.zero;
+
+            var share = NewImage("Share", sheet.rectTransform, buttonPlate, new Color(0.13f, 0.12f, 0.09f, 0.95f));
+            share.type = Image.Type.Sliced;
+            share.raycastTarget = true;
+            share.rectTransform.anchorMin = new Vector2(0.08f, 0.18f);
+            share.rectTransform.anchorMax = new Vector2(0.92f, 0.3f);
+            share.rectTransform.offsetMin = share.rectTransform.offsetMax = Vector2.zero;
+            share.gameObject.AddComponent<Button>().onClick.AddListener(ShareTheTale);
+            var shareLabel = NewLocalizedText("Label", share.rectTransform, 38, Bone, "about.share");
+            shareLabel.AsHeading(6f);
+
+            var rate = NewImage("Rate", sheet.rectTransform, buttonPlate, new Color(0.13f, 0.12f, 0.09f, 0.95f));
+            rate.type = Image.Type.Sliced;
+            rate.raycastTarget = true;
+            rate.rectTransform.anchorMin = new Vector2(0.08f, 0.05f);
+            rate.rectTransform.anchorMax = new Vector2(0.92f, 0.17f);
+            rate.rectTransform.offsetMin = rate.rectTransform.offsetMax = Vector2.zero;
+            rate.gameObject.AddComponent<Button>().onClick.AddListener(RateOnStore);
+            var rateLabel = NewLocalizedText("Label", rate.rectTransform, 38, Ember, "about.rate");
+            rateLabel.AsHeading(6f);
+
+            aboutSheet.gameObject.SetActive(false);
         }
 
         void BuildOptions()

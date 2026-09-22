@@ -140,6 +140,7 @@ namespace Oathfire.UI
             {
                 card.SetActive(false);
                 picker.SetActive(false);
+                Core.GameServices.Ads?.NoteMenuClosed();
             }
 
             // Same as the Warden's book: the HUD's outlined text ghosts through the sheet, so it steps aside.

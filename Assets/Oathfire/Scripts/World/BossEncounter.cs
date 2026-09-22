@@ -134,6 +134,8 @@ namespace Oathfire.World
             UI.Toast.Show(defeatedToastKey);
             Core.GameServices.Audio.PlaySfx("quest_complete", 0.9f, 0f);
             Core.GameServices.Save.Autosave(defeatedFlag, UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            // The boss just fell: a natural exhale before the walk back.
+            Core.GameServices.Ads?.ShowInterstitialIfReady();
         }
 
         void OnDestroy()

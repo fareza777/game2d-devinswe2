@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+      "key": "about.body",
+      "value": "A tale of the last warden and the valley that would not go dark.\n\nWritten in ink and ash · Chapter I: The Ember Vigil\n\nMade with Unity. Voices by ElevenLabs. Art and music rendered in the woodcut-codex style."
+    },
+    {
+      "key": "about.rate",
+      "value": "Rate on Play Store"
+    },
+    {
+      "key": "about.share",
+      "value": "Share the tale"
+    },
+    {
+      "key": "about.shareText",
+      "value": "Oathfire — a woodcut tale of the last warden. https://play.google.com/store/apps/details?id={0}"
+    },
+    {
+      "key": "about.title",
+      "value": "Oathfire"
+    },
+    {
       "key": "board.accept",
       "value": "TAKE"
     },
@@ -3895,6 +3915,10 @@
     {
       "key": "kind.Weapon",
       "value": "Weapon"
+    },
+    {
+      "key": "menu.about",
+      "value": "About"
     },
     {
       "key": "menu.autosave",
