@@ -2627,7 +2627,7 @@
       "slot": "Head",
       "rarity": "Rare",
       "value": 340,
-      "icon": "gear_helm_steel",
+      "icon": "LootIcons_98",
       "name": {
         "en": "Mintguard Helm",
         "id": "Helm Penjaga Percetakan"
@@ -2645,7 +2645,7 @@
       "slot": "Trinket",
       "rarity": "Fine",
       "value": 140,
-      "icon": "gear_trinket_bone",
+      "icon": "LootIcons_44",
       "name": {
         "en": "Pocket Scales",
         "id": "Timbangan Saku"

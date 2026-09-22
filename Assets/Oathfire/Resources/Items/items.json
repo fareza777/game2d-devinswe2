@@ -1591,7 +1591,7 @@
       "slot": 4,
       "rarity": 2,
       "value": 340,
-      "icon": "gear_helm_steel",
+      "icon": "LootIcons_98",
       "armor": 6,
       "health": 26,
       "stackSize": 1
@@ -1602,7 +1602,7 @@
       "slot": 5,
       "rarity": 1,
       "value": 140,
-      "icon": "gear_trinket_bone",
+      "icon": "LootIcons_44",
       "damage": 3,
       "health": 12,
       "stackSize": 1

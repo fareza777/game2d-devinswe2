@@ -9,6 +9,18 @@
       "value": "Beri nilai di Play Store"
     },
     {
+      "key": "about.removeAds",
+      "value": "Hapus semua iklan · {0}"
+    },
+    {
+      "key": "about.removed",
+      "value": "Lembah sudah tenang — iklan dihapus"
+    },
+    {
+      "key": "about.restore",
+      "value": "Pulihkan pembelian"
+    },
+    {
       "key": "about.share",
       "value": "Bagikan kisahnya"
     },

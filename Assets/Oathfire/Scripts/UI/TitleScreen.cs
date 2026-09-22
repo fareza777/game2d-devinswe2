@@ -30,6 +30,8 @@ namespace Oathfire.UI
         RectTransform continueSheet;
         RectTransform continueRows;
         RectTransform aboutSheet;
+        Button removeAdsButton;
+        TMP_Text removeAdsLabel;
         Image fireGlow;
         readonly List<Button> buttons = new List<Button>();
 
@@ -48,6 +50,8 @@ namespace Oathfire.UI
 
         void OnDestroy()
         {
+            if (Core.GameServices.Ads != null)
+                Core.GameServices.Ads.AdsRemovedChanged -= RefreshRemoveAdsLabel;
             Core.GameServices.Ads?.HideBanner();
         }
 
@@ -273,7 +277,11 @@ namespace Oathfire.UI
                 AddButton("menu.continue", Continue);
             AddButton("menu.newGame", NewGame);
             AddButton("menu.options", () => ToggleOptions(true));
-            AddButton("menu.about", () => aboutSheet.gameObject.SetActive(true));
+            AddButton("menu.about", () =>
+            {
+                aboutSheet.gameObject.SetActive(true);
+                RefreshRemoveAdsLabel();
+            });
             AddButton("menu.quit", Quit);
 
             BuildContinueSheet();
@@ -368,8 +376,8 @@ namespace Oathfire.UI
             dim.gameObject.AddComponent<Button>().onClick.AddListener(() => aboutSheet.gameObject.SetActive(false));
 
             var sheet = NewImage("Sheet", aboutSheet, null, new Color(0.09f, 0.1f, 0.08f, 0.98f));
-            sheet.rectTransform.anchorMin = new Vector2(0.07f, 0.14f);
-            sheet.rectTransform.anchorMax = new Vector2(0.93f, 0.86f);
+            sheet.rectTransform.anchorMin = new Vector2(0.07f, 0.10f);
+            sheet.rectTransform.anchorMax = new Vector2(0.93f, 0.88f);
             sheet.rectTransform.offsetMin = sheet.rectTransform.offsetMax = Vector2.zero;
             sheet.raycastTarget = true;
 
@@ -383,14 +391,26 @@ namespace Oathfire.UI
             body.alignment = TextAlignmentOptions.Top;
             body.lineSpacing = 14f;
             body.enableWordWrapping = true;
-            body.rectTransform.anchorMin = new Vector2(0.08f, 0.34f);
-            body.rectTransform.anchorMax = new Vector2(0.92f, 0.86f);
+            body.rectTransform.anchorMin = new Vector2(0.08f, 0.45f);
+            body.rectTransform.anchorMax = new Vector2(0.92f, 0.87f);
             body.rectTransform.offsetMin = body.rectTransform.offsetMax = Vector2.zero;
+
+            // The paid silencing of the drums sits above the free gestures — it is the offer, not the ask.
+            var remove = NewImage("RemoveAds", sheet.rectTransform, buttonPlate, new Color(0.2f, 0.16f, 0.08f, 0.95f));
+            remove.type = Image.Type.Sliced;
+            remove.raycastTarget = true;
+            remove.rectTransform.anchorMin = new Vector2(0.08f, 0.32f);
+            remove.rectTransform.anchorMax = new Vector2(0.92f, 0.43f);
+            remove.rectTransform.offsetMin = remove.rectTransform.offsetMax = Vector2.zero;
+            removeAdsButton = remove.gameObject.AddComponent<Button>();
+            removeAdsButton.onClick.AddListener(() => Core.GameServices.Ads?.BuyRemoveAds());
+            removeAdsLabel = NewText("Label", remove.rectTransform, 38, Ember);
+            removeAdsLabel.AsHeading(6f);
 
             var share = NewImage("Share", sheet.rectTransform, buttonPlate, new Color(0.13f, 0.12f, 0.09f, 0.95f));
             share.type = Image.Type.Sliced;
             share.raycastTarget = true;
-            share.rectTransform.anchorMin = new Vector2(0.08f, 0.18f);
+            share.rectTransform.anchorMin = new Vector2(0.08f, 0.19f);
             share.rectTransform.anchorMax = new Vector2(0.92f, 0.3f);
             share.rectTransform.offsetMin = share.rectTransform.offsetMax = Vector2.zero;
             share.gameObject.AddComponent<Button>().onClick.AddListener(ShareTheTale);
@@ -400,14 +420,38 @@ namespace Oathfire.UI
             var rate = NewImage("Rate", sheet.rectTransform, buttonPlate, new Color(0.13f, 0.12f, 0.09f, 0.95f));
             rate.type = Image.Type.Sliced;
             rate.raycastTarget = true;
-            rate.rectTransform.anchorMin = new Vector2(0.08f, 0.05f);
+            rate.rectTransform.anchorMin = new Vector2(0.08f, 0.06f);
             rate.rectTransform.anchorMax = new Vector2(0.92f, 0.17f);
             rate.rectTransform.offsetMin = rate.rectTransform.offsetMax = Vector2.zero;
             rate.gameObject.AddComponent<Button>().onClick.AddListener(RateOnStore);
             var rateLabel = NewLocalizedText("Label", rate.rectTransform, 38, Ember, "about.rate");
             rateLabel.AsHeading(6f);
 
+            var restore = NewText("Restore", sheet.rectTransform, 28, BoneDim);
+            restore.text = Core.GameServices.Localization.Get("about.restore");
+            restore.fontStyle = FontStyles.Underline;
+            restore.raycastTarget = true;
+            restore.rectTransform.anchorMin = new Vector2(0.25f, 0.005f);
+            restore.rectTransform.anchorMax = new Vector2(0.75f, 0.055f);
+            restore.rectTransform.offsetMin = restore.rectTransform.offsetMax = Vector2.zero;
+            restore.gameObject.AddComponent<Button>().onClick.AddListener(() => Core.GameServices.Ads?.RestorePurchases());
+
+            if (Core.GameServices.Ads != null)
+                Core.GameServices.Ads.AdsRemovedChanged += RefreshRemoveAdsLabel;
+
             aboutSheet.gameObject.SetActive(false);
+        }
+
+        void RefreshRemoveAdsLabel()
+        {
+            Ads.AdsService ads = Core.GameServices.Ads;
+            bool owned = ads != null && (ads.AdsRemoved || ads.OwnsRemoveAds);
+            if (removeAdsLabel)
+                removeAdsLabel.text = owned
+                    ? Core.GameServices.Localization.Get("about.removed")
+                    : Core.GameServices.Localization.Format("about.removeAds", ads != null ? ads.RemoveAdsPrice : "US$4.99");
+            if (removeAdsButton)
+                removeAdsButton.interactable = !owned;
         }
 
         void BuildOptions()
