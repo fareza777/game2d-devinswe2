@@ -10,8 +10,7 @@ using GoogleMobileAds.Api;
 namespace Oathfire.Ads
 {
     /// <summary>
-    /// The Warden's ledger of sponsored favour. AdMob is wired with Google's public test units; swap the three
-    /// unit ids below for the real placements when the AdMob account exists. Off Android every call is a quiet
+    /// The Warden's ledger of sponsored favour. AdMob is wired with the Oathfire production placements. Off Android every call is a quiet
     /// no-op (rewarded grants immediately) so the game never blocks on ads it cannot serve.
     /// Placements:
     ///   banner       — bottom of the title screen only; never inside play.
@@ -30,9 +29,9 @@ namespace Oathfire.Ads
         const string RemovedPref = "oathfire.adsRemoved";
 
 #if UNITY_ANDROID && !UNITY_EDITOR
-        const string BannerUnit = "ca-app-pub-3940256099942544/6300978111";
-        const string InterstitialUnit = "ca-app-pub-3940256099942544/1033173712";
-        const string RewardedUnit = "ca-app-pub-3940256099942544/5224354917";
+        const string BannerUnit = "ca-app-pub-6279186647593327/2063379870";
+        const string InterstitialUnit = "ca-app-pub-6279186647593327/8405426941";
+        const string RewardedUnit = "ca-app-pub-6279186647593327/2172383053";
 #else
         const string BannerUnit = "";
         const string InterstitialUnit = "";
